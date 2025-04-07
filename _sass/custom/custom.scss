@@ -1,0 +1,44 @@
+.index-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.index-button {
+    border: 3px outset;
+    background-size: cover;
+    border-radius: 15px;
+    border-color: $link-color;
+    height: 200px;
+    width: 100%;
+    flex: 33%;
+    margin: 10px;
+    font-size: 2rem;
+    color: white;
+    background-position: center;
+}
+
+.index-button:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+.decima-index {
+    background-image: url(../../images/decima.jpg); 
+}
+
+.greer-index {
+    background-image: url(https://wiki.guildwars2.com/wiki/File:Greer,_the_Blightbringer.jpg); 
+}
+
+.ura-index {
+    background-image: url(../../images/ura.jpg); 
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
