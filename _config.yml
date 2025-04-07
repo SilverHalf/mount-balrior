@@ -1,8 +1,11 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Mount Balrior
+description: Guides and information for all bosses in the Mount Balrior raid instance. 
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://silverhalf.github.io/mount-balrior
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Source Code": 
+    - "https://github.com/SilverHalf/temple-of-febe"
+
+aux_links_new_tab: true
