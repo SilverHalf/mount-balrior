@@ -6,6 +6,17 @@ url: https://silverhalf.github.io/mount-balrior
 
 aux_links:
   "Source Code": 
-    - "https://github.com/SilverHalf/temple-of-febe"
+    - "https://github.com/SilverHalf/mount-balrior"
 
 aux_links_new_tab: true
+
+color_scheme: balrior
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+sass:
+  quiet_deps: true # https://github.com/just-the-docs/just-the-docs/issues/1541
+  silence_deprecations: ['import'] # https://github.com/just-the-docs/just-the-docs/issues/1607
