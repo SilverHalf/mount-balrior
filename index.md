@@ -12,7 +12,7 @@ This website is a work in progess. When it is completed it will contain guides a
 <div class="index-container">
     <a href="decima/overview.html"
        class="index-button"
-       style="background-image: url(images/decima.jpg);"></a>
+       style="background-image: url(images/decima.webp);"></a>
     <a href="greer/overview.html"
        class="index-button"
        style="background-image: url(images/greer.jpg);"></a>

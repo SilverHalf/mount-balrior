@@ -4,6 +4,8 @@ theme: just-the-docs
 
 url: https://silverhalf.github.io/mount-balrior
 
+favicon_ico: "/images/favicon.ico"
+
 aux_links:
   "Source Code": 
     - "https://github.com/SilverHalf/mount-balrior"
