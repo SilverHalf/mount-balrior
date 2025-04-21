@@ -2,7 +2,7 @@
 
 This is a website that contains guides and information for the [Mount Balrior](https://wiki.guildwars2.com/wiki/Mount_Balrior) raid instance in [Guild Wars 2](https://www.guildwars2.com).
 
-This website is build using [Jekyll] and the [Just the Docs] theme, enabling it to be previewed locally and then published on [GitHub Pages] using the [GitHub Pages / Actions workflow].
+This website is built using [Jekyll] and the [Just the Docs] theme, enabling it to be previewed locally and then published on [GitHub Pages] using the [GitHub Pages / Actions workflow].
 
 ## Viewing the site locally
 
