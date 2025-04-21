@@ -7,7 +7,7 @@ nav_order: 3
 # Godspoil Greer
 {: .center}
 
-<img src="../images/decima.webp" />
+<img src="../images/greer.webp" />
 
 | **Health** |  47,188,800  |
 | **Armor** |  2597 (standard) |
