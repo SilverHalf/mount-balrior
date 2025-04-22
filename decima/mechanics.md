@@ -24,6 +24,61 @@ Decima is an articulated fight with many phases and interactions, and several me
 
 These are mechanics originating from Decima herself. Decima's behaviour is to perform an attack loop: a series of skills that are cast continuously one after the other, looping continuously until the boss's health is below the threshold to begin its next phase. Most of Decima's attacks are part of this loop.
 
+Several of Decima's mechanics interact with each other in different ways. Below you will find a graph with these interactions: click on a mechanic to read more details.
+```mermaid
+%%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
+flowchart TD
+    linkStyle default stroke:#e0be00,stroke-width:3px,color:#e0be00,font-size:13px
+    classDef purple fill:#654d86,stroke-width:0,color:#e0be00
+    classDef green fill:#00540d,stroke-width:0,color:#fff
+    classDef blue fill:#0072c9,stroke-width:0,color:#fff
+    classDef default fill:#212325,stroke:#e0be00,color:#e0be00
+
+    charge([Charges]):::blue
+    harm(["`Harmonic
+    Sensitivity`"]):::purple
+    galv(["`Galvanic
+    Sensitivity`"]):::purple
+    thrum(Thrumming Presence)
+    flux(Fluxlances)
+    conduit(Conduits)
+    thunder(Chorus of Thunder)
+    spark([Dancing Sparks]):::green
+    peal_h(["`Peal of
+    Harmony`"]):::blue
+    peal_d(["`Peal of
+    Discord`"]):::blue
+    dmg("`Squad
+    Damage`")
+    nova(Flux Nova)
+    
+    click charge "#charge"
+    click spark "#dancing-sparks"
+    click nova "#flux-nova"
+    click peal_d "#-peal-of-discord"
+    click peal_h "#-peal-of-harmony"
+    click thunder "#chorus-of-thunder"
+    click conduit "#conduits"
+    click thrum "#thrumming-presence"
+    click flux "#fluxlances"
+    click galv "#-galvanic-sensitivity"
+    click harm "#-harmonic-sensitivity"
+
+    harm -->|Increases Damage Of|flux
+    flux -->|Apply|galv
+    thrum -->|Applies|harm
+    galv -->|Increases Damage Of|spark
+    flux -. Can Charge .->conduit
+    thunder -->|Charges|conduit
+    conduit -->|Spawn|spark
+    spark -. Can Generate .->charge
+    peal_h & peal_d -->|Consumed By|thunder
+    dmg -->|Increases|peal_h & peal_d
+    charge -->|Consumed By|nova
+
+```
+{: .center}
+
 ---
 
 ### Thrumming Presence
@@ -41,12 +96,15 @@ Decima gains her Thrumming Presence at the beginning of the encounter, and only 
 Also known as "Arrows" due to their indicator. Laser attacks originating from the boss. Once their indicator appears, after a brief delay, fluxlances will fire, applying an effect in a line according to their type. Fluxlances have infinite range, but can be blocked by [Conduits]. Any conduit hit by a lance will increase its charge level, but will prevent the lance from extending beyond the conduit itself. Fluxlances cannot be <img class="inline aegis"> [Blocked] or <img class="inline evade"> [Evaded], and ignore <img class="inline invuln"> [Invulnerability].
 
 #### Standard Fluxlance
+{: .no_toc}
 Also known as orange arrow. Targets the furthest player that is not targeted by another Fluxlance, dealing heavy damage to all allies, increased for players affected by <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity], and applying 30 seconds of <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity]. Additionally applies a stack of <img class="inline exposed"> [Exposed] to all allies hit except its target.
 
 #### Red Fluxlance
+{: .no_toc}
 Also known as red arrow. Always targets the furthest player, and <img class="inline defeat"> [Defeats] all allies it hits. Must be aimed away from the squad and blocked using a [Conduit].
 
 #### Focused Fluxlance
+{: .no_toc}
 Also known as green arrow. Targets the furthest conduit from the furthest player from the boss. Requires five people to be inside the arrow's line of fire to block the attack and prevent it from charging the conduit. Deals heavy damage, reduced based on the number of people in the arrow, and unaffected by <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity]. Focused Fluxlances are summoned as part of Decima's attack rotation from 40% to 10% hp.
 
 <img class="center" width="80%" src="../images/decima/mechanics/fluxlances.webp" />
@@ -54,9 +112,11 @@ Also known as green arrow. Targets the furthest conduit from the furthest player
 Standard or red fluxlances are summoned whenever Decima casts one of the following skills as part of her attack loop:
 
 #### Fluxlance Fusillade
+{: .no_toc}
 Targets the five furthest players with standard fluxlances. Targeted players will have a number above their head from one to five. After a brief delay, the lances will be fired in sequence based on their number. Every other time that Decima uses this skill, one of the fluxlances will be a red fluxlance.
 
 #### Fluxlance Salvo
+{: .no_toc}
 Targets the five furthest players with fluxlances. After a brief delay, all lances are fired simultaneously. Every other time that Decima uses this skill, one of the fluxlances will be a red fluxlance.
 
 
@@ -82,15 +142,19 @@ Chorus of Thunder is used regularly by Decima as part of her attack loop.
 Conduits, or pylons, are structures that are manipulated by Decima and play a critical part in the encounter as a whole. Eighteen of them are summoned at the beginning of the fight, and they persist throughout all phases. Conduits are arrayed in shifting patterns around Decima, which vary based on the phase and the state of Decima's attack loop.
 
 #### Conduit Charge
+{: .no_toc}
 Whenever a conduit is hit by by [Fluxlances] or [Thunder], it gains a level of Charge. When charged, a conduit gains *Fulgent Aura*: a red damaging AoE centered around the conduit that grows larger with each level of charge. Conduits cannot be charged more than three times: every time a level three conduit would gain a charge, it will instead [Fulminate].
 
 #### Fulminate
+{: .no_toc}
 A charged conduit explodes, dealing damage based on its charge level in a large area. Level three conduits additionally apply a stack of <img class="inline exposed"> [Exposed], and grant Decima five stacks each of <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord]. Level three conduits will Fulminate whenever they would gain a charge, and all conduits Fulminate as part of [Flux Nova], during the transitions at 70% and 40% of Decima's health. 
 
 #### Fulgent Fences
+{: .no_toc}
 Lasers periodically link all conduits together in a pattern. Whenever any player passes through them, they are affected by *Reverberating Impact*, which deals moderate damage and pushes the player out of the laser, preventing them from crossing it. This is also applied for movement skills such as dashes, but excludes player teleportation such as blinks or portals, and is not affected by <img class="inline stability"> [Stability]. Players that are knocked into a fence by Decima's attacks are ejected at high speeds, possibly into other fences.
 
 #### Dancing Sparks
+{: .no_toc}
 Also known as greens. Small AoEs that spawn from charged [Conduits] and start moving towards Decima. If they are allowed to reach the boss, they are consumed and grant her a stack of <img class="inline charge"> [Charge].
 
 Sparks deal damage to all players standing in their area, which is greatly increased towards players affected by <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity]. When enough players stand inside a spark, it will stop moving towards Decima and start draining health, disappearing once fully drained. The number of players required to achieve this effect is displayed above each spark, and is equal to the charge level of its originating conduit.
@@ -104,9 +168,11 @@ All charged conduits spawn sparks simultaneously as part of Decima's attack loop
 <img class="center" width="100%" src="../images/decima/mechanics/mainshock.webp" />
 
 #### Foreshock
+{: .no_toc}
 Decima stomps three times, dealing moderate damage in 3 large AoEs.
 
 #### Mainshock
+{: .no_toc}
 Always cast after Foreshock:  a "pizza" attack centered on Decima. Deals significant damage and additionally inflicts 25 <img class="inline vuln"> [Vulnerability](https://wiki.guildwars2.com/wiki/Vulnerability). Players hit by multiple "slices" will recieve multiple instances of this damage.
 
 Foreshock and Mainshock are used regularly by Decima as part of her attack loop.
@@ -131,11 +197,13 @@ Decima casts this skill regularly as part of her attack loop. Furthermore, she a
 A massive, arena-wide attack. This attack has two versions: a first one is used as part of the phase transitions at 70% and 40% of her health total, while the second one is used whenever she reaches 10 stacks of <img class="inline charge"> [Charge] or the enrage timer runs out.
 
 #### Transition Nova
+{: .no_toc}
 Upon reaching 70% or 40% health, Decima gains <img class="inline nova-shield"> [Nova Shield], then casts [Seismic Reposition] to the center of the arena, followed by [Chorus of Thunder]. She will then start channeling her main attack, gaining a large <img class="inline defiance"> [Defiance Bar] with 7500 health. During the channel, all charged [Conduits] will start summoning [Dancing Sparks]: if these are allowed to reach Decima, they will fully regenerate her <img class="inline defiance"> [Defiance] in addition to their other effects. Breaking this bar will shorten the channel (possibly despawning all [Dancing Sparks]) and apply <img class="inline fractured"> [Fractured Armor] to her.
 
 When the channel ends, Decima will first [Fulminate] all conduits, and then cast her main attack, which consumes all stacks of <img class="inline charge"> [Charge] to deal massive squad-wide damage. If she is affected by <img class="inline fractured"> [Fractured Armor], she will be affected by the backlash from her attack, <img class='inline stun'> [Stunning] her for 10 seconds and applying <img class="inline exposed"> [Exposed] for the same duration.
 
 #### Death Nova
+{: .no_toc}
 If Decima gains 10 stacks of <img class="inline charge"> [Charge] or the enrage timer runs out, Decima will stop whatever attack she was doing, gain <img class="inline nova-shield"> [Nova Shield], and then cast a maximum power Nova after a short channel, <img class="inline defeat"> [Defeating] all players.
 
 ---
