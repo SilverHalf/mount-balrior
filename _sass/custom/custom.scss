@@ -2,7 +2,10 @@
 @import 'timeline.scss';
 @import 'graphs.scss';
 
-.inline { height: 1em; }
+.inline { 
+    width: 1em !important;
+    height: 1em;
+}
 
 .index-container {
     width: 100%;

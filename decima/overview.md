@@ -12,6 +12,7 @@ nav_order: 2
 | **Health** | 97,020,176 |
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 750 |
+| **Defiance** | 7500 |
 | **Instance**| Day |
 | **Enrage Timer** | 10 minutes - kills all players on running out. |
 

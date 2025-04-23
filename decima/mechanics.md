@@ -8,9 +8,10 @@ parent: Godsquall Decima
 # Decima Mechanical Reference
 {: .no_toc}
 
-This page contains detailed information on all attacks, phases, mechanics and effects in the Godsquall Decima encounter.
-
-Decima is an articulated fight with many phases and interactions, and several mechanics lead naturally into each other, so knowing the nature of these interactions is fundamental towards learning the encounter.
+This page contains detailed information on mechanics in the Godsquall Decima encounter. It is structured into three sections:
+1. **Mechanics** - a description of every attack and mechanic in the encounter.
+2. **Phases** - a description of the structure of the fight, with transitions and differences between phases.
+3. **Effects** - a list of all effects unique to the encounter, for reference purposes.
 
 ### Table of Contents
 {: .no_toc}
@@ -20,20 +21,30 @@ Decima is an articulated fight with many phases and interactions, and several me
 
 ---
 
-## Attacks
-
-These are mechanics originating from Decima herself. Decima's behaviour is to perform an attack loop: a series of skills that are cast continuously one after the other, looping continuously until the boss's health is below the threshold to begin its next phase. Most of Decima's attacks are part of this loop.
-
-Several of Decima's mechanics interact with each other in different ways. Below you will find a graph with these interactions: click on a mechanic to read more details.
+## Mechanics
+Decima has many unique mechanics, and each one has its own particular interactions with the rest of the encounter. Below you will find a simplified graph with the most important interactions: click on a mechanic to read more details, or continue reading below.
 ```mermaid
-%%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
 flowchart TD
-    linkStyle default stroke:#e0be00,stroke-width:3px,color:#e0be00,font-size:13px
+    %%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
+    linkStyle default stroke:#e0be00,stroke-width:3px,color:#e0be00,font-size:13px,background-color:#212325
     classDef purple fill:#654d86,stroke-width:0,color:#e0be00
     classDef green fill:#00540d,stroke-width:0,color:#fff
     classDef blue fill:#0072c9,stroke-width:0,color:#fff
     classDef default fill:#212325,stroke:#e0be00,color:#e0be00
 
+    fulm(Fulminate)
+    subgraph peals [Increased by damaging Decima]
+        peal_h(["`Peal of
+        Harmony`"]):::blue
+        peal_d(["`Peal of
+        Discord`"]):::blue
+    end
+    subgraph thunder [Chorus of Thunder]
+        disc_thunder(["`Discordant
+        Thunder`"])
+        harm_thunder(["`Harmonious
+        Thunder`"])
+    end
     charge([Charges]):::blue
     harm(["`Harmonic
     Sensitivity`"]):::purple
@@ -42,14 +53,7 @@ flowchart TD
     thrum(Thrumming Presence)
     flux(Fluxlances)
     conduit(Conduits)
-    thunder(Chorus of Thunder)
     spark([Dancing Sparks]):::green
-    peal_h(["`Peal of
-    Harmony`"]):::blue
-    peal_d(["`Peal of
-    Discord`"]):::blue
-    dmg("`Squad
-    Damage`")
     nova(Flux Nova)
     
     click charge "#charge"
@@ -57,10 +61,12 @@ flowchart TD
     click nova "#flux-nova"
     click peal_d "#-peal-of-discord"
     click peal_h "#-peal-of-harmony"
-    click thunder "#chorus-of-thunder"
+    click disc_thunder "#discordant-thunder"
+    click harm_thunder "#harmonious-thunder"
     click conduit "#conduits"
     click thrum "#thrumming-presence"
     click flux "#fluxlances"
+    click fulm "#fulminate"
     click galv "#-galvanic-sensitivity"
     click harm "#-harmonic-sensitivity"
 
@@ -69,25 +75,30 @@ flowchart TD
     thrum -->|Applies|harm
     galv -->|Increases Damage Of|spark
     flux -. Can Charge .->conduit
-    thunder -->|Charges|conduit
+    harm_thunder -->|Charges|conduit
+    disc_thunder -. Can Charge .-> conduit
     conduit -->|Spawn|spark
     spark -. Can Generate .->charge
-    peal_h & peal_d -->|Consumed By|thunder
-    dmg -->|Increases|peal_h & peal_d
+    peal_h-->|Consumed By|harm_thunder
+    peal_d -->|Consumed By|disc_thunder
+    fulm -. Can Increase .-> peals
     charge -->|Consumed By|nova
 
+    class peals,thunder default
 ```
 {: .center}
+
+Decima's behaviour is to perform an attack loop: a series of skills that are cast continuously one after the other, looping continuously until the boss's health is below the threshold to begin its next phase. Most mechanics are part of this loop. Detailed information on attack loops is provided for each phase of the encounter in the second section of this reference.
 
 ---
 
 ### Thrumming Presence
 
-A 750-radius area-of-effect centered around Decima, outlined with a faint red circle. Constantly inflicts a small amount of damage to all players inside the area (increasing with the number of <img class="inline charge"> [Charge] on the boss) and applies <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity].
+A 750-radius area-of-effect centered around Decima, outlined with a faint red circle. Constantly inflicts a small amount of damage to all players inside the area and applies <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity].
 
 <img class="center" width="80%" src="../images/decima/mechanics/thrumming.webp" />
 
-Decima gains her Thrumming Presence at the beginning of the encounter, and only loses it while moving, while casting [Flux Nova], while <img class="inline stun"> [Stunned], and while under 10% health.
+Decima gains her Thrumming Presence at the beginning of the encounter, and only loses it while casting [Seismic Reposition], when she has <img class="inline nova-shield"> [Nova Shield], while <img class="inline stun"> [Stunned], and when she is under 10% health.
 
 ---
 
@@ -119,18 +130,21 @@ Targets the five furthest players with standard fluxlances. Targeted players wil
 {: .no_toc}
 Targets the five furthest players with fluxlances. After a brief delay, all lances are fired simultaneously. Every other time that Decima uses this skill, one of the fluxlances will be a red fluxlance.
 
-
-
 ---
 
 ### Chorus of Thunder
 
-Decima consumes all her stacks of <img class="inline harmony"> [Peal of Harmony] and  <img class="inline discord"> [Peal of Discord], with the following effects:
+This attack has two components:
 
-- For each stack of <img class="inline discord"> [Peal of Discord] consumed, Decima will target the closest untargeted player to the boss with a Thunder.
-- For each stack of <img class="inline harmony"> [Peal of Harmony] consumed, Decima will target the closest uncharged [Conduit] to the furthest player with a Thunder.
+#### Harmonious Thunder
+{: .no_toc}
+Decima consumes all stacks of <img class="inline harmony"> [Peal of Harmony]. For each stack, she targets the closest uncharged, untargeted [Conduit] to the furthest player with Thunder.
 
-Thunders are tracking circular AoEs that fill and explode after a brief delay, dealing damage and charging all [Conduits] they hit. Damage increases with the number of overlapping AoEs, but can be <img class="inline evade"> [Evaded], <img class="inline invuln"> [Invulned] or <img class="inline aegis"> [Blocked]. Single blocks will prevent one Thunder from hitting, but channeled blocks are necessary in case of multiple overlaps.
+#### Discordant Thunder
+{: .no_toc}
+Decima consumes all stacks of <img class="inline discord"> [Peal of Discord]. For each stack, she targets the closest untargeted player with Thunder.
+
+Thunders are tracking circular AoEs that fill and explode after a brief delay, dealing damage and charging all [Conduits] they hit. Damage increases with the number of overlapping AoEs, but can be <img class="inline evade"> [Evaded], <img class="inline aegis"> [Blocked], or avoided with <img class="inline invuln"> [Invulnerability] . Single blocks will prevent one Thunder from hitting, but channeled blocks are necessary in case of multiple overlaps.
 
 Players hit by any Thunder except their own will gain a stack of <img class="inline exposed"> [Exposed].
 
@@ -194,13 +208,13 @@ Decima casts this skill regularly as part of her attack loop. Furthermore, she a
 
 ### Flux Nova
 
-A massive, arena-wide attack. This attack has two versions: a first one is used as part of the phase transitions at 70% and 40% of her health total, while the second one is used whenever she reaches 10 stacks of <img class="inline charge"> [Charge] or the enrage timer runs out.
+A massive, arena-wide attack. This attack has two versions: a first one is used as part of the phase transitions at 70% and 40% of Decima's health total, while the second one is used whenever she reaches 10 stacks of <img class="inline charge"> [Charge], or when the enrage timer runs out.
 
 #### Transition Nova
 {: .no_toc}
-Upon reaching 70% or 40% health, Decima gains <img class="inline nova-shield"> [Nova Shield], then casts [Seismic Reposition] to the center of the arena, followed by [Chorus of Thunder]. She will then start channeling her main attack, gaining a large <img class="inline defiance"> [Defiance Bar] with 7500 health. During the channel, all charged [Conduits] will start summoning [Dancing Sparks]: if these are allowed to reach Decima, they will fully regenerate her <img class="inline defiance"> [Defiance] in addition to their other effects. Breaking this bar will shorten the channel (possibly despawning all [Dancing Sparks]) and apply <img class="inline fractured"> [Fractured Armor] to her.
+Upon reaching 70% or 40% health, Decima gains <img class="inline nova-shield"> [Nova Shield], then casts [Seismic Reposition] to the center of the arena, followed by [Chorus of Thunder]. She will then start channeling her main attack, gaining a large <img class="inline defiance"> [Defiance Bar]. During the channel, all charged [Conduits] will start summoning [Dancing Sparks]: if these are allowed to reach Decima, they will fully regenerate her <img class="inline defiance"> [Defiance] in addition to their other effects. Breaking this bar will shorten the channel (possibly despawning all [Dancing Sparks]) and apply <img class="inline fractured"> [Fractured Armor] to her.
 
-When the channel ends, Decima will first [Fulminate] all conduits, and then cast her main attack, which consumes all stacks of <img class="inline charge"> [Charge] to deal massive squad-wide damage. If she is affected by <img class="inline fractured"> [Fractured Armor], she will be affected by the backlash from her attack, <img class='inline stun'> [Stunning] her for 10 seconds and applying <img class="inline exposed"> [Exposed] for the same duration.
+When the channel ends, Decima will first [Fulminate] all conduits, and then cast her main attack, which consumes all stacks of <img class="inline charge"> [Charge] to deal massive squad-wide damage. If she is affected by <img class="inline fractured"> [Fractured Armor], she will take backlash from her attack, <img class='inline stun'> [Stunning] her for 10 seconds and applying <img class="inline exposed"> [Exposed] for the same duration.
 
 #### Death Nova
 {: .no_toc}
@@ -225,7 +239,7 @@ An effect that is applied to players standing inside Decima's <img class="inline
 
 ### <img class="inline charge"> Charge
 
-A stacking effect that is gained by Decima every time she consumes [Dancing Sparks]. Increases all outgoing damage from all of Decima's attacks. If Decima gains 10 stacks of <img class="inline charge"> [Charge], she becomes <img class="inline enrage"> [Unstoppable](https://wiki.guildwars2.com/wiki/Unstoppable_(Decima)) and gains <img class="inline flux-shield"> [Flux Shield], after which she then casts a maximum power [Flux Nova], <img class="inline defeat"> [Defeating] all players.
+A stacking effect that is gained by Decima every time she consumes [Dancing Sparks]. Increases all outgoing damage from all of Decima's attacks. If Decima gains 10 stacks of <img class="inline charge"> [Charge], she becomes <img class="inline enrage"> [Unstoppable](https://wiki.guildwars2.com/wiki/Unstoppable_(Decima)) and gains <img class="inline nova-shield"> [Nova Shield], after which she then casts a maximum power [Flux Nova], <img class="inline defeat"> [Defeating] all players.
 
 Decima loses all stacks of <img class="inline charge"> [Charge] when she performs her [Flux Nova].
 
@@ -239,17 +253,17 @@ A stacking effect that determines the number of [Conduits] that Decima targets d
 
 ### <img class="inline discord"> Peal of Discord
 
-A stacking effect that determines the number of players that Decima targets during her [Chorus of Thunder]. Decima gains 5 stacks of <img class="inline harmony"> [Peal of Harmony] every 10% of her HP.
+A stacking effect that determines the number of players that Decima targets during her [Chorus of Thunder]. Decima gains 5 stacks of <img class="inline discord"> [Peal of Discord] every 10% of her HP.
 
 ---
 
 ### <img class="inline nova-shield"> Nova Shield
-Decima gains this effect on reaching 70% or 40% health, and loses it once she finishes casting her [Flux Nova]. Makes Decima immune to health damage, but keeps her susceptible to <img class="inline defiance"> [Defiance] damage.
+Makes Decima immune to health damage. Decima gains this effect on reaching 70% or 40% health, when she gains 10 stacks of <img class="inline charge"> [Charge], or when the enrage timer runs out, and loses it after casting [Flux Nova]
 
 ---
 
 ### <img class="inline fractured"> Fractured Armor
-An effect that is gained by Decima whenever her defiance bar is broken. Makes Decima susceptible to the backlash from her next [Flux Nova], <img class='inline stun'> [Stunning] her for 10 seconds and applying <img class="inline exposed"> [Exposed] for this duration. 
+An effect that is gained by Decima whenever her defiance bar is broken. Makes Decima susceptible to the backlash from her next [Flux Nova],  which <img class='inline stun'> [Stuns] her for 10 seconds and applies <img class="inline exposed"> [Exposed] for the same duration. 
 
 ---
 
@@ -280,6 +294,7 @@ An effect that is gained by Decima whenever her defiance bar is broken. Makes De
 [Invulnerable]: https://wiki.guildwars2.com/wiki/Invulnerability
 [Invulnerability]: https://wiki.guildwars2.com/wiki/Invulnerability
 [Invulned]: https://wiki.guildwars2.com/wiki/Invulnerability
+[Stuns]: https://wiki.guildwars2.com/wiki/Stun
 [Stunned]: https://wiki.guildwars2.com/wiki/Stun
 [Stunning]: https://wiki.guildwars2.com/wiki/Stun
 [Knockback]: https://wiki.guildwars2.com/wiki/Knockback
