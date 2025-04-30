@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mechanics
+title: Greer Mechanics
 nav_order: 1
 parent: Godspoil Greer
 ---

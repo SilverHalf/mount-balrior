@@ -18,7 +18,7 @@ This website is a work in progess. When it is completed it will contain guides a
        style="background-image: url(images/greer.webp);"></a>
     <a href="ura/overview.html"
        class="index-button"
-       style="background-image: url(images/ura.jpg);"></a>
+       style="background-image: url(images/ura.webp);"></a>
 </div>
 
 ### Do you want to contribute to this project?

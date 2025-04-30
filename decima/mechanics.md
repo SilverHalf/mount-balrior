@@ -549,6 +549,18 @@ Once at the center, the squad will have some time to damage her while she does t
 
 Once this sequence is complete, Decima will start rapidly gaining <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] while chain-casting [Chorus of Thunder]. This results in all conduits quickly being charged (sometimes even double charged as she casts choruses faster than they can charge pylons!). Throughout this she will sporadically spawn [Dancing Sparks], until all conduits are charged, at which point every conduit will start simultaneously spawning [Dancing Spark], which combined with continous [Discordant Thunder] casts will rapidly lead to defeat unless the boss is defeated quickly.
 
+#### Peals Gained
+{: .no_toc}
+The order in which Decima gains <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] is deterministic, though hard to keep track of and not especially useful. She wll gain:
+- +1 <img class="inline harmony"> [Peal of Harmony] at 7, 4 and 1% HP.
+- +1 of both peals at 3, 5, 7 and 9 seconds after the start of the phase. On the first and last of this set, these will be used instantly to cast [Chorus of Thunder]. Sometimes the first one will not increase the targeted [Conduit]'s charge.
+arrows happen here
+- +3 of both peals at 21 seconds after the start of the phase start, instantly used by [Chorus of Thunder].
+- +4 of both peals at 23 seconds. <img class="inline harmony"> [Peal of Harmony] will instantly be used by [Harmonious Thunder].
+- +4 of both peals at 25 seconds.
+- +5 of both peals at 29 seconds and every 2 seconds after. These cannot take Decima above 10 stacks so the third and onwards are often useless.
+Credit to @Tsaerid for researching this.
+
 ---
 
 ## Effects
@@ -608,6 +620,8 @@ Decima links herself to a [Trascendent Boulder], becoming <img class="inline inv
 The two [Trascendent Boulders] link to each other and gain this effect. Whenever one of the two falls to 1% HP, it becomes <img class="inline invuln"> [Invulnerable], and after 10 seconds, it will heal itself back to 50% of its maximum health. If, during this interval, its linked target also falls to 1% health, the <img class="inline invuln"> [Invulnerability] is removed and both boulders can be killed.
 
 ---
+
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn }
 
 [Harmonic Sensitivity]: #-harmonic-sensitivity
 [Galvanic Sensitivity]: #-galvanic-sensitivity

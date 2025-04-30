@@ -22,6 +22,17 @@ Contributions are very welcome, as the project is in its starting phases.
 
 If you are interested in adding information to the guide or fixing current information, please contact me here or on Discord (silverhalf).
 
+What needs to be done:
+- [x] Decima Overview
+- [x] Decima Mechanical Reference
+- [ ] Decima Strategy
+- [x] Greer Overview
+- [ ] Greer Mechanical Reference
+- [ ] Greer Strategy
+- [x] Ura Overview
+- [ ] Ura Mechanical Reference
+- [ ] Ura Strategy
+
 ## Licensing and Attribution
 
 This repository is licensed under the [MIT License].
