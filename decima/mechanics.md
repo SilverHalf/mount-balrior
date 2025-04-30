@@ -8,7 +8,9 @@ parent: Godsquall Decima
 # Decima Mechanical Reference
 {: .no_toc}
 
-This page contains detailed information on mechanics in the Godsquall Decima encounter. It is structured into three sections:
+This section contains a detailed reference of the various attacks and mechanics present in the Godsquall Decima encounter. 
+
+The rest of this page is structured into three sections:
 1. **Mechanics** - a description of every attack and mechanic in the encounter.
 2. **Phases** - a description of the structure of the fight, with transitions and differences between phases.
 3. **Effects** - a list of all effects unique to the encounter, for reference purposes.
@@ -22,7 +24,14 @@ This page contains detailed information on mechanics in the Godsquall Decima enc
 ---
 
 ## Mechanics
-Decima has many unique mechanics, and each one has its own particular interactions with the rest of the encounter. Below you will find a simplified graph with the most important interactions: click on a mechanic to read more details, or continue reading below.
+
+Decima's basic behaviour is centered around an attack loop: a series of skills that constantly repeat until the boss reaches certain health thresholds. This means that the encounter is extremely scripted: since the sequence is known, the squad can always predict and prepare for oncoming mechanics.
+
+Several of Decima's attacks hit hard, requiring proper healing and mitigation to manage properly without destabilizing the squad. Apart from this, misplaying mechanics usually results in the boss acquiring <img class="inline charge"> [Charge] stacks. This can be dangerous since the boss's damage scales with the number of stacks, additionally enraging and killing the entire group upon gaining 10 stacks. However, Decima frequently resets its <img class="inline charge"> [Charge] level at 70%, 40% and 10% of her HP, so the penalty for failing is short-lived, and as a result the encounter relatively forgiving.
+
+### Mechanic Interaction Graph
+{: .no_toc}
+Decima can be a difficult boss to understand fully, as she has several unique mechanics, each one with its own particular interactions with the rest of the encounter. For convenience's sake, below you will find a simplified graph with the most important interactions: click on a mechanic to read more details, or continue reading below to view everything sequentially.
 ```mermaid
 flowchart TD
     %%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
@@ -88,8 +97,6 @@ flowchart TD
 ```
 {: .center}
 
-Decima's behaviour is to perform an attack loop: a series of skills that are cast continuously one after the other, looping continuously until the boss's health is below the threshold to begin its next phase. Most mechanics are part of this loop. Detailed information on attack loops is provided for each phase of the encounter in the second section of this reference.
-
 ---
 
 ### Thrumming Presence
@@ -129,6 +136,15 @@ Targets the five furthest players with standard fluxlances. Targeted players wil
 #### Fluxlance Salvo
 {: .no_toc}
 Targets the five furthest players with fluxlances. After a brief delay, all lances are fired simultaneously. Every other time that Decima uses this skill, one of the fluxlances will be a red fluxlance.
+
+#### Converging Fluxlances
+{: .no_toc}
+(Note: this skill does not have an official name, so this name is given for convenience.)
+A combined attack performed by Decima and two [Trascendent Boulders]. This attack consists of:
+- One [Red Fluxlance] cast by Decima and targeting the furthest player from her.
+- Two [Standard Fluxlances] cast by Decima and targeting the next two furthest players.
+- One [Standard Fluxlance] cast by each [Trascendent Boulder] and targeting the furthest player from Decima.
+Similarly to both previous attacks, five fluxlances are summoned in total, but three of them (one red and two standard) will be targeting the same player.
 
 ---
 
@@ -189,9 +205,9 @@ Decima stomps three times, dealing moderate damage in 3 large AoEs.
 
 #### Mainshock
 {: .no_toc}
-Always cast after Foreshock:  a "pizza" attack centered on Decima. Deals significant damage and additionally inflicts 25 <img class="inline vuln"> [Vulnerability](https://wiki.guildwars2.com/wiki/Vulnerability). Players hit by multiple "slices" will recieve multiple instances of this damage.
+Always cast after Foreshock:  a "pizza" attack centered on Decima. Deals significant damage and additionally inflicts 25 <img class="inline vuln"> [Vulnerability]. Players hit by multiple "slices" will recieve multiple instances of this damage.
 
-Foreshock and Mainshock are used regularly by Decima as part of her attack loop.
+Foreshock and Mainshock are used regularly by Decima as part of her attack loop, and are always directed towards the closest player.
 
 ---
 
@@ -268,6 +284,7 @@ A circular damaging AoE that increases its damage over time, and applies <img cl
 ---
 
 ## Phases
+Decima's encounter has an articulate structure, with over eleven unique subphases. We can roughly divide these into four distinct parts of the encounter, which are described below.
 
 ### First Phase
 Consists in two burn phases, with a simple split phase in between.
@@ -276,6 +293,106 @@ Consists in two burn phases, with a simple split phase in between.
 {: .no_toc}
 Decima starts the fight in the center of the arena.
 As soon as the encounter begins, she summons her [Conduits], then begins doing the following attacks in loop:
+
+```mermaid
+flowchart LR
+    %%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
+    classDef link stroke:#e0be00,stroke-width:3px,color:#e0be00,font-size:13px,background-color:#212325
+    classDef invis fill:#212325,stroke:#212325,color:#212325
+    classDef purple fill:#654d86,stroke-width:0,color:#e0be00
+    classDef green fill:#00540d,stroke-width:0,color:#fff
+    classDef blue fill:#0072c9,stroke-width:0,color:#fff
+    classDef default fill:#212325,stroke:#e0be00,color:#e0be00
+
+    shocks(["`Foreshock &
+    Mainshock`"])
+    subgraph arrows1 [Simultaneous]
+        direction TB
+        flux1("`Fluxlance
+        Fusillade`")
+        chorus1("`Chorus of
+        Thunder`")
+    end
+    smash("`Seismic
+    Crash`")
+    greens(["`Dancing
+    Sparks`"]):::green
+    rend(Earthrend)
+    subgraph arrows2 [Simultaneous]
+        direction TB
+        flux2("`Fluxlance
+        Fusillade (Red)`")
+        chorus2("`Chorus of
+        Thunder`")
+    end
+    
+    click shocks "#foreshock--mainshock"
+    click flux1 "#fluxlance-salvo"
+    click chorus1 "#chorus-of-thunder"
+    click flux2 "#fluxlance-fusillade"
+    click chorus2 "#chorus-of-thunder"
+    click smash "#seismic-crash"
+    click rend "#earthrend"
+    click greens "#dancing-sparks"
+
+    shocks l1@--> arrows1
+    flux1 ~~~ chorus1
+    arrows1 l2@--> smash
+    smash l3@--> greens
+    greens l4@--> rend
+    rend l5@-->arrows2
+    flux2 ~~~ chorus2
+
+    class arrows1,arrows2 default
+    class l0,l1,l2,l3,l4,l5,l6 link
+```
+{: .center}
+
+Decima's [Conduits] in this phase form a star shape, and maintain this shape, only slightly shifting inwards and outwards as the phase progresses. [Fulgent Fences] will be active during both [Fluxlance Salvo] attacks, and during [Seismic Crash] and [Earthrend]. The second [Fluxlance Salvo], and every other salvo afterwards, will have a [Red Fluxlance] targeting the furthest player.
+
+#### 80% Split Phase
+{: .no_toc}
+
+As soon as Decima reaches 80% of her HP, she will finish whatever animation she is doing, and then transition into the split phase. The transition consists of these steps:
+1. Decima despawns all [Fulgent Fences] and [Dancing Sparks] currently on the arena.
+2. Decima's [Conduits] rearrange into a new pattern, made of three hexagonal formations (see the video below). Meanwhile, Decima uses [Seismic Reposition] to move inside of one of these hexagons.
+3. [Fulgent Fences] reactivate, sealing off the formation, and a [Trascendent Boulder] spawns inside each of the two remaining unoccupied hexagons.
+
+<video class="center" width="50%" controls muted>
+  <source src="../videos/decima_conduits_1.mp4" type="video/mp4">
+</video>
+
+Of note is the fact that Decima will always reposition to the formation consisting of the [Conduits] that were formerly on the outermost ring (colored in blue in the video above).
+
+Decima and the boulders will gain <img class="inline linked"> [Linked], meaning that Decima becomes <img class="inline invuln"> [Invulnerable] and both boulders must be defeated within 10 seconds of each other in order to make her vulnerable again.
+
+At the beginning of the phase, an updraft will spawn in the center of the arena, allowing players to glide into the hexagonal formations after they are locked down with [Fulgent Fences]. Similar updrafts will spawn on each [Trascendent Boulder]'s death, allowing players to exit and return to the boss at the end of the split phase.
+
+Both [Trascendent Boulders] will start casting [Sparkling Reverberation], unlocking their <img class="inline defiance"> [Defiance Bar]. After this attack concludes, either with a complete channel or with the squad breaking the boulder's defiance, boulders will start chain casting [Seismoelectricity] until they reach 1% health (see <img class="inline linked"> [Linked]) or die.
+
+During this time, Decima will start anew with her attack loop, which is the same as in the previous phase.
+
+#### 80% - 70%
+{: .no_toc}
+Both [Trascendent Boulders] have been killed, meaning that Decima is once again vulnerable. This does not change her behaviour, meaning she continues her attack loop without interruption from the split phase.
+
+#### 70% Transition
+{: .no_toc}
+Once Decima reaches 70% of her health, she performs a series of attacks that transitions her into the second phase:
+1. Decima gains <img class="inline nova-shield"> [Nova Shield].
+2. Decima will [Seismic Reposition] to the center of the arena.
+3. Decima starts channeling her [Flux Nova], unlocking her <img class="inline defiance"> [Defiance Bar], and simultaneously casts [Chorus of Thunder].
+4. Upon finishing her channel, or shortly after her defiance is broken, Decima will [Fulminate] all charged [Conduits], then consume all her <img class="inline charge"> [Charge] to conclude her [Flux Nova].
+
+---
+
+### Second Phase
+If Decima's <img class="inline defiance"> [Defiance Bar] was broken during [Flux Nova], she will start the phase with 10 seconds of <img class='inline stun'> [Stunned] and <img class="inline exposed"> [Exposed].  For the rest, this phase is structured similarly to the previous one, with two burn phases divided by a split phase at 50% HP. The major difference here is in the conduit movements, which are markedly different from the first phase, and in the 50% split phase, which is significantly more dangerous and often proves to be a major hurdle for groups.
+
+#### 70% - 50%
+{: .no_toc}
+
+In this burn phase, Decima performs the following attack loop:
 
 ```mermaid
 flowchart LR
@@ -331,61 +448,106 @@ flowchart LR
 ```
 {: .center}
 
-Decima's [Conduits] in this phase form a star shape, and maintain this shape, only slightly shifting inwards and outwards as the phase progresses. [Fulgent Fences] will be active during both [Fluxlance Salvo] attacks, and during [Seismic Crash] and [Earthrend]. The second [Fluxlance Salvo], and every other salvo afterwards, will have a [Red Fluxlance] targeting the furthest player.
+This loop is, in essence, identical to its behaviour in the previous phase, but substittues [Fluxlance Fusillade] for the more dangerous [Fluxlance Salvo]. On the second and every other [Fluxlance Salvo] thereafter, one of the fluxlances will be a [Red Fluxlance].
 
-#### 80% Split Phase
-{: .no_toc}
-
-As soon as Decima reaches 80% of her HP, she will finish whatever animation she is doing, and then transition into the split phase. The transition consists of these steps:
-1. Decima despawns all [Fulgent Fences] and [Dancing Sparks] currently on the arena.
-2. Decima's [Conduits] rearrange into a new pattern, made of three hexagonal formations (see the video below). Meanwhile, Decima uses [Seismic Reposition] to move inside of one of these hexagons.
-3. [Fulgent Fences] reactivate, sealing off the formation, and a [Trascendent Boulder] spawns inside each of the two remaining unoccupied hexagons.
+Conduit movements in this phase are shown in the following short video, where each vertex of the colored shapes is a conduit.
 
 <video class="center" width="50%" controls muted>
-  <source src="../videos/decima_conduits_1.mp4" type="video/mp4">
+  <source src="../videos/decima_conduits_2.mp4" type="video/mp4">
 </video>
-
-Of note is the fact that Decima will always reposition to the formation consisting of the [Conduits] that were formerly on the outermost ring (colored in blue in the video above).
-
-Decima and the boulders will gain <img class="inline linked"> [Linked], meaning that Decima becomes <img class="inline invuln"> [Invulnerable] and both boulders must be defeated within 10 seconds of each other in order to make her vulnerable again.
-
-At the beginning of the phase, an updraft will spawn in the center of the arena, allowing players to glide into the hexagonal formations after they are locked down with [Fulgent Fences]. Similar updrafts will spawn on each [Trascendent Boulder]'s death, allowing players to exit and return to the boss at the end of the split phase.
-
-Both [Trascendent Boulders] will start casting [Sparkling Reverberation], unlocking their <img class="inline defiance"> [Defiance Bar]. After this attack concludes, either with a complete channel or with the squad breaking the boulder's defiance, boulders will start chain casting [Seismoelectricity] until they reach 1% health (see <img class="inline linked"> [Linked]) or die.
-
-During this time, Decima will start anew with her attack loop, which is the same as in the previous phase.
-
-#### 80% - 70%
-{: .no_toc}
-Both [Trascendent Conduits] have been killed, meaning that Decima is once again vulnerable. This does not change her behaviour, meaning she continues her attack loop without interruption from the split phase.
-
-#### 70% Transition
-{: .no_toc}
-Once Decima reaches 70% of her health, she performs a series of attacks that transitions her into the second phase:
-1. Decima gains <img class="inline nova-shield"> [Nova Shield].
-2. Decima will [Sesimic Reposition] to the center of the arena.
-3. Decima starts channeling her [Flux Nova], unlocking her <img class="inline defiance"> [Defiance Bar], and simultaneously casts [Chorus of Thunder].
-4. Upon finishing her channel, or shortly after her defiance is broken, Decima will [Fulminate] all charged [Conduits], then consume all her <img class="inline charge"> [Charge] to conclude her [Flux Nova].
-
----
-
-### Second Phase
-
-#### 70% - 50%
-{: .no_toc}
 
 #### 50% Split Phase
 {: .no_toc}
+This split phase is essentially identical to the [80% Split Phase](#80-split-phase), with one major difference: both [Trascendent Boulders] will follow [Sparkling Reverberation] with a cast of [Sparkwave](#sparkwave). This is an extremely dangerous skill, and both it and the [Charged Ground] it generates must be avoided or managed with extreme care. This phase is often a major hurdle to progression.
 
-#### 50% - 40%
+#### 50% - 40% and 40% Tranistion
 {: .no_toc}
+This phase and the transition to the following phase are essentially identical to the [80%-70% phase](#80---70) and [70% transition](#70-transition).
 
-#### 40% Transition
-{: .no_toc}
+---
 
 ### Third Phase
+This phase consists of one large burn from 40% to 10% of Decima's HP. It differs significatively from the previous phases, as Decima will often make use of her [Seismic Reposition] to move around the arena. This phase will also introduce two new attacks: [Focused Fluxlance] and [Converging Fluxlances].
+
+At the beginning of the phase, Decima will summon two [Trascendent Boulders]. These adds are not targetable and cannot be interacted with. They do not <img class="inline linked"> [Link] with the boss, and do not cast any skills except for participating in [Converging Fluxlances]. Decima will then [Seismic Reposition], and begin the following attack loop:
+
+```mermaid
+flowchart LR
+    %%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
+    classDef link stroke:#e0be00,stroke-width:3px,color:#e0be00,font-size:13px,background-color:#212325
+    classDef invis fill:#212325,stroke:#212325,color:#212325
+    classDef purple fill:#654d86,stroke-width:0,color:#e0be00
+    classDef green fill:#00540d,stroke-width:0,color:#fff
+    classDef blue fill:#0072c9,stroke-width:0,color:#fff
+    classDef default fill:#212325,stroke:#e0be00,color:#e0be00
+
+    shocks(["`Foreshock &
+    Mainshock`"])
+    subgraph arrows1 [Simultaneous]
+        direction TB
+        flux1("`Fluxlance
+        Salvo`")
+        chorus1("`Chorus of
+        Thunder`")
+        focused(["`Focused
+        Fluxlance`"]):::green
+    end
+    move("`Seismic
+    Reposition
+    (Random)`")
+    subgraph graph1 [Simultaneous]
+        shocks2(["`Foreshock &
+        Mainshock`"])
+        greens(["`Dancing
+        Sparks`"]):::green
+    end
+    subgraph arrows2 [Simultaneous]
+        direction TB
+        flux2("`Converging
+        Fluxlances`")
+        chorus2("`Chorus of
+        Thunder`")
+    end
+    
+    click move "#seismic-crash"
+    click shocks "#foreshock--mainshock"
+    click shocks2 "#foreshock--mainshock"
+    click flux1 "#fluxlance-salvo"
+    click chorus1 "#chorus-of-thunder"
+    click flux2 "#converging-fluxlances"
+    click chorus2 "#chorus-of-thunder"
+    click greens "#dancing-sparks"
+    click focused "#focused-fluxlance"
+
+    shocks l1@--> arrows1
+    flux1 ~~~ chorus1
+    chorus1 ~~~ focused
+    arrows1 l2@--> move
+    move l3@--> graph1
+    shocks2 ~~~ greens
+    graph1 l5@--> arrows2
+    flux2 ~~~ chorus2
+
+    class arrows1,arrows2,graph1 default
+    class l0,l1,l2,l3,l4,l5,l6 link
+```
+{: .center}
+
+Every time Decima casts [Seismic Reposition] in this phase, she will relocate to a random position located on a circle 1500 units from the center of the arena. Furthermore, all her conduits will move to this new position, reconfiguring as shown in the following clip:
+
+<video class="center" width="50%" controls muted>
+  <source src="../videos/decima_conduits_3.mp4" type="video/mp4">
+</video>
 
 ### Final Phase
+On reaching 10% health, Decima will become <img class="inline invuln"> [Invulnerable], then [Seismic Reposition] to the center of the arena. She will simultaneously cast [Discordant Thunder], but targeting all ten players, then cast [Harmonious Thunder]. Shortly after jumping, all [Conduits] will lose all of their charge.
+
+Once at the center, the squad will have some time to damage her while she does the following sequence of attacks:
+1. [Chorus of Thunder] twice, once with a single target per type and once with three targets per type.
+2. [Fulgent Fences].
+3. [Fluxlance Salvo], with one fluxlance being a [Red Fluxlance].
+
+Once this sequence is complete, Decima will start rapidly gaining <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] while chain-casting [Chorus of Thunder]. This results in all conduits quickly being charged (sometimes even double charged as she casts choruses faster than they can charge pylons!). Throughout this she will sporadically spawn [Dancing Sparks], until all conduits are charged, at which point every conduit will start simultaneously spawning [Dancing Spark], which combined with continous [Discordant Thunder] casts will rapidly lead to defeat unless the boss is defeated quickly.
 
 ---
 
@@ -394,7 +556,7 @@ Decima's encounter has a multitude of unique effects, which are listed below for
 
 ### <img class="inline galvanic-sensitivity"> Galvanic Sensitivity
 
-An effect that is applied to players hit by [Fluxlances], lasting for 30 seconds. Greatly increases damage taken from [Dancing Sparks]. <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity] is incompatible with <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity], which it overwrites.
+An effect that is applied to players hit by a [Standard Fluxlance], lasting for 30 seconds. Greatly increases damage taken from [Dancing Sparks]. <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity] is incompatible with <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity], which it overwrites.
 
 ---
 
@@ -452,9 +614,15 @@ The two [Trascendent Boulders] link to each other and gain this effect. Whenever
 [Charge]: #-charge
 [Fluxlances]: #fluxlances
 [Fluxlance Salvo]: #fluxlance-salvo
+[Converging Fluxlances]: #converging-fluxlances
+[Fluxlance Fusillade]: #fluxlance-fusillade
+[Standard Fluxlance]: #standard-fluxlance
+[Standard Fluxlances]: #standard-fluxlance
 [Red Fluxlance]: #red-fluxlance
+[Focused Fluxlance]: #focused-fluxlance
 [Thrumming Presence]: #thrumming-presence
 [Dancing Sparks]: #dancing-sparks
+[Dancing Spark]: #dancing-sparks
 [Peal of Harmony]: #-peal-of-harmony
 [Peal of Discord]: #-peal-of-discord
 [Conduit]: #conduits
@@ -469,12 +637,15 @@ The two [Trascendent Boulders] link to each other and gain this effect. Whenever
 [Fractured Armor]: #-fractured-armor
 [Fulminate]: #fulminate
 [Earthrend]: #earthrend
-[Charged Ground]: #charged_ground
+[Charged Ground]: #charged-ground
 [Sparkling Reverberation]: #sparkling-reverberation
 [Seismoelectricity]: #seismoelectricity
 [Trascendent Boulders]: #trascendent-boulders
 [Trascendent Boulder]: #trascendent-boulders
 [Linked]: #-linked
+[Link]: #-linked
+[Discordant Thunder]: #discordant-thunder
+[Harmonious Thunder]: #harmonious-thunder
 
 [Unblockable]: https://wiki.guildwars2.com/wiki/Unblockable
 [Blocked]: https://wiki.guildwars2.com/wiki/Block
@@ -494,3 +665,4 @@ The two [Trascendent Boulders] link to each other and gain this effect. Whenever
 [Defeats]: https://wiki.guildwars2.com/wiki/Defeated
 [Defeating]: https://wiki.guildwars2.com/wiki/Defeated
 [Debilitated]: https://wiki.guildwars2.com/wiki/Debilitated_(raid)
+[Vulnerability]: https://wiki.guildwars2.com/wiki/Vulnerability
