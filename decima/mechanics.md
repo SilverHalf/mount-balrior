@@ -29,7 +29,7 @@ The rest of this page is structured into three sections:
 
 Decima's basic behaviour is centered around an attack loop: a series of skills that constantly repeat until the boss reaches certain health thresholds. This means that the encounter is extremely scripted: since the sequence is known, the squad can always predict and prepare for oncoming mechanics.
 
-Several of Decima's attacks hit hard, requiring proper healing and mitigation to manage properly without destabilizing the squad. Apart from this, misplaying mechanics usually results in the boss acquiring <img class="inline charge"> [Charge] stacks. This can be dangerous since the boss's damage scales with the number of stacks, additionally enraging and killing the entire group upon gaining 10 stacks. However, Decima frequently resets its <img class="inline charge"> [Charge] level at 70%, 40% and 10% of her HP, so the penalty for failing is short-lived, and as a result the encounter relatively forgiving.
+Several of Decima's attacks hit hard, requiring proper healing and mitigation to manage properly without destabilizing the squad. Apart from this, misplaying mechanics usually results in the boss acquiring <img class="inline charge"> [Charge] stacks. This can be dangerous since the boss's damage scales with the number of stacks, additionally enraging and killing the entire group upon gaining 10 stacks. However, Decima resets her <img class="inline charge"> [Charge] level twice, at 70%, 40% of her HP, and as a result the encounter is relatively forgiving.
 
 ### Mechanic Interaction Graph
 {: .no_toc}
@@ -623,7 +623,7 @@ The two [Trascendent Boulders] link to each other and gain this effect. Whenever
 
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#decima-mechanical-reference){: .btn .fixed}
 
 [Harmonic Sensitivity]: #-harmonic-sensitivity
 [Galvanic Sensitivity]: #-galvanic-sensitivity
