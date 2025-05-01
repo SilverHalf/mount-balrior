@@ -46,6 +46,3 @@ The fight starts with Greer, Gree, Reeg, and Ereg all being alive and attackable
 
 ## Empowered Orbs
 While the three lesser titans are alive, they will also regularly (every 10 to 14 seconds) shoot Empowering Orbs targeted at all the other titans, that will give a stack of <img class="inline empowered"> [Empowered](https://wiki.guildwars2.com/wiki/Empowered_(Greer,_the_Blightbringer)) when they reach their target. 
-
-
-
