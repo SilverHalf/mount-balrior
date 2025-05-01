@@ -15,7 +15,7 @@ This section contains a detailed reference of the various attacks and mechanics 
 The rest of this page is structured into three sections:
 1. **Mechanics** - a description of every attack and mechanic in the encounter.
 2. **Phases** - a description of the structure of the fight, with transitions and differences between phases.
-3. **Effects** - a list of all effects unique to the encounter, for reference purposes.
+3. **Effects** - a list of all effects unique to the encounter.
 
 ### Table of Contents
 {: .no_toc}
@@ -31,7 +31,21 @@ Decima's basic behaviour is centered around an attack loop: a series of skills t
 
 Several of Decima's attacks hit hard, requiring proper healing and mitigation to manage properly without destabilizing the squad. Apart from this, misplaying mechanics usually results in the boss acquiring <img class="inline charge"> [Charge] stacks. This can be dangerous since the boss's damage scales with the number of stacks, additionally enraging and killing the entire group upon gaining 10 stacks. However, Decima resets her <img class="inline charge"> [Charge] level twice, at 70%, 40% of her HP, and as a result the encounter is relatively forgiving.
 
-### Mechanic Interaction Graph
+#### List of Mechanics
+{: .no_toc}
+Here you will find a brief description of all mechanics in the fight. Click on a mechanic to view additional information.
+
+|**Attack**|**Common Name**|**Description**|
+|[Thrumming Presence]| - | Constant damaging AoE around the bos.s |
+|[Fluxlances]| Arrows | Laser attacks originating from the boss that follow players. |
+|[Conduits]| Pylons | Small moving structures that interact with other mechanics. |
+|[Chorus of Thunder]|Spreads|Multiple AoEs that target players and conduits. |
+|[Foreshock and Mainshock](#foreshock--mainshock)| Autos / Pizza | Melee AoE attacks perfomed in sequence by the boss. |
+|[Seismic Crash] | Smash, Jump | Knockback AoE centered on the boss. |
+|[Earthrend]| - | Knock-in ring on the outside of the arena |
+|[Flux Nova]| Nova, CC | Large channeled attack that unlocks a <img class="inline defiance"> [Defiance Bar]. |
+
+#### Mechanic Interaction Graph
 {: .no_toc}
 Decima can be a difficult boss to understand fully, as she has several unique mechanics, each one with its own particular interactions with the rest of the encounter. For convenience's sake, below you will find a simplified graph with the most important interactions: click on a mechanic to read more details, or continue reading below to view everything sequentially.
 ```mermaid
@@ -366,13 +380,13 @@ As soon as Decima reaches 80% of her HP, she will finish whatever animation she 
 
 Of note is the fact that Decima will always reposition to the formation consisting of the [Conduits] that were formerly on the outermost ring (colored in blue in the video above).
 
-Decima and the boulders will gain <img class="inline linked"> [Linked], meaning that Decima becomes <img class="inline invuln"> [Invulnerable] and both boulders must be defeated within 10 seconds of each other in order to make her vulnerable again.
+As soon as Decima is done repositioning, she start anew with the same attack loop as in the previous phase, only all attacks will originate from her new position.
+
+Both Decima and [Trascendent Boulders] will gain <img class="inline linked"> [Linked], meaning that Decima becomes <img class="inline invuln"> [Invulnerable] and both boulders must be defeated within 10 seconds of each other in order to make her vulnerable again.
 
 At the beginning of the phase, an updraft will spawn in the center of the arena, allowing players to glide into the hexagonal formations after they are locked down with [Fulgent Fences]. Similar updrafts will spawn on each [Trascendent Boulder]'s death, allowing players to exit and return to the boss at the end of the split phase.
 
-Both [Trascendent Boulders] will start casting [Sparkling Reverberation], unlocking their <img class="inline defiance"> [Defiance Bar]. After this attack concludes, either with a complete channel or with the squad breaking the boulder's defiance, boulders will start chain casting [Seismoelectricity] until they reach 1% health (see <img class="inline linked"> [Linked]) or die.
-
-During this time, Decima will start anew with her attack loop, which is the same as in the previous phase.
+Both [Trascendent Boulders] will begin by casting [Sparkling Reverberation], unlocking their <img class="inline defiance"> [Defiance Bar]. After this attack concludes, either with a complete channel or with the squad breaking the boulder's defiance, they will start chain casting [Seismoelectricity] until they reach 1% health (see <img class="inline linked"> [Linked]) or die.
 
 #### 80% - 70%
 {: .no_toc}
@@ -380,7 +394,7 @@ Both [Trascendent Boulders] have been killed, meaning that Decima is once again 
 
 #### 70% Transition
 {: .no_toc}
-Once Decima reaches 70% of her health, she performs a series of attacks that transitions her into the second phase:
+Once Decima reaches 70% of her health, she performs a sequence that transitions her into the second phase:
 1. Decima gains <img class="inline nova-shield"> [Nova Shield].
 2. Decima will [Seismic Reposition] to the center of the arena.
 3. Decima starts channeling her [Flux Nova], unlocking her <img class="inline defiance"> [Defiance Bar], and simultaneously casts [Chorus of Thunder].
@@ -450,7 +464,7 @@ flowchart LR
 ```
 {: .center}
 
-This loop is, in essence, identical to its behaviour in the previous phase, but substittues [Fluxlance Fusillade] for the more dangerous [Fluxlance Salvo]. On the second and every other [Fluxlance Salvo] thereafter, one of the fluxlances will be a [Red Fluxlance].
+This loop is, in essence, identical to its behaviour in the previous phase, but substitues [Fluxlance Fusillade] for the more dangerous [Fluxlance Salvo]. On the second and every other [Fluxlance Salvo] thereafter, one of the fluxlances will be a [Red Fluxlance].
 
 Conduit movements in this phase are shown in the following short video, where each vertex of the colored shapes is a conduit.
 
@@ -460,7 +474,7 @@ Conduit movements in this phase are shown in the following short video, where ea
 
 #### 50% Split Phase
 {: .no_toc}
-This split phase is essentially identical to the [80% Split Phase](#80-split-phase), with one major difference: both [Trascendent Boulders] will follow [Sparkling Reverberation] with a cast of [Sparkwave](#sparkwave). This is an extremely dangerous skill, and both it and the [Charged Ground] it generates must be avoided or managed with extreme care. This phase is often a major hurdle to progression.
+This split phase is essentially identical to the [80% Split Phase](#80-split-phase), with one major difference: once their <img class="inline defiance"> [Defiance Bar] is broken, [Trascendent Boulders] will start periodically casting [Sparkwave](#sparkwave). This is an extremely dangerous skill, and both it and the [Charged Ground] it generates must be avoided or managed with extreme care, making this phase a major hurdle to progression.
 
 #### 50% - 40% and 40% Tranistion
 {: .no_toc}
@@ -471,7 +485,7 @@ This phase and the transition to the following phase are essentially identical t
 ### Third Phase
 This phase consists of one large burn from 40% to 10% of Decima's HP. It differs significatively from the previous phases, as Decima will often make use of her [Seismic Reposition] to move around the arena. This phase will also introduce two new attacks: [Focused Fluxlance] and [Converging Fluxlances].
 
-At the beginning of the phase, Decima will summon two [Trascendent Boulders]. These adds are not targetable and cannot be interacted with. They do not <img class="inline linked"> [Link] with the boss, and do not cast any skills except for participating in [Converging Fluxlances]. Decima will then [Seismic Reposition], and begin the following attack loop:
+At the beginning of the phase, Decima will summon two [Trascendent Boulders]. These are not targetable and cannot be interacted with. They do not <img class="inline linked"> [Link] with the boss, and do not cast any skills except for participating in [Converging Fluxlances]. Decima will then [Seismic Reposition], and begin the following attack loop:
 
 ```mermaid
 flowchart LR
@@ -549,19 +563,21 @@ Once at the center, the squad will have some time to damage her while she does t
 2. [Fulgent Fences].
 3. [Fluxlance Salvo], with one fluxlance being a [Red Fluxlance].
 
-Once this sequence is complete, Decima will start rapidly gaining <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] while chain-casting [Chorus of Thunder]. This results in all conduits quickly being charged (sometimes even double charged as she casts choruses faster than they can charge pylons!). Throughout this she will sporadically spawn [Dancing Sparks], until all conduits are charged, at which point every conduit will start simultaneously spawning [Dancing Spark], which combined with continous [Discordant Thunder] casts will rapidly lead to defeat unless the boss is defeated quickly.
+Once this sequence is complete, Decima will start rapidly gaining <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] while chain-casting [Chorus of Thunder]. This results in all [Conduits] quickly being charged. Sometimes conduits will double charge, as they will be targeted by a new [Chorus of Thunder] during the resolution of a previous cast. 
+
+Throughout this, conduits will sporadically spawn [Dancing Sparks]. Then, once all conduits are charged, every conduit will start simultaneously spawning [Dancing Sparks]. This, combined with continous [Discordant Thunder] casts, will rapidly lead to defeat unless the boss is killed.
 
 #### Peals Gained
 {: .no_toc}
-The order in which Decima gains <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] is deterministic, though hard to keep track of and not especially useful. She wll gain:
+The sequence in which Decima gains <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] throughout the final phase is deterministic, though hard to keep track of. She wll gain:
 - +1 <img class="inline harmony"> [Peal of Harmony] at 7, 4 and 1% HP.
 - +1 of both peals at 3, 5, 7 and 9 seconds after the start of the phase. On the first and last of this set, these will be used instantly to cast [Chorus of Thunder]. Sometimes the first one will not increase the targeted [Conduit]'s charge.
-arrows happen here
-- +3 of both peals at 21 seconds after the start of the phase start, instantly used by [Chorus of Thunder].
+- +3 of both peals at 21 seconds after the start of the phase, instantly used by [Chorus of Thunder].
 - +4 of both peals at 23 seconds. <img class="inline harmony"> [Peal of Harmony] will instantly be used by [Harmonious Thunder].
 - +4 of both peals at 25 seconds.
-- +5 of both peals at 29 seconds and every 2 seconds after. These cannot take Decima above 10 stacks so the third and onwards are often useless.
-Credit to @Tsaerid for researching this.
+- +5 of both peals at 29 seconds and every 2 seconds after. These cannot take Decima above 10 stacks so the third and onwards often will have no effect.
+
+(Credit to @Tsaerid for researching this)
 
 ---
 
