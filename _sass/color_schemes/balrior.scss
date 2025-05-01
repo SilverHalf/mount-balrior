@@ -1,7 +1,7 @@
 @import "./color_schemes/dark";
 
-$link-color: #c6a800;
-$body-heading-color: #c6a800;
+$link-color: #e0be00;
+$body-heading-color: $link-color;
 $sidebar-color: #1e1e1e;
-$nav-child-link-color: #c6a800;
-$body-background-color: rgb(33, 35, 37);
+$nav-child-link-color: $link-color;
+$body-background-color: #212325;

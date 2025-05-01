@@ -2,7 +2,7 @@
 
 This is a website that contains guides and information for the [Mount Balrior](https://wiki.guildwars2.com/wiki/Mount_Balrior) raid instance in [Guild Wars 2](https://www.guildwars2.com).
 
-This website is build using [Jekyll] and the [Just the Docs] theme, enabling it to be previewed locally and then published on [GitHub Pages] using the [GitHub Pages / Actions workflow].
+This website is built using [Jekyll] and the [Just the Docs] theme, enabling it to be previewed locally and then published on [GitHub Pages] using the [GitHub Pages / Actions workflow].
 
 ## Viewing the site locally
 
@@ -21,6 +21,17 @@ The built site is stored in the directory `_site`.
 Contributions are very welcome, as the project is in its starting phases.
 
 If you are interested in adding information to the guide or fixing current information, please contact me here or on Discord (silverhalf).
+
+What needs to be done:
+- [x] Decima Overview
+- [x] Decima Mechanical Reference
+- [ ] Decima Strategy
+- [x] Greer Overview
+- [ ] Greer Mechanical Reference
+- [ ] Greer Strategy
+- [x] Ura Overview
+- [ ] Ura Mechanical Reference
+- [ ] Ura Strategy
 
 ## Licensing and Attribution
 

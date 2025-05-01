@@ -5,9 +5,11 @@ nav_order: 2
 parent: Godscream Ura
 ---
 
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+
 # Example Strategy
 
-This page will contain detailed information on a specific strategy to face the boss. This first paragraph should give an overview of the strategy, with its peculiarities and motivations, and its pros and cons.
+This page will contain detailed information on a specific strategy to face the boss. As of now no work has been done yet, so feel free to contribute your own strategies!
 
 ## 100% - 70%
 
