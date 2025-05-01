@@ -5,9 +5,10 @@ nav_order: 2
 has_toc: false
 ---
 
-[Return to Home](../index.html){: .btn }
-
 # Godsquall Decima
+{: .center}
+
+[Return to Home](../index.html){: .btn } [Strategy Guide](./example-strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 {: .center}
 
 <img src="../images/decima.webp" />
@@ -16,7 +17,6 @@ has_toc: false
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 750 |
 | **Defiance** | 7500 |
-| **Instance**| Day |
 | **Enrage Timer** | 10 minutes - kills all players on running out. |
 
 ---
@@ -27,6 +27,6 @@ Most of Decima's mechanics and attacks are based on the players' distance from t
 
 This does not mean however that it is easy: groups heading into Godsquall Decima's arena will require good healing and <img class="inline protection"> [Protection](https://wiki.guildwars2.com/wiki/Protection) uptime, <img class="inline stability"> [Stability](https://wiki.guildwars2.com/Stability), and precise control of their <img class="inline defiance"> [Defiance](https://wiki.guildwars2.com/wiki/Defiance_bar) damage.
 
-The fight also becomes much easier with higher DPS, as the group will be able to skip mechanics, and the final phase is a difficult damage check.
+The fight also becomes much easier with higher damage, as the group will be have to play less mechanics. Furthermore, the final phase is a difficult damage check.
 
 [Return to Home](../index.html){: .btn } [Strategy Guide](./example-strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
