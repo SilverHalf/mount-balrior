@@ -5,6 +5,8 @@ nav_order: 1
 parent: Godspoil Greer
 ---
 
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./example-strategy.html){: .btn }
+
 # Godspoil Greer: Mechanics
 
 
