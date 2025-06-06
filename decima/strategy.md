@@ -7,7 +7,7 @@ parent: Godsquall Decima
 
 [Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 
-# Recommended Strategy
+# Decima Recommended Strategy
 
 This strategy is a written version of this [PoV](https://www.youtube.com/watch?v=Qsf582waMDM), and is designed for achievment runs, minimizing overlap and difficulty of mechanics while also requiring the least possible movement.
 
@@ -137,6 +137,8 @@ At the beginning, a set of [Fluxlances] and [Thunders] must be played. Make sure
 After this, stack up at the boss and dps. Throughout this phase, [Thunders] will spawn continously, which should be dodged into the boss. This is because around the boss, conduits will gradually come closer and closer and dodging backward or sideways will hit and charge them.
 
 Additionally, Green collections will spawn as well, gradually escalating from only a few greens to massive simultaneous 18-conduit discharges. Try to block them as well as you can, while focusing on dps and dodging [Thunders]. If 10 Greens move into Decima's hitbox, Decima will become invulnerable and you will wipe. Hence it is important to block as many as possible. Doing this successfully and keeping up damage while avoiding downs will lead you to a successful clear.
+
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#decima-recommended-strategy){: .btn .fixed}
 
 [Fluxlance]: mechanics.html#fluxlances
 [Fluxlances]: mechanics.html#fluxlances

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Decima Mechanics
+title: Mechanics
 nav_order: 1
 parent: Godsquall Decima
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./default-strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
 
 # Decima Mechanical Reference
 {: .no_toc}
