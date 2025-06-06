@@ -51,7 +51,7 @@ Decima starts with the attack pattern shown [here](mechanics.html#100---80). The
 
 The kiter should instead go to roughly the <img class='inline arrow'> marker (see image below) in order to bait [Thunder] into charging up the correct conduits. The kiter should try not to charge up any of the conduits that make up the outer ring furthest from Decima, because those will encircle Decima in the split phase, making collecting their [Greens] much more difficult (see [this](mechanics.html#80-split-phase) animation).
 
-<img class="center" width="80%" src="../images/decima/strategy/bait_conduits_p1.png" />
+<img class="center" width="80%" src="../images/decima/strategy/bait_conduits_p1.webp" />
 
 Shortly after, the [Fluxlances] will fire. Make sure to not hit any conduits and then quickly group up on the <img class='inline circle'> marker and heal up and give <img class='inline stability'> [Stability] to prevent the knockback from [Seismic Crash]
 
@@ -71,7 +71,7 @@ The ranged and melee group should walk together to their respective closest [Tra
 
 While dps'ing the [Transcendent Boulder] adds down as fast as possible, it's important to not use any skills with Breakbar damage in order to skip their dangerous follow-up attacks. Decima will continue her attack loop from where she left off after jumping, resulting in a set of [Fluxlances] and [Thunders] that must be played. The ranged group should thus position themselves from the [Transcendent Boulder] add outward, and the melee group inward, in order to bait the mechanics properly. The melee group can simply dodge their [Thunders], while the ranged group needs to pay attention to not charge any extra conduits. See the image below for an example spread:
 
-<img class="center" width="80%" src="../images/decima/strategy/bait_fluxlance_split1.png" />
+<img class="center" width="80%" src="../images/decima/strategy/bait_fluxlance_split1.webp" />
 
 After the Fluxlances and Thunders, the two healers can open their portals to get everyone back to Decima. The ranged group should be ported outside the cage, while the melee group should optimally be ported into the cage.
 
@@ -116,7 +116,7 @@ Next, Decima will [Seismic Reposition] to a different position. Be ready to prov
 After the jump, Decima will start with [Foreshock & Mainshock] again. Toward the end, once the pizza attack appears, the kiter wants to make their way to bait conduits and the next [Red Fluxlances] close to the conduits that are already charged, in order to make the [Greens] come only from one side. The kiter will then need to deal with [Converging Fluxlances], which requires accurate positioning to block the [Red Fluxlance] while avoiding charging any conduits with standard [Fluxlances] (represented with the blue circle below).
 
 <img class="center" width="70%" src="../images/decima/strategy/converging-fluxlances.webp" />
-<img class="center" width="70%" src="../images/decima/strategy/bait_conduits_p3.png" />
+<img class="center" width="70%" src="../images/decima/strategy/bait_conduits_p3.webp" />
 
 Afterwards, the kiter should move back to the stack, and Decima's attack pattern starts anew. Once you see the pizza attack, in addition to baiting the five [Fluxlance], the kiter will again need to bait the Green Arrow and the next set of charging up conduits. The bait for the Green arrow should this time go to the left-hand side, since the melee group is standing to the right of Decima.
 
