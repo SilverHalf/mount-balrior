@@ -8,7 +8,7 @@ has_toc: false
 # Godsquall Decima
 {: .center}
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./example-strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 {: .center}
 
 <img src="../images/decima.webp" />
@@ -29,4 +29,4 @@ This does not mean however that it is easy: groups heading into Godsquall Decima
 
 The fight also becomes much easier with higher damage, as the group will be have to play less mechanics. Furthermore, the final phase is a difficult damage check.
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./example-strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }

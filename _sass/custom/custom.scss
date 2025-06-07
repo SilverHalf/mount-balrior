@@ -12,6 +12,10 @@
     justify-content: space-between;
 }
 
+.white {
+    color: white;
+}
+
 .index-button {
     border: 3px outset;
     background-size: cover;
@@ -55,4 +59,12 @@
     bottom: 20px;
     right: 30px;
     z-index: 99;
+}
+
+.wrap {
+    white-space: initial;
+}
+
+summary {
+    color: $link-color;
 }
