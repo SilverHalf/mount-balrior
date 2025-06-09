@@ -47,7 +47,7 @@ Very shortly after, there will be some Greens that need to be solved. These come
 
 Reeg and Greer might also use artillery skills during that time, so have your [Corrosive Poison Cloud] and [Feedback] ready to use it on top of the squad. After Reeg has disappeared, the Celestial Scourge stays on the outer side of Greer until Greer has used the cone attack again (even when Reeg is already despawned, wait for the cone attack) and everyone else can go behind Greer already (same as the start of the fight in phase 1).
 
-The rest of this phase is similar to the first phase. Deal with the mechanics appropriately (block Orbs, Stability Swipe, Precog Slam, ..), with a Breakbar that appears at 60%. Similar to before, after breaking the bar, Elite Empowering Beasts will appear and cast [Empowering Blast] toward Greer, so make sure to block all of those and communicate if any backup projectile block is needed.
+The rest of this phase is similar to the first phase. Deal with the mechanics appropriately (block Orbs, Stability Swipe, Precog Slam, ..), with a Breakbar that appears at 50%. Similar to before, after breaking the bar, Elite Empowering Beasts will appear and cast [Empowering Blast] toward Greer, so make sure to block all of those and communicate if any backup projectile block is needed.
 
 ## Second Split Phase
 

@@ -66,6 +66,22 @@
 	content: url('https://wiki.guildwars2.com/images/thumb/8/80/Debilitated.png/30px-Debilitated.png');
 }
 
+.poison {
+	content: url('https://wiki.guildwars2.com/images/1/11/Poisoned.png');
+}
+
+.confusion {
+	content: url('https://wiki.guildwars2.com/images/e/e6/Confusion.png');
+}
+
+.bleeding {
+	content: url('https://wiki.guildwars2.com/images/3/33/Bleeding.png');
+}
+
+.cripple {
+	content: url('https://wiki.guildwars2.com/images/f/fb/Crippled.png');
+}
+
 // Skills
 
 .evade{
@@ -111,11 +127,26 @@
 }
 
 .linked {
-	content: url(https://wiki.guildwars2.com/images/d/d7/Sinister_Thread.png);
+	content: url('https://wiki.guildwars2.com/images/d/d7/Sinister_Thread.png');
 }
+
+// Greer Mechanics
+
+.plague-rot {
+	content: url('https://wiki.guildwars2.com/images/thumb/8/89/Infectious_Rot.png/20px-Infectious_Rot.png');
+}
+
+.target {
+	content: url('https://wiki.guildwars2.com/images/thumb/0/09/Target.png/20px-Target.png');
+}
+
 
 // Other
 
 .knockback{
 	content: url('https://wiki.guildwars2.com/images/c/ca/Knockback.png');
+}
+
+.knockdown{
+	content: url('https://wiki.guildwars2.com/images/3/36/Knockdown.png');
 }
