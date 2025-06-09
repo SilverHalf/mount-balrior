@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Decima Mechanics
+title: Mechanics
 nav_order: 1
 parent: Godsquall Decima
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./default-strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
 
 # Decima Mechanical Reference
 {: .no_toc}
@@ -543,7 +543,7 @@ Decima stomps three times, dealing moderate damage in 3 large AoEs.
 
 #### Mainshock
 {: .no_toc}
-Always cast after Foreshock:  a "pizza" attack centered on Decima. Deals significant damage and additionally inflicts 25 <img class="inline vuln"> [Vulnerability]. Players hit by multiple "slices" will recieve multiple instances of this damage.
+Always cast after Foreshock:  a "pizza" attack centered on Decima. Deals significant damage and additionally inflicts 1.5 seconds of <img class="inline cripple"> [Cripple]. Players hit by multiple "slices" will recieve multiple instances of this damage.
 
 Foreshock and Mainshock are used regularly by Decima as part of her attack loop, and are always directed towards the closest player.
 
@@ -590,7 +590,7 @@ If Decima gains 10 stacks of <img class="inline charge"> [Charge] or the enrage 
 
 ### Trascendent Boulders
 {: .no_toc}
-Dangerous minions that spawn during the split phases at 80% and 50% of Decima's HP, and at the beginning of the third phase.
+Dangerous minions that spawn during the split phases at 70% and 50% of Decima's HP, and at the beginning of the third phase.
 
 | **Health** | 1,533,636 	 |
 | **Armor** |  2597 (standard) |
@@ -742,3 +742,4 @@ The two [Trascendent Boulders] link to each other and gain this effect. Whenever
 [Defeating]: https://wiki.guildwars2.com/wiki/Defeated
 [Debilitated]: https://wiki.guildwars2.com/wiki/Debilitated_(raid)
 [Vulnerability]: https://wiki.guildwars2.com/wiki/Vulnerability
+[Cripple]: https://wiki.guildwars2.com/wiki/Cripple
