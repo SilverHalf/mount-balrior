@@ -18,6 +18,10 @@
 	content: url('https://wiki.guildwars2.com/images/0/06/Resolution.png');
 }
 
+.quickness{
+	content: url('https://wiki.guildwars2.com/images/b/b4/Quickness.png');
+}
+
 .might{
 	content: url('https://wiki.guildwars2.com/images/7/7c/Might.png');
 }
@@ -66,10 +70,46 @@
 	content: url('https://wiki.guildwars2.com/images/thumb/8/80/Debilitated.png/30px-Debilitated.png');
 }
 
+.poison {
+	content: url('https://wiki.guildwars2.com/images/1/11/Poisoned.png');
+}
+
+.confusion {
+	content: url('https://wiki.guildwars2.com/images/e/e6/Confusion.png');
+}
+
+.bleeding {
+	content: url('https://wiki.guildwars2.com/images/3/33/Bleeding.png');
+}
+
+.cripple {
+	content: url('https://wiki.guildwars2.com/images/f/fb/Crippled.png');
+}
+
 // Skills
 
 .evade{
 	content: url('https://wiki.guildwars2.com/images/b/b2/Dodge.png');
+}
+
+.distortion {
+	content: url('https://wiki.guildwars2.com/images/thumb/2/22/Distortion.png/72px-Distortion.png');
+}
+
+.feedback {
+	content: url('https://wiki.guildwars2.com/images/thumb/6/69/Feedback.png/72px-Feedback.png');
+}
+
+.cpc {
+	content: url('https://wiki.guildwars2.com/images/thumb/3/3e/Corrosive_Poison_Cloud.png/72px-Corrosive_Poison_Cloud.png');
+}
+
+.precog {
+	content: url('https://wiki.guildwars2.com/images/thumb/4/4a/Well_of_Precognition.png/72px-Well_of_Precognition.png');
+}
+
+.inversion {
+	content: url('https://wiki.guildwars2.com/images/thumb/3/3b/Imaginary_Inversion.png/50px-Imaginary_Inversion.png')
 }
 
 // Decima Mechanics
@@ -111,8 +151,20 @@
 }
 
 .linked {
-	content: url(https://wiki.guildwars2.com/images/d/d7/Sinister_Thread.png);
+	content: url('https://wiki.guildwars2.com/images/d/d7/Sinister_Thread.png');
 }
+
+
+// Greer Mechanics
+
+.plague-rot {
+	content: url('https://wiki.guildwars2.com/images/thumb/8/89/Infectious_Rot.png/20px-Infectious_Rot.png');
+}
+
+.target {
+	content: url('https://wiki.guildwars2.com/images/thumb/0/09/Target.png/20px-Target.png');
+}
+
 
 // Classes
 
@@ -120,9 +172,14 @@
 	content: url(https://wiki.guildwars2.com/images/e/e0/Chronomancer_icon_small.png);
 }
 
+.herald {
+	content: url(https://wiki.guildwars2.com/images/3/39/Herald_icon_small.png);
+}
+
 .scourge {
 	content: url(https://wiki.guildwars2.com/images/e/e8/Scourge_icon_small.png);
 }
+
 
 .specter {
 	content: url(https://wiki.guildwars2.com/images/6/61/Specter_icon_small.png);
@@ -142,8 +199,21 @@
 	content: url(https://wiki.guildwars2.com/images/thumb/3/32/Commander_heart_marker.png/45px-Commander_heart_marker.png);
 }
 
+
 // Other
 
 .knockback{
 	content: url('https://wiki.guildwars2.com/images/c/ca/Knockback.png');
+}
+
+.knockdown{
+	content: url('https://wiki.guildwars2.com/images/3/36/Knockdown.png');
+}
+
+.power {
+	content: url('https://wiki.guildwars2.com/images/2/23/Power.png');
+}
+
+.condition {
+	content: url('https://wiki.guildwars2.com/images/5/54/Condition_Damage.png');
 }
