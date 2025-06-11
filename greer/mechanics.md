@@ -28,12 +28,12 @@ The rest of this page is structured into the following sections:
 
 ## Overview
 
-Greer's basic attack pattern centers around a handful of skills that are on individual cooldowns, priorities and line of sight/range conditions. The area affected by some of his abilities also grow in size in later phases. The fight is separated into main and split phases, which are triggered by hitting some specific Greer health thresholds.
+Greer's basic attack pattern centers around a handful of skills that have individual cooldowns, priorities and line of sight/range conditions. This means that while there is some randomness in the encounter, repeatable patterns often occur as high priority skills come off cooldown ar roughly the same instants over multiple pulls. The fight is separated into various main and split phases, with transitions triggered by hitting specific health thresholds.
 
 ### Enemy entities
 {: .no_toc}
 
-During the [Greer encounter], you will have to deal with multiple different enemies on top of [Greer]: the three lesser Titans ([Ereg], [Gree] and [Reeg]), Champion Proto-Greerlings and some weaker [Elite Empowering Beast].
+During the [Greer encounter], you will have to deal with multiple different enemies on top of [Greer]: the three lesser Titans ([Ereg], [Gree] and [Reeg]), three Champion Proto-Greerlings and some weaker [Elite Empowering Beast]s.
 
 | **Enemy** | **Health** | **Hitbox** | **Defiance Bar** |
 | Godspoil Greer | 47,188,800 | 800 | 6000 |
@@ -47,30 +47,42 @@ During the [Greer encounter], you will have to deal with multiple different enem
 ### Boons on the titans
 {: .no_toc}
 
-The fight starts with [Greer], [Gree], [Reeg], and [Ereg] all being alive and attackable at their specific spawn location. While [Gree], [Reeg], or [Ereg] are alive (called, the lesser titans, hereafter), they will give boons that are shared between each other and [Greer]. Gree gives <img class="inline protection"> [Protection], Reeg <img class="inline resolution"> [Resolution] and Ereg <img class="inline might"> [Might]. Bringing the lesser titans to a certain health threshold makes them despawn for the current phase and consequently prevents the respective from being applied. Hence, Power-based squad compositions should start on [Gree], while Condition-based squads should focus on [Reeg]. The two health thresholds are 75% in the first main phase and 25% in the second main phase, after which the respective lesser titan will disappear from the main phase and only reappear again in the split phase.
+The fight starts with [Greer], [Gree], [Reeg], and [Ereg] all being alive and vulnerable at their specific spawn location. While [Gree], [Reeg], or [Ereg] are alive (called, the lesser titans, hereafter), they will give boons that are shared between each other and [Greer]. Gree gives <img class="inline protection"> [Protection], Reeg <img class="inline resolution"> [Resolution] and Ereg <img class="inline might"> [Might].
+
+Bringing the lesser titans below certain health thresholds makes them despawn for the current phase and consequently prevents their respective boon from being applied. These thresholds are 75% for the first main phase and 25% for the second main phase. For this reason, <img class='inline power'> [Power]-based squad compositions should start on [Gree], while <img class='inline condition'> [Condition]-based squads should focus on [Reeg].
 
 ### Table of Mechanics
 {: .no_toc}
-The following enemy attacks are used in the [Greer encounter] (more details in the mechanics section below):
+The following attacks and abilities are used by enemies in the [Greer encounter]:
 
 | **Attack** | **Common Name** | **Target** | **Used by (Cooldown [s])** | **Brief Description** |
-| [Blob of Blight] | Death orbs | Furthest player | Greer (120), Reeg (75), Ereg (75) | 3 subsequent large homing orbs that spawn projectiles. |
+| [Blob of Blight] | Death orbs | Three furthest players | Greer (120), Reeg (75), Ereg (75) | Large homing orbs that <img class="inline knockback"> [Knockback] and spawn projectiles. |
 | [Cage of Decay] | Arrows | Tank | Greer (120), Gree (30) | 5 Arrows that spawn projectiles starting with the two outer Arrows going inward. The projectiles spawn [Noxious Blight] pools once they reach the end of their track, or when they hit the edge of the arena. |
-| [Empowering Blast] | Empowered orbs/Small orbs | Greer and other lesser Titans | lesser titans (10) | Small purple orbs that give [Empowered] stacks to their target. |
+| [Empowering Blast] | Empowered orbs/Small orbs | Greer and other lesser Titans | lesser titans (10) | Small purple orbs that give <img class='inline empowered'> [Empowered] stacks to their target. |
 | [Enfeebling Miasma] | Cones, Poison cones | Tank | Greer (120), Reeg (75), Ereg, (75) | An attack spawning three cones with an outgoing poisonous gas that applies <img class="inline poison"> [Poison] and leaves behind [Noxious Blight] pools. |
-| [Eruption of Rot] | Greens | Random | Greer (120), lesser titans (75) | Large Greens AoEs centered around players that need either 2, or 3 players inside them when exploding. |
-| [Rain of Spores] | Artillery barrage | Furthest players | Greer (120), Reeg (120), Ereg (120) | A barrage of projectiles indicated by small AoEs dealing damage and applying <img class="inline poison"> [Poison] and <img class="inline confusion"> [Confusion] when exploding on impact. |
-| [Ripples of Rot] | Jump | Closest player, but only if no player is in their extended melee range | Greer (120), Gree (30) | Jumps toward his target, dealing damage and inflicting <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding]  and [Plague Rot] |
-| [Scattering Sporeblast] | Barrage | Tank | Greer (12), Reeg (8), Ereg (8) | Shoots damaging spores that can be projectile blocked to targets in front of the caster. |
-| [Stomp the Growth] | Slam, Stomp, Wave | Tank | Greer (2), Gree (2), Reeg (2) | A three-part attack chain that can be mitigated by <img class="inline aegis"> [Aegis], blocks, or dodge. The first two attacks are damaging AoE slams and the third and final part releases a boon corrupting wave that deals damage, corrupts boons, and applies <img class="inline vuln"> [Vulnerability] and <img class="inline knockdown"> [Knockdown]. |
-| [Sweep the Mold] | Autoattack, Cone | Tank | Greer (2), Gree (2) | Two subsequent cone attacks that apply damage, <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding] and <img class="inline poison"> [Poison] for the first swipe and damage, <img class="inline knockback"> [Knockback], <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second swipe. |
+| [Eruption of Rot] | Greens | Random | Greer (120), lesser titans (75) | Large Green AoEs centered around players that need either 2, or 3 players inside them to be solved. |
+| [Rain of Spores] | Artillery barrage | Furthest players | Greer (120), Reeg (120), Ereg (120) | A barrage of projectiles indicated by small AoEs that explode on impact, dealing damage and applying <img class="inline poison"> [Poison] and <img class="inline confusion"> [Confusion]. |
+| [Ripples of Rot] | Jump | Closest player, but only if no player is in their extended melee range | Greer (120), Gree (30) | A jump attack with a large AoE that deals damage and inflicts <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding]  and <img class="inline plague-rot"> [Plague Rot]. |
+| [Scattering Sporeblast] | Barrage | Tank | Greer (12), Reeg (8), Ereg (8) | A barrage of damaging projectiles that targets enemies in front of the caster. |
+| [Stomp the Growth] | Slam, Stomp, Wave | Tank | Greer (2), Gree (2), Reeg (2) | A three-part attack chain. The first two attacks are damaging AoE slams and the third and final part releases a wave that deals damage, corrupts boons, and applies <img class="inline vuln"> [Vulnerability] and <img class="inline knockdown"> [Knockdown]. |
+| [Sweep the Mold] | Autoattack, Cone | Tank | Greer (2), Gree (2) | Two subsequent cone attacks that deal damage and apply <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding] and <img class="inline poison"> [Poison] for the first one and <img class="inline knockback"> [Knockback], <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second. |
+| <img class="inline plague-rot"> [Plague Rot] | Covid, Reds | - | - | A dangerous debuff applied by some of Greer's abilities that deals damage and corrupts boons in an AoE around the affected player, and can rapidly spread to other players. |
 
 
 ## Phases
 
 There are essentially 3 different types of phases:
 - Burn phases, in which Greer and the lesser titans are attackable.
-- Split phases, in which Greer is invulnerable and the lesser Titans are attackable (at new, different locations) - The 10% phase, in which Greer is invulnerable, but 3 Champion Proto-Greerlings are active (and Ereg, if kept alive).
+- Split phases, in which Greer is <img class='inline invuln'> [Invulnerable] and the lesser Titans are attackable (at new, different locations) - The 10% phase, in which Greer is <img class='inline invuln'> [Invulnerable], but 3 Champion Proto-Greerlings are active (and Ereg, if kept alive).
+
+The fight overall consists of:
+1. A main phase from 100% to 65% health.
+2. A split phase.
+3. A second main phase from 65% to 35% health.
+4. A second split phase.
+5. A third main phase from 35% to 10% health.
+6. The proto-greerling phase.
+7. A final phase from 10% to 0% health.
 
 ### Main Phases
 
@@ -78,53 +90,59 @@ The main phase starts at the beginning of the fight with the following spawnpoin
 
 <img class="center" width="70%" src="../images/greer/mechanics/mainphase_spawnpoints.webp" />
 
-Depending on if you play with a Power, or Condition based squad composition, you will start at a different location:
+During the first two main phases, all lesser titans will not move from these locations. During the third main phase, [Ereg] will be free to move if he is still alive.
 
-- Power compositions will start on [Gree]
-- Condition compositions will start on [Reeg]
+Depending on whether your group is playing with a <img class='inline power'> [Power] or <img class='inline condition'> [Condition] based composition, you will start at a different location:
 
-At the start of phases, high priority skills are usually used, which means [Blob of Blight] (Death Orbs) and [Eruption of Rot] (Greens). The first goal is to bring either Gree, or Reeg to 75%, such that they despawn and with it the respective boon (<img class="inline protection"> [Protection] for [Gree], <img class="inline resolution"> [Resolution] for [Reeg]) will disappear from Greer. Once the lesser titan has disappeared, the main phase revolves around damaging Greer while dealing with his cooldown and priority based attacks and while simultaneously blocking all relevant projectiles, especially [Empowering Blast] from the active lesser titans.
+- <img class='inline power'> [Power] compositions will start on [Gree]
+- <img class='inline condition'> [Condition] compositions will start on [Reeg]
 
-Greer will go invulnerable at 80%, 50%, and 20% of his health and will receive a <img class='inline defiance'> [Defiance Bar], which quickly needs to be broken. Breaking this will spawn 2, 3, and 4 [Elite Empwering Beast]s, respectively, that will start targeting Greer with [Empowering Blast], requiring additional projectile blocks. These should be cleaved when possible.
+At the start of phases, high priority skills are usually used, which means [Blob of Blight] (Death Orbs) and [Eruption of Rot] (Greens). The first goal is to bring either Gree, or Reeg to 75%, such that they despawn and with them their respective boon is removed (<img class="inline protection"> [Protection] for [Gree], <img class="inline resolution"> [Resolution] for [Reeg]).
 
-The first main phase ends at 65%, the second at 35% and the third at 10%. The first two main phases are pretty similar in the amount of mechanics and small orbs from [Empowering Blast] that have to be dealt with. The third main phase is different, because at that point both Gree and Reeg will have been killed already, which removes the need to block their projectiles.
+The main phase then revolves around damaging Greer while dealing with his cooldown and priority based attacks all while simultaneously blocking all relevant projectiles, especially [Empowering Blast] from the active lesser titans.
+
+At 80%, 50%, and 20% of his health, Greer will become <img class='inline invuln'> [Invulnerable], unlocking a <img class='inline defiance'> [Defiance Bar], which needs to be broken quickly. While the defiance bar is active, Greer will continuously spawn AoEs on the group, which deal moderate to high damage. Breaking the bar will spawn several [Elite Empowering Beast]s, respectively, that will start targeting Greer with [Empowering Blast], requiring additional projectile block.
+- Two [Elite Empowering Beast]s will be spawned at 80% HP.
+- Three will be spawned at 40% HP.
+- Four will be spawned at 20% HP.
+
+The first main phase ends at 65%, the second at 35% and the third at 10%. The first two main phases are pretty similar in the amount of mechanics and small orbs from [Empowering Blast] that have to be dealt with. The third main phase is different since both Gree and Reeg will have been killed already, removing the need to block their projectiles.
 
 ---
 
 ### Split Phases
 
-The split phases start once Greer hits 65% and 35% and start with these spawnpoints:
+The split phases start once Greer hits 65% and 35% HP. All lesser titans currently alive will move to a new position, as shown by the following image. 
 
 <img class="center" width="70%" src="../images/greer/mechanics/splitphase_spawnpoints.webp" />
 
-During these phases Greer is invulnerable and does not perform any attacks or mechanics.
+During these phases Greer is <img class='inline invuln'> [Invulnerable] and does not perform any attacks or mechanics, instead remaining at the position he occupied at the end of the previous main phase.
 
-The location of Greer depends where he has been phased, but the lesser titans spawn at those fixed spawnpoints at the start of each split phase. Split phases end when both Reeg and Greer have reached 50% hp (for the first split phase), or 0% (in the second split phase). Because Reeg and Gree are both active again, you usually want to start by killing the Reeg in a Condition based squad, or Gree in a Power based squad first. If are attempting the [Spare the Ereg] achievement, you will keep Ereg alive and want to cleave him as little as possible. Conversely, if you want to kill him, you want to focus Ereg as much as possible, as soon as he is close to the squad. There can be two scenarios:
-1) Ereg is higher HP than the other lesser titans
-2) Ereg has lesser HP than the others.
+Split phases end when both [Reeg] and [Gree] have reached a defined health threshold, that being 50% HP for the first split phase, or 0% for the second. [Ereg] does not count towards the end of the split phase. He will despawn when reaching 50% HP during the first split, or otherwise when the phase ends. If he is alive at the end of the second split phase, he will remain active and mobile throughout the rest of the fight or until killed. 
 
-After the first split phase when Greer is active again, the main phase starts and Ereg will reappear at his main phase spawnpoint in the second case. In the first case, during the first split phase, Ereg will simply disappear at 50%, but you still need to bring both Reeg and Gree to 50% to finish the split phase. At the end of the second split phase, if Ereg is still alive and you want to kill him, usually the squad just stays at Ereg and finishes him, before switching back to Greer.
-
+Usually <img class='inline power'> [Power] compositions will try to focus down [Gree] first, while <img class='inline condition'> [Condition] groups will instead go for [Reeg]. Both will then transition to the remaining lesser titans once the one applying their main antagonistic boon is removed.
 
 ---
 
 ### Proto-Greerling Phase
 
-Once Greer hits 10% of his HP, he will become invulnerable. At the same time, three Champion Proto-Greerlings will appear. They have 12 possible spawn points, out of which three are chosen at random.
+Once Greer hits 10% of his HP, he will become <img class='inline invuln'> [Invulnerable]. At the same time, three Champion Proto-Greerlings will appear. They have 12 possible spawn points, out of which three are chosen at random.
 
 <img class="center" width="70%" src="../images/greer/mechanics/protolings_spawnpoints.webp" />
 
-These Champions will continously perform the basic attack chains: [Sweep the Mold], [Stomp the Growth] and [Scattering Sporeblast]. This means this phase has a very high level of incoming damage and needs constant projectile block. Because Greer keeps using his abilities, in particular [Blob of Blight], [Eruption of Rot] and [Ripples of Rot], the squad should quickly react and deal with these mechanics.
+These Champions will continously perform the basic attack chains: [Sweep the Mold], [Stomp the Growth] and [Scattering Sporeblast]. This means this phase has a very high level of incoming damage and requires constant projectile block.
+
+Greer will remain fully active throughout this phase. The squad should pay attention to his highly disruptive mechanics, in particular [Blob of Blight], [Eruption of Rot] and [Ripples of Rot].
 
 --- 
 
 ### Sub 10% Phase
 
-Once the three Champions have been defeated, Greer becomes vulnerable for 30 seconds, after which the champtions respawn and the invulnerability is re-applied. This ususally leads to a wipe due to the tight enrage timer.
+Once the last champiton has been defeated, Greer becomes vulnerable for 30 seconds. After this time passes, the champtions respawn and he becomes <img class='inline invuln'> [Invulnerable] once more untill they are dead. This ususally leads to a wipe due to the tight enrage timer.
 
-Always try to prepare for the burn phase approriately by having major cooldowns ready or by prestacking Conditions on Greer while finishing the last Champion. It can be beneficial to kill the final champion close to Greer for this reason.
+While this phase is functionally identical to a main phase, the time limit means that it must be approached in a fundamentally different manner. Always try to prepare approriately by having major cooldowns ready or by prestacking conditions on Greer while finishing the last Champion. It can be beneficial to kill the final champion close to Greer for this reason.
 
-During this phase you only have to deal with Greer's attacks (and Ereg's if he's alive), but because Greer might have a lot of <img class="inline empowered"> [Empowered] stacks at this point, every attack is deadly, especially [Stomp the Growth].
+During this phase you only have to deal with Greer's attacks (and [Ereg]'s if he's alive), but because Greer often has a lot of <img class="inline empowered"> [Empowered] stacks at this point, every attack is deadly, especially [Stomp the Growth].
 
 
 ---
@@ -133,7 +151,7 @@ During this phase you only have to deal with Greer's attacks (and Ereg's if he's
 
 This section contains a full, in-depth explanation of all mechanics in the [Greer encounter].
 
-Generally, there is a skill priority that titans follow, however, this skill priority is often interrupted with the Auto-attack chain [Sweep the Mold]. The full process behind when which attack is used is not yet fully understood. The general priority of skills is roughly as follows:
+Generally, there is a skill priority that titans follow, however, this skill priority is often interrupted with the Auto-attack chain [Sweep the Mold]. The full logic behind how Greer selects what attacks to use is not yet fully understood. The general priority of skills is roughly as follows:
 1. [Blob of Blight]
 2. [Eruption of Rot]
 3. [Ripples of Rot] (only when no target is in range)
@@ -149,14 +167,18 @@ Generally, there is a skill priority that titans follow, however, this skill pri
 ### [Blob of Blight]
 {: .no_toc}
 
-[Blob of Blight] is an attack used by Greer (cooldown 120s), Reeg (cooldown 75s) and Ereg (cooldown 75s) and targets the furthest players away. It subsequently spawns 3 homing orbs in front of the caster. The targeted players get notified by a <img class="inline target"> [Target] effect in their boon bar. These homing orbs last for 12 seconds, but can also be despawned by dodging through then them, or by moving into them with active Invulnerabity effects, like [Distortion]. If they are not despawned and the orbs hit a player, they will become stationary and shoot out projectiles, that can quickly become deadly if not avoided.
+An attack used by Greer (cooldown 120s), Reeg (cooldown 75s) and Ereg (cooldown 75s) targeting the three furthest players. These players get notified by a <img class="inline target"> [Target] effect in their boon bar and a pulsing audio cue. Spawns three homing orbs in sequence in front of the caster. These orbs start tracking the targeted players while constantly spawning projectiles.
+
+If they hit a player, they will become stationary for 12 seconds before despawning. The projectiles they summon during this period can quickly become deadly if not avoided.
+
+Moving orbs can also be despawned by evading through then them, or by moving into them with active <img class='inline invuln'> [Invulnerability] effects, such as <img class='inline distortion'> [Distortion]. This does not work for stationary orbs.
 
 ---
 
 ### [Cage of Decay]
 {: .no_toc}
 
-An attack used by Greer (cooldown 120s) and Gree (cooldown 30s). This attacks produces 5 projectiles, marked with 5 Arrows, starting with 2 arrows at the two 180° sides of the caster and going inward by 45° steps. These projectiles <img class="inline knockback"> [Knockback] multiple times while travelling along the path indicated ba the Arrows. Once the projectile hits the end of the path, or hits the edge of the arena, a pool of [Noxious Blight] is generated, which boonstrips and much more importantly applies <img class="inline plague-rot"> [Plague Rot]. You always want to avoid those pools and step away. The projectils themselves can simply be avoided by standing between two Arrows.
+An attack used by Greer (cooldown 120s) and Gree (cooldown 30s). This attacks produces five projectiles, marked with arrow indicators. It starts with 2 arrows directed towards opposite sides of the caster, with the following directed inwards by 45° steps. These projectiles inflict <img class="inline knockback"> [Knockback] multiple times while travelling along their path. Once they reach their maximum travel or hit the edge of the arena, they spawn a pool of [Noxious Blight] which persists for a brief period, stripping boons and applying <img class="inline plague-rot"> [Plague Rot].
 
 ---
 
@@ -164,67 +186,75 @@ An attack used by Greer (cooldown 120s) and Gree (cooldown 30s). This attacks pr
 ### [Empowering Blast]
 {: .no_toc}
 
-An attack used by the three lesser titans: Gree (cooldown 10s), Reeg (cooldown 10s) and Ereg (cooldown 10s). It shoots out small orbs towards other lesser titans and towards Greer. If they hit their target, the target receives 2x stacks of <img class="inline empowered"> [Empowered]. These small orbs can be destroyed by using Projectile block/destruct/reflect abilities. During the first and second main phase, lesser titans will constantly use this ability as long as they are active, which requires frequent projectile block. It's crucial to block those as much as possible, because otherwise Greer will gain too many <img class="inline empowered"> [Empowered] stacks and overwhelm you.
+An attack used by the three lesser titans and by [Elite Empowering Beasts]. It shoots out small orbs towards other lesser titans and towards Greer. If they hit their target, the target receives two stacks of <img class="inline empowered"> [Empowered]. These small orbs can be destroyed by using projectile destruction/reflection skills. During the first and second main phase, lesser titans will constantly use this ability as long as they are active, which requires frequent projectile block. It's crucial to block those as much as possible, because otherwise Greer will gain too many <img class="inline empowered"> [Empowered] stacks and overwhelm you.
 
 ---
 
 ### [Enfeebling Miasma]
 {: .no_toc}
 
-[Enfeebling Miasma] is an attack used by Greer (cooldown 120s), [Reeg] (cooldown 75s) and [Ereg] (cooldown 75s). It spawns three cone indicators that release an outgoing wave, leaving behind clouds of poisonous gas. The waves corrupt boons and apply <img class="inline poison"> [Poison], and should be avoided by either immediately dodging through the casting add, or by standing between the cones. Note that the actual area of effect is larger than the indicator. The poisonous gas clouds are pools of [Noxious Blight], which boonstrip and much more importantly apply <img class="inline plague-rot"> [Plague Rot]. Avoid them at all costs.
+An attack used by Greer (cooldown 120s), [Reeg] (cooldown 75s) and [Ereg] (cooldown 75s). It spawns three cone indicators that release an outgoing wave of miasma, leaving behind clouds of poisonous gas. The waves corrupt boons and applies <img class="inline poison"> [Poison], and should be avoided by either immediately dodging through the casting add, or by standing between the cones. Note that the actual area of effect is larger than the indicator. The poisonous gas clouds are pools of [Noxious Blight], which corrupt boons and apply <img class="inline plague-rot"> [Plague Rot]. Avoid them at all costs.
 
 ---
 
 ### [Eruption of Rot]
 {: .no_toc}
 
-Used by Greer (cooldown 120s) and all three lesser titans (cooldown 75s). Targets a player with a green requires a certain amount of players inside: 3 if the caster is Greer, 2 if the caster is another titan. Failing to solve any Green summons a [Noxious Blight] pool under the targeted player that knocks up, corrupts boons and inflicts <img class="inline plague-rot"> [Plague Rot]. Failing a Green furthermore gives 2x stacks of <img class="inline empowered"> [Empowered] to the caster: for this reason it's always important to have the minimum number of players for each green.
+Used by Greer (cooldown 120s) and all three lesser titans (cooldown 75s). Targets one or mora players with a green AoE requires a certain amount of players inside: 3 if the caster is Greer, 2 if the caster is another titan. Failing to solve any Green summons a [Noxious Blight] pool under the targeted player that knocks up, corrupts boons and inflicts <img class="inline plague-rot"> [Plague Rot]. Failing a Green furthermore gives two stacks of <img class="inline empowered"> [Empowered] to the caster: for this reason it's always important to have the minimum number of players for each green.
 
-Players that stand in multiple greens within a short time interval will go downstate.
+Players that stand in multiple greens within a short time interval will be <img class='inline invuln'> [Downed]. This effect can be evaded with the right timing, or can be avoided with <img class='inline invuln'> [Invulnerability] skills. Similarly, the pool summoned by failed greens can be avoided in the same manner.
 
-Greens can be evaded by evading toward the end of the Green, or by using Invulnerability skills. Note that this only avoids the [Noxious Blight] for the player in question: the other effects function as normal.
-
-The number of Greens spawned from Greer increases in later phases up to a maximum number of three triple Greens.
+The number of Greens spawned by Greer increases in later phases up to a maximum number of three simultaneous three-person Greens.
 
 ---
 
 ### [Rain of Spores]
 {: .no_toc}
 
-Used by Greer (cooldown 120s), [Reeg] (cooldown 120s) and [Ereg] (cooldown 120s). Targets the furthest player, shooting out a barrage of projectiles indicated by small AoEs. These deali damage and apply <img class="inline poison"> [Poison] and <img class="inline confusion"> [Confusion]. The projectiles deal a moderate amount of damage and can be projectile blocked. It's always best to have projectile block for these up as well to mitigate as much damage as possible. Greer uses this attack only when his target is not in melee range
+Used by Greer (cooldown 120s), [Reeg] (cooldown 120s) and [Ereg] (cooldown 120s). Targets the furthest player, shooting out a barrage of projectiles indicated by small AoEs. These deal damage and apply <img class="inline poison"> [Poison] and <img class="inline confusion"> [Confusion]. It's best to have projectile block up for these to mitigate as much damage as possible.
+
+Greer uses this attack only when his target is not in melee range
 
 ---
 
 ### [Ripples of Rot]
 {: .no_toc}
 
-An attack used by Greer (cooldown 120s) and [Gree] (cooldown 30s) that can happen whenever they don't have a melee target available. When this attack is used, the caster jumps toward their target, indicated by a deadly AoE on the ground. The attack deals damage and inflicts <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding] and [Plague Rot]. It's important to not get hit ny this attack, because <img class="inline plague-rot"> [Plague Rot] can very quickly spiral out of control and lead to a wipe. The exact trigger for this attack is not precisely understood, but it's tied to being in a specific range window from the caster, somewhere between 600 and 1000. If you are closer than this, this attack will not be used.
+An attack used by Greer (cooldown 120s) and [Gree] (cooldown 30s) that can happen whenever they don't have a melee target available. When this attack is used, the caster jumps up toward their target, falling down in a deadly AoE that spreads outwards from their point of contact with the ground. The attack deals damage and inflicts <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding] and <img class='inline plague-rot'> [Plague Rot]. 
+
+The exact trigger for this attack is not precisely understood, but it's tied to being in a specific range window from the caster, somewhere between 600 and 1000. If you are closer than this, this attack will not be used.
 
 ---
 
 ### [Scattering Sporeblast]
 {: .no_toc}
 
-Used by Greer (cooldown 12s), [Reeg] (cooldown 8s), [Ereg] (cooldown 8s) and Champion Proto-Greerlings. Shoots damaging spores that can be projectile blocked, targeteting enemies in front of the caster. They deal moderate to high amounts of damage, so make sure to always have projectile blocks up. Since Reeg and Ereg don't have [Sweep the Mold] and [Stomp the Growth] in their skillsets, they will very frequently use hit attack. Greer uses this attack only when his target is not in melee range.
+Used by Greer (cooldown 12s), [Reeg] (cooldown 8s), [Ereg] (cooldown 8s) and Champion Proto-Greerlings. Shoots damaging spores that can be projectile blocked, targeting enemies in front of the caster and dealing moderate to high damage. Since Reeg and Ereg don't have [Sweep the Mold] and [Stomp the Growth] in their skillsets, they will use this attack very frequently. Greer uses this attack only when his target is not in melee range.
 
 ---
 
 ### [Stomp the Growth]
 {: .no_toc}
 
-This attack is used by Greer, Gree and Champion Proto-Greerlings regularly. It is a three-part attack chain that deals heavy damage and corrupts boons. It can be mitigated with <img class="inline aegis"> [Aegis], blocks, or dodge (and jumping for the third part). For Greer, the first two attacks are high damage AoE slams and the third and final part releases a boon corrupting wave that deals damage, corrupts boons, applies <img class="inline vuln"> [Vulnerability] and does a <img class="inline knockdown"> [Knockdown]. For Gree and the Champion Proto-Greerlings, the last part of this attack does not unleash a wave; instead it only deals heavy damage and a a <img class="inline knockdown"> [Knockdown]. This should always be avoided by using one of the effects already mentioned, especially in the later phases when Greer might have high <img class="inline empowered"> [Empowered] stacks.
+A three-part attack chain used by Greer, [Gree] and Champion Proto-Greerlings regularly. The first two attacks are high damage melee AoE slams. The third and final attack has different effects based on the caster: when cast by Greer it releases a wave that deals damage, corrupts boons, and inflicts <img class="inline vuln"> [Vulnerability] and <img class="inline knockback"> [Knockback]; when cast by [Gree] or the Champion Proto-Greerlings, it does not unleash a wave, instead dealing heavy damage and a inflicting <img class="inline knockdown"> [Knockdown].
+
+This attack can be mitigated with <img class="inline aegis"> [Aegis], blocks, or evasion. The wave it generates when cast by Greer can also be jumped.
+
+This attack becomes especially deadly in the later phases of the fight, when Greer often has several stacks of <img class='inline empowered'> [Empowered], due to its high damage and large area of effect.
+
+
 
 ---
 
 ### [Sweep the Mold]
 {: .no_toc}
 
-This attack is used by Greer, Gree and Champion Proto-Greerlings regularly. It consists of two subsequent 60° cones that deal damage and inflict <img class="inline knockback"> [Knockback], <img class="inline bleeding"> [Bleeding] and <img class="inline poison"> [Poison] for the first swipe and  <img class="inline knockback"> [Knockback], <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second swipe. These should either be sidestepped, or ignored by using <img class="inline stability"> [Stability] to prevent the knockback effect. The accompanying conditions and damage can simply be cleansed and outhealed, respectively. The damage component itself of this attack is not that high.
+This attack is used by Greer, [Gree] and Champion Proto-Greerlings regularly. It consists of two subsequent 60° cones that <img class="inline knockback"> [Knockback], deal damage and inflict <img class="inline bleeding"> [Bleeding] and <img class="inline poison"> [Poison] for the first swipe and <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second swipe. The damage component of this attack is not high, so it can be ignored using <img class="inline stability"> [Stability] or otherwise mitigated with <img class="inline aegis"> [Aegis] or by sidestepping.
 
 ---
 
 ## List of Effects
-Greer's encounter has some additional effects that are applied to players, which are listed below for reference purposes.
+Greer's encounter has some additional unique effects, which are listed below for reference purposes.
 
 ---
 
@@ -239,7 +269,11 @@ An effect that is gained by all three titans when players fail mechanics. Increa
 
 ### <img class="inline plague-rot"> Plague Rot
 {: .no_toc}
-An effect that is applied to players hit by a [Cage of Decay], [Enfeebling Miasma], or [Ripples of Rot]. This effect spreads to other players that get touched by the Red AoE around the player. Reaching 10 stacks of <img class="inline plague-rot"> [Plague Rot] will kill the player. Furthermore, <img class="inline plague-rot"> [Plague Rot] regularly boon corrupts and applies <img class="inline poison"> [Poison] every few seconds.
+An debuff that is applied to players hit by a [Cage of Decay], [Enfeebling Miasma], or [Ripples of Rot]. Affected players are surrounded by a red AoE that regularly corrupts boons and applies <img class="inline poison"> [Poison]. This effect spreads to other players the AoE, and if uncontrolled can quickly spread to the entire squad.
+
+The effect is removed is the affected player is <img class='inline invuln'> [Downed], or after a brief time interval.
+
+Reaching 10 stacks of <img class="inline plague-rot"> [Plague Rot] will instantly kill the player.
 
 ---
 
@@ -264,6 +298,7 @@ Describes various stationary AoE pools left behind by some abilities that corrup
 [Reeg]: https://wiki.guildwars2.com/wiki/Reeg,_the_Blighter
 [Ereg]: https://wiki.guildwars2.com/wiki/Ereg,_the_Enabler
 [Elite Empowering Beast]: https://wiki.guildwars2.com/wiki/Elite_Empowering_Beast
+[Elite Empowering Beasts]: https://wiki.guildwars2.com/wiki/Elite_Empowering_Beast
 [Empowering Blast]: #empowering-blast
 [Cage of Decay]: #cage-of-decay
 [Blob of Blight]: #blob-of-blight
@@ -294,3 +329,8 @@ Describes various stationary AoE pools left behind by some abilities that corrup
 [Distortion]: https://wiki.guildwars2.com/wiki/Distortion
 [Spare the Ereg]: https://wiki.guildwars2.com/wiki/Mount_Balrior_(achievements)#achievement8548
 [Defiance Bar]: https://wiki.guildwars2.com/wiki/Defiance_bar
+[Invulnerable]: https://wiki.guildwars2.com/wiki/Invulnerability
+[Invulnerability]: https://wiki.guildwars2.com/wiki/Invulnerability
+[Power]: https://wiki.guildwars2.com/wiki/Power
+[Condition]: https://wiki.guildwars2.com/wiki/Condition_Damage
+[Downed]: https://wiki.guildwars2.com/wiki/Downed
