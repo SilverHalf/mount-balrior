@@ -65,6 +65,7 @@ The following enemy attacks are used in the [Greer encounter] (more details in t
 | [Stomp the Growth] | Slam, Stomp, Wave | Tank | Greer (2), Gree (2), Reeg (2) | Is a three-part attack chain that can be mitigated by <img class="inline aegis"> [Aegis], blocks, or dodge. The first two attacks are damaging AoE slams and the third and final part releases a boon corrupting wave that deals damage, corrupts boons, applies <img class="inline vuln"> [Vulnerability] and does a <img class="inline knockdown"> [Knockdown]. |
 | [Sweep the Mold] | Autoattack, Cone | Tank | Greer (2), Gree (2) | Two subsequent cone attacks that apply damage, <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding] and <img class="inline poison"> [Poison] for the first swipe and damage, <img class="inline knockback"> [Knockback], <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second swipe. |
 
+---
 
 ## Phases
 
