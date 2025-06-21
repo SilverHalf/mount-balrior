@@ -85,12 +85,12 @@ Ura herself is stationary in phase 2 and will not move at all aka not cast [Prop
 ### Phase 3: 40% to 1%
 {: .no_toc}
 
-Phase 3 at 40% always starts with Ura self-interrupting and casting [Pressure Blast], which is included in her skillset during phase 3 again. Additionally, Ura can also cast [Propel] again. Furthermore, the [Toxic Geyser] timing immediately resets and a [Toxic Geyser] spawns at 7 and continues from there. All of this means that the 40% transition in particular can become very quickly and chaotic, so try to be prepared for it. This phase continues until Ura hits 1%, at which point she will become invulnerable and heal herself.
+Phase 3 at 40% always starts with Ura self-interrupting and casting [Pressure Blast], which is included in her skillset during phase 3 again. Additionally, Ura can also cast [Propel] again. This requires that some players need to tank Ura, which means that they need to stand in her field of view, which is roughly a 150° cone. If no player is in Ura's field of view, Ura will use Propel. Furthermore, the [Toxic Geyser] timing immediately resets and a [Toxic Geyser] spawns at 7 and continues from there. All of this means that the 40% transition in particular can become very quickly and chaotic, so try to be prepared for it. This phase continues until Ura hits 1%, at which point she will become invulnerable and heal herself.
 
 ### Phase 4: Healed, 41%/15% to 0%
 {: .no_toc}
 
-When Ura reaches 1% health, Ura heals herself by 15% (CM), or 40% (LM) and the final phase starts with her doing an animation while being invulnerable and clearing all conditions. Ura's skillset is the same as in phase 3. The [Toxic Geyser] pattern continues from phase 3 without any timer/location resets. The only change in Ura's attacks is that [Sulfuric Geyser] now targets two players at once, instead of only one.
+When Ura reaches 1% health, Ura heals herself by 15% (CM), or 40% (LM) and the final phase starts with her doing an animation while being invulnerable and clearing all conditions. Ura's skillset is the same as in phase 3, which means Ura also needs to be tanked. The [Toxic Geyser] pattern continues from phase 3 without any timer/location resets. The only change in Ura's attacks is that [Sulfuric Geyser] now targets two players at once, instead of only one.
 
 > Note: Ura will self-interrupt herself at 40% in phase 4 again due to the self-interrupt that happens from the transition of phase 2 into phase 3. This is an unfortunate bug that can lead to animations being cancelled and Ura incorrectly using Propel.
 
