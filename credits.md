@@ -11,6 +11,7 @@ nav_order: 5
 - [Elite Insights](https://github.com/baaron4/GW2-Elite-Insights-Parser) - images of the encounter arenas, drawn by **@Linus**.
 - **@Tsaerid** - research on Decima sub 10%.
 - **@Minas** - research and write-up on Greer and Ura mechanics, write-up on Decima, Greer and Ura strategies.
+- **@Areki** - research for Ura's skill priority.
 
 
 
