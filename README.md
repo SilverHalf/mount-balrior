@@ -25,12 +25,12 @@ If you are interested in adding information to the guide or fixing current infor
 What needs to be done:
 - [x] Decima Overview
 - [x] Decima Mechanical Reference
-- [ ] Decima Strategy
+- [x] Decima Strategy
 - [x] Greer Overview
-- [ ] Greer Mechanical Reference
-- [ ] Greer Strategy
+- [x] Greer Mechanical Reference
+- [x] Greer Strategy
 - [x] Ura Overview
-- [ ] Ura Mechanical Reference
+- [x] Ura Mechanical Reference
 - [ ] Ura Strategy
 
 ## Licensing and Attribution

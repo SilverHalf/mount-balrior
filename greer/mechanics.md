@@ -68,6 +68,7 @@ The following attacks and abilities are used by enemies in the [Greer encounter]
 | [Sweep the Mold] | Autoattack, Cone | Tank | Greer (2), Gree (2) | Two subsequent cone attacks that deal damage and apply <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding] and <img class="inline poison"> [Poison] for the first one and <img class="inline knockback"> [Knockback], <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second. |
 | <img class="inline plague-rot"> [Plague Rot] | Covid, Reds | - | - | A dangerous debuff applied by some of Greer's abilities that deals damage and corrupts boons in an AoE around the affected player, and can rapidly spread to other players. |
 
+---
 
 ## Phases
 
