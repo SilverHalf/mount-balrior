@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recommended Ura Strategy
+title: Strategy
 nav_order: 2
 parent: Godscream Ura
 ---

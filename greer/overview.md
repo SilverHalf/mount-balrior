@@ -27,3 +27,4 @@ Most of Greer's mechanics are on a cooldown and use a priority system. Greer use
 Greer can be played with a Power or Condition based composition, which is reflected by small changes in where to start the fight and minor changes in the split phase, in order to handle <img class="inline protection"> [Protection](https://wiki.guildwars2.com/wiki/Protection), or <img class="inline resolution"> [Resolution](https://wiki.guildwars2.com/wiki/Resolution) appropriately. Furthermore, the last phase, from 10% to 0%, is a tight dps check, which requires careful planning and clean execution.
 
 [Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+{: .center}
