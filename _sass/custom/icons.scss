@@ -188,11 +188,15 @@
 }
 
 .dispel {
-	content: url('https://wiki.guildwars2.com/images/thumb/0/07/Consume_Bloodstone_Fragment.png');
+	content: url('https://wiki.guildwars2.com/images/thumb/0/07/Consume_Bloodstone_Fragment.png/41px-Consume_Bloodstone_Fragment.png');
 }
 
 .deterrence {
 	content: url('https://wiki.guildwars2.com/images/c/cc/Luck_of_Kings.png');
+}
+
+.saturation {
+	content: url('https://wiki.guildwars2.com/images/4/4d/Heat_Level.png');
 }
 
 // Classes
@@ -245,4 +249,14 @@
 
 .condition {
 	content: url('https://wiki.guildwars2.com/images/5/54/Condition_Damage.png');
+}
+
+.check {
+	width: 2em !important;
+    height: 2em;
+	content: url('/images/green_check.svg');
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
