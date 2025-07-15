@@ -9,9 +9,9 @@ parent: Godscream Ura
 
 # Recommended Ura Strategy
 
-> The following is a strategy that works in Legendary Mode. You can use the same strategy in Challenge Mode in order to already practice for transitioning to LM at some point.
+> The following is a strategy that works in Legendary Mode. You can use the same strategy in Challenge Mode in order to already practice for transitioning to Legendary at some point.
 
-There a few different ways to play Ura. We focus on the following few cornerstones:
+There a few different ways to play Ura. This guide focuses on the following cornerstones:
 - Using numbered Toxic Geysers,
 - Supports doing as many double drops as feasable with Bloodstone Shards,
 - Having at least 2-3 Power based dps for Titanspawn Geysers.
@@ -19,10 +19,16 @@ There a few different ways to play Ura. We focus on the following few cornerston
 This means the squad composition will look roughly look like so:
 
 |       | Heal              | DPS/Hybrid Support | dps       | dps       | dps       |
-| Sub 1 | Heal Chronomancer | DPS Support        | Power dps | Power dps | Power dps |
-| Sub 2 | Heal Chronomancer | Hybrid/Full Heal   | Any dps   | Any dps   | Any dps   |
+| Sub 1 | <img class="inline chrono"> [Chronomancer] | DPS Support        | <img class='inline power'> [Power] | <img class='inline power'> [Power] | <img class='inline power'> [Power] |
+| Sub 2 | <img class="inline chrono"> [Chronomancer] | Hybrid/Full Heal   | Any dps   | Any dps   | Any dps   |
 
-The two [Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBDhZxcYj4RPp2+A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e) typically run a build to be able to solo CC Toxic Geysers. This build maximises healing while being able to solo CC, which is good for LM. For CM where healing pressure is lower, you can also run [this Mesmer Runes build and Mantra of Distraction](https://en.gw2skills.net/editor/?PigEQiWmBzhZxoYj4RPp26A-DSIYYUxXGtkCpXBO+aYICQxfZP0ALtvZBVA-e). The other two supports help out with dropping Bloodstone Shards on Toxic Geysers, while all 6x dps players deal with the melee Bloodstone Shard that needs handling for Titanspawn Geysers and Pressure Blast (bubbles). Note that having a blink skill is beneficial in some situations when dealing with shard drops for Toxic Geysers (in LM in particular). Therefore, you might also decide to use a dps player with a blink skill instead of a dps support that doesn't have a blink skill. In that case, just use that player everytime S1 is mentioned below instead of the support from sub 1.
+The two [Heal Chronomancers](https://gw2skills.net/editor/?PigEQiWmBDhZxcYj4RPp2+A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e) typically run a build to be able to solo CC Toxic Geysers. This build maximises healing while being able to solo CC, which is good for LM. For CM where healing pressure is lower, you can also run a [different build](https://en.gw2skills.net/editor/?PigEQiWmBzhZxoYj4RPp26A-DSIYYUxXGtkCpXBO+aYICQxfZP0ALtvZBVA-e) that has more crowd control in exchange for less healing.
+
+The two available [Bloodstone Shards] are split between two groups:
+- The *Ranged Shard* group, composed of all four support players, that juggle their shard to <img class='inline dispel'> [Dispel] all the [Toxic Geysers].
+- The *Melee Shard* group, composed of the other six DPS players, that juggle their shard to <img class='inline dispel'> [Dispel] all the [Titanspawn Geysers] and [Pressure Blasts].
+
+> Note: having a blink skill is beneficial in some situations when dealing with shard drops for Toxic Geysers, especially in Legendary Mode. Therefore, you might also decide to use a dps player with a blink skill instead of a dps support that doesn't have a blink skill.
 
 The three Power based dps focus and whoever carries the melee Bloodstone Shard at the time a Titanspawn Geyser spawns, quickly go to that Geyser and burst it down. Afterward they return to the boss and stack back up. The other three dps stay on the boss the whole time, but will be actively tanking, which means standing in the fron view of the boss such that Ura does not use Propel to charge away (Ura can still do that based on animation cancels, but this is another issue and unrelated to tanking).
 
@@ -171,3 +177,16 @@ Further notes for LM:
 - Melee attacks from Ventshots can CC players, therefore you want to upkeep Stability as much as possible. For the Heal Chronos this means using all charges of your Stab Mantra off cooldown and immediately start recharging it again once it's ready. The time between Stability running out and Mantra being recharged can be covered by Distort and by the other support using some Stability.
 - Bubbles need to be placed next to the group, but because everyone also needs to stand inside the projectile block area, the space is quite limited. So be extra careful to not overlap any other players with Bubbles.
 - Toward the very end of the fight, Toxic Geyser 8 might spawn and give boons to the boss. This should be CCd immediately via ranged CC and ideally also dropped. One way to do this is like so: a Scourge has the Bloodstone Shard and uses Sandswell Portal to Toxic Geyser 8, drops the shard and immediately takes the Portal back to the stack. One Heal Chrono can take the portal and immediately pick-up the shard. If available, you can use Distort to survive and bridge the gap until portal can be taken back. This sequence can be seen [here](https://youtu.be/HEz9N3Ivb_o?si=kpWERESLl0zuCUQn&t=810).
+
+[Bloodstone Shard]: mechanics.html#bloodstone-shards
+[Bloodstone Shards]: mechanics.html#bloodstone-shards
+[Toxic Geyser]: mechanics.html#toxic-geysers
+[Toxic Geysers]: mechanics.html#toxic-geysers
+[Dispel]: mechanics.html#-dispel
+[Titanspawn Geyser]: mechanics.html#titanspawn-geyser
+[Titanspawn Geysers]: mechanics.html#titanspawn-geyser
+[Pressure Blast]: mechanics.html#pressure-blast
+[Pressure Blasts]: mechanics.html#pressure-blast
+
+[Chronomancer]: https://wiki.guildwars2.com/wiki/Chronomancer
+[Power]: https://wiki.guildwars2.com/wiki/Power

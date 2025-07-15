@@ -239,7 +239,7 @@ These enemies only spawn in Legendary Mode duringthe final phase instead of [Cha
 
 ### Scalding Aura
 {: .no_toc}
-An AoE aura that is always active inside the boss's hitbox. Deals damage applies <img class="inline burning"> [Burning].
+An AoE aura that is always active inside the boss's hitbox. Deals damage and applies <img class="inline burning"> [Burning].
 
 ---
 
