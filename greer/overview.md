@@ -21,7 +21,7 @@ has_toc: false
 
 ---
 
-Greer, the Blightbringer is one of the first two bosses in the Mount Balrior raid. Defeating him, along with his fellow titan, [Decima](../decima/overview.md), is necessary in order to challenge the final boss of the instance, [Ura](../ura/overview.html).
+Greer, the Blightbringer is one of the first two bosses in the Mount Balrior raid. Defeating him, along with his fellow titan, [Decima](../decima/overview.html), is necessary in order to challenge the final boss of the instance, [Ura](../ura/overview.html).
 
 Most of Greer's mechanics are on a cooldown and use a priority system. Greer uses them based on availability, but also based on player positioning, making for an encounter that can feel completely random and excessively punishing for an unprepared group. Managing this barrage of different reoccuring mechanics while keeping everyone healthy and including a hefty amount of projectile denial is the main cornerstone of this encounter.
 
