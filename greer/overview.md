@@ -16,6 +16,7 @@ has_toc: false
 | **Health** |  47,188,800  |
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 800 |
+| **Defiance** | 6000 |
 | **Enrage Timer** | 10 minutes - kills all players on running out. |
 
 ---
