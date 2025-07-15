@@ -7,7 +7,8 @@ nav_order: 1
 # Welcome!
 {: .center}
 
-This website is a work in progess. When it is completed it will contain guides and encounter information for all challenge mode encounters in the Mount Balrior raid.
+This website contains guides and encounter information for all challenge mode encounters in the Mount Balrior raid.
+Click on one of the bosses below to read the relevant sections.
 
 <div class="index-container">
     <a href="decima/overview.html"
