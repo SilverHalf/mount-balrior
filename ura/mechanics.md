@@ -10,19 +10,13 @@ parent: Godscream Ura
 # Ura Mechanical Reference
 {: .no_toc}
 
-This section contains a detailed reference of the various attacks and mechanics present in the Godscream [Ura encounter]. 
+This section contains a detailed reference of the various attacks and mechanics present in the encounter. 
 
 The rest of this page is structured into the following sections:
-1. **Overview** - basic description of the fight and its main points.
-2. **Phases** - a description of the structure of the fight, with transitions and differences between phases.
-3. **Mechanics** - a reference of every attack in the encounter.
-4. **Effects** - a reference of all effects unique to the encounter.
-
-### Table of Contents
-{: .no_toc}
-
-1. TOC
-{:toc}
+1. [**Overview**](#overview) - basic description of the fight and its main points.
+2. [**Phases**](#phases) - a description of the structure of the fight, with transitions and differences between phases.
+3. [**Mechanics**](#list-of-mechanics) - a reference of every attack in the encounter.
+4. [**Effects**](#list-of-effects) - a reference of all effects unique to the encounter.
 
 ---
 
@@ -79,6 +73,8 @@ A brief description of the primary attacks performed by Ura during the encounter
 
 ---
 
+---
+
 ## Phases
 Ura's encounter can be divided into four distinct parts, which are described below.
 
@@ -98,7 +94,7 @@ Once Ura hits 70% health, she will interrupt whatever skill she is casting, lock
 
 ### 70% - 40%
 
-Assuming a succesful [Return], the second phase starts after everyone has been transported to Ura's new starting location. The [Toxic Geyser] timer continues from phase 1, however, the next spawnpoint changes to 8 (see the image [here](#toxic-geysers)) and will continue from there (9, 10, ...) in phase 2. The time interval between [Toxic Geyser] spawns changes to 24s in Challenge Mode, but stays at 12s in Legendary Mode.
+Assuming a succesful [Return], the second phase starts after everyone has been transported to Ura's new starting location. The [Toxic Geyser] timer continues from the previous phase, however, the next spawnpoint changes to 8 (see the image [here](#toxic-geysers)) and will continue from there (9, 10, ...) in phase 2. The time interval between [Toxic Geyser] spawns changes to 24s in Challenge Mode, but stays at 12s in Legendary Mode.
 
 Ura herself is stationary in phase 2 and will not not cast [Propel] or [Pressure Blast]. Instead, she will gain the following abilities:
 - [Create Titanspawn Geyser]
@@ -119,13 +115,13 @@ This phase continues until Ura hits 1% of her maximum HP.
 
 ### Post-Heal - 0%
 
-When Ura reaches 1% health, she becomes <img class='inline invuln'> [Invulnerable], clears all <img class="inline condition"> [Conditions] from herself, and heals by 15% of her maximum HP (40% in Legendary Mode).
+When Ura reaches 1% health, she becomes <img class='inline invuln'> [Invulnerable], clears all <img class="inline condition"> [Conditions] from herself, and heals by 15% of her maximum HP (30% in Legendary Mode).
 
-Ura's skillset remains the same as in phase 3. The [Toxic Geyser] pattern continues from phase 3 without any timer/location resets. The only change in Ura's attacks is that [Sulfuric Geyser] now targets two players at once, instead of only one.
+Ura's skillset remains the same as in phase 3. The [Toxic Geyser] pattern continues from phase 3 without any timer or location resets. The only change in Ura's attacks is that [Sulfuric Geyser] now targets two players at once, instead of only one.
 
 > Note: Ura will self-interrupt herself at 40% in phase 4 again due to the self-interrupt that happens from the transition of phase 2 into phase 3. This is an unfortunate bug that can lead to animations being cancelled and Ura incorrectly using Propel.
 
-At the start of this phase, a [Titanspawn Geyser] will always spawn. Furthermore, in Legendary Mode all [Titanspawn Geysers] will spawn [Legendary Ventshots] instead of [Champion Fumarollers] during this phase.
+At the start of this phase, a [Titanspawn Geyser] will always spawn. Furthermore, in Legendary Mode all [Titanspawn Geysers] will start spawning [Legendary Ventshots] instead of [Champion Fumarollers] during this phase.
 
 ---
 
@@ -166,7 +162,7 @@ If a bloodstone is left on the floor without any players interacting with it for
 #### <img class="inline dispel"> Dispel
 {: .no_toc}
 This is a [Special Action Skill](https://wiki.guildwars2.com/wiki/Special_action_skill) that allows the player to interact with several of Ura's abilities. The skill has a range of 80 centered on the caster, and can:
-- Free players trapped by [Pressure Blast].
+- Free players trapped by [Pressure Blast] or [Return].
 - Make [Toxic Geysers] vulnerable or kill them.
 - Make [Titanspawn Geysers] vulnerable.
 
@@ -211,9 +207,9 @@ Sulfuric Geysers cannot be destroyed, but despawn 5 minutes after they appear. T
 
 When spawning a Titanspawn Geyser, Ura jumps into the air and crashes down, damaging everyone in an AoE centered around her. This attacks deals moderate damage and inflicts <img class='inline knockdown'> [Knockdown].
 
-After this, a Titanspawn Geyser will spawn. This structure immediately spawns a [Champion Fumaroller], or a [Legendary Ventshot] in Legendary Mode during the final phase. Another add will spawn every 15 seconds until the geyser is destroyed.
+After this, a Titanspawn Geyser will spawn in a random location. This structure immediately spawns a [Champion Fumaroller], or a [Legendary Ventshot] in Legendary Mode during the final phase. Another add will spawn every 15 seconds until the geyser is destroyed.
 
-Titanspawners spawn invulnerable, but can be made vulnerable using <img class="inline dispel"> [Dispel]. They also have a <img class='inline defiance'> [Defiance Bar] that can be broken to apply <img class='inline exposed'> [Exposed].
+Titanspawners are invulnerable when created, but can be made vulnerable using <img class="inline dispel"> [Dispel]. They also have a <img class='inline defiance'> [Defiance Bar] that can be broken to apply <img class='inline exposed'> [Exposed].
 
 Because Titanspawn Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective on them.
 
@@ -231,7 +227,7 @@ These dangerous enemies generally target players close to them and can be baited
 
 #### Legendary Ventshot
 {: .no_toc}
-These enemies only spawn in Legendary Mode duringthe final phase instead of [Champion Fumarollers]. They have over 20 million health and are therefore not meant to be killed, but remain extremely dangerous due to their capabilities:
+These enemies only spawn in Legendary Mode during the final phase instead of [Champion Fumarollers]. They have over 20 million health and are therefore not meant to be killed, but remain extremely dangerous due to their capabilities:
 - <u>Tethers</u> -Ventshots periodically tether to up to five nearby titans, geysers, or other ventshots. If less than five allies are present, they will tether multiple times to the same ally until they form five tethers. Each tether applies <img class='inline risingpressure'> [Rising Pressure] to the corresponding ally. This buff has a shorter duration than usual, only lasting for ~12 seconds.
 - <u>Please let me play the game</u> - most of the Ventshot's other attacks deal heavy damage, inflict <img class='inline knockdown'> [Knockdown] and <img class='inline burning'> [Burning], and are generally very undesireable. For this reason the general approach to these is to maintain permanent <img class='inline stability'> [Stability] and projectile denial throughout the final phase.
 
@@ -253,9 +249,11 @@ This attack is used when Ura's target is not in melee range and she has no other
 ### Pressure Blast
 {: .no_toc}
 
-This mechanic targets two random players with small white tracking AoEs. Targeted players will hear an audio cue, and after a short time interval, all allies inside the AoEs will be captured in bubbles and start floating upwards. They can be freed using <img class='inline dispel'> [Dispel], otherwise they will continue floating up until the bubbles pop and they drop down dead.
+This mechanic targets two random players with small white tracking AoEs. Targeted players will hear an audio cue, and after a short time interval, all allies inside the AoEs will be captured in bubbles and start floating upwards. 
 
-The cooldown of [Pressure Blast] starts counting once all the captured players are freed and hence it's of highest importance to free the captured players always as fast as possible (to mitigate the chance of Ura casting [Propel] during Phase 3 and 4).
+Captured players cannot use any movement or abilities, and cannot be <img class='inline stunbreak'> [Stunbroken] out of this effect. They can only be freed using <img class='inline dispel'> [Dispel], otherwise continuing to float up until the bubbles pop, at which point they will drop down and die to fall damage.
+
+The cooldown of [Pressure Blast] starts counting once all captured players are freed and hence it's of highest importance to free the captured players always as fast as possible (to mitigate the chance of Ura casting [Propel] during Phase 3 and 4).
 
 Players affected by <img class='inline deterrence'> [Deterrence] cannot be targeted or affected by this skill.
 
@@ -271,7 +269,11 @@ Ura targets the furthest player and jumps a fixed distance, dealing heavy damage
 ### Return
 {: .no_toc}
 
-Ura swirls players around her and then teleports herself and all captured players to her spawnpoint. This attack happens when Ura hits 70%, but also if Ura hits the edge of the arena due to [Propel].
+Ura starts swirling all players around her in a vortex, and after a moment she will capture them all and then teleports herself with them to her spawnpoint. Captured players are affected in a manner that is identical to [Pressure Blast]: they will be unable to move or use skills until <img class='inline dispel'> [Dispel] is used to free them or they die to the bubbles popping.
+
+[Return] can be dodged with the right timing, but this is often not useful as you will be separated from the rest of your squad and will have to run back to Ura.
+
+This attack happens during the transition into the second phase, when Ura hits 70%, but also if Ura hits the edge of the arena due to [Propel].
 
 ---
 
@@ -279,9 +281,11 @@ Ura swirls players around her and then teleports herself and all captured player
 {: .no_toc}
 Targets a random player with a large AoE. They will hear an audio cue, and after a short time interval, an arena/cage formation will spawn centered on them.
 
-While caught inside, all projectiles will be reflected, which can quickly down an unprepared individual. The walls also inflict <img class='inline knockback'> [Knockback] to players attemting to exit the cage, preventing these movements unless the players are provided with <img class="inline stability"> [Stability]. Blinks, shadowsteps and portals also let players exit.
+All projectiles originating inside the arena will be reflected back to their caster, which can quickly down an unprepared individual. The walls also inflict <img class='inline knockback'> [Knockback] to players attemting to exit the cage, preventing these movements unless the players are provided with <img class="inline stability"> [Stability]. Blinks, shadowsteps and portals also let players exit.
 
-When placing the arena, medium range dashes can be used with the correct timing to not get caught. Superspeed also allows placing the arena and getting safely out by just running quickly enough before the arena spawns.
+When placing the arena, medium range dashes can be used with the correct timing to not get caught inside. <img class='inline superspeed'> [Superspeed] also allows placing the arena and getting safely out by just running quickly enough before the arena spawns.
+
+---
 
 ### Autoattack Chain
 {: .no_toc}
@@ -298,7 +302,7 @@ Ura's encounter has various effects applied to players or enemies, which are lis
 
 Every time Ura's <img class='inline defiance'> [Defiance Bar] is broken, she gains one stack of <img class="inline titanicresistance"> [Titanic Resistance]. This effect reduces any incoming defiance damage by 5% and is additive. For example, once Ura has 10 stacks of <img class="inline titanicresistance"> [Titanic Resistance], defiance damange is reduced by 50%, which effectively doubles her breakbar.
 
-This mechanic essentially limits the number of times the breakbar can be broken to roughly 13 to 15 times, depending on the squad composition.  This dictates the timing of when to break the bar, which comes out to be roughly every 40 to 50 seconds.
+This mechanic essentially limits the number of times the breakbar can be broken to roughly 13 to 15 times per encounter, depending on the squad composition.  This dictates the timing of when to break the bar, which comes out to be roughly every 40 to 50 seconds.
 
 | Stacks | CC Multiplier |  Effective regen (LM) [1/s] | Effective CC bar |
 | 0  | 1    | 150  | 3000  |
@@ -356,6 +360,7 @@ Sulphuric Acid can be removed with normal condition cleanse, but only ever one s
 ---
 
 [Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#ura-mechanical-reference){: .btn .fixed}
+
 [Acid Spray]: #acid-spray
 [Titanic Resistance]: #-titanic-resistance
 [Deterrence]: #-deterrence
@@ -400,3 +405,5 @@ Sulphuric Acid can be removed with normal condition cleanse, but only ever one s
 [Knockdown]: https://wiki.guildwars2.com/wiki/Knockdown
 [Knockback]: https://wiki.guildwars2.com/wiki/Knockback
 [Exposed]: https://wiki.guildwars2.com/wiki/Exposed
+[Stunbroken]: https://wiki.guildwars2.com/wiki/Stun_break
+[Superspeed]: https://wiki.guildwars2.com/wiki/Superspeed
