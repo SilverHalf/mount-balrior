@@ -30,7 +30,7 @@ Managing Ura's mechanics requires lots of breakbar damage, cleave damage, mobili
 
 ### Bloodstone Juggling
 {: .no_toc}
-One of the defining characteristics of Ura CM are the mechanics revolving aroung Bloodstone shards. These are iteractable objects that can be picked up by players, and are of fundamental importance for clearing the encounter, as they allow players to negate mechanics and damage enemies that they normally wouldn't be able to.
+One of the defining characteristics of Ura CM are the mechanics revolving aroung Bloodstone shards. These are interactable objects that can be picked up by players, and are of fundamental importance for clearing the encounter, as they allow players to negate mechanics and damage enemies that they normally wouldn't be able to.
 
 Two shards spawn at the beginning of the encounter, and a player using a shard generally cannot pick up a new one for a certain amount of time. This means that, in order to cover all mechanics, it is necessary to rotate the shards throughout the entire squad: getting the hang of this "juggling" and performing it smoothly is the key to clearing the encounter, and is also the main reason why voice communications are so highly recommended.
 
@@ -253,6 +253,8 @@ This mechanic targets two random players with small white tracking AoEs. Targete
 
 Captured players cannot use any movement or abilities, and cannot be <img class='inline stunbreak'> [Stunbroken] out of this effect. They can only be freed using <img class='inline dispel'> [Dispel], otherwise continuing to float up until the bubbles pop, at which point they will drop down and die to fall damage.
 
+It is standard practice for both players targeted by this skill to stack together a small distance away from the main group. This allows both to be freed with a single cast of <img class='inline dispel'> [Dispel], without the skill affecting the rest of the squad. For this reason, this mechanic is often called "friends".
+
 The cooldown of [Pressure Blast] starts counting once all captured players are freed and hence it's of highest importance to free the captured players always as fast as possible (to mitigate the chance of Ura casting [Propel] during Phase 3 and 4).
 
 Players affected by <img class='inline deterrence'> [Deterrence] cannot be targeted or affected by this skill.
@@ -262,18 +264,20 @@ Players affected by <img class='inline deterrence'> [Deterrence] cannot be targe
 ### Propel
 {: .no_toc}
 
-Ura targets the furthest player and jumps a fixed distance, dealing heavy damage when she lands. This can be mitigated with any traditional method. 
+Ura targets the furthest player and jumps a fixed distance, dealing heavy damage when she lands. This can be mitigated with any traditional method.
+
+This and [Return] are the only ways the boss can move, as it cannot walk. Therefore, groups often try to bait this skill to position the boss in an advantageous location (for example, out of the range of [Toxic Geysers] or [Sulfuric Geysers]).
 
 ---
 
 ### Return
 {: .no_toc}
 
-Ura starts swirling all players around her in a vortex, and after a moment she will capture them all and then teleports herself with them to her spawnpoint. Captured players are affected in a manner that is identical to [Pressure Blast]: they will be unable to move or use skills until <img class='inline dispel'> [Dispel] is used to free them or they die to the bubbles popping.
-
-[Return] can be dodged with the right timing, but this is often not useful as you will be separated from the rest of your squad and will have to run back to Ura.
-
 This attack happens during the transition into the second phase, when Ura hits 70%, but also if Ura hits the edge of the arena due to [Propel].
+
+Ura will start swirling all players around her in a vortex, capturing them after a moment and then teleporting herself and them to her spawnpoint. Captured players are affected identically as with [Pressure Blast]: they will be unable to move or use skills until <img class='inline dispel'> [Dispel] is used to free them or they die due to the bubbles popping.
+
+Players can dodge this mechanic with the right timing, but this is often not useful they will be separated from the rest of the squad and will have to run back to Ura.
 
 ---
 
