@@ -49,9 +49,9 @@ More information on geysers can be found [here](#geysers).
 
 ### Defiance Management
 {: .no_toc}
-Throughout the fight, Ura will periodically gain stacks of <img class="inline risingpressure"> [Rising Pressure]. These increase the damage dealt by the boss while reducing all incoming damage, and are thus not desireable.
+Throughout the fight, Ura will periodically gain stacks of <img class="inline risingpressure"> [Rising Pressure]. These increase her outgoing damage while reducing all incoming damage, and are thus not desireable.
 
-The only way to reduce these stacks is by breaking Ura's <img class='inline defiance'> [Defiance Bar], which removes them from the boss entirely. However, this has the notable downside of granting Ura stacks of <img class="inline titanicresistance"> [Titanic Resistance], which reduces incoming defiance damange and makes breaking successive bars more difficult. Managing outgoing crowd control therefore is very important and requires decent coordination to only break the bar at specific intervals.
+Breaking Ura's <img class='inline defiance'> [Defiance Bar] resets the number of stacks to zero. However, this has the downside of granting Ura <img class="inline titanicresistance"> [Titanic Resistance], a permanent stacking buff which reduces incoming defiance damange and makes breaking successive bars more difficult. Managing outgoing crowd control therefore is very important and requires decent coordination to only break the bar at specific intervals.
 
 In Legendary Mode, Ura regenerates 150 defiance every second, so the pressure becomes even greater.
 
@@ -69,9 +69,7 @@ A brief description of the primary attacks performed by Ura during the encounter
 | [Propel]        | Charge, Jump, Leap | Furthest player within 1500 range | 12 | Ura jumps a fixed distance, dealing heavy damage when she lands. |
 | [Return]       | Toilet, Whirlpool | - | - | Swirls players around Ura and then teleports everyone and herself to a fixed location. |
 | [Steam Prison]  | Arena, Cage | Random | ~20 | Spawns a cage around a player that reflects projectiles. |
-| [Create Titanspawn Geyser]  |  Titanspawn | - | ~30 | <img class="inline knockdown"> [Knockdown] in an AoE, then spawns a Titanspawn Geyser. |
-
----
+| [Create Titanspawn Geyser]  |  Titanspawn | - | ~30 | <img class="inline knockdown"> [Knockdown] in an AoE, then spawns a [Titanspawn Geyser]. |
 
 ---
 

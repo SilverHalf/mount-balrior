@@ -27,11 +27,11 @@ Ura has decently high healing, condition cleanse and <img class="inline stabilit
 
 Ura is the only raid boss in the Mount Balrior instance to have a Legendary Mode. This variant scales up the health and difficulty of Ura's mechanics to provide the ultimate challenge.
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
-{: .center}
-
 ---
 
 \* Due to Ura regenerating at 1% health, her total health is 91,711,432 and 137,161,289 for CM and LM respectively.
 
 ** While Ura's defiance technically does not change throughout the encounter, its effective value can become much greater due to <img class="inline titanicresistance"> [Titanic Resistance](mechanics.html#-titanic-resistance).
+
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+{: .center}
