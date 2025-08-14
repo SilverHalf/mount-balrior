@@ -53,7 +53,7 @@ Bringing the lesser titans below certain health thresholds makes them despawn fo
 
 ### Table of Mechanics
 {: .no_toc}
-The following attacks and abilities are used by enemies in the [Greer encounter]:
+A brief description of the primary mechanics in the fight. Click on a mechanic to view additional information.
 
 | **Attack** | **Common Name** | **Target** | **Used by (Cooldown [s])** | **Brief Description** |
 | [Blob of Blight] | Death orbs | Three furthest players | Greer (120), Reeg (75), Ereg (75) | Large homing orbs that <img class="inline knockback"> [Knockback] and spawn projectiles. |
@@ -150,7 +150,7 @@ During this phase you only have to deal with Greer's attacks (and [Ereg]'s if he
 
 ## List of Mechanics
 
-This section contains a full, in-depth explanation of all mechanics in the [Greer encounter].
+This section contains a full, in-depth explanation of all mechanics in the encounter.
 
 Generally, there is a skill priority that titans follow, however, this skill priority is often interrupted with the Auto-attack chain [Sweep the Mold]. The full logic behind how Greer selects what attacks to use is not yet fully understood. The general priority of skills is roughly as follows:
 1. [Blob of Blight]

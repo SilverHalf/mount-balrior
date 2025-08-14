@@ -94,6 +94,10 @@
 	content: url('https://wiki.guildwars2.com/images/thumb/1/12/Healing_Spring.png');
 }
 
+.superspeed {
+	content: url('https://wiki.guildwars2.com/images/thumb/c/c8/Superspeed.png/60px-Superspeed.png');
+}
+
 // Skills
 
 .evade{
@@ -188,11 +192,15 @@
 }
 
 .dispel {
-	content: url('https://wiki.guildwars2.com/images/thumb/0/07/Consume_Bloodstone_Fragment.png');
+	content: url('https://wiki.guildwars2.com/images/thumb/0/07/Consume_Bloodstone_Fragment.png/41px-Consume_Bloodstone_Fragment.png');
 }
 
 .deterrence {
 	content: url('https://wiki.guildwars2.com/images/c/cc/Luck_of_Kings.png');
+}
+
+.saturation {
+	content: url('https://wiki.guildwars2.com/images/4/4d/Heat_Level.png');
 }
 
 // Classes
@@ -245,4 +253,18 @@
 
 .condition {
 	content: url('https://wiki.guildwars2.com/images/5/54/Condition_Damage.png');
+}
+
+.stunbreak {
+	content: url('https://wiki.guildwars2.com/images/thumb/7/7a/Breaks_stun.png/30px-Breaks_stun.png');
+}
+
+.check {
+	width: 2em !important;
+    height: 2em;
+	content: url('/images/green_check.svg');
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }

@@ -12,7 +12,6 @@ nav_order: 5
 - **@Tsaerid** - research on Decima sub 10%.
 - **@Minas** - research and write-up on Greer and Ura mechanics, write-up on Decima, Greer and Ura strategies.
 - **@Areki** - research for Ura's skill priority.
-
-
+- **@Mike** - devised the PUG Decima strategy.
 
 ----
