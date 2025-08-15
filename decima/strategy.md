@@ -55,17 +55,45 @@ The fight begins by making use of Mount abilities to quickly enter the arena and
 
 Decima starts with the attack pattern shown [here](mechanics.html#100---80). The [Foreshock & Mainshock] abilities are simply outhealed. Once you see Mainshock starting to cast (the 'pizza' attack), the ranged group needs to step away from the boss to bait [Fluxlances] close to the <img class='inline circle'> marker.
 
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center" width='45%' src="../images/decima/strategy/phases/p1-1.webp">
+</label>
+
 The kiter should instead go to roughly the <img class='inline arrow'> marker (see image below) in order to bait [Thunder] into charging up the correct conduits. The kiter should try not to charge up any of the conduits that make up the outer ring furthest from Decima, because those will encircle Decima in the split phase, making collecting their [Greens] much more difficult (see [this](mechanics.html#80-split-phase) animation).
 
-<img class="center" width="80%" src="../images/decima/strategy/bait_conduits_p1.webp" />
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p1-2.webp">
+</label>
 
 Shortly after, the [Fluxlances] will fire. Make sure to not hit any conduits and then quickly group up on the <img class='inline circle'> marker and heal up and give <img class='inline stability'> [Stability] to prevent the knockback from [Seismic Crash]
 
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p1-3.webp">
+</label>
+
 Immediately after, the ranged group has to bait the next set of [Fluxlances], while the melee group has to collect [Greens]. This set of [Fluxlances] contains the Red Arrow, so make sure that the kiter is the furthest player away. The kiter should use a mobility skill to get outside behind a conduit, making sure to not charge up one of the furthest conduits to make the split phase easier.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p1-4.webp">
+</label>
 
 After the collection and Fluxlances, the attack pattern starts from the beginning again, with [Foreshock & Mainshock]. Once the pizza attack starts, the ranged group needs to bait arrows again. The kiter needs to pay attention here and make sure they are at the <img class='inline heart'> marker to bait [Thunder].
 
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p1-5.webp">
+</label>
+
 Depending on the group's dps, you may already phase now into the first split phase, or if not, you will get another Knockback that needs <img class='inline stability'> [Stability]. Ideally it would be better to phase before or during the next set of greens, so as to avoid an additional collection.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p1-6.webp">
+</label>
 
 Phasing after the second collection usually indicates a serious DPS issue: this needs to be resolved or the group will struggle greatly with the damage check in the final phase.
 
@@ -77,9 +105,12 @@ The ranged and melee group should walk together to their respective closest [Tra
 
 > Note that for the melee portal, the Healer needs to pay attention to not prepare the portal in front of Decima, but to the side. This is such that when the melee group takes the portal later, they don't get hit by Decima's [Fluxlance] attacks.
 
-While dps'ing the [Transcendent Boulder] adds down as fast as possible, it's important to not use any skills with Breakbar damage in order to skip their dangerous follow-up attacks. Decima will continue her attack loop from where she left off after jumping, resulting in a set of [Fluxlances] and [Thunders] that must be played. The ranged group should thus position themselves from the [Transcendent Boulder] add outward, and the melee group inward, in order to bait the mechanics properly. The melee group can simply dodge their [Thunders], while the ranged group needs to pay attention to not charge any extra conduits. See the image below for an example spread:
+While dps'ing the [Transcendent Boulder] adds down as fast as possible, it's important to not use any skills with Breakbar damage in order to skip their dangerous follow-up attacks. Decima will continue her attack loop from where she left off after jumping, resulting in a set of [Fluxlances] and [Thunders] that must be played. The ranged group should thus position themselves from the [Transcendent Boulder] add outward, and the melee group inward, in order to bait the mechanics properly. The melee group can simply dodge their [Thunders], while the ranged group needs to pay attention to not charge any extra conduits.
 
-<img class="center" width="80%" src="../images/decima/strategy/bait_fluxlance_split1.webp" />
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/s1-1.webp">
+</label>
 
 After the Fluxlances and Thunders, the two healers can open their portals to get everyone back to Decima. The ranged group should be ported outside the cage, while the melee group should optimally be ported into the cage.
 
@@ -88,6 +119,11 @@ After the Fluxlances and Thunders, the two healers can open their portals to get
 ### 80% - 70%
 
 After taking the Portal, timing-wise, Decima usually uses [Seismic Crash] again, so make sure that Healers immediately provide <img class='inline stability'> [Stability]. The attack pattern is the same as usual, which means next in turn will be a set of [Fluxlances] and Green collection. Play the mechanics like before, heal everyone up and prepare your CC skills for when Decima hits 70%.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p1-7.webp">
+</label>
 
 Decima will become immune to damage at 70% hp and jump into the middle of the arena. This is a knockback attack, so make sure to provide <img class='inline stability'> [Stability] again. Depending on dps, [Thunders] might also spawn, so be prepared to dodge them, while also paying attention to not dodge into any conduits. Afterward, Decima will gain a <img class='inline defiance'> [Defiance Bar] with 7500 health, which needs to be broken as soon as possible. If broken quickly enough, there is no need to deal with any of the other mechanics (mainly [Greens]) and the only thing that'll happen next is a big incoming damage burst from [Fulminate]. Make sure that both groups are stacked up and have <img class='inline protection'> [Protection], use Barrier skills and time your strong healing skills to prevent any downs. If someone downs, everyone should make sure to quickly bring them back up.
 
@@ -99,9 +135,19 @@ Decima will become immune to damage at 70% hp and jump into the middle of the ar
 
 In this phase Decima repeats her attack pattern again, starting from [Foreshock & Mainshock] like in Phase 1. The melee group can stand near the <img class='inline heart'> marker, while the ranged group can stand near the <img class='inline arrow'> marker.
 
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p2-2.webp">
+</label>
+
 The ranged group baits the conduit charges and [Fluxlances] at <img class='inline arrow'>: spread apart without hitting any conduits and stack up quickly to heal up and provide <img class='inline stability'> [Stability] for  [Seismic Crash], which comes immediately after.
 
 Next, the melee group rotates toward <img class='inline arrow'> to collect [Greens], while the ranged group baits the next set of [Fluxlances] left of <img class='inline arrow'>. The kiter needs to make sure they bait the [Red Fluxlance] again, and should move behind a conduit in order to survive. At the same time, [Thunders] may happen for the melee group, so be ready to dodge.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p2-3.webp">
+</label>
 
 Decima will then start her attack pattern anew. The ranged group should position themselves between <img class='inline arrow'> and <img class='inline circle'> and the melee group can stand near <img class='inline arrow'>. Either the boss will phase after the following set of [Fluxlances], or you may need to play another collection.
 
@@ -110,6 +156,11 @@ Decima will then start her attack pattern anew. The ranged group should position
 ### Second Split Phase
 
 Similar to before the two groups go to their closest [Transcendent Boulder], while the healers prepare their portals. Usually, the melee group should go towards the <img class='inline heart'> marker and the ranged group towards the <img class='inline arrow'> marker. The split phase plays similar to before, only it is much more important to not break the add's <img class='inline defiance'> [Defiance Bar], so as to avoid [Sparkwave](mechanics.html#sparkwave), which will usually wipe the group.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/s2-1.webp">
+</label>
 
 As before, the ranged group positions themselves outward to bait [Fluxlances] and melee group inward to bait [Thunders]. The ranged group needs to pay attention again to not hit any conduits with [Fluxlances] and the melee group needs to time their dodge again. As soon as both adds are dead and the two mechanics are done, use portals once more to quickly get back to Decima.
 
@@ -127,24 +178,56 @@ This section plays identically to the 80% to 70% section. After taking the porta
 
 Next, Decima will jump toward the edge of the arena. The jump is a [Seismic Crash] attack with a knockback, so make sure to provide <img class='inline stability'> [Stability].
 
-The melee group can position themselves left of Decima when looking at Decima from the center, while the ranged group just stays between the two hexagonal formations of conduits. Decima will start her attack pattern from anew, like at the start of Phase 1 and Phase 2. Once you see the pizza attack, bait the [Fluxlances].
+The melee group can position themselves left or right of Decima when looking at her from the center, while the ranged group just stays between the two hexagonal formations of conduits. Decima will start her attack pattern from anew, like at the start of Phase 1 and Phase 2. Once you see the pizza attack, bait the [Fluxlances].
 
-The kiter in this phase has the additional responsibility of managing the spawn position of the [Focused Fluxlance] (aka Green Arrow). To do this, they should initially move move toward the conduits on the right-hand side, which will also bait [Thunder] onto those conduits.
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-1.webp">
+</label>
+
+The kiter in this phase has the additional responsibility of managing the spawn position of the [Focused Fluxlance] (aka Green Arrow). To do this, they should initially move move toward the conduits on the opposite side from the melee group, which will also bait [Thunder] onto those conduits.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-2.webp">
+</label>
 
 The first set of [Fluxlances] additionally includes the [Focused Fluxlance]. If the kiter baits correctly on the right-hand side, the Green Arrow will spawn to the left of Decima, directly on top of the melee group, which needs to stack inside of it to solve the mechanic. This can overlap with [Thunders]: in this case the melee group will need to dodge backward, while staying inside the Green Arrow so as to not fail the mechanic.
 
-Next, Decima will [Seismic Reposition] to a different position. Be ready to provide <img class='inline stability'> [Stability] and follow Decima to her new location. The melee group can position themselves to stand between Decima and the conduits that have been charged up already, while the ranged group should remain in the center and the kiter should bait on the opposite side. In the example PoV, the charged conduits are to the right-hand side after Decima's jump. This means the melee group moves to the right side.
+Next, Decima will [Seismic Reposition] to a different position. Be ready to provide <img class='inline stability'> [Stability] and follow Decima to her new location. The melee group can position themselves to stand between Decima and the conduits that have been charged up already, while the ranged group should remain in the center and the kiter should bait on the opposite side.
 
-After the jump, Decima will start with [Foreshock & Mainshock] again. Toward the end, once the pizza attack appears, the kiter wants to make their way to bait conduits and the next [Red Fluxlances] close to the conduits that are already charged, in order to make the [Greens] come only from one side. The kiter will then need to deal with [Converging Fluxlances], which requires accurate positioning to block the [Red Fluxlance] while avoiding charging any conduits with standard [Fluxlances] (represented with the blue circle below).
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-3.webp">
+</label>
 
-<img class="center" width="70%" src="../images/decima/strategy/converging-fluxlances.webp" />
-<img class="center" width="70%" src="../images/decima/strategy/bait_conduits_p3.webp" />
+After the jump, Decima will start with [Foreshock & Mainshock] again. Toward the end, once the pizza attack appears, the kiter wants to make their way to bait conduits and the next [Red Fluxlances] close to the conduits that are already charged, in order to make the [Greens] come only from one side. The kiter will then need to deal with [Converging Fluxlances], which requires accurate positioning to block the [Red Fluxlance] while avoiding charging any conduits with standard [Fluxlances].
 
-Afterwards, the kiter should move back to the stack, and Decima's attack pattern starts anew. Once you see the pizza attack, in addition to baiting the five [Fluxlance], the kiter will again need to bait the Green Arrow and the next set of charging up conduits. The bait for the Green arrow should this time go to the left-hand side, since the melee group is standing to the right of Decima.
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-4.webp">
+</label>
+
+Afterwards, the kiter should move back to the stack, and Decima's attack pattern starts anew. Once you see the pizza attack, in addition to baiting the five [Fluxlance], the kiter will again need to bait the Green Arrow and the next set of charging up conduits.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-6.webp">
+</label>
 
 Next, Decima will jump again, and will cast [Foreshock & Mainshock] followed by a collection. The melee group this time must split between the left and right in order to collect all greens: their healer should take care to keep all his players healthy even while they are off-stack.
 
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-7.webp">
+</label>
+
 After the pizza attack, the ranged group will bait [Fluxlances] with the kiter playing [Converging Fluxlances] again. Following, another set of [Foreshock & Mainshock] and [Fluxlances] with the Green Arrow and possibly [Thunders] will spawn. Play them similarly to before.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-8.webp">
+</label>
 
 At the latest after this Green Arrow, Decima should hit 10% and the final phase will start.
 
@@ -156,11 +239,31 @@ At the latest after this Green Arrow, Decima should hit 10% and the final phase 
 
 The final 10% is a burst phase, so you want to immediately deal as much damage as possible. Cleanly transitioning into this phase is extremely important due to the relatively tight DPS check: any downs or knockbacks at this stage will seriously hurt your chances of a kill. Depending on the dps spec, it might also be beneficial to save some cooldowns for the initial burst (e.g. Weave Self).
 
-A the start of the phase, Decima will become invulnerable and jump into the center of the arena, while resetting all conduits. The jump is a knockback, so have <img class='inline stability'> [Stability] up. and at the same time Decima will cast any remaining [Thunders], so be ready to dodge. Depending on dps, it can happen that two subsequent [Thunder] casts happen, so be ready to dodge twice subsequently. 
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p4-1.webp">
+</label>
 
-At the beginning, a set of [Fluxlances] and [Thunders] must be played. Make sure to not hit any conduits, and the kiter should bait the Red Arrow and use a mobility skill behind a conduit to survive.
+A the start of the phase, Decima will become invulnerable and jump into the center of the arena, while resetting all conduits. The jump is a knockback, so have <img class='inline stability'> [Stability] up. and at the same time Decima will cast any remaining [Thunders], so be ready to dodge. Depending on dps, it can happen that two subsequent [Thunder] casts happen, so be ready to dodge twice subsequently.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p4-2.webp">
+</label>
+
+Soon after, a set of [Fluxlances] and [Thunders] must be played. Make sure to not hit any conduits, and the kiter should bait the Red Arrow and use a mobility skill behind a conduit to survive.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p4-3.webp">
+</label>
 
 After this, stack up at the boss and dps. Throughout this phase, [Thunders] will spawn continuously, which should be dodged into the boss. This is because around the boss, conduits will gradually come closer and closer and dodging backward or sideways will hit and charge them.
+
+<label class="arena-container">
+    <input type="checkbox">
+    <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p4-4.webp">
+</label>
 
 Additionally, Green collections will spawn as well, gradually escalating from only a few greens to massive simultaneous 18-conduit discharges. Try to block them as well as you can, while focusing on dps and dodging [Thunders]. If 10 Greens move into Decima's hitbox, Decima will become invulnerable and you will wipe. Hence it is important to block as many as possible. Doing this successfully and keeping up damage while avoiding downs will lead you to a successful clear.
 
