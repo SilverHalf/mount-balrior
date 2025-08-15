@@ -6,7 +6,7 @@ This website is built using [Jekyll] and the [Just the Docs] theme, enabling it 
 
 ## Viewing the site locally
 
-You will need to install [Ruby](https://www.ruby-lang.org) and [Jekyll], and possibly [Bundler].
+You will need to install [Ruby](https://www.ruby-lang.org) and [Bundler].
 
 1.  Clone this repository, open a terminal and change your working directory to its root directory.
 
@@ -31,7 +31,8 @@ What needs to be done:
 - [x] Greer Strategy
 - [x] Ura Overview
 - [x] Ura Mechanical Reference
-- [ ] Ura Strategy
+- [ ] Ura Strategy (cleanup)
+- [ ] Ura LCM Strategy
 
 ## Licensing and Attribution
 
