@@ -33,5 +33,7 @@ Ura is the only raid boss in the Mount Balrior instance to have a Legendary Mode
 
 ** While Ura's defiance technically does not change throughout the encounter, its effective value can become much greater due to <img class="inline titanicresistance"> [Titanic Resistance](mechanics.html#-titanic-resistance).
 
+<img class=divider>
+
 [Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 {: .center}

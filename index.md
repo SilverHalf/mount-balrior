@@ -26,4 +26,4 @@ Click on one of the bosses below to read the relevant sections.
 
 Contributions are very welcome. Feel free to contact me on Discord (silverhalf) or through github.
 
-----
+<img class='divider'>

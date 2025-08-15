@@ -10,21 +10,15 @@ parent: Godsquall Decima
 # Decima Mechanical Reference
 {: .no_toc}
 
-This section contains a detailed reference of the various attacks and mechanics present in the Godsquall Decima encounter. 
+This section contains a detailed reference of the various attacks and mechanics present in the encounter. 
 
 The rest of this page is structured into the following sections:
-1. **Overview** - basic description of the fight and its main points.
-2. **Phases** - a description of the structure of the fight, with transitions and differences between phases.
-3. **Mechanics** - a reference of every attack in the encounter.
-4. **Effects** - a reference of all effects unique to the encounter.
+1. [**Overview**](#overview) - basic description of the fight and its main points.
+2. [**Phases**](#phases) - a description of the structure of the fight, with transitions and differences between phases.
+3. [**Mechanics**](#list-of-mechanics) - a reference of every attack in the encounter.
+4. [**Effects**](#list-of-effects) - a reference of all effects unique to the encounter.
 
-### Table of Contents
-{: .no_toc}
-
-1. TOC
-{:toc}
-
----
+<img class=divider>
 
 ## Overview
 
@@ -75,7 +69,7 @@ A brief description of the primary mechanics in the fight. Click on a mechanic t
 |[Conduits]| Pylons | Small, moving structures that interact with other mechanics. |
 |[Dancing Sparks]|Greens|Small greens that need to be intercepted by players.|
 |[Chorus of Thunder]|Spreads|Multiple AoEs that target players and conduits. |
-|[Foreshock and Mainshock](#foreshock--mainshock)| Autos, Pizza | Melee AoE attacks perfomed in sequence by the boss. |
+|[Foreshock and Mainshock](#foreshock--mainshock)| Autos, Pizza | Melee AoE attacks performed in sequence by the boss. |
 |[Seismic Crash] | Smash, Jump | Knockback AoE centered on the boss. |
 |[Earthrend]| - | Knock-in ring AoE on the outside of the arena. |
 |[Flux Nova]| Nova, CC | Large channeled attack that unlocks a <img class="inline defiance"> [Defiance Bar]. |
@@ -148,10 +142,12 @@ flowchart TD
 ```
 {: .center}
 
----
+<img class=divider>
 
 ## Phases
-Decima's encounter has an articulate structure, with over eleven unique subphases. We can roughly divide these into four distinct parts of the encounter, which are described below.
+Decima's encounter has an articulate structure, with over eleven unique sub-phases. We can roughly divide these into four distinct parts of the encounter, which are described below.
+
+---
 
 ### First Phase
 Consists in two burn phases, with a simple split phase in between.
@@ -223,7 +219,7 @@ Decima's [Conduits] in this phase form a star shape, and maintain this shape, on
 As soon as Decima reaches 80% of her HP, she will finish whatever animation she is doing, and then transition into the split phase. The transition consists of these steps:
 1. Decima despawns all [Fulgent Fences] and [Dancing Sparks] currently on the arena.
 2. Decima's [Conduits] rearrange into a new pattern, made of three hexagonal formations (see the video below). Meanwhile, Decima uses [Seismic Reposition] to move inside of one of these hexagons.
-3. [Fulgent Fences] reactivate, sealing off the formation, and a [Trascendent Boulder] spawns inside each of the two remaining unoccupied hexagons.
+3. [Fulgent Fences] reactivate, sealing off the formation, and a [Transcendent Boulder] spawns inside each of the two remaining unoccupied hexagons.
 
 <video class="center" width="50%" controls muted>
   <source src="../videos/decima_conduits_1.mp4" type="video/mp4">
@@ -233,15 +229,15 @@ Of note is the fact that Decima will always reposition to the formation consisti
 
 As soon as Decima is done repositioning, she start anew with the same attack loop as in the previous phase, only all attacks will originate from her new position.
 
-Both Decima and [Trascendent Boulders] will gain <img class="inline linked"> [Linked], meaning that Decima becomes <img class="inline invuln"> [Invulnerable] and both boulders must be defeated within 10 seconds of each other in order to make her vulnerable again.
+Both Decima and [Transcendent Boulders] will gain <img class="inline linked"> [Linked], meaning that Decima becomes <img class="inline invuln"> [Invulnerable] and both boulders must be defeated within 10 seconds of each other in order to make her vulnerable again.
 
-At the beginning of the phase, an updraft will spawn in the center of the arena, allowing players to glide into the hexagonal formations after they are locked down with [Fulgent Fences]. Similar updrafts will spawn on each [Trascendent Boulder]'s death, allowing players to exit and return to the boss at the end of the split phase.
+At the beginning of the phase, an updraft will spawn in the center of the arena, allowing players to glide into the hexagonal formations after they are locked down with [Fulgent Fences]. Similar updrafts will spawn on each [Transcendent Boulder]'s death, allowing players to exit and return to the boss at the end of the split phase.
 
-Both [Trascendent Boulders] will begin by casting [Sparkling Reverberation], unlocking their <img class="inline defiance"> [Defiance Bar]. After this attack concludes, either with a complete channel or with the squad breaking the boulder's defiance, they will start chain casting [Seismoelectricity] until they reach 1% health (see <img class="inline linked"> [Linked]) or die.
+Both [Transcendent Boulders] will begin by casting [Sparkling Reverberation], unlocking their <img class="inline defiance"> [Defiance Bar]. After this attack concludes, either with a complete channel or with the squad breaking the boulder's defiance, they will start chain casting [Seismoelectricity] until they reach 1% health (see <img class="inline linked"> [Linked]) or die.
 
 #### 80% - 70%
 {: .no_toc}
-Both [Trascendent Boulders] have been killed, meaning that Decima is once again vulnerable. This does not change her behaviour, meaning she continues her attack loop without interruption from the split phase.
+Both [Transcendent Boulders] have been killed, meaning that Decima is once again vulnerable. This does not change her behaviour, meaning she continues her attack loop without interruption from the split phase.
 
 #### 70% Transition
 {: .no_toc}
@@ -315,7 +311,7 @@ flowchart LR
 ```
 {: .center}
 
-This loop is, in essence, identical to its behaviour in the previous phase, but substitues [Fluxlance Fusillade] for the more dangerous [Fluxlance Salvo]. On the second and every other [Fluxlance Salvo] thereafter, one of the fluxlances will be a [Red Fluxlance].
+This loop is, in essence, identical to its behaviour in the previous phase, but substitutes [Fluxlance Fusillade] for the more dangerous [Fluxlance Salvo]. On the second and every other [Fluxlance Salvo] thereafter, one of the fluxlances will be a [Red Fluxlance].
 
 Conduit movements in this phase are shown in the following short video, where each vertex of the colored shapes is a conduit.
 
@@ -325,9 +321,9 @@ Conduit movements in this phase are shown in the following short video, where ea
 
 #### 50% Split Phase
 {: .no_toc}
-This split phase is essentially identical to the [80% Split Phase](#80-split-phase), with one major difference: once their <img class="inline defiance"> [Defiance Bar] is broken, [Trascendent Boulders] will start periodically casting [Sparkwave](#sparkwave). This is an extremely dangerous skill, and both it and the [Charged Ground] it generates must be avoided or managed with extreme care.
+This split phase is essentially identical to the [80% Split Phase](#80-split-phase), with one major difference: once their <img class="inline defiance"> [Defiance Bar] is broken, [Transcendent Boulders] will start periodically casting [Sparkwave](#sparkwave). This is an extremely dangerous skill, and both it and the [Charged Ground] it generates must be avoided or managed with extreme care.
 
-#### 50% - 40% and 40% Tranistion
+#### 50% - 40% and 40% Transition
 {: .no_toc}
 This phase and the transition to the following phase are essentially identical to the [80%-70% phase](#80---70) and [70% transition](#70-transition).
 
@@ -336,7 +332,7 @@ This phase and the transition to the following phase are essentially identical t
 ### Third Phase
 This phase consists of one large burn from 40% to 10% of Decima's HP. It differs significatively from the previous phases, as Decima will often make use of her [Seismic Reposition] to move around the arena. This also introduces two new attacks: [Focused Fluxlance] and [Converging Fluxlances].
 
-At the beginning of the phase, Decima will summon two [Trascendent Boulders]. These are not targetable and cannot be interacted with. They do not <img class="inline linked"> [Link] with the boss, and do not cast any skills except for participating in [Converging Fluxlances]. Decima will then [Seismic Reposition], and begin the following attack loop:
+At the beginning of the phase, Decima will summon two [Transcendent Boulders]. These are untargetable and cannot be interacted with. They do not <img class="inline linked"> [Link] with the boss, and do not cast any skills except for participating in [Converging Fluxlances]. Decima will then [Seismic Reposition], and begin the following attack loop:
 
 ```mermaid
 flowchart LR
@@ -416,7 +412,7 @@ Once at the center, the squad will have some time to damage her while she does t
 
 Once this sequence is complete, Decima will start rapidly gaining <img class="inline harmony"> [Peal of Harmony] and <img class="inline discord"> [Peal of Discord] while chain-casting [Chorus of Thunder]. This results in all [Conduits] quickly being charged. Sometimes conduits will double charge, as they will be targeted by a new [Chorus of Thunder] during a previous cast. 
 
-Throughout this, conduits will sporadically spawn [Dancing Sparks]. Then, once all conduits are charged, every conduit will start simultaneously spawning [Dancing Sparks]. This, combined with continous [Discordant Thunder] casts, will rapidly lead to defeat unless the boss is killed.
+Throughout this, conduits will sporadically spawn [Dancing Sparks]. Then, once all conduits are charged, every conduit will start simultaneously spawning [Dancing Sparks]. This, combined with continuous [Discordant Thunder] casts, will rapidly lead to defeat unless the boss is killed.
 
 #### Peals Gained
 {: .no_toc}
@@ -430,7 +426,7 @@ The sequence in which Decima gains <img class="inline harmony"> [Peal of Harmony
 
 (Credit to @Tsaerid for researching this)
 
----
+<img class=divider>
 
 ## List of Mechanics
 This section contains a full, in-depth explanation of all mechanics in the encounter.
@@ -476,10 +472,10 @@ Targets the five furthest players with fluxlances. After a brief delay, all lanc
 #### Converging Fluxlances
 {: .no_toc}
 (Note: this skill does not have an official name, so this name is given for convenience.)
-A combined attack performed by Decima and two [Trascendent Boulders]. This attack consists of:
+A combined attack performed by Decima and two [Transcendent Boulders]. This attack consists of:
 - One [Red Fluxlance] cast by Decima and targeting the furthest player from her.
 - Two [Standard Fluxlances] cast by Decima and targeting the next two furthest players.
-- One [Standard Fluxlance] cast by each [Trascendent Boulder] and targeting the furthest player from Decima.
+- One [Standard Fluxlance] cast by each [Transcendent Boulder] and targeting the furthest player from Decima.
 
 Therefore, while five fluxlances are summoned in total similarly to previous attacks, three of them (one red and two standard) will be targeting the same player.
 
@@ -543,12 +539,11 @@ Decima stomps three times, dealing moderate damage in 3 large AoEs.
 
 #### Mainshock
 {: .no_toc}
-Always cast after Foreshock:  a "pizza" attack centered on Decima. Deals significant damage and additionally inflicts 1.5 seconds of <img class="inline cripple"> [Cripple]. Players hit by multiple "slices" will recieve multiple instances of this damage.
+Always cast after Foreshock:  a "pizza" attack centered on Decima. Deals significant damage and additionally inflicts 1.5 seconds of <img class="inline cripple"> [Cripple]. Players hit by multiple "slices" will receive multiple instances of this damage.
 
 Foreshock and Mainshock are used regularly by Decima as part of her attack loop, and are always directed towards the closest player.
 
 ---
-
 
 ### Seismic Crash
 {: .no_toc}
@@ -588,7 +583,7 @@ If Decima gains 10 stacks of <img class="inline charge"> [Charge] or the enrage 
 
 ---
 
-### Trascendent Boulders
+### Transcendent Boulders
 {: .no_toc}
 Dangerous minions that spawn during the split phases at 70% and 50% of Decima's HP, and at the beginning of the third phase.
 
@@ -599,7 +594,7 @@ Dangerous minions that spawn during the split phases at 70% and 50% of Decima's 
 
 There will always be two of them alive at the same time: since they gain <img class="inline linked"> [Linked], they must be killed within 10 seconds of each other.
 
-Additionally, players who attack [Trascendent Boulders] from more than 750 range will be teleported to the boulder and gain a stack of <img class="inline debilitated"> [Debilitated].
+Additionally, players who attack [Transcendent Boulders] from more than 750 range will be teleported to the boulder and gain a stack of <img class="inline debilitated"> [Debilitated].
 
 Boulders can use several different attacks:
 
@@ -620,10 +615,12 @@ Targets the fifth-furthest player from the boulder with a massive, 120° wide ar
 
 A circular damaging AoE that increases its damage over time, and applies <img class="inline daze"> [Daze](https://wiki.guildwars2.com/wiki/Daze) and <img class="inline vuln"> [Vulnerability] on reaching maximum damage. Players who are hit by this skill will also generate an additional AoE below them, if they haven't already, resulting often in a fast spread of the damaging area.
 
----
+<img class=divider>
 
 ## List of Effects
 Decima's encounter has a multitude of unique effects, which are listed below for reference purposes.
+
+---
 
 ### <img class="inline galvanic-sensitivity"> Galvanic Sensitivity
 {: .no_toc}
@@ -671,19 +668,20 @@ An effect that is gained by Decima whenever her defiance bar is broken. Makes De
 
 ### <img class="inline linked"> Linked
 {: .no_toc}
-This effect has two versions: one that is applied to Decima at the beginning of the 80% and 50% split phases, and one that is applied to [Trascendent Boulders].
+This effect has two versions: one that is applied to Decima at the beginning of the 80% and 50% split phases, and one that is applied to [Transcendent Boulders].
 
 #### Decima
 {: .no_toc}
-Decima links herself to a [Trascendent Boulder], becoming <img class="inline invuln"> [Invulnerable] for as long as the boulder remains alive. Since there are always two boulders, Decima will gain two of this effect.
+Decima links herself to a [Transcendent Boulder], becoming <img class="inline invuln"> [Invulnerable] for as long as the boulder remains alive. Since there are always two boulders, Decima will gain two of this effect.
 
 #### Boulders
 {: .no_toc}
-The two [Trascendent Boulders] link to each other and gain this effect. Whenever one of the two falls to 1% HP, it becomes <img class="inline invuln"> [Invulnerable], and after 10 seconds, it will heal itself back to 50% of its maximum health. If, during this interval, its linked target also falls to 1% health, the <img class="inline invuln"> [Invulnerability] is removed and both boulders can be killed.
+The two [Transcendent Boulders] link to each other and gain this effect. Whenever one of the two falls to 1% HP, it becomes <img class="inline invuln"> [Invulnerable], and after 10 seconds, it will heal itself back to 50% of its maximum health. If, during this interval, its linked target also falls to 1% health, the <img class="inline invuln"> [Invulnerability] is removed and both boulders can be killed.
 
----
+<img class=divider>
 
 [Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#decima-mechanical-reference){: .btn .fixed}
+{: .center}
 
 [Harmonic Sensitivity]: #-harmonic-sensitivity
 [Galvanic Sensitivity]: #-galvanic-sensitivity
@@ -716,8 +714,8 @@ The two [Trascendent Boulders] link to each other and gain this effect. Whenever
 [Charged Ground]: #charged-ground
 [Sparkling Reverberation]: #sparkling-reverberation
 [Seismoelectricity]: #seismoelectricity
-[Trascendent Boulders]: #trascendent-boulders
-[Trascendent Boulder]: #trascendent-boulders
+[Transcendent Boulders]: #transcendent-boulders
+[Transcendent Boulder]: #transcendent-boulders
 [Linked]: #-linked
 [Link]: #-linked
 [Discordant Thunder]: #discordant-thunder

@@ -13,18 +13,12 @@ parent: Godspoil Greer
 This section contains a detailed reference of the various attacks and mechanics present in the Godspoil [Greer encounter]. 
 
 The rest of this page is structured into the following sections:
-1. **Overview** - basic description of the fight and its main points.
-2. **Phases** - a description of the structure of the fight, with transitions and differences between phases.
-3. **Mechanics** - a reference of every attack in the encounter.
-4. **Effects** - a reference of all effects unique to the encounter.
+1. [**Overview**](#overview) - basic description of the fight and its main points.
+2. [**Phases**](#phases) - a description of the structure of the fight, with transitions and differences between phases.
+3. [**Mechanics**](#list-of-mechanics) - a reference of every attack in the encounter.
+4. [**Effects**](#list-of-effects) - a reference of all effects unique to the encounter.
 
-### Table of Contents
-{: .no_toc}
-
-1. TOC
-{:toc}
-
----
+<img class='divider'>
 
 ## Overview
 
@@ -68,13 +62,14 @@ A brief description of the primary mechanics in the fight. Click on a mechanic t
 | [Sweep the Mold] | Autoattack, Cone | Tank | Greer (2), Gree (2) | Two subsequent cone attacks that deal damage and apply <img class="inline knockback"> [Knockback], <img class="inline poison"> [Bleeding] and <img class="inline poison"> [Poison] for the first one and <img class="inline knockback"> [Knockback], <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second. |
 | <img class="inline plague-rot"> [Plague Rot] | Covid, Reds | - | - | A dangerous debuff applied by some of Greer's abilities that deals damage and corrupts boons in an AoE around the affected player, and can rapidly spread to other players. |
 
----
+<img class='divider'>
 
 ## Phases
 
 There are essentially 3 different types of phases:
-- Burn phases, in which Greer and the lesser titans are attackable.
-- Split phases, in which Greer is <img class='inline invuln'> [Invulnerable] and the lesser Titans are attackable (at new, different locations) - The 10% phase, in which Greer is <img class='inline invuln'> [Invulnerable], but 3 Champion Proto-Greerlings are active (and Ereg, if kept alive).
+- Burn phases, in which Greer and the lesser titans are vulnerable.
+- Split phases, in which Greer is <img class='inline invuln'> [Invulnerable] and the lesser Titans are vulnerable (at new, different locations) 
+- The 10% phase, in which Greer is <img class='inline invuln'> [Invulnerable], but 3 Champion Proto-Greerlings are active (and Ereg, if kept alive).
 
 The fight overall consists of:
 1. A main phase from 100% to 65% health.
@@ -85,9 +80,11 @@ The fight overall consists of:
 6. The proto-greerling phase.
 7. A final phase from 10% to 0% health.
 
+---
+
 ### Main Phases
 
-The main phase starts at the beginning of the fight with the following spawnpoints for Greer and the lesser titans:
+The main phase starts at the beginning of the fight with the following spawn points for Greer and the lesser titans:
 
 <img class="center" width="70%" src="../images/greer/mechanics/mainphase_spawnpoints.webp" />
 
@@ -131,7 +128,7 @@ Once Greer hits 10% of his HP, he will become <img class='inline invuln'> [Invul
 
 <img class="center" width="70%" src="../images/greer/mechanics/protolings_spawnpoints.webp" />
 
-These Champions will continously perform the basic attack chains: [Sweep the Mold], [Stomp the Growth] and [Scattering Sporeblast]. This means this phase has a very high level of incoming damage and requires constant projectile block.
+These Champions will continuously perform the basic attack chains: [Sweep the Mold], [Stomp the Growth] and [Scattering Sporeblast]. This means this phase has a very high level of incoming damage and requires constant projectile block.
 
 Greer will remain fully active throughout this phase. The squad should pay attention to his highly disruptive mechanics, in particular [Blob of Blight], [Eruption of Rot] and [Ripples of Rot].
 
@@ -139,29 +136,31 @@ Greer will remain fully active throughout this phase. The squad should pay atten
 
 ### Sub 10% Phase
 
-Once the last champiton has been defeated, Greer becomes vulnerable for 30 seconds. After this time passes, the champtions respawn and he becomes <img class='inline invuln'> [Invulnerable] once more untill they are dead. This ususally leads to a wipe due to the tight enrage timer.
+Once the last champion has been defeated, Greer becomes vulnerable for 30 seconds. After this time passes, the champions re-spawn and he becomes <img class='inline invuln'> [Invulnerable] once more until they are dead. This usually leads to a wipe due to the tight enrage timer.
 
-While this phase is functionally identical to a main phase, the time limit means that it must be approached in a fundamentally different manner. Always try to prepare approriately by having major cooldowns ready or by prestacking conditions on Greer while finishing the last Champion. It can be beneficial to kill the final champion close to Greer for this reason.
+While this phase is functionally identical to a main phase, the time limit means that it must be approached in a fundamentally different manner. Always try to prepare appropriately by having major cooldowns ready or by pre-stacking conditions on Greer while finishing the last Champion. It can be beneficial to kill the final champion close to Greer for this reason.
 
 During this phase you only have to deal with Greer's attacks (and [Ereg]'s if he's alive), but because Greer often has a lot of <img class="inline empowered"> [Empowered] stacks at this point, every attack is deadly, especially [Stomp the Growth].
 
-
----
+<img class=divider>
 
 ## List of Mechanics
 
 This section contains a full, in-depth explanation of all mechanics in the encounter.
 
 Generally, there is a skill priority that titans follow, however, this skill priority is often interrupted with the Auto-attack chain [Sweep the Mold]. The full logic behind how Greer selects what attacks to use is not yet fully understood. The general priority of skills is roughly as follows:
-1. [Blob of Blight]
-2. [Eruption of Rot]
-3. [Ripples of Rot] (only when no target is in range)
-4. [Rain of Spores]  (when Greer's target is not in melee range)
-5. [Scattering Sporeblast] (when Greer's target is not in melee range)
-6. [Enfeebling Miasma]
-7. [Cage of Decay]
-8. [Rain of Spores]  (when Greer's target is not in melee range)
-9. [Stomp the Growth]
+
+|**Priority**|**Skill**              |**Greer**          |**Gree**           |**Reeg**           |**Ereg**           |
+|1           |[Blob of Blight]       |<img class="check">|                   |<img class="check">|<img class="check">|
+|2           |[Eruption of Rot]      |<img class="check">|<img class="check">|<img class="check">|<img class="check">|
+|3           |[Ripples of Rot]       |<img class="check">|<img class="check">|                   |                   |
+|4           |[Rain of Spores]       |<img class="check">|                   |<img class="check">|<img class="check">|
+|5           |[Scattering Sporeblast]|<img class="check">|                   |<img class="check">|<img class="check">|
+|6           |[Enfeebling Miasma]    |<img class="check">|                   |<img class="check">|<img class="check">|
+|7           |[Cage of Decay]        |<img class="check">|<img class="check">|                   |                   |
+|8           |[Rain of Spores]       |<img class="check">|                   |<img class="check">|<img class="check">|
+|9           |[Stomp the Growth]     |<img class="check">|<img class="check">|                   |                   |
+|Auto        |[Sweep the Mold]       |<img class="check">|<img class="check">|                   |                   |
 
 ---
 
@@ -179,7 +178,7 @@ Moving orbs can also be despawned by evading through then them, or by moving int
 ### [Cage of Decay]
 {: .no_toc}
 
-An attack used by Greer (cooldown 120s) and Gree (cooldown 30s). This attacks produces five projectiles, marked with arrow indicators. It starts with 2 arrows directed towards opposite sides of the caster, with the following directed inwards by 45° steps. These projectiles inflict <img class="inline knockback"> [Knockback] multiple times while travelling along their path. Once they reach their maximum travel or hit the edge of the arena, they spawn a pool of [Noxious Blight] which persists for a brief period, stripping boons and applying <img class="inline plague-rot"> [Plague Rot].
+An attack used by Greer (cooldown 120s) and Gree (cooldown 30s). This attacks produces five projectiles, marked with arrow indicators. It starts with 2 arrows directed towards opposite sides of the caster, with the following directed inwards by 45° steps. These projectiles inflict <img class="inline knockback"> [Knockback] multiple times while traveling along their path. Once they reach their maximum travel or hit the edge of the arena, they spawn a pool of [Noxious Blight] which persists for a brief period, stripping boons and applying <img class="inline plague-rot"> [Plague Rot].
 
 ---
 
@@ -252,7 +251,7 @@ This attack becomes especially deadly in the later phases of the fight, when Gre
 
 This attack is used by Greer, [Gree] and Champion Proto-Greerlings regularly. It consists of two subsequent 60° cones that <img class="inline knockback"> [Knockback], deal damage and inflict <img class="inline bleeding"> [Bleeding] and <img class="inline poison"> [Poison] for the first swipe and <img class="inline cripple"> [Cripple] and <img class="inline poison"> [Poison] for the second swipe. The damage component of this attack is not high, so it can be ignored using <img class="inline stability"> [Stability] or otherwise mitigated with <img class="inline aegis"> [Aegis] or by sidestepping.
 
----
+<img class=divider>
 
 ## List of Effects
 Greer's encounter has some additional unique effects, which are listed below for reference purposes.
@@ -288,10 +287,10 @@ An effect that gets applied from being targeted by [Blob of Blight], which targe
 {: .no_toc}
 Describes various stationary AoE pools left behind by some abilities that corrupt boons and apply <img class="inline plague-rot"> [Plague Rot] to any player touching them.
 
----
-
+<img class=divider>
 
 [Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#greer-mechanical-reference){: .btn .fixed}
+{: .center}
 
 [Greer]: https://wiki.guildwars2.com/wiki/Greer,_the_Blightbringer
 [Greer encounter]: https://wiki.guildwars2.com/wiki/Mount_Balrior#Challenge_mode_2
