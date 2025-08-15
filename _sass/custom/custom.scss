@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .white {
@@ -33,18 +33,6 @@
 .index-button:hover {
     cursor: pointer;
     border-color: white;
-}
-
-.decima-index {
-    background-image: url(../../images/decima.jpg); 
-}
-
-.greer-index {
-    background-image: url(https://wiki.guildwars2.com/wiki/File:Greer,_the_Blightbringer.jpg); 
-}
-
-.ura-index {
-    background-image: url(../../images/ura.jpg); 
 }
 
 .center {
@@ -76,4 +64,41 @@ summary {
 	margin-left: auto;
 	margin-right: auto;
     width: 90%;
+}
+
+.arena-container {
+    border: none;
+    background: none;
+}
+
+.arena-container input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.arena-container:hover {
+    cursor: zoom-in;
+}
+
+.arena-container img {
+    width: 60%;
+}
+
+input:checked + .decima-arena-image {
+    width: 100%;
+    cursor: zoom-out;
+}
+
+.decima-arena-image {
+    background-image: url("../../images/decima/strategy/decima-arena.webp");
+	background-size: cover;
+    background-position: center;
+    border: 3px outset;
+    border-radius: 15px;
+    border-color: $link-color;
+    min-width: 200px;
+    max-width: 100%;
+    animation-timing-function: linear;
+    transition: .3s;
 }
