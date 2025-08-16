@@ -145,12 +145,11 @@ flowchart TD
 <img class=divider>
 
 ## Phases
-Decima's encounter has an articulate structure, with over eleven unique sub-phases. We can roughly divide these into four distinct parts of the encounter, which are described below.
+Decima's encounter has an articulate structure, with over nine unique sub-phases. We can roughly divide these into four distinct parts of the encounter, which are described below.
 
 ---
 
 ### First Phase
-Consists in two burn phases, with a simple split phase in between.
 
 #### 100% - 80%
 {: .no_toc}
@@ -213,10 +212,10 @@ flowchart LR
 
 Decima's [Conduits] in this phase form a star shape, and maintain this shape, only slightly shifting inwards and outwards as the phase progresses. [Fulgent Fences] will be active during both [Fluxlance Salvo] attacks, and during [Seismic Crash] and [Earthrend]. The second [Fluxlance Salvo], and every other salvo afterwards, will have a [Red Fluxlance] targeting the furthest player.
 
-#### 80% Split Phase
+#### 80% - 70%
 {: .no_toc}
 
-As soon as Decima reaches 80% of her HP, she will finish whatever animation she is doing, and then transition into the split phase. The transition consists of these steps:
+As soon as Decima reaches 80% of her HP, she will finish whatever animation she is doing, and then transition into the following phase. The transition consists of these steps:
 1. Decima despawns all [Fulgent Fences] and [Dancing Sparks] currently on the arena.
 2. Decima's [Conduits] rearrange into a new pattern, made of three hexagonal formations (see the video below). Meanwhile, Decima uses [Seismic Reposition] to move inside of one of these hexagons.
 3. [Fulgent Fences] reactivate, sealing off the formation, and a [Transcendent Boulder] spawns inside each of the two remaining unoccupied hexagons.
@@ -227,21 +226,17 @@ As soon as Decima reaches 80% of her HP, she will finish whatever animation she 
 
 Of note is the fact that Decima will always reposition to the formation consisting of the [Conduits] that were formerly on the outermost ring (colored in blue in the video above).
 
-As soon as Decima is done repositioning, she start anew with the same attack loop as in the previous phase, only all attacks will originate from her new position.
+As soon as Decima is done repositioning, she starts anew with the same attack loop as in the previous phase, only all attacks will originate from her new position.
 
-Both Decima and [Transcendent Boulders] will gain <img class="inline linked"> [Linked], meaning that Decima becomes <img class="inline invuln"> [Invulnerable] and both boulders must be defeated within 10 seconds of each other in order to make her vulnerable again.
+Both Decima and [Transcendent Boulders] will gain <img class="inline linked"> [Linked]. This means that both boulders must be killed within 10 seconds of each other, and Decima herself, while still vulnerable, will not transition into the following phase until they are dead.
 
-At the beginning of the phase, an updraft will spawn in the center of the arena, allowing players to glide into the hexagonal formations after they are locked down with [Fulgent Fences]. Similar updrafts will spawn on each [Transcendent Boulder]'s death, allowing players to exit and return to the boss at the end of the split phase.
+At the beginning of the phase, an updraft will spawn in the center of the arena, allowing players to jump up and glide into the hexagonal formations after they are locked down with [Fulgent Fences]. Similar updrafts will spawn on each [Transcendent Boulder]'s death, allowing players to exit and return to the boss at the end of the split phase.
 
 Both [Transcendent Boulders] will begin by casting [Sparkling Reverberation], unlocking their <img class="inline defiance"> [Defiance Bar]. After this attack concludes, either with a complete channel or with the squad breaking the boulder's defiance, they will start chain casting [Seismoelectricity] until they reach 1% health (see <img class="inline linked"> [Linked]) or die.
 
-#### 80% - 70%
-{: .no_toc}
-Both [Transcendent Boulders] have been killed, meaning that Decima is once again vulnerable. This does not change her behaviour, meaning she continues her attack loop without interruption from the split phase.
-
 #### 70% Transition
 {: .no_toc}
-Once Decima reaches 70% of her health, she performs a sequence that transitions her into the second phase:
+Once Decima reaches 70% of her health and both [Transcendent Boulders] are dead, she performs a sequence that transitions her into the second phase:
 1. Decima gains <img class="inline nova-shield"> [Nova Shield].
 2. Decima will [Seismic Reposition] to the center of the arena.
 3. Decima starts channeling her [Flux Nova], unlocking her <img class="inline defiance"> [Defiance Bar], and simultaneously casts [Chorus of Thunder].
@@ -319,13 +314,10 @@ Conduit movements in this phase are shown in the following short video, where ea
   <source src="../videos/decima_conduits_2.mp4" type="video/mp4">
 </video>
 
-#### 50% Split Phase
-{: .no_toc}
+#### 50% - 40% and Transition
 This split phase is essentially identical to the [80% Split Phase](#80-split-phase), with one major difference: once their <img class="inline defiance"> [Defiance Bar] is broken, [Transcendent Boulders] will start periodically casting [Sparkwave](#sparkwave). This is an extremely dangerous skill, and both it and the [Charged Ground] it generates must be avoided or managed with extreme care.
 
-#### 50% - 40% and 40% Transition
-{: .no_toc}
-This phase and the transition to the following phase are essentially identical to the [80%-70% phase](#80---70) and [70% transition](#70-transition).
+Once Decima reaches 40% of her health and both [Transcendent Boulders] are dead, she will perform the same sequence she used at [70% HP](#70-transition) to transition into the third phase.
 
 ---
 
