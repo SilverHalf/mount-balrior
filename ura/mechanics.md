@@ -336,7 +336,7 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 ### <img class="inline risingpressure"> Rising Pressure
 {: .no_toc}
 
-Ura, [Champion Fumarollers] and [Legendary Ventshots] gain one stack of [Rising Pressure] every 8 seconds in LM and every 12 seconds in CM. This effect increases damage dealt and reduces incoming damage by 5% per stack (additively). Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks.
+Ura, [Champion Fumarollers] and [Legendary Ventshots] gain one stack of [Rising Pressure] every 8 seconds in LM and every 12 seconds in CM. This effect increases damage dealt and reduces incoming damage by 5% per stack (additively). Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
 
 ---
 
@@ -350,7 +350,7 @@ A debuff applied to players when they use <img class='inline dispel'> [Dispel]. 
 ### <img class="inline deterrence"> Deterrence
 {: .no_toc}
 
-A buff a player gets when holding a [Bloodstone Shard]. Players affected by this buff cannot be targeted by [Pressure Blast].
+A buff a player gets when holding a [Bloodstone Shard]. Players affected by this buff cannot be targeted or affected by [Pressure Blast].
 
 ---
 
