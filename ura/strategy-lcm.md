@@ -5,7 +5,7 @@ nav_order: 3
 parent: Godscream Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn }
 
 # Recommended Legendary Ura Strategy
 

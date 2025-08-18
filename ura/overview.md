@@ -8,7 +8,7 @@ has_toc: false
 # Godscream Ura
 {: .center}
 
-[Return to Home](../index.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn } [LCM Strategy Guide](./lcm-strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+[Return to Home](../index.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn } [LCM Strategy Guide](./strategy-lcm.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 {: .center}
 
 <img src="../images/ura.webp" />
@@ -35,5 +35,5 @@ Ura is the only raid boss in the Mount Balrior instance to have a Legendary Mode
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn } [LCM Strategy Guide](./lcm-strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+[Return to Home](../index.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn } [LCM Strategy Guide](./strategy-lcm.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 {: .center}

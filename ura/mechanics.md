@@ -5,7 +5,7 @@ nav_order: 1
 parent: Godscream Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn } [LCM Strategy Guide](./lcm-strategy.html)
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn } [LCM Strategy Guide](./strategy-lcm.html){: .btn }
 
 # Ura Mechanical Reference
 {: .no_toc}
