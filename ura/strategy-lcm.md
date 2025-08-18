@@ -1,13 +1,13 @@
 ---
 layout: page
-title: CM Strategy
-nav_order: 2
+title: LCM Strategy
+nav_order: 3
 parent: Godscream Ura
 ---
 
 [Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 
-# Recommended Ura Strategy
+# Recommended Legendary Ura Strategy
 
 > The following is a strategy that works in Legendary Mode. You can use the same strategy in Challenge Mode in order to already practice for transitioning to Legendary at some point.
 
@@ -187,7 +187,7 @@ Further notes for LM:
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#recommended-ura-strategy){: .btn .fixed}
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#recommended-legendary-ura-strategy){: .btn .fixed}
 {: .center}
 
 [Bloodstone Shard]: mechanics.html#bloodstone-shards
