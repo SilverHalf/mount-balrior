@@ -2,12 +2,12 @@
 layout: page
 title: Mechanics
 nav_order: 1
-parent: Godscream Ura
+parent: Legendary Ura
 ---
 
 [Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
 
-# Ura Mechanical Reference
+# Legendary Ura Mechanical Reference
 {: .no_toc}
 
 This section contains a detailed reference of the various attacks and mechanics present in the encounter. 

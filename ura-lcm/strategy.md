@@ -1,11 +1,11 @@
 ---
 layout: page
-title: LCM Strategy
+title: Strategy
 nav_order: 3
-parent: Godscream Ura
+parent: Legendary Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [CM Strategy Guide](./strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 
 # Recommended Legendary Ura Strategy
 

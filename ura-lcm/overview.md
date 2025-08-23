@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Godscream Ura
-nav_order: 4
+title: Legendary Ura
+nav_order: 5
 has_toc: false
 ---
 
-# Godscream Ura
+# Legendary Godscream Ura
 {: .center}
 
 [Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
@@ -13,7 +13,7 @@ has_toc: false
 
 <img src="../images/ura.webp" />
 
-| **Health** | 79,749,072 (105,508,684 in Legendary Mode) *|
+| **Health** | 105,508,684 in Legendary Mode *|
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 1000 |
 | **Defiance** | 3000 ** |
@@ -25,7 +25,7 @@ Ura, while a conceptually simple boss, requires an extremely high degree of comm
 
 Ura has decently high healing, condition cleanse and <img class="inline stability"> [Stability](https://wiki.guildwars2.com/wiki/Stability) pressure, requires an extreme amount of crowd control, and benefits greatly from professions that have good personal mobility and cleave damage.
 
-Ura is the only raid boss in the Mount Balrior instance to have a [Legendary Mode](../ura-lcm/overview.html). This variant scales up the health and difficulty of Ura's mechanics to provide the ultimate challenge.
+Ura is the only raid boss in the Mount Balrior instance to have a Legendary Mode. This variant scales up the health and difficulty of Ura's mechanics to provide the ultimate challenge.
 
 ---
 
