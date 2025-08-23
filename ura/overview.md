@@ -21,7 +21,7 @@ has_toc: false
 
 Ura, the Steamshrieker, is the final boss of the Mount Balrior raid. To fight her, it is necessary to first defeat her two lieutenants, [Greer](../greer/overview.html) and [Decima](../decima/overview.html).
 
-Ura, while a conceptually simple boss, requires an extremely high degree of communication. Since her unique mechanics need to be cycled through the entire squad and involve a decent amount of unpredictability and on-the-spot improvisation, it is highly recommended to use some form of voice chat while tackling her encounter.
+Ura, while a conceptually simple boss, requires high amounts of coordination and on-the-fly improvisation, facilitated but not superseded by DPS. Stay on top of things as they happen while keeping your squad alive, and you will cruise along. Fall behind on mechanics, and it can quickly become extremely punishing. It is highly recommended to have some sort of voice communication while tackling the encounter.
 
 Ura has decently high healing, condition cleanse and <img class="inline stability"> [Stability](https://wiki.guildwars2.com/wiki/Stability) pressure, requires an extreme amount of crowd control, and benefits greatly from professions that have good personal mobility and cleave damage.
 

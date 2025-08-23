@@ -257,6 +257,8 @@ The cooldown of [Pressure Blast] starts counting once all captured players are f
 
 Players affected by <img class='inline deterrence'> [Deterrence] cannot be targeted or affected by this skill.
 
+It can happen that players suspended by bubbles are hit by <img class='inline knockback'> [Knockback], such as from [Champion Fumarollers]. In this case their actual position will be misaligned from the white indicator: <img class='inline dispel'> [Dispel] should always be used directly underneath the affected players.
+
 ---
 
 ### Propel
@@ -377,10 +379,10 @@ Sulfuric Acid can be removed with normal condition cleanse, but only ever one st
 [Champion Fumarollers]:  #champion-fumaroller
 [Legendary Ventshot]: #legendary-ventshot
 [Legendary Ventshots]: #legendary-ventshot
-[Toxic Geyser]: #toxic-geyser
-[Toxic Geysers]: #toxic-geyser
-[Sulfuric Geyser]: #sulfuric-geyser
-[Sulfuric Geysers]: #sulfuric-geyser
+[Toxic Geyser]: #toxic-geysers
+[Toxic Geysers]: #toxic-geysers
+[Sulfuric Geyser]: #sulfuric-geysers
+[Sulfuric Geysers]: #sulfuric-geysers
 [Create Titanspawn Geyser]: #titanspawn-geysers
 [Titanspawn Geyser]: #titanspawn-geysers
 [Titanspawn Geysers]: #titanspawn-geysers
