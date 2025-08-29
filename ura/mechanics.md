@@ -138,6 +138,8 @@ Ura has a priority rotation, and the skills she has available depend on the phas
 |6           |[Autoattack Chain]        |<img class="check">|                   |<img class="check">|<img class="check">|
 |7           |[Acid Spray]              |<img class="check">|<img class="check">|<img class="check">|<img class="check">|
 
+Ura cannot target <img class='inline stealth'> [Stealthed] players with skills.
+
 ---
 
 ### Bloodstone Shard
@@ -200,16 +202,22 @@ After 5 seconds, the timer will run out and a sulfuric geyser will spawn on the 
 
 Sulfuric Geysers cannot be destroyed, but despawn 5 minutes after they appear. They must be positioned accordingly at the edges of the arena so that they don't impede the squad and buff the boss for this duration.
 
+Players targeted by a geyser will gain 5 seconds of <img class='inline superspeed'> [Superspeed].
+
+Over the course of the fight, some sulfuric geysers will spawn naturally in predetermined positions independently from the players' actions.
+
 #### Titanspawn Geysers
 {: .no_toc}
 
 When spawning a Titanspawn Geyser, Ura jumps into the air and crashes down, damaging everyone in an AoE centered around her. This attacks deals moderate damage and inflicts <img class='inline knockdown'> [Knockdown].
 
-After this, a Titanspawn Geyser will spawn in a random location. This structure immediately spawns a [Champion Fumaroller], or a [Legendary Ventshot] in Legendary Mode during the final phase. Another add will spawn every 15 seconds until the geyser is destroyed.
+After this, a Titanspawn Geyser will spawn in one of five locations, chosen at random. This structure immediately spawns a [Champion Fumaroller], or a [Legendary Ventshot] in Legendary Mode during the final phase. Another add will spawn every 15 seconds until the geyser is destroyed.
 
 Titanspawners are invulnerable when created, but can be made vulnerable using <img class="inline dispel"> [Dispel]. They also have a <img class='inline defiance'> [Defiance Bar] that can be broken to apply <img class='inline exposed'> [Exposed].
 
 Because Titanspawn Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective on them.
+
+Ura has a hard limit of 10 "minions" beyond which she will not spawn any more. This number includes Titanspawn Geysers, Fumarollers and Ventshots, and is reduced to 6 in phase 4.
 
 | **Enemy**                 | **Health**   | **Hitbox** | **Defiance Bar** |
 | [Champion Fumaroller]     | 1,789,242    | 300        | 1000             |
@@ -219,9 +227,9 @@ Because Titanspawn Geysers are constructs, they have lower armor and thus <img c
 {: .no_toc}
 
 These dangerous enemies generally target players close to them and can be baited close to the boss in order to CC, cleave and kill them. They have three notable attacks:
-- <u>Charge</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback].
-- <u>Snowflake</u> - a dangerous attack consisting in a pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it.
-- <u>I Should Try Spinning</u> - the Fumaroller fuma-rolls in place, pulsing damage and <img class="inline knockback"> [Knockback]. 
+- <u>Full Stream</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback].
+- <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it.
+- <u>Mantle Grinder</u> - the Fumaroller rolls in place, pulsing damage and <img class="inline knockback"> [Knockback]. 
 
 #### Legendary Ventshot
 {: .no_toc}
@@ -264,7 +272,7 @@ It can happen that players suspended by bubbles are hit by <img class='inline kn
 ### Propel
 {: .no_toc}
 
-Ura targets the furthest player and jumps a fixed distance, dealing heavy damage when she lands. This can be mitigated with any traditional method.
+Ura targets the furthest player within 1500 range and jumps a fixed distance, dealing heavy damage when she lands. This can be mitigated with any traditional method.
 
 This and [Return] are the only ways the boss can move, as it cannot walk. Therefore, groups often try to bait this skill to position the boss in an advantageous location (for example, out of the range of [Toxic Geysers] or [Sulfuric Geysers]).
 
@@ -359,9 +367,9 @@ A buff a player gets when holding a [Bloodstone Shard]. Players affected by this
 ### <img class="inline sulfuricacid"> Sulfuric Acid
 {: .no_toc}
 
-A stacking debuff applied by various mechanics that deals damage every second and applies one stack of [Exposed] every 5 seconds.
+A dangerous stacking debuff applied by various mechanics that deals damage every second and applies one stack of [Exposed] every 5 seconds.
 
-Sulfuric Acid can be removed with normal condition cleanse, but only ever one stack at a time, even if the skill would remove multiple conditions. Furthermore, it cannot be transfered to an enemy, though the debuff is cleansed normally.
+It can be removed with normal condition cleanse, but only ever one stack at a time, even if the skill would remove multiple conditions. It has very low priority, meaning that generally it will be the last condition removed in case of multiple conditions on the same player. Furthermore, it cannot be transferred to enemies, though this will cleanse as usual.
 
 <img class=divider>
 
@@ -414,3 +422,4 @@ Sulfuric Acid can be removed with normal condition cleanse, but only ever one st
 [Exposed]: https://wiki.guildwars2.com/wiki/Exposed
 [Stunbroken]: https://wiki.guildwars2.com/wiki/Stun_break
 [Superspeed]: https://wiki.guildwars2.com/wiki/Superspeed
+[Stealthed]: https://wiki.guildwars2.com/wiki/Stealth

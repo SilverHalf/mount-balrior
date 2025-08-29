@@ -13,7 +13,7 @@ has_toc: false
 
 <img src="../images/ura.webp" />
 
-| **Health** | 79,749,072 (105,508,684 in Legendary Mode) *|
+| **Health** | 79,749,072 *|
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 1000 |
 | **Defiance** | 3000 ** |
