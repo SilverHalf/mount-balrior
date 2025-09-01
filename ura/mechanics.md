@@ -194,6 +194,8 @@ Breaking a Toxic Geyser's <img class='inline defiance'> [Defiance Bar] disables 
 
 Because Toxic Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective against them.
 
+In Legendary Mode, Toxic Geysers regenerate 150 Defiance every second.
+
 #### Sulfuric Geysers
 {: .no_toc}
 Ura will periodically perform an animation and target a player with a Sulfuric Geyser. The player will get an audio cue, a timer above their head, and waves will start emanating around their position to show that they have been targeted.

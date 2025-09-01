@@ -21,5 +21,6 @@ nav_order: 2
 - **@Areki** - research for Ura's skill priority.
 - **@Mike** - devised the PUG Decima strategy.
 - **@Chupathingy** - Original CC Deadeye strategy for Ura LCM.
+- **@Adinga**, **@Noro**, **@Spencer** - Titanspawn limit interactions and research.
 
 <img class= divider>

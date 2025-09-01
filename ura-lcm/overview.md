@@ -27,7 +27,7 @@ Squads attempting Ura will generally run an optimized composition, where every p
 
 ---
 
-\* Due to Ura regenerating at 1% health, her total health is 91,711,432 and 137,161,289 for CM and LM respectively.
+\* Due to Ura regenerating at 1% health, her effective total health is 137,161,289.
 
 ** While Ura's defiance technically does not change throughout the encounter, its effective value can become much greater due to <img class="inline titanicresistance"> [Titanic Resistance](mechanics.html#-titanic-resistance).
 
