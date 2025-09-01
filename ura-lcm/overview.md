@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Legendary Ura
-nav_order: 5
+nav_order: 6
 has_toc: false
 ---
 
@@ -19,13 +19,11 @@ has_toc: false
 | **Defiance** | 3000 ** |
 | **Enrage Timer** | 10 minutes - kills all players on running out. |
 
-Ura, the Steamshrieker, is the final boss of the Mount Balrior raid. To fight her, it is necessary to first defeat her two lieutenants, [Greer](../greer/overview.html) and [Decima](../decima/overview.html).
+Legendary Godscream Ura is an extreme challenge aimed at the highest tier of players. Beating her encounter requires perfect knowledge of the fight and of your class, and smooth execution of your chosen strategy.
 
-Ura, while a conceptually simple boss, requires an extremely high degree of communication. Since her unique mechanics need to be cycled through the entire squad and involve a decent amount of unpredictability and on-the-spot improvisation, it is highly recommended to use some form of voice chat while tackling her encounter.
+Legendary Mode is mechanically similar to Challenge Mode, requirign good healing and condition cleanse, very good <img class="inline stability"> [Stability](https://wiki.guildwars2.com/wiki/Stability) uptime (especially through the final phase), and a greater amount of crowd control than any other encounter in the game.
 
-Ura has decently high healing, condition cleanse and <img class="inline stability"> [Stability](https://wiki.guildwars2.com/wiki/Stability) pressure, requires an extreme amount of crowd control, and benefits greatly from professions that have good personal mobility and cleave damage.
-
-Ura is the only raid boss in the Mount Balrior instance to have a Legendary Mode. This variant scales up the health and difficulty of Ura's mechanics to provide the ultimate challenge.
+Squads attempting Ura will generally run an optimized composition, where every player will have their role in managing one or more of the boss's mechanics.
 
 ---
 

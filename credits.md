@@ -1,7 +1,7 @@
 ---
 title: Credits and Resources
 layout: page
-nav_order: 5
+nav_order: 2
 ---
 
 # Resources
