@@ -1,0 +1,151 @@
+// CSS format for tables
+
+table th td {
+    min-width: unset !important;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: unset;
+    min-width: unset !important;
+}
+
+.fl-table td {
+    font-size: 12px;
+}
+
+.fl-table tbody tr:last-of-type td{
+    padding-bottom: 0px;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+.fl-table {
+    display: block;
+    width: 100%;
+}
+.table-wrapper:before{
+    content: "Scroll horizontally >";
+    display: block;
+    text-align: right;
+    font-size: 11px;
+    color: white;
+    padding: 0 0 10px;
+}
+.fl-table thead, .fl-table tbody, .fl-table thead th {
+    display: block;
+}
+.fl-table thead th:last-child{
+    border-bottom: none;
+}
+.fl-table thead {
+    float: left;
+}
+.fl-table tbody {
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+}
+.fl-table td, .fl-table th {
+    height: 60px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 120px;
+    font-size: 13px;
+    overflow-wrap: break-word;
+}
+.fl-table thead th {
+    text-align: left;
+    border-bottom: 1px solid #f7f7f9;
+}
+.fl-table tbody tr {
+    display: table-cell;
+}
+.fl-table tbody tr:nth-child(odd) {
+    background: none;
+}
+.fl-table tr:nth-child(even) {
+    background: transparent;
+}
+.fl-table tr td:nth-child(odd) {
+    background: #F8F8F8;
+    border-right: 1px solid #E6E4E4;
+}
+.fl-table tr td:nth-child(even) {
+    border-right: 1px solid #E6E4E4;
+}
+.fl-table tbody td {
+    display: block;
+    text-align: center;
+}
+}
+
+.de_red {
+    background-color: rgb(136, 0, 0);
+}
+.ch_pur {
+    background-color: rgb(90, 0, 115);
+}
+.ch_gre {
+    background-color: rgb(35, 87, 0);
+}
+
+.phase1 {
+    background-color: rgb(35, 87, 0);
+}
+
+.phase1-late {
+    background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 4px,
+        rgb(35, 87, 0) 4px,
+        rgb(35, 87, 0) 8px
+    );
+}
+
+.phase2 {
+    background-color: rgb(146, 93, 0);
+}
+
+.phase2-late {
+    background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 4px,
+        rgb(146, 93, 0) 4px,
+        rgb(146, 93, 0) 8px
+    );
+}
+
+.phase3 {
+    background-color: rgb(176, 35, 0);
+}
+
+.phase3-late {
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgb(61, 12, 0),
+        rgb(61, 12, 0) 4px,
+        rgb(176, 35, 0) 4px,
+        rgb(176, 35, 0) 8px
+    );
+}
+
+.phase4 {
+    background-color: rgb(61, 12, 0);
+}
