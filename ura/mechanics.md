@@ -70,6 +70,8 @@ A brief description of the primary attacks performed by Ura during the encounter
 | [Return]       | Toilet, Whirlpool | - | - | Swirls players around Ura and then teleports everyone and herself to a fixed location. |
 | [Steam Prison]  | Arena, Cage | Random | ~20 | Spawns a cage around a player that reflects projectiles. |
 | [Create Titanspawn Geyser]  |  Titanspawn | - | ~30 | <img class="inline knockdown"> [Knockdown] in an AoE, then spawns a [Titanspawn Geyser]. |
+| [Toxic Geyser] | Toxic | Predetermined locations in the arena | 12 in phase 1, 24 in phase 2-4 | Dangerous structures that damage players and buff the boss. |
+| [Sulfuric Geyser] | Sulfuric | Random Player | 20 | Spawns a semi-permanent structure that damages players and buffs the boss.  |
 
 <img class=divider>
 
@@ -137,6 +139,7 @@ Ura has a priority rotation, and the skills she has available depend on the phas
 |5           |[Propel]                  |<img class="check">|                   |<img class="check">|<img class="check">|
 |6           |[Autoattack Chain]        |<img class="check">|                   |<img class="check">|<img class="check">|
 |7           |[Acid Spray]              |<img class="check">|<img class="check">|<img class="check">|<img class="check">|
+|-           |[Toxic Geyser]            |<img class="check">|<img class="check">|<img class="check">|<img class="check">|
 
 Ura cannot target <img class='inline stealth'> [Stealthed] players with skills.
 

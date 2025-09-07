@@ -11,6 +11,17 @@ parent: Legendary Ura
 
 This strategy is conceptually very similar to the [Normal Challenge Mode Strategy](../ura/strategy.html). It is highly recommended to be familiar with Challenge Mode and with your class before attempting to progress the Legendary Mode.
 
+#### General Points
+- Mechanics are similar in nature to normal CM, so the basic strategy is the same.
+- The fight is an extremely tight DPS check, requiring every player to pull their weight.
+- An inordinate amount of CC is required throughout the fight. Usually a dedicated <img class='inline deadeye'> [CC Deadeye] is brought for this reason.
+- Usually groups will have a melee rotation to leave nothing to chance.
+- The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight. Several rotations exist for players to choose from.
+- Tanking Ura and facing her in the right direction, along with well-timed CC, is essential to avoid her casting [Propel] and to upkeep high DPS uptime.
+- The final phase often spawns one or more [Legendary Ventshots], that require permanent <img class='inline stability'> [Stability] and projectile reflection to be managed.
+
+<img class='divider'>
+
 ## Composition
 
 LCM compositions keep the division between a _ranged group_ and a _melee group_ introduced in CM.
@@ -19,18 +30,19 @@ The ranged group is usually composed of:
 - A heal <img class='inline chrono'> [Chronomancer] bringing extra CC.
 - Either a second full healer (usually another <img class='inline chrono'> [Chronomancer]) or a hybrid celestial heal <img class='inline scourge'> [Scourge].
 - A specialized <img class='inline deadeye'> [Deadeye] build that can upkeep constant CC.
+- Occasionally, a DPS <img class='inline mechanist'> [Mechanist] running <img class='inline shift'> [Shift Signet].
 
 For boonDPS, the most common choice is <img class='inline firebrand'> [Firebrand], as beyond doing excellent damage they can provide abundant condition cleanse, <img class='inline stability'> [Stability] with <img class='inline stand-ground'> [Stand Your Ground!], and projectile reflection with <img class='inline wall-reflect'> [Wall of Reflection] and <img class='inline bulwark'> [Chapter 3: Valiant Bulwark]. Two <img class='inline firebrand'> [Firebrands] can upkeep 100% projectile reflection uptime if one of them is running <img class='inline wall-reflect'> [Wall of Reflection], though this is a little tight so often the healers will help out with either <img class='inline feedback'> [Feedback] on a <img class='inline chrono'> [Chronomancer], <img class='inline smoke-screen'> [Smoke Screen] on the <img class='inline deadeye'> [Deadeye], or <img class='inline cpc'> [Corrosive Poison Cloud] on a <img class='inline scourge'> [Scourge].
 
 Usually running a couple of <img class='inline power'> [Power] damage dealers is extremely beneficial, as [Titanspawn Geysers] have less armor. These two players accompanied by a boonDPS can usually solo it within the 15 second respawn interval. Common choices here are classes with good burst damage and cleave, such as <img class='inline scrapper'> [Scrapper] or <img class='inline vindicator'> [Vindicator].
 
-Two damage dealers will usually cover a [Tanking] role. These can be any high-damage DPS, as they will have the largest overall uptime on the boss. Other damage builds can play any viable class and build, but the fight overall favours builds with high cleave damage and mobility, such as <img class='inline condition'> [Condition] <img class='inline mechanist'> [Mechanist] and <img class='inline willbender'> [Willbender].
+The tank players usually do not participate in the melee rotation, but all other DPS and boonDPS do.
 
 #### Builds and PoVs
 
 |Build|Role|PoV|Last updated|
-|<img class='inline chrono'> [Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)|Healer & Toxics||August 2025|
-|<img class='inline deadeye'> [CC Deadeye](https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e)|CC Bot & Toxics|[PoV](https://youtu.be/hxm8MSuFuyo), [Golem](https://youtu.be/vH_CbAcGEjo), [Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M)|September 2025|
+|<img class='inline chrono'> [Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e){:target="_blank"}|Healer & Toxics||August 2025|
+|<img class='inline deadeye'> [CC Deadeye]|CC Bot & Toxics|[PoV](https://youtu.be/hxm8MSuFuyo), [Golem](https://youtu.be/vH_CbAcGEjo), [Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M)|September 2025|
 |<img class='inline scourge'> [Hybrid Scourge](https://discordapp.com/channels/1121166847266537562/1332712612877570089/1360699762143137963)|Hybrid Heal & Toxics|[PoV](https://youtu.be/0skBqF5KlFA)|September 2025|
 |<img class='inline firebrand'> [Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e)| BoonDPS & Reflect |[PoV](https://youtu.be/J5zNxbxZInI)|September 2025|
 |<img class='inline mechanist'> [2-kit Mechanist](https://snowcrows.com/builds/raids/engineer/condition-mechanist-two-kits)|DPS (& Toxics) |[PoV](https://youtu.be/YZA5kr7REVg)|September 2025|
@@ -67,7 +79,7 @@ Setting up and following shard rotations is of fundamental importance. Usually a
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e"><img class='inline chrono'> Heal Chrono</a></td>
+            <td><a href="https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e"><img class='inline chrono'> Heal Chronomancer</a></td>
             <td>Ranged</td>
             <td></td>
             <td>2</td>
@@ -124,7 +136,7 @@ Setting up and following shard rotations is of fundamental importance. Usually a
         <tr>
             <td class='phase2'>2</td>
             <td>DPS</td>
-            <td>Tank</td>
+            <td>Tank (+ Ranged Fill)</td>
             <td></td>
             <td></td>
             <td></td>
@@ -141,7 +153,9 @@ Setting up and following shard rotations is of fundamental importance. Usually a
 </table>
 </div>
 
-#### Melee Rotation
+---
+
+### Melee Rotation
 Following the assignments in the [table above](#first-subgroup), usually the melee group rotates A > B > C > D > E. Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
 
 > A: "B, dropping on Titanspawn"
@@ -156,9 +170,23 @@ Another situation that may arise is when a player was not freed from [Pressure B
 
 In general, with five people following the rotation there is enough leeway to skip one player. Issues arise when players make multiple mistakes in succession, in which case it may be necessary to have a tank temporarily pick up a shard.
 
-#### Ranged Rotation
+---
 
-Ranged players will generally be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. The most common rotations have some optimizations to reduce the overall strain on the ranged players. One such rotation is displayed in the table below.
+### Ranged Rotation
+
+Ranged players will generally be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. Pain points often occur in the transitions at 70% and 40% of Ura's HP, where the rotation restarts from #8 and #7 respectively, thus yhe most common rotations have some optimizations to reduce the overall strain on the ranged players. Several of these are displayed below.
+
+---
+
+<img class='inline sheets'> [Heal-Only Rotation by Minas](https://docs.google.com/spreadsheets/d/18a4OXN5U8gqNg8eI7LLdyj6YZwHlVMm8bcH1rhdfXps)
+{: .btn}
+
+This rotation has only the healers and the <img class='inline deadeye'> [CC Deadeye] doing ranged shards. The advantage of this is that overall there will always be more damage players on the boss, leading to higher damage uptime.
+
+This rotation also optimizes the order in which the geysers are <img class='inline dispel'> [Dispelled] to make double dropping a bit easier, and has other small optimizations to reduce strain on the healers.
+
+The disadvantage of this rotation is that it requires overall higher DPS to be executed cleanly. This makes it common in experienced groups, but less accessible for progression purposes.
+
 <details>
 <summary>Click to expand rotation</summary>
 <table class="fl-table">
@@ -501,7 +529,23 @@ Ranged players will generally be [double sharding](../ura/strategy.html/#double-
 </table>
 </details>
 
-After #14 no more toxics need to be done.
+---
+
+<img class='inline sheets'> [EU Pug Rotation by Luna](https://docs.google.com/spreadsheets/d/1IGCWOLWRkC8AlaJvVupbUTj5jzGbdBhzeBF7cd9MFV0)
+{: .btn}
+
+This is an adaptation of the [Healer Only](#healer-only-rotation) rotation that changes the order slightly and introduces a DPS player to aid with the 40% transition. For this reason, this strategy is slightly more forgiving overall while still offering optimized damage.
+
+---
+
+<img class='inline sheets'> [NA Pug Rotation by Narra](https://docs.google.com/spreadsheets/d/1slMSuj0KzgsFcr7aw0GdmeLDfnRK7tOdepiWoKbMSR4)
+{: .btn}
+
+This strategy includes a DPS player alongside the healers as part of the rotation. This is usually a <img class='inline mechanist'> [Mechanist] with <img class='inline shift'> [Shift Signet], or another specialization with similar mobility and damage.
+
+The advantage of this rotation is that there is overall more leeway since there is one more person helping out. The disadvantage is slightly less outgoing damage overall since this DPS player will have to cover some mechanics.
+
+<img class=divider>
 
 [Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#recommended-legendary-ura-strategy){: .btn .fixed}
 {: .center}
@@ -522,6 +566,7 @@ After #14 no more toxics need to be done.
 [Titanic Resistance]: ../ura/mechanics.html#-titanic-resistance
 [Champion Fumaroller]: ../ura/mechanics.html#champion-fumaroller
 [Champion Fumarollers]: ../ura/mechanics.html#champion-fumaroller
+[Legendary Ventshots]: ../ura/mechanics.html#legendary-ventshot
 [Bloodstone Saturation]: ../ura/mechanics.html#-bloodstone-saturation
 [Propel]: ../ura/mechanics.html#propel
 [Autoattack Chain]: ../ura/mechanics.html#autoattack-chain
@@ -555,3 +600,6 @@ After #14 no more toxics need to be done.
 [Smoke Screen]: https://wiki.guildwars2.com/wiki/Smoke_Screen
 [Corrosive Poison Cloud]: https://wiki.guildwars2.com/wiki/Corrosive_poison_cloud
 [Feedback]: https://wiki.guildwars2.com/wiki/Feedback
+[Shift Signet]: https://wiki.guildwars2.com/wiki/Shift_Signet
+
+[CC Deadeye]: https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e
