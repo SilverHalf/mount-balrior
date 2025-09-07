@@ -5,7 +5,7 @@ nav_order: 1
 parent: Legendary Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Frequently Asked Questions](./faq.html){: .btn }
 
 # Legendary Ura Mechanical Reference
 {: .no_toc}

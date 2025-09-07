@@ -5,7 +5,7 @@ nav_order: 3
 parent: Legendary Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [Frequently Asked Questions](./faq.html){: .btn }
 
 # Recommended Legendary Ura Strategy
 
