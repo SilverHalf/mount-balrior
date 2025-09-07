@@ -26,26 +26,11 @@ Usually running a couple of <img class='inline power'> [Power] damage dealers is
 
 Two damage dealers will usually cover a [Tanking] role. These can be any high-damage DPS, as they will have the largest overall uptime on the boss. Other damage builds can play any viable class and build, but the fight overall favours builds with high cleave damage and mobility, such as <img class='inline condition'> [Condition] <img class='inline mechanist'> [Mechanist] and <img class='inline willbender'> [Willbender].
 
-#### First Subgroup
-
-|Build|Role|Melee|Ranged|Calls Out|
-|<img class='inline deadeye'> [CC Deadeye](https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e)| CC + Ranged||1|2|
-|<img class='inline chrono'> [Heal Chrono](https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)|Ranged||2|3|
-|<img class='inline firebrand'> [Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e)|Melee + Titanspawner|A||B|
-|<img class='inline power'> [Power] DPS |Melee + Titanspawner|B||C|
-|<img class='inline power'> [Power] DPS |Melee + Titanspawner|C||D|
-|||||
-|Full/Hybrid Heal|Ranged||3|1|
-|<img class='inline firebrand'> [Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e)|Melee|D||E|
-|DPS|Melee|E||A|
-|DPS|Tank||||
-|DPS|Tank||||
-
 #### Builds and PoVs
 
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)|Healer & Toxics||August 2025|
-|<img class='inline deadeye'> [CC Deadeye](https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e)|CC Bot & Toxics|[PoV](https://youtu.be/hxm8MSuFuyo), [Golem Showcase](https://youtu.be/vH_CbAcGEjo)|September 2025|
+|<img class='inline deadeye'> [CC Deadeye](https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e)|CC Bot & Toxics|[PoV](https://youtu.be/hxm8MSuFuyo), [Golem](https://youtu.be/vH_CbAcGEjo), [Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M)|September 2025|
 |<img class='inline scourge'> [Hybrid Scourge](https://discordapp.com/channels/1121166847266537562/1332712612877570089/1360699762143137963)|Hybrid Heal & Toxics|[PoV](https://youtu.be/0skBqF5KlFA)|September 2025|
 |<img class='inline firebrand'> [Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e)| BoonDPS & Reflect |[PoV](https://youtu.be/J5zNxbxZInI)|September 2025|
 |<img class='inline mechanist'> [2-kit Mechanist](https://snowcrows.com/builds/raids/engineer/condition-mechanist-two-kits)|DPS (& Toxics) |[PoV](https://youtu.be/YZA5kr7REVg)|September 2025|
@@ -58,6 +43,103 @@ Two damage dealers will usually cover a [Tanking] role. These can be any high-da
 ## Shard Rotations
 
 Setting up and following shard rotations is of fundamental importance. Usually a rotation is set up also for the melee group, since only 5 players must handle the shard, while CM groups often forgo this.
+
+<div>
+<table class="fl-table padded">
+    <thead>
+        <tr>
+            <th>Sub</th>
+            <th>Build</th>
+            <th>Role</th>
+            <th>Melee</th>
+            <th>Ranged</th>
+            <th>Calls out</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e"><img class='inline deadeye'> CC Deadeye</a></td>
+            <td>CC + Ranged</td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e"><img class='inline chrono'> Heal Chrono</a></td>
+            <td>Ranged</td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
+            <td>Melee + Titanspawner</td>
+            <td>A</td>
+            <td></td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
+            <td>Melee + Titanspawner</td>
+            <td>B</td>
+            <td></td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
+            <td>Melee + Titanspawner</td>
+            <td>C</td>
+            <td></td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>Full/Hybrid Heal</td>
+            <td>Ranged</td>
+            <td></td>
+            <td>3</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
+            <td>Melee</td>
+            <td>D</td>
+            <td></td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Melee</td>
+            <td></td>
+            <td>E</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Tank</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Tank</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
 #### Melee Rotation
 Following the assignments in the [table above](#first-subgroup), usually the melee group rotates A > B > C > D > E. Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
@@ -367,7 +449,7 @@ Ranged players will generally be [double sharding](../ura/strategy.html/#double-
         <td>Ignore #7 for now.</td>
     </tr>
     <tr>
-        <td class="phase3">3</td>
+        <td class="phase3-late">3</td>
         <td>9</td>
         <td class=de_red><img class='inline deadeye'> CC DE</td>
         <td class=ch_pur><img class='inline chrono'> Heal 1</td>
@@ -388,7 +470,7 @@ Ranged players will generally be [double sharding](../ura/strategy.html/#double-
         <td>In p4 the <img class='inline deadeye'> Deadeye only CCs the boss. Healers CC the geysers.</td>
     </tr>
     <tr>
-        <td class="phase3-late">3</td>
+        <td class="phase3">3</td>
         <td>11</td>
         <td class=ch_gre><img class='inline chrono'> Heal 2</td>
         <td class=ch_gre><img class='inline chrono'> Heal 2</td>
