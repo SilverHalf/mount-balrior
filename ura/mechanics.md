@@ -202,6 +202,8 @@ Ura will periodically perform an animation and target a player with a Sulfuric G
 
 After 5 seconds, the timer will run out and a sulfuric geyser will spawn on the player's position. Sulfurics spawn with an AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. As long as Ura is in contact with this AoE, she will periodically gain <img class='inline protection'> [Protection], <img class='inline resolution'> [Resolution] and 25 <img class='inline might'> [Might].
 
+When the geyser spawns, it will release a circular shockwave that will expand and cover the entire arena. This wave can be dodged, blocked or jumped, and it deals damage and inflicts <img class='inline sulfuricacid'> [Sulfuric Acid] on hit. 
+
 Sulfuric Geysers cannot be destroyed, but despawn 5 minutes after they appear. They must be positioned accordingly at the edges of the arena so that they don't impede the squad and buff the boss for this duration.
 
 Players targeted by a geyser will gain 5 seconds of <img class='inline superspeed'> [Superspeed].

@@ -1,200 +1,269 @@
 ---
 layout: page
 title: FAQ
-nav_order: 1
+nav_order: 2
 parent: Legendary Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
 
 # Legendary Ura Frequently Asked Questions
 
+This page contains a set of frequently asked questions regarding the Legendary Ura encounter. These are grouped into four sections:
+
+1. [Ura's Attacks and How to Deal with Them](#uras-attacks-and-how-to-deal-with-them)
+2. [Ranged Group and Toxic Geysers](#ranged-group-and-toxic-geysers)
+3. [Phasing and Related Issues](#phasing-and-related-issues)
+4. [Titanspawners, Fumarollers, Ventshots](#titanspawner-fumarollers-ventshots)
+5. [Builds, Composition and More](#builds-squad-compositions-and-more)
+6. [Glossary](#glossary)
+
 <img class=divider>
 
-## Ura Attacks and how to deal with them
+## 1. Ura's Attacks and how to deal with them
 
-### How, who, where to kite Ura jumps in p1?
+<details class=faq>
+<summary>1.1 - How, who, where to kite Ura jumps in p1?</summary>
+<div markdown='block'>
 
-Ura targets the furthest player within 1500 range (that’s the max range of her abilities). So in order to kite, you just need to be the furthest away. It’s best if all healers (Chrono, Scourge, DE) are aware of how and where to kite, so they can easily all kite for some redundancy and know how to react if they are out of place. The path where you want Ura to jump is roughly just following the Toxic Geysers, like shown below (The numbers with the white background next to the black arrows is the order of the jumps; 1, 2, 3, …; you can see that you essentially kite Ura back and forth). Importantly though, you want to kite such that Ura does not jump into Toxic Geysers, because that will give her boons; you want to be close to the Toxic Geysers, but outside of the boon range (Note: boons from Toxic Geysers are only given in the initial radius of Toxic Geysers and not in the extended radius when they grow).
+Ura targets the furthest player within 1500 range, so in order to kite, you just need to be the furthest away. It’s best if all healers (<img class='inline chrono'> [Chronomancer], <img class='inline scourge'> [Scourge], <img class='inline deadeye'> [Deadeye]) are aware of how and where to kite, so they can provide some redundancy and know how to react if they are out of place.
 
-Useful note: If you are in a situation where you are doing a Toxic Geyser and you know Ura will jump soon, but you are in a bad spot, then you can try to quickly either move close to Ura so the other healers bait her properly, or move out of her 1500 range so you aren’t targeted.
+Ura's jumps should roughly follow the [Toxic Geysers], as shown below (The numbers with the white background next to the black arrows are the order of the jumps; 1, 2, 3, …; you can see that you essentially kite Ura back and forth). Importantly though, you want to kite so that Ura does not jump into Toxic Geysers, as that will give her boons. You want her to be close to the geysers, but outside of the boon range.
 
-Important note for the picture: depending on dps you might want to bait slightly differently and not exactly like shown. You can just follow the general principles of: 1) follow Toxics, 2) make sure to not make her jump into toxics, 3) after the last jump, stand southwest of Ura to make her face that way (more info on that below).
+<img class='center' src='../images/ura/ura_propel_p1.webp' width='70%'>
 
-![Ura Phase 1 jumps](../images/ura/ura_propel_p1.webp)
+{: .note}
+Boons from Toxic Geysers are only given in the initial radius and not in the extended radius when they grow.
 
----
+If you are in a situation where you are doing a Toxic Geyser in a bad position and you know Ura will jump soon, you can try to quickly move closer to Ura so the other healers can bait her properly, or move out of her 1500 range so you aren’t targeted.
 
-### How, when and why to CC Ura correctly?
+Depending on your damage and whether Ura gets CC'd, you might want to bait slightly differently and not exactly like shown. You can just follow the general principles of: 
+1) Follow Toxics.
+2) Make sure to not make her jump into Toxics.
+3) After the last jump, stand southwest of Ura to make her face that way (more info on that below).
 
-Ura builds up a stacking damage reduction debuff, which gets removed when you CC her, while also giving her a stack of Titanic Resistance, which reduces the CC amount of skills. This means that you want to CC Ura whenever she gets to 5-6 stacks roughly, in order to keep the damage reduction low on average, while also not getting overwhelmed by high Titanic Resistance stacks. Whenever Ura is CCd, her attack will be interrupted and she will start casting the next attack (think about how you can weaponstow and immediately cast another ability, also cancelling aftercasts).
+</div>
+</details>
 
-Ura’s attacks are on a priority list, have casttimes, aftercasts and cooldowns. She will go down her priority list and cast the next skill that is available (if a target is in range). If you CC at bad times, you remove cast+aftercast from a skill, which will cause Ura to run out of attacks and then use Propel (the jump). That’s why we want to CC at the end of aftercasts, in order to minimise the chances of Ura jumping away.
+<details class=faq>
+<summary>1.2 - How, when and why to CC Ura correctly?</summary>
+<div markdown='block'>
 
-The following table contains some rough numbers, but they are likely not 100% correct; but just to give you a rough idea:
+Ura builds up <img class='inline risingpressure'> [Rising Pressure], which gets removed when you CC her. This also gives her a stack of <img class='inline titanicresistance'> [Titanic Resistance], which reduces incoming CC damage. This means that you want to CC Ura whenever she gets to roughly 5-6 stack , in order to keep the damage reduction low on average, while also not getting overwhelmed by high <img class='inline titanicresistance'> [Titanic Resistance] stacks.
 
-|               | priority | cd | cast | aftercast |
-| --            | -- | --   | -- | -- |
-| Bubble        | 1  | ~25s | 5s | ~1.5s |
-| Titanspawn    | 2  | ~30s | 5s | ~2s |
-| Sulfuric      | 3  | ~20s | 5s | ~4s |
-| Arena         | 4  | ~15s | 7s | ~5s |
-| Propel (jump) | 5  | ~12s | -  | - |
+Whenever Ura is CCd, her attack will be interrupted and she will immediately start casting the next attack. Ura’s attacks are on a priority list, with cast times, aftercasts and cooldowns. She will go down her priority list and cast the next skill that is available (if a target is in range). If you CC at the wrong time, you can remove cast and aftercast from a skill, which will cause Ura to run out of attacks and then use [Propel]. That’s why we want to CC at the end of aftercasts, in order to minimize the chances of Ura jumping away. For more information see [when to CC Ura](../ura/mechanics.html#when-to-cc-ura).
 
-Best CC Timings (gifs from Elise):
+The best CC timings are (gifs from Elise):
 
-1)  Arena: After her hands are down. Roughly 3 seconds time window after hands are down.
+[Steam Prison] - After her hands are down. Roughly 3 seconds time window after hands are down.
 
+<img class='center' src='../images/ura/ura-cc-donutmove.gif' width='70%'>
 
-![ura-cone](../images/ura/ura-cc-donutmove.gif)
+[Create Titanspawn Geyser] - after she is in the air. Roughly 4-5 seconds time window after she is in the air.
 
-2) Titanspawner, after she is in the air. Roughly 4-5 seconds time window after she is in the air.
+<img class='center' src='../images/ura/ura-cc-jumpslam.gif' width='70%'>
 
-![ura-cone](../images/ura/ura-cc-jumpslam.gif)
+[Sulfuric Geyser] - Once the indicators start, which is roughly when she has stretched her arm out front fully. About 2-3 seconds of a window.
 
-3) Sulfuric: Once the sulfuric indicators starts, which is roughly when she has stretched her arm out front fully. About 2-3 seconds of a window.
+<img class='center' src='../images/ura/ura-cc-sulfanim.gif' width='70%'>
 
-![ura-cone](../images/ura/ura-cc-sulfanim.gif)
+</div>
+</details>
 
----
+<details class=faq>
+<summary>1.3 - How, when and who tanks Ura?</summary>
+<div markdown='block'>
 
-### How, when and who to tank Ura?
-
-Ura needs a tank from Phase 3 (40%) onward. The reason for this is that in Phase 2 she cannot use Propel (jump), but she can use it again in Phase 3 and 4. You need a tank for Ura such that Ura is able to cast attacks other than Propel. If no one is in front of her, she casts Propel, because all other attacks require a target in front of her (i.e. she goes down her priority list and if no target is available, goes to the next attack etc.. which brings her to the only attack that doesn’t require a target in front of her, which is Propel).
+Ura needs a tank from Phase 3 (40%) onward. The reason for this is that in Phase 2 she cannot use [Propel], but she can use it again in Phase 3 and 4. You need a tank for Ura such that Ura is able to cast attacks other than Propel. If no one is in front of her, she casts [Propel], because all other attacks require a target in front of her (i.e. she goes down her priority list and if no target is available, goes to the next attack etc.. which brings her to the only attack that doesn’t require a target in front of her, which is Propel).
 
 The tank can be any dps, or any player in general. There is no real “tanking mechanic” per se, like nothing to do with Toughness or anything, it’s just that Ura needs any player in front of her to cast abilities other than Propel.
 
-The Line of Sight from Ura is roughly a 140° cone; see the shaded area below, so yes, the cone is decently wide and the tank just needs to stay within that cone.
+The Line of Sight from Ura is roughly a 140° cone: see the shaded area below. The cone is decently wide and the tank just needs to stay within that cone. See [tanking Ura](../ura/mechanics.html#tanking-ura) for more information.
 
-![ura-cone](../images/ura/ura-cone.webp)
+<img class='center' src='../images/ura/ura-cone.webp' width='70%'>
 
----
+</div>
+</details>
 
-### How to turn Ura on the correct side?
+<details class=faq>
+<summary>1.4 - How to turn Ura to the correct side?</summary>
+<div markdown='block'>
 
-Turning Ura is a bit finnicky. She only turns when she casts Arena, or Sulfuric Geyser. For both casts she will turn toward a random target. This means that she actually can do a 180° turn to one of the Toxic Geyser kiters and in those situations it’s crucial for the tank to notice this and quickly run back into her cone of vision. You can use this to turn Ura by having everyone except the tank go to the side where you want Ura to turn, which gives you a high probability that she will turn once Arena/Sulfuric is used.
+Turning Ura is a bit finnicky. She only turns when she casts [Steam Prison] or [Sulfuric Geyser]. For both casts she will turn toward a random target and follow them for the duration of the cast. This means that she actually can spin 180° to one of the [Toxic Geyser] group: in these situations it’s crucial for the tank to notice this and quickly run back into her cone of vision.
 
-Other than that the los tank can try to slowly rotate Ura by standing on one side at the end of Ura’s cone of vision and rotate her in small steps.
+You can use this to turn Ura by having everyone except the tank go to the side where you want Ura to turn, which gives you a high probability that she will turn once Arena/Sulfuric is used.
 
----
+Other than that, the tank can try to slowly rotate Ura by standing on one side at the end of Ura’s cone of vision and rotate her in small steps.
 
-### What gives Exposed?
+</div>
+</details>
 
-When Sulfuric Acid ticks for 5 seconds, it will turn into Exposed. You get Sulfuric Acid from many different attacks: standing in Toxic/Sulfuric Geysers if you have too many Poison stacks, from Ura’s Acid spray attack (is used when she has no melee target), from the waves that get released from Sulfuric Geysers.
+<details class=faq>
+<summary>1.5 - How come I'm getting <img class='inline exposed'> Exposed?</summary>
+<div markdown='block'>
 
-In order to prevent getting exposed, you need to condi cleanse Sulfuric Acid, but only one stack at a time can be cleansed. That’s why bringing extra cleanse on dps is so important, such that you have many different skills that cleanse the group in order to minimise Exposed.
+When <img class='inline sulfuricacid'> [Sulfuric Acid] ticks for 5 seconds, it will turn into <img class='inline exposed'> [Exposed]. You can get <img class='inline sulfuricacid'> [Sulfuric Acid] from many different attacks: standing in [Toxic Geysers] and [Sulfuric Geysers] if you have too many <img class='inline poison'> [Poison] stacks, from Ura’s [Acid Spray] (used when she has no melee target), and from the waves that get released from [Sulfuric Geysers].
 
----
+In order to prevent getting exposed, you need to cleanse <img class='inline sulfuricacid'> [Sulfuric Acid], which can only be done one stack at a time. That’s why bringing extra cleanse on DPS is so important, so that you have many different skills that cleanse the group in order to minimize <img class='inline exposed'> [Exposed].
 
-### What are the worst and the best place to drop sulfuric?
+</div>
+</details>
 
-Good places are the purple areas, so basically outside of the area that is covered with Toxic Geysers and additionally specifically not behind 1 and 2 (except for the ranged group if they are close there). The reason for this is that the purple areas below area reachable from the boss, but behind 1 and 2 is not reachable.
+<details class=faq>
+<summary>1.6 - Where do I drop Sulfurics?</summary>
+<div markdown='block'>
 
-Additionally, within those areas, it’s better to drop Sulfurics between Geysers where NO double drops are happening. Example: 13+14 is always double dropped, so ideally don’t go between them. But 12 and 14, or 10 and 13 are not double drop, so it’s better to drop em between those. The absolute best area to drop them is behind 9, which can be seen from the image below, as it’s the shortest path from Ura to get behind Toxic Geysers.
+Looking at the image below, good places are the purple areas, so basically outside of the part of the area that is covered with [Toxic Geysers] and additionally specifically not behind 1 and 2 (except for the ranged group if they are close there). The reason for this is that the purple areas below area reachable from the boss, but behind 1 and 2 is not reachable.
 
-[toxic-geyser-spawns](../images/ura/ura_sulfurics.webp)
+<img class='center' src='../images/ura/ura_sulfurics.webp' width='70%'>
 
----
+Additionally, within those areas, it’s better to drop Sulfurics between Geysers where NO double drops are happening. Example: #13 and #14 are always double dropped, so ideally don’t go between them, but #12 and #14, or #10 and #13 are not, so it’s better to drop between those. The absolute best area to drop them is behind #9, which, as can be seen from the image, is the shortest path from Ura.
 
-### Is it worth stacking Sulfuric Geysers?
+</div>
+</details>
 
-Yes, but they can very quickly kill you if you are not careful. Rule of thumb is that on a non-healer you can stack maximum 2 sulfurics (i.e. you run into only one existing and drop yours on top) and on a healer it depends if you have many cleanses or distort available. Chrono has it the easiest to stack them, because you can press Distort and drop stack em safely.
+<details class=faq>
+<summary>1.7 - Is it worth stacking Sulfuric Geysers?</summary>
+<div markdown='block'>
 
----
+Yes, but they can very quickly kill you if you are not careful. Rule of thumb is that on a non-healer you can stack a maximum of two [Sulfuric Geysers] (i.e. you run into only one existing and drop yours on top) and on a healer it depends if you have many cleanses or defensive skills available. <img class='inline chrono'> [Chronomancer] has it the easiest, because you can press <img class='inline distortion'> [Distort] and ignore all incoming damage and conditions.
 
-### What attacks to dodge?
+</div>
+</details>
 
-Generally, dodge Titanspawn Geysers (the stomp/jump in the air from Ura) and Propel (jump) when she lands. Other than that you can jump, or dodge over the waves from Sulfuric Geysers. You can also double dodge out of the Arena with the right timing (or with Superspeed), if you don’t have a mobility skill and no Stab. You can dodge Sulfuric/Toxic Geyser AoEs to prevent the ticks, but this is not as important.
+<details class=faq>
+<summary>1.8 - What attacks should I dodge?</summary>
+<div markdown='block'>
 
----
+Generally, dodge [Create Titanspawn Geyser] (the stomp/jump in the air from Ura) and [Propel] (jump) when she lands. Try to sidestep or dodge the final cone of her [Autoattack Chain]. Other than that you can jump, block or dodge the waves from [Sulfuric Geysers]. You can also double dodge out of the [Steam Prison] with the right timing (or with <img class='inline superspeed'> [Superspeed]), if you don’t have a mobility skill and no <img class='inline stability'> [Stability]. You can dodge [Sulfuric Geyser]/[Toxic Geyser] AoEs to prevent the damage ticks, but this is not as important.
 
-### Can you give stability to people in bubbles?
+</div>
+</details>
 
-No, the people targeted by the mechanic get stability removed if they have it before and cannot receive it again during bubbles, until they're dispelled. This means that players in bubbles can get knocked by Fumarroller attacks, which can lead to displaced bubbles. The Bloodstone shard needs to be dropped under the bubble, so in such knocked cases immediately call out in voice that bubble got knocked and that the Bloodstone shard needs to be dropped again. The white indicator on the floor is wrong in those cases, because it only shows the initial bubble position, but does not get updated when knocked. But the dispel does only work if the Bloodstone shard is dropped underneath the bubble.
+<details class=faq>
+<summary>1.9 - Can you give <img class='inline stability'> Stability to people in bubbles?</summary>
+<div markdown='block'>
 
----
+No, the people targeted by the mechanic get <img class='inline stability'> [Stability] removed if they have it beforehand, and cannot receive it again during bubbles, until they're <img class='inline dispel'> [Dispelled]. This means that players in bubbles can get knocked by [Champion Fumarollers], which can lead to displaced bubbles.
 
-### How melee deal with bubbles in this these situations:
+The white indicator on the floor is misleading in these situations, because it only shows the initial bubble position, and does not get updated when knocked, but <img class='inline dispel'> [Dispel] only works if the shard is dropped underneath the bubble. In such cases immediately call out in voice that the shard needs to be dropped again.
 
-#### I have bubble same time as titan spawn – both strategy (whole group on titan, power on titan), what has priority
+</div>
+</details>
 
-The Shard always MUST to go to the Titanspawn, this means that the bubbles also MUST go to the Titanspawn.
+<details class=faq>
+<summary>1.10 - How do I deal with bubbles in this situation?</summary>
+<div markdown='block'>
 
-General rule of thumb is to always do bubbles next to the Titanspawn when both are up.
+#### I have bubble at the same time as the Titanspawner
 
-#### I have bubble same time as titan spawn and second bubble is tank
+The [Bloodstone Shard] always MUST to go to the [Titanspawner], this means that the bubbles also MUST go to the Titanspawner. General rule of thumb is to always do bubbles next to the Titanspawn when both are up.
 
-In this case they should call for a backup tank immediately and run to the Titanspawn. Usually there is always someone who can backup tank for a bit, like the dps from the ranged team, or one of the healers.
+#### I have bubble at the same time as the Titanspawner and the second bubble is tank
 
-#### I have bubble but I am far running back from sulfuric
+In this case they should call for a backup tank immediately and run to the Titanspawn. Usually there is always someone who can backup tank for a bit, like a DPS from the ranged team, or one of the healers.
+
+#### I have bubble but I am far running back from [Sulfuric Geyser]
 
 Just like the case above with the ranged being far away, call it out immediately with the direction and meet in the middle.
 
-There is one specific possible scenario where you get Sulfuric > phase 40% to p3 > Sulfuric person gets bubble. This is very unlucky timing and it’s a difficult situation to solve. The second bubble has to run out to the Sulfuric person together with the melee who has the bloodstone shard (and the one who is supposed to pick up) in order to save them. Otherwise they will likely die and it’s a wipe.
+There is one specific possible scenario where you get Sulfuric > phase 40% to p3 > Sulfuric person gets the bubble. This is very unlucky timing and it’s a difficult situation to solve. The second bubble has to run out to the Sulfuric person together with the melee who has the bloodstone shard (and the one who is supposed to pick up) in order to save them. Otherwise they will likely die and it’s a wipe.
+
+</div>
+</details>
 
 <img class=divider>
 
-## Ranged group, Toxic Geyser kiting
+## Ranged group and Toxic Geysers
 
-### Who should be double dropping?
+<details class=faq>
+<summary>2.1 - Who should be double dropping?</summary>
+<div markdown='block'>
 
-All healers: Chrono, DE and Scourge generally. There is an edge case where the dps that helps the ranged team also has to double drop, which can happen in the p2 to p3 transition if Toxic Geyser 5, or 6 spawns. In that case the dps has to double drop 8 and 9, but otherwise only the healers double drop.
+All healers: <img class='inline chrono'> [Chronomancer], <img class='inline deadeye'> [Deadeye] and <img class='inline scourge'> [Scourge] generally. There is an edge case where the DPS that helps the ranged team also has to double drop, which can happen in the p2 to p3 transition if Toxic Geyser #5 or #6 spawns. In that case the dps has to double drop #8 and #9, but otherwise only the healers double drop.
 
----
+</div>
+</details>
 
-### What toxics are double drops?
+<details class=faq>
+<summary>2.2 - Which Toxic Geysers are double dropped?</summary>
+<div markdown='block'>
 
-Essentially almost all of them. Please refer to a ranged rotation sheet for more information.
+Essentially almost all of them. Please check a [ranged rotation](strategy.html#ranged-rotation) for more information.
 
-- Narra/NA Pug: https://docs.google.com/spreadsheets/d/e/2PACX-1vTRRf8AogRxhW1trZYtEtOPlQzA5WaZjZD64s90_IuGrxyWGjgwLCo3yBQRCAytN8VGu6gALfMAw9V8/pubhtml?gid=591640946&single=true
-- EU Pug: https://docs.google.com/spreadsheets/d/e/2PACX-1vQttaDhjhxuvL_VH61ieYoJSYwn2odinF7puAqlxfgMd397TE4ifA3-htNj8iXWBRF15qFkR9vDSxA9/pubhtml?gid=1491958775&single=true
-- Heal only (requires higher dps): https://docs.google.com/spreadsheets/d/18a4OXN5U8gqNg8eI7LLdyj6YZwHlVMm8bcH1rhdfXps/edit?gid=969431177#gid=969431177
+</div>
+</details>
 
----
+<details class=faq>
+<summary>2.3 - What Toxic Geysers should be done in the final phase?</summary>
+<div markdown='block'>
 
-### What toxic should be done in p4?
+All should be done up to #14. After that, everything else can be safely ignored, except for #8 and #11 if you get them. Please check a [ranged rotation](strategy.html#ranged-rotation) for more information.
 
-Explained already. P4 up to 14+ 8 and 11 if you get them.
+</div>
+</details>
 
----
+<details class=faq>
+<summary>2.4 - Are there differences in doing Toxics in p3 and p4?</summary>
+<div markdown='block'>
 
-### Are there differences in kiting in p3 and p4?
+Not mechanically speaking, but exceptions apply for the last few [Toxic Geysers] of Phase 4. Toward the end when you only have geysers #12, #13 and #14 left, you don’t need to do them immediately since at that point you aren’t doing the rest. So you can take your time and do those whenever it is convenient, which is generally when your squad is healthy and there are no important mechanics happening (such as CCing the boss).
 
-Mechanically speaking, generally no, but exceptions apply for the last few Toxic Geysers of Phase 4. So once you hit p4, you want to continue as usual with the Toxic Geysers. Toward the end when you only have Toxic Geyser 12, 13 and 14 left however, you don’t need to do them immediately, because at that point you aren’t doing all of them anymore. So you can take your time and do those whenever it is a good time. That’s generally when there is no important mechanic happening, like CCing the boss, or healing needed. After 14, the next Toxic Geyser that becomes relevant is 8 and then 11. If you have high enough dps, those won’t matter, but if they do, have your Chrono and if needed someone else prepared to immediately CC 8 when it spawns (for timing, look when 6 and then 7 spawns, so you know pretty precisely when 8 will spawn). Depending on Ura’s HP, either she will die very soon and you can ignore 8 after CCing, or you wanna drop a shard there (e.g. by using Scourge Sandswell to quickly get there and back again). If the dps is low enough to where you get 11, just immediately drop the shard (and pick it up again) and kill it with dps, since the squad should stack on that spot usually. If not stacking there, then the Chrono and if needed more should immediately CC 11.
+After #14, the next Toxic Geysers that become relevant are #8 and then #11. If you have high enough damage, those won’t matter, but if they do, have your <img class='inline chrono'> [Chronomancer] (and someone else if needed) prepared to immediately CC #8 when it spawns (you can estimate the timing by looking at when 6 and then 7 spawn). Depending on Ura’s HP, either she will die very soon and you can ignore #8 after CCing, or you want to drop a shard there (e.g. by using Scourge Sandswell to quickly get there and back again). If damage is low enough to where you get #11, just immediately drop the shard (and pick it up again) and kill it with DPS, since the squad is usually stacking on that spot. Otherwise, the <img class='inline chrono'> [Chronomancer] should immediately CC it.
 
----
+</div>
+</details>
 
-### What is the advantage/disadvantage of having a DPS help the ranged group?
+<details class=faq>
+<summary>2.5 - What is the advantage/disadvantage of having a DPS help the ranged group?</summary>
+<div markdown='block'>
 
-Having dps help makes the ranged rotation easier to deal with, because of the limiting factor which is the Bloodstone Saturation debuff from dropping the Bloodstone Shard. The disadvantage is just that for the dps it becomes more easy and safe if they have a blink skill, which limits the dps options a bit. But it’s not too bad.
+Having a DPS help makes the ranged rotation easier to deal with. The limiting factor is the duration of the <img class='inline saturation'> [Bloodstone Saturation] debuff from using <img class='inline dispel'> [Dispel]. The disadvantage is that it is better to have a DPS with blink skill, which limits the playable classes. More information on this strategy can be found here: [NA Pug Rotation](mechanics.html#na-pug-rotation).
 
-Playing with 3 heal ranged only is harder to execute. The only advantage there is just that you can have 2 tanks instead of 1.
+Playing with 3-heal ranged is harder to execute, as the duration of <img class='inline saturation'> [Bloodstone Saturation] makes it tighter. The advantage is slightly higher DPS on the boss and that you can have 2 tanks instead of 1. More information on this strategy can be found here: [3-Heal Rotation](mechanics.html#na-pug-rotation).
 
----
+</div>
+</details>
 
-### How to deal with bubbles, sulfuric and cage when kiting/double dropping?
+<details class=faq>
+<summary>2.6 - How to deal with bubbles, sulfuric and cage when double dropping?</summary>
+<div markdown='block'>
 
-- Bubbles: Quick reactions, depending on the situation you might want to call out that the Toxic Geyser person frees you on the next Toxic Geyser, or that you run back to the group.
-- Sulfuric: Always has high priority and needs to be placed away well. If you are supposed to do a double drop and you just dropped the shard and then received Sulfuric, just leave the shard on the ground, place the sulfuric, and tell the group that the shard will tick two, or three times so they can play safe and heal accordingly.
-- Cage/Arena/Donut: Just place it in a way to not overlap any Toxics that you wanna do, while also moving away from melee range such that the squad can still move around the boss. The reason for the former is that the Arena reflects projectiles, which means the CC DE cannot CC, because Spear 4 (the CC skill) is a projectile. There are cases where e.g. the DE has already CCd one Toxic and you are supposed to double drop and get the arena. In those cases you can just go to the Toxic, drop the shard, place the arena there, pick up and move to the second Toxic. This is fine if and only if the first Toxic has been CCd already, cause then the projectile reflects don’t matter (and you can simply outheal a few ticks on yourself from being inside the arena).
+- [Pressure Blast] - Quick reactions, depending on the situation you might want to call out for the next person in the rotation to free you on the next Geyser, or that you'll run back to the group.
+- [Sulfuric Geyser] - Always has high priority and needs to be placed correctly. If you are supposed to do a double drop, and you just used <img class='inline dispel'> [Dispel] and then got targeted by the sulfuric, just leave the shard on the ground, place the geyser, and tell the group that the shard will tick two or three times so they can play safe and heal accordingly.
+- [Steam Prison] - Place it so that it does not overlap any [Toxics Geysers] that you want to do, while also moving away from melee range such that the squad can still move around the boss. The arena reflects projectiles, which means the <img class='inline deadeye'> [Deadeye] cannot CC, because Spear 4 (the CC skill) is a projectile. There are situations where e.g. the <img class='inline deadeye'> [Deadeye] has already CCd one Toxic and you are supposed to double drop when you get the arena. In those cases you can just go to the Toxic, <img class='inline dispel'> [Dispel], place the arena there, pick up and move to the second Toxic. This is fine if and only if the first Toxic has been CCd already, cause then the projectile reflects don’t matter (and you can simply outheal a few ticks on yourself from being inside the arena).
 
----
+</div>
+</details>
 
-### How to deal with different situations, how ranged group deals with bubbles in the following:
+<details class=faq>
+<summary>2.7 - I have a shard that I am supposed to drop, but I just got bubble!</summary>
+<div markdown='block'>
 
-#### I have a shard that I am supposed to drop, but I just got bubble
+First of all, while holding the [Bloodstone Shard], you are immune to [Pressure Blast] and you also can't get targeted by it. If you just <img class='inline dispel'> [Dispelled], then get a bubble, and you are supposed to double drop, then you can just wait 2 seconds and then pick up the shard again to ignore the bubble and just outheal the tick from it. <img class='inline dispel'> [Dispel] again the bubble is over and you are on the next Toxic.
 
-First of all, if you hold the shard, you are immune to bubble and you also don’t get targeted. If you just dropped a shard, then get a bubble, but you are supposed to double drop, then you can just wait 2 seconds and then pick up the shard again to immune the bubble and just outheal the tick from it. Drop it once you the bubble is over (and you are on the next Toxic.
+If you are Supposed to pick it up, but your buddy has not dropped it yet, you can call that they should free you on top of the geyser they need to <img class='inline dispel'> [Dispel].
 
-If you are Supposed to pick it up, but your buddy has not dropped it yet, you can call that they should free you on top of a Toxic Geyser where they need to drop the shard. So they just do the Toxic Geyser as usual and additionally free you on the Toxic.
+</div>
+</details>
 
-#### I have a shard that I just dropped but I just got bubble and group is far
+<details class=faq>
+<summary>2.8 - I have a shard that I just dropped but I just got bubble and group is far!</summary>
+<div markdown='block'>
 
-Immediately call out that bubble is far away (and the direction if possible) and then use your movement skills if you have any available. In principle, the 2 bubbles should meet in the middle if both are far away from each other.
+Immediately call out that bubble is far away (and the direction if possible) and then use your movement skills if you have any available. In principle, the 2 bubbles should meet in the middle if both are far from each other.
 
-#### I have a shard that I am supposed to drop but another range near me have a bubble
+</div>
+</details>
 
-If you have the shard and a range buddy next to you has bubble, then just free them when you drop the Toxic Geyser. Depending on the situation, you may have to just wait a second or 2 longer until they are bubbled and only then can you drop. Just spam your healing skills on top of yourself to heal against the incoming damage from the Bloodstone Shard (in case you already have one stack).
+<details class=faq>
+<summary>2.1 - I have to <img class='inline dispel'> Dispel but another ranged player near me has a bubble!</summary>
+<div markdown='block'>
+
+If you are holding the [Bloodstone Shard] and a range buddy next to you has the bubble, then just free them when you <img class='inline dispel'> [Dispel]. Depending on the situation, you may have to just wait a couple of seconds until they are bubbled, and only then should you drop. Remember to spam your healing skills on top of yourself to negate the incoming damage from <img class='inline saturation'> [Bloodstone Saturation] in case you already have a stack.
+
+</div>
+</details>
 
 <img class=divider>
 
@@ -426,3 +495,39 @@ Ventshots: Refer to the Legendary Ventshot enemies that spawn from Titanspawn Ge
 
 [Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#ura-faq){: .btn .fixed}
 {: .center}
+
+[Chronomancer]: strategy.html#builds-and-povs
+[Deadeye]: strategy.html#builds-and-povs
+[Scourge]: strategy.html#builds-and-povs
+
+[Bloodstone Shard]: ../ura/mechanics.html#bloodstone-shards
+[Bloodstone Shards]: ../ura/mechanics.html#bloodstone-shards
+[Toxic Geyser]: ../ura/mechanics.html#toxic-geysers
+[Toxic Geysers]: ../ura/mechanics.html#toxic-geysers
+[Sulfuric Geyser]: ../ura/mechanics.html#sulfuric-geysers
+[Sulfuric Geysers]: ../ura/mechanics.html#sulfuric-geysers
+[Dispel]: ../ura/mechanics.html#-dispel
+[Dispelled]: ../ura/mechanics.html#-dispel
+[Titanspawn Geyser]: ../ura/mechanics.html#titanspawn-geysers
+[Titanspawn Geysers]: ../ura/mechanics.html#titanspawn-geysers
+[Titanspawner]: ../ura/mechanics.html#titanspawn-geysers
+[Create Titanspawn Geyser]: ../ura/mechanics.html#titanspawn-geysers
+[Pressure Blast]: ../ura/mechanics.html#pressure-blast
+[Pressure Blasts]: ../ura/mechanics.html#pressure-blast
+[Titanic Resistance]: ../ura/mechanics.html#-titanic-resistance
+[Champion Fumaroller]: ../ura/mechanics.html#champion-fumaroller
+[Champion Fumarollers]: ../ura/mechanics.html#champion-fumaroller
+[Bloodstone Saturation]: ../ura/mechanics.html#-bloodstone-saturation
+[Propel]: ../ura/mechanics.html#propel
+[Autoattack Chain]: ../ura/mechanics.html#autoattack-chain
+[Rising Pressure]: ../ura/mechanics.html#-rising-pressure
+[Steam Prison]: ../ura/mechanics.html#steam-prison
+[Return]: ../ura/mechanics.html#return
+[Sulfuric Acid]: ../ura/mechanics.html#-sulfuric-acid
+[Acid Spray]: ../ura/mechanics.html#acid-spray
+
+[Exposed]: https://wiki.guildwars2.com/wiki/Exposed
+[Poison]: https://wiki.guildwars2.com/wiki/Poison
+[Distort]: https://wiki.guildwars2.com/wiki/Distortion
+[Stability]: https://wiki.guildwars2.com/wiki/Stability
+[Superspeed]: https://wiki.guildwars2.com/wiki/Superspeed

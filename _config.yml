@@ -14,6 +14,15 @@ aux_links_new_tab: true
 
 color_scheme: balrior
 
+callouts:
+  note:
+    title: Note
+    color: gray
+
+  legendary:
+    title: Legendary Mode
+    color: purple
+
 kramdown:
   syntax_highlighter_opts:
     block:
