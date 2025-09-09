@@ -80,7 +80,7 @@ Ura needs a tank from Phase 3 (40%) onward. The reason for this is that in Phase
 
 The tank can be any dps, or any player in general. There is no real “tanking mechanic” per se, like nothing to do with Toughness or anything, it’s just that Ura needs any player in front of her to cast abilities other than Propel.
 
-The Line of Sight from Ura is roughly a 140° cone: see the shaded area below. The cone is decently wide and the tank just needs to stay within that cone. See [tanking Ura](../ura/mechanics.html#tanking-ura) for more information.
+The Line of Sight from Ura is roughly a 140° cone: see the shaded area below. The cone is decently wide and the tank just needs to stay within that cone. See [tanking Ura](../ura/strategy.html#tanking-ura) for more information.
 
 <img class='center' src='../images/ura/ura-cone.webp' width='70%'>
 
@@ -392,7 +392,7 @@ As a <img class='inline chrono'> [Chronomancer], if you are running <img class='
 
 [Titanspawn Geysers] have low armor and therefore take extra <img class='inline power'> [Power] damage. This, combined with the absence of ramp-up and the strong burst typical to most power DPS, can kill them pretty quickly, which mitigates the possibility of having a second [Champion Fumaroller] spawn. <img class='inline burning'> [Burning]-based condition builds are also viable due to their relatively short ramp-up. Note that conditions can be stacked on the Titanspawner Geyser while it’s still invulnerable.
 
-Instead, sending all the DPS and boonDPS to the Titanspawner has the advantage that the group stays together (except for the [tank](../ura/mechanics.html#tanking-ura)), but the disadvantage that if the tank is targeted by [Pressure Blast], there may not be a backup tank available. One way to circumvent this is by having only the players doing the melee [Bloodstone Shard] rotation on the Titanspawner, which means you will always have multiple people tanking. The downside in this case is that once more the squad will be split into two.
+Instead, sending all the DPS and boonDPS to the Titanspawner has the advantage that the group stays together (except for the [tank](../ura/strategy.html#tanking-ura)), but the disadvantage that if the tank is targeted by [Pressure Blast], there may not be a backup tank available. One way to circumvent this is by having only the players doing the melee [Bloodstone Shard] rotation on the Titanspawner, which means you will always have multiple people tanking. The downside in this case is that once more the squad will be split into two.
 
 Generally either way works good enough: pick based on personal preference and whether you have <img class='inline power'> [Power] DPS available.
 
@@ -543,7 +543,7 @@ The DPS builds can in principle be any dps of the builds in the [builds & PoV se
 #### Scourge Composition
 Trades higher DPS for less healing and <img class='inline stability'> [Stability].
 
-|<img class='inline deadeye'> [Deadeye] | <img class='inline scourge'> [Scourge]* | <img class='inline firebrand'> [Firebrand] (Stab**) | DPS ([tank](../ura/mechanics.html#tanking-ura)) | DPS (Ranged Backup) |
+|<img class='inline deadeye'> [Deadeye] | <img class='inline scourge'> [Scourge]* | <img class='inline firebrand'> [Firebrand] (Stab**) | DPS ([tank](../ura/strategy.html#tanking-ura)) | DPS (Ranged Backup) |
 |<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS | DPS | DPS |
 
 \* If defensive, then the two <img class='inline firebrand'> [Firebrands] should do the basic projectile block rotation, while keeping the <img class='inline cpc'> [Corrosive Poison Cloud] from the <img class='inline scourge'> [Scourge] as backup whenever needed.
@@ -555,7 +555,7 @@ Trades higher DPS for less healing and <img class='inline stability'> [Stability
 #### Double Chrono Composition
 Trades lower DPS for more healing and <img class='inline stability'> [Stability].
 
-|<img class='inline deadeye'> [Deadeye] | <img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS ([tank](../ura/mechanics.html#tanking-ura)) | DPS (Ranged Backup) |
+|<img class='inline deadeye'> [Deadeye] | <img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS ([tank](../ura/strategy.html#tanking-ura)) | DPS (Ranged Backup) |
 |<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand]* | DPS | DPS | DPS |
 
 

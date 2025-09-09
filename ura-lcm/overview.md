@@ -6,9 +6,9 @@ has_toc: false
 ---
 
 # Legendary Godscream Ura
-{: .center}
+{: .center .purple}
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [FAQ](./faq.html){: .btn }
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .purple} [FAQ](./faq.html){: .btn .purple}
 {: .center}
 
 <img src="../images/ura.webp" />
@@ -19,7 +19,7 @@ has_toc: false
 | **Defiance** | 3000 ** |
 | **Enrage Timer** | 10 minutes - kills all players on running out. |
 
-Legendary Godscream Ura is an extreme challenge aimed at the highest tier of players. Beating her encounter requires perfect knowledge of the fight and of your class, and smooth execution of your chosen strategy.
+Legendary Ura is an extreme challenge aimed at the highest tier of players. Beating her encounter requires perfect knowledge of the fight and of your class, and smooth execution of your chosen strategy.
 
 Activating Legendary Mode makes the following changes to the fight:
 - Ura's maximum health increases by 30%.
@@ -42,7 +42,7 @@ Squads attempting Ura will generally run an optimized composition, where every p
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [FAQ](./faq.html){: .btn }
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .purple} [FAQ](./faq.html){: .btn .purple}
 {: .center}
 
 [Toxic Geysers]: ../ura/mechanics.html#toxic-geysers

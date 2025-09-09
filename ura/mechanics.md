@@ -53,7 +53,8 @@ Throughout the fight, Ura will periodically gain stacks of <img class="inline ri
 
 Breaking Ura's <img class='inline defiance'> [Defiance Bar] resets the number of stacks to zero. However, this has the downside of granting Ura <img class="inline titanicresistance"> [Titanic Resistance], a permanent stacking buff which reduces incoming defiance damage and makes breaking successive bars more difficult. Managing outgoing crowd control therefore is very important and requires decent coordination to only break the bar at specific intervals.
 
-In Legendary Mode, Ura regenerates 150 defiance every second, so the pressure becomes even greater.
+{: .legendary}
+Ura regenerates 150 defiance every second, so the pressure becomes even greater.
 
 ---
 
@@ -115,13 +116,20 @@ This phase continues until Ura hits 1% of her maximum HP.
 
 ### Post-Heal - 0%
 
-When Ura reaches 1% health, she becomes <img class='inline invuln'> [Invulnerable], clears all <img class="inline condition"> [Conditions] from herself, and heals by 15% of her maximum HP (30% in Legendary Mode).
+When Ura reaches 1% health, she becomes <img class='inline invuln'> [Invulnerable], clears all <img class="inline condition"> [Conditions] from herself, and heals by 15% of her maximum HP.
+
+{: .legendary}
+Ura will heal by 30% of her maximum HP instead of 15%.
 
 Ura's skill-set remains the same as in phase 3. The [Toxic Geyser] pattern continues from phase 3 without any timer or location resets. The only change in Ura's attacks is that [Sulfuric Geyser] now targets two players at once, instead of only one.
 
-> Note: Ura will self-interrupt herself at 40% in phase 4 again due to the self-interrupt that happens from the transition of phase 2 into phase 3. This is an unfortunate bug that can lead to animations being cancelled and Ura incorrectly using Propel.
+{: .note}
+Ura will self-interrupt herself at 40% in phase 4 again due to the self-interrupt that happens from the transition of phase 2 into phase 3. This is an unfortunate bug that can lead to animations being cancelled and Ura incorrectly using Propel.
 
-At the start of this phase, a [Titanspawn Geyser] will always spawn. Furthermore, in Legendary Mode all [Titanspawn Geysers] will start spawning [Legendary Ventshots] instead of [Champion Fumarollers] during this phase.
+At the start of this phase, a [Titanspawn Geyser] will always spawn.
+
+{: .legendary}
+[Titanspawn Geysers] will start spawning [Legendary Ventshots] instead of [Champion Fumarollers] during this phase.
 
 <img class=divider>
 
@@ -187,7 +195,10 @@ Geysers are enemy structures that are spawned by Ura periodically throughout the
 
 Toxic Geysers spawn at specific time intervals in defined positions, shown in the image below. Spawning always starts at the first position and continues sequentially until the last.
 
-In Challenge Mode, toxic geysers spawn every 12 seconds during the first phase, and every 24 seconds in the following phases. In Legendary Mode, they instead spawn every 12 seconds in all phases.
+In Challenge Mode, toxic geysers spawn every 12 seconds during the first phase, and every 24 seconds in the following phases.
+
+{: .legendary}
+Toxic Geysers spawn every 12 seconds in all phases.
 
 <img class="center" width="80%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
 
@@ -197,7 +208,10 @@ Breaking a Toxic Geyser's <img class='inline defiance'> [Defiance Bar] disables 
 
 Because Toxic Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective against them.
 
-In Legendary Mode, Toxic Geysers regenerate 150 Defiance every second.
+{: .legendary}
+Toxic Geysers have 1000 <img class='inline defiance'> [Defiance Bar] HP instead of 800, and regenerate 150 Defiance every second.
+
+---
 
 #### Sulfuric Geysers
 {: .no_toc}
@@ -209,16 +223,28 @@ When the geyser spawns, it will release a circular shockwave that will expand an
 
 Sulfuric Geysers cannot be destroyed, but despawn 5 minutes after they appear. They must be positioned accordingly at the edges of the arena so that they don't impede the squad and buff the boss for this duration.
 
-Players targeted by a geyser will gain 5 seconds of <img class='inline superspeed'> [Superspeed].
+Players targeted by a geyser will gain 5 seconds of <img class='inline superspeed'> [Superspeed], expiring exactly in the location the geyser will spawn at.
 
-Over the course of the fight, some sulfuric geysers will spawn naturally in predetermined positions independently from the players' actions.
+Over the course of the fight, some sulfurics will spawn naturally at regular intervals, independently from the boss casting the skill. The approximate position of these geysers is chosen randomly from one among those highlighted in the image below. A position can be chosen multiple times over the course of the fight.
+
+<img class=center src='../images/ura/ura_sulfuric_geyser_spawns.webp' width='70%'>
+
+---
 
 #### Titanspawn Geysers
 {: .no_toc}
 
 When spawning a Titanspawn Geyser, Ura jumps into the air and crashes down, damaging everyone in an AoE centered around her. This attacks deals moderate damage and inflicts <img class='inline knockdown'> [Knockdown].
 
-After this, a Titanspawn Geyser will spawn in one of five locations, chosen at random. This structure immediately spawns a [Champion Fumaroller], or a [Legendary Ventshot] in Legendary Mode during the final phase. Another add will spawn every 15 seconds until the geyser is destroyed.
+After this, a Titanspawn Geyser will spawn in one of five locations, chosen at random from those shown in the picture below. This structure immediately spawns a [Champion Fumaroller]. Another add will spawn every 15 seconds until the geyser is destroyed.
+
+<img class=center src='../images/ura/ura_titanspawn_positions.webp' width='70%'>
+
+{: .note}
+If all locations are already occupied by a geyser, then no additional geysers will spawn.
+
+{: .legendary}
+During the final phase, whenever a Titanspawner would spawn a [Champion Fumaroller], a [Legendary Ventshot] will spawn instead.
 
 Titanspawners are invulnerable when created, but can be made vulnerable using <img class="inline dispel"> [Dispel]. They also have a <img class='inline defiance'> [Defiance Bar] that can be broken to apply <img class='inline exposed'> [Exposed].
 
@@ -230,13 +256,17 @@ Ura has a hard limit of 10 "minions" beyond which she will not spawn any more. T
 | [Champion Fumaroller]     | 1,789,242    | 300        | 1000             |
 | [Legendary Ventshot] (LM) | 23,594,400   | 300        | 2000             |
 
+---
+
 #### Champion Fumaroller
 {: .no_toc}
 
 These dangerous enemies generally target players close to them and can be baited close to the boss in order to CC, cleave and kill them. They have three notable attacks:
 - <u>Full Stream</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback]. Targets the player with the highest toughness in the Fumaroller's cone of view.
 - <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it. Vertices deal extra damage.
-- <u>Mantle Grinder</u> - the Fumaroller rolls in place, pulsing damage and <img class="inline knockback"> [Knockback]. 
+- <u>Mantle Grinder</u> - the Fumaroller rolls in place, pulsing damage and <img class="inline knockback"> [Knockback].
+
+---
 
 #### Legendary Ventshot
 {: .no_toc}
@@ -353,7 +383,10 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 ### <img class="inline risingpressure"> Rising Pressure
 {: .no_toc}
 
-Ura, [Champion Fumarollers] and [Legendary Ventshots] gain one stack of [Rising Pressure] every 8 seconds in LM and every 12 seconds in CM. This effect increases damage dealt and reduces incoming damage by 5% per stack (additively). Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
+Ura, [Champion Fumarollers] and [Legendary Ventshots] gain one stack of <img class="inline risingpressure"> [Rising Pressure] every 12 seconds. This effect increases damage dealt and reduces incoming damage by 5% per stack (additively). Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
+
+{: .legendary}
+All entities gain <img class="inline risingpressure"> [Rising Pressure] every 8 seconds instead of every 12.
 
 ---
 

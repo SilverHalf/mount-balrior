@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LCM Strategy
-nav_order: 3
+nav_order: 1
 parent: Legendary Ura
 ---
 
