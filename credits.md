@@ -6,6 +6,7 @@ nav_order: 2
 
 # Resources
 
+-<img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge) - a public server with regular progression and kill runs for W8 CMs and LCM, among other things. Highly recommended to any player who enjoys endgame instanced content.
 - [Ura LCM Strategy Spreadsheet](https://docs.google.com/spreadsheets/d/18a4OXN5U8gqNg8eI7LLdyj6YZwHlVMm8bcH1rhdfXps)
 - [Ura LCM Deadeye Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M)
 - [Ura LCM FAQ](https://docs.google.com/document/d/e/2PACX-1vTiV_esFGeLKwltjn5AC68p7TNm66DjCQbbaF5gOWx6cb_h4l7zfT0f8fwNesRXs6WtMHUsxmFQMsCy/pub)

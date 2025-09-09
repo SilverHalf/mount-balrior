@@ -31,8 +31,11 @@ Two damage dealers will usually cover a [Tanking] role. These can be any high-da
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)|Healer & Toxics||August 2025|
 |<img class='inline deadeye'> [CC Deadeye](https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e)|CC Bot & Toxics|[PoV](https://youtu.be/hxm8MSuFuyo), [Golem](https://youtu.be/vH_CbAcGEjo), [Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M)|September 2025|
-|<img class='inline scourge'> [Hybrid Scourge](https://discordapp.com/channels/1121166847266537562/1332712612877570089/1360699762143137963)|Hybrid Heal & Toxics|[PoV](https://youtu.be/0skBqF5KlFA)|September 2025|
-|<img class='inline firebrand'> [Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e)| BoonDPS & Reflect |[PoV](https://youtu.be/J5zNxbxZInI)|September 2025|
+|<img class='inline scourge'> [Offensive Hybrid Scourge](https://gw2skills.net/editor/?PSAFo8FbYZGsPGILiNiF711rH-DyIY1on/M6SKkrKQh/KGSQsHeNB4BDUB-e)|Hybrid Heal & Toxics|[PoV](https://youtu.be/0skBqF5KlFA)|September 2025|
+|<img class='inline scourge'> [Defensive Hybrid Scourge](https://gw2skills.net/editor/?PSwAo+ZlZwiYfsH2ImqXXveA-DyIY1oj/U6SCkqIIXFQ6CBD/rYIBxe41AiHMQFA-e)|Hybrid Heal & Toxics||September 2025|
+|<img class='inline firebrand'> [Quick Firebrand (Reflect)](https://en.gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e)| BoonDPS & Reflect |[PoV](https://youtu.be/J5zNxbxZInI)|September 2025|
+|<img class='inline firebrand'> [Quick Firebrand (Elite Mantra)](https://en.gw2skills.net/editor/?PWyAo+rlRExe6ZQBtukmZkW0WbPTA-DSJYyRL/hkjkKBFQHCBx+r4IBxW41sjPNQFA-e)| BoonDPS & Reflect ||September 2025|
+|<img class='inline firebrand'> [Quick Firebrand (SYG)](https://en.gw2skills.net/editor/?PWyAo+rlRExe6ZQBNskGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e)| BoonDPS & Reflect ||September 2025|
 |<img class='inline mechanist'> [2-kit Mechanist](https://snowcrows.com/builds/raids/engineer/condition-mechanist-two-kits)|DPS (& Toxics) |[PoV](https://youtu.be/YZA5kr7REVg)|September 2025|
 |<img class='inline daredevil'> [Condi Daredevil](https://gw2skills.net/editor/?PagAgilRwOYfMKWJO2W1NNA-DSJYmRD/ZUgCoDJgC/VEgA1AvmZ8gBA-e)|DPS|[PoV](https://www.youtube.com/watch?v=YQ4ZJvkXoEA)|September 2025|
 |<img class='inline vindicator'> [Power Vindicator](https://gw2skills.net/editor/?PmyAExzlxQmMP6k1RpMOClRSqMCqkJ7lasC-DSRYBRN33cQgHSmSggFCVoCk5dijEG7h3i+LYQFA-e)|DPS & Titanspawners|[PoV](https://youtu.be/sgiPQ1FeqLI)|September 2025|

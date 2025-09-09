@@ -7,14 +7,14 @@ parent: Legendary Ura
 
 [Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
 
-# Legendary Ura Frequently Asked Questions
+# Legendary Ura - FAQ
 
-This page contains a set of frequently asked questions regarding the Legendary Ura encounter. These are grouped into four sections:
+This page contains a set of frequently asked questions regarding the Legendary Ura encounter. These are grouped into the following sections:
 
 1. [Ura's Attacks and How to Deal with Them](#uras-attacks-and-how-to-deal-with-them)
 2. [Ranged Group and Toxic Geysers](#ranged-group-and-toxic-geysers)
 3. [Phasing and Related Issues](#phasing-and-related-issues)
-4. [Titanspawners, Fumarollers, Ventshots](#titanspawner-fumarollers-ventshots)
+4. [Titanspawners, Fumarollers, Ventshots](#titanspawners-fumarollers-ventshots)
 5. [Builds, Composition and More](#builds-squad-compositions-and-more)
 6. [Glossary](#glossary)
 
@@ -22,8 +22,10 @@ This page contains a set of frequently asked questions regarding the Legendary U
 
 ## 1. Ura's Attacks and how to deal with them
 
+---
+
 <details class=faq>
-<summary>1.1 - How, who, where to kite Ura jumps in p1?</summary>
+<summary>1.1 - How does kiting Ura work in phase 1?</summary>
 <div markdown='block'>
 
 Ura targets the furthest player within 1500 range, so in order to kite, you just need to be the furthest away. It’s best if all healers (<img class='inline chrono'> [Chronomancer], <img class='inline scourge'> [Scourge], <img class='inline deadeye'> [Deadeye]) are aware of how and where to kite, so they can provide some redundancy and know how to react if they are out of place.
@@ -86,7 +88,7 @@ The Line of Sight from Ura is roughly a 140° cone: see the shaded area below. T
 </details>
 
 <details class=faq>
-<summary>1.4 - How to turn Ura to the correct side?</summary>
+<summary>1.4 - How do I turn Ura to the correct side?</summary>
 <div markdown='block'>
 
 Turning Ura is a bit finnicky. She only turns when she casts [Steam Prison] or [Sulfuric Geyser]. For both casts she will turn toward a random target and follow them for the duration of the cast. This means that she actually can spin 180° to one of the [Toxic Geyser] group: in these situations it’s crucial for the tank to notice this and quickly run back into her cone of vision.
@@ -135,7 +137,7 @@ Yes, but they can very quickly kill you if you are not careful. Rule of thumb is
 <summary>1.8 - What attacks should I dodge?</summary>
 <div markdown='block'>
 
-Generally, dodge [Create Titanspawn Geyser] (the stomp/jump in the air from Ura) and [Propel] (jump) when she lands. Try to sidestep or dodge the final cone of her [Autoattack Chain]. Other than that you can jump, block or dodge the waves from [Sulfuric Geysers]. You can also double dodge out of the [Steam Prison] with the right timing (or with <img class='inline superspeed'> [Superspeed]), if you don’t have a mobility skill and no <img class='inline stability'> [Stability]. You can dodge [Sulfuric Geyser]/[Toxic Geyser] AoEs to prevent the damage ticks, but this is not as important.
+Generally, dodge [Create Titanspawn Geyser] (the stomp/jump in the air from Ura) and [Propel] (jump) when she lands. Try to sidestep or dodge the final cone of her [Autoattack Chain]. Other than these, you can jump, block or dodge the waves from [Sulfuric Geysers]. You can also double dodge out of the [Steam Prison] with the right timing (or with <img class='inline superspeed'> [Superspeed]), if you don’t have a mobility skill and no <img class='inline stability'> [Stability]. You can dodge [Sulfuric Geyser]/[Toxic Geyser] AoEs to prevent the damage ticks, but this is not as important.
 
 </div>
 </details>
@@ -144,9 +146,9 @@ Generally, dodge [Create Titanspawn Geyser] (the stomp/jump in the air from Ura)
 <summary>1.9 - Can you give <img class='inline stability'> Stability to people in bubbles?</summary>
 <div markdown='block'>
 
-No, the people targeted by the mechanic get <img class='inline stability'> [Stability] removed if they have it beforehand, and cannot receive it again during bubbles, until they're <img class='inline dispel'> [Dispelled]. This means that players in bubbles can get knocked by [Champion Fumarollers], which can lead to displaced bubbles.
+No, the people targeted by the mechanic stripped of <img class='inline stability'> [Stability] if they have it beforehand, and cannot receive it again during bubbles, until they're <img class='inline dispel'> [Dispelled]. This means that players in bubbles can get knocked by [Champion Fumarollers], which can lead to displaced bubbles.
 
-The white indicator on the floor is misleading in these situations, because it only shows the initial bubble position, and does not get updated when knocked, but <img class='inline dispel'> [Dispel] only works if the shard is dropped underneath the bubble. In such cases immediately call out in voice that the shard needs to be dropped again.
+The white indicator on the floor is misleading in these situations, because it only shows the initial bubble position, and does not get updated when knocked, while <img class='inline dispel'> [Dispel] only works if casted underneath the bubble. In such cases immediately call out in voice that the shard needs to be dropped again.
 
 </div>
 </details>
@@ -155,15 +157,15 @@ The white indicator on the floor is misleading in these situations, because it o
 <summary>1.10 - How do I deal with bubbles in this situation?</summary>
 <div markdown='block'>
 
-#### I have bubble at the same time as the Titanspawner
+#### I have bubble at the same time as the Titanspawner!
 
 The [Bloodstone Shard] always MUST to go to the [Titanspawner], this means that the bubbles also MUST go to the Titanspawner. General rule of thumb is to always do bubbles next to the Titanspawn when both are up.
 
-#### I have bubble at the same time as the Titanspawner and the second bubble is tank
+#### I have bubble at the same time as the Titanspawner and the second bubble is tank!
 
 In this case they should call for a backup tank immediately and run to the Titanspawn. Usually there is always someone who can backup tank for a bit, like a DPS from the ranged team, or one of the healers.
 
-#### I have bubble but I am far running back from [Sulfuric Geyser]
+#### I have bubble but I am running back from [Sulfuric Geyser]!
 
 Just like the case above with the ranged being far away, call it out immediately with the direction and meet in the middle.
 
@@ -174,7 +176,9 @@ There is one specific possible scenario where you get Sulfuric > phase 40% to p3
 
 <img class=divider>
 
-## Ranged group and Toxic Geysers
+## 2. Ranged group and Toxic Geysers
+
+---
 
 <details class=faq>
 <summary>2.1 - Who should be double dropping?</summary>
@@ -267,228 +271,334 @@ If you are holding the [Bloodstone Shard] and a range buddy next to you has the 
 
 <img class=divider>
 
-## Phasing and related issues
-
-### What is the issue with CCing around 40%? 
-
-On 40%, Ura transitions from Phase 2 to Phase 3. This causes her to interrupt herself. Similar to bad CC timing, this can lead to an unlucky self-interrupt timing that can cause a jump. There is not really a whole lot that you can do about that, because controlling dps to phase at a good time is very hard. However, what is good to do is to not CC her shortly before, or after, because if you do, that’s two CCs in a short time (once from the squad, once from her self-interrupt), which can increase the chance of her running out of attacks to use and then consequently use Propel (the jump).
+## 3. Phasing and related issues
 
 ---
 
-### What are the biggest issues while phasing?
+<details class=faq>
+<summary>3.1 - What is the issue with CCing around 40%?</summary>
+<div markdown='block'>
 
-- P2: nothing specifically, except if you have low dps, then Toxic Geyser 12, 13, 14 can be an issue (see next question below).
-- P3: Ura will self-interrupt and the Toxic Geyser timer instantly resets to 0 and Toxic 7 will spawn (this means it’s a bit more hectic for the ranged team). Additionally, Ura will immediately cast Bubbles/friends as the first skill in P3. This is usually the most difficult transition, because it starts from being very chill in p2 to suddenly being very hectic with lots of mechanics.
-- P4: self-interrupt, but otherwise nothing in particular. The self-interrupt is less of an issue, because Ura will also spend a few seconds in a phasing animation.
+At 40% of her HP, Ura transitions from Phase 2 to Phase 3. This interrupts her current skill cast, which similarly to bad CC timing, can lead to her using [Propel]. There isn't much you can do to prevent this, as controlling DPS to phase at a good time is very difficult. However, try not to CC her shortly before or after the transition, as two interrupts in a short interval can increase the chance of her running out of attacks to use and then consequently using [Propel]. See [preventing Propel](mechanics.html#preventing-propel) for more information.
 
----
+</div>
+</details>
 
-### 1st phasing 70% - How to deal with 10. and 11. (12.) And 8. Toxic spawn? 
+<details class=faq>
+<summary>3.2 - What are the biggest issues while phasing?</summary>
+<div markdown='block'>
 
-Depends on strategy, please refer to a ranged rotation spreadsheet, or ask for a specific strat.
+- **Phase 2** - nothing specifically, but if you have low dps, then [Toxic Geysers] #12, #13, #14 can be an issue.
+- **Phase 3** - Ura will self-interrupt and the [Toxic Geyser] timer instantly resets, spawning #7 instantly and making things a bit more difficult for the ranged team. Additionally, Ura will immediately cast [Pressure Blast]. This is usually the most difficult transition, because it starts from being very chill in p2 to suddenly being very hectic with lots of mechanics.
+- **Phase 4** - self-interrupt, but otherwise nothing in particular. The self-interrupt is less of an issue, because Ura will also spend a few seconds in a phasing animation.
 
-But generally if you have low dps and you get 13 + 14, you might even just want to /gg and practice p1, since your whole rotation will be thrown off. If just 12 and 13 spawn extra, the CC DE can CC those to reset the aoe until they are done normally during p2. Realistically this should only happen very early into 0 exp prog. Even after a couple of pulls you should phase fast enough to get max 12. If not, you might have a dps issue in general and won’t be able to kill Ura within the enrage timer (i.e. this is also a nice self-squad check to see if the overall dps is good enough – just remember specifically for this that depending on the dps, you might have some extra modifiers at high/low hp percentages; but it works as rule of thumb).
+</div>
+</details>
 
----
+<details class=faq>
+<summary>3.3 - How do I deal with #10, #11 (#12) and #8 geysers at 70%?</summary>
+<div markdown='block'>
 
-### 2nd phasing 40% - How to deal with 7. And 8. Toxic spawn?
+Depends on strategy; please refer to a [ranged rotation](strategy.html#ranged-rotation) or ask your commander.
 
-Depends on strategy; please refer to a ranged rotation spreadsheet, or ask for a specific strat.
+But generally if you have low dps and you get #13 and #14, you might even want to /gg and practice phase 1, since your whole rotation will be thrown off. If just #12 and #13 spawn extra, the <img class='inline deadeye'> [Deadeye] can reset them until they are done normally at some point in phase 2.
 
----
+Realistically this should only happen very early into prog: even after a couple of pulls you should phase fast enough to not get #13. If not, you have a DPS issue which will prevent you from killing Ura within the enrage timer; as rule of thumb, this is also a nice check to see if the overall squad dps is enough.
 
-### Is there any issue while phasing p4?
 
-Phase 4 transition also self-interrupts Ura, so it can happen to also cause a jump if she self-interrupts at a very bad timing. However, due to the phase 4 transition also causing an animation for Ura, it’s a little bit less likely than for the p2>p3 transition.
+</div>
+</details>
+
+<details class=faq>
+<summary>3.4 - How do I deal with #7 and #8 geysers at 40%?</summary>
+<div markdown='block'>
+
+Depends on strategy; please refer to a [ranged rotation](strategy.html#ranged-rotation) or ask your commander.
+
+</div>
+</details>
+
+<details class=faq>
+<summary>3.5 - Is there any issue while phasing into phase 4?</summary>
+<div markdown='block'>
+
+The Phase 4 transition also interrupts Ura's current cast, so it can also cause a jump if it happens with very bad timing. However, due to the transition also including an animation for Ura, it’s less likely than for the phase 3 transition. Check [preventing Propel](mechanics.html#preventing-propel) for more information.
+
+</div>
+</details>
 
 <img class=divider>
 
-## Titanspawner, Fumarollers, Ventshots
-
-### How does Titanspawner and Ventshot work?
-
-Titanspawner Geysers are created every time Ura uses her Create Titanspawn ability (Orange Circle around her and jump/stomp in the air). The Titanspawners in p2/p3 are the same as in p4, but while p2/p3 is active, they will spawn Champion Fumarollers, while in p4 they will spawn Legendary Ventshots. Additionally, when Ura hits 1% and heals, she will always spawn an additional Titanspawn Geyser independent of her Create Titanspawn Geyser skill.
-
-More details here: https://silverhalf.github.io/mount-balrior/ura/mechanics.html#titanspawn-geysers
+## 4. Titanspawners, Fumarollers, Ventshots
 
 ---
 
-### When is a good time to stop killing Titanspawners?
-It depends on the squad. Stopping to kill Titanspawn Geysers during p3 can be very dicey, because multiple Fumarollers alive can very quickly down and wipe you. If you play with 2x Heal Chronos, you can outheal/stab that and stop killing Titanspawners roughly after 15%. This will reduce the number of Ventshots you get down to ~2 during p4, which means you will likely not wipe if projectile block fails.
-However, if you play with only one Chrono and one hybrid Scourge, then it’s not recommended to stop killing Titanspawn Geysers in p3. In that case just stop doing them in p4, except if the first Titanspawn Geyser in p4 is directly next to the squad. In that case you can quickly kill it. Ignore all other Titanspawners after the first in p4.
+<details class=faq>
+<summary>4.1 - How do Titanspawners and Ventshots work?</summary>
+<div markdown='block'>
 
----
+[Titanspawn Geysers] are created every time Ura uses her [Create Titanspawn Geyser] ability . The Titanspawners in phase 2 and 3 are the same as in phase 4, but while they will spawn [Champion Fumarollers] in p2, in p4 they will instead spawn [Legendary Ventshots]. Additionally, when Ura hits 1% and heals, she will always spawn an additional Titanspawn Geyser independent of her Create Titanspawn Geyser skill.
 
-### What is the biggest issue when letting Fumarollers run around and how to deal with it?
+</div>
+</details>
 
-The dangerous part is that Fuma attacks hit quite hard and that combined with Stars/Snowflakes can quickly down and kill you. The longer they live, the higher the chance that they spawn another star under the boss. That’s why you generally want to kill them as quickly as possible, like so: 1) Fuma spawns on titanspawner, 2) bait the Fuma to the boss (standing 90°/tangential at the boss), and 3) after Fuma has charged, move on top of it and cleave it down asap.
+<details class=faq>
+<summary>4.2 - When is a good time to stop killing Titanspawners?</summary>
+<div markdown='block'>
 
-The only exception to killing them immediately is for some specific strategies in which you want to keep Fumas alive for as long as possible at the start of p4, in order to get less Ventshots (this works because Ventshots, Titanspawners and Fumarollers have an entity cap, such that when too many are on the field, no new entities will spawn). But this is quite dangerous, because multiple Fumas alive can kill you quickly. The cap is currently believed to be at ~6 for Ventshots, which means that if you have 6 entities from Titanspawners + Fumarollers alive, that no Ventshot will spawn.
+It depends on the squad. Not killing [Titanspawn Geysers] during phase 3 can be very dicey, because multiple [Champion Fumarollers] can quickly CC, down then wipe you. If you play with two <img class='inline chrono'> [Chronomancers], this can be managed with relative ease by outhealing the damage and providing <img class='inline stability'> [Stability], so you can stop killing Titanspawners roughly after 15% pre-heal. This will reduce the number of [Legendary Ventshots] you get down to ~2 during the final phase, which means you will likely not wipe if projectile block fails.
 
-For kiting, you can watch the Fumas and bait them into the stack before running out for Toxic Geysers; the baiting part works, because Fumas target the highest Toughness player with their charge attack that is in their cone of vision. This makes it relatively easy to bait them as healers to the squad; in that way they also won’t bother you at range. Sometimes there is no time to wait for this, in that case just avoid as much damage as possible, by e.g. using Dodge/Distort and healing yourself in case you take damage.
+However, if you play with only one <img class='inline chrono'> [Chronomancer] and one <img class='inline scourge'> [Scourge], then it’s recommended to continue killing all Titanspawners throughout phase 3. Then, if the first [Titanspawn Geyser] in p4 is directly next to the squad, you can quickly kill it. Ignore all other Titanspawners after the first.
 
-Generally, you want the Fumarollers to charge as quickly and as close as possible to Ura and then you want to immediately cleave them down, before they cast a star/snowflake on the boss. If they do cast one, just move out of it as quickly as possible. If someone downs, everyone needs to immediately ress, because downing on top of a star/snowflake can very quickly kill you.
+</div>
+</details>
+
+<details class=faq>
+<summary>4.3 - Why are Fumarollers dangerous and how do I deal with them?</summary>
+<div markdown='block'>
+
+[Champion Fumarollers] hit hard: their attacks often inflict <img class='inline knockback'> [Knockback], which when combined with the heavy damage from Stars/Snowflakes, can quickly down and kill you. The longer they live, the higher the chance that they spawn another star under the boss, so you generally want to kill them as quickly as possible. This usually involves:
+
+1. Baiting the Fumaroller to the boss (standing 90°/tangential at the boss)
+2. After the Fumaroller charges, moving on top of it and cleaving it down.
+
+The only exception to killing them immediately is for some specific strategies in which you want to keep them alive for as long as possible at the start of phase 4, in order to get less [Legendary Ventshots]. This works because Ventshots, [Titanspawn Geysers] and Fumarollers have an entity cap (6 in phase 4), so when too many are on the field, no new entities will spawn. However, this is quite dangerous, and requires specialized compositions.
+
+Players in the ranged group should watch the Fumarollers and bait them into the stack before running out for [Toxic Geysers] if possible, since their charge targets the highest toughness player in their cone of vision. Baiting them in this manner also makes it so that they cannot bother you at range while dealing with other mechanics.
+
+Generally, you want to kill the Fumarollers before they cast a star/snowflake on the boss. If they do cast one, move out of it as quickly as possible. If someone downs, everyone needs to immediately ress, as the high incoming damage makes it difficult to do with few players.
 
 Fumarollers don’t need to be CCd. They can be CCd just from passive AoE CC, but there is no specific need to pay special attention to it.
 
-The melee team who kills the Titanspawner should always have some stability (e.g. from the qfb) when they go kill the Titanspawner, such that they don’t immediately get knocked. Once the Fumaroller is on the group, also make sure to use Stability. The star attack knocks back three times, while charge, roll and headbut knocks once each.
+The melee team who kills the Titanspawner should always have some <img class='inline stability'> [Stability] (e.g. from the <img class='inline firebrand'> [Firebrand]), so that they don’t immediately get knocked. Once the Fumaroller is on the group, also make sure to also provide <img class='inline stability'> [Stability]. The star attack inflicts <img class='inline knockback'> [Knockback] three times, while the charge, roll and headbutt only once each.
 
----
+</div>
+</details>
 
-### How to deal with Venshots?
+<details class=faq>
+<summary>4.4 - How do I deal with Ventshots?</summary>
+<div markdown='block'>
 
-After having 2+ Ventshots, keep projectile block up on the group permanently and try to keep up Stab as well. Ventshots can kill you either with ranged attacks when projectile block is down, or with melee attacks (that also knock you) when they are close to the squad. 
+[Legendary Ventshots] have over 20 million HP, so they are not meant to be killed. After 2 or more spawn, keep projectile block up on the group permanently and try to keep up permanent <img class='inline stability'> [Stability] as well. Ventshots can kill you either with ranged attacks when projectile block is down, or with melee attacks (that also inflict <img class='inline knockback'> [Knockback]) when they are close to the squad. 
 
-As Chrono with Stab Mantra and Precog, you can this rotation for permanent Stability from Schwifty: https://www.youtube.com/watch?v=ZNt3AbNwiuw
+As a <img class='inline chrono'> [Chronomancer], if you are running <img class='inline precog'> [Well of Precognition] you can use this [rotation](https://www.youtube.com/watch?v=ZNt3AbNwiuw) from Schwifty for permanent <img class='inline stability'> [Stability].
 
----
+</div>
+</details>
 
-### There are multiple strategies for Titanspawners: What is an advantage and disadvantage of power/all dps taking care of titan spawn?
+<details class=faq>
+<summary>4.5 - What are the advantages and disadvantages of only <img class='inline power'> Power DPS killing Titanspawners?</summary>
+<div markdown='block'>
 
-The reason why Power dps on Titanspawner has an added advantage is because Titanspawners have low armor and hence take extra Power damage and combined with no ramp-up which is typical for most power builds, they can pretty quickly, which mitigates the possibility of having a second Fumaroller spawning. Burn-based condition builds are also pretty strong due to their relatively short ramp-up. Note that Conditions can be stacked on the Titanspawner Geyser while it’s still invulnerable.
+[Titanspawn Geysers] have low armor and therefore take extra <img class='inline power'> [Power] damage. This, combined with the absence of ramp-up and the strong burst typical to most power DPS, can kill them pretty quickly, which mitigates the possibility of having a second [Champion Fumaroller] spawn. <img class='inline burning'> [Burning]-based condition builds are also viable due to their relatively short ramp-up. Note that conditions can be stacked on the Titanspawner Geyser while it’s still invulnerable.
 
-All dps (and QFBs) on the Titanspawner has the advantage that the group stays together (except for the los tank), but it has the disadvantage that when the los tank gets bubble, there is a chance that no backup tank is available which means the tank cannot move to the Titanspawner quickly. One way to circumvent this is by having only the melee group who do the Bloodstone Shard rotation be on the Titanspawner, which means you will always have multiple people los tanking and there is no need to call for a backup tank if someone gets a mechanic. The downside for this is that the squad is split into two, so if someone starts downing for whatever reason, ressing takes longer.
+Instead, sending all the DPS and boonDPS to the Titanspawner has the advantage that the group stays together (except for the [tank](../ura/mechanics.html#tanking-ura)), but the disadvantage that if the tank is targeted by [Pressure Blast], there may not be a backup tank available. One way to circumvent this is by having only the players doing the melee [Bloodstone Shard] rotation on the Titanspawner, which means you will always have multiple people tanking. The downside in this case is that once more the squad will be split into two.
 
-Generally either way works good enough and you can pick on personal preference and/or if you have Power dps available or not.
+Generally either way works good enough: pick based on personal preference and whether you have <img class='inline power'> [Power] DPS available.
 
----
+</div>
+</details>
 
-### In case of power dps taking care of Titan - How many people and what class should be sent there?
+<details class=faq>
+<summary>4.6 - How many <img class='inline power'> Power DPS and what classes should be sent to Titanspawners?</summary>
+<div markdown='block'>
 
-For simplicity it’s best to send the full melee shard rotation group there, because then you will always have the players who need to drop and pick the Bloodstone Shard on the group. This should be a QFB and 3x dps. 1x Power dps and 2x Condi dps, or having at least 2x Burn-based Condi dps (Weaver, Willbender, Firebrand) is usually enough to make sure the 4 players from the melee group can kill the Titanspawner comfortably in time.
+For simplicity it’s best to send the full melee shard rotation group, as this way you will always include the players who must <img class='inline dispel'> [Dispel] and successively pick up the [Bloodstone Shard]. This should be a <img class='inline firebrand'> [Firebrand] and three DPS at least. Including a single <img class='inline power'> [Power] DPS, or having at least two <img class='inline burning'> [Burning]-based <img class='inline condition'> [Condition] DPS (such as <img class='inline weaver'> [Weaver], <img class='inline willbender'> [Willbender] and <img class='inline firebrand'> [Firebrand]) is usually enough to make sure that they can kill the Titanspawner comfortably in time.
+
+</div>
+</details>
 
 <img class=divider>
 
-## Builds, Squad compositions and more
-
-### What are available builds?
-
-#### CC Deadeye
-
-For the most part there is only one specific build, but some small variations are possible. Depending if you are tunneling or not, you can play with/without weapon swap.
-
-NOTE: Depending on if you need to provide Fury/Might, or not, you can choose between Relic of the Midnight King (for Fury/Might), or Relic of Speed (permanent Superspeed if boons aren’t needed).
-
-- Default build with weapon swap (Quick Pockets): https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e
-- Tunnel variation without weapon swap (Sleight of Hand; Note that you can also run a different stacking Sigil, like Perception for more Precision if critting is an issue for Init regen): https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oi/QaRJEmEomRgjuKoC9BVA-e
+## Builds, Squad Compositions and More
 
 ---
 
-#### Heal Chronomancer
+<details class=faq>
+<summary>5.1 - What supports should I play?</summary>
+<div markdown='block'>
 
-The last util skill is flexible and can be taken based on personal preference, or to fill the gap where your squad is likely needing it the most:
-- Blink is nice for early prog to cover up mistakes and when being late with mechanics, which can help your group to prog faster early on. It is also useful to blink and bait Ura into a specific direction when CCing at the wrong time (but that requires fast anticipatory reactions).
-- Feedback and the trait Medic’s Feedback give you some ranged ress power and allow you to backup projectile blocks in p4.
-- A CC skill (Technobabble, Signet of Domination, Well of Senility) can be useful to quickly solo CC Toxic Geysers from range (otherwise solo CC with Moa + Spear 5; or with Rifle4 + Moa, but the latter requires very good timing). This can be useful when the CC DE is not that experienced yet, and in general to support CC more (both Toxics and Boss).
-- Well of Precognition is in the default build (below), but if you are paired with a Quick Firebrand who has Stab and is comfortable with it, then you could also drop Well of Precognition and use two of the utilities mentioned above.
-
-Note that there have been plenty of kills with all different kind of utility variations and the different utility skills can fill different needs. Hence, there is not a clear go to that is the best for all situations.
-
-Build (if tunneling, just swap Concentration to Sigil of Life on the Spear): https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e
+You can find a list of builds in the [builds & PoV section](strategy.html#builds-and-povs) of the strategy guide, but here follows a short description of the most popular builds:
 
 ---
 
-#### Celestial Hybrid Scourge
+#### <img class='inline deadeye'> CC Deadeye
 
-There are a few different build options to run as Scourge. This mostly depends what your group needs, or is comfortable with, in terms of balancing offensive vs defensive.
+This is the only build that can keep up with the encounter's extreme Crowd Control requirements with little assistance.
 
-- Offensive: Curses + Soul Reaping; advantage is you have low cd on CPC, which means 1x scg + 1x qfb can take care of reflect and the rest is additional backup and higher dps. sword offhand for extra movement; downsides is less healing and no Stability, so when running this you want lots of Stability from your Quick Firebrand: https://gw2skills.net/editor/?PSAFo8FbYZGsPGILiNiF711rH-DyIY1on/M6SKkrKQh/KGSQsHeNB4BDUB-e
-- Middle ground: play the offensive one with Trail of Anguish instead of Blood is Power, if you want to have a Stability skill available.
-- Defensive: Blood Magic instead of Curses; has more healing and more Stability/boons; downside is that not running Curses means longer CPC cd, which means you need to account for either a more difficult projectile block rotation that involves more people, or better you need at least 2 Firebrands that can do the projectile block rotation and Scourge is just a backup with CPC – Note that one qfb with Wall of Reflect + F3-3 and then a second Firebrand with just F3-3 is enough for the basic projectile block rotation: https://gw2skills.net/editor/?PSwAo+ZlZwiYfsH2ImqXXveA-DyIY1oj/U6SCkqIIXFQ6CBD/rYIBxe41AiHMQFA-e
+For the most part there is only one specific build, but some small variations are possible. Depending if you are [tunneling](strategy.html#tunneling) or not, you can play with/without weapon swap.
+
+If you are learning to play this build, check out Chupathingy's excellent <img class='inline deadeye'> [CC Deadeye Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M) for more information.
+
+{: .note}
+If you need to provide <img class='inline might'> [Might] and <img class='inline fury'> [Fury], you should take <img class='inline midnight'> [Relic of the Midnight King]. Otherwise, take <img class='inline speed'> [Relic of Speed] for permanent <img class='inline superspeed'> [Superspeed].
+
+---
+
+#### <img class='inline chrono'> Heal Chronomancer
+
+A standard, yet extremely strong build that does everything well.
+
+By default takes <img class='inline precog'> [Well of Precognition] but if you are paired with a Quick <img class='inline firebrand'> [Firebrand] who is comfortable with providing <img class='inline stability'> [Stability], then you could also drop the well, replacing it with:
+- <img class='inline blink'> [Blink] for early prog, to cover up mistakes and manage mechanics. It is also useful to bait Ura into casting [Propel] in a specific direction.
+- <img class='inline feedback'> [Feedback] allows you to backup projectile blocks in p4, and if taken along with the <img class='inline medic-feedback'> [Medic Feedback] trait also gives you extra ress ability.
+- An additional CC skill (such as <img class='inline technobabble'> [Technobabble], <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility]) can be useful to quickly solo CC [Toxic Geysers] from range (otherwise you can solo CC with <img class='inline moa'> [Signet of Humility] and <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity]; or with <img class='inline moa'> [Signet of Humility] and <img class='inline sharpshooter'> [Phantasmal Sharpshooter] , but the latter requires very good timing). This can be useful when the <img class='inline deadeye'> [Deadeye] is inexperienced, and when they cannot otherwise CC.
+
+There have been plenty of kills with all different kind of utility variations, and all the utility skills can fill different needs. Hence, there is not a clear go-to that is the best for all situations.
+
+---
+
+#### <img class='inline scourge'> Celestial Hybrid Scourge
+
+A flexible support that provides a bit of extra damage and utility, depending on your group's needs in terms of offensive vs defensive support.
+
+- **Offensive**: runs the <img class='inline curses'> [Curses] and <img class='inline reaping'> [Soul Reaping] traitlines for some additional damage. Has a lower cooldown on <img class='inline cpc'> [Corrosive Poison Cloud], which means that they can cover reflect with only a single <img class='inline firebrand'> [Firebrand]. Also runs sword offhand for extra movement. The downsides are less healing and no <img class='inline stability'> [Stability], so the <img class='inline firebrand'> [Firebrand] in the same subgroup should bring extra.
+- **Defensive**: runs <img class='inline blood-magic'> [Blood Magic] instead of <img class='inline curses'> [Curses] for more healing, <img class='inline stability'> [Stability] and boons. The downside is less damage and a longer cooldown on <img class='inline cpc'> [Corrosive Poison Cloud], which means you need to account for either a more difficult projectile block rotation that involves additional people, or (better) you need at least two <img class='inline firebrand'> [Firebrands] with the <img class='inline scourge'> [Scourge] just backing up.
+- **Middle ground**: play the offensive build with <img class='inline anguish'> [Trail of Anguish] instead of <img class='inline blood-power'> [Blood is Power], so you have a <img class='inline stability'> [Stability] skill available.
 
 ---
 
 ####  Condition Quickness Firebrand
 
-There are a few variations possible that mostly depends on what your squad needs (the first 3 builds are around ~2.7k to 3.7k lower lower than the SC bench; the last build is around ~6.3k lower; see screenshot below):
-- Wall of Reflection (Trapper runes; ~3.7k dps loss); is needed once per squad and should call the Projectile block rotation with Wall + F3-3 + fill – where the fill is either Scourge CPC, or another Firebrand F3-3: https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e
-- Some Stability FB; Elite Mantra is recommended due to higher dps:
-    - Elite Stab Mantra (Firebrand runes, but still purging flames; ~2.7k dps loss); trades the SYG from the build above for Elite Mantra; loses the Superspeed from FMW, but gains the condi cleanse from PF and a group stunbreak on Elite Mantra: https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBtukmZkW0WbPTA-DSJYyRL/hkjkKBFQHCBx+r4IBxW41AiPNQFA-e
-    - FMW + Stand Your Ground (Trapper runes; ~3.7k dps loss); has the advantage of still having FMW for Superspeed to quickly run to the Titanspawners; use SYG for Titanspawn and F3-5 for Arena: https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBNskGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e
-- Stab bot: Elite Stab Mantra + Stand Your Ground (Firebrand runes; ~6.3k dps loss); trades even more dps for more Stability, which can be done if people in your sub get knocked around a lot (e.g. in the offensive Scourge subgroup when the Scourge has no Stability): https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBNskmZkW0WbPTA-DSJYyRL/hkjkKBFQHCBx+r4IBxW41AiPNQFA-e
+A high damage boonDPS with exceptional utility.
 
-![qfb-numbers](../images/ura/qfb-numbers.webp)
+There are a few variations in your loadout depending on your squad's needs:
+
+- <img class='inline wall-reflect'> [Wall of Reflection] is needed once per squad. This player should call the projectile block rotation, which is <img class='inline wall-reflect'> [Wall of Reflection] -> <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] -> fill – where the fill is either <img class='inline cpc'> [Corrosive Poison Cloud], or another <img class='inline firebrand'> [Firebrand]'s <img class='inline bulwark'> [Chapter 3: Valiant Bulwark]. Loses ~3.7k DPS from the bench.
+- Running <img class='inline liberation'> [Mantra of Liberation] and <img class='inline purging'> [Purging Flames] (recommended) gains additional cleanses and <img class='inline stability'> [Stability]  with a group <img class='inline stunbreak'> [Stunbreak] on the elite, losing ~2.7k DPS from the bench and the <img class='inline superspeed'> [Superspeed] from <img class='inline feel-my-wrath'> [Feel My Wrath!].
+- Running <img class='inline feel-my-wrath'> [Feel My Wrath!] and <img class='inline stand-ground'> [Stand Your Ground!] has the advantage of still providing <img class='inline superspeed'> [Superspeed] to quickly run to the [Titanspawn Geysers]. Use <img class='inline stand-ground'> [Stand Your Ground!] for the Titanspawn and <img class='inline epilogue'> [Epilogue: Unbroken Lines] for [Steam Prison]. This loses ~3.7k DPS from the bench.
+- Running <img class='inline liberation'> [Mantra of Liberation] and <img class='inline stand-ground'> [Stand Your Ground!] trades even more DPS (~6.3k) for more <img class='inline stability'> [Stability], which can be done if people in your sub get knocked around a lot, such as when running an offensive <img class='inline scourge'> [Scourge].
+
+<div style="color: grey">Numbers from Iskarel and SC.</div>
+
+</div>
+</details>
+
+<details class=faq>
+<summary>5.2 - What DPS should I play?</summary>
+<div markdown='block'>
+
+DPS builds always depend on the current meta, so it’s best to just look at the [builds & PoV section](strategy.html#builds-and-povs) to see what is up-to-date. Alternatively, servers such as <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge) keep a dedicated build section that you can check.
+
+</div>
+</details>
+
+<details class=faq>
+<summary>5.3 - What utility should I bring on DPS?</summary>
+<div markdown='block'>
+
+Condition cleanse, <img class='inline stability'> [Stability] and movement skills are nice if they don’t cost you much and if your group doesn't require more damage. Examples are:
+
+- <img class='inline willbender'> [Willbender] - in the <img class='inline virtues'> [Virtues] traitline, taking <img class='inline absolute-resolve'> [Absolute Resolve] brings lots of cleanse at a very minor DPS loss.
+- <img class='inline mechanist'> [Mechanist] - <img class='inline healing-turret'> [Healing Turret] is good AoE cleanse.
+- <img class='inline weaver'> [Weaver] - can bring <img class='inline lightning'> [Lightning Flash] for mobility instead of <img class='inline ele-glyph'> [Glyph of Lesser Elementals]. Generally it’s always worth to have good [Sulfuric Geyser] placements over some additional damage.
+- <img class='inline scrapper'> [Scrapper] - can take <img class='inline mass-momentum'> [Mass Momentum] for additional <img class='inline stability'> [Stability] at the cost of <img class='inline superspeed'> [Superspeed].
+</div>
+</details>
+
+<details class=faq>
+<summary>5.4 - What are the best ways to CC on a support class?</summary>
+<div markdown='block'>
+
+- <img class='inline deadeye'> [Deadeye] - check out the [detailed guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M) from Chupathingy.
+- <img class='inline chrono'> [Chronomancer] - <img class='inline moa'> [Signet of Humility] combined with any other skill from weapons or utilities you might have. Depending on the situation, don’t be afraid to use these within <img class='inline cs'> [Continuum Split] if you anticipate needing CC again soon after.
+- <img class='inline scourge'> [Scourge] - <img class='inline golem'> [Summon Flesh Golem] into <img class='inline golem-charge'> [Charge].
+- <img class='inline firebrand'> [Firebrand] - <img class='inline jurisdiction'> [Jurisdiction] (but generally don’t hold it) and <img class='inline rebuke'> [Chapter 3: Heated Rebuke].
+
+</div>
+</details>
+
+<details class=faq>
+<summary>5.5 - How much damage should I be dealing?</summary>
+<div markdown='block'>
+
+#### todo
+
+</div>
+</details>
+
+<details class=faq>
+<summary>5.6 - Who should provide <img class='inline stability'> Stability?</summary>
+<div markdown='block'>
+
+Highly dependant on the squad composition, how much <img class='inline stability'> [Stability] you are running and on the situation. Generally there is not one main <img class='inline stability'> [Stability] provider. The <img class='inline chrono'> [Chronomancer] is running <img class='inline stab-mantra'> [Mantra of Concentration] and should always pay attention to mechanics and use a charge whenever there is a mechanic that requires it. If running <img class='inline precog'> [Well of Precognition], they can also drop it onto the group at [Titanspawn Geysers], or on the squad if a [Champion Fumaroller] is on stack.
+
+<img class='inline scourge'> [Scourge] and <img class='inline firebrand'> [Firebrand] have varying amounts depending on the build, but should similarly use them whenever needed and they are in range (e.g. <img class='inline stand-ground'> [Stand Your Ground!] for Titanspawners and <img class='inline epilogue'> [Epilogue: Unbroken Lines] for [Steam Prison]).
+
+So summarizing, whoever has <img class='inline stability'> [Stability] should always use it for mechanics if they are on stack, or wherever the mechanic is happening. For example while the Chrono has obviously the greatest amount of <img class='inline stability'> [Stability] if they are running <img class='inline precog'> [Well of Precognition], this doesn’t help when they are on ranged shard duty away from the squad: at this point the <img class='inline firebrand'> [Firebrand] needs to provide <img class='inline stability'> [Stability].
+
+</div>
+</details>
+
+<details class=faq>
+<summary>5.7 - What are compositions are commonly run?</summary>
+<div markdown='block'>
+
+The two main compositions are relatively similar and only come down to <img class='inline scourge'> [Scourge] or <img class='inline chrono'> [Chronomancer] as second healer and what specific build the <img class='inline firebrand'> [Firebrand] runs.
+
+The DPS builds can in principle be any dps of the builds in the [builds & PoV section](strategy.html#builds-and-povs). One notable distinction is that if you run a full <img class='inline condition'> [Condition] comp, everyone in the second subgroup (<img class='inline firebrand'> [Firebrand] + 3 DPS) should go kill the [Titanspawn Geyser], while with <img class='inline power'> [Power] DPS, only two are required to go there to kill it in time. In this case, these two should be placed with their <img class='inline firebrand'> [Firebrand] in the <img class='inline deadeye'> [Deadeye]'s subgroup.
 
 ---
 
-#### DPS builds
+#### Scourge Composition
+Trades higher DPS for less healing and <img class='inline stability'> [Stability].
 
-DPS builds always depend on the current Meta, so it’s best to just look at the build section on the Void Lounge discord, but a current snapshot (August 2026) is: Condi Weaver, Willbender, Daredevil, Mechanist, Firebrand & Power Scrapper, Berserker, Vindicator: https://discord.com/channels/1121166847266537562/1332712612877570089/1360699762143137963
+|<img class='inline deadeye'> [Deadeye] | <img class='inline scourge'> [Scourge]* | <img class='inline firebrand'> [Firebrand] (Stab**) | DPS ([tank](../ura/mechanics.html#tanking-ura)) | DPS (Ranged Backup) |
+|<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS | DPS | DPS |
 
----
+\* If defensive, then the two <img class='inline firebrand'> [Firebrands] should do the basic projectile block rotation, while keeping the <img class='inline cpc'> [Corrosive Poison Cloud] from the <img class='inline scourge'> [Scourge] as backup whenever needed.
 
-#### What are important skills DPS should take?
-
-Depends on the spec, but general condition cleanse, stability and movement skills are nice if they don’t cost that much dps and if you are not struggling with dps. Examples are:
-- Willbender: Virtues traitline, middle column, take the middle trait => lots of additional condi cleanse with F2 at a very minor dps loss
-- Mechanist: Healing Turret for aoe condi cleanse
-- Weaver: lightning flash for mobility instead of fire elemental (generally it’s always worth to have good sulfuric placements over some dps)
-- Scrapper: can take the Stab on Function trait in the first column of the Scrapper traitline, but note that you have less party Superspeed then
+** If confident, can also drop <img class='inline stand-ground'> [Stand Your Ground!] and still run <img class='inline purging'> [Purging Flames], especially if the <img class='inline scourge'> [Scourge] plays the defensive version with <img class='inline anguish'> [Trail of Anguish] and Staff for <img class='inline stability'> [Stability].
 
 ---
 
-### What are the best ways to CC on the support classes?
+#### Double Chrono Composition
+Trades lower DPS for more healing and <img class='inline stability'> [Stability].
 
-- For CC DE, check out this amazing guide from Chupa: https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M/edit?slide=id.p#slide=id.p
-- Chrono: Moa (+ any other skill from weapon or util you might have) and depending on the situation also don’t be afraid to use those within CS if you anticipate needing CC again soon after.
-- Scourge: Golem
-- QFB: Pistol 5 (but generally don’t hold it) and F1-3 (is relatively little CC though).
+|<img class='inline deadeye'> [Deadeye] | <img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS ([tank](../ura/mechanics.html#tanking-ura)) | DPS (Ranged Backup) |
+|<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand]* | DPS | DPS | DPS |
 
 
----
+\* The <img class='inline firebrand'> [Firebrand] can either run <img class='inline liberation'> [Mantra of Liberation] and <img class='inline purging'> [Purging Flames] to have some extra <img class='inline stability'> [Stability], or fully offensive with the default SnowCrows build, bringing only <img class='inline epilogue'> [Epilogue: Unbroken Lines] for <img class='inline stability'> [Stability].
 
-### Who is the main provider of stability?
+</div>
+</details>
 
-It depends on the squad composition, how much Stability you are running and on the situation; so generally there is not one main Stability provider. But the Chrono has Stab Mantra and should always pay attention to mechanics and use a charge whenever there is a mechanic (Titanspawner, Arena, Fumaroller) and when running Precognition can also drop those onto the group at the Titanspawner, or on the squad when a Fumaroller is alive. Scourge and Qfb have varying amounts depending on the build, but should similarly use them whenever needed and they are in range (e.g. Stand Your Ground when the group runs to the Titanspawner and F3-5/Elite Mantra for Arena and Fumaroller attacks. So summarizing, whoever has Stability should always use it for mechanics if they are at the squad, or wherever the mechanic is happening (e.g. while the Chrono has obviously the most amount of Stability if they run Precog, this doesn’t help when they are on ranged shard duty away from the squad, at which point the Qfb needs to provide the Stability).
+<details class=faq>
+<summary>5.8 - How do I assign DPS for melee rotations and Titanspawners?</summary>
+<div markdown='block'>
 
----
+The melee shard rotation consists of 4 people (e.g. everyone except the Healer in Sub2) and thus all of them can go to the [Titanspawn Geyser], such that you always have the melee [Bloodstone Shard] and the <img class='inline stability'> [Stability] from the <img class='inline firebrand'> [Firebrand] for the [Champion Fumaroller].
 
-### What are possible compositions?
+Having at least one <img class='inline power'> [Power] DPS in this group helps with killing the Titanspawner quickly. If you run a full <img class='inline condition'> [Condition] composition and have problems killing it in time, then you can have the <img class='inline firebrand'> [Firebrand] from Sub1 and the DPS (ranged backup) also go and cleave the Titanspawner (which leaves only the [tank](../ura/mechanics.html#tanking-ura) at the boss).
 
-The two main compositions are relatively similar and only come down to Scourge, or Chrono as second healer and what specific build the QFB runs.
+</div>
+</details>
 
-Scourge comp: higher dps, but less healing/stability
+<details class=faq>
+<summary>5.9 -Can I play a different QuickDPS?</summary>
+<div markdown='block'>
 
-| CC DE       | Hybrid Scourge* | QFB (Stab**) | dps (los tank) | dps (ranged bu) |
-| -- | -- | -- | -- | -- |
-| Heal Chrono | QFB (Wall, marker) | dps | dps | dps |
+Other support builds can technically be run if there is no need for specific skills (e.g. projectile block, <img class='inline stability'> [Stability], ..), but <img class='inline firebrand'> [Firebrand] is generally the best choice due to high DPS combined with the massive amount of utility it brings. If in doubt, just check your squad composition and make sure everything is covered.
 
-*If defensive, then the two QFBs should do the basic projectile block rotation, while having the CPC from Scourge as backup whenever needed.
-**If confident, can also drop the SYG and still run PF, especially if the Hybrid Scourge plays the defensive version with Trail + Staff for Stability.
-
-Double Chrono comp: higher dps, but less healing/stability
-
-| CC DE       | Heal Chrono | QFB (Wall, marker) | dps (los tank) | dps (ranged bu) |
-| -- | -- | -- | -- | -- |
-| Heal Chrono | QFB*     | dps | dps | dps |
-
-*The PF QFB can either still run Elite Mantra with Purging Flames to have some more Stability, or fully offensive with the default SC build (only F3-5 then for Stability).
-
-The dps can in principle be any dps of the builds mentioned above in the dps build section. One notable distinction is that if you run a full Condi comp, everyone in Sub2 (QFB + 3 dps) should go kill the Titanspawner Geyser, while with Power dps, only 2x Power dps are required to go there to kill it in time
-
----
-
-### How to assign dps for melee rotations and Titanspawners?
-
-Titanspawner and melee rotation: The melee shard rotation consists of 4 people (e.g. everyone except the Healer in Sub2 => QFB + 3 dps) and hence all of them can go to the Titanspawn Geyser, such that you always have the melee Bloodstone Shard person there and the Stability from the QFB for the Fumaroller (F3-5/SYG/Stab Mantra, depending on the build you run). Having at least one Power dps in this group helps with killing the Titanspawn Geyser more quickly. If you run a full Condi composition and have problems killing it in time, then you can have the QFB from Sub1 and the dps (ranged bu) also go and dps the Titanspawner (which leaves only the los tank at the boss).
-
-### Is it possible to have a different quick dps?
-
-Other quickness builds are technically possible to run if there is no need for specific skills (e.g. projectile block, Stability, ..), but QFB is generally the best choice due to high dps combined with the massive amount of utility it brings. If in doubt, just check your squad composition and make sure everything is covered.
+</div>
+</details>
 
 <img class=divider>
 
 ## Glossary
 
-Arena: Donut/Cage/Prison refers to Ura’s Steam Prison attack that shows up as a donut-shaped orange indicator around a player and spawns a circular boundary. After spawning, it can only be escped by having Stability, or via blinking over it. Inside, it ticks damage, applies Sulfuric Acid and reflects all projectiles.
+---
 
-Bubbles: Bubbles, or the “Friends” mechanic refers to Ura’s Pressure Blast attack that applies 2 small circle indicators to random players (who don’t hold a Bloodstone Shard at the time of casting), which will trap those players and anyone else caught in the explosion radius in floating bubbles that slowly rise.
+**Arena:** Donut/Cage/Prison refers to Ura’s [Steam Prison] attack that shows up as a donut-shaped orange indicator around a player.
 
-Titanspawner: Refers to the Titanspawn Geyser that appears when Ura casts “Create Titanspawn Geyser”. Spawns Fumarollers, or Ventshots depending on the phase.
+**Bubbles:** aka “Friends”, refers to Ura’s [Pressure Blast] attack that applies 2 small circle indicators to random players which will trap those players and anyone else caught in the explosion radius in floating bubbles.
 
-Fumas/Fumarollers: Refer to the Champion Fumaroller adds that spawn from Titanspawn Geysers during phase 2 and phase 3.
+**Titanspawner:** Refers to the [Titanspawn Geyser] that appears when Ura casts [Create Titanspawn Geyser].
 
-Ventshots: Refer to the Legendary Ventshot enemies that spawn from Titanspawn Geysers during phase 4.
+**Fumas/Fumarollers:** Refer to the [Champion Fumaroller] adds that spawn from [Titanspawn Geysers].
+
+**Ventshots:** Refer to the [Legendary Ventshot] adds that spawn from [Titanspawn Geysers] during phase 4.
 
 
 <img class=divider>
@@ -497,8 +607,15 @@ Ventshots: Refer to the Legendary Ventshot enemies that spawn from Titanspawn Ge
 {: .center}
 
 [Chronomancer]: strategy.html#builds-and-povs
+[Chronomancers]: strategy.html#builds-and-povs
 [Deadeye]: strategy.html#builds-and-povs
 [Scourge]: strategy.html#builds-and-povs
+[Firebrand]: strategy.html#builds-and-povs
+[Firebrands]: strategy.html#builds-and-povs
+[Willbender]: strategy.html#builds-and-povs
+[Weaver]: strategy.html#builds-and-povs
+[Mechanist]: strategy.html#builds-and-povs
+[Scrapper]: strategy.html#builds-and-povs
 
 [Bloodstone Shard]: ../ura/mechanics.html#bloodstone-shards
 [Bloodstone Shards]: ../ura/mechanics.html#bloodstone-shards
@@ -517,6 +634,8 @@ Ventshots: Refer to the Legendary Ventshot enemies that spawn from Titanspawn Ge
 [Titanic Resistance]: ../ura/mechanics.html#-titanic-resistance
 [Champion Fumaroller]: ../ura/mechanics.html#champion-fumaroller
 [Champion Fumarollers]: ../ura/mechanics.html#champion-fumaroller
+[Legendary Ventshot]: ../ura/mechanics.html#legendary-ventshot
+[Legendary Ventshots]: ../ura/mechanics.html#legendary-ventshot
 [Bloodstone Saturation]: ../ura/mechanics.html#-bloodstone-saturation
 [Propel]: ../ura/mechanics.html#propel
 [Autoattack Chain]: ../ura/mechanics.html#autoattack-chain
@@ -528,6 +647,51 @@ Ventshots: Refer to the Legendary Ventshot enemies that spawn from Titanspawn Ge
 
 [Exposed]: https://wiki.guildwars2.com/wiki/Exposed
 [Poison]: https://wiki.guildwars2.com/wiki/Poison
+[Burning]: https://wiki.guildwars2.com/wiki/Burning
 [Distort]: https://wiki.guildwars2.com/wiki/Distortion
 [Stability]: https://wiki.guildwars2.com/wiki/Stability
 [Superspeed]: https://wiki.guildwars2.com/wiki/Superspeed
+[Knockback]: https://wiki.guildwars2.com/wiki/Knockback
+[Power]: https://wiki.guildwars2.com/wiki/Power
+[Condition]: https://wiki.guildwars2.com/wiki/Contition_damage
+[Might]: https://wiki.guildwars2.com/wiki/Might
+[Fury]: https://wiki.guildwars2.com/wiki/Fury
+[Relic of the Midnight King]: https://wiki.guildwars2.com/wiki/Relic_of_the_Midnight_King
+[Relic of Speed]: https://wiki.guildwars2.com/wiki/Relic_of_Speed
+[Well of Precognition]: https://wiki.guildwars2.com/wiki/Well_of_Precognition
+[Blink]: https://wiki.guildwars2.com/wiki/Blink
+[Feedback]: https://wiki.guildwars2.com/wiki/Feedback
+[Medic Feedback]: https://wiki.guildwars2.com/wiki/Medic%27s_Feedback
+[Technobabble]: https://wiki.guildwars2.com/wiki/Technobabble
+[Signet of Domination]: https://wiki.guildwars2.com/wiki/Signet_of_Domination
+[Well of Senility]: https://wiki.guildwars2.com/wiki/Well_of_Senility
+[Signet of Humility]: https://wiki.guildwars2.com/wiki/Signet_of_Humility
+[Phantasmal Sharpshooter]: https://wiki.guildwars2.com/wiki/Phantasmal_Sharpshooter
+[Mental Collapse]: https://wiki.guildwars2.com/wiki/Mental_Collapse
+[Clarity]: https://wiki.guildwars2.com/wiki/Clarity
+[Corrosive Poison Cloud]: https://wiki.guildwars2.com/wiki/Corrosive_poison_cloud
+[Stand Your Ground!]: https://wiki.guildwars2.com/wiki/%22Stand_Your_Ground!%22
+[Trail of Anguish]: https://wiki.guildwars2.com/wiki/Trail_of_Anguish
+[Blood is Power]: https://wiki.guildwars2.com/wiki/Blood_is_power
+[Curses]: https://wiki.guildwars2.com/wiki/Curses
+[Soul Reaping]: https://wiki.guildwars2.com/wiki/Soul_Reaping
+[Blood Magic]: https://wiki.guildwars2.com/wiki/Blood_Magic
+[Wall of Reflection]: https://wiki.guildwars2.com/wiki/Wall_of_Reflection
+[Chapter 3: Valiant Bulwark]: https://wiki.guildwars2.com/wiki/Chapter_3:_Valiant_Bulwark
+[Mantra of Liberation]: https://wiki.guildwars2.com/wiki/Mantra_of_Liberation
+[Purging Flames]: https://wiki.guildwars2.com/wiki/Purging_Flames
+[Stunbreak]: https://wiki.guildwars2.com/wiki/Stun_break
+[Feel My Wrath!]: https://wiki.guildwars2.com/wiki/%22Feel_My_Wrath!%22
+[Epilogue: Unbroken Lines]: https://wiki.guildwars2.com/wiki/Epilogue:_Unbroken_Lines
+[Chapter 3: Heated Rebuke]: https://wiki.guildwars2.com/wiki/Chapter_3:_Heated_Rebuke
+[Virtues]: https://wiki.guildwars2.com/wiki/Virtues
+[Absolute Resolve]: https://wiki.guildwars2.com/wiki/Absolute_Resolve
+[Healing Turret]: https://wiki.guildwars2.com/wiki/Healing_Turret
+[Lightning Flash]: https://wiki.guildwars2.com/wiki/Lightning_Flash
+[Glyph of Lesser Elementals]: https://wiki.guildwars2.com/wiki/Glyph_of_Lesser_Elementals
+[Mass Momentum]: https://wiki.guildwars2.com/wiki/Mass_Momentum
+[Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
+[Summon Flesh Golem]: https://wiki.guildwars2.com/wiki/Summon_Flesh_Golem
+[Charge]: https://wiki.guildwars2.com/wiki/Charge_(necromancer_skill)
+[Jurisdiction]: https://wiki.guildwars2.com/wiki/Jurisdiction
+[Mantra of Concentration]: https://wiki.guildwars2.com/wiki/Mantra_of_Concentration

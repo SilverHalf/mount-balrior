@@ -231,8 +231,8 @@ Ura has a hard limit of 10 "minions" beyond which she will not spawn any more. T
 {: .no_toc}
 
 These dangerous enemies generally target players close to them and can be baited close to the boss in order to CC, cleave and kill them. They have three notable attacks:
-- <u>Full Stream</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback].
-- <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it.
+- <u>Full Stream</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback]. Targets the player with the highest toughness in the Fumaroller's cone of view.
+- <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it. Vertices deal extra damage.
 - <u>Mantle Grinder</u> - the Fumaroller rolls in place, pulsing damage and <img class="inline knockback"> [Knockback]. 
 
 #### Legendary Ventshot
