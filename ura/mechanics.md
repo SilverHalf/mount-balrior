@@ -205,6 +205,8 @@ Ura will periodically perform an animation and target a player with a Sulfuric G
 
 After 5 seconds, the timer will run out and a sulfuric geyser will spawn on the player's position. Sulfurics spawn with an AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. As long as Ura is in contact with this AoE, she will periodically gain <img class='inline protection'> [Protection], <img class='inline resolution'> [Resolution] and 25 <img class='inline might'> [Might].
 
+When the geyser spawns, it will release a circular shockwave that will expand and cover the entire arena. This wave can be dodged, blocked or jumped, and it deals damage and inflicts <img class='inline sulfuricacid'> [Sulfuric Acid] on hit. 
+
 Sulfuric Geysers cannot be destroyed, but despawn 5 minutes after they appear. They must be positioned accordingly at the edges of the arena so that they don't impede the squad and buff the boss for this duration.
 
 Players targeted by a geyser will gain 5 seconds of <img class='inline superspeed'> [Superspeed].
@@ -232,8 +234,8 @@ Ura has a hard limit of 10 "minions" beyond which she will not spawn any more. T
 {: .no_toc}
 
 These dangerous enemies generally target players close to them and can be baited close to the boss in order to CC, cleave and kill them. They have three notable attacks:
-- <u>Full Stream</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback].
-- <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it.
+- <u>Full Stream</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback]. Targets the player with the highest toughness in the Fumaroller's cone of view.
+- <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it. Vertices deal extra damage.
 - <u>Mantle Grinder</u> - the Fumaroller rolls in place, pulsing damage and <img class="inline knockback"> [Knockback]. 
 
 #### Legendary Ventshot

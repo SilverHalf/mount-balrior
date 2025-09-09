@@ -103,3 +103,21 @@ input:checked + .decima-arena-image {
     animation-timing-function: linear;
     transition: .3s;
 }
+
+.faq {
+    border: 2px outset;
+    border-radius: 5px;
+    border-color: $link-color;
+    padding: 7px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.faq summary:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.faq div {
+    padding: 7px;
+}

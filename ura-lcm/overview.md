@@ -8,7 +8,7 @@ has_toc: false
 # Legendary Godscream Ura
 {: .center}
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [FAQ](./faq.html){: .btn }
 {: .center}
 
 <img src="../images/ura.webp" />
@@ -42,7 +42,7 @@ Squads attempting Ura will generally run an optimized composition, where every p
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [FAQ](./faq.html){: .btn }
 {: .center}
 
 [Toxic Geysers]: ../ura/mechanics.html#toxic-geysers
