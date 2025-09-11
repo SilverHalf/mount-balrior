@@ -163,7 +163,7 @@ Setting up and following shard rotations is of fundamental importance. Usually a
 ---
 
 ### Melee Rotation
-Following the assignments in the [table above](#first-subgroup), usually the melee group rotates A > B > C > D > E. Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
+Following the assignments in the [table above](#first-subgroup), usually the melee group rotates A > B > C > D > E (Note: call the next person by name for immediate attention-grabbing; the letters are just used in the text here for ordering). Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
 
 > A: "B, dropping on Titanspawn"
 
