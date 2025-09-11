@@ -9,13 +9,15 @@ parent: Legendary Ura
 
 # Legendary Ura - FAQ
 
+<div style="color: grey">Made with contributions from Minas, Spencer, Sleider, Elise and many more.</div>
+
 This page contains a set of frequently asked questions regarding the Legendary Ura encounter. These are grouped into the following sections:
 
-1. [Ura's Attacks and How to Deal with Them](#uras-attacks-and-how-to-deal-with-them)
-2. [Ranged Group and Toxic Geysers](#ranged-group-and-toxic-geysers)
-3. [Phasing and Related Issues](#phasing-and-related-issues)
-4. [Titanspawners, Fumarollers, Ventshots](#titanspawners-fumarollers-ventshots)
-5. [Builds, Composition and More](#builds-squad-compositions-and-more)
+1. [Ura's Attacks and How to Deal with Them](#1-uras-attacks-and-how-to-deal-with-them)
+2. [Ranged Group and Toxic Geysers](#2-ranged-group-and-toxic-geysers)
+3. [Phasing and Related Issues](#3-phasing-and-related-issues)
+4. [Titanspawners, Fumarollers, Ventshots](#4-titanspawners-fumarollers-ventshots)
+5. [Builds, Composition and More](#5-builds-squad-compositions-and-more)
 6. [Glossary](#glossary)
 
 <img class=divider>
@@ -55,7 +57,7 @@ Ura builds up <img class='inline risingpressure'> [Rising Pressure], which gets 
 
 Whenever Ura is CCd, her attack will be interrupted and she will immediately start casting the next attack. Ura’s attacks are on a priority list, with cast times, aftercasts and cooldowns. She will go down her priority list and cast the next skill that is available (if a target is in range). If you CC at the wrong time, you can remove cast and aftercast from a skill, which will cause Ura to run out of attacks and then use [Propel]. That’s why we want to CC at the end of aftercasts, in order to minimize the chances of Ura jumping away. For more information see [when to CC Ura](../ura/mechanics.html#when-to-cc-ura).
 
-The best CC timings are (gifs from Elise):
+The best CC timings are:
 
 [Steam Prison] - After her hands are down. Roughly 3 seconds time window after hands are down.
 
@@ -68,6 +70,8 @@ The best CC timings are (gifs from Elise):
 [Sulfuric Geyser] - Once the indicators start, which is roughly when she has stretched her arm out front fully. About 2-3 seconds of a window.
 
 <img class='center' src='../images/ura/ura-cc-sulfanim.gif' width='70%'>
+
+<div style="color: grey">Gifs by Elise</div>
 
 </div>
 </details>
@@ -362,7 +366,7 @@ However, if you play with only one <img class='inline chrono'> [Chronomancer] an
 1. Baiting the Fumaroller to the boss (standing 90°/tangential at the boss)
 2. After the Fumaroller charges, moving on top of it and cleaving it down.
 
-The only exception to killing them immediately is for some specific strategies in which you want to keep them alive for as long as possible at the start of phase 4, in order to get less [Legendary Ventshots]. This works because Ventshots, [Titanspawn Geysers] and Fumarollers have an entity cap (6 in phase 4), so when too many are on the field, no new entities will spawn. However, this is quite dangerous, and requires specialized compositions.
+The only exception to killing them immediately is for some specific strategies in which you want to keep them alive for as long as possible at the start of phase 4, in order to get less [Legendary Ventshots]. This works because Ventshots, [Titanspawn Geysers] and Fumarollers have an entity cap (6 in phase 4), so when too many are on the field, no new entities will spawn. However, this is quite dangerous, and requires [specialized compositions](./strategy.html#willbender-strategy).
 
 Players in the ranged group should watch the Fumarollers and bait them into the stack before running out for [Toxic Geysers] if possible, since their charge targets the highest toughness player in their cone of vision. Baiting them in this manner also makes it so that they cannot bother you at range while dealing with other mechanics.
 
@@ -410,7 +414,7 @@ For simplicity it’s best to send the full melee shard rotation group, as this 
 
 <img class=divider>
 
-## Builds, Squad Compositions and More
+## 5. Builds, Squad Compositions and More
 
 ---
 
@@ -509,16 +513,7 @@ Condition cleanse, <img class='inline stability'> [Stability] and movement skill
 </details>
 
 <details class=faq>
-<summary>5.5 - How much damage should I be dealing?</summary>
-<div markdown='block'>
-
-#### todo
-
-</div>
-</details>
-
-<details class=faq>
-<summary>5.6 - Who should provide <img class='inline stability'> Stability?</summary>
+<summary>5.5 - Who should provide <img class='inline stability'> Stability?</summary>
 <div markdown='block'>
 
 Highly dependant on the squad composition, how much <img class='inline stability'> [Stability] you are running and on the situation. Generally there is not one main <img class='inline stability'> [Stability] provider. The <img class='inline chrono'> [Chronomancer] is running <img class='inline stab-mantra'> [Mantra of Concentration] and should always pay attention to mechanics and use a charge whenever there is a mechanic that requires it. If running <img class='inline precog'> [Well of Precognition], they can also drop it onto the group at [Titanspawn Geysers], or on the squad if a [Champion Fumaroller] is on stack.
@@ -531,7 +526,7 @@ So summarizing, whoever has <img class='inline stability'> [Stability] should al
 </details>
 
 <details class=faq>
-<summary>5.7 - What are compositions are commonly run?</summary>
+<summary>5.6 - What are compositions are commonly run?</summary>
 <div markdown='block'>
 
 The two main compositions are relatively similar and only come down to <img class='inline scourge'> [Scourge] or <img class='inline chrono'> [Chronomancer] as second healer and what specific build the <img class='inline firebrand'> [Firebrand] runs.
@@ -541,7 +536,7 @@ The DPS builds can in principle be any dps of the builds in the [builds & PoV se
 ---
 
 #### Scourge Composition
-Trades higher DPS for less healing and <img class='inline stability'> [Stability].
+Trades higher DPS for less healing and <img class='inline stability'> [Stability]. Example comp:
 
 |<img class='inline deadeye'> [Deadeye] | <img class='inline scourge'> [Scourge]* | <img class='inline firebrand'> [Firebrand] (Stab**) | DPS ([tank](../ura/strategy.html#tanking-ura)) | DPS (Ranged Backup) |
 |<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS | DPS | DPS |
@@ -553,7 +548,7 @@ Trades higher DPS for less healing and <img class='inline stability'> [Stability
 ---
 
 #### Double Chrono Composition
-Trades lower DPS for more healing and <img class='inline stability'> [Stability].
+Trades lower DPS for more healing and <img class='inline stability'> [Stability]. Example comp:
 
 |<img class='inline deadeye'> [Deadeye] | <img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS ([tank](../ura/strategy.html#tanking-ura)) | DPS (Ranged Backup) |
 |<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand]* | DPS | DPS | DPS |
@@ -565,7 +560,7 @@ Trades lower DPS for more healing and <img class='inline stability'> [Stability]
 </details>
 
 <details class=faq>
-<summary>5.8 - How do I assign DPS for melee rotations and Titanspawners?</summary>
+<summary>5.7 - How do I assign DPS for melee rotations and Titanspawners?</summary>
 <div markdown='block'>
 
 The melee shard rotation consists of 4 people (e.g. everyone except the Healer in Sub2) and thus all of them can go to the [Titanspawn Geyser], such that you always have the melee [Bloodstone Shard] and the <img class='inline stability'> [Stability] from the <img class='inline firebrand'> [Firebrand] for the [Champion Fumaroller].
@@ -576,7 +571,7 @@ Having at least one <img class='inline power'> [Power] DPS in this group helps w
 </details>
 
 <details class=faq>
-<summary>5.9 -Can I play a different QuickDPS?</summary>
+<summary>5.8 -Can I play a different QuickDPS?</summary>
 <div markdown='block'>
 
 Other support builds can technically be run if there is no need for specific skills (e.g. projectile block, <img class='inline stability'> [Stability], ..), but <img class='inline firebrand'> [Firebrand] is generally the best choice due to high DPS combined with the massive amount of utility it brings. If in doubt, just check your squad composition and make sure everything is covered.
@@ -603,7 +598,7 @@ Other support builds can technically be run if there is no need for specific ski
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#ura-faq){: .btn .fixed}
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#legendary-ura---faq){: .btn .fixed}
 {: .center}
 
 [Chronomancer]: strategy.html#builds-and-povs

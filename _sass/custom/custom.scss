@@ -29,11 +29,13 @@
     font-size: 2rem;
     color: white;
     background-position: center;
+    transition: all 0.1s linear;
 }
 
 .index-button:hover {
     cursor: pointer;
     border-color: white;
+    transform: scale(1.02);
 }
 
 .center {

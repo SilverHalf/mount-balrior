@@ -22,6 +22,19 @@ Click on one of the bosses below to read the relevant sections.
        style="background-image: url(images/ura.webp);"></a>
 </div>
 
+---
+
+## Legendary Mode
+{: .center}
+
+If you're interested in the ultimate challenge, read our resources for Legendary Godscream Ura.
+{: .center}
+
+[Overview](./ura-lcm/overview.html){: .btn} [Strategy Guide](./ura-lcm/strategy.html){: .btn} [FAQ](./ura-lcm/faq.html){: .btn}
+{: .center}
+
+---
+
 ### Do you want to contribute to this project?
 
 Contributions are very welcome. Feel free to contact me on Discord (silverhalf) or through github.

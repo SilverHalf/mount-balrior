@@ -38,7 +38,7 @@ Squads attempting Ura will generally run an optimized composition, where every p
 
 \* Due to Ura regenerating at 1% health, her effective total health is 137,161,289.
 
-** While Ura's defiance technically does not change throughout the encounter, its effective value can become much greater due to <img class="inline titanicresistance"> [Titanic Resistance](mechanics.html#-titanic-resistance).
+** While Ura's defiance technically does not change throughout the encounter, its effective value can become much greater due to <img class="inline titanicresistance"> [Titanic Resistance].
 
 <img class=divider>
 
@@ -48,5 +48,6 @@ Squads attempting Ura will generally run an optimized composition, where every p
 [Toxic Geysers]: ../ura/mechanics.html#toxic-geysers
 [Titanspawn Geysers]: ../ura/mechanics.html#titanspawn-geysers
 [Legendary Ventshots]: ../ura/mechanics.html#legendary-ventshot
+[Titanic Resistance]: ../ura/mechanics.html#-titanic-resistance
 
 [Defiance Bar]: https://wiki.guildwars2.com/wiki/Defiance_bar

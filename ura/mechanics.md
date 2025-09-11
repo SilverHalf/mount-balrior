@@ -227,7 +227,7 @@ Players targeted by a geyser will gain 5 seconds of <img class='inline superspee
 
 Over the course of the fight, some sulfurics will spawn naturally at regular intervals, independently from the boss casting the skill. The approximate position of these geysers is chosen randomly from one among those highlighted in the image below. A position can be chosen multiple times over the course of the fight.
 
-<img class=center src='../images/ura/ura_sulfuric_geyser_spawns.webp' width='70%'>
+<img class=center src='../images/ura/ura_sulfuric_geyser_spawns.webp' width='50%'>
 
 ---
 
@@ -238,7 +238,7 @@ When spawning a Titanspawn Geyser, Ura jumps into the air and crashes down, dama
 
 After this, a Titanspawn Geyser will spawn in one of five locations, chosen at random from those shown in the picture below. This structure immediately spawns a [Champion Fumaroller]. Another add will spawn every 15 seconds until the geyser is destroyed.
 
-<img class=center src='../images/ura/ura_titanspawn_positions.webp' width='70%'>
+<img class=center src='../images/ura/ura_titanspawn_positions.webp' width='50%'>
 
 {: .note}
 If all locations are already occupied by a geyser, then no additional geysers will spawn.
