@@ -611,18 +611,20 @@ Developed by Asterius (see his original spreadsheet <img class='inline sheets'> 
 
 #### Why not kill Titanspawners?
 
-The primary reason is to take advantage of the cap on [Legendary Ventshots] in phase 4. By not killing any [Titanspawn Geysers], you will have five of them going into the final phase. This, combined with up to five [Champion Fumarollers] surviving from the previous phase, will prevent Ventshots from spawning entirely, as Ura is limited to six minions. This makes the final phase much easier compared to the standard strategy, as the major difficulty factor is removed.
+The primary reason is to take advantage of the cap on [Legendary Ventshots] in phase 4. The current theory is that [Legendary Ventshots] can only spawn if there are less than 6 entities, from [Champion Fumarollers] and Titanspawner Geyser combined, alive. By not killing any [Titanspawn Geysers], the aim is to have as much as possible alive when going into the final phase. This, combined with a couple of [Champion Fumarollers] surviving from the previous phase, will prevent Ventshots from spawning at the start of phase 4. Once all [Champion Fumarollers] are dead, depending on the rng of where Titanspawner Geyser spawned, you can still have up to 1-2 [Legendary Ventshots], but since these spawn late into phase 4 and are not more, you don't need permanent projectile block. This makes the final phase much easier compared to the standard strategy, as the major difficulty factor of permanent projectile block is removed.
 
-Furthermore, this has the added advantage of always keeping the melee group compacted together into a single stack. Management of the [Bloodstone Shard] is simplified due to not having to <img class='inline dispel'> [Dispel] Titanspawners, the group has higher DPS uptime on the boss, and it is easier to rez people that go downstate. The only reason for DPS to leave the stack is to place [Sulfuric Geysers] and [Steam Prison].
+Furthermore, this has the added advantage of always keeping the melee group compacted together into a single stack. Management of the [Bloodstone Shard] is simplified due to not having to <img class='inline dispel'> [Dispel] Titanspawners, the group has higher DPS uptime on the boss and hence higher squad dps overall, and it is easier to rez people that go downstate. The only reason for DPS to leave the stack is to place [Sulfuric Geysers] and [Steam Prison].
 
 ---
 
 #### Why Willbenders?
 
-With many [Titanspawn Geysers] surviving throughout the fight, you will also get many [Champion Fumarollers] (up to five at a time!). <img class='inline willbender'> [Willbender] shines in these circumstances, as beyond already being a strong build with high damage, mobility and cleanse, it also:
+With many [Titanspawn Geysers] surviving throughout the fight, you will also get many [Champion Fumarollers] (the entity for Fumarollers is assumed to be 10; Titanspawners + Fumarollers combined). <img class='inline willbender'> [Willbender] shines in these circumstances, as beyond already being a strong build with high damage, mobility and cleanse, it also:
 
 - gains excellent access to <img class='inline stability'> [Stability] by running <img class='inline stand-ground'> [Stand Your Ground!] for a minimal DPS loss.
-- gains increased damage and cooldown reduction due to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues] striking multiple enemies for most of the fight.
+- gains increased damage and cooldown reduction due to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues] striking multiple enemies for most of the fight, which in turn increases dps on Ura as well.
+
+At the same time though, you want to kill [Champion Fumarollers] as fast as possible in order to not get overwhelmed by them. They generally spawn fast enough to supply a constant stream of multi-target cleave.
 
 ---
 
@@ -727,13 +729,13 @@ With many [Titanspawn Geysers] surviving throughout the fight, you will also get
 
 This composition differs from a standard one because, beyond running only <img class='inline willbender'> [Willbenders], there is also no need for much additional <img class='inline stability'> [Stability] and projectile reflection from the support players.
 
-Life for the ranged group is more difficult with this strategy, as there being more [Champion Fumarollers] makes it harder to move around and do mechanics. For this reason, you usually run two <img class='inline chrono'> [Chronomancers] with <img class='inline blink'> [Blink], alongside the <img class='inline deadeye'> [Deadeye], who will often run <img class='inline haste'> [Haste] for extra <img class='inline quickness'> [Quickness] and a <img class='inline stunbreak'> [Stunbreak]. The ranged group will generally run the [3-healer rotation](#ranged-rotation).
+Life for the ranged group is more difficult with this strategy, as there being more [Champion Fumarollers] makes it harder to move around and do mechanics. For this reason, you usually run two <img class='inline chrono'> [Chronomancers] (potentially also with <img class='inline blink'> [Blink], which makes it easier but is not strictly needed), alongside the <img class='inline deadeye'> [Deadeye], who will often run <img class='inline haste'> [Haste] for extra <img class='inline quickness'> [Quickness] and a <img class='inline stunbreak'> [Stunbreak]. The ranged group will generally run the [3-healer rotation](#ranged-rotation).
 
 While there is some technically some leeway in BoonDPS choice, usually groups will run two specific builds:
 - A Condition Quickness <img class='inline firebrand'> [Firebrand] is a common choice in the <img class='inline deadeye'> [Deadeye]'s subgroup, as it can provide additional <img class='inline stability'> [Stability] and its damage will also be increased by cleave due to <img class='inline perm-wrath'> [Permeating Wrath].
-- A <img class='inline scrapper'> [Scrapper] in the other subgroup, as it is generally tanky, has high damage and CC, and can cover <img class='inline vuln'> [Vulnerability] and <img class='inline poison'> [Poison] (to trigger <img class='inline thorns-relic'> [Relic of Thorns]).
+- A <img class='inline scrapper'> [Scrapper] in the other subgroup, as it is generally tanky, has high damage and CC, and can cover <img class='inline vuln'> [Vulnerability] and <img class='inline poison'> [Poison] (to trigger <img class='inline thorns-relic'> [Relic of Thorns] for all of the <img class='inline willbender'> [Willbenders], because they don't have <img class='inline poison'> in their default kit).
 
-If damage isn't an issue, DPS can run builds with additional toughness for around 2.5k damage loss, which can partially be regained through the more aggressive gameplay this gear enables.
+If damage isn't an issue, DPS can run Trailblazer gear with additional toughness for around 2.5k damage loss, which can partially be regained through the more aggressive gameplay this gear enables.
 
 #### Willbender Strategy Builds and PoVs
 
