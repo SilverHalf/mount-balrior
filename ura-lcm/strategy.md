@@ -16,17 +16,122 @@ Many concepts generally carry over from the [Normal Challenge Mode Strategy](../
 
 #### General Points
 - The fight is an extremely tight DPS check, requiring every player to pull their weight.
-- An inordinate amount of CC is required throughout the fight. Usually a dedicated <img class='inline deadeye'> [CC Deadeye] is brought for this reason.
+- An inordinate amount of CC is required throughout the fight, requiring special builds and attention.
 - Usually groups will have a melee rotation to leave nothing to chance.
-- The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight. Several ranged [rotations](#ranged-rotation) exist, with their own advantages and disadvantages.
-- Tanking Ura and facing her in the right direction, along with well-timed CC, is essential to avoid her casting [Propel] and to upkeep high DPS uptime.
-- The final phase spawns multiple [Legendary Ventshots]. These are extremely dangerous, and require permanent <img class='inline stability'> [Stability] and projectile reflection to be survived.
+- The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight. There are several ways of doing this depending on strategy and composition.
+- [Tanking Ura](../ura/mechanics.html#tanking-ura), facing her in the right direction and timing CC correctly is essential to avoid her casting [Propel] and upkeep high DPS uptime.
+- The final phase spawns multiple [Legendary Ventshots]. These are extremely dangerous, and must be dealt with.
 
-<img class='divider'>
+---
 
-## Composition
+#### Main Variations
 
-LCM compositions keep the division between a _ranged group_ and a _melee group_ introduced in CM.
+There are two primary ways to approach Ura LCM:
+
+- [Standard Strategy](#standard-strategy) - an extension of the normal CM strategy to LCM. Main differences involve some composition changes, and the introduction of more elaborate ranged rotations to manage the fight's increased cadence.
+- [Willbender Strategy](#willbender-strategy) - a mostly LCM-only strategy that takes advantage of some mechanical interactions to simplify the fight.
+
+<img class=divider>
+
+## Standard Strategy
+
+This strategy plays out in a similar manner to normal Ura Challenge mode for the first three phases. Every point in the [Normal Challenge Mode Strategy Guide](../ura/strategy.html) is applicable here.
+
+- For the _ranged group_ the main difference lies in [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers), and everything that goes along with learning and executing a [ranged rotation](#ranged-rotation) properly.
+- For the _melee group_, the differences lie in the fight's overall requirements: with such a tight DPS check, there is little to no room for mistakes.
+- The _tank_ will have a fundamental role, as beyond [preventing propel](../ura/strategy.html#preventing-propel), they must often call CC for the rest of the group. Proper CC timings to minimize the uptime of <img class='inline risingpressure'> [Rising Pressure] can improve overall DPS by 5-10%, which is often the difference between killing or wiping to enrage.
+
+---
+
+#### Composition
+
+<div>
+<table class="fl-table padded">
+    <thead>
+        <tr>
+            <th>Sub</th>
+            <th>Build</th>
+            <th>Role</th>
+            <th>Melee</th>
+            <th>Ranged</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e"><img class='inline deadeye'> CC Deadeye</a></td>
+            <td>CC + Ranged</td>
+            <td></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e"><img class='inline chrono'> Heal Chronomancer</a></td>
+            <td>Ranged</td>
+            <td></td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
+            <td>Melee + Titanspawner</td>
+            <td>A</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
+            <td>Melee + Titanspawner</td>
+            <td>B</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
+            <td>Melee + Titanspawner</td>
+            <td>C</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>Full/Hybrid Heal</td>
+            <td>Ranged</td>
+            <td></td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
+            <td>Melee</td>
+            <td>D</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Melee</td>
+            <td>E</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Tank (+ Ranged Fill)</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Tank</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+Standard LCM compositions keep the division between a _ranged group_ and a _melee group_ introduced in CM.
 
 The ranged group is usually composed of:
 - A heal <img class='inline chrono'> [Chronomancer] bringing extra CC.
@@ -57,113 +162,11 @@ The tank players usually do not participate in the melee rotation, but all other
 
 If anything is outdated, you can find up-to-date builds and PoVS on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 
-<img class=divider>
-
-## Shard Rotations
-
-Setting up and following shard rotations is of fundamental importance. Usually a rotation is set up also for the melee group, since only 5 players must handle the shard, while CM groups often forgo this.
-
-<div>
-<table class="fl-table padded">
-    <thead>
-        <tr>
-            <th>Sub</th>
-            <th>Build</th>
-            <th>Role</th>
-            <th>Melee</th>
-            <th>Ranged</th>
-            <th>Calls out</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e"><img class='inline deadeye'> CC Deadeye</a></td>
-            <td>CC + Ranged</td>
-            <td></td>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e"><img class='inline chrono'> Heal Chronomancer</a></td>
-            <td>Ranged</td>
-            <td></td>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
-            <td>Melee + Titanspawner</td>
-            <td>A</td>
-            <td></td>
-            <td>B</td>
-        </tr>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
-            <td>Melee + Titanspawner</td>
-            <td>B</td>
-            <td></td>
-            <td>C</td>
-        </tr>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
-            <td>Melee + Titanspawner</td>
-            <td>C</td>
-            <td></td>
-            <td>D</td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>Full/Hybrid Heal</td>
-            <td>Ranged</td>
-            <td></td>
-            <td>3</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
-            <td>Melee</td>
-            <td>D</td>
-            <td></td>
-            <td>E</td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>DPS</td>
-            <td>Melee</td>
-            <td>E</td>
-            <td></td>
-            <td>A</td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>DPS</td>
-            <td>Tank (+ Ranged Fill)</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>DPS</td>
-            <td>Tank</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-</div>
-
 ---
 
-### Melee Rotation
-Following the assignments in the [table above](#first-subgroup), usually the melee group rotates A > B > C > D > E (Note: call the next person by name for immediate attention-grabbing; the letters are just used in the text here for ordering). Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
+#### Melee Rotation
+
+The melee group consists of five people, which should order themselves into a sequence before the fight starts. Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
 
 > A: "B, dropping on Titanspawn"
 
@@ -173,15 +176,17 @@ The rotation cannot always be perfectly smooth due to overlapping mechanics. If 
 
 > B: "I'm doing sulfuric, C pickup"
 
-Another situation that may arise is when a player was not freed from [Pressure Blast] by <img class='inline dispel'> [Dispel] (for example they got clipped accidentally by a bubble). In this case the player who used the shard can quickly pick it up and use it again, or if the following player in the rotation picked up, they should immediately use and call out the next player.
+A situation that often arises is when a player was not freed from [Pressure Blast] by <img class='inline dispel'> [Dispel] (for example they got clipped accidentally by a bubble). In this case the player who used the shard can quickly pick it up and use it again, or if the following player in the rotation picked up, they should immediately use and call out the next player.
 
 In general, with five people following the rotation there is enough leeway to skip one player. Issues arise when players make multiple mistakes in succession, in which case it may be necessary to have a tank temporarily pick up a shard.
 
 ---
 
-### Ranged Rotation
+#### Ranged Rotation
 
-Ranged players will generally be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. Pain points often occur in the transitions at 70% and 40% of Ura's HP, where the rotation restarts from #8 and #7 respectively, thus yhe most common rotations have some optimizations to reduce the overall strain on the ranged players. Several of these are displayed below.
+Ranged players will generally be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. Most groups will ask you to use an [overlay](../ura/strategy.html#marker-packs): callouts are usually done exclusively with geyser numbers.
+
+Pain points often occur in the transitions at 70% and 40% of Ura's HP, where the rotation restarts from #8 and #7 respectively. There are several commonly used rotations, that all introduce some optimizations to alleviate these and reduce overall strain on the ranged players. Several of these are displayed below.
 
 ---
 
@@ -193,348 +198,6 @@ This rotation has only the healers and the <img class='inline deadeye'> [CC Dead
 This rotation also optimizes the order in which the geysers are <img class='inline dispel'> [Dispelled] to make double dropping a bit easier, and has other small optimizations to reduce strain on the healers.
 
 The disadvantage of this rotation is that it requires overall higher DPS to be executed cleanly. This makes it common in experienced groups, but less accessible for progression purposes.
-
-<details>
-<summary>Click to expand rotation</summary>
-<table class="fl-table">
-    <thead>
-    <tr>
-        <th width='fit-content'>Phase</th><th>Geyser</th><th>Pick Up</th><th>Use</th><th>Notes</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td class=phase1>1</td>
-        <td>1</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td>Picked up before starting the fight.</td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>3</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>4</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>5</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>6</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>8</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td>Skip 7 for now</td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>9</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>7</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td>CC after #9, then <img class='inline dispel'> Dispel once #10 spawns.</td>
-    </tr>
-    <tr>
-        <td class=phase1>1</td>
-        <td>10</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td><img class='inline dispel'> Dispel but do not CC.</td>
-    </tr>
-    <tr>
-        <td class="phase1-late">1</td>
-        <td>11</td>
-        <td>Melee</td>
-        <td>Melee</td>
-        <td><img class='inline chrono'> Chrono CCs it and the melee group <img class='inline dispel'> Dispels after the toilet.</td>
-    </tr>
-    <tr>
-        <td class="phase1-late">1</td>
-        <td>12</td>
-        <td></td>
-        <td></td>
-        <td>Ignore for now, reset it after #9.</td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>8</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>9</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>10</td>
-        <td></td>
-        <td></td>
-        <td>CC 12 seconds after #9 spawns.</td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>11</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td>#11 always must be CC'd be the <img class='inline chrono'> Chrono.</td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>12</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>13</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>14</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class=phase2>2</td>
-        <td>3</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase2-late">2</td>
-        <td>4</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td>If it doesn't spawn, the <img class='inline deadeye'> Deadeye will continue from #8.</td>
-    </tr>
-    <tr>
-        <td class="phase2-late">2</td>
-        <td>5</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td>Might spawn in progression.</td>
-    </tr>
-    <tr>
-        <td class="phase2-late">2</td>
-        <td>6</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td>Might spawn in progression.</td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>8</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td>Ignore #7 for now.</td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>9</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>7</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td>CC after #9, then <img class='inline dispel'> Dispel once #10 spawns.</td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>10</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>11</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td>Must be CC'd by the <img class='inline chrono'> Chronomancer.</td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>12</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>13</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>14</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>1</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>3</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>4</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>5</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>6</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>8</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td>Ignore #7 for now.</td>
-    </tr>
-    <tr>
-        <td class="phase3-late">3</td>
-        <td>9</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td>In p4 the <img class='inline deadeye'> Deadeye only CCs the boss. Healers CC the geysers.</td>
-    </tr>
-    <tr>
-        <td class="phase3-late">3</td>
-        <td>7</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td>CC after #9, then <img class='inline dispel'> Dispel once #10 spawns.</td>
-    </tr>
-    <tr>
-        <td class="phase3-late">3</td>
-        <td>10</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td>In p4 the <img class='inline deadeye'> Deadeye only CCs the boss. Healers CC the geysers.</td>
-    </tr>
-    <tr>
-        <td class="phase3">3</td>
-        <td>11</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td>Heal 2 CCs with <img class='inline cs'> + <img class='inline moa'> & <img class='inline domination'> or <img class='inline senility'></td>
-    </tr>
-    <tr>
-        <td class="phase4">4</td>
-        <td>12</td>
-        <td class=ch_gre><img class='inline chrono'> Heal 2</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td>Heal 2 CCs with <img class='inline moa'> & <img class='inline domination'> or <img class='inline senility'></td>
-    </tr>
-    <tr>
-        <td class="phase4">4</td>
-        <td>13</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td>Heal 1 CCs with <img class='inline cs'> + <img class='inline moa'> & <img class='inline domination'> or <img class='inline senility'></td>
-    </tr>
-    <tr>
-        <td class="phase4">4</td>
-        <td>14</td>
-        <td class=de_red><img class='inline deadeye'> CC DE</td>
-        <td class=ch_pur><img class='inline chrono'> Heal 1</td>
-        <td>Heal 1 CCs with <img class='inline moa'> & <img class='inline domination'> or <img class='inline senility'></td>
-    </tr>
-    </tbody>
-</table>
-</details>
 
 ---
 
@@ -552,22 +215,12 @@ This strategy includes a DPS player alongside the healers as part of the rotatio
 
 The advantage of this rotation is that there is overall more leeway since there is one more person helping out. The disadvantage is slightly less outgoing damage overall since this DPS player will have to cover some mechanics, and less role compression, making LFG slightly more difficult.
 
-<img class=divider>
-
-## Standard Strategy
-
-This strategy plays out in a similar manner to normal Ura Challenge mode for the first three phases. Every point in the [Normal Challenge Mode Strategy Guide](../ura/strategy.html) is applicable here.
-
-- For the _ranged group_ the main difference lies in [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers), and everything that goes along with learning and executing a [ranged rotation](#ranged-rotation) properly.
-- For the _melee group_, the differences lie in the fight's overall requirements: with such a tight DPS check, there is little to no room for mistakes.
-- The _tank_ will have a fundamental role, as beyond [preventing propel](../ura/strategy.html#preventing-propel), they must often call CC for the rest of the group. Proper CC timings to minimize the uptime of <img class='inline risingpressure'> [Rising Pressure] can improve overall DPS by 5-10%, which is often the difference between killing or wiping to enrage.
-
 ---
 
 #### Pain Points
 In progression, most groups will struggle around the 70% and 40% transitions, and in the final phase.
 
-- **70% transition:** here is where the first [Titanspawn Geyser] arrives. Ranged rotations also restart from #8, which takes some getting used to.
+- **70% transition:** here is where the first [Titanspawn Geyser] arrives. Ranged rotations also restart from #8, which takes some getting used to. This is also the first place to check your DPS: If #13 spawns, you do not have enough to kill within the enrage timer.
 - **40% transition:**  [Toxic Geyser] #7 will spawn instantly, which requires extra management by the ranged group. Ura casts [Pressure Blast], which can overlap uncomfortably with any [Titanspawn Geysers] from the previous or following phase. Furthermore, since the transition interrupts Ura's current attack, she may use [Propel], which is often difficult to recover from, making for an overall hectic transition.
 - **Final Phase:** the clock is ticking down, and you will have to manage immense incoming pressure from [Legendary Ventshots].
 
@@ -577,26 +230,26 @@ In progression, most groups will struggle around the 70% and 40% transitions, an
 In the final phase, you want to minimize the number of [Legendary Ventshots] on the field at any time. Given that the total number of [Legendary Ventshots], [Champion Fumarollers] and [Titanspawn Geysers] in phase 4 cannot exceed six, it's often common to stop killing [Titanspawn Geysers] _before_ transitioning, so that they can fill up this cap. In general:
 
 - If you are running a "safer" composition with two full healers, such as two heal <img class='inline chrono'> [Chronomancers], you can stop killing Titanspawners as soon as 15% HP in the main phase. Be warned though: this will spawn more [Champion Fumarollers], which in turn requires extra healing and <img class='inline stability'> [Stability].
-- If you are running a more aggressive composition, typically with a single heal <img class='inline chrono'> [Chronomancers] and a hybrid <img class='inline scourge'> [Scourge], then it is more difficult to manage multiple Fumarollers on stack. For this reason, it is best to stop killing Titanspawners only on entering the final phase (optionally killing the first if it spawns in an extremely convenient position).
+- If you are running a more aggressive composition, typically with a single heal <img class='inline chrono'> [Chronomancer] and a hybrid <img class='inline scourge'> [Scourge], then it is more difficult to manage multiple Fumarollers on stack. For this reason, it is best to stop killing Titanspawners only on entering the final phase (optionally killing the first if it spawns in an extremely convenient position).
 
 ---
 
 #### Surviving the final phase
-You will want to be [facing Ura](../ura/strategy.html#tanking-ura) to the North-West, in order to position the squad at the shortest possible difference from the safe drop zone for [Sulfuric Geysers], behind #9.
+You will want to be [facing Ura](../ura/strategy.html#tanking-ura) towards the North-West, in order to position the squad at the shortest possible difference from the safe drop zone for [Sulfuric Geysers], behind #9.
 
-You will need to upkeep permanent projectile reflection to safeguard the group from the [Legendary Ventshots]' ranged attacks. One of the <img class='inline firebrand'> [Firebrands] will be running <img class='inline wall-reflect'> [Wall of Reflection], and should be calling out the skill rotation. This is generally:
-- The first <img class='inline firebrand'> [Firebrand] casting <img class='inline wall-reflect'> [Wall of Reflection].
-- The first <img class='inline firebrand'> [Firebrand] casting <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] when 10-11s are remaining on their cooldown for <img class='inline wall-reflect'> [Wall of Reflection].
-- A filler skill provided by another player, usually either a second <img class='inline firebrand'> [Firebrand]'s' <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] or a <img class='inline scourge'> [Scourge]'s <img class='inline cpc'> [Corrosive Poison Cloud]. When this ends, <img class='inline wall-reflect'> [Wall of Reflection] should be ready again.
+You will need to upkeep permanent projectile reflection to safeguard the group from the [Legendary Ventshots]' ranged attacks. One of the <img class='inline firebrand'> [Firebrands] will be running <img class='inline wall-reflect'> [Wall of Reflection], and should be calling out the skill rotation. This generally repeats:
+1. The first <img class='inline firebrand'> [Firebrand] casting <img class='inline wall-reflect'> [Wall of Reflection].
+2. The first <img class='inline firebrand'> [Firebrand] casting <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] when 10-11s are remaining on their cooldown for <img class='inline wall-reflect'> [Wall of Reflection].
+3. A filler skill provided by another player, usually either a second <img class='inline firebrand'> [Firebrand]'s' <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] or a <img class='inline scourge'> [Scourge]'s <img class='inline cpc'> [Corrosive Poison Cloud]. When this ends, <img class='inline wall-reflect'> [Wall of Reflection] should be ready again.
 
 Try to count down the time remaining on your reflect, and call for backup if your skills are not available. Remember that:
 - <img class='inline wall-reflect'> [Wall of Reflection] lasts for 10 seconds (with <img class='inline master-consecrations'> [Master of Consecrations]).
 - <img class='inline cpc'> [Corrosive Poison Cloud] lasts for 8 seconds.
-- <img class='inline feedback'> [Feedback] lasts for 6 seconds.
 - <img class='inline smoke-screen'> [Smoke Screen] lasts for 7 seconds.
+- <img class='inline feedback'> [Feedback] lasts for 6 seconds.
 - <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] lasts for 5 seconds.
 
-It is also important to upkeep <img class='inline stability'> [Stability] on the group, to manage both Ura's and the Ventshots' melee attacks. <img class='inline chrono'> [Chronomancers] running <img class='inline stab-mantra'> [Mantra of Concentration] and <img class='inline precog'> [Well of Precognition] can do this solo by using [this rotation](https://www.youtube.com/watch?v=ZNt3AbNwiuw) from Schwifty. Otherwise, they will have to coordinate with their <img class='inline firebrand'> [Firebrand].
+It is also important to upkeep <img class='inline stability'> [Stability] on the group, to manage both Ura and the Ventshots' melee attacks. <img class='inline chrono'> [Chronomancers] running <img class='inline stab-mantra'> [Mantra of Concentration] and <img class='inline precog'> [Well of Precognition] can achieve this solo by using [this rotation](https://www.youtube.com/watch?v=ZNt3AbNwiuw) from Schwifty. Otherwise, they will have to coordinate with their <img class='inline firebrand'> [Firebrand].
 
 <img class=divider>
 
@@ -628,9 +281,8 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
 
 ---
 
-#### Willbender Strategy Composition
+#### Composition
 
-<div>
 <table class="fl-table padded">
     <thead>
         <tr>
@@ -639,17 +291,15 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
             <th>Role</th>
             <th>Melee</th>
             <th>Ranged</th>
-            <th>Calls out</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline deadeye'> CC Deadeye</a></td>
+            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
             <td>CC + Ranged</td>
             <td></td>
             <td>1</td>
-            <td>2</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
@@ -657,15 +307,13 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
             <td>Ranged</td>
             <td></td>
             <td>2</td>
-            <td>3</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline firebrand'> Quick Firebrand</a></td>
+            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
             <td>Melee</td>
             <td>A</td>
             <td></td>
-            <td>B</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
@@ -673,31 +321,34 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
             <td>Melee</td>
             <td>B</td>
             <td></td>
-            <td>C</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
             <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
-            <td>Tank</td>
+            <td>Melee</td>
             <td></td>
             <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
+            <td>Ranged</td>
             <td></td>
+            <td>3</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
             <td><a href="#willbender-strategy-builds-and-povs"><img class='inline chrono'> Heal Chronomancer</a></td>
-            <td>Ranged</td>
+            <td>Melee</td>
             <td></td>
-            <td>3</td>
-            <td>1</td>
+            <td>4</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline scrapper'> BoonDPS</a></td>
+            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
             <td>Melee</td>
             <td>C</td>
             <td></td>
-            <td>D</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
@@ -705,51 +356,57 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
             <td>Melee</td>
             <td>D</td>
             <td></td>
-            <td>A</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
             <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
-            <td>Tank</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
-            <td>Tank</td>
-            <td></td>
+            <td>Melee</td>
             <td></td>
             <td></td>
         </tr>
     </tbody>
 </table>
-</div>
 
-This composition differs from a standard one because, beyond running only <img class='inline willbender'> [Willbenders], there is also no need for much additional <img class='inline stability'> [Stability] and projectile reflection from the support players.
+This composition differs significantly from a standard one.
 
-Life for the ranged group is more difficult with this strategy, as there being more [Champion Fumarollers] makes it harder to move around and do mechanics. For this reason, you usually run two <img class='inline chrono'> [Chronomancers] (potentially also with <img class='inline blink'> [Blink], which makes it easier but is not strictly needed), alongside the <img class='inline deadeye'> [Deadeye], who will often run <img class='inline haste'> [Haste] for extra <img class='inline quickness'> [Quickness] and a <img class='inline stunbreak'> [Stunbreak]. The ranged group will generally run the [3-healer rotation](#ranged-rotation).
+The ranged group is composed of all the supports: two heal <img class='inline chrono'> [Chronomancers] and two celestial <img class='inline specter'> [Specters]. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
 
-While there is some technically some leeway in BoonDPS choice, usually groups will run two specific builds:
-- A Condition Quickness <img class='inline firebrand'> [Firebrand] is a common choice in the <img class='inline deadeye'> [Deadeye]'s subgroup, as it can provide additional <img class='inline stability'> [Stability] and its damage will also be increased by cleave due to <img class='inline perm-wrath'> [Permeating Wrath].
-- A <img class='inline scrapper'> [Scrapper] in the other subgroup, as it is generally tanky, has high damage and CC, and can cover <img class='inline vuln'> [Vulnerability] and <img class='inline poison'> [Poison] (to trigger <img class='inline thorns-relic'> [Relic of Thorns] for all of the <img class='inline willbender'> [Willbenders], because they don't have <img class='inline poison'> in their default kit).
+DPS players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. <img class='inline chrono'> [Chronomancers] should ensure they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics.
 
-If damage isn't an issue, DPS can run Trailblazer gear with additional toughness for around 2.5k damage loss, which can partially be regained through the more aggressive gameplay this gear enables.
+---
 
-#### Willbender Strategy Builds and PoVs
+#### Builds and PoVs
 
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://en.gw2skills.net/editor/?PigEQiWmBzidxQYj4RPp2+A-DSRYjR1DJ4CplUIoIo6CQ3XDBI09wbp9NLoC-e)|Healer & Toxics|[PoV](https://www.youtube.com/watch?v=LM7uye3SYWI)|September 2025|
-|<img class='inline deadeye'> [CC Deadeye](https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e)|CC Bot & Toxics|[PoV](https://www.youtube.com/watch?v=t9TeRvzdHlc), [Golem](https://youtu.be/vH_CbAcGEjo), [Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M)|September 2025|
-|<img class='inline firebrand'> [Quick Firebrand (Elite Mantra)](https://en.gw2skills.net/editor/?PWyAo+rlRExe6ZQBtukmZkW0WbPTA-DSJYyRL/hkjkKBFQHCBx+r4IBxW41sjPNQFA-e)| BoonDPS |[PoV](https://www.youtube.com/watch?v=2FcNiX0p1Yk)|September 2025|
-|<img class='inline scrapper'> [Quick Scrapper (Power)](https://snowcrows.com/builds/raids/engineer/power-quickness-scrapper)| BoonDPS ||September 2025|
-|<img class='inline scrapper'> [Quick Scrapper (Condition)](https://snowcrows.com/builds/raids/engineer/condition-quickness-scrapper)| BoonDPS ||September 2025|
+|<img class='inline specter'> [Celestial Specter](https://en.gw2skills.net/editor/?PawEQbNqMUGLLltxOxx26O2D-DyIY1om/QaRB0lMIShgCfPEkAYP8Wo/SDqA-e)|Toxics|[PoV](https://www.youtube.com/watch?v=5LZMDgfcpg0)|September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/PT)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYfB1bG9cCFSbhQuJQHVgD/KCSQsHeNg4sCUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=rPfD2MvHZ2c)|September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/ST)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYfB1bG9cCFSbhQuJQHVgD/KCSQsHeNg4sCUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=gi8RSToi7hg)|September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/PT, Toughness)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/ST, Toughness)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
 
+---
+
+#### Bloodstone Shard Rotations
+
+For the _melee rotation_, since the strategy ignores [Titanspawn Geysers], the only thing the melee group needs to <img class='inline dispel'> [Dispel] is [Pressure Blast]. For this reason, there are generally only 4 people assigned to the melee rotation, which otherwise works as normal.
+
+For the _ranged rotation_ the strategy uses a 4-man rotation involving all the support players double-dropping.
+
+[<img class='inline sheets'> 4-man Rotation for Willbender Strat](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA/edit?gid=969431177#gid=969431177){: .btn}
+
+Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], responsibility for CCing [Toxic Geysers] is spread out between all of the ranged group members. Every one of these supports will CC two geysers every rotation:
+- The geyser they pick up the [Bloodstone Shard] from.
+- The first geyser they <img class='inline dispel'> [Dispel] when double dropping.
+
+<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative. There is generally enough time between the two geysers to have it regenerate.
+
+<img class='inline chrono
+'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series:
+1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
+2. <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
+
+If players cannot CC, they should call for backups. Since there is one more person in the rotation compared to a normal standard strategy, there is some flexibility.
 
 <img class=divider>
 
@@ -790,8 +447,10 @@ If damage isn't an issue, DPS can run Trailblazer gear with additional toughness
 [Scrapper]: https://wiki.guildwars2.com/wiki/Scrapper
 [Vindicator]: https://wiki.guildwars2.com/wiki/Vindicator
 [Mechanist]: https://wiki.guildwars2.com/wiki/Mechanist
-[Willbender]: https://wiki.guildwars2.com/wiki/Willbender
-[Willbenders]: https://wiki.guildwars2.com/wiki/Willbender
+[Willbender]: #willbender-strategy-builds-and-povs
+[Willbenders]: #willbender-strategy-builds-and-povs
+[Specters]: #willbender-strategy-builds-and-povs
+
 [Power]: https://wiki.guildwars2.com/wiki/Power
 [Condition]: https://wiki.guildwars2.com/wiki/Condition_damage
 [Conditions]: https://wiki.guildwars2.com/wiki/Condition_damage
@@ -820,5 +479,12 @@ If damage isn't an issue, DPS can run Trailblazer gear with additional toughness
 [Vulnerability]: https://wiki.guildwars2.com/wiki/Vulnerability
 [Poison]: https://wiki.guildwars2.com/wiki/Poison
 [Relic of Thorns]: https://wiki.guildwars2.com/wiki/Relic_of_Thorns
+[Shadowstep]: https://wiki.guildwars2.com/wiki/Shadowstep
+[Distracting Throw]: https://wiki.guildwars2.com/wiki/Distracting_Throw
+[Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
+[Technobabble]: https://wiki.guildwars2.com/wiki/Technobabble
+[Signet of Domination]: https://wiki.guildwars2.com/wiki/Signet_of_Domination
+[Well of Senility]: https://wiki.guildwars2.com/wiki/Well_of_Senility
+[Signet of Humility]: https://wiki.guildwars2.com/wiki/Signet_of_Humility
 
 [CC Deadeye]: https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e

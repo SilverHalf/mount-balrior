@@ -241,7 +241,7 @@ After this, a Titanspawn Geyser will spawn in one of five locations, chosen at r
 <img class=center src='../images/ura/ura_titanspawn_positions.webp' width='50%'>
 
 {: .note}
-If all locations are already occupied by a geyser, then no additional geysers will spawn.
+A Titanspawner can target the same location as another pre-existing one. In this case, its spawn is suppressed.
 
 {: .legendary}
 During the final phase, whenever a Titanspawner would spawn a [Champion Fumaroller], a [Legendary Ventshot] will spawn instead.
@@ -249,8 +249,6 @@ During the final phase, whenever a Titanspawner would spawn a [Champion Fumaroll
 Titanspawners are invulnerable when created, but can be made vulnerable using <img class="inline dispel"> [Dispel]. They also have a <img class='inline defiance'> [Defiance Bar] that can be broken to apply <img class='inline exposed'> [Exposed].
 
 Because Titanspawn Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective on them.
-
-Ura has a hard limit of 10 "minions" beyond which she will not spawn any more. This number includes Titanspawn Geysers, Fumarollers and Ventshots, and is reduced to 6 in phase 4.
 
 | **Enemy**                 | **Health**   | **Hitbox** | **Defiance Bar** |
 | [Champion Fumaroller]     | 1,789,242    | 300        | 1000             |
@@ -266,6 +264,9 @@ These dangerous enemies generally target players close to them and can be baited
 - <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it. Vertices deal extra damage.
 - <u>Mantle Grinder</u> - the Fumaroller rolls in place, pulsing damage and <img class="inline knockback"> [Knockback].
 
+{: .note}
+Fumarollers are capped to an entity limit of 10, which includes [Titanspawn Geysers], and cannot spawn once this limit is reached.
+
 ---
 
 #### Legendary Ventshot
@@ -273,6 +274,9 @@ These dangerous enemies generally target players close to them and can be baited
 These enemies only spawn in Legendary Mode during the final phase instead of [Champion Fumarollers]. They have over 20 million health and are therefore not meant to be killed, but remain extremely dangerous due to their capabilities:
 - <u>Tethers</u> -Ventshots periodically tether to up to five nearby titans, geysers, or other ventshots. If less than five allies are present, they will tether multiple times to the same ally until they form five tethers. Each tether applies <img class='inline risingpressure'> [Rising Pressure] to the corresponding ally. This buff has a shorter duration than usual, only lasting for ~12 seconds.
 - <u>Please let me play the game</u> - most of the Ventshot's other attacks deal heavy damage, inflict <img class='inline knockdown'> [Knockdown] and <img class='inline burning'> [Burning], and are generally very undesirable. For this reason the general approach to these is to maintain permanent <img class='inline stability'> [Stability] and projectile denial throughout the final phase.
+
+{: .note}
+Ventshots are capped to an entity limit of 6, which includes [Titanspawn Geysers] and [Champion Fumarollers], and cannot spawn once this limit is reached.
 
 ---
 
@@ -355,6 +359,10 @@ Every time Ura's <img class='inline defiance'> [Defiance Bar] is broken, she gai
 
 This mechanic essentially limits the number of times the breakbar can be broken to roughly 13 to 15 times per encounter, depending on the squad composition.  This dictates the timing of when to break the bar, which comes out to be roughly every 40 to 50 seconds.
 
+<details>
+<summary>Click to expand table</summary>
+<div markdown=block>
+
 | Stacks | CC Multiplier |  Effective regen (LM) [1/s] | Effective CC bar |
 | 0  | 1    | 150  | 3000  |
 | 1  | 0,95 | 158  | 3158  |
@@ -377,6 +385,9 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 | 18 | 0,1  | 1500 | 30000 |
 | 19 | 0,05 | 3000 | 60000 |
 | 20 | 0,0  | Infinite|Infinite|
+
+</div>
+</details>
 
 ---
 
