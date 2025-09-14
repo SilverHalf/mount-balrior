@@ -16,7 +16,7 @@ Many concepts generally carry over from the [Normal Challenge Mode Strategy](../
 
 #### General Points
 - The fight is an extremely tight DPS check, requiring every player to pull their weight.
-- An inordinate amount of CC is required throughout the fight, requiring special builds and attention.
+- An inordinate amount of CC is required throughout the fight, requiring special builds and consideration.
 - Usually groups will have a melee rotation to leave nothing to chance.
 - The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight. There are several ways of doing this depending on strategy and composition.
 - [Tanking Ura](../ura/mechanics.html#tanking-ura), facing her in the right direction and timing CC correctly is essential to avoid her casting [Propel] and upkeep high DPS uptime.
@@ -28,7 +28,7 @@ Many concepts generally carry over from the [Normal Challenge Mode Strategy](../
 
 There are two primary ways to approach Ura LCM:
 
-- [Standard Strategy](#standard-strategy) - an extension of the normal CM strategy to LCM. Main differences involve some composition changes, and the introduction of more elaborate ranged rotations to manage the fight's increased cadence.
+- [Standard Strategy](#standard-strategy) - an extension of the normal CM strategy to LCM. Its main differences involve some composition changes, and the introduction of more elaborate ranged rotations to manage the fight's increased cadence.
 - [Willbender Strategy](#willbender-strategy) - a mostly LCM-only strategy that takes advantage of some mechanical interactions to simplify the fight.
 
 <img class=divider>
@@ -116,9 +116,9 @@ This strategy plays out in a similar manner to normal Ura Challenge mode for the
         <tr>
             <td class='phase2'>2</td>
             <td>DPS</td>
-            <td>Tank (+ Ranged Fill)</td>
+            <td>Tank</td>
             <td></td>
-            <td></td>
+            <td>Backup</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
@@ -138,6 +138,8 @@ The ranged group is usually composed of:
 - Either a second full healer (usually another <img class='inline chrono'> [Chronomancer]) or a hybrid celestial heal <img class='inline scourge'> [Scourge].
 - A specialized <img class='inline deadeye'> [Deadeye] build that can upkeep constant CC.
 - Occasionally, a DPS <img class='inline mechanist'> [Mechanist] running <img class='inline shift'> [Shift Signet].
+
+<img class='inline deadeye'> [Deadeye] is almost ubiquitous due to its unique ability to constantly dish out massive CC, by spamming <img class='inline distracting-throw'> [Distracting Throw] and resetting their initiative with <img class='inline m7'> [Maleficent Seven](https://wiki.guildwars2.com/wiki/Maleficent_Seven). <img class='inline chrono'> [Chronomancer] is similarly almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility.
 
 For boonDPS, the most common choice is <img class='inline firebrand'> [Firebrand], as beyond doing excellent damage they can provide abundant condition cleanse, <img class='inline stability'> [Stability] with <img class='inline stand-ground'> [Stand Your Ground!], and projectile reflection with <img class='inline wall-reflect'> [Wall of Reflection] and <img class='inline bulwark'> [Chapter 3: Valiant Bulwark]. Two <img class='inline firebrand'> [Firebrands] can upkeep 100% projectile reflection uptime if one of them is running <img class='inline wall-reflect'> [Wall of Reflection], though this is a little tight so often the healers will help out with either <img class='inline feedback'> [Feedback] on a <img class='inline chrono'> [Chronomancer], <img class='inline smoke-screen'> [Smoke Screen] on the <img class='inline deadeye'> [Deadeye], or <img class='inline cpc'> [Corrosive Poison Cloud] on a <img class='inline scourge'> [Scourge].
 
@@ -251,6 +253,31 @@ Try to count down the time remaining on your reflect, and call for backup if you
 
 It is also important to upkeep <img class='inline stability'> [Stability] on the group, to manage both Ura and the Ventshots' melee attacks. <img class='inline chrono'> [Chronomancers] running <img class='inline stab-mantra'> [Mantra of Concentration] and <img class='inline precog'> [Well of Precognition] can achieve this solo by using [this rotation](https://www.youtube.com/watch?v=ZNt3AbNwiuw) from Schwifty. Otherwise, they will have to coordinate with their <img class='inline firebrand'> [Firebrand].
 
+---
+
+#### How to meet the DPS check
+
+Legendary Ura has an effective health of 137,161,289 HP and a maximum encounter duration of 11 minutes. This means that effectively, a group will need to average overall 208k total DPS to clear the encounter before enrage.
+
+This number is greatly influenced by <img class='inline risingpressure'> [Rising Pressure]. Correct management of the damage reduction will make or break a pull. Always keep an eye on the number of stacks on the boss: try to CC when she reaches 5 stacks. In earlier phases, when she does not have much <img class='inline titanicresistance'> [Titanic Resistance], it can be hard to reach 5 before breaking: try then to CC at 3 or 4.
+
+Always try to CC as soon as she gains a stack of <img class='inline risingpressure'> [Rising Pressure]. This can increase your DPS by 3-4% easily, which is equivalent to 20-25 seconds on the enrage timer.
+
+Players should have an up-to-date build (check the [builds section](#builds-and-povs) above and [Snowcrows](https://snowcrows.com/)), and should be competent with their class and rotation, practicing it if necessary on the [DPS golem](https://snowcrows.com/guides/arcdps/special-forces-area). Players should aim to do as much damage as possible while not failing mechanics.
+
+By averaging out a sample of kill logs in a time period (June to September 2025), we can find the average DPS numbers for squads that cleared.
+
+|Role|Phase 1|Phase 2|Phase 3|Phase 4|
+|:--|:--|:--|:--|:--|
+|DPS|37.5k|32k|29.5k|28k|
+|BoonDPS|29k|23.5k|22k|22k|
+|Squad|260k|215k|198k|194K|
+
+{: .note}
+Individual damage should be higher for tank players, and can be lower for those assigned to mechanics, such as [Titanspawn Geysers] or ranged backup.
+
+While this is just an average, and it is definitely possible to clear with less DPS than this, higher damage will result in an overall easier fight for everyone, as the group will overall have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
+
 <img class=divider>
 
 ## Willbender Strategy
@@ -264,18 +291,20 @@ Developed by Asterius (see his original spreadsheet <img class='inline sheets'> 
 
 #### Why not kill Titanspawners?
 
-The primary reason is to take advantage of the cap on [Legendary Ventshots] in phase 4. The current theory is that [Legendary Ventshots] can only spawn if there are less than 6 entities, from [Champion Fumarollers] and Titanspawner Geyser combined, alive. By not killing any [Titanspawn Geysers], the aim is to have as much as possible alive when going into the final phase. This, combined with a couple of [Champion Fumarollers] surviving from the previous phase, will prevent Ventshots from spawning at the start of phase 4. Once all [Champion Fumarollers] are dead, depending on the rng of where Titanspawner Geyser spawned, you can still have up to 1-2 [Legendary Ventshots], but since these spawn late into phase 4 and are not more, you don't need permanent projectile block. This makes the final phase much easier compared to the standard strategy, as the major difficulty factor of permanent projectile block is removed.
+The primary reason is to take advantage of the cap on [Legendary Ventshots] in phase 4. [Legendary Ventshots] can only spawn if there are less than 6 entities alive, including [Champion Fumarollers] and [Titanspawn Geysers]. By not killing any Titanspawners, the aim is to have as many entities as possible when going into the final phase. This, combined with a couple of [Champion Fumarollers] surviving from the previous phase, will prevent Ventshots from spawning at the start of phase 4.
 
-Furthermore, this has the added advantage of always keeping the melee group compacted together into a single stack. Management of the [Bloodstone Shard] is simplified due to not having to <img class='inline dispel'> [Dispel] Titanspawners, the group has higher DPS uptime on the boss and hence higher squad dps overall, and it is easier to rez people that go downstate. The only reason for DPS to leave the stack is to place [Sulfuric Geysers] and [Steam Prison].
+Once all [Champion Fumarollers] are dead, depending on where the Titanspawners generated, you can still have up to 1-2 [Legendary Ventshots], but since these are few and spawn late into phase 4, you don't need permanent projectile block. This makes the final phase much easier compared to the standard strategy, as a major difficulty factor is removed.
+
+Furthermore, this has the added advantage of always keeping the melee group in a single stack. Management of the [Bloodstone Shard] is simplified due to not having to <img class='inline dispel'> [Dispel] Titanspawners, the group has higher DPS uptime on the boss and hence higher squad dps overall, and it is easier to rez people that go downstate. The only reason for DPS to leave the stack is to place [Sulfuric Geysers] and [Steam Prison].
 
 ---
 
 #### Why Willbenders?
 
-With many [Titanspawn Geysers] surviving throughout the fight, you will also get many [Champion Fumarollers] (the entity for Fumarollers is assumed to be 10; Titanspawners + Fumarollers combined). <img class='inline willbender'> [Willbender] shines in these circumstances, as beyond already being a strong build with high damage, mobility and cleanse, it also:
+With many [Titanspawn Geysers] surviving throughout the fight, you will also get many [Champion Fumarollers] (up to 10 Titanspawners & Fumarollers combined). <img class='inline willbender'> [Willbender] shines in these circumstances, as beyond already being a strong build with high damage, mobility and cleanse, it also:
 
-- gains excellent access to <img class='inline stability'> [Stability] by running <img class='inline stand-ground'> [Stand Your Ground!] for a minimal DPS loss.
-- gains increased damage and cooldown reduction due to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues] striking multiple enemies for most of the fight, which in turn increases dps on Ura as well.
+- Gains excellent access to <img class='inline stability'> [Stability] by running <img class='inline stand-ground'> [Stand Your Ground!] for a minimal DPS loss.
+- Gains increased damage and cooldown reduction due to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues] striking multiple enemies for most of the fight, which in turn increases DPS on Ura as well.
 
 At the same time though, you want to kill [Champion Fumarollers] as fast as possible in order to not get overwhelmed by them. They generally spawn fast enough to supply a constant stream of multi-target cleave.
 
@@ -367,11 +396,11 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
     </tbody>
 </table>
 
-This composition differs significantly from a standard one.
+This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] is almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vulnerability'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns'> [Relic of Thorns]).
 
-The ranged group is composed of all the supports: two heal <img class='inline chrono'> [Chronomancers] and two celestial <img class='inline specter'> [Specters]. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
+All four supports are part of the ranged group. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
 
-DPS players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. <img class='inline chrono'> [Chronomancers] should ensure they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics.
+DPS players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. <img class='inline chrono'> [Chronomancers] should ensure they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics. Generally a [tank](../ura/strategy.html#tanking-ura) is not strictly necessary as the entire group will stay within line-of-sight at all times.
 
 ---
 
@@ -385,6 +414,8 @@ DPS players should run a mix of Trailblazer and Dire for additional survivabilit
 |<img class='inline willbender'> [DPS Willbender (PP/PT, Toughness)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/ST, Toughness)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
 
+If anything is outdated, you can find up-to-date builds and PoVS on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
+
 ---
 
 #### Bloodstone Shard Rotations
@@ -393,20 +424,34 @@ For the _melee rotation_, since the strategy ignores [Titanspawn Geysers], the o
 
 For the _ranged rotation_ the strategy uses a 4-man rotation involving all the support players double-dropping.
 
-[<img class='inline sheets'> 4-man Rotation for Willbender Strat](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA/edit?gid=969431177#gid=969431177){: .btn}
+[<img class='inline sheets'> 4-man Rotation for Willbender Strat by Asterius](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA/edit?gid=969431177#gid=969431177){: .btn}
 
 Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], responsibility for CCing [Toxic Geysers] is spread out between all of the ranged group members. Every one of these supports will CC two geysers every rotation:
 - The geyser they pick up the [Bloodstone Shard] from.
 - The first geyser they <img class='inline dispel'> [Dispel] when double dropping.
 
-<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative. There is generally enough time between the two geysers to have it regenerate.
+<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative to do so. There is generally enough time between the two geysers to have it regenerate.
 
-<img class='inline chrono
-'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series:
+<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series:
 1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
 2. <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
 
 If players cannot CC, they should call for backups. Since there is one more person in the rotation compared to a normal standard strategy, there is some flexibility.
+
+#### How to meet the DPS check
+
+Everything already said for the [standard strategy](#how-to-meet-the-dps-check) is still valid.
+
+Willbender compositions will generally have a different damage profile, with less DPS overall in phase 1 and 4, but more in phase 2 and 3. By averaging out a sample of kill logs in a time period (June to September 2025, currently small sample size due to the strategy being relatively recent), we can find the average DPS numbers for squads that cleared.
+
+|Role|Phase 1|Phase 2|Phase 3|Phase 4|
+|:--|:--|:--|:--|:--|
+|<img class='inline willbender'> DPS|32k|34.5k|33.5.5k|26.5k|
+|<img class='inline specter'> BoonDPS|14k|11.5k|9k|9k|
+|Squad|224k|235k|221k|180k|
+
+While this is just an average, and it is definitely possible to clear with less DPS than this, higher DPS will result in an overall easier fight for everyone, as the group will overall have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
+
 
 <img class=divider>
 

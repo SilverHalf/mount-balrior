@@ -536,7 +536,7 @@ The DPS builds can in principle be any dps of the builds in the [builds & PoV se
 ---
 
 #### Scourge Composition
-Trades higher DPS for less healing and <img class='inline stability'> [Stability]. Example comp:
+Composition for the [standard strategy](./strategy.html#standard-strategy). Trades higher DPS for less healing and <img class='inline stability'> [Stability]. Example comp:
 
 |<img class='inline deadeye'> [Deadeye] | <img class='inline scourge'> [Scourge]* | <img class='inline firebrand'> [Firebrand] (Stab**) | DPS ([tank](../ura/strategy.html#tanking-ura)) | DPS (Ranged Backup) |
 |<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS | DPS | DPS |
@@ -548,13 +548,19 @@ Trades higher DPS for less healing and <img class='inline stability'> [Stability
 ---
 
 #### Double Chrono Composition
-Trades lower DPS for more healing and <img class='inline stability'> [Stability]. Example comp:
+Composition for the [standard strategy](./strategy.html#standard-strategy). Trades lower DPS for more healing and <img class='inline stability'> [Stability]. Example comp:
 
 |<img class='inline deadeye'> [Deadeye] | <img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand] (Wall, marker) | DPS ([tank](../ura/strategy.html#tanking-ura)) | DPS (Ranged Backup) |
 |<img class='inline chrono'> [Chronomancer] | <img class='inline firebrand'> [Firebrand]* | DPS | DPS | DPS |
 
 
 \* The <img class='inline firebrand'> [Firebrand] can either run <img class='inline liberation'> [Mantra of Liberation] and <img class='inline purging'> [Purging Flames] to have some extra <img class='inline stability'> [Stability], or fully offensive with the default SnowCrows build, bringing only <img class='inline epilogue'> [Epilogue: Unbroken Lines] for <img class='inline stability'> [Stability].
+
+#### Willbender Composition
+Standard composition for the [willbender strategy](./strategy.html#standard-strategy).
+
+|<img class='inline chrono'> [Chronomancer] | <img class='inline specter'> [Specter] | <img class='inline willbender'> [Willbender] | <img class='inline willbender'> [Willbender] | <img class='inline willbender'> [Willbender] |
+|<img class='inline chrono'> [Chronomancer] | <img class='inline specter'> [Specter] | <img class='inline willbender'> [Willbender] | <img class='inline willbender'> [Willbender] | <img class='inline willbender'> [Willbender] |
 
 </div>
 </details>
@@ -571,10 +577,41 @@ Having at least one <img class='inline power'> [Power] DPS in this group helps w
 </details>
 
 <details class=faq>
-<summary>5.8 -Can I play a different QuickDPS?</summary>
+<summary>5.8 - Can I play a different QuickDPS?</summary>
 <div markdown='block'>
 
 Other support builds can technically be run if there is no need for specific skills (e.g. projectile block, <img class='inline stability'> [Stability], ..), but <img class='inline firebrand'> [Firebrand] is generally the best choice due to high DPS combined with the massive amount of utility it brings. If in doubt, just check your squad composition and make sure everything is covered.
+
+</div>
+</details>
+
+<details class=faq>
+<summary>5.9 - How much damage should I be dealing?</summary>
+<div markdown='block'>
+
+By averaging out a sample of kill logs, we can find the average DPS numbers for squads that cleared. While this is just an average, and it is definitely possible to clear with less DPS than this, higher damage will result in an overall easier fight for everyone, as the group will overall have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
+
+#### [Standard Strategy](./strategy.html#standard-strategy)
+
+Logs taken from June to September 2025.
+
+|Role|Phase 1|Phase 2|Phase 3|Phase 4|
+|:--|:--|:--|:--|:--|
+|DPS|37.5k|32k|29.5k|28k|
+|BoonDPS|29k|23.5k|22k|22k|
+|Squad|260k|215k|198k|194K|
+
+{: .note}
+Individual damage should be higher for tank players, and can be lower for those assigned to mechanics, such as [Titanspawn Geysers] or ranged backup.
+
+#### [Willbender Strategy](./strategy.html#wilbender-strategy)
+Currently low sample size due to the strategy being relatively new.
+
+|Role|Phase 1|Phase 2|Phase 3|Phase 4|
+|:--|:--|:--|:--|:--|
+|<img class='inline willbender'> DPS|32k|34.5k|33.5.5k|26.5k|
+|<img class='inline specter'> BoonDPS|14k|11.5k|9k|9k|
+|Squad|224k|235k|221k|180k|
 
 </div>
 </details>
@@ -607,7 +644,8 @@ Other support builds can technically be run if there is no need for specific ski
 [Scourge]: strategy.html#builds-and-povs
 [Firebrand]: strategy.html#builds-and-povs
 [Firebrands]: strategy.html#builds-and-povs
-[Willbender]: strategy.html#builds-and-povs
+[Willbender]: strategy.html#builds-and-povs-1
+[Specter]: strategy.html#builds-and-povs-1
 [Weaver]: strategy.html#builds-and-povs
 [Mechanist]: strategy.html#builds-and-povs
 [Scrapper]: strategy.html#builds-and-povs
