@@ -33,9 +33,14 @@ If you're interested in the ultimate challenge, read our resources for Legendary
 [Overview](./ura-lcm/overview.html){: .btn} [Strategy Guide](./ura-lcm/strategy.html){: .btn} [FAQ](./ura-lcm/faq.html){: .btn}
 {: .center}
 
----
+
+### Have you found a mistake in this guide?
+{: .center}
+
+Whether it's a typo, a mis-spelled word, an awkward sentence, a factual mistake, or perhaps you simply just [disagree](https://xkcd.com/386/) with something on the guide, please open an [issue](https://github.com/SilverHalf/mount-balrior/issues)! Your corrections will help make this project more useful to everyone.
 
 ### Do you want to contribute to this project?
+{: .center}
 
 Contributions are very welcome. Feel free to contact me on Discord (silverhalf) or through github.
 
