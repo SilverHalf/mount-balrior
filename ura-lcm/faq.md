@@ -9,7 +9,7 @@ parent: Legendary Ura
 
 # Legendary Ura - FAQ
 
-<div style="color: grey">Made with contributions from Minas, Spencer, Sleider, Elise and many more.</div>
+<div style="color: grey">This page is based on the <img class='inline docs'> [original document](https://docs.google.com/document/d/e/2PACX-1vTiV_esFGeLKwltjn5AC68p7TNm66DjCQbbaF5gOWx6cb_h4l7zfT0f8fwNesRXs6WtMHUsxmFQMsCy/pub) made with contributions from Minas, Spencer, Sleider, Elise and many more.</div>
 
 This page contains a set of frequently asked questions regarding the Legendary Ura encounter. These are grouped into the following sections:
 
@@ -53,9 +53,9 @@ Depending on your damage and whether Ura gets CC'd, you might want to bait sligh
 <summary>1.2 - How, when and why to CC Ura correctly?</summary>
 <div markdown='block'>
 
-Ura builds up <img class='inline risingpressure'> [Rising Pressure], which gets removed when you CC her. This also gives her a stack of <img class='inline titanicresistance'> [Titanic Resistance], which reduces incoming CC damage. This means that you want to CC Ura whenever she gets to roughly 5-6 stack , in order to keep the damage reduction low on average, while also not getting overwhelmed by high <img class='inline titanicresistance'> [Titanic Resistance] stacks.
+Ura builds up <img class='inline risingpressure'> [Rising Pressure], which gets removed when you CC her. This also gives her a stack of <img class='inline titanicresistance'> [Titanic Resistance], which reduces incoming CC damage. This means that you want to CC Ura whenever she gets to roughly 5-6 stacks, in order to keep the average damage reduction low while also not getting overwhelmed by high <img class='inline titanicresistance'> [Titanic Resistance] stacks.
 
-Whenever Ura is CCd, her attack will be interrupted and she will immediately start casting the next attack. Ura’s attacks are on a priority list, with cast times, aftercasts and cooldowns. She will go down her priority list and cast the next skill that is available (if a target is in range). If you CC at the wrong time, you can remove cast and aftercast from a skill, which will cause Ura to run out of attacks and then use [Propel]. That’s why we want to CC at the end of aftercasts, in order to minimize the chances of Ura jumping away. For more information see [when to CC Ura](../ura/mechanics.html#when-to-cc-ura).
+Whenever Ura is CCd, her attack will be interrupted and she will immediately start casting the next attack. Ura’s attacks are on a priority list, with cast times, aftercasts and cooldowns. She will go down her priority list and cast the next skill that is available (if a target is in range). If you CC at the wrong time, you can remove cast and aftercast from a skill, which will cause Ura to run out of attacks and then use [Propel]. That’s why we want to CC at the end of aftercasts, in order to minimize the chances of Ura jumping away. For more information see [preventing Propel](../ura/mechanics.html#preventing-propel).
 
 The best CC timings are:
 
@@ -80,11 +80,11 @@ The best CC timings are:
 <summary>1.3 - How, when and who tanks Ura?</summary>
 <div markdown='block'>
 
-Ura needs a tank from Phase 3 (40%) onward. The reason for this is that in Phase 2 she cannot use [Propel], but she can use it again in Phase 3 and 4. You need a tank for Ura such that Ura is able to cast attacks other than Propel. If no one is in front of her, she casts [Propel], because all other attacks require a target in front of her (i.e. she goes down her priority list and if no target is available, goes to the next attack etc.. which brings her to the only attack that doesn’t require a target in front of her, which is Propel).
+Ura needs a tank from Phase 3 (40%) onward. The reason for this is to provide a target for her mechanics: if no one is in front of her, she will cast [Propel], because all other attacks require line of sight (i.e. she goes down her priority list and if no target is available, goes to the next attack etc.. which brings her to the only attack that doesn’t require a target in front of her, which is [Propel]). For more information see [preventing Propel](../ura/mechanics.html#preventing-propel).
 
-The tank can be any dps, or any player in general. There is no real “tanking mechanic” per se, like nothing to do with Toughness or anything, it’s just that Ura needs any player in front of her to cast abilities other than Propel.
+The tank can be any DPS, or any player in general. There is no real “tanking mechanic” per se, nothing to do with Toughness.
 
-The Line of Sight from Ura is roughly a 140° cone: see the shaded area below. The cone is decently wide and the tank just needs to stay within that cone. See [tanking Ura](../ura/strategy.html#tanking-ura) for more information.
+The line of sight from Ura is roughly a 140° cone: see the shaded area below. The cone is decently wide and the tank just needs to stay within that cone. See [tanking Ura](../ura/strategy.html#tanking-ura) for more information.
 
 <img class='center' src='../images/ura/ura-cone.webp' width='70%'>
 
@@ -108,7 +108,7 @@ Other than that, the tank can try to slowly rotate Ura by standing on one side a
 <summary>1.5 - How come I'm getting <img class='inline exposed'> Exposed?</summary>
 <div markdown='block'>
 
-When <img class='inline sulfuricacid'> [Sulfuric Acid] ticks for 5 seconds, it will turn into <img class='inline exposed'> [Exposed]. You can get <img class='inline sulfuricacid'> [Sulfuric Acid] from many different attacks: standing in [Toxic Geysers] and [Sulfuric Geysers] if you have too many <img class='inline poison'> [Poison] stacks, from Ura’s [Acid Spray] (used when she has no melee target), and from the waves that get released from [Sulfuric Geysers].
+When <img class='inline sulfuricacid'> [Sulfuric Acid] ticks for 5 seconds, it will turn into <img class='inline exposed'> [Exposed]. You can get <img class='inline sulfuricacid'> [Sulfuric Acid] from many different attacks: standing in [Toxic Geysers] and [Sulfuric Geysers] if you have too many <img class='inline poison'> [Poison] stacks, from Ura’s [Acid Spray] (used when she has no melee target), and from the waves that get released from [Sulfuric Geysers] when they spawn.
 
 In order to prevent getting exposed, you need to cleanse <img class='inline sulfuricacid'> [Sulfuric Acid], which can only be done one stack at a time. That’s why bringing extra cleanse on DPS is so important, so that you have many different skills that cleanse the group in order to minimize <img class='inline exposed'> [Exposed].
 
@@ -150,7 +150,7 @@ Generally, dodge [Create Titanspawn Geyser] (the stomp/jump in the air from Ura)
 <summary>1.9 - Can you give <img class='inline stability'> Stability to people in bubbles?</summary>
 <div markdown='block'>
 
-No, the people targeted by the mechanic stripped of <img class='inline stability'> [Stability] if they have it beforehand, and cannot receive it again during bubbles, until they're <img class='inline dispel'> [Dispelled]. This means that players in bubbles can get knocked by [Champion Fumarollers], which can lead to displaced bubbles.
+No, the people targeted by the mechanic are stripped of <img class='inline stability'> [Stability] if they have it beforehand, and cannot receive it again during bubbles, until they're <img class='inline dispel'> [Dispelled]. This means that players in bubbles can get knocked by [Champion Fumarollers], which can lead to displaced bubbles.
 
 The white indicator on the floor is misleading in these situations, because it only shows the initial bubble position, and does not get updated when knocked, while <img class='inline dispel'> [Dispel] only works if casted underneath the bubble. In such cases immediately call out in voice that the shard needs to be dropped again.
 
@@ -217,13 +217,13 @@ All should be done up to #14. After that, everything else can be safely ignored,
 
 Not mechanically speaking, but exceptions apply for the last few [Toxic Geysers] of Phase 4. Toward the end when you only have geysers #12, #13 and #14 left, you don’t need to do them immediately since at that point you aren’t doing the rest. So you can take your time and do those whenever it is convenient, which is generally when your squad is healthy and there are no important mechanics happening (such as CCing the boss).
 
-After #14, the next Toxic Geysers that become relevant are #8 and then #11. If you have high enough damage, those won’t matter, but if they do, have your <img class='inline chrono'> [Chronomancer] (and someone else if needed) prepared to immediately CC #8 when it spawns (you can estimate the timing by looking at when 6 and then 7 spawn). Depending on Ura’s HP, either she will die very soon and you can ignore #8 after CCing, or you want to drop a shard there (e.g. by using Scourge Sandswell to quickly get there and back again). If damage is low enough to where you get #11, just immediately drop the shard (and pick it up again) and kill it with DPS, since the squad is usually stacking on that spot. Otherwise, the <img class='inline chrono'> [Chronomancer] should immediately CC it.
+After #14, the next Toxic Geysers that become relevant are #8 and then #11. If you have high enough damage, those won’t matter, but if they do, have your <img class='inline chrono'> [Chronomancer] (and someone else if needed) prepared to immediately CC #8 when it spawns (you can estimate the timing by looking at when 6 and then 7 spawn). Depending on Ura’s HP, either she will die very soon and you can ignore #8 after CCing, or you want to drop a shard there. If damage is low enough to where you get #11, just immediately drop the shard (and pick it up again) and kill it with DPS, since the squad is usually stacking on that spot. Otherwise, the <img class='inline chrono'> [Chronomancer] should immediately CC it.
 
 </div>
 </details>
 
 <details class=faq>
-<summary>2.5 - What is the advantage/disadvantage of having a DPS help the ranged group?</summary>
+<summary>2.5 - What is the advantage/disadvantage of having a DPS help the ranged group in a standard strategy?</summary>
 <div markdown='block'>
 
 Having a DPS help makes the ranged rotation easier to deal with. The limiting factor is the duration of the <img class='inline saturation'> [Bloodstone Saturation] debuff from using <img class='inline dispel'> [Dispel]. The disadvantage is that it is better to have a DPS with blink skill, which limits the playable classes. More information on this strategy can be found here: [NA Pug Rotation](mechanics.html#na-pug-rotation).
@@ -234,12 +234,12 @@ Playing with 3-heal ranged is harder to execute, as the duration of <img class='
 </details>
 
 <details class=faq>
-<summary>2.6 - How to deal with bubbles, sulfuric and cage when double dropping?</summary>
+<summary>2.6 - How do I deal with bubbles, sulfuric and cage when double dropping?</summary>
 <div markdown='block'>
 
 - [Pressure Blast] - Quick reactions, depending on the situation you might want to call out for the next person in the rotation to free you on the next Geyser, or that you'll run back to the group.
-- [Sulfuric Geyser] - Always has high priority and needs to be placed correctly. If you are supposed to do a double drop, and you just used <img class='inline dispel'> [Dispel] and then got targeted by the sulfuric, just leave the shard on the ground, place the geyser, and tell the group that the shard will tick two or three times so they can play safe and heal accordingly.
-- [Steam Prison] - Place it so that it does not overlap any [Toxics Geysers] that you want to do, while also moving away from melee range such that the squad can still move around the boss. The arena reflects projectiles, which means the <img class='inline deadeye'> [Deadeye] cannot CC, because Spear 4 (the CC skill) is a projectile. There are situations where e.g. the <img class='inline deadeye'> [Deadeye] has already CCd one Toxic and you are supposed to double drop when you get the arena. In those cases you can just go to the Toxic, <img class='inline dispel'> [Dispel], place the arena there, pick up and move to the second Toxic. This is fine if and only if the first Toxic has been CCd already, cause then the projectile reflects don’t matter (and you can simply outheal a few ticks on yourself from being inside the arena).
+- [Sulfuric Geyser] - Always has higher priority and needs to be placed correctly. If you are supposed to do a double drop, and you just used <img class='inline dispel'> [Dispel] and then got targeted by the sulfuric, just leave the shard on the ground, place the geyser, and tell the group that the shard will tick two or three times so they can play safe and heal accordingly.
+- [Steam Prison] - Place it so that it does not overlap any [Toxics Geysers] that you want to do, while also moving away from melee range such that the squad can still move around the boss. The arena reflects projectiles, which means that <img class='inline distracting-throw'> [Distracting Throw] cannot hit. There are situations where one Toxic has already been CCd and you are supposed to double drop when you get the arena. In those cases you can just go to the Toxic, <img class='inline dispel'> [Dispel], place the arena there, pick up and move to the second Toxic. This is fine if and only if the first Toxic has been CCd already, cause then the projectile reflects don’t matter (and you can simply outheal a few ticks on yourself from being inside the arena).
 
 </div>
 </details>
@@ -248,7 +248,7 @@ Playing with 3-heal ranged is harder to execute, as the duration of <img class='
 <summary>2.7 - I have a shard that I am supposed to drop, but I just got bubble!</summary>
 <div markdown='block'>
 
-First of all, while holding the [Bloodstone Shard], you are immune to [Pressure Blast] and you also can't get targeted by it. If you just <img class='inline dispel'> [Dispelled], then get a bubble, and you are supposed to double drop, then you can just wait 2 seconds and then pick up the shard again to ignore the bubble and just outheal the tick from it. <img class='inline dispel'> [Dispel] again the bubble is over and you are on the next Toxic.
+First of all, while holding the [Bloodstone Shard], you are immune to [Pressure Blast] and you also can't get targeted by it. If you just <img class='inline dispel'> [Dispelled], then get a bubble, and you are supposed to double drop, then you can just wait 2 seconds and then pick up the shard again to ignore the bubble and just outheal the tick from it. <img class='inline dispel'> [Dispel] again once the bubble is over and you are on the next Toxic.
 
 If you are Supposed to pick it up, but your buddy has not dropped it yet, you can call that they should free you on top of the geyser they need to <img class='inline dispel'> [Dispel].
 
@@ -268,7 +268,7 @@ Immediately call out that bubble is far away (and the direction if possible) and
 <summary>2.1 - I have to <img class='inline dispel'> Dispel but another ranged player near me has a bubble!</summary>
 <div markdown='block'>
 
-If you are holding the [Bloodstone Shard] and a range buddy next to you has the bubble, then just free them when you <img class='inline dispel'> [Dispel]. Depending on the situation, you may have to just wait a couple of seconds until they are bubbled, and only then should you drop. Remember to spam your healing skills on top of yourself to negate the incoming damage from <img class='inline saturation'> [Bloodstone Saturation] in case you already have a stack.
+If you are holding the [Bloodstone Shard] and a ranged buddy next to you has the bubble, then just free them when you <img class='inline dispel'> [Dispel]. Depending on the situation, you may have to just wait a couple of seconds until they are bubbled, and only then should you drop. Remember to spam your healing skills on top of yourself to negate the incoming damage from <img class='inline saturation'> [Bloodstone Saturation] in case you already have a stack.
 
 </div>
 </details>
@@ -305,7 +305,7 @@ At 40% of her HP, Ura transitions from Phase 2 to Phase 3. This interrupts her c
 
 Depends on strategy; please refer to a [ranged rotation](strategy.html#ranged-rotation) or ask your commander.
 
-But generally if you have low dps and you get #13 and #14, you might even want to /gg and practice phase 1, since your whole rotation will be thrown off. If just #12 and #13 spawn extra, the <img class='inline deadeye'> [Deadeye] can reset them until they are done normally at some point in phase 2.
+But generally if you have low dps and you get #13 and #14, you might even want to /gg and practice phase 1, since your whole rotation will be thrown off. If just #12 and #13 spawn extra, reset them with CC until they are done normally at some point in phase 2.
 
 Realistically this should only happen very early into prog: even after a couple of pulls you should phase fast enough to not get #13. If not, you have a DPS issue which will prevent you from killing Ura within the enrage timer; as rule of thumb, this is also a nice check to see if the overall squad dps is enough.
 
@@ -482,7 +482,7 @@ There are a few variations in your loadout depending on your squad's needs:
 <summary>5.2 - What DPS should I play?</summary>
 <div markdown='block'>
 
-DPS builds always depend on the current meta, so it’s best to just look at the [builds & PoV section](strategy.html#builds-and-povs) to see what is up-to-date. Alternatively, servers such as <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge) keep a dedicated build section that you can check.
+DPS builds always depend on the current meta, so it’s best to just look at the [builds & PoV section](strategy.html#builds-and-povs) to see what is up-to-date. Alternatively, resources such as <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge) and [Snowcrows](https://snowcrows.com/) keep a dedicated builds section that you can check.
 
 </div>
 </details>
@@ -508,6 +508,7 @@ Condition cleanse, <img class='inline stability'> [Stability] and movement skill
 - <img class='inline chrono'> [Chronomancer] - <img class='inline moa'> [Signet of Humility] combined with any other skill from weapons or utilities you might have. Depending on the situation, don’t be afraid to use these within <img class='inline cs'> [Continuum Split] if you anticipate needing CC again soon after.
 - <img class='inline scourge'> [Scourge] - <img class='inline golem'> [Summon Flesh Golem] into <img class='inline golem-charge'> [Charge].
 - <img class='inline firebrand'> [Firebrand] - <img class='inline jurisdiction'> [Jurisdiction] (but generally don’t hold it) and <img class='inline rebuke'> [Chapter 3: Heated Rebuke].
+- <img class='inline specter'> [Specter] - generally runs spear to gain access to <img class='inline distracting-throw'> [Distracting Throw].
 
 </div>
 </details>
@@ -529,9 +530,11 @@ So summarizing, whoever has <img class='inline stability'> [Stability] should al
 <summary>5.6 - What are compositions are commonly run?</summary>
 <div markdown='block'>
 
-The two main compositions are relatively similar and only come down to <img class='inline scourge'> [Scourge] or <img class='inline chrono'> [Chronomancer] as second healer and what specific build the <img class='inline firebrand'> [Firebrand] runs.
+In [standard strategies](./strategy.html#standard-strategy), the two main compositions are relatively similar and only come down to <img class='inline scourge'> [Scourge] or <img class='inline chrono'> [Chronomancer] as second healer and what specific build the <img class='inline firebrand'> [Firebrand] runs.
 
 The DPS builds can in principle be any dps of the builds in the [builds & PoV section](strategy.html#builds-and-povs). One notable distinction is that if you run a full <img class='inline condition'> [Condition] comp, everyone in the second subgroup (<img class='inline firebrand'> [Firebrand] + 3 DPS) should go kill the [Titanspawn Geyser], while with <img class='inline power'> [Power] DPS, only two are required to go there to kill it in time. In this case, these two should be placed with their <img class='inline firebrand'> [Firebrand] in the <img class='inline deadeye'> [Deadeye]'s subgroup.
+
+[Willbender strategy](./strategy.html#standard-strategy) instead runs a fixed composition with little build diversity.
 
 ---
 
@@ -566,30 +569,19 @@ Standard composition for the [willbender strategy](./strategy.html#standard-stra
 </details>
 
 <details class=faq>
-<summary>5.7 - How do I assign DPS for melee rotations and Titanspawners?</summary>
+<summary>5.7 - Can I play a different QuickDPS in a standard strategy?</summary>
 <div markdown='block'>
 
-The melee shard rotation consists of 4 people (e.g. everyone except the Healer in Sub2) and thus all of them can go to the [Titanspawn Geyser], such that you always have the melee [Bloodstone Shard] and the <img class='inline stability'> [Stability] from the <img class='inline firebrand'> [Firebrand] for the [Champion Fumaroller].
-
-Having at least one <img class='inline power'> [Power] DPS in this group helps with killing the Titanspawner quickly. If you run a full <img class='inline condition'> [Condition] composition and have problems killing it in time, then you can have the <img class='inline firebrand'> [Firebrand] from Sub1 and the DPS (ranged backup) also go and cleave the Titanspawner (which leaves only the [tank](../ura/mechanics.html#tanking-ura) at the boss).
+Other support builds can technically be run if there is no need for specific skills (e.g. projectile block, <img class='inline stability'> [Stability], etc), but <img class='inline firebrand'> [Firebrand] is generally the best choice due to high DPS combined with the massive amount of utility it brings. If in doubt, just check your squad composition and make sure everything is covered.
 
 </div>
 </details>
 
 <details class=faq>
-<summary>5.8 - Can I play a different QuickDPS?</summary>
+<summary>5.8 - How much damage should I be dealing?</summary>
 <div markdown='block'>
 
-Other support builds can technically be run if there is no need for specific skills (e.g. projectile block, <img class='inline stability'> [Stability], ..), but <img class='inline firebrand'> [Firebrand] is generally the best choice due to high DPS combined with the massive amount of utility it brings. If in doubt, just check your squad composition and make sure everything is covered.
-
-</div>
-</details>
-
-<details class=faq>
-<summary>5.9 - How much damage should I be dealing?</summary>
-<div markdown='block'>
-
-By averaging out a sample of kill logs, we can find the average DPS numbers for squads that cleared. While this is just an average, and it is definitely possible to clear with less DPS than this, higher damage will result in an overall easier fight for everyone, as the group will overall have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
+By averaging out a sample of kill logs, we can find the average DPS numbers for squads that have cleared LCM. While this is just an average, and it is definitely possible to clear with less DPS, higher damage will result in an overall easier fight for everyone, as the group will have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
 
 #### [Standard Strategy](./strategy.html#standard-strategy)
 
@@ -598,7 +590,7 @@ Logs taken from June to September 2025.
 |Role|Phase 1|Phase 2|Phase 3|Phase 4|
 |:--|:--|:--|:--|:--|
 |DPS|37.5k|32k|29.5k|28k|
-|BoonDPS|29k|23.5k|22k|22k|
+|BoonDPS|29k|23.5k|22k|21k|
 |Squad|260k|215k|198k|194K|
 
 {: .note}
@@ -629,6 +621,8 @@ Currently low sample size due to the strategy being relatively new.
 **Titanspawner:** Refers to the [Titanspawn Geyser] that appears when Ura casts [Create Titanspawn Geyser].
 
 **Fumas/Fumarollers:** Refer to the [Champion Fumaroller] adds that spawn from [Titanspawn Geysers].
+
+**LCM:** Legendary Challenge Mode.
 
 **Ventshots:** Refer to the [Legendary Ventshot] adds that spawn from [Titanspawn Geysers] during phase 4.
 
@@ -728,3 +722,4 @@ Currently low sample size due to the strategy being relatively new.
 [Charge]: https://wiki.guildwars2.com/wiki/Charge_(necromancer_skill)
 [Jurisdiction]: https://wiki.guildwars2.com/wiki/Jurisdiction
 [Mantra of Concentration]: https://wiki.guildwars2.com/wiki/Mantra_of_Concentration
+[Distracting Throw]: https://wiki.guildwars2.com/wiki/Distracting_Throw

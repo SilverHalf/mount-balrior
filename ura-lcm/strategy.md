@@ -270,7 +270,7 @@ By averaging out a sample of kill logs in a time period (June to September 2025)
 |Role|Phase 1|Phase 2|Phase 3|Phase 4|
 |:--|:--|:--|:--|:--|
 |DPS|37.5k|32k|29.5k|28k|
-|BoonDPS|29k|23.5k|22k|22k|
+|BoonDPS|29k|23.5k|22k|21k|
 |Squad|260k|215k|198k|194K|
 
 {: .note}
@@ -401,6 +401,8 @@ This composition is much more rigid compared to the [standard strategy](#standar
 All four supports are part of the ranged group. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
 
 DPS players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. <img class='inline chrono'> [Chronomancers] should ensure they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics. Generally a [tank](../ura/strategy.html#tanking-ura) is not strictly necessary as the entire group will stay within line-of-sight at all times.
+
+All DPS should bring <img class='inline stand-ground'> [Stand Your Ground!] and use it off-cooldown.
 
 ---
 

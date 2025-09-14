@@ -12,7 +12,7 @@ nav_order: 2
 - <img class='inline sheets'> [Ura LCM NA Rotation](https://docs.google.com/spreadsheets/d/1slMSuj0KzgsFcr7aw0GdmeLDfnRK7tOdepiWoKbMSR4) by Narra
 - <img class='inline sheets'> [Ura LCM Willbender Strategy](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA) by Asterius
 - <img class='inline slides'> [Ura LCM Deadeye Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M) by Chupathingy
-- <img class='inline docs'> [Ura LCM FAQ](https://docs.google.com/document/d/e/2PACX-1vTiV_esFGeLKwltjn5AC68p7TNm66DjCQbbaF5gOWx6cb_h4l7zfT0f8fwNesRXs6WtMHUsxmFQMsCy/pub) by Minas, Spencer, Sleider, Elise, and more.
+- [SnowCrows](https://snowcrows.com/) is the go-to for endgame builds.
 
 <img class= divider>
 
