@@ -10,7 +10,7 @@ parent: Godscream Ura
 # Recommended Ura Strategy
 {: .no_toc}
 
-This strategy for Challenge Mode focuses on smoothing out communications regarding everything that has to do with [Bloodstone Shards] and <img class='inline dispel'> [Dispel], since this is often the hardest part of the encounter: making sure a shard is available, used, and then picked up as fast as possible every time it becomes necessary for a new mechanic.
+This strategy for Challenge Mode focuses on smoothing out communications regarding everything that has to do with [Bloodstone Shards] and <img class='inline dispel'> [Dispel]. This is often the hardest part of the encounter: making sure a shard is available, used, and then picked up as fast as possible every time it becomes necessary for a new mechanic.
 
 This is achieved through a proper division of roles, where different parts of the squad circulate different shards to take care of specific threats, while also trying to provide good damage, boon uptime, and defensive utility.
 
@@ -21,13 +21,13 @@ This is achieved through a proper division of roles, where different parts of th
 - The ranged group takes care of [Toxic Geysers].
 - The melee group takes care of [Bubbles] and [Titanspawners].
 - Ura is tanked from the third phase onwards to prevent her from casting [Propel].
-- Ura must be CCd only at specific times from the third phase onwards to prevent her from casting [Propel].
+- Ura's <img class='inline defiance'> [Defiance Bar] must be broken only at specific intervals from the third phase onwards to prevent her from casting [Propel].
 
 The rest of this page is structured into the following sections
-- [Composition](#composition) - commonly used classes, roles and subgroup structure.
-- [Group Division](#group-division) - information on the division between ranged and melee groups.
-- [Preventing Propel](#preventing-propel) - information on tanking and CC timings to avoid [Propel].
-- [Phase-by-Phase](#phase-1) - main explanation of the fight divided by phases.
+1. [Composition](#composition) - commonly used classes, roles and subgroup structure.
+2. [Group Division](#group-division) - information on the division between ranged and melee groups.
+3. [Preventing Propel](#preventing-propel) - information on tanking and CC timings to avoid [Propel].
+4. [Phase-by-Phase](#phase-1) - main explanation of the fight divided by phases.
 
 <img class=divider>
 
@@ -42,8 +42,6 @@ BoonDPS can bring additional utility to the fight, such as extra CC and <img cla
 
 Usually, one or two of the DPS players will have the additional responsibility of  _tanking_ Ura through the third and fourth phase of the fight. These should play a high damage build, since they will not participate in some mechanics and thus will have the greatest damage uptime on the boss. See [tanking Ura](#tanking-ura) for more information.
 
-A typical combination might look like this:
-
 |       | Heal              | DPS/Hybrid Support | DPS       | DPS       | DPS       |
 | Sub 1 | <img class="inline chrono"> [Chrono] | DPS Support        | <img class='inline power'> [Power] | <img class='inline power'> [Power] | Any DPS  |
 | Sub 2 | <img class="inline chrono"> [Chrono] | Hybrid/Full Heal   | Any DPS   | Any DPS   | Any DPS   |
@@ -54,16 +52,16 @@ A typical combination might look like this:
 
 The most important concept underpinning this strategy is the way it manages [Bloodstone Shards] by dividing the squad into two groups:
 - A _ranged group_ containing the three healers shares one shard (the _ranged shard_), using it to <img class='inline dispel'> [Dispel] all [Toxic Geysers] throughout the fight.
-- A _melee group_ containing everyone else shares the other shard (the _melee shard_) to <img class='inline dispel'> [Dispel] the [Pressure Blast] (aka Friends, Bubbles) and [Titanspawn Geysers].
+- A _melee group_ containing everyone else (except for the tank) shares the other shard (the _melee shard_), using it to <img class='inline dispel'> [Dispel] the [Pressure Blast] (aka Friends, Bubbles) and [Titanspawn Geysers].
 
 Before the fight starts, it is common practice to set up the order in which players will use the shard, often called the "rotation". In this way, whenever a player is about to use a shard, they can call out the next person in the rotation and the location where it will be dropped, so that they can be prepared to pick it up. Having a rotation is extremely important for the ranged group, but confident squads often forgo an explicit melee rotation, instead trusting players to pick up the shard whenever their [Bloodstone Saturation] debuff runs out.
 
 #### Marker Packs
 {: .no_toc}
 
-Especially for the ranged group, it is extremely beneficial to install [HasKha's Markers](https://github.com/HasKha/gw2-markers) for [Blish HUD](https://blishhud.com/)'s [Pathing Module](https://blishhud.com/modules/?module=bh.community.pathing). This pack will show an overlay for geysers, allowing players to easily use numbered spawn positions as shown [here](/mechanics.html#toxic-geysers) for callouts. The pack can be installed directly from the Pathing Module's marker repository.
+Especially for the ranged group, it is extremely beneficial to install [HasKha's Markers](https://github.com/HasKha/gw2-markers) for [Blish HUD](https://blishhud.com/)'s [Pathing Module](https://blishhud.com/modules/?module=bh.community.pathing). This pack will show an overlay for geysers, allowing players to use numbered [Toxic Geyser] spawn positions as shown [here](/mechanics.html#toxic-geysers) for callouts. The pack can be installed directly from the Pathing Module's marker repository.
 
-Alternatively, groups can use in-game markers. This is an inferior option compared to the overlay, since there are 14 spawn locations for [Toxic Geysers] and only 8 different markers available. The following marker pack (requires Blish HUD's [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module) makes the certain optimizations to manage this issue:
+Alternatively, groups can use in-game markers. This is an inferior option compared to the overlay, since there are 14 spawn locations and only 8 different markers available. The following marker pack (requires Blish HUD's [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module) makes the certain optimizations to manage this issue:
 
 - Markers on geysers number 5, 8, 9, and 12.
 - Markers between toxic geysers that are usually double dropped: 1 & 2, 3 & 4, 7 & 10, 13 & 14.
@@ -84,9 +82,9 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJr
 ## Preventing [Propel]
 {: .no_toc}
 
-In the third and fourth phase, Ura regains access to [Propel]. It is possible to prevent her entirely from casting this skill, which is extremely convenient as it increases damage uptime, prevents her from entering the area of [Toxic Geysers] and [Sulfuric Geysers], and keeps her in a central position, from which it is easy to access [Titanspawn Geysers] and drop sulfurics.
+In the third and fourth phase, Ura regains access to [Propel]. It is possible to prevent her entirely from casting this skill, which is extremely convenient since it keeps her stationary in a central position, from which it is easy to access [Titanspawn Geysers] and drop [Sulfuric Geysers]. Furthermore, this also increases damage uptime and prevents her from entering the area of [Toxic Geysers] and [Sulfuric Geysers].
 
-This works because Ura in this phase has many skills with a higher priority than [Propel]: these attacks come off cooldown fast enough that it is possible to avoid the jump entirely. Checking the table below, which contains rough times for several of Ura's skills:
+The reason why this is possible is that Ura has many skills with a higher priority than [Propel]. Checking the table below, which contains rough times for several of Ura's skills:
 
 |Skill                     |Priority|Cooldown [s]|Cast Time [s]|Aftercast [s]|
 |[Pressure Blast]          |1       |25          |5            |1.5          |
@@ -95,7 +93,7 @@ This works because Ura in this phase has many skills with a higher priority than
 |[Steam Prison]            |4       |15          |7            |5            |
 |[Propel]                  |5       |12          |4            |2            |
 
-The total cast time for all of the higher priority skills comes down to around 34.5 seconds: enough for all of these skill to come off cooldown again.
+The total cast time for all of the higher priority skills comes down to around 34.5 seconds: enough for the first one cast to come off cooldown as the last ones are concluding. This means that there will always be a higher priority skill in Ura's queue, which will always be selected over [Propel].
 
 Ura can still use her jump in two situations:
 - If a higher priority skill is skipped due to having no valid targets.
@@ -121,8 +119,13 @@ Breaking Ura's <img class='inline defiance'> [Defiance Bar] only in certain inte
 
 The best moments to CC Ura correspond with the following skills:
 1. [Create Titanspawn Geyser] - once in the air, and up to 5 seconds after she lands. The safest moment to CC.
+<img class='center' src='../images/ura/ura-cc-jumpslam.gif' width='70%'>
 2. [Steam Prison] - once she lowers her arms and the arena becomes active, for 3 seconds.
+<img class='center' src='../images/ura/ura-cc-donutmove.gif' width='70%'>
 3. [Sulfuric Geyser] - once the indicator starts, which is roughly when she has stretched her arm out front fully, for about 2-3 seconds.
+<img class='center' src='../images/ura/ura-cc-sulfanim.gif' width='70%'>
+
+<div style="color: grey">Gifs by Elise</div>
 
 It is not recommended to CC during [Pressure Blast] as it is the most difficult timing.
 
@@ -151,7 +154,7 @@ If there is a rotation, players should call out the next person after using thei
 #### Baiting [Propel]
 {: .no_toc}
 
-Throughout this phase, Ura will normally use [Propel] after every [Pressure Blast]. Players in the ranged group should be aware of this and try to bait the jump away from geysers into potentially advantageous positions. An example movement pattern is shown in the image below:
+Throughout this phase, Ura will usually use [Propel] after every [Pressure Blast] (though this can change). Players in the ranged group should be aware of this and try to bait the jump away from geysers into potentially advantageous positions. An example movement pattern is shown in the image below:
 
 <img class="center" width="70%" src="../images/ura/ura_propel_p1.webp" />
 
@@ -165,14 +168,14 @@ Throughout the first phase, the spawn rate of [Toxic Geysers] is doubled compare
 To simplify double sharding, it is best to wait for both [Toxic Geysers] to spawn before using <img class='inline dispel'> [Dispel] on the first, so as to not have to wait between casts. Mobility skills are also extremely useful for quickly moving from one geyser to the other, though not strictly necessary.
 
 {: .note}
-As an alternative strategy, groups can "single shard" by assigning one subgroup to the ranged rotation and the other to the melee rotation. While this is much safer, as the ranged group will not take any damage from <img class='inline saturation'> [Bloodstone Saturation], it is also less common in kill runs as it does not provide the same role compression as double sharding. Furthermore, if you are interested in clearing Legendary Mode, learning how to double shard will help you in the long run.
+As an alternative strategy, groups can "single shard" by assigning one subgroup to the ranged rotation and the other to the melee rotation. While this is much safer, as the ranged group will not take any damage from <img class='inline saturation'> [Bloodstone Saturation], it is also less common in kill runs as it does not provide the same role compression as double sharding. Furthermore, if you are interested in clearing the [Legendary Mode](../ura-lcm/overview.html), learning how to double shard will help you in the long run.
 
 Once a geyser has been <img class='inline dispel'> [Dispelled], breaking its <img class='inline defiance'> [Defiance Bar] will kill it. Analogously, using <img class='inline dispel'> [Dispel] on a geyser with a broken <img class='inline defiance'> [Defiance Bar] will kill it. Since geysers do not regenerate defiance in Challenge Mode, as soon as one spawns the ranged group members can start doing some CC damage to it, so that it is more easily broken later on.
 
 #### Example Ranged Shard Rotation
 {: .no_toc}
 
-|Player|Pick Up #|First Dispel|Second Dispel|
+|**Player**|**Pick Up #**|**First** <img class='inline dispel'> [Dispel]|**Second** <img class='inline dispel'> [Dispel]|
 |Heal 1| - | 1 | 2 |
 |Heal 2| 2 | 3 | 4 |
 |Heal 3| 4 | 5 | 6 |
@@ -214,11 +217,11 @@ Ideally the titanspawner should be killed within 15 seconds, so that it doesn't 
 #### Placing Sulfurics
 {: .no_toc}
 
-[Sulfuric Geyser] casts will start in this phase, targeting random players. Depending on where the player is standing, they will want to run out and drop them at different locations. Below is a map that shows shaded purple areas, which are good locations to drop Sulfurics at. The 5 circles near the boss and the associated arrows indicate the direction you should run out when standing on those sides of the boss. Alternatively, [HasKha's Marker Pack](#marker-packs) also has indicators for safe sulfuric drop zones which are extremely useful.
+[Sulfuric Geyser] casts will start in this phase, targeting random players. Depending on where the player is standing, they will want to run out and drop them at different locations. Below is a map that shows shaded purple areas, which are good locations to drop Sulfurics at. Alternatively, [HasKha's Marker Pack](#marker-packs) also has indicators for safe sulfuric drop zones which are extremely useful.
 
-Players should try to avoid running out in the North-East direction as the Toxic Geysers #1 and #2 are so far out, that you cannot make the distance without movement skills. This can cause Sulfurics Geysers to drop at Toxic Geysers 1 or 2, making the ranged group's unnecessarily harder.
+Players should try to avoid running out in the North-East direction as the Toxic Geysers #1 and #2 are so far out, that you cannot make the distance without movement skills. This can cause geysers to drop on top of #1 or #2, making the ranged group's unnecessarily harder.
 
-Conversely, the most convenient position to drop sulfurics is to the North-West: there is a large area there beyond the spawning points of geysers #9 and #12 that is often close to the stack. This is further facilitated if the squad faces Ura in that direction (see [tanking Ura](#tanking-ura) for more information).
+Conversely, the most convenient position to drop sulfurics is to the North-West: there is a large area there beyond the spawning points of geysers #9 and #12 that is often close to the stack. This is further facilitated if the squad faces Ura in that direction (see [tanking Ura](#tanking-ura)).
 
 <img class="center" width="70%" src="../images/ura/ura_sulfurics.webp" />
 
