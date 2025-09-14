@@ -9,7 +9,9 @@ parent: Legendary Ura
 
 # Legendary Ura - FAQ
 
-<div style="color: grey">This page is based on the <img class='inline docs'> [original document](https://docs.google.com/document/d/e/2PACX-1vTiV_esFGeLKwltjn5AC68p7TNm66DjCQbbaF5gOWx6cb_h4l7zfT0f8fwNesRXs6WtMHUsxmFQMsCy/pub) made with contributions from Minas, Spencer, Sleider, Elise and many more.</div>
+<div style="color: grey" markdown=block>
+Based on the <img class='inline docs'> [original document](https://docs.google.com/document/d/e/2PACX-1vTiV_esFGeLKwltjn5AC68p7TNm66DjCQbbaF5gOWx6cb_h4l7zfT0f8fwNesRXs6WtMHUsxmFQMsCy/pub) made with contributions from Minas, Spencer, Sleider, Elise and many more.
+</div>
 
 This page contains a set of frequently asked questions regarding the Legendary Ura encounter. These are grouped into the following sections:
 
