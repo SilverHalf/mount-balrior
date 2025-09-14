@@ -8,182 +8,270 @@ parent: Godscream Ura
 [Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 
 # Recommended Ura Strategy
+{: .no_toc}
 
-> The following is a strategy that works in Legendary Mode. You can use the same strategy in Challenge Mode in order to already practice for transitioning to Legendary at some point.
+This strategy for Challenge Mode focuses on smoothing out communications regarding everything that has to do with [Bloodstone Shards] and <img class='inline dispel'> [Dispel]. This is often the hardest part of the encounter: making sure a shard is available, used, and then picked up as fast as possible every time it becomes necessary for a new mechanic.
 
-There a few different ways to play Ura. This guide focuses on the following cornerstones:
-- Using numbered Toxic Geysers,
-- Supports doing as many double drops as feasible with Bloodstone Shards,
-- Having at least 2-3 Power based dps for Titanspawn Geysers.
+This is achieved through a proper division of roles, where different parts of the squad circulate different shards to take care of specific threats, while also trying to provide good damage, boon uptime, and defensive utility.
 
-This means the squad composition will look roughly look like so:
+---
 
-|       | Heal              | DPS/Hybrid Support | dps       | dps       | dps       |
-| Sub 1 | <img class="inline chrono"> [Chronomancer] | DPS Support        | <img class='inline power'> [Power] | <img class='inline power'> [Power] | <img class='inline power'> [Power] |
-| Sub 2 | <img class="inline chrono"> [Chronomancer] | Hybrid/Full Heal   | Any dps   | Any dps   | Any dps   |
+#### General Points
+- The squad divides into a _ranged group_ and a _melee group_. Each of these groups rotates a single [Bloodstone Shard] to take care of different mechanics.
+- The ranged group takes care of [Toxic Geysers].
+- The melee group takes care of [Bubbles] and [Titanspawners].
+- Ura is tanked from the third phase onwards to prevent her from casting [Propel].
+- Ura's <img class='inline defiance'> [Defiance Bar] must be broken only at specific intervals from the third phase onwards to prevent her from casting [Propel].
 
-The two [Heal Chronomancers](https://gw2skills.net/editor/?PigEQiWmBDhZxcYj4RPp2+A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e) typically run a build to be able to solo CC Toxic Geysers. This build maximizes healing while being able to solo CC, which is good for LM. For CM where healing pressure is lower, you can also run a [different build](https://en.gw2skills.net/editor/?PigEQiWmBzhZxoYj4RPp26A-DSIYYUxXGtkCpXBO+aYICQxfZP0ALtvZBVA-e) that has more crowd control in exchange for less healing.
-
-The two available [Bloodstone Shards] are split between two groups:
-- The *Ranged Shard* group, composed of all four support players, that juggle their shard to <img class='inline dispel'> [Dispel] all the [Toxic Geysers].
-- The *Melee Shard* group, composed of the other six DPS players, that juggle their shard to <img class='inline dispel'> [Dispel] all the [Titanspawn Geysers] and [Pressure Blasts].
-
-> Note: having a blink skill is beneficial in some situations when dealing with shard drops for Toxic Geysers, especially in Legendary Mode. Therefore, you might also decide to use a dps player with a blink skill instead of a dps support that doesn't have a blink skill.
-
-The three Power based dps focus and whoever carries the melee Bloodstone Shard at the time a Titanspawn Geyser spawns, quickly go to that Geyser and burst it down. Afterward they return to the boss and stack back up. The other three dps stay on the boss the whole time, but will be actively tanking, which means standing in the front view of the boss such that Ura does not use Propel to charge away (Ura can still do that based on animation cancels, but this is another issue and unrelated to tanking).
-
-> For clear communication, it is beneficial to e.g. call the Bloodstone Shard for Titanspawn Geysers and Bubbles "melee shard" and the other one for the Toxic Geysers "ranged shard" (or any other clear distinction that you prefer).
-
-Markers can help for additional navigation, this is an example marker pack that can be useful:
-
-```
-eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNIiwiZGVzY3JpcHRpb24iOiJkZWdlbnMiLCJtYXBJZCI6MTU2NCwidHJpZ2dlciI6eyJ4IjowLjAsInkiOjAuMCwieiI6MC4wfSwibWFya2VycyI6W3siaSI6MSwiZCI6Im1hcmtlciBuYW1lIiwieCI6MTU2LjYxODMsInkiOjI4MC41OTQxNDcsInoiOjI2OS45Mjg5MjV9LHsiaSI6MiwiZCI6bnVsbCwieCI6MTg5LjAxMDc1NywieSI6MjI4LjI5NTUzMiwieiI6MjY5LjkyODkyNX0seyJpIjozLCJkIjpudWxsLCJ4IjoxNjEuMjA5OTQ2LCJ5IjoyMjkuOTUxNjQ1LCJ6IjoyNzAuMDA3NzIxfSx7ImkiOjQsImQiOm51bGwsIngiOjEyNS40OTY0MTQsInkiOjIwOC42NDY4NjYsInoiOjI2OS45ODMwNjN9LHsiaSI6NiwiZCI6bnVsbCwieCI6MTQ1LjA0NDI1LCJ5IjoyNTkuMTkwNTIxLCJ6IjoyNjkuOTI4OTI1fSx7ImkiOjUsImQiOm51bGwsIngiOjE2OS43NDI3MjIsInkiOjE5Ni44NzcwNzUsInoiOjI2OS45Mjg5MjV9LHsiaSI6NywiZCI6bnVsbCwieCI6MTY1LjUzNDM2MywieSI6MjUwLjM3NzYsInoiOjI2OS45Mjg5MjV9LHsiaSI6OCwiZCI6bnVsbCwieCI6MTIyLjg4Mjk0MiwieSI6MjQ5LjQ1MDQ1NSwieiI6MjY5LjkyODkyNX1dfQ==
-```
+The rest of this page is structured into the following sections
+1. [Composition](#composition) - commonly used classes, roles and subgroup structure.
+2. [Group Division](#group-division) - information on the division between ranged and melee groups.
+3. [Preventing Propel](#preventing-propel) - information on tanking and CC timings to avoid [Propel].
+4. [Phase-by-Phase](#phase-1) - main explanation of the fight divided by phases.
 
 <img class=divider>
 
-## 100% - 70%
+## Composition
 
-Let one Heal Chronomancer pick up one of the Bloodstone Shards. The second shard is being picked up by any of the melee group. The Supports deal with all the Toxic Geysers and the dps players with the bubbles. Toxic Geyser spawn in order according to the following map:
+Ura CM is generally played with three healers, who must bring high amounts of crowd control to deal with [Toxic Geysers] and <img class='inline titanicresistance'> [Titanic Resistance]. Furthermore, they benefit from high survivability and mobility to facilitate mechanics, and <img class='inline stability'> [Stability] for their subgroups. For these reasons, the most commonly played specialization in this role is <img class='inline chrono'> [Chronomancer], followed by <img class='inline druid'> [Druid], <img class='inline scourge'> [Scourge] (often with a Celestial build), and <img class='inline specter'> [Specter].
 
-<img class="center" width="100%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
+[<img class='inline chrono'> Chronomancer Build](https://gw2skills.net/editor/?PigEQiWmBDhZxuYj4RPp26A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e){: .btn} [<img class='inline scourge'> Scourge Build](https://en.gw2skills.net/editor/?PSAFw8laYZGMJ2DLiNip6V2rH-DSRYjRPV1HSI1ALkWigqLg0TBdvNEkQZP8aQwmFoC-e){: .btn} [<img class='inline druid'> Druid Build](https://gw2skills.net/editor/?POwEYKNssBmC7gxwKxxXSvpVi37B-DSRYjRwHCSUjuLjqrq0TBfvOEkQ5vl23sgKA-e){: .btn}
+{: .center}
 
-The spawn pattern also dictates where you want to bait Ura's Propel such that the supports have to move as minimal as possible for Toxic Geysers. Therefore, always try to bait towards the next Toxic Geyser, but also in such a ways as to not make Ura charge on top of the Toxic Geyser, because then dropping and picking up the shard is more cumbersome.
+BoonDPS can bring additional utility to the fight, such as extra CC and <img class='inline stability'> [Stability], but this is not usually a limiting factor. Damage players can bring both <img class='inline power'> [Power] and <img class='inline condition'> [Condition] builds, though it is beneficial to bring a couple of <img class='inline power'> [Power] builds to handle [Titanspawn Geysers], since they have lower overall toughness. The fight also benefits builds with high cleave damage for both Titanspawners and [Champion Fumarollers], and extra mobility for easily placing [Sulfuric Geysers].
 
-Ura will alternate between her auto attacks, that can just be healed, stability'd, or aegis'd, bubbles, which are always placed left of the melee group and solved by having the melee group dropping and picking up the Bloodstone Shard and Propel, which just has to be baited as noted above. The baiting part can be done by one of the healers. Note that the furthest player is being targeted (within ~1500 range), so pay attention to that when doing Toxic Geysers.
+Usually, one or two of the DPS players will have the additional responsibility of  _tanking_ Ura through the third and fourth phase of the fight. These should play a high damage build, since they will not participate in some mechanics and thus will have the greatest damage uptime on the boss. See [tanking Ura](#tanking-ura) for more information.
 
-For the bubbles, either let it melees do dynamically, or assign a rotation. If a rotation is used, you need to communicate in later phases in case the next person cannot pick it up though (e.g. in case they have a Sulfuric Geyser).
+|       | Heal              | DPS/Hybrid Support | DPS       | DPS       | DPS       |
+| Sub 1 | <img class="inline chrono"> [Chrono] | DPS Support        | <img class='inline power'> [Power] | <img class='inline power'> [Power] | Any DPS  |
+| Sub 2 | <img class="inline chrono"> [Chrono] | Hybrid/Full Heal   | Any DPS   | Any DPS   | Any DPS   |
 
-The two Heal Chronomancers will take care of CCing the Toxic Geysers. This can be done by simply alternating and solo CCing each Geyser. For example, one Heal Chrono can CC the uneven Toxic Geysers and the other the even ones. Going forward, The Heal Chrono in sub 1 (HC1) is assigned to do the uneven ones, and the Heal Chrono in sub 2 (HC2) the even ones. Solo CCing works by simply using either of the following 2 skill combos:
+---
 
-1. Well of Senility + Moa
-1. Well og Senility + Spear 5 (Make sure that you have used Spear 2 for the buff beforehand) + Signet of Domination/Technobabble/Mantra of Distraction (the last only when running Mesmer Runes).
+## Group Division
 
-These suggested skills overcap the CC a little bit, which helps to give some leeway timing wise. The timing is only needed for LM though, because Toxic Geysers don't regenerate in CM.
+The most important concept underpinning this strategy is the way it manages [Bloodstone Shards] by dividing the squad into two groups:
+- A _ranged group_ containing the three healers shares one shard (the _ranged shard_), using it to <img class='inline dispel'> [Dispel] all [Toxic Geysers] throughout the fight.
+- A _melee group_ containing everyone else (except for the tank) shares the other shard (the _melee shard_), using it to <img class='inline dispel'> [Dispel] the [Pressure Blast] (aka Friends, Bubbles) and [Titanspawn Geysers].
 
-The rough Propel pattern for phase 1 can be seen in the image below:
+Before the fight starts, it is common practice to set up the order in which players will use the shard, often called the "rotation". In this way, whenever a player is about to use a shard, they can call out the next person in the rotation and the location where it will be dropped, so that they can be prepared to pick it up. Having a rotation is extremely important for the ranged group, but confident squads often forgo an explicit melee rotation, instead trusting players to pick up the shard whenever their [Bloodstone Saturation] debuff runs out.
 
-<img class="center" width="100%" src="../images/ura/ura_propel_p1.webp" />
+#### Marker Packs
+{: .no_toc}
 
-After these 6 Propel charges, Ura lands closely at her initial spot. Phasing like that is beneficial, because then you don't lose dps uptime while Ura casts Return and everyone swirls around. High enough dps phases before the sixth Propel use, in that case you can adapt the charge pattern to fit your squads needs.
+Especially for the ranged group, it is extremely beneficial to install [HasKha's Markers](https://github.com/HasKha/gw2-markers) for [Blish HUD](https://blishhud.com/)'s [Pathing Module](https://blishhud.com/modules/?module=bh.community.pathing). This pack will show an overlay for geysers, allowing players to use numbered [Toxic Geyser] spawn positions as shown [here](/mechanics.html#toxic-geysers) for callouts. The pack can be installed directly from the Pathing Module's marker repository.
 
-Ideally you want to phase fast enough to not have the Toxic Geyser 11 spawn. Having it spawn can be an indicator of lacking dps (for LM) anyways, so proceeding, we are going to assume 10 is the last Toxic Geyser that spawned in phase 1. Note though, that Toxic Geyser 10 can be ignored for now and will be dealt with later in phase 2.
+Alternatively, groups can use in-game markers. This is an inferior option compared to the overlay, since there are 14 spawn locations and only 8 different markers available. The following marker pack (requires Blish HUD's [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module) makes the certain optimizations to manage this issue:
 
-The following table lists the Bloodstone Shard usages for Toxic Geysers in phase 1 (Heal Chrono sub 1 = HC1; Heal Chrono sub 2 = HC2; support from sub 1 = S1; support from sub 2 = S2):
+- Markers on geysers number 5, 8, 9, and 12.
+- Markers between toxic geysers that are usually double dropped: 1 & 2, 3 & 4, 7 & 10, 13 & 14.
+- No marker on 11 because it's in the boss anyways, so it's an easy one to remember, especially when you have the marker on 8 as reference point.
 
-| Toxic Geyser | Drop | Pickup |
-| 1            | HC2  | HC2    |
-| 2            | HC2  | HC1    |
-| 3            | HC1  | HC1    |
-| 4            | HC1  | S2     |
-| 5            | S2   | S2     |
-| 6            | S2   | HC2    |
-| 7            | HC2  | HC2    |
-| 8            | HC2  | S1     |
-| 9            | S1   | HC1    |
-
-Ura should be CCd roughly whenever Ura has 5 Rising Pressure stacks. This will help to keep the pace, while also not getting overwhelmed by the required CC amount in the later phases.
-
-<img class=divider>
-
-## 70% - 40%
-
-After Ura casted Return everyone will be trapped in bubbles. The melee Bloodstone Shard frees everyone and another melee player picks it up. Next, Ura will immediately start casting Create Titanspawn Geyser. As previously mentioned, always the 3 designated Power dps and whoever has the Bloodstone Shard at that moment will go there, drop the Bloodstone Shard immediately and burst down the Titanspawn Geyser. After the Titanspawn Geyser is dead, immediately return to the stack at the boss.
-
-New in phase 2 are also Sulfuric Geyser casts, which will target a random player. Depending on where you stand, you want to run out to different spots. Below is a map that shows shaded purple areas, which are good locations to drop Sulfurics to. The 5 circles near the boss and the associated arrows indicate the direction you should run out when standing on those sides of the boss. Notably, running out toward the North to East direction is always bad, because the Toxic Geysers 1 and 2 are so far out, that you cannot make the distance without movement skills. This can cause Sulfurics Geysers dropped at Toxic Geysers 1, or 2, which makes the Heal Chronos job unnecessarily harder. So always try and be aware of your positioning and take the shortest path to safety when getting a Sulfurics Geyser. Furthermore, always use your movement skills to get away from the boss and don't save them to get back quickly, because getting further away and placing them in safe spots is more important. Also, you will often have Rifle 5 ready from a Heal Chrono on the boss who will be able to use it and bring the player with Sulfuric Geyser quickly back to the stack.
-
-<img class="center" width="100%" src="../images/ura/ura_sulfurics.webp" />
-
-The Heal Chronos will start with Toxic Geyser 8 in this phase. Toxic Geyser 10 might be up from phase 1, it is simply done after the Toxic Geyser 10 spawn from phase 2 happened. Because when the Toxic Geyser on that spot already exists, it will simply do nothing and hence you safe some CC and Bloodstone Shard drops.
-
-Ura's Steam Prison (arena/cage) should be placed away from the boss always, such that you can navigate around Ura without danger of going inside the arena. Furthermore, try and pay attention to not overlap any other mechanics with the arena, e.g. Toxic Geysers that need to be done. For the most part, you can always turn around 180° degrees and run away from the boss immediately. Before arena becomes active, the position of it is already fixed. You can use this brief period to use a movement skill in order to get out of the arena before it becomes active. This removes the need to have Stability, but it requires precise timing. So especially in phase 2, try and practice this timing, because being caught inside the arena with no Stability in phase 3 can quickly become fatal.
-
-While above it was stated that the Heal Chrono in sub 1 does CC all uneven Toxic Geysers and Heal Chrono in sub 2 all even ones, we deviate from this pattern in two specific cases. The first is the Toxic Geysers 1 and 2. Because they are so far away, we use Continuum Split from Heal Chrono in sub 1 to CC both. The easiest way to do this to make sure you have Heal Mantra ready when you run toward those Toxic Geysers. Use it on the way to generate 3 Clones. Once HC1 is at one of the Toxic Geysers, use CS and run to the other Toxic Geyser. Use Well of Senility and Moa to CC that one, drop and pickup the Bloodstone Shard and then CS back to the initial spot at the first Toxic Geyser. Use Well of Senility and Moa again to CC the second Toxic Geyser and drop the Bloodstone Shard. Call out the Support in sub 2 ahead of time so they quickly pick the Bloodstone Shard up. This process can be seen [in this timestamped PoV](https://youtu.be/HEz9N3Ivb_o?si=zYQBU2t9bouCHXhd&t=419). The second situation we deviated from the uneven/even split are the follow-up Toxic Geysers 3 and 4. For these it's the other way around, the Heal Chrono in sub 1 will use CS to CC both (just CC, because dropping the Bloodstone Shard is being done by the support in sub 2 who picked up the shard beforehand).
-
-The following table shows the Toxic Geyser drops in phase 2:
-
-| Toxic Geyser | Drop | Pickup |
-| 8            | HC1  | HC1    |
-| 9            | HC1  | S2     |
-| 10           | S2   | S2     |
-| 11           | S2   | S1     |
-| 12           | S1   | HC2    |
-| 13           | HC2  | HC2    |
-| 14           | HC2  | HC1    |
-| 1            | HC1  | HC1    |
-| 2            | HC1  | S2     |
-| 3            | S2   | S2     |
-| 4            | S2   | S1     |
-| 5            | S1   | HC2    |
-
-Note that depending on dps, you might phase before Toxic Geyser 4 and/or 5. As long as Toxic Geyser 4 spawns, nothing changes too much and you can continue as planned. In the case of skipping also Toxic Geyser 4, you have to slightly deviate and adapt. More details are listed in the next phase about Toxic Geysers.
-
-Second Note: These tables are only relevant for LM, because of the continued 12 seconds spawn timer of Toxic Geysers and hence, requiring continued efficient use of the Bloodstone Saturation debuff. In CM, because the spawn timer changes to 24 seconds, it's much more relaxed and instead of double drops, you can do single drops in order (e.g. HC1 > S2 > HC2 and have S1 as backup whenever needed).
+<details>
+<summary>Click to view markers</summary>
+<contents>
+<div>Paste the following code into Commander Markers to use this marker pack:</div>
+<code class="wrap">
+eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJrZXJzIHNob3cgdGhlIG1vc3QgaW1wb3J0YW50IFRveGljIEdleXNlcnMgYW5kIGFyZSBhbHNvIHVzZWZ1bCBmb3IgZ2VuZXJhbCBkaXJlY3Rpb24uIiwibWFwSWQiOjE1NjQsInRyaWdnZXIiOnsieCI6MTU3LjI0Njc1LCJ5IjoyMzkuOTE4MTgyLCJ6IjoyNjkuOTI4OTI1fSwibWFya2VycyI6W3siaSI6MSwiZCI6IlRveGljIEdleXNlciAxLzIiLCJ4IjoxODguOTI1NzIsInkiOjI2MS42MDE2ODUsInoiOjI2OS45MjkxNjl9LHsiaSI6MiwiZCI6IlRveGljIEdleXNlciAzLzQiLCJ4IjoxODguMDQ5OTQyLCJ5IjoyMjYuMTQwMDMsInoiOjI2OS45Mjg5MjV9LHsiaSI6MywiZCI6IlRveGljIEdleXNlciA4IiwieCI6MTYyLjA0NjYzMSwieSI6MjI4LjI3MTc0NCwieiI6MjY5Ljk5MDg3NX0seyJpIjo0LCJkIjoiVG94aWMgR2V5c2VyIDEzLzE0IiwieCI6MTI0LjM0Njc5NCwieSI6MjA5Ljg0OTY0LCJ6IjoyNjkuOTg2NDJ9LHsiaSI6NiwiZCI6IlRveGljIEdleXNlciA5IiwieCI6MTQ1LjgzMTc3MiwieSI6MjU4LjQ0MDgyNiwieiI6MjY5LjkzNDc4NH0seyJpIjo1LCJkIjoiVG94aWMgR2V5c2VyIDcvMTAiLCJ4IjoxNzAuOTA3MzY0LCJ5IjoyMDIuNDc5NTUzLCJ6IjoyNzAuMDYyOTU4fSx7ImkiOjcsImQiOiJUb3hpYyBHZXlzZXIgNSIsIngiOjE2NS43MjUyMzUsInkiOjI1Mi41NTQ5NjIsInoiOjI2OS45MzQ3ODR9LHsiaSI6OCwiZCI6IlRveGljIEdleXNlciAxMiIsIngiOjEyMi40NDU4MTYsInkiOjI0OS43ODIxMiwieiI6MjY5LjkyODkyNX1dfQ==
+</code>
+</contents>
+</details>
 
 <img class=divider>
 
-## 40% - 1%
+## Preventing [Propel]
+{: .no_toc}
 
-Once Ura hits 40%, Ura self-interrupts and will immediately cast Bubbles. Ideally this should not happen immediately next/before a Titanspawn Geyser, to make handling the melee Bloodstone Shard easier, but it depends on the squad dps. This transition is one of the more hectic situation, because phase 2 is very relaxed and the added Bubbles can catch players off-guard if not prepared. Calling it out in voice that players should be prepared about the transition and Bubbles helps as well.
+In the third and fourth phase, Ura regains access to [Propel]. It is possible to prevent her entirely from casting this skill, which is extremely convenient since it keeps her stationary in a central position, from which it is easy to access [Titanspawn Geysers] and drop [Sulfuric Geysers]. Furthermore, this also increases damage uptime and prevents her from entering the area of [Toxic Geysers] and [Sulfuric Geysers].
 
-For Bubbles, generally you want to place them right next to the stacking group. However, if it overlaps with a Titanspawn Geyser and you have a Bubble on the Titanspawn Geyser and one on the melee group on the boss, then try and meet in the middle if both Bubbles are far apart. Same when someone who is away doing Sulfuric Geyser, or Toxic Geysers. Both players who get the bubble should always look for the second one immediately, because breaking the Bubbles as soon as possible is important for the skill to go on cooldown, which in turn is relevant to minimize the chances of Ura using Propel in this phase (and phase 4). Another exception is when Champion Fumaroller are alive and close to the stack. In that case stack on the opposite side. For example if everyone is stacked on the boss and a Fumaroller is to the left-hand side of the stack, Bubbles should go to the right-hand side of the stack instead. This is because players caught in Bubbles can be knocked (by the Fumaroller) which will displace them and desync the player with the white indicator on the ground. If that happens, ignore the white indicator and drop the Bloodstone Shard under the displaced player.
+The reason why this is possible is that Ura has many skills with a higher priority than [Propel]. Checking the table below, which contains rough times for several of Ura's skills:
 
-The 40% transition also resets Toxic Geyser spawn patterns. Toxic Geyser 7 spawns immediately at 40% and the 12 seconds (LM), or 24 seconds (CM) timer resets. This means it can be hectic for the Heal Chronos and Toxic Geyser Shard droppers as well, so be prepared for the transition. The first few Toxic Geysers depend on the dps in phase 2 and if Toxic Geyser 3, 4, or 5, was the last to spawn. The following table shows the Toxic Geysers in phase 3:
+|Skill                     |Priority|Cooldown [s]|Cast Time [s]|Aftercast [s]|
+|[Pressure Blast]          |1       |25          |5            |1.5          |
+|[Create Titanspawn Geyser]|2       |30          |5            |2            |
+|[Sulfuric Geyser]         |3       |20          |5            |4            |
+|[Steam Prison]            |4       |15          |7            |5            |
+|[Propel]                  |5       |12          |4            |2            |
 
-| Toxic Geyser | Drop | Pickup |
-| 7            | S1   | HC2    |
-| 8            | HC2  | HC1 (late depending on phasing) |
-| 9            | HC1  | S2 (late depending on phasing) |
-| 10           | S2   | S2     |
-| 11           | S2   | S1     |
-| 12           | S1   | HC2    |
-| 13           | HC2  | HC2    |
-| 14           | HC2  | HC1    |
-| 1            | HC1  | HC1    |
-| 2            | HC1  | S2     |
-| 3            | S2   | S2     |
-| 4            | S2   | S1     |
-| 5            | S1   | S1     |
-| 6            | S1   | HC2    |
-| 7            | HC2  | HC1    |
+The total cast time for all of the higher priority skills comes down to around 34.5 seconds: enough for the first one cast to come off cooldown as the last ones are concluding. This means that there will always be a higher priority skill in Ura's queue, which will always be selected over [Propel].
 
-The small adaption you have to do comes when you phase before Toxic Geyser 4 spawns in phase 2. In this case S1 will already pick up from Toxic Geyser 3 and not 4, and will asap drop it on Toxic Geyser 7. Depending on how fast you phase, the Heal Chrono in sub 1 will still have 2x Bloodstone Saturation stacks and hence, cannot immediately pick up on Toxic Geyser 8. Hence, what you should do in this case is to immediately CC Toxic Geyser 8 (because it gives boons to the boss) and let HC2 drop the shard just before Toxic Geyser 8 regenerates its defiance bar. Then, HC1 pick it up as soon as the existing stacks run out. Note that this may still be a few seconds away, so be prepared to have the Bloodstone Shard tick once, or twice and heal your squad. Next, HC1 drops the shard on Toxic Geyser 9 and S2 needs to pick it up. Here it will be the same situation, where S2 will still have one Bloodstone Saturation stack. Do it the same way as before: CC Toxic Geyser 9, drop it toward the end of the regenerating defiance bar and S2 pick it up then as soon as the stacks drop. Be prepared to heal against one, or two Bloodstone Shard ticks.
+Ura can still use her jump in two situations:
+- If a higher priority skill is skipped due to having no valid targets.
+- If a higher priority skill gets interrupted by breaking Ura's <img class='inline defiance'> [Defiance Bar], removing the skill's cast and aftercast from the queue.
 
-Once Ura hits 1%, Ura will heal and become invulnerable for a short period of time.
+To avoid these two situations, we need to take appropriate countermeasures by [tanking](#tanking-ura) Ura and [controlling when we break her defiance](#when-to-cc-ura).
+
+---
+
+#### Tanking Ura
+
+This is necessary to always provide a target for Ura's high priority skills so that she does not skip them to cast [Propel]. The designated tank should stand in front of the boss, within a 400 range, 140° cone. A backup tank should also be designated, so that if the primary tank must do a mechanic there is always someone capturing Ura's aggro.
+
+<img class='center' src='../images/ura/ura-cone.webp' width='70%'>
+
+Whenever Ura chooses a random target for [Steam Prison] and [Sulfuric Geyser], she will rotate to track this target: the tank should always be ready to reposition accordingly. This can also be used to face the boss in certain directions. For example, facing her North-West places the stack the shortest possible distance from safe [Sulfuric Geyser] drop zones.
+
+---
+
+#### When to CC Ura
+
+Breaking Ura's <img class='inline defiance'> [Defiance Bar] only in certain intervals avoids cancelling skills amd thus freeing up Ura's skill queue, which could lead to her using [Propel].
+
+The best moments to CC Ura correspond with the following skills:
+1. [Create Titanspawn Geyser] - once in the air, and up to 5 seconds after she lands. The safest moment to CC.
+<img class='center' src='../images/ura/ura-cc-jumpslam.gif' width='70%'>
+2. [Steam Prison] - once she lowers her arms and the arena becomes active, for 3 seconds.
+<img class='center' src='../images/ura/ura-cc-donutmove.gif' width='70%'>
+3. [Sulfuric Geyser] - once the indicator starts, which is roughly when she has stretched her arm out front fully, for about 2-3 seconds.
+<img class='center' src='../images/ura/ura-cc-sulfanim.gif' width='70%'>
+
+<div style="color: grey">Gifs by Elise</div>
+
+It is not recommended to CC during [Pressure Blast] as it is the most difficult timing.
 
 <img class=divider>
 
-## Healed - 0% (16% in CM, 41% in LM)
+## Phase 1
 
-Immediately after the transition, there will always be an additional Titanspawn Geyser independent of the Create Titanspawn Geyser skill from Ura. Typically you focus this first Titanspawn Geyser and depending on the position also the second Titanspawn Geyser in both CM and LM and then ignore all other ones. If you do, or ignore the second one depends on the position of the stack and the Titanspawn Geyser. If it's a close one next to the boss, you can do it, but if it is one of the further away ones, you can ignore it.
+#### 100% - 70%
+{: .no_toc}
 
-Additionally in the last phase, Ura will inflict two players with Sulfuric Geysers per cast instead of only one. In order to use the space efficiently, it's best that both players drop the Sulfuric Geysers next to each other instead of in two different spots. But in particular for CM, since the fight will be over soon, this does not matter too much. It's more important for LM, where space is more limited.
+The fight starts when both [Bloodstone Shards] are picked up. Usually a player from the melee group picks up the first one, then a player from the ranged group picks up the second when everyone is in position to start the fight.
 
-The Toxic Geyser patterns simply continues from phase 3 into phase 4, so continue doing the first few Toxic Geysers as usual. In CM, because the fight will be over soon, only clear any Toxic Geysers that are close to the boss, but ignore the ones further away. For LM, you want to continue clearing all Toxic Geyser up until Toxic Geyser 14, but ignore the Toxic Geyser spawns from 1 onward. The following table shows those Toxic Geysers:
+Throughout this phase <img class='inline dispel'> [Dispel] must be used to manage [Pressure Blast] (aka Bubbles) and [Toxic Geysers].
 
-| Toxic Geyser | Drop | Pickup |
-| 8            | HC1  | HC1    |
-| 9            | HC1  | S2     |
-| 10           | S2   | S2     |
-| 11           | S2   | S1     |
-| 12           | S1   | HC2    |
-| 13           | HC2  | HC2    |
-| 14           | HC2  | HC1    |
+---
 
-After Toxic Geyser 14, HC1 can use the Toxic Geyser for the Bubbles.
+#### Handling Bubbles
+{: .no_toc}
 
-The following contains some further information for Legendary Mode for the last phase.
+The two players targeted by [Pressure Blast] should stack together separate from the rest of the group (possibly in melee range of the boss so as to upkeep DPS), so that the melee shard holder can save both of them with a single <img class='inline dispel'> [Dispel]. The shard holder will not be affected by [Pressure Blast], so they can stack on top of their affected teammates.
 
-Projectile block for LM: Particularly important in the last phase for LM is that the Legendary Ventshots are dealing heavy damage from both melee and ranged attacks. Melee attacks can be baited away from the stack by having some pets standing between the stack and the Ventshots. So any Mechanist, or Ranger player in the squad, try and reposition your Pet such that it takes aggro from the Ventshots and tanks the melee hits. If multiple Ventshots melee attack the squad at the same time, it can wipe the entire squad in a second. That's why tanking them away with pets is crucial! Furthermore, the Ventshots continuously use ranged projectile attacks. These cannot be tanked which requires permanent projectile block around the squad, particularly once multiple Ventshots are alive. This needs to be reflected in the squad composition by having multiple sources of projectile reflect (for example, have a Vindicator with Ventari and Firebrand using F3-3/Sanctuary and a Scourge using Corrosive Poison Cloud). This also requires clear communication, so focus on keeping comms clear for correct projectile block callouts. One way to handle projectile blocks is e.g. to have the Ventari Vindicator dictate the timing. That is use Ventari bubble for ~10 seconds (and legend swap at the end), then have the Firebrand use F3-3, followed by the Scourge using CPC. The Ventari Vindicator swaps legend back to Ventari off cooldown and will have bubble up again after 10 seconds (legend swap cooldown). This means the Firebrand and Scourge (or any other projectile block you decide to have) needs to cover these periods of 10 seconds (or a little bit more to have some leeway; the combo written here provides 13 seconds) and have a cooldown of less than, or equal to 20 seconds (i.e. a full loop is ~10 seconds of Ventari and 10 seconds of the other projectile blocks). Ventari could in principle be kept up for longer, but we limit it to 10 seconds to line it up with CC timing (read the note below on CC timing).
+If there is a rotation, players should call out the next person after using their shard, who should then quickly pick it up. Since there is little other pressure for the melee players in this phase, groups progressing the fight should use it to practice their rotation and get it perfect for the following phases.
 
-CC timing and extra Rising Pressure stacks in LM: Ventshots have an ability that gives extra Rising Pressure stacks for 20 seconds to nearby Titans and Geysers. This cannot really be controlled in a good way, which means it just causes more stacks on Ura and thereby making Ura have higher damage reduction in this phase on average. But because there is not really a workaround to prevent this, it doesn't have an influence on the gameplay. You should plan out a specific CC timing and just follow that, while ignoring the extra Rising Pressure stacks. For example, in the PoV linked above, we CCd ever other time the Ventari Bubble ran out. The logic behind this is the following: Ventari bubble runs out => Ventari Vindicator swaps legend and uses Staff 5 for large CC. At the same time everyone else CCs as well. Because we want to CC every ~40 seconds roughly to keep the Rising Pressure stacks low enough on average, this therefore dictates the projectile block timing as well. With the composition used in the PoV, the CC was reliant on getting Staff 5 hits from the Ventari Vindicator (and Shiro Elite) and hence this needed to be timed with Legend swaps to have enough energy for the CC.
+---
 
-Positioning in LM: In LM the last phase will usually last 3 minutes or more and therefore the space toward the end will be limited because of expanding Toxic Geysers. Since we clear Toxic Geysers until 14, you want to position the squad in that South to South-West direction roughly. Note that the position needs to be dynamically adjusted based on Titanspawn Geyser spawnpoints, because you don't want to stand directly next to a Ventshot to mitigate melee attacks. Therefore, if you have a Titanspawn Geyser next to you, rotate the squad a little bit away and place a pet in between to tank melee aggro. If you anticipate Ura using Propel, you can bait the charge between Toxic Geyser 12 and 14, as long as there are no Sulfuric Geyser (drops from players, or from the naturally spawning ones) there and then rotate to stand toward the edge of the arena.
+#### Baiting [Propel]
+{: .no_toc}
 
-Further notes for LM:
-- Melee attacks from Ventshots can CC players, therefore you want to upkeep Stability as much as possible. For the Heal Chronos this means using all charges of your Stab Mantra off cooldown and immediately start recharging it again once it's ready. The time between Stability running out and Mantra being recharged can be covered by Distort and by the other support using some Stability.
-- Bubbles need to be placed next to the group, but because everyone also needs to stand inside the projectile block area, the space is quite limited. So be extra careful to not overlap any other players with Bubbles.
-- Toward the very end of the fight, Toxic Geyser 8 might spawn and give boons to the boss. This should be CCd immediately via ranged CC and ideally also dropped. One way to do this is like so: a Scourge has the Bloodstone Shard and uses Sandswell Portal to Toxic Geyser 8, drops the shard and immediately takes the Portal back to the stack. One Heal Chrono can take the portal and immediately pick-up the shard. If available, you can use Distort to survive and bridge the gap until portal can be taken back. This sequence can be seen [here](https://youtu.be/HEz9N3Ivb_o?si=kpWERESLl0zuCUQn&t=810).
+Throughout this phase, Ura will usually use [Propel] after every [Pressure Blast] (though this can change). Players in the ranged group should be aware of this and try to bait the jump away from geysers into potentially advantageous positions. An example movement pattern is shown in the image below:
+
+<img class="center" width="70%" src="../images/ura/ura_propel_p1.webp" />
+
+---
+
+#### Double Sharding [Toxic Geysers]
+{: .no_toc}
+
+Throughout the first phase, the spawn rate of [Toxic Geysers] is doubled compared to the rest of the fight. This means that players in the ranged group must <img class='inline dispel'> [Dispel] _two_ [Toxic Geysers] every time it's their turn in the rotation. This is called "Double Sharding", and involves using <img class='inline dispel'> [Dispel] on a geyser, then quickly picking up the [Bloodstone Shard], moving to a second geyser, and using <img class='inline dispel'> [Dispel] again. In between the two uses, the shard holder must survive the ticking damage from <img class='inline saturation'> [Bloodstone Saturation], which inflicts 20% of their maximum HP per second.
+
+To simplify double sharding, it is best to wait for both [Toxic Geysers] to spawn before using <img class='inline dispel'> [Dispel] on the first, so as to not have to wait between casts. Mobility skills are also extremely useful for quickly moving from one geyser to the other, though not strictly necessary.
+
+{: .note}
+As an alternative strategy, groups can "single shard" by assigning one subgroup to the ranged rotation and the other to the melee rotation. While this is much safer, as the ranged group will not take any damage from <img class='inline saturation'> [Bloodstone Saturation], it is also less common in kill runs as it does not provide the same role compression as double sharding. Furthermore, if you are interested in clearing the [Legendary Mode](../ura-lcm/overview.html), learning how to double shard will help you in the long run.
+
+Once a geyser has been <img class='inline dispel'> [Dispelled], breaking its <img class='inline defiance'> [Defiance Bar] will kill it. Analogously, using <img class='inline dispel'> [Dispel] on a geyser with a broken <img class='inline defiance'> [Defiance Bar] will kill it. Since geysers do not regenerate defiance in Challenge Mode, as soon as one spawns the ranged group members can start doing some CC damage to it, so that it is more easily broken later on.
+
+#### Example Ranged Shard Rotation
+{: .no_toc}
+
+|**Player**|**Pick Up #**|**First** <img class='inline dispel'> [Dispel]|**Second** <img class='inline dispel'> [Dispel]|
+|Heal 1| - | 1 | 2 |
+|Heal 2| 2 | 3 | 4 |
+|Heal 3| 4 | 5 | 6 |
+|Heal 1| 6 | 7 | 8 |
+|...   |...|...|...|
+
+<img class="center" width="70%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
+
+---
+
+#### Other Information
+{: .no_toc}
+
+After using [Propel], Ura will generally use her [Autoattack Chain], which requires <img class='inline aegis'> [Aegis] or <img class='inline stability'> [Stability] for the last hit. Players should always try to sidestep this skill, as their healers will often be off-stack doing mechanics.
+
+Ura should be CCd roughly whenever she gains 5 stacks of <img class='inline risingpressure'> [Rising Pressure]. This will help to keep the pace, while also not getting overwhelmed by the required amount of CC in the later phases.
+
+<img class=divider>
+
+## Phase 2
+#### 70% - 40%
+{: .no_toc}
+
+Ura will begin this phase by casting [Return] and then trapping everyone in bubbles. This must be <img class='inline dispel'> [Dispelled] by the player holding the melee shard. If Ura used [Pressure Blast] just before this transition, this player should keep their shard and use it to save both the targeted players and the rest of the group.
+
+---
+
+#### Managing Titanspawners
+{: .no_toc}
+
+Ura will use [Create Titanspawn Geyser] immediately after [Return] and frequently thereafter. Players should try to dodge the knockback if possible, and as soon as the skill is done the squad should move to the geyser's location to quickly <img class='inline dispel'> [Dispel] it and burst it down (remembering to pick up the [Bloodstone Shard]!). After the geyser is dead, immediately return to stack at the boss, and try to kill the [Champion Fumaroller] on top of it.
+
+Fumarollers target players and their allies, so it is beneficial to stack opposite Ura compared to it and recall pets so that it quickly moves on top of the boss to be cleaved. Future casts of [Create Titanspawn Geyser] should be handled in the same manner.
+
+Ideally the titanspawner should be killed within 15 seconds, so that it doesn't spawn a second [Champion Fumaroller]. Since these adds inflict large amounts of crowd control and damage, having multiple can quickly snowball the fight out of control.
+
+---
+
+#### Placing Sulfurics
+{: .no_toc}
+
+[Sulfuric Geyser] casts will start in this phase, targeting random players. Depending on where the player is standing, they will want to run out and drop them at different locations. Below is a map that shows shaded purple areas, which are good locations to drop Sulfurics at. Alternatively, [HasKha's Marker Pack](#marker-packs) also has indicators for safe sulfuric drop zones which are extremely useful.
+
+Players should try to avoid running out in the North-East direction as the Toxic Geysers #1 and #2 are so far out, that you cannot make the distance without movement skills. This can cause geysers to drop on top of #1 or #2, making the ranged group's unnecessarily harder.
+
+Conversely, the most convenient position to drop sulfurics is to the North-West: there is a large area there beyond the spawning points of geysers #9 and #12 that is often close to the stack. This is further facilitated if the squad faces Ura in that direction (see [tanking Ura](#tanking-ura)).
+
+<img class="center" width="70%" src="../images/ura/ura_sulfurics.webp" />
+
+If you have movement skills, always use them to get away from the boss and don't save them to get back quickly, because getting further away and placing the geysers in safe spots is more important. <img class='inline chrono'> [Chronomancers] should try to provide returning players with a <img class='inline rifle-portal'> [Dimensional Aperture] (Rifle 5) to quickly bring them back to the stack.
+
+Players will gain <img class='inline superspeed'> [Superspeed] whenever they are targeted, which lasts right up until the final drop position is reached. The geyser will then spawn after a short time interval. Players can use this to know exactly when they can return to the stack.
+
+---
+
+#### Managing the Steam Prison
+{: .no_toc}
+
+Ura's [Steam Prison] should be placed far enough from the boss so that players can navigate around her without danger of going inside the arena. Furthermore, try and pay attention to not overlap it with any other mechanics, such as [Toxic Geysers]. For the most part, players can always turn around 180° degrees and run away from the boss immediately. Before arena becomes active, the position of it is already fixed. You can use this brief period to use a movement skill or <img class='inline superspeed'> [Superspeed] in order to get out of its area before becoming trapped. This removes the need for <img class='inline stability'> [Stability], but requires precise timing. Try to practice this, as being stuck inside the arena in phase 3 and onwards can quickly become fatal.
+
+---
+
+#### Other Important Information
+{: .no_toc}
+
+It can happen in this phase and the following that [Pressure Blast] overlaps with [Create Titanspawn Geyser] or [Sulfuric Geyser] cast and you have a bubble on the geyser and one on the boss (especially if the [tank](#tanking-ura) is one of the targets!). Each player who gets targeted should always look for the second one immediately and move to a convenient position. In the case of titanspawners, this is often on the geyser since this allows players to <img class='inline dispel'> [Dispel] both the bubbles and the geyser with one shard.
+
+The [Toxic Geyser] order in this phase will restart from #8. If geyser #9 spawned in the previous phase, it can be convenient to reset it with CC so that you only have to <img class='inline dispel'> [Dispel] it once, 24 seconds after #8. The ranged group will overall have an easier time managing geysers in this phase, since their cooldown will increase from 12 to 24 seconds, no longer requiring double sharding. Players should keep up calling where they use their shard so as to maintain the rotation.
+
+<img class=divider>
+
+## Phase 3
+#### 40% - 1%
+{: .no_toc}
+
+Once Ura hits 40%, she self-interrupts and will immediately cast [Pressure Blast]. This transition can be very hectic, especially if it occurs in proximity to [Create Titanspawn Geyser], as melee shard management becomes difficult. Calling it out in voice helps players prepare for the bubbles and not be caught off-guard. The transition also resets [Toxic Geyser] spawn patterns: #7 will spawn immediately and the timer will be reset. This means the ranged group may have to handle two geysers in rapid succession.
+
+Starting from this phase, Ura has access to all mechanics from the two previous phases. This means that while the ranged group will continue using their <img class='inline dispel'> [Dispel] only on [Toxic Geysers], the melee group will have to handle both [Pressure Blast] and [Create Titanspawn Geyser] for the rest of the fight. In particular, managing the bubbles as soon as possible is important to make the skill to go on cooldown (see [Preventing Propel](#preventing-propel)).
+
+From this phase onwards, Ura can use [Propel] again. Therefore it is necessary to tank her and only CC in specific intervals. See [Preventing Propel](#preventing-propel) for more information.
+
+<img class=divider>
+
+## Phase 4
+#### Healed - 0%
+{: .no_toc}
+
+On reaching 1% health, Ura will become <img class='inline invuln'> [Invulnerable], clear all <img class="inline condition"> [Conditions] from herself, and heal by 15% of her maximum HP.
+
+Immediately after the transition, there will always be an additional [Titanspawn Geyser] independent of the [Create Titanspawn Geyser] skill. Groups in this phase may decide to kill only this titanspawner and additionally 1-2 others, while ignoring the rest, based on their distance from the boss. In case multiple [Champion Fumarollers] come to the stack, it's important to provide additional <img class='inline stability'> [Stability] and move off of any damaging AoEs so that they do not destabilize the squad.
+
+Additionally, Ura will start targeting two players with [Sulfuric Geysers] instead of only one per cast. It's best to drop the Sulfuric Geysers next to each other instead of in two different spots in order to use the space efficiently and depending on how close the squad is to killing.
+
+The [Toxic Geyser] patterns simply continues from the previous phase without interruptions. The ranged group can continue doing the first few as usual, with the added option of ignoring geysers far from the boss as the group gets closer to a kill and they become less relevant.
+
+With good DPS, confident groups can ignore all [Titanspawn Geysers] and only reset [Toxic Geysers] close to the boss.
 
 <img class=divider>
 
@@ -194,11 +282,39 @@ Further notes for LM:
 [Bloodstone Shards]: mechanics.html#bloodstone-shards
 [Toxic Geyser]: mechanics.html#toxic-geysers
 [Toxic Geysers]: mechanics.html#toxic-geysers
+[Sulfuric Geyser]: mechanics.html#sulfuric-geysers
+[Sulfuric Geysers]: mechanics.html#sulfuric-geysers
 [Dispel]: mechanics.html#-dispel
-[Titanspawn Geyser]: mechanics.html#titanspawn-geyser
-[Titanspawn Geysers]: mechanics.html#titanspawn-geyser
+[Dispelled]: mechanics.html#-dispel
+[Titanspawn Geyser]: mechanics.html#titanspawn-geysers
+[Titanspawn Geysers]: mechanics.html#titanspawn-geysers
+[Titanspawners]: mechanics.html#titanspawn-geysers
+[Create Titanspawn Geyser]: mechanics.html#titanspawn-geysers
 [Pressure Blast]: mechanics.html#pressure-blast
 [Pressure Blasts]: mechanics.html#pressure-blast
+[Bubbles]: mechanics.html#pressure-blast
+[Titanic Resistance]: mechanics.html#-titanic-resistance
+[Champion Fumaroller]: mechanics.html#champion-fumaroller
+[Champion Fumarollers]: mechanics.html#champion-fumaroller
+[Bloodstone Saturation]: mechanics.html#-bloodstone-saturation
+[Propel]: mechanics.html#propel
+[Autoattack Chain]: mechanics.html#autoattack-chain
+[Rising Pressure]: mechanics.html#-rising-pressure
+[Steam Prison]: mechanics.html#steam-prison
+[Return]: mechanics.html#return
 
+[Chrono]: https://wiki.guildwars2.com/wiki/Chronomancer
 [Chronomancer]: https://wiki.guildwars2.com/wiki/Chronomancer
+[Chronomancers]: https://wiki.guildwars2.com/wiki/Chronomancer
+[Druid]: https://wiki.guildwars2.com/wiki/Druid
+[Specter]: https://wiki.guildwars2.com/wiki/Specter
+[Scourge]: https://wiki.guildwars2.com/wiki/Scourge
 [Power]: https://wiki.guildwars2.com/wiki/Power
+[Condition]: https://wiki.guildwars2.com/wiki/Condition_damage
+[Conditions]: https://wiki.guildwars2.com/wiki/Condition_damage
+[Defiance Bar]: https://wiki.guildwars2.com/wiki/Defiance_bar
+[Aegis]: https://wiki.guildwars2.com/wiki/Aegis
+[Stability]: https://wiki.guildwars2.com/wiki/Stability
+[Dimensional Aperture]: https://wiki.guildwars2.com/wiki/Dimensional_Aperture
+[Superspeed]: https://wiki.guildwars2.com/wiki/Superspeed
+[Invulnerable]: https://wiki.guildwars2.com/wiki/Invulnerability

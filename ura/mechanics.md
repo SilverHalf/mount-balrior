@@ -30,7 +30,7 @@ Managing Ura's mechanics requires lots of breakbar damage, cleave damage, mobili
 
 ### Bloodstone Juggling
 {: .no_toc}
-One of the defining characteristics of Ura CM are the mechanics revolving around Bloodstone shards. These are interactable objects that can be picked up by players, and are of fundamental importance for clearing the encounter, as they allow players to negate mechanics and damage enemies that they normally wouldn't be able to.
+One of the defining characteristics of Ura CM are the mechanics revolving around [Bloodstone Shards]. These are interactable objects that can be picked up by players, and are of fundamental importance for clearing the encounter, as they allow players to negate mechanics and damage enemies that they normally wouldn't be able to.
 
 Two shards spawn at the beginning of the encounter, and a player using a shard generally cannot pick up a new one for a certain amount of time. This means that, in order to cover all mechanics, it is necessary to rotate the shards throughout the entire squad: getting the hang of this "juggling" and performing it smoothly is the key to clearing the encounter, and is also the main reason why voice communications are so highly recommended.
 
@@ -53,7 +53,8 @@ Throughout the fight, Ura will periodically gain stacks of <img class="inline ri
 
 Breaking Ura's <img class='inline defiance'> [Defiance Bar] resets the number of stacks to zero. However, this has the downside of granting Ura <img class="inline titanicresistance"> [Titanic Resistance], a permanent stacking buff which reduces incoming defiance damage and makes breaking successive bars more difficult. Managing outgoing crowd control therefore is very important and requires decent coordination to only break the bar at specific intervals.
 
-In Legendary Mode, Ura regenerates 150 defiance every second, so the pressure becomes even greater.
+{: .legendary}
+Ura regenerates 150 defiance every second, so the pressure becomes even greater.
 
 ---
 
@@ -65,11 +66,13 @@ A brief description of the primary attacks performed by Ura during the encounter
 | [Scalding Aura] | -               | Hitbox | -                | Pulses damage and <img class="inline burning"> [Burning]. |
 | [Autoattack Chain] | - | Tank | - | A series of 3 attacks, dealing damage and applying <img class="inline vuln"> [Vulnerability]. The third and final attack also inflicts <img class="inline knockdown"> [Knockdown]. |
 | [Acid Spray]    | -               | Enemies in front of Ura | 1.5 | Used when the target is not in melee range. Applies <img class="inline sulfuricacid"> [Sulfuric Acid]. |
-| [Pressure Blast] | Bubbles, Friends  | Two random players  | ?                 | Traps two random players inside bubbles. These must be freed using <img class="inline dispel"> [Dispel]. |
+| [Pressure Blast] | Bubbles, Friends  | Two random players  | 25                 | Traps two random players inside bubbles. These must be freed using <img class="inline dispel"> [Dispel]. |
 | [Propel]        | Charge, Jump, Leap | Furthest player within 1500 range | 12 | Ura jumps a fixed distance, dealing heavy damage when she lands. |
 | [Return]       | Toilet, Whirlpool | - | - | Swirls players around Ura and then teleports everyone and herself to a fixed location. |
-| [Steam Prison]  | Arena, Cage | Random | ~20 | Spawns a cage around a player that reflects projectiles. |
-| [Create Titanspawn Geyser]  |  Titanspawn | - | ~30 | <img class="inline knockdown"> [Knockdown] in an AoE, then spawns a [Titanspawn Geyser]. |
+| [Steam Prison]  | Arena, Cage | Random | 15 | Spawns a cage around a player that reflects projectiles. |
+| [Create Titanspawn Geyser]  |  Titanspawn | Predetermined locations in the arena | 30 | <img class="inline knockdown"> [Knockdown] in an AoE around the boss, then spawns a [Titanspawn Geyser]. |
+| [Toxic Geyser] | Toxic | Predetermined locations in the arena | 12 in phase 1, 24 in phase 2-4 | Dangerous structures that damage players and buff the boss. |
+| [Sulfuric Geyser] | Sulfuric | Random Player | 20 | Spawns a semi-permanent structure that damages players and buffs the boss.  |
 
 <img class=divider>
 
@@ -86,13 +89,19 @@ The fight starts when both [Bloodstone Shards] are picked up by the players. Ura
 
 Additionally, [Toxic Geysers] will start spawning every 12 seconds.
 
-Once Ura hits 70% health, she will interrupt whatever skill she is casting, lock her breakbar and use [Return]. Note that if she interrupts herself while at the very beginning of a [Propel] cast, then she may not cast [Return]. Depending on her position, this can be catastrophic, as she will not move in the next phase.
+Once Ura hits 70% health, she will interrupt whatever skill she is casting, lock her breakbar and use [Return]. 
+
+{: .note}
+If the transition interrupts the very beginning of a [Propel] cast, then she may not cast [Return]. Depending on her position, this can be catastrophic, as she will not move in the next phase.
 
 ---
 
 ### 70% - 40%
 
-Assuming a successful [Return], the second phase starts after everyone has been transported to Ura's new starting location. The [Toxic Geyser] timer continues from the previous phase, however, the next spawn point changes to 8 (see the image [here](#toxic-geysers)) and will continue from there (9, 10, ...) in phase 2. The time interval between [Toxic Geyser] spawns changes to 24s in Challenge Mode, but stays at 12s in Legendary Mode.
+Assuming a successful [Return], the second phase starts after everyone has been transported to Ura's new starting location. The [Toxic Geyser] timer continues from the previous phase, however, the next spawn point changes to 8 (see the image [here](#toxic-geysers)) and will continue from there (9, 10, ...) in phase 2. The time interval between [Toxic Geyser] spawns changes to 24s in Challenge Mode.
+
+{: .legendary}
+The time interval between [Toxic Geyser] spawns remains at 12s.
 
 Ura herself is stationary in phase 2 and will not not cast [Propel] or [Pressure Blast]. Instead, she will gain the following abilities:
 - [Create Titanspawn Geyser]
@@ -113,13 +122,17 @@ This phase continues until Ura hits 1% of her maximum HP.
 
 ### Post-Heal - 0%
 
-When Ura reaches 1% health, she becomes <img class='inline invuln'> [Invulnerable], clears all <img class="inline condition"> [Conditions] from herself, and heals by 15% of her maximum HP (30% in Legendary Mode).
+When Ura reaches 1% health, she becomes <img class='inline invuln'> [Invulnerable], clears all <img class="inline condition"> [Conditions] from herself, and heals by 15% of her maximum HP. The enrage timer will also increase by 1 minute.
+
+{: .legendary}
+Ura will heal by 30% of her maximum HP instead of 15%.
 
 Ura's skill-set remains the same as in phase 3. The [Toxic Geyser] pattern continues from phase 3 without any timer or location resets. The only change in Ura's attacks is that [Sulfuric Geyser] now targets two players at once, instead of only one.
 
-> Note: Ura will self-interrupt herself at 40% in phase 4 again due to the self-interrupt that happens from the transition of phase 2 into phase 3. This is an unfortunate bug that can lead to animations being cancelled and Ura incorrectly using Propel.
+At the start of this phase, a [Titanspawn Geyser] will always spawn.
 
-At the start of this phase, a [Titanspawn Geyser] will always spawn. Furthermore, in Legendary Mode all [Titanspawn Geysers] will start spawning [Legendary Ventshots] instead of [Champion Fumarollers] during this phase.
+{: .legendary}
+[Titanspawn Geysers] will start spawning [Legendary Ventshots] instead of [Champion Fumarollers] during this phase.
 
 <img class=divider>
 
@@ -127,7 +140,7 @@ At the start of this phase, a [Titanspawn Geyser] will always spawn. Furthermore
 
 This section contains a full, in-depth explanation of all mechanics in the encounter.
 
-Ura has a priority rotation, and the skills she has available depend on the phase, but they'll always follow a certain priority:
+The skills Ura has available depend on the phase, but they  follow a certain priority. Ura will always cast the highest priority skill off-cooldown.
 
 |**Priority**|**Skill**                 |**100% - 70%**     |**70% - 40%**      |**40% - 1%**       |**Heal - 0%**      |
 |1           |[Pressure Blast]          |<img class="check">|                   |<img class="check">|<img class="check">|
@@ -137,6 +150,9 @@ Ura has a priority rotation, and the skills she has available depend on the phas
 |5           |[Propel]                  |<img class="check">|                   |<img class="check">|<img class="check">|
 |6           |[Autoattack Chain]        |<img class="check">|                   |<img class="check">|<img class="check">|
 |7           |[Acid Spray]              |<img class="check">|<img class="check">|<img class="check">|<img class="check">|
+|-           |[Toxic Geyser]            |<img class="check">|<img class="check">|<img class="check">|<img class="check">|
+
+Ura cannot target <img class='inline stealth'> [Stealthed] players with skills.
 
 ---
 
@@ -182,32 +198,63 @@ Geysers are enemy structures that are spawned by Ura periodically throughout the
 
 Toxic Geysers spawn at specific time intervals in defined positions, shown in the image below. Spawning always starts at the first position and continues sequentially until the last.
 
-In Challenge Mode, toxic geysers spawn every 12 seconds during the first phase, and every 24 seconds in the following phases. In Legendary Mode, they instead spawn every 12 seconds in all phases.
+In Challenge Mode, toxic geysers spawn every 12 seconds during the first phase, and every 24 seconds in the following phases.
+
+{: .legendary}
+Toxic Geysers spawn every 12 seconds in all phases.
 
 <img class="center" width="80%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
 
-Toxic Geysers spawn with a 580 radius AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. Furthermore, this AoE also increases in radius every second by 10 units. As long as Ura is in contact with this AoE, she will periodically gain <img class='inline protection'> [Protection], <img class='inline resolution'> [Resolution] and 25 <img class='inline might'> [Might].
+Toxic Geysers spawn with a 580 radius AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. This AoE also increases in radius every second by 10 units. Breaking the geyser's <img class='inline defiance'> [Defiance Bar] disables its AoE field until the bar regenerates (~14 seconds) and resets its radius.
 
-Breaking a Toxic Geyser's <img class='inline defiance'> [Defiance Bar] disables its AoE field and resets its radius. Toxic Geysers are immune to damage when spawning, but can be made vulnerable by using <img class="inline dispel"> [Dispel]. A geyser that is vulnerable and has had either its defiance or health depleted will be destroyed.
+As long as Ura is in contact with the original radius, she will periodically gain <img class='inline protection'> [Protection], <img class='inline resolution'> [Resolution] and 25 <img class='inline might'> [Might].
+
+{: .note}
+The enlarged area of Toxic Geysers will not grant Ura boons: only the original radius they spawn with can.
+
+Toxic Geysers spawn with <img class='inline hardened'> [Hardened Shell], requiring <img class="inline dispel"> [Dispel] to make them vulnerable. A geyser that is vulnerable and has had either its defiance or health depleted will be destroyed.
 
 Because Toxic Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective against them.
 
+{: .legendary}
+Toxic Geysers have 1000 <img class='inline defiance'> [Defiance Bar] HP instead of 800, and regenerate 150 Defiance every second.
+
+---
+
 #### Sulfuric Geysers
 {: .no_toc}
-Ura will periodically perform an animation and target a player with a Sulfuric Geyser. The player will get an audio cue, a timer above their head, and waves will start emanating around their position to show that they have been targeted.
+Ura will periodically perform an animation and target a player with a Sulfuric Geyser. The player will get an audio cue, the border of their screen will change, they will gain a timer above their head, and waves will start emanating around their position to show that they have been targeted.
 
 After 5 seconds, the timer will run out and a sulfuric geyser will spawn on the player's position. Sulfurics spawn with an AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. As long as Ura is in contact with this AoE, she will periodically gain <img class='inline protection'> [Protection], <img class='inline resolution'> [Resolution] and 25 <img class='inline might'> [Might].
 
+When the geyser spawns, it will release a circular shockwave that will expand and cover the entire arena. This wave can be dodged, blocked or jumped, and it deals damage and inflicts <img class='inline sulfuricacid'> [Sulfuric Acid] on hit. 
+
 Sulfuric Geysers cannot be destroyed, but despawn 5 minutes after they appear. They must be positioned accordingly at the edges of the arena so that they don't impede the squad and buff the boss for this duration.
+
+Players targeted by a geyser will gain 5 seconds of <img class='inline superspeed'> [Superspeed], expiring exactly in the location the geyser will spawn at.
+
+Over the course of the fight, some sulfurics will spawn naturally at regular intervals, independently from the boss casting the skill. The approximate position of these geysers is chosen randomly from one among those highlighted in the image below. A position can be chosen multiple times over the course of the fight.
+
+<img class=center src='../images/ura/ura_sulfuric_geyser_spawns.webp' width='50%'>
+
+---
 
 #### Titanspawn Geysers
 {: .no_toc}
 
 When spawning a Titanspawn Geyser, Ura jumps into the air and crashes down, damaging everyone in an AoE centered around her. This attacks deals moderate damage and inflicts <img class='inline knockdown'> [Knockdown].
 
-After this, a Titanspawn Geyser will spawn in a random location. This structure immediately spawns a [Champion Fumaroller], or a [Legendary Ventshot] in Legendary Mode during the final phase. Another add will spawn every 15 seconds until the geyser is destroyed.
+After this, a Titanspawn Geyser will spawn in one of five locations, chosen at random from those shown in the picture below. This structure immediately spawns a [Champion Fumaroller]. Another add will spawn every 15 seconds until the geyser is destroyed.
 
-Titanspawners are invulnerable when created, but can be made vulnerable using <img class="inline dispel"> [Dispel]. They also have a <img class='inline defiance'> [Defiance Bar] that can be broken to apply <img class='inline exposed'> [Exposed].
+<img class=center src='../images/ura/ura_titanspawn_positions.webp' width='50%'>
+
+{: .note}
+A Titanspawner can target the same location as another pre-existing one. In this case, its spawn is suppressed.
+
+{: .legendary}
+During the final phase, whenever a Titanspawner would spawn a [Champion Fumaroller], a [Legendary Ventshot] will spawn instead.
+
+Titanspawn Geysers spawn with <img class='inline hardened'> [Hardened Shell], requiring <img class="inline dispel"> [Dispel] to make them vulnerable. They also have a <img class='inline defiance'> [Defiance Bar] that can be broken to apply <img class='inline exposed'> [Exposed].
 
 Because Titanspawn Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective on them.
 
@@ -215,19 +262,29 @@ Because Titanspawn Geysers are constructs, they have lower armor and thus <img c
 | [Champion Fumaroller]     | 1,789,242    | 300        | 1000             |
 | [Legendary Ventshot] (LM) | 23,594,400   | 300        | 2000             |
 
+---
+
 #### Champion Fumaroller
 {: .no_toc}
 
 These dangerous enemies generally target players close to them and can be baited close to the boss in order to CC, cleave and kill them. They have three notable attacks:
-- <u>Charge</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback].
-- <u>Snowflake</u> - a dangerous attack consisting in a pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it.
-- <u>I Should Try Spinning</u> - the Fumaroller fuma-rolls in place, pulsing damage and <img class="inline knockback"> [Knockback]. 
+- <u>Full Stream</u> - a headbutt attack in a line that inflicts <img class="inline knockback"> [Knockback]. Targets the player with the highest toughness in the Fumaroller's cone of view.
+- <u>Breaking Ground</u> - a dangerous attack consisting in a snowflake pattern of lines centered on the Fumaroller which deals heavy damage to all players standing on it. Vertices deal extra damage. Pulses <img class="inline knockback"> [Knockback] three times.
+- <u>Mantle Grinder</u> - the Fumaroller rolls in place, pulsing damage. Inflicts <img class="inline knockback"> [Knockback] once at the start of the animation.
+
+{: .note}
+Fumarollers are capped to an entity limit of 10, which includes [Titanspawn Geysers], and cannot spawn once this limit is reached.
+
+---
 
 #### Legendary Ventshot
 {: .no_toc}
 These enemies only spawn in Legendary Mode during the final phase instead of [Champion Fumarollers]. They have over 20 million health and are therefore not meant to be killed, but remain extremely dangerous due to their capabilities:
 - <u>Tethers</u> -Ventshots periodically tether to up to five nearby titans, geysers, or other ventshots. If less than five allies are present, they will tether multiple times to the same ally until they form five tethers. Each tether applies <img class='inline risingpressure'> [Rising Pressure] to the corresponding ally. This buff has a shorter duration than usual, only lasting for ~12 seconds.
-- <u>Please let me play the game</u> - most of the Ventshot's other attacks deal heavy damage, inflict <img class='inline knockdown'> [Knockdown] and <img class='inline burning'> [Burning], and are generally very undesirable. For this reason the general approach to these is to maintain permanent <img class='inline stability'> [Stability] and projectile denial throughout the final phase.
+- <u>Please let me play the game</u> - most of the Ventshot's other attacks deal heavy damage, inflict <img class='inline knockdown'> [Knockdown], <img class="inline knockback"> [Knockback] and <img class='inline burning'> [Burning], and are generally very undesirable. For this reason the general approach to these is to maintain permanent <img class='inline stability'> [Stability] and projectile denial throughout the final phase.
+
+{: .note}
+Ventshots are capped to an entity limit of 6, which includes [Titanspawn Geysers] and [Champion Fumarollers], and cannot spawn once this limit is reached.
 
 ---
 
@@ -247,24 +304,33 @@ This attack is used when Ura's target is not in melee range and she has no other
 ### Pressure Blast
 {: .no_toc}
 
-This mechanic targets two random players with small white tracking AoEs. Targeted players will hear an audio cue, and after a short time interval, all allies inside the AoEs will be captured in bubbles and start floating upwards. 
+This mechanic targets two random players with small tracking AoEs. Targeted players will hear an audio cue, and after a short time interval, all allies inside the AoEs will be captured in bubbles and start floating upwards. 
 
-Captured players cannot use any movement or abilities, and cannot be <img class='inline stunbreak'> [Stunbroken] out of this effect. They can only be freed using <img class='inline dispel'> [Dispel], otherwise continuing to float up until the bubbles pop, at which point they will drop down and die to fall damage.
+Captured players cannot use any movement or abilities, and cannot be <img class='inline stunbreak'> [Stunbroken] out of this effect. They can only be freed using <img class='inline dispel'> [Dispel], otherwise continuing to float up until the bubbles pop, at which point they will be instantly defeated.
+
+When freed, players will drop down normally to the arena floor. If low health, it is recommended to glide so as to not take falling damage.
 
 It is standard practice for both players targeted by this skill to stack together a small distance away from the main group. This allows both to be freed with a single cast of <img class='inline dispel'> [Dispel], without the skill affecting the rest of the squad. For this reason, this mechanic is often called "friends".
 
-The cooldown of [Pressure Blast] starts counting once all captured players are freed and hence it's of highest importance to free the captured players always as fast as possible (to mitigate the chance of Ura casting [Propel] during Phase 3 and 4).
-
 Players affected by <img class='inline deterrence'> [Deterrence] cannot be targeted or affected by this skill.
+
+{: .note}
+The cooldown of [Pressure Blast] starts once all captured players are freed. This makes it extremely important to free the captured players as fast as possible to mitigate the chance of Ura casting [Propel] during Phase 3 and 4 (see [preventing Propel](./strategy.html#preventing-propel)).
+
+{: .note}
+If players suspended by bubbles are hit by a <img class='inline knockback'> [Knockback], such as from [Champion Fumarollers], their actual position will be misaligned from the white indicator. <img class='inline dispel'> [Dispel] should always be used directly underneath the affected players.
 
 ---
 
 ### Propel
 {: .no_toc}
 
-Ura targets the furthest player and jumps a fixed distance, dealing heavy damage when she lands. This can be mitigated with any traditional method.
+Ura targets the furthest player within 1500 range and jumps a fixed distance, dealing heavy damage when she lands. This can be mitigated with any traditional method.
 
 This and [Return] are the only ways the boss can move, as it cannot walk. Therefore, groups often try to bait this skill to position the boss in an advantageous location (for example, out of the range of [Toxic Geysers] or [Sulfuric Geysers]).
+
+{: .note}
+In phases 3 and 4, since this skill has a relatively low priority, it is possible to prevent Ura from using it at all. See [preventing Propel](./strategy.html#preventing-propel) for more information.
 
 ---
 
@@ -273,7 +339,7 @@ This and [Return] are the only ways the boss can move, as it cannot walk. Theref
 
 This attack happens during the transition into the second phase, when Ura hits 70%, but also if Ura hits the edge of the arena due to [Propel].
 
-Ura will start swirling all players around her in a vortex, capturing them after a moment and then teleporting herself and them to her spawn point. Captured players are affected identically as with [Pressure Blast]: they will be unable to move or use skills until <img class='inline dispel'> [Dispel] is used to free them or they die due to the bubbles popping.
+Ura will start swirling all players within 1500 range around her in a vortex, capturing them after a moment and then teleporting herself and them to her spawn point. Captured players are affected identically as with [Pressure Blast]: they will be unable to move or use skills until <img class='inline dispel'> [Dispel] is used to free them or they die due to the bubbles popping.
 
 Players can dodge this mechanic with the right timing, but this is often not useful they will be separated from the rest of the squad and will have to run back to Ura.
 
@@ -285,7 +351,8 @@ Targets a random player with a large AoE. They will hear an audio cue, and after
 
 All projectiles originating inside the arena will be reflected back to their caster, which can quickly down an unprepared individual. The walls also inflict <img class='inline knockback'> [Knockback] to players attempting to exit the cage, preventing these movements unless the players are provided with <img class="inline stability"> [Stability]. Blinks, shadowsteps and portals also let players exit.
 
-When placing the arena, medium range dashes can be used with the correct timing to not get caught inside. <img class='inline superspeed'> [Superspeed] also allows placing the arena and getting safely out by just running quickly enough before the arena spawns.
+{: .note}
+When placing the arena, since there is a small delay between when the location is chosen and when the arena actually spawns, dashes, <img class='inline superspeed'> [Superspeed] or double dodging can be used with the correct timing to not get caught inside.
 
 ---
 
@@ -307,6 +374,10 @@ Ura's encounter has various effects applied to players or enemies, which are lis
 Every time Ura's <img class='inline defiance'> [Defiance Bar] is broken, she gains one stack of <img class="inline titanicresistance"> [Titanic Resistance]. This effect reduces any incoming defiance damage by 5% and is additive. For example, once Ura has 10 stacks of <img class="inline titanicresistance"> [Titanic Resistance], defiance damage is reduced by 50%, which effectively doubles her breakbar.
 
 This mechanic essentially limits the number of times the breakbar can be broken to roughly 13 to 15 times per encounter, depending on the squad composition.  This dictates the timing of when to break the bar, which comes out to be roughly every 40 to 50 seconds.
+
+<details>
+<summary>Click to expand table</summary>
+<div markdown=block>
 
 | Stacks | CC Multiplier |  Effective regen (LM) [1/s] | Effective CC bar |
 | 0  | 1    | 150  | 3000  |
@@ -331,12 +402,18 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 | 19 | 0,05 | 3000 | 60000 |
 | 20 | 0,0  | Infinite|Infinite|
 
+</div>
+</details>
+
 ---
 
 ### <img class="inline risingpressure"> Rising Pressure
 {: .no_toc}
 
-Ura, [Champion Fumarollers] and [Legendary Ventshots] gain one stack of [Rising Pressure] every 8 seconds in LM and every 12 seconds in CM. This effect increases damage dealt and reduces incoming damage by 5% per stack (additively). Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks.
+Ura, [Champion Fumarollers] and [Legendary Ventshots] gain one stack of <img class="inline risingpressure"> [Rising Pressure] every 12 seconds. This effect increases damage dealt and reduces incoming damage by 5% per stack (additively). Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
+
+{: .legendary}
+All entities gain <img class="inline risingpressure"> [Rising Pressure] every 8 seconds instead of every 12.
 
 ---
 
@@ -350,16 +427,23 @@ A debuff applied to players when they use <img class='inline dispel'> [Dispel]. 
 ### <img class="inline deterrence"> Deterrence
 {: .no_toc}
 
-A buff a player gets when holding a [Bloodstone Shard]. Players affected by this buff cannot be targeted by [Pressure Blast].
+A buff a player gets when holding a [Bloodstone Shard]. Players affected by this buff cannot be targeted or affected by [Pressure Blast].
 
 ---
 
 ### <img class="inline sulfuricacid"> Sulfuric Acid
 {: .no_toc}
 
-A stacking debuff applied by various mechanics that deals damage every second and applies one stack of [Exposed] every 5 seconds.
+A dangerous stacking debuff applied by various mechanics that deals damage every second and applies one stack of [Exposed] every 5 seconds.
 
-Sulfuric Acid can be removed with normal condition cleanse, but only ever one stack at a time, even if the skill would remove multiple conditions. Furthermore, it cannot be transfered to an enemy, though the debuff is cleansed normally.
+It can be removed with normal condition cleanse, but only ever one stack at a time, even if the skill would remove multiple conditions. It has very low priority, meaning that generally it will be the last condition removed in case of multiple conditions on the same player. Furthermore, it cannot be transferred to enemies, though this will cleanse as usual.
+
+---
+
+### <img class='inline hardened'> Hardened Shell
+{: .no_toc}
+
+A buff applied to [Toxic Geysers] and [Titanspawn Geysers] upon spawning. Makes the owner immune to damage and conditions, and can only be removed by <img class='inline dispel'> [Dispel].
 
 <img class=divider>
 
@@ -377,10 +461,10 @@ Sulfuric Acid can be removed with normal condition cleanse, but only ever one st
 [Champion Fumarollers]:  #champion-fumaroller
 [Legendary Ventshot]: #legendary-ventshot
 [Legendary Ventshots]: #legendary-ventshot
-[Toxic Geyser]: #toxic-geyser
-[Toxic Geysers]: #toxic-geyser
-[Sulfuric Geyser]: #sulfuric-geyser
-[Sulfuric Geysers]: #sulfuric-geyser
+[Toxic Geyser]: #toxic-geysers
+[Toxic Geysers]: #toxic-geysers
+[Sulfuric Geyser]: #sulfuric-geysers
+[Sulfuric Geysers]: #sulfuric-geysers
 [Create Titanspawn Geyser]: #titanspawn-geysers
 [Titanspawn Geyser]: #titanspawn-geysers
 [Titanspawn Geysers]: #titanspawn-geysers
@@ -393,6 +477,7 @@ Sulfuric Acid can be removed with normal condition cleanse, but only ever one st
 [Rising Pressure]: #-rising-pressure
 [Return]: #return
 [Sulfuric Acid]: #-sulfuric-acid
+[Hardened Shell]: #-hardened-shell
 
 [Invulnerable]: https://wiki.guildwars2.com/wiki/Invulnerable
 [Defiance Bar]: https://wiki.guildwars2.com/wiki/Defiance_bar
@@ -412,3 +497,4 @@ Sulfuric Acid can be removed with normal condition cleanse, but only ever one st
 [Exposed]: https://wiki.guildwars2.com/wiki/Exposed
 [Stunbroken]: https://wiki.guildwars2.com/wiki/Stun_break
 [Superspeed]: https://wiki.guildwars2.com/wiki/Superspeed
+[Stealthed]: https://wiki.guildwars2.com/wiki/Stealth
