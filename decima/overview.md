@@ -25,7 +25,7 @@ Most of Decima's mechanics and attacks choose their target based on the players'
 
 This does not mean however that it is easy: groups heading into Decima's arena will require good healing and <img class="inline protection"> [Protection](https://wiki.guildwars2.com/wiki/Protection) uptime, <img class="inline stability"> [Stability](https://wiki.guildwars2.com/Stability), and precise control of their <img class="inline defiance"> [Defiance](https://wiki.guildwars2.com/wiki/Defiance_bar) damage.
 
-The fight also becomes much easier with higher damage, as the group will be have to play less mechanics. Furthermore, the final phase is a difficult damage check.
+The fight also becomes much easier with higher damage, as the group will be have to play less mechanics. Especially with the final phase being a difficult damage check.
 
 <img class=divider>
 
