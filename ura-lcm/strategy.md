@@ -326,7 +326,7 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
         <tr>
             <td class='phase1'>1</td>
             <td><a href="#willbender-strategy-builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
-            <td>CC + Ranged</td>
+            <td>Ranged</td>
             <td></td>
             <td>1</td>
         </tr>
@@ -368,7 +368,7 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
         <tr>
             <td class='phase2'>2</td>
             <td><a href="#willbender-strategy-builds-and-povs"><img class='inline chrono'> Heal Chronomancer</a></td>
-            <td>Melee</td>
+            <td>Ranged</td>
             <td></td>
             <td>4</td>
         </tr>
@@ -396,7 +396,7 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
     </tbody>
 </table>
 
-This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] is almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vulnerability'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns'> [Relic of Thorns]).
+This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] is almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
 
 All four supports are part of the ranged group. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
 
@@ -439,6 +439,8 @@ Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], respon
 2. <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
 
 If players cannot CC, they should call for backups. Since there is one more person in the rotation compared to a normal standard strategy, there is some flexibility.
+
+---
 
 #### How to meet the DPS check
 
