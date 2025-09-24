@@ -1,6 +1,8 @@
 @import 'icons.scss';
 @import 'table.scss';
 
+$gold: #e0be00;
+
 .inline { 
     width: 1em !important;
     height: 1em;
@@ -32,7 +34,32 @@
     transition: all 0.1s linear;
 }
 
+.guides-button {
+    border: 3px outset;
+    background-size: cover;
+    border-radius: 15px;
+    border-color: $link-color;
+    height: 100px;
+    width: 100%;
+    flex: 33%;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: black 0px 0px 5px;
+    background-position: center;
+    transition: all 0.1s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .index-button:hover {
+    cursor: pointer;
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.guides-button:hover {
     cursor: pointer;
     border-color: white;
     transform: scale(1.02);
