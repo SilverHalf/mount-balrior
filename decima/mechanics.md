@@ -63,7 +63,9 @@ Several of Decima's attacks hit hard, requiring proper healing and damage mitiga
 
 Misplaying mechanics usually results in the boss acquiring <img class="inline charge"> [Charge] stacks. This can be dangerous since the boss's damage scales with the number of stacks, additionally upon gaining 10 stacks the boss enrages,killing the entire group . However, Decima resets her <img class="inline charge"> [Charge] level twice, at 70%, 40% of her HP, and as a result the encounter is relatively forgiving.
 
-#### Table of Mechanics
+---
+
+### Table of Mechanics
 {: .no_toc}
 A brief description of the primary mechanics in the fight. Click on a mechanic to view additional information.
 
@@ -428,6 +430,8 @@ The sequence in which Decima gains <img class="inline harmony"> [Peal of Harmony
 
 ## List of Mechanics
 This section contains a full, in-depth explanation of all mechanics in the encounter.
+
+---
 
 ### Thrumming Presence
 {: .no_toc}

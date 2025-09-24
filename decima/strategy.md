@@ -14,7 +14,7 @@ This strategy is a written version of this [PoV](https://www.youtube.com/watch?v
 All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
 
 <details>
-<summary>Click to view markers</summary>
+<summary>Click to view markers</summary>>
 <contents>
 <img class="center" width="60%" src="../images/decima/strategy/markers.webp" />
 <div>Paste the following code into Commander Markers to use this marker pack:</div>
