@@ -101,7 +101,11 @@ Depending on the group's DPS, you may already phase now into the first split pha
     <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p1-6.webp">
 </label>
 
-> Note: Phasing after the second collection usually indicates a serious DPS issue: this needs to be resolved or the group will struggle greatly with the damage check in the final phase.
+{: .note}
+Phasing after the second collection usually indicates a serious DPS issue: this needs to be resolved or the group will struggle greatly with the damage check in the final phase.
+
+{: .note}
+The kiter's positioning in this phase is meant to spread out the charged [Conduits] between the inner rings of the formation. In this way there will be less [Greens] in the next phase.
 
 ---
 
@@ -111,7 +115,8 @@ The ranged and melee group will split to their respective closest [Transcendent 
 <br>
 The two healers can either pre-place their portal before going to the adds (required for <img class='inline specter'> [Specter] since their portal is one-way), or place it after playing the main mechanic during this split.
 
-> Note: For the melee portal, the healer needs to pay attention to **prepare the portal to the side** of Decima, not in front. This is to prevent the melee group getting hit by by Decima's [Fluxlance] attack after taking the portal.
+{: .note}
+For the melee portal, the healer needs to pay attention to **prepare the portal to the side** of Decima, not in front. This is to prevent the melee group getting hit by by [Fluxlances] after taking the portal.
 
 While damaging the [Transcendent Boulder] adds down as fast as possible, it's important to not use any skills with Breakbar damage in order to skip their dangerous follow-up attacks. 
 
@@ -123,6 +128,9 @@ Decima will continue her attack loop from where she left off after jumping, resu
 </label>
 
 After the Fluxlances and Thunders, the two healers can open their portals to get everyone back to Decima. The ranged group should be ported outside the cage, while the melee group should be ported into the cage.
+
+{: .note}
+Some experienced squads will portal both subgroups into Decima's cage. This is usually a small DPS increase for the ranged group, but requires more careful positioning. 
 
 ---
 
@@ -208,7 +216,7 @@ The kiter in this phase has the additional responsibility of managing the spawn 
     <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p3-2.webp">
 </label>
 
-The first set of [Fluxlances] in this phase includes the [Focused Fluxlance]. If the kiter baits correctly on the right-hand side, the Green Arrow will spawn to the left of Decima, directly on top of the melee group. Melee group needs to stack inside of the [Focused Fluxlance] it to solve the mechanic. This can overlap with [Thunders]: in this case the melee group will need to dodge backward/forward, still staying inside the Green Arrow so as to not fail the mechanic.
+The first set of [Fluxlances] in this phase includes the [Focused Fluxlance]. If the kiter baits correctly on the right-hand side, the Green Arrow will spawn to the left of Decima, directly on top of the melee group. The melee group needs to stack inside of the [Focused Fluxlance] to solve the mechanic. This can overlap with [Thunders]: in this case they will need to dodge backward/forward while still staying inside the Green Arrow so as to not fail the mechanic.
 
 Next, Decima will [Seismic Reposition] to a different position. Be ready to provide <img class='inline stability'> [Stability] and follow Decima to her new location. The melee group can position themselves to stand between Decima and the conduits that have been charged up already; the ranged group should remain in the center and the kiter should bait on the opposite side to the melee group.
 
@@ -298,6 +306,7 @@ If 10 [Greens] move into Decima's hitbox, Decima will become invulnerable and yo
 [Thunder]: mechanics.html#chorus-of-thunder
 [Fulminate]: mechanics.html#fulminate
 [Greens]: mechanics.html#dancing-sparks
+[Conduits]: mechanics.html#conduits
 [Foreshock & Mainshock]: mechanics.html#foreshock--mainshock
 [Seismic Crash]: mechanics.html#seismic-crash
 [Seismic Reposition]: mechanics.html#seismic-crash
