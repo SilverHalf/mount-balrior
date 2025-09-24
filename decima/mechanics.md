@@ -22,7 +22,7 @@ The rest of this page is structured into the following sections:
 
 ## Overview
 
-Decima's basic behaviour is centered around an attack loop: a series of skills that constantly repeat until the boss progresses to the next phase by being lowered to determined health thresholds. This means that the encounter is relatively scripted; since the sequence is known, the squad can always predict and prepare for oncoming mechanics. The sequence varies phase by phase, but following has the structure:
+Decima's basic behaviour is centered around an attack loop: a series of skills that constantly repeat until the boss progresses to the next phase by being lowered to determined health thresholds. This means that the encounter is relatively scripted; since the sequence is known, the squad can always predict and prepare for oncoming mechanics. The sequence varies phase by phase, but has the following structure:
 
 ```mermaid
 flowchart LR
@@ -57,7 +57,7 @@ flowchart LR
 
 
 
-Proximity to the boss determines the targets for the primary mechanics, [Chorus of Thunder] and [Fluxlances]. Meaning with proper positioning, these mechanics can be assigned to the same players for each occurrence, making the fight easier for the group as a whole. 
+Proximity to the boss determines the targets for the primary mechanics, [Chorus of Thunder] and [Fluxlances]. With proper positioning, these mechanics can be assigned to the same players for each occurrence, making the fight easier for the group as a whole. 
 
 Several of Decima's attacks hit hard, requiring proper healing and damage mitigation management. <img class="inline stability"> [Stability] is also required for both groups at differing times throughout the fight.
 
@@ -230,7 +230,8 @@ As soon as Decima reaches 80% of her HP, she will finish whatever animation she 
   <source src="../videos/decima_conduits_1.mp4" type="video/mp4">
 </video>
 
-An additional note: Decima will always reposition to the formation consisting of the [Conduits] that were formerly on the outermost ring (colored in blue in the video above).
+{: .note}
+Decima will always move to the formation consisting of the [Conduits] that were formerly on the outermost ring (colored in blue in the video above).
 
 As soon as Decima is done repositioning, she continues with the same attack loop as in the previous phase, except all attacks will originate from her <b>new position</b>.
 
@@ -252,7 +253,7 @@ Once Decima reaches 70% of her health and both [Transcendent Boulders] are dead,
 
 ### Second Phase
 If Decima's <img class="inline defiance"> [Defiance Bar] was broken during [Flux Nova], she will start the phase with 10 seconds of <img class='inline stun'> [Stunned] and <img class="inline exposed"> [Exposed].  This phase is structured similarly to the previous one, with two burn phases divided by a split phase at 50% HP. 
-The major difference here are two fold: conduit movements are markedly different from the first phase and the 50% split phase is significantly more dangerous. Combined often proving to be a major hurdle for progression.
+The major difference here is two fold: conduit movements are markedly different from the first phase and the 50% split phase is significantly more dangerous. Combined, these often prove to be a major hurdle for progression.
 
 
 #### 70% - 50%
@@ -473,7 +474,10 @@ Targets the five furthest players with fluxlances. After a brief delay, all lanc
 
 #### Converging Fluxlances
 {: .no_toc}
-(Note: this skill does not have an official name, so this name is given for convenience.)
+
+{: .note}
+This skill does not have an official name, so this name is given for convenience.
+
 A combined attack performed by Decima and two [Transcendent Boulders]. This attack consists of:
 - One [Red Fluxlance] cast by Decima and targeting the furthest player from her.
 - Two [Standard Fluxlances] cast by Decima and targeting the next two furthest players.
@@ -606,7 +610,7 @@ The boulder smashes the ground continuously, for a cast time of 19.75 seconds, d
 
 #### Seismoelectricity
 {: .no_toc}
-The boulder jumps into the air and then crashes down: releasing six arcs of electricity that spread out in a hexagonal shape, before returning to the add. These arcs will deal damage and remove boons from players they hit, thesecan be jumped or blocked.
+The boulder jumps into the air and then crashes down: releasing six arcs of electricity that spread out in a hexagonal shape, before returning to the add. These arcs will deal damage and remove boons from players they hit and can be jumped or blocked.
 
 #### Sparkwave
 {: .no_toc}
