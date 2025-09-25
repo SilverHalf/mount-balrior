@@ -1,6 +1,8 @@
 @import 'icons.scss';
 @import 'table.scss';
 
+$legpurple: rgb(170, 153, 255);
+
 .inline { 
     width: 1em !important;
     height: 1em;
@@ -129,6 +131,14 @@ input:checked + .decima-arena-image {
 }
 
 .purple {
-    background-color: rgb(92, 41, 154);
-    color: white;
+    color: $legpurple;
+    margin-left: 15px;
+}
+
+.uralm {
+    color: $legpurple;
+}
+
+em {
+color: #F1D47A;
 }
