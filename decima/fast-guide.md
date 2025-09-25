@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quick Guides
+title: Fast Guides
 nav_order: 3
 parent: Godsquall Decima
 ---
@@ -50,14 +50,13 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiRGVjaW1hIENNIFN0cmF0ZWd5IiwiZGVzY3JpcHRpb24iOiJE
 
 # Melee Boon/DPS Quick Guide
 
-BoonDPS and DPS play their role similarly and thus are grouped together.
-Your responsibilities over the entirety of the fight consist in:
+Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Being close to the boss so that you are targeted by [Spreads].
 2. Intercepting [Greens] on their way to the boss.
 
-The main risks you have to be aware of are:
-1. Being directly under the boss when she casts [Seismic Crash] or [Earthrend]; this will kill you.
-2. Getting hit by an [Arrow] will prevent you from intercepting [Greens] without dying.
+The main risks you will should be aware of are:
+1. Being directly under the boss when she casts [Seismic Crash] or [Earthrend]: this will kill you.
+2. Getting hit by an [Arrow]: this will prevent you from intercepting [Greens] without dying.
 
 ---
 
@@ -70,22 +69,23 @@ The main risks you have to be aware of are:
 - Stack with your group on the side of the <img class='inline arrow'> marker and attack the boss.
 - Make sure you never stand inside the boss' hitbox.
 - When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox.
-- When you see [Greens], intercept them by standing on them. Make sure you do not move out to do this: only intercept them when they are in melee range to the boss. Never move out of melee range.
+- When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox. Never move out of melee range.
 
 #### First Split Phase
-- Once Decima becomes <img class='inline invuln'> [Invulnerable], turn around 180° and walk forwards to get into your cage.
+- Once Decima becomes <img class='inline invuln'> [Invulnerable], turn around 180° and walk into your cage.
 - Start attacking the [add], taking care not to CC it.
-- Make sure you are standing on the inside of the add, towards Decima, to bait [Spreads]. When you get your spread, dodge it outwards, towards the add.
+- Make sure you are standing on the inside of the add, towards Decima, to bait [Spreads]. When you get your spread, dodge it towards the add.
 - Once the add is dead, your healer should provide you with a portal. Take it to get back to the boss.
 
 #### 80% - 70%
-Same as before. The first collection can be tricky: use your movement skills to get to [Greens] in time if necessary.
+- Play this phase the same as 100%-80% in your new position.
+- The first collection can be tricky: use your movement skills to get to [Greens] in time if necessary.
 
 #### 70% Transition
 - Save your DPS and CC skills once Decima hits 70%.
 - Follow the boss when it jumps. Dodge any [Spreads].
 - Use all your CC on the boss.
-- Use your personal healing skill to offset the big damage attack when it starts.
+- Use your personal healing skills to offset the big damage attack when it starts.
 
 </div>
 </details>
@@ -104,13 +104,13 @@ Same as before. The first collection can be tricky: use your movement skills to 
 - It is <b>extremely important</b> to not CC the [add] in this phase.
 
 #### 50% - 40%
-- Played identically to 80% - 70%
+- Played identically to 80% - 70%.
 
 #### 40% Transition
 - Save your DPS and CC skills once Decima hits 40%.
 - Follow the boss when it jumps. Dodge any [Spreads].
 - Use all your CC on the boss.
-- Use your personal healing skill to offset the big damage attack when it starts.
+- Use your personal healing skills to offset the big damage attack when it starts.
 
 </div>
 </details>
@@ -120,10 +120,10 @@ Same as before. The first collection can be tricky: use your movement skills to 
 <div markdown='block'>
 
 #### 40% - 10%
-- Follow your commander's indication on which side of the boss to stack on.
 - Follow the boss whenever it jumps.
-- The [Green Arrow] is the most important mechanic: make sure you are always in it.
-- If you get [Spreads] during the [Green Arrow], make sure to dodge them while staying inside the arrow.
+- Follow your commander's indication on which side of the boss to stack on.
+- The [Green Arrow] is the most important mechanic: make sure you are always in it when it spawns.
+- If you get [Spreads] during the [Green Arrow], dodge them while staying inside the arrow.
 - You may have to split the group to cover [Greens] coming from multiple directions.
 
 </div>
@@ -145,7 +145,7 @@ Same as before. The first collection can be tricky: use your movement skills to 
 
 # Melee Healer Quick Guide
 
-Your responsibilities over the entirety of the fight consist in:
+Your responsibilities (excluding basic healing and support as required by your role) consist in:
 1. Being close to the boss so that you are targeted by [Spreads].
 2. Intercepting [Greens] on their way to the boss.
 3. Providing <img class='inline stability'> [Stability] and CC at key moments.
@@ -154,6 +154,7 @@ Your responsibilities over the entirety of the fight consist in:
 The main risks you have to be aware of are:
 1. Being directly under the boss when she casts [Seismic Crash] or [Earthrend]; this will kill you.
 2. Getting hit by an [Arrow] will prevent you from intercepting [Greens] without dying.
+3. Not providing <img class='inline stability'> [Stability] for [Seismic Crash] can kill you or your teammates.
 
 ---
 
@@ -166,7 +167,7 @@ The main risks you have to be aware of are:
 - Stack with your group on the side of the <img class='inline arrow'> marker.
 - Make sure you never stand inside the boss' hitbox.
 - When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox.
-- When you see [Greens], intercept them by standing on them. Make sure you do not move out to do this: only intercept them when they are in melee range to the boss. Never move out of melee range.
+- When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox. Never move out of melee range.
 - After the first and every other set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for the knockdown attack ([Seismic Crash]).
 
 #### First Split Phase
@@ -176,7 +177,8 @@ The main risks you have to be aware of are:
 - Once the add is dead, open your portal back to the boss.
 
 #### 80% - 70%
-Same as 100% - 80%. The first collection can be tricky: use your movement skills to get to [Greens] in time if necessary.
+- Play this phase the same as 100%-80% in your new position.
+- The first collection can be tricky: use your movement skills to get to [Greens] in time if necessary.
 
 #### 70% Transition
 - Save your CC and healing skills once Decima hits 70%.
@@ -219,8 +221,8 @@ Same as 100% - 80%. The first collection can be tricky: use your movement skills
 <div markdown='block'>
 
 #### 40% - 10%
-- Follow your commander's indication on which side of the boss to stack on.
 - Follow the boss whenever it jumps. Provide <img class='inline stability'> [Stability] for each jump.
+- Follow your commander's indication on which side of the boss to stack on.
 - The [Green Arrow] is the most important mechanic: make sure you are always in it.
 - If you get [Spreads] during the [Green Arrow], make sure to dodge them while staying inside the arrow.
 - Make sure to heal your subgroup members that are collecting [Greens] off-stack.
@@ -244,8 +246,7 @@ Same as 100% - 80%. The first collection can be tricky: use your movement skills
 
 # Ranged Boon/DPS Quick Guide
 
-Ranged BoonDPS and DPS play their role similarly and thus are grouped together.
-Your responsibilities over the entirety of the fight consist in:
+Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Being far from the boss so that you are targeted by [Arrows]. Try to stay at the limit of the [Thrumming Presence] AoE.
 2. Pointing [Arrows] away from [Conduits] and other players.
 
@@ -274,7 +275,7 @@ The main risks you have to be aware of are:
 - Once the add is dead, your healer should provide you with a portal. Take it to get back to the boss.
 
 #### 80% - 70%
-Same as 100% - 80%.
+- Play this phase the same as 100%-80% in your new position.
 
 #### 70% Transition
 - Save your DPS and CC skills once Decima hits 70%.
@@ -290,7 +291,8 @@ Same as 100% - 80%.
 <div markdown='block'>
 
 #### 70% - 50%
-- Start on the <img class='inline arrow'> marker. Repeat as in phase 1.
+- Start on the <img class='inline arrow'> marker.
+- Play as in phase 1, but now always bait arrows around <img class='inline arrow'>.
 - Avoid standing in any [Greens] that spawn behind you.
 - Run out to your cage towards <img class='inline arrow'> when the boss phases.
 
@@ -316,7 +318,7 @@ Same as 100% - 80%.
 
 #### 40% - 10%
 - Follow the boss whenever it jumps.
-- Stack between the two cages to bait the [Arrows].
+- Stack between the two cages, just inside [Thrumming Presence] to bait the [Arrows].
 
 </div>
 </details>
@@ -339,17 +341,19 @@ Same as 100% - 80%.
 # Kiter Quick Guide
 
 As the kiter, you control the flow and direction of the encounter.
-Your responsibilities consist in:
+Your responsibilities (excluding basic healing and support as required by your role) consist in:
 1. Being far from the boss so that you are targeted by [Arrows]. Try to stay at the limit of the [Thrumming Presence] AoE.
 2. Pointing [Arrows] away from [Conduits] and other players.
 3. Baiting the [Red Arrow] by being the furthest player from the boss.
 4. Controlling which conduits are charged by [Thunder].
 5. Controlling the spawn position of the [Green Arrow].
+6. Providing <img class='inline stability'> [Stability] and CC at key moments.
 
 The main risks you have to be aware of are:
 1. Being hit by multiple [Arrows] in succession will make you <img class='inline exposed'> [Exposed] and probably down you.
 2. Not being ready for the [Red Arrow] can kill you or your teammates.
-3. Standing in [Greens] will quickly kill you.
+3. Standing in [Greens] will quickly kill you unless you're actively trying to outheal the damage.
+4. Not providing <img class='inline stability'> [Stability] for [Seismic Crash] can kill you or your teammates.
 
 ---
 
@@ -361,12 +365,17 @@ The main risks you have to be aware of are:
 - Enter the arena using <img class='inline roll-out'> [Roll Out] or <img class='inline leap'> [Leap].
 - Stack with your group on the side of the <img class='inline arrow'> marker and attack the boss.
 - During the pizza attack, move out and be at range for the first set of [Arrows]. This will charge the conduits on the south side of the fight.
-- Move towards your group at <img class='inline circle'> once you get your arrow.
-- Make sure your group is full health and has <img class='inline protection'> [Protection] before each set of arrows.
+- Move towards your subgroup at <img class='inline circle'> once you get your arrow.
+- Make sure your subgroup is full health and has <img class='inline protection'> [Protection] before each set of arrows.
 - When you get an [Arrow], spread out so you are not overlapping with another and not pointing it at a [Conduit].
+- After the first and every other set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for the knockdown attack ([Seismic Crash]).
 - Make sure you are the furthest person from the group for the second set of arrows, in order to bait the [Red Arrow].
 - When you get the red, use a mobility skill to move behind a [Conduit] (possible one that is part of the inner two rings of the formation).
 - After the next pizza, move to <img class='inline heart'> to charge the final set of conduits.
+
+{: .note}
+> When played correctly, you should have charged just one of the outer conduits of Decima's formation. In the image below, the <font color=red>red</font> conduits will have been charged during the first set of arrows, the <font color=orange>orange</font> can be charged during the second, and the <font color=yellow>yellow</font> in the third.
+> <img class=center width='70%' src="../images/decima/strategy/quick-guides/p1-charges.webp">
 
 #### First Split Phase
 - Once Decima becomes <img class='inline invuln'> [Invulnerable], walk towards her and prepare your portal outside the cage to the left of the boss.
@@ -375,7 +384,7 @@ The main risks you have to be aware of are:
 - Once the add is dead, open your portal back to the boss.
 
 #### 80% - 70%
-Same as 100% - 80%.
+- Play this phase the same as 100%-80% in your new position.
 
 #### 70% Transition
 - Save your CC and healing skills once Decima hits 70%.
@@ -391,7 +400,8 @@ Same as 100% - 80%.
 <div markdown='block'>
 
 #### 70% - 50%
-- Start on the <img class='inline arrow'> marker. Repeat as in phase 1.
+- Start on the <img class='inline arrow'> marker.
+- Play as in phase 1, but now always bait arrows and charge conduits around <img class='inline arrow'>.
 - Avoid standing in any [Greens] that spawn behind you.
 
 #### Second Split Phase
@@ -401,7 +411,7 @@ Same as 100% - 80%.
 - Once the add is dead, open your portal back to the boss.
 
 #### 50% - 40%
-- Played identically to 80% - 70%
+- Played identically to 80% - 70%.
 
 #### 40% Transition
 - Save your CC and healing skills once Decima hits 40%.
@@ -422,6 +432,8 @@ Same as 100% - 80%.
 - For the second and every other set of arrows following, be the furthest player from the boss in order to bait the [Red Arrow].
 - When you get the [Red Arrow], move into the position shown by the image in order to survive and not charge any conduits.
 
+<img class="decima-arena-image center" width='70%' src="../images/decima/strategy/quick-guides/p3-red-arrow.webp">
+
 </div>
 </details>
 
@@ -433,6 +445,7 @@ Same as 100% - 80%.
 - Make sure to dodge the spreads at the beginning.
 - Make sure to bait the [Red Arrow] at the beginning of the phase.
 - Dodge [Spreads] forward as you get them.
+- Try to intercept [Greens].
 
 </div>
 </details>

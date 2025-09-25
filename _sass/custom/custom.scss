@@ -124,9 +124,6 @@ input:checked + .decima-arena-image {
     background-image: url("../../images/decima/strategy/decima-arena.webp");
 	background-size: cover;
     background-position: center;
-    border: 3px outset;
-    border-radius: 15px;
-    border-color: $link-color;
     min-width: 200px;
     max-width: 100%;
     animation-timing-function: linear;
