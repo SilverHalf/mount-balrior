@@ -95,7 +95,7 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJr
 In the third and fourth phase, [Ura] regains access to [Propel]. It is possible to entirely prevent her from casting this skill and keep her stationary in a central position. 
 This allows for easy access to [Titanspawn Geysers], safe drop-points for [Sulfuric Geysers], prevents her from entering the area of [Toxic Geysers] and [Sulfuric Geysers], and by extension also increases damage uptime.
 
-The reason why this is possible is that [Ura] has many skills with a higher priority than [Propel]. The table belowcontains rough times for several of her skills:
+The reason why this is possible is that [Ura] has many skills with a higher priority than [Propel]. The table below contains rough times for several of her skills:
 
 |Skill                     |Priority|Cooldown [s]|Cast Time [s]|Aftercast [s]|
 |[Pressure Blast]          |1       |25          |5            |1.5          |
@@ -127,6 +127,38 @@ Whenever [Ura] chooses a random target for [Steam Prison] and [Sulfuric Geyser],
 #### When to CC Ura
 
 Breaking [Ura]'s <img class='inline defiance'> [Defiance Bar] at an incorrect time can cause a cascade effect leading to a [Propel].
+
+```mermaid
+flowchart LR
+    %%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
+    linkStyle default stroke:#e0be00,stroke-width:3px,color:#fff,font-size:13px,background-color:#212325
+    classDef grey fill:#686868,stroke-width:0,color:#fff
+    classDef default fill:#212325,stroke:#e0be00,color:#fff
+    classDef green fill:#164500,stroke-width:0,color:#fff
+    classDef red fill:#801300,stroke-width:0,color:#fff
+
+    broken("`Defiance
+    Broken`")
+    cancel(["`Cancel
+    Current Skill`"])
+    available("`Is a skill
+    available?`")
+    next(["`Cast Next
+    Skill`"])
+    propel([Propel])
+    
+    click propel "mechanics.html#propel"
+
+    broken --> cancel
+    cancel -->|"`Check
+    Cooldowns`"|available
+    available -->|Yes|next
+    available -->|No|propel
+
+    class broken,available grey;
+    class propel red;
+```
+{: .center}
 
 ---
 

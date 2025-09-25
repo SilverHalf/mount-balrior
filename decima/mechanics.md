@@ -86,34 +86,36 @@ Decima can be a difficult boss to understand fully, as each of her unique mechan
 ```mermaid
 flowchart TD
     %%{init: {'themeVariables': { 'edgeLabelBackground': 'transparent'}}}%%
-    linkStyle default stroke:#e0be00,stroke-width:3px,color:#e0be00,font-size:13px,background-color:#212325
-    classDef purple fill:#654d86,stroke-width:0,color:#e0be00
-    classDef green fill:#00540d,stroke-width:0,color:#fff
-    classDef blue fill:#0072c9,stroke-width:0,color:#fff
-    classDef default fill:#212325,stroke:#e0be00,color:#e0be00
+    linkStyle default stroke:#857532,stroke-width:3px,color:#e0be00,font-size:13px,background-color:#212325
+    classDef purple fill:#654d86,stroke:#e0be00,color:#e6e1e8,font-size:9pt
+    classDef green fill:#00540d,stroke:#e0be00,color:#e6e1e8
+    classDef blue fill:#0072c9,stroke:#e0be00,color:#e6e1e8
+    classDef default fill:#212325,stroke:#e0be00,color:#e6e1e8
 
     fulm(Fulminate)
-    subgraph peals [Increased by damaging Decima]
+    subgraph peals [Increased by DPS]
         peal_h(["`Peal of
         Harmony`"]):::blue
         peal_d(["`Peal of
         Discord`"]):::blue
     end
     subgraph thunder [Chorus of Thunder]
-        disc_thunder(["`Discordant
-        Thunder`"])
-        harm_thunder(["`Harmonious
-        Thunder`"])
+        disc_thunder(["`Player
+        Spreads`"])
+        harm_thunder(["`Conduit
+        Spreads`"])
     end
     charge([Charges]):::blue
     harm(["`Harmonic
+    (Arrow)
     Sensitivity`"]):::purple
     galv(["`Galvanic
+    (Green)
     Sensitivity`"]):::purple
     thrum(Thrumming Presence)
-    flux(Fluxlances)
+    flux(Arrows)
     conduit(Conduits)
-    spark([Dancing Sparks]):::green
+    spark([Greens]):::green
     nova(Flux Nova)
     
     click charge "#charge"
