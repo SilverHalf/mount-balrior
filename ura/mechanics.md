@@ -193,28 +193,20 @@ If a "shard" is left on the floor without any players interacting with it for 4-
 Every time this occurs, the shard will pulse with a red AoE indicator; this is not indicative of the actual range of the attack, which is arena-wide.
 
 {: .note}
-Certain bundles will be stowed upon picking up a Bloodstone Shard, <img class='inline elementalist'> Elementalist pistol projectiles counting towards <img class='inline grandfinale'>[Grand Finale] will be removed; 
-<br>
-More importantly shards **cannot** be picked up while tranformed!
-
-<details>
-
-<summary> Click for a list of transformations affected</summary>
-
-<div markdown=block>
-
-<u>Elementalist</u>: <img class='inline tornado'> [Tornado], <img class='inline mistform'> [Mist Form]
-
-<u>Engineer</u>: <img class='inline elixirs'> [Elixir S], <img class='inline photonforge'> [Photon Forge]
-
-<u>Necromancer</u>: <img class='inline deathshroud'> [Death Shroud], <img class='inline reapersshroud'> [Reaper's Shroud], <img class='inline harbingershroud'> [Harbinger Shroud], <img class='inline lichform'> [Lich Form]
-
-<u>Ranger</u>: <img class='inline celestialavatar'> [Celestial Avatar]
-
-<u>Thief</u>: <img class='inline shadowshroud'> [Shadow Shroud]
-
-</div>
-</details>
+> Certain bundles will be stowed upon picking up a Bloodstone Shard, <img class='inline elementalist'> Elementalist pistol projectiles counting towards <img class='inline grandfinale'>[Grand Finale] will be removed; 
+> <br>
+> More importantly shards **cannot** be picked up while tranformed!
+> <details>
+> <summary> Click for a list of transformations affected</summary>
+> 
+> <div markdown=block>
+> - <u>Elementalist</u>: <img class='inline tornado'> [Tornado], <img class='inline mistform'> [Mist Form]
+> - <u>Engineer</u>: <img class='inline elixirs'> [Elixir S], <img class='inline photonforge'> [Photon Forge]
+> - <u>Necromancer</u>: <img class='inline deathshroud'> [Death Shroud], <img class='inline reapersshroud'> [Reaper's Shroud], <img class='inline harbingershroud'> [Harbinger Shroud], <img class='inline lichform'> [Lich Form]
+> - <u>Ranger</u>: <img class='inline celestialavatar'> [Celestial Avatar]
+> - <u>Thief</u>: <img class='inline shadowshroud'> [Shadow Shroud]
+> </div>
+> </details>
 
 #### <img class="inline dispel"> Dispel
 {: .no_toc}
