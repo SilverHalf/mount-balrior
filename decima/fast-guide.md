@@ -54,9 +54,15 @@ Your responsibilities (excluding basic damage and support as required by your ro
 1. Being close to the boss so that you are targeted by [Spreads].
 2. Intercepting [Greens] on their way to the boss.
 
-The main risks you will should be aware of are:
+The main risks you should be aware of are:
 1. Being directly under the boss when she casts [Seismic Crash] or [Earthrend]: this will kill you.
 2. Getting hit by an [Arrow]: this will prevent you from intercepting [Greens] without dying.
+
+#### General Information for all Phases
+- Make sure you never stand inside the boss' hitbox.
+- Never move out of melee range from the boss.
+- When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox. You can stack spreads with other players, and dodge all of them at once.
+- When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox.
 
 ---
 
@@ -67,9 +73,6 @@ The main risks you will should be aware of are:
 #### 100% - 80%
 - Enter the arena using <img class='inline roll-out'> [Roll Out] or <img class='inline leap'> [Leap].
 - Stack with your group on the side of the <img class='inline arrow'> marker and attack the boss.
-- Make sure you never stand inside the boss' hitbox.
-- When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox.
-- When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox. Never move out of melee range.
 
 #### First Split Phase
 - Once Decima becomes <img class='inline invuln'> [Invulnerable], turn around 180° and walk into your cage.
@@ -156,6 +159,13 @@ The main risks you have to be aware of are:
 2. Getting hit by an [Arrow] will prevent you from intercepting [Greens] without dying.
 3. Not providing <img class='inline stability'> [Stability] for [Seismic Crash] can kill you or your teammates.
 
+#### General Information for all Phases
+- Make sure you never stand inside the boss' hitbox.
+- Never move out of melee range from the boss.
+- When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox. You can stack spreads with other players, and dodge all of them at once.
+- When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox.
+- After the first and every other set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for [Seismic Crash].
+
 ---
 
 <details class=faq>
@@ -165,14 +175,10 @@ The main risks you have to be aware of are:
 #### 100% - 80%
 - Enter the arena using <img class='inline roll-out'> [Roll Out] or <img class='inline leap'> [Leap].
 - Stack with your group on the side of the <img class='inline arrow'> marker.
-- Make sure you never stand inside the boss' hitbox.
-- When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox.
-- When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox. Never move out of melee range.
-- After the first and every other set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for the knockdown attack ([Seismic Crash]).
 
 #### First Split Phase
-- Once Decima becomes <img class='inline invuln'> [Invulnerable], walk towards her and prepare your portal inside the cage.
-- Use your mobility skills to get to the [add], taking care not to CC it.
+- Once Decima becomes <img class='inline invuln'> [Invulnerable], move to her new position and prepare your portal inside the cage, to the right of the boss.
+- Use your mobility skills to get to your subgroup's [add], taking care not to CC it.
 - Make sure you are standing on the inside of the add, towards Decima, to bait [Spreads]. When you get your spread, dodge it outwards, towards the add.
 - Once the add is dead, open your portal back to the boss.
 
@@ -196,11 +202,10 @@ The main risks you have to be aware of are:
 #### 70% - 50%
 - Start on the <img class='inline heart'> marker. Repeat as in phase 1.
 - Rotate towards <img class='inline circle'> or <img class='inline arrow'> to collect [Greens] when they spawn.
-- Run out to your cage towards <img class='inline heart'> when the boss phases.
 
 #### Second Split Phase
-- Once Decima becomes <img class='inline invuln'> [Invulnerable], walk towards her and prepare your portal inside the cage.
-- Use your mobility skills to get to the [add].
+- Once Decima becomes <img class='inline invuln'> [Invulnerable], walk towards her new position and prepare your portal inside the cage, to the right of the boss.
+- Use your mobility skills to get to your subgroup's [add].
 - ***DO NOT CC THE ADD***.
 - Once the add is dead, open your portal back to the boss.
 
@@ -247,13 +252,18 @@ The main risks you have to be aware of are:
 # Ranged Boon/DPS Quick Guide
 
 Your responsibilities (excluding basic damage and support as required by your role) consist in:
-1. Being far from the boss so that you are targeted by [Arrows]. Try to stay at the limit of the [Thrumming Presence] AoE.
+1. Being far from the boss so that you are targeted by [Arrows].
 2. Pointing [Arrows] away from [Conduits] and other players.
 
-The main risks you have to be aware of are:
+The main risks you should be aware of are:
 1. Being hit by multiple [Arrows] in succession will make you <img class='inline exposed'> [Exposed] and probably down you.
 2. Being further from your boss than the kiter will make the [Red Arrow] target you, which will kill you if you have no mobility.
 3. Standing in [Greens] will quickly kill you.
+
+#### General Information for all Phases
+- During damage phases, try to always stay just inside the [Thrumming Presence] AoE unless you know what you're doing.
+- When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit].
+- Make sure you are never stacking farther from the boss than your kiter.
 
 ---
 
@@ -265,13 +275,12 @@ The main risks you have to be aware of are:
 - Enter the arena using <img class='inline roll-out'> [Roll Out] or <img class='inline leap'> [Leap].
 - Stack with your group on the side of the <img class='inline arrow'> marker and attack the boss.
 - During the pizza attack, move to <img class='inline circle'> and be at range for the first set of [Arrows].
-- When you get an [Arrow], spread out so you are not overlapping with another and not pointing it at a [Conduit].
-- Make sure you are not stacking farther from the boss than your kiter.
+- Stay around <img class='inline circle'> for the rest of the phase.
 
 #### First Split Phase
 - Once Decima becomes <img class='inline invuln'> [Invulnerable], turn around 180° and walk forwards to get into your cage.
 - Start attacking the [add], taking care not to CC it.
-- Make sure you are standing on the outside of the add, towards Decima, to bait [Arrows]. When you get your arrow, spread out so its not overlapping with another and not pointing at a [Conduit].
+- Make sure you are standing on the outside of the add, towards Decima, to bait [Arrows].
 - Once the add is dead, your healer should provide you with a portal. Take it to get back to the boss.
 
 #### 80% - 70%
@@ -342,18 +351,26 @@ The main risks you have to be aware of are:
 
 As the kiter, you control the flow and direction of the encounter.
 Your responsibilities (excluding basic healing and support as required by your role) consist in:
-1. Being far from the boss so that you are targeted by [Arrows]. Try to stay at the limit of the [Thrumming Presence] AoE.
+1. Being far from the boss so that you are targeted by [Arrows].
 2. Pointing [Arrows] away from [Conduits] and other players.
 3. Baiting the [Red Arrow] by being the furthest player from the boss.
 4. Controlling which conduits are charged by [Thunder].
 5. Controlling the spawn position of the [Green Arrow].
 6. Providing <img class='inline stability'> [Stability] and CC at key moments.
 
-The main risks you have to be aware of are:
+The main risks you should be aware of are:
 1. Being hit by multiple [Arrows] in succession will make you <img class='inline exposed'> [Exposed] and probably down you.
 2. Not being ready for the [Red Arrow] can kill you or your teammates.
 3. Standing in [Greens] will quickly kill you unless you're actively trying to outheal the damage.
 4. Not providing <img class='inline stability'> [Stability] for [Seismic Crash] can kill you or your teammates.
+
+#### General Information for all Phases
+- Try to always stay just outside the [Thrumming Presence] AoE (except for the start of phase 1).
+- Make sure your subgroup is full health and has <img class='inline protection'> [Protection] before each set of arrows.
+- When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit].
+- After every odd set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for [Seismic Crash].
+- Make sure you are always the furthest person from the boss for every even set of arrows, in order to bait the [Red Arrow].
+- When you get the [Red Arrow], use a mobility skill to move behind a [Conduit] and block the arrow.
 
 ---
 
@@ -364,21 +381,17 @@ The main risks you have to be aware of are:
 #### 100% - 80%
 - Enter the arena using <img class='inline roll-out'> [Roll Out] or <img class='inline leap'> [Leap].
 - Stack with your group on the side of the <img class='inline arrow'> marker and attack the boss.
-- During the pizza attack, move out and be at range for the first set of [Arrows]. This will charge the conduits on the south side of the fight.
+- During the pizza attack, move out towards <img class='inline arrow'> and be at range for the first set of [Arrows].
 - Move towards your subgroup at <img class='inline circle'> once you get your arrow.
-- Make sure your subgroup is full health and has <img class='inline protection'> [Protection] before each set of arrows.
-- When you get an [Arrow], spread out so you are not overlapping with another and not pointing it at a [Conduit].
-- After the first and every other set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for the knockdown attack ([Seismic Crash]).
-- Make sure you are the furthest person from the group for the second set of arrows, in order to bait the [Red Arrow].
-- When you get the red, use a mobility skill to move behind a [Conduit] (possible one that is part of the inner two rings of the formation).
-- After the next pizza, move to <img class='inline heart'> to charge the final set of conduits.
+- Play the second set of arrows (which includes a [Red Arrow]) on <img class='inline circle'>.
+- During the next pizza, move to <img class='inline heart'> to charge the final set of conduits.
 
 {: .note}
 > When played correctly, you should have charged just one of the outer conduits of Decima's formation. In the image below, the <font color=red>red</font> conduits will have been charged during the first set of arrows, the <font color=orange>orange</font> can be charged during the second, and the <font color=yellow>yellow</font> in the third.
 > <img class=center width='70%' src="../images/decima/strategy/quick-guides/p1-charges.webp">
 
 #### First Split Phase
-- Once Decima becomes <img class='inline invuln'> [Invulnerable], walk towards her and prepare your portal outside the cage to the left of the boss.
+- Once Decima becomes <img class='inline invuln'> [Invulnerable], move to her new position and prepare your portal outside the cage to the left of the boss.
 - Use your mobility skills to get to the [add], taking care not to CC it.
 - Make sure you are the furthest person from the boss. If you get a [Red Arrow], hide behind a conduit.
 - Once the add is dead, open your portal back to the boss.
@@ -405,7 +418,7 @@ The main risks you have to be aware of are:
 - Avoid standing in any [Greens] that spawn behind you.
 
 #### Second Split Phase
-- Once Decima becomes <img class='inline invuln'> [Invulnerable], walk towards her and prepare your portal outside the cage.
+- Once Decima becomes <img class='inline invuln'> [Invulnerable], move to her new position and prepare your portal outside the cage to the left of the boss.
 - Use your mobility skills to get to the [add], ***DO NOT CC THE ADD***.
 - Make sure you are the furthest person from the boss. If you get a [Red Arrow], hide behind a conduit.
 - Once the add is dead, open your portal back to the boss.
@@ -451,7 +464,7 @@ The main risks you have to be aware of are:
 </details>
 
 <img class=divider>
-[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#decima-recommended-strategy){: .btn .fixed}
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#fast-decima-guides){: .btn .fixed}
 {: .center}
 
 [Fluxlance]: mechanics.html#fluxlances
