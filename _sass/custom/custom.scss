@@ -119,6 +119,11 @@ input:checked + .decima-arena-image {
     width: 100%;
     cursor: zoom-out;
 }
+ 
+input:checked + .zoom {
+    width: 100%;
+    cursor: zoom-out;
+}
 
 .decima-arena-image {
     background-image: url("../../images/decima/strategy/decima-arena.webp");
@@ -126,6 +131,11 @@ input:checked + .decima-arena-image {
     background-position: center;
     min-width: 200px;
     max-width: 100%;
+    animation-timing-function: linear;
+    transition: .3s;
+}
+
+.zoom {
     animation-timing-function: linear;
     transition: .3s;
 }
