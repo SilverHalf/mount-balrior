@@ -11,6 +11,19 @@ parent: Godscream Ura
 
 This page contains some simple guides for several roles in the Godscream Ura encounter. If you want something more in-depth, please read the full [Strategy Guide](./strategy.html).
 
+All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
+
+<details>
+<summary>Click to view markers</summary>
+<div markdown=block>
+<img class="center" width="60%" src="../images/ura/ura_toxic_geyser_spawns.webp">
+Paste the following code into Commander Markers to use this marker pack:
+```
+eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJrZXJzIHNob3cgdGhlIG1vc3QgaW1wb3J0YW50IFRveGljIEdleXNlcnMgYW5kIGFyZSBhbHNvIHVzZWZ1bCBmb3IgZ2VuZXJhbCBkaXJlY3Rpb24uIiwibWFwSWQiOjE1NjQsInRyaWdnZXIiOnsieCI6MTU3LjI0Njc1LCJ5IjoyMzkuOTE4MTgyLCJ6IjoyNjkuOTI4OTI1fSwibWFya2VycyI6W3siaSI6MSwiZCI6IlRveGljIEdleXNlciAxLzIiLCJ4IjoxODguOTI1NzIsInkiOjI2MS42MDE2ODUsInoiOjI2OS45MjkxNjl9LHsiaSI6MiwiZCI6IlRveGljIEdleXNlciAzLzQiLCJ4IjoxODguMDQ5OTQyLCJ5IjoyMjYuMTQwMDMsInoiOjI2OS45Mjg5MjV9LHsiaSI6MywiZCI6IlRveGljIEdleXNlciA4IiwieCI6MTYyLjA0NjYzMSwieSI6MjI4LjI3MTc0NCwieiI6MjY5Ljk5MDg3NX0seyJpIjo0LCJkIjoiVG94aWMgR2V5c2VyIDEzLzE0IiwieCI6MTI0LjM0Njc5NCwieSI6MjA5Ljg0OTY0LCJ6IjoyNjkuOTg2NDJ9LHsiaSI6NiwiZCI6IlRveGljIEdleXNlciA5IiwieCI6MTQ1LjgzMTc3MiwieSI6MjU4LjQ0MDgyNiwieiI6MjY5LjkzNDc4NH0seyJpIjo1LCJkIjoiVG94aWMgR2V5c2VyIDcvMTAiLCJ4IjoxNzAuOTA3MzY0LCJ5IjoyMDIuNDc5NTUzLCJ6IjoyNzAuMDYyOTU4fSx7ImkiOjcsImQiOiJUb3hpYyBHZXlzZXIgNSIsIngiOjE2NS43MjUyMzUsInkiOjI1Mi41NTQ5NjIsInoiOjI2OS45MzQ3ODR9LHsiaSI6OCwiZCI6IlRveGljIEdleXNlciAxMiIsIngiOjEyMi40NDU4MTYsInkiOjI0OS43ODIxMiwieiI6MjY5LjkyODkyNX1dfQ==
+```
+</div>
+</details>
+
 ---
 
 ## What are you playing?
@@ -45,7 +58,7 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 - Standing in [Toxic Geysers] and [Sulfuric Geysers] for too long will afflict you with <img class='inline sulfuricacid'> [Sulfuric Acid]. This is a dangerous condition that must be cleansed soon or you will gain <img class='inline exposed'> [Exposed].
 - Check who is before you and after you in the ranged rotation, asking your commander if necessary.
 - Set a [personal target](https://wiki.guildwars2.com/wiki/Call_Target) on the person before you and be aware of where they go so you can pick up the [Bloodstone Shard] after they use it.
-- Whenever you <img class='inline dispel'> [Dispel], call out the person after you in the rotation and tell them where they have to pick up the shard.
+- Whenever you <img class='inline dispel'> [Dispel], call out the person after you in the rotation and tell them where to pick up the shard.
 
 ---
 
@@ -60,9 +73,9 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 > 4. Pick up the [Bloodstone Shard], quickly move to your second one and <img class='inline dispel'> [Dispel] again.
 
 #### 100% - 70%
-- If you are first in the rotation, you will start the fight by picking up the ranged shard.
+- If you are first in the rotation, you will start the fight by picking up the ranged [Bloodstone Shard].
 - Start in front of the boss. She will always begin with [Bubbles]. If you get a bubble, stack with the other targeted person next to the main group.
-- After every set of [Bubbles] she will use [Propel]. Try to be the furthest one from the boss in order to bait it. Try to follow the pattern in the image below.
+- After every set of [Bubbles] she will use [Propel]. If you don't have bubbles, try to be the furthest one from the boss to bait it, following the pattern in the image below.
 <label class="arena-container">
     <input type="checkbox">
     <img class="zoom center" src="../images/ura/ura_propel_p1.webp" />
@@ -86,7 +99,7 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 #### 70% - 40%
 - The ranged rotation restarts from [Toxic Geyser] #8. The timer will not reset however.
 - Be on stack whenever you are not CCing a geyser or using your [Bloodstone Shard]. Try to provide <img class='inline stability'> [Stability] for the [jump attack].
-- Follow your group to kill [Titanspawn Geysers]. Try to provide <img class='inline stability'> [Stability] for the [Champion Fumaroller]'s attacks.
+- Follow your group to [Titanspawn Geysers]. Try to provide <img class='inline stability'> [Stability] for the [Champion Fumaroller]'s attacks.
 - Once a [Titanspawn Geyser] is dead, return to the stack and try to recall/remove any pets or clones so that the [Champion Fumaroller] comes to the stack and is cleaved down.
 - If you are targeted by the [Arena], run out immediately and place it far from the group.
 - If you are targeted by [Sulfuric Geyser], run out immediately and drop it along the edge of the arena. A [marker pack] can show you the safe areas. Prioritize the large area behind <img class='inline xmarker'> and <img class='inline swirl'>.
@@ -138,7 +151,7 @@ Your responsibilities (excluding basic damage or support as required by your rol
 <div markdown='block'>
 - Check who is before you and after you in the rotation, asking your commander if necessary.
 - Set a [personal target](https://wiki.guildwars2.com/wiki/Call_Target) on the person before you and be aware of where they go so you can pick up the [Bloodstone Shard] after they use it.
-- Whenever you <img class='inline dispel'> [Dispel], call out the person after you in the rotation and tell them where they have to pick up the shard.
+- Whenever you <img class='inline dispel'> [Dispel], call out the person after you in the rotation and tell them where to pick up the shard.
 </div>
 </details>
 
@@ -274,10 +287,10 @@ For more information on the mechanics behind the tank's role, check out [prevent
 
 #### 40% - 1%
 - Ura will start using [Bubbles] again. She will cast it immediately upon reaching 40% HP.
-- Starting from this phase, always position in front of the boss.
+- Starting from this phase, you will be tanking the boss. You must be within a 140°, 400 range cone in front of her at all times.
 - Do not move to [Titanspawn Geysers].
 - If you are targeted by a mechanic that requires you to move, such as [Bubbles], [Arena] or [Sulfuric Geysers], prioritize your mechanic and call for a backup tank.
-- Keep an eye on <img class='inline risingpressure'> [Rising Pressure]. When you reach 5 stacks, call out for CC in the next appropriate interval. Check the intervals here: [when to CC Ura](./strategy.html#when-to-cc-ura).
+- Keep an eye on <img class='inline risingpressure'> [Rising Pressure]. When you reach 5 stacks, call out for CC in the next appropriate moment. These can be found here: [when to CC Ura](./strategy.html#when-to-cc-ura).
 - Try to rotate the boss towards <img class='inline xmarker'> and <img class='inline swirl'> if you can.
 </div>
 </details>
@@ -296,7 +309,7 @@ For more information on the mechanics behind the tank's role, check out [prevent
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#recommended-ura-strategy){: .btn .fixed}
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#fast-ura-guides){: .btn .fixed}
 {: .center}
 
 [Bloodstone Shard]: mechanics.html#bloodstone-shards

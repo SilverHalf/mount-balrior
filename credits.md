@@ -26,7 +26,7 @@ nav_order: 2
 - **@Areki** - research for Ura's skill priority.
 - **@Mike** - devised the PUG Decima strategy.
 - **@Chupathingy** - Original CC Deadeye strategy for Ura LCM.
-- **@Asterius** - Willbender strategy for Ura LCM.
+- **@Asterius** - Willbender strategy for Ura LCM, starting point for Ura diagrams.
 - **@Adinga**, **@Noro**, **@Spencer** - Titanspawn limit interactions and research.
 
 <img class= divider>
