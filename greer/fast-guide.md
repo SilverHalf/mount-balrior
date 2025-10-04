@@ -44,15 +44,11 @@ Your responsibilities (excluding basic healing and support as required by your r
 4. Aggro-ing certain adds during the split phases.
 5. Providing large amounts of CC.
 
-The main risks you should be aware of are:
-1. Failing to provide defensive boons may cause your squad to die to other mechanics.
-2. Undeleted [Death Orbs] can quickly destabilize your squad.
-
 #### General Information for all Phases
 - Save your <img class='inline stab-mantra'> [Mantra of Concentration] for the [Swipes]. You can often block both swipes with a single cast if well timed. Call out if you don't have it for mechanics.
-- Save your <img class='inline precog'> [Well of Precognition] for the [Slams]. This becomes more important the more the fight progresses. Call out if you don't have it for a slam.
+- Save your <img class='inline precog'> [Well of Precognition] for the [Slams]. This becomes increasingly important as the fight progresses. Call out if you don't have it for a slam.
 - Save your <img class='inline distortion'> [Distortion] for [Death Orbs]. Sort out with your fellow <img class='inline chrono'> [Chronomancer] who does the first set of orbs and who the second, and call out whenever you are deleting.
-- When your bubble player calls for backup (usually by saying "Bubble Down"), you should pick a side of the boss (usually by calling "Double"/"Single") and place your <img class='inline feedback'> [Feedback] when you see [Empowering Orbs] come from your direction.
+- When your bubble player calls for backup (usually by saying "Bubble Down"), you should pick a side of the boss (usually by calling "Double"/"Single") and use your <img class='inline feedback'> [Feedback] to block [Empowering Orbs] from your direction when you see them.
 - If possible, save your <img class='inline cs'> [Continuum Split] for the CC phases.
 - Make sure you are dodging or jumping the shockwave component of Greer's [Slams].
 - Sidestep all arrows. Try to provide <img class='inline stability'> [Stability] for them if you can spare it.
@@ -64,7 +60,8 @@ The main risks you should be aware of are:
 <div markdown='block'>
 - Start on Reeg.
 - You will have a first set of [Death Orbs] just before [Greens].  If you are responsible for this first set, it could be your responsibility to aggro the boss and pull it to the group.
-- When Greer lumbers over, wait for his [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving Reeg. You will usually have a second set of [Death Orbs] in this moment.
+- When Greer lumbers over, move between him and Reeg so your DPS can cleave them together.
+- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him. You will usually have a second set of [Death Orbs] in this moment.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -72,19 +69,21 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>First Split Phase</summary>
 <div markdown='block'>
-- Either you or your fellow <img class='inline chrono'> [Chronomancer] should walk by Gree to aggro and pull it towards the group.
+- Either you or your fellow <img class='inline chrono'> [Chronomancer] must aggro Gree on <img class='inline heart'> and pull it towards the group on <img class='inline circle'>.
 - If you get a [Green] while off-stack, try to dodge it or call for a buddy to help you out.
 - Once Reeg is gone or close to 50%, move to Gree. Stack on the outside of Gree so that Ereg walks to you.
 - Cleave the two adds together. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
+<img class=center src='../images/greer/strategy/greer_split.webp'>
 </div>
 </details>
 
 <details class=faq>
 <summary>Phase 2</summary>
 <div markdown='block'>
+- As soon as Gree is dead, walk back to the boss.
 - You may have to delete a set of [Death Orbs] while walking to the boss.
 - Move to Reeg and kill him while playing [Greens].
-- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving Reeg.
+- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -92,20 +91,18 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>Second Split Phase</summary>
 <div markdown='block'>
-- Either you or your fellow <img class='inline chrono'> [Chronomancer] should walk by Gree to aggro and pull it towards the group.
-- If you get a [Green], try to dodge it or call for a buddy to help you out.
-- Once Reeg is dead or dying, move to Gree. Stack on the outside of Gree so that Ereg walks to you.
-- Cleave the two adds together. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
+- Play this identically to the first split phase.
+- Ereg will often remain alive for a bit after Gree dies: continue staying on him with your squad until your commander calls for you to move.
 </div>
 </details>
 
 <details class=faq>
 <summary>Phase 3</summary>
 <div markdown='block'>
-- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together. If you go downstate, wait for your teammates to rez you.
+- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - Play the beginning of the phase positioned towards the center of the arena.
 - After CC, your squad should move around Greer towards the outside of the arena.
-- On the first [Swipe] or [Breath Attack], dodge through Greer so that only the tank remains in front of him.
+- On the first [Swipe], [Slam] or [Breath Attack], dodge through Greer so that only the tank remains in front of him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -114,8 +111,8 @@ The main risks you should be aware of are:
 <summary>Protoling Phase</summary>
 <div markdown='block'>
 - Follow your commander to the furthest Protoling.
-- Try to stay on tag while sidestepping attacks.
-- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together. If you go downstate, wait for your teammates to rez you.
+- Try to stay on tag while sidestepping [Swipes] and moving out of [Slams].
+- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - When the last Protoling is close to dying, your commander will have you move back to Greer.
 - Greer will have lots of <img class='inline empowered'> [Empowered] in the final 10%: make sure you are sidestepping [Swipes] and providing <img class='inline aegis'> [Aegis] for [Slams].
 </div>
@@ -130,10 +127,6 @@ Your responsibilities (excluding basic damage and support as required by your ro
 2. Negating the many mechanics throughout the fight that barrage players with projectiles.
 3. Calling for backup every time you do not have projectile reflection or negation for a mechanic. 
 
-The main risks you should be aware of are:
-1. Mismanagement of <img class='inline empowered'> [Empowered] will kill your squad, most often in the final phases.
-2. Most barrage attacks can down your entire squad if not intercepted.
-
 #### General Information for all Phases
 - Throughout most damage phases, [Empowering Orbs] will come in sets of three from the two adds (as a "double" and a "single").
 - During CC phases, several *Empowering Beasts* will spawn. These will often cast [Empowering Orbs], so make sure you always have reflection up.
@@ -146,7 +139,8 @@ The main risks you should be aware of are:
 <div markdown='block'>
 - Start on Reeg and DPS him while playing [Greens].
 - Check if your <img class='inline chrono'> [Chronomancers] are reflecting the first set of [Empowering Orbs]. If they aren't, it is your responsibility to block them and aggro the boss towards the group. 
-- When Greer lumbers over, wait for his [Breath Attack], baiting it outwards, then dodge through him.
+- When Greer lumbers over, move between him and Reeg to cleave them together.
+- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -154,17 +148,19 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>First Split Phase</summary>
 <div markdown='block'>
-- Cross the arena to Reeg and start damaging him.
+- Cross the arena to Reeg on <img class='inline circle'> and start damaging him.
 - Once Reeg disappears or is close to 50%, move to Gree. Stack on the outside of Gree so that Ereg walks to you.
 - Cleave the two adds together. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
+<img class=center src='../images/greer/strategy/greer_split.webp'>
 </div>
 </details>
 
 <details class=faq>
 <summary>Phase 2</summary>
 <div markdown='block'>
+- As soon as Gree is dead, walk back to the boss.
 - Move to Reeg and kill him while playing [Greens].
-- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving Reeg.
+- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -172,16 +168,15 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>Second Split Phase</summary>
 <div markdown='block'>
-- Cross the arena to Reeg and start damaging him.
-- Once Reeg dies or is close to dying, move to Gree. Stack on the outside of Gree so that Ereg walks to you.
-- Cleave the two adds together, focusing Ereg. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
+- Play this identically to the first split phase.
+- Ereg will often remain alive for a bit after Gree dies: continue staying on him with your squad until your commander calls for you to move.
 </div>
 </details>
 
 <details class=faq>
 <summary>Phase 3</summary>
 <div markdown='block'>
-- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together. If you go downstate, wait for your teammates to rez you.
+- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - Play the beginning of the phase positioned towards the center of the arena.
 - After CC, your squad should move around Greer towards the outside of the arena.
 - On the first [Swipe] or [Breath Attack], dodge through Greer so that only the tank remains in front of him.
@@ -193,9 +188,9 @@ The main risks you should be aware of are:
 <summary>Protoling Phase</summary>
 <div markdown='block'>
 - Follow your commander to the furthest Protoling.
-- Try to stay on tag while sidestepping attacks.
-- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together. If you go downstate, wait for your teammates to rez you.
-- When the last Protoling is close to dying, your commander will have you move back to Greer. Prestack conditions on Greer to improve your damage.
+- Try to stay on tag while sidestepping [Swipes] and moving out of [Slams].
+- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
+- When the last Protoling is close to dying, your commander will have you move back to Greer. Prestack conditions on Greer to improve your ramp-up.
 - Greer will have lots of <img class='inline empowered'> [Empowered] in the final 10%: make sure you are sidestepping [Swipes].
 </div>
 </details>
@@ -208,10 +203,6 @@ Your responsibilities (excluding basic damage and support as required by your ro
 1. Keeping Greer occupied in phases where the rest of the group is not on him (usually only the Protoling phase).
 2. Providing backup projectile reflection.
 
-The main risks you should be aware of are:
-1. Greer hits hard, especially in the phase when you're supposed to tank him. Downing will make things much more complicated for your group.
-2. Most barrage attacks can down your entire squad if not intercepted.
-
 #### General Information for all Phases
 - Make sure you are dodging or jumping the shockwave component of Greer's [Slams].
 - Sidestep all arrows. Try to provide <img class='inline stability'> [Stability] for them if you can spare it.
@@ -222,7 +213,8 @@ The main risks you should be aware of are:
 <summary>Phase 1</summary>
 <div markdown='block'>
 - Start on Reeg and DPS him while playing [Greens].
-- When Greer lumbers over, wait for his [Breath Attack], baiting it outwards, then dodge through him.
+- When Greer lumbers over, move between him and Reeg to cleave them together.
+- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -230,17 +222,19 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>First Split Phase</summary>
 <div markdown='block'>
-- Cross the arena to Reeg and start damaging him.
+- Cross the arena to Reeg on <img class='inline circle'> and start damaging him.
 - Once Reeg disappears or is close to 50%, move to Gree. Stack on the outside of Gree so that Ereg walks to you.
 - Cleave the two adds together. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
+<img class=center src='../images/greer/strategy/greer_split.webp'>
 </div>
 </details>
 
 <details class=faq>
 <summary>Phase 2</summary>
 <div markdown='block'>
+- As soon as Gree is dead, walk back to the boss.
 - Move to Reeg and kill him while playing [Greens].
-- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving Reeg.
+- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -248,21 +242,19 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>Second Split Phase</summary>
 <div markdown='block'>
-- Cross the arena to Reeg and start damaging him.
-- Once Reeg dies or is close to dying, move to Gree. Stack on the outside of Gree so that Ereg walks to you.
-- Cleave the two adds together, focusing Ereg. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
-- If Ereg still has a lot of HP when Gree dies, you should run to Greer and keep him occupied while the rest of the group finishes killing Ereg.
+- Play this identically to the first split phase.
+- If Ereg is still healthy when Gree dies, you should run to Greer and keep him occupied while the rest of the group continues damaging him.
 </div>
 </details>
 
 <details class=faq>
 <summary>Phase 3</summary>
 <div markdown='block'>
-- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together. If you go downstate, wait for your teammates to rez you.
+- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - Play the beginning of the phase positioned towards the center of the arena.
 - After CC, your squad should move around Greer towards the outside of the arena.
 - On the first [Swipe] or [Breath Attack], the rest of the squad will dodge through Greer so that only you remain in front of him.
-- Play the rest of the phase tanking Greer towards the outside of the arena.
+- Play the rest of the phase tanking Greer towards the outside of the arena while your squad is on the inside.
 </div>
 </details>
 
@@ -273,7 +265,8 @@ The main risks you should be aware of are:
 - If you get a [Green], you have to dodge it.
 - When the second Protoling is about to die, try to move out and make Greer [Jump] to you.
 - Greer will have lots of <img class='inline empowered'> [Empowered]: make sure you are sidestepping [Swipes] and dodging [Slams].
-- When the last Protoling is close to dying, your commander will have the squad move back to Greer. Prestack conditions on Greer to improve your damage.
+- When the last Protoling is close to dying, your commander will have the squad move back to Greer. Prestack conditions on Greer to improve your ramp-up.
+- If you are healthy and confident, try to continue facing Greer away from the group until he is dead.
 </div>
 </details>
 
@@ -285,9 +278,6 @@ Your responsibilities consist in:
 1. Doing as much damage as you can to Greer.
 2. Trying to stay alive and not fail mechanics while remaining on the stack.
 
-The main risks you should be aware of are:
-1. Greer hits harder the more the fight progresses. Some attacks will down you even with your kiters providing support: try to always play defensively.
-
 #### General Information for all Phases
 - Make sure you are dodging or jumping the shockwave component of Greer's [Slams].
 - Sidestep all arrows. Try to provide <img class='inline stability'> [Stability] for them if you can spare it.
@@ -297,8 +287,8 @@ The main risks you should be aware of are:
 <summary>Phase 1</summary>
 <div markdown='block'>
 - Start on Reeg and DPS him while playing [Greens].
-- Check if your <img class='inline chrono'> [Chronomancers] are reflecting the first set of [Empowering Orbs]. If they aren't, it is your responsibility to block them and aggro the boss towards the group. 
-- When Greer lumbers over, wait for his [Breath Attack], baiting it outwards, then dodge through him.
+- When Greer lumbers over, move between him and Reeg to cleave them together.
+- Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -306,9 +296,10 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>First Split Phase</summary>
 <div markdown='block'>
-- Cross the arena to Reeg and start damaging him.
+- Cross the arena to Reeg on <img class='inline circle'> and start damaging him.
 - Once Reeg disappears or is close to 50%, move to Gree. Stack on the outside of Gree so that Ereg walks to you.
 - Cleave the two adds together. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
+<img class=center src='../images/greer/strategy/greer_split.webp'>
 </div>
 </details>
 
@@ -333,7 +324,7 @@ The main risks you should be aware of are:
 <details class=faq>
 <summary>Phase 3</summary>
 <div markdown='block'>
-- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together. If you go downstate, wait for your teammates to rez you.
+- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - Play the beginning of the phase positioned towards the center of the arena.
 - After CC, your squad should move around Greer towards the outside of the arena.
 - On the first [Swipe] or [Breath Attack], dodge through Greer so that only the tank remains in front of him.
@@ -345,8 +336,8 @@ The main risks you should be aware of are:
 <summary>Protoling Phase</summary>
 <div markdown='block'>
 - Follow your commander to the furthest Protoling.
-- Try to stay on tag while sidestepping attacks.
-- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together. If you go downstate, wait for your teammates to rez you.
+- Try to stay on tag while sidestepping [Swipes] and moving out of [Slams].
+- You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - When the last Protoling is close to dying, your commander will have you move back to Greer. Prestack conditions on Greer to improve your damage.
 - Greer will have lots of <img class='inline empowered'> [Empowered] in the final 10%: make sure you are sidestepping [Swipes].
 </div>
@@ -365,6 +356,7 @@ The main risks you should be aware of are:
 [Empowered]: mechanics.html#empowered
 [Breath Attack]: mechanics.html#enfeebling-miasma
 [Slams]: mechanics.html#stomp-the-growth
+[Slam]: mechanics.html#stomp-the-growth
 [Rain of Spores]: mechancis.html#rain-of-spores
 [Green]: mechanics.html#eruption-of-rot
 [Greens]: mechanics.html#eruption-of-rot

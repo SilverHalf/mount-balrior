@@ -54,14 +54,10 @@ Your responsibilities (excluding basic damage and support as required by your ro
 1. Being close to the boss so that you are targeted by [Spreads].
 2. Intercepting [Greens] on their way to the boss.
 
-The main risks you should be aware of are:
-1. Being directly under the boss when she casts [Seismic Crash] or [Earthrend]: this will kill you.
-2. Getting hit by an [Arrow]: this will prevent you from intercepting [Greens] without dying.
-
 #### General Information for all Phases
-- Make sure you never stand inside the boss' hitbox.
-- Never move out of melee range from the boss.
-- When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox. You can stack spreads with other players, and dodge all of them at once.
+- Never linger inside the boss' hitbox: [Seismic Crash] or [Earthrend] will kill you.
+- Never move out of melee range from the boss. If you are  hit by an [Arrow] you cannot collect [Greens].
+- When you get [Spreads], dodge them <b>inwards</b> at the last second. You can stack spreads with other players, and dodge all of them at once.
 - When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox.
 
 ---
@@ -124,7 +120,7 @@ The main risks you should be aware of are:
 
 #### 40% - 10%
 - Follow the boss whenever it jumps.
-- Follow your commander's indication on which side of the boss to stack on.
+- Follow your commander's calls for which side of the boss to stack on.
 - The [Green Arrow] is the most important mechanic: make sure you are always in it when it spawns.
 - If you get [Spreads] during the [Green Arrow], dodge them while staying inside the arrow.
 - You may have to split the group to cover [Greens] coming from multiple directions.
@@ -154,15 +150,10 @@ Your responsibilities (excluding basic healing and support as required by your r
 3. Providing <img class='inline stability'> [Stability] and CC at key moments.
 4. Providing a portal in the split phases to simplify collecting [Greens].
 
-The main risks you have to be aware of are:
-1. Being directly under the boss when she casts [Seismic Crash] or [Earthrend]; this will kill you.
-2. Getting hit by an [Arrow] will prevent you from intercepting [Greens] without dying.
-3. Not providing <img class='inline stability'> [Stability] for [Seismic Crash] can kill you or your teammates.
-
 #### General Information for all Phases
-- Make sure you never stand inside the boss' hitbox.
-- Never move out of melee range from the boss.
-- When you get [Spreads], dodge them <b>inwards</b> and then reposition outside the boss' hitbox. You can stack spreads with other players, and dodge all of them at once.
+- Never linger inside the boss' hitbox: [Seismic Crash] or [Earthrend] will kill you.
+- Never move out of melee range from the boss. If you are  hit by an [Arrow] you cannot collect [Greens].
+- When you get [Spreads], dodge them <b>inwards</b> at the last second. You can stack spreads with other players, and dodge all of them at once.
 - When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox.
 - After the first and every other set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for [Seismic Crash].
 
@@ -227,7 +218,7 @@ The main risks you have to be aware of are:
 
 #### 40% - 10%
 - Follow the boss whenever it jumps. Provide <img class='inline stability'> [Stability] for each jump.
-- Follow your commander's indication on which side of the boss to stack on.
+- Follow your commander's calls for which side of the boss to stack on.
 - The [Green Arrow] is the most important mechanic: make sure you are always in it.
 - If you get [Spreads] during the [Green Arrow], make sure to dodge them while staying inside the arrow.
 - Make sure to heal your subgroup members that are collecting [Greens] off-stack.
@@ -255,15 +246,11 @@ Your responsibilities (excluding basic damage and support as required by your ro
 1. Being far from the boss so that you are targeted by [Arrows].
 2. Pointing [Arrows] away from [Conduits] and other players.
 
-The main risks you should be aware of are:
-1. Being hit by multiple [Arrows] in succession will make you <img class='inline exposed'> [Exposed] and probably down you.
-2. Being further from your boss than the kiter will make the [Red Arrow] target you, which will kill you if you have no mobility.
-3. Standing in [Greens] will quickly kill you.
-
 #### General Information for all Phases
 - During damage phases, try to always stay just inside the [Thrumming Presence] AoE unless you know what you're doing.
-- When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit].
-- Make sure you are never stacking farther from the boss than your kiter.
+- When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit]. Being hit by multiple [Arrows] in succession will give you <img class='inline exposed'> [Exposed] and probably down you.
+- Make sure you are closer to the boss than your kiter. This prevents you from baiting the [Red Arrow].
+- Avoid standing in [Greens]: they will quickly kill you.
 
 ---
 
@@ -274,11 +261,11 @@ The main risks you should be aware of are:
 #### 100% - 80%
 - Enter the arena using <img class='inline roll-out'> [Roll Out] or <img class='inline leap'> [Leap].
 - Stack with your group on the side of the <img class='inline arrow'> marker and attack the boss.
-- During the pizza attack, move to <img class='inline circle'> and be at range for the first set of [Arrows].
+- During the first pizza attack, move to <img class='inline circle'> and be at range for the first set of [Arrows].
 - Stay around <img class='inline circle'> for the rest of the phase.
 
 #### First Split Phase
-- Once Decima becomes <img class='inline invuln'> [Invulnerable], turn around 180° and walk forwards to get into your cage.
+- Once Decima becomes <img class='inline invuln'> [Invulnerable], turn around 180° and walk into your cage.
 - Start attacking the [add], taking care not to CC it.
 - Make sure you are standing on the outside of the add, towards Decima, to bait [Arrows].
 - Once the add is dead, your healer should provide you with a portal. Take it to get back to the boss.
@@ -327,7 +314,7 @@ The main risks you should be aware of are:
 
 #### 40% - 10%
 - Follow the boss whenever it jumps.
-- Stack between the two cages, just inside [Thrumming Presence] to bait the [Arrows].
+- Bait your [Arrows] between the two cages, just inside [Thrumming Presence].
 
 </div>
 </details>
@@ -358,19 +345,14 @@ Your responsibilities (excluding basic healing and support as required by your r
 5. Controlling the spawn position of the [Green Arrow].
 6. Providing <img class='inline stability'> [Stability] and CC at key moments.
 
-The main risks you should be aware of are:
-1. Being hit by multiple [Arrows] in succession will make you <img class='inline exposed'> [Exposed] and probably down you.
-2. Not being ready for the [Red Arrow] can kill you or your teammates.
-3. Standing in [Greens] will quickly kill you unless you're actively trying to outheal the damage.
-4. Not providing <img class='inline stability'> [Stability] for [Seismic Crash] can kill you or your teammates.
-
 #### General Information for all Phases
 - Try to always stay just outside the [Thrumming Presence] AoE (except for the start of phase 1).
 - Make sure your subgroup is full health and has <img class='inline protection'> [Protection] before each set of arrows.
-- When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit].
+- When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit]. Being hit by multiple [Arrows] in succession will give you <img class='inline exposed'> [Exposed].
 - After every odd set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for [Seismic Crash].
 - Make sure you are always the furthest person from the boss for every even set of arrows, in order to bait the [Red Arrow].
 - When you get the [Red Arrow], use a mobility skill to move behind a [Conduit] and block the arrow.
+- Don't stand in [Greens] unless you're actively outhealing the damage.
 
 ---
 
