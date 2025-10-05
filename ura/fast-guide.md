@@ -74,8 +74,8 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 
 #### 100% - 70%
 - If you are first in the rotation, you will start the fight by picking up the ranged [Bloodstone Shard].
-- Start in front of the boss. She will always begin with [Bubbles]. If you get a bubble, stack with the other targeted person next to the main group.
-- After every set of [Bubbles] she will use [Propel]. If you don't have bubbles, try to be the furthest one from the boss to bait it, following the pattern in the image below.
+- Ura will always begin with [Bubbles]. If you get a bubble, stack with the other targeted person next to the main group.
+- After every set of [Bubbles] she will use [Propel]. If you don't have bubbles, try to be the furthest player from the boss to bait it, following the pattern in the image below.
 <label class="arena-container">
     <input type="checkbox">
     <img class="zoom center" src="../images/ura/ura_propel_p1.webp" />
@@ -198,7 +198,7 @@ Your responsibilities (excluding basic damage or support as required by your rol
 <div markdown='block'>
 
 #### 40% - 1%
-- Ura will start using [Bubbles] again. She will cast it immediately upon reaching 40% HP.
+- Ura will start using [Bubbles] again. She will cast them immediately upon reaching 40% HP.
 - Continue to handle [Titanspawn Geysers] as in the previous phase.
 - If you get targeted by [Bubbles] at the same time as [Titanspawn Geyser], always try to stack the bubbles on top of the geyser.
 </div>
@@ -291,7 +291,7 @@ For more information on the mechanics behind the tank's role, check out [prevent
 - Do not move to [Titanspawn Geysers].
 - If you are targeted by a mechanic that requires you to move, such as [Bubbles], [Arena] or [Sulfuric Geysers], prioritize your mechanic and call for a backup tank.
 - Keep an eye on <img class='inline risingpressure'> [Rising Pressure]. When you reach 5 stacks, call out for CC in the next appropriate moment. These can be found here: [when to CC Ura](./strategy.html#when-to-cc-ura).
-- Try to rotate the boss towards <img class='inline xmarker'> and <img class='inline swirl'> if you can.
+- Try to rotate the boss towards <img class='inline xmarker'> and <img class='inline swirl'>.
 </div>
 </details>
 

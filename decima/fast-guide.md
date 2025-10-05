@@ -247,7 +247,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 2. Pointing [Arrows] away from [Conduits] and other players.
 
 #### General Information for all Phases
-- During damage phases, try to always stay just inside the [Thrumming Presence] AoE unless you know what you're doing.
+- During damage phases, try to always stay on the limit of the [Thrumming Presence] AoE.
 - When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit]. Being hit by multiple [Arrows] in succession will give you <img class='inline exposed'> [Exposed] and probably down you.
 - Make sure you are closer to the boss than your kiter. This prevents you from baiting the [Red Arrow].
 - Avoid standing in [Greens]: they will quickly kill you.

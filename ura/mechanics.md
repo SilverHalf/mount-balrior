@@ -177,8 +177,7 @@ If a bloodstone is left on the floor without any players interacting with it for
 {: .no_toc}
 This is a [Special Action Skill](https://wiki.guildwars2.com/wiki/Special_action_skill) that allows the player to interact with several of Ura's abilities. The skill has a range of 80 centered on the caster, and can:
 - Free players trapped by [Pressure Blast] or [Return].
-- Make [Toxic Geysers] vulnerable or kill them.
-- Make [Titanspawn Geysers] vulnerable.
+- Remove <img class='inline hardened'> [Hardened Shell] from [Toxic Geysers] and [Titanspawn Geysers], making them vulnerable.
 
 Using <img class="inline dispel"> [Dispel] drops the shard where the player is standing and applies 45s of <img class='inline saturation'> [Bloodstone Saturation].
 
