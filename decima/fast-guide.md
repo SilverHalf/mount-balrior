@@ -30,25 +30,25 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiRGVjaW1hIENNIFN0cmF0ZWd5IiwiZGVzY3JpcHRpb24iOiJE
 {: .center}
 
 <div class="index-container">
-    <a href="#melee-boondps-quick-guide"
+    <a href="#melee-boondps-guide"
        class="guides-button"
        style="background-image: url(../images/decima/strategy/melee_dps.webp);">Melee Boon/DPS</a>
-    <a href="#melee-healer-quick-guide"
+    <a href="#melee-healer-guide"
        class="guides-button"
        style="background-image: url(../images/decima/strategy/melee_heal.webp);">Melee Healer</a>
 </div>
 <div class="index-container">
-    <a href="#ranged-boondps-quick-guide"
+    <a href="#ranged-boondps-guide"
        class="guides-button"
        style="background-image: url(../images/decima/strategy/ranged_dps.webp);">Ranged Boon/DPS</a>
-    <a href="#kiter-quick-guide"
+    <a href="#kiter-guide"
        class="guides-button"
        style="background-image: url(../images/decima/strategy/kiter.webp);">Kiter</a>
 </div>
 
 <img class=divider>
 
-# Melee Boon/DPS Quick Guide
+# Melee Boon/DPS Guide
 
 Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Being close to the boss so that you are targeted by [Spreads].
@@ -142,7 +142,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 
 <img class=divider>
 
-# Melee Healer Quick Guide
+# Melee Healer Guide
 
 Your responsibilities (excluding basic healing and support as required by your role) consist in:
 1. Being close to the boss so that you are targeted by [Spreads].
@@ -240,7 +240,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 
 <img class=divider>
 
-# Ranged Boon/DPS Quick Guide
+# Ranged Boon/DPS Guide
 
 Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Being far from the boss so that you are targeted by [Arrows].
@@ -334,7 +334,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 
 <img class=divider>
 
-# Kiter Quick Guide
+# Kiter Guide
 
 As the kiter, you control the flow and direction of the encounter.
 Your responsibilities (excluding basic healing and support as required by your role) consist in:

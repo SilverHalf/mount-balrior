@@ -11,6 +11,8 @@ parent: Godspoil Greer
 
 Greer is a hectic fight that requires constant attention to mechanics, careful positioning, and on-the-fly decision making and adaptation. For these reasons, it is recommended to play using voice chat.
 
+This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Ura Fast Guides](./fast-guide.html).
+
 Two strategies are commonly played on the encounter: one with a dedicated tank and one without a tank. Here, we will focus only on the non-Tank version, because it's the most frequent in pug runs. This strategy, commonly called 'cozy' strat, typically uses the following composition:
 
 - two Heal <img class='inline chrono'> [Chronomancers] providing <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis].

@@ -17,25 +17,25 @@ This page contains some simple guides for several roles in the Godspoil Greer en
 {: .center}
 
 <div class="index-container">
-    <a href="#heal-chronomancer-quick-guide"
+    <a href="#heal-chronomancer-guide"
        class="guides-button"
        style="background-image: url(../images/greer/strategy/fast-guides/chrono.webp);">Heal Chronomancer</a>
-    <a href="#bubble-quick-guide"
+    <a href="#bubble-guide"
        class="guides-button"
        style="background-image: url(../images/greer/strategy/fast-guides/bubble.webp);">Bubble</a>
 </div>
 <div class="index-container">
-    <a href="#10-tank-quick-guide"
+    <a href="#10-tank-guide"
        class="guides-button"
        style="background-image: url(../images/greer/strategy/fast-guides/tank.webp);">10% Tank</a>
-    <a href="#dps-quick-guide"
+    <a href="#dps-guide"
        class="guides-button"
        style="background-image: url(../images/greer/strategy/fast-guides/dps.webp);">Boon/DPS</a>
 </div>
 
 <img class=divider>
 
-# Heal Chronomancer Quick Guide
+# Heal Chronomancer Guide
 
 Your responsibilities (excluding basic healing and support as required by your role) consist in:
 1. Providing <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis] for most, if not all mechanics.
@@ -120,7 +120,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 
 <img class=divider>
 
-# Bubble Quick Guide
+# Bubble Guide
 
 Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Intercepting [Empowering Orbs] to prevent the boss from getting <img class='inline empowered'> [Empowered].
@@ -197,7 +197,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 
 <img class=divider>
 
-# 10% Tank Quick Guide
+# 10% Tank Guide
 
 Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Keeping Greer occupied in phases where the rest of the group is not on him (usually only the Protoling phase).
@@ -272,7 +272,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 
 <img class=divider>
 
-# DPS Quick Guide
+# DPS Guide
 
 Your responsibilities consist in:
 1. Doing as much damage as you can to Greer.

@@ -30,20 +30,20 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJr
 {: .center}
 
 <div class="index-container">
-    <a href="#ranged-group-quick-guide"
+    <a href="#ranged-group-guide"
        class="guides-button"
        style="background-image: url(../images/ura/strategy/fast-guides/ranged.webp);">Ranged Group</a>
-    <a href="#melee-group-quick-guide"
+    <a href="#melee-group-guide"
        class="guides-button"
        style="background-image: url(../images/ura/strategy/fast-guides/melee.webp);">Melee Group</a>
-    <a href="#tank-quick-guide"
+    <a href="#tank-guide"
        class="guides-button"
        style="background-image: url(../images/ura/strategy/fast-guides/tank.webp);">Tank</a>
 </div>
 
 <img class=divider>
 
-# Ranged Group Quick Guide
+# Ranged Group Guide
 Your responsibilities (excluding basic damage, healing or support as required by your role) consist in:
 1. Picking up the ranged [Bloodstone Shard] whenever it's your turn.
 2. Using <img class='inline dispel'> [Dispel] on [Toxic Geysers] to remove <img class='inline hardened'> [Hardened Shell].
@@ -134,7 +134,7 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 
 <img class=divider>
 
-# Melee Group Quick Guide
+# Melee Group Guide
 Your responsibilities (excluding basic damage or support as required by your role) consist in:
 1. Picking up the melee [Bloodstone Shard] whenever possible.
 2. Using <img class='inline dispel'> [Dispel] to free people from [Bubbles].
@@ -217,7 +217,7 @@ Your responsibilities (excluding basic damage or support as required by your rol
 
 <img class=divider>
 
-# Tank Quick Guide
+# Tank Guide
 Your responsibilities (excluding basic damage or support as required by your role) consist in:
 1. Picking up the melee [Bloodstone Shard] whenever possible in phase 1-2.
 2. Using <img class='inline dispel'> [Dispel] to free people from [Bubbles] in phase 1-2.

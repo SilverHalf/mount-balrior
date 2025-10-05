@@ -14,6 +14,8 @@ This strategy for Challenge Mode focuses on smoothing out communications regardi
 
 This is achieved through a proper division of roles, where different parts of the squad circulate different shards to take care of specific threats, while also trying to provide good damage, boon uptime, and defensive utility.
 
+This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Ura Fast Guides](./fast-guide.html).
+
 ---
 
 #### General Points
