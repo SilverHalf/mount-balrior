@@ -8,7 +8,7 @@ has_toc: false
 # Godspoil Greer
 {: .center}
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }[Fast Guide](./fast-guide.html){: .btn }
 {: .center}
 
 <img src="../images/greer.webp" />

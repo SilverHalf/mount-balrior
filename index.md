@@ -7,32 +7,26 @@ nav_order: 1
 # Welcome!
 {: .center}
 
-This website contains guides and encounter information for all challenge mode encounters in the Mount Balrior raid.
+This website contains guides and encounter information for all challenge modes in the Mount Balrior raid.
 Click on one of the bosses below to read the relevant sections.
 
 <div class="index-container">
-    <a href="decima/overview.html"
-       class="index-button"
-       style="background-image: url(images/decima.webp);"></a>
-    <a href="greer/overview.html"
-       class="index-button"
-       style="background-image: url(images/greer.webp);"></a>
-    <a href="ura/overview.html"
-       class="index-button"
-       style="background-image: url(images/ura.webp);"></a>
+    <div class="index-button" style="background-image: url(images/decima.webp);">
+      <a href="decima/overview.html" class="guide-button">Normal Guide</a>
+      <a href="decima/fast-guide.html" class="guide-button">Fast Guide</a>
+    </div>
+    <div class="index-button" style="background-image: url(images/greer.webp);">
+      <a href="greer/overview.html" class="guide-button">Normal Guide</a>
+      <a href="greer/fast-guide.html" class="guide-button">Fast Guide</a>
+    </div>
+    <div class="index-button" style="background-image: url(images/ura.webp);">
+      <a href="ura/overview.html" class="guide-button">Normal Guide</a>
+      <a href="ura/fast-guide.html" class="guide-button">Fast Guide</a>
+      <a href="ura-lcm/overview.html" class="guide-button">Legendary Mode</a>
+    </div>
 </div>
 
 ---
-
-## Legendary Mode
-{: .center}
-
-If you're interested in the ultimate challenge, read our resources for Legendary Godscream Ura.
-{: .center}
-
-[Overview](./ura-lcm/overview.html){: .btn} [Strategy Guide](./ura-lcm/strategy.html){: .btn} [FAQ](./ura-lcm/faq.html){: .btn}
-{: .center}
-
 
 ### Have you found a mistake in this guide?
 {: .center}

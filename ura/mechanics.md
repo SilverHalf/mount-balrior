@@ -212,8 +212,7 @@ Every time this occurs, the shard will pulse with a red AoE indicator; this is n
 {: .no_toc}
 This is a [Special Action Skill](https://wiki.guildwars2.com/wiki/Special_action_skill) that allows the player to interact with several of [Ura]'s abilities. The skill has a range of 80, centered on the caster, and can:
 - Free players trapped by [Pressure Blast] or [Return].
-- Make [Toxic Geysers] vulnerable or kill them.
-- Make [Titanspawn Geysers] vulnerable.
+- Remove <img class='inline hardened'> [Hardened Shell] from [Toxic Geysers] and [Titanspawn Geysers], making them vulnerable.
 
 Using <img class="inline dispel"> [Dispel] drops the shard where the player is standing and applies 45s of <img class='inline saturation'> [Bloodstone Saturation].
 
@@ -238,7 +237,7 @@ In Challenge Mode, toxic geysers spawn every 12 seconds during the first phase, 
 {: .legendary}
 Toxic Geysers spawn every 12 seconds in all phases.
 
-<img class="center" width="80%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
+<img class="center" width="70%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
 
 Toxic Geysers spawn with a 580 radius AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. This AoE also increases in radius every second by 10 units. Breaking the geyser's <img class='inline defiance'> [Defiance Bar] disables its AoE field until the bar regenerates (~14 seconds) and resets its radius.
 
@@ -274,7 +273,7 @@ Sulfuric Geysers cannot be destroyed, but despawn 5 minutes after they appear. T
 
 Over the course of the fight, some sulfurics will spawn naturally at regular intervals, independently from the boss casting the skill. The approximate position of these geysers is chosen randomly from one among those highlighted in the image below. A position can be chosen multiple times over the course of the fight.
 
-<img class=center src='../images/ura/ura_sulfuric_geyser_spawns.webp' width='50%'>
+<img class=center src='../images/ura/ura_sulfuric_geyser_spawns.webp' width='70%'>
 
 ---
 
@@ -285,7 +284,7 @@ When spawning a Titanspawn Geyser, [Ura] jumps into the air and crashes down, da
 
 After this, a Titanspawn Geyser will spawn in one of five locations, chosen at random from those shown in the picture below. This structure immediately spawns a [Champion Fumaroller]. Another add will spawn every 15 seconds until the geyser is destroyed.
 
-<img class=center src='../images/ura/ura_titanspawn_positions.webp' width='50%'>
+<img class=center src='../images/ura/ura_titanspawn_positions.webp' width='70%'>
 
 {: .note}
 A Titanspawner can target the same location as another pre-existing one. In this case, its spawn is suppressed.

@@ -14,6 +14,8 @@ This strategy for <u>Challenge Mode</u> focuses on smoothing out communications 
 
 This is best achieved through a proper division of roles, where different parts of the squad circulate different *shards* to take care of specific threats, while also trying to provide good damage, boon uptime, and defensive utility.
 
+This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Ura Fast Guides](./fast-guide.html).
+
 ---
 
 #### General Points
@@ -214,6 +216,8 @@ Throughout the first phase, the spawn rate of [Toxic Geysers] is doubled compare
 
 To simplify *double sharding*, it is best to wait for both [Toxic Geysers] to spawn before using <img class='inline dispel'> [Dispel] on the first, so as to not have to wait between casts. Mobility skills are also extremely useful for quickly moving from one geyser to the other, though not strictly necessary.
 
+<img class='center' width='70%' src='../images/ura/strategy/ura_double_shard_p1.webp'>
+
 {: .note}
 > As an alternative strategy: groups can *"single shard"* by assigning one subgroup to the *ranged* rotation and the other to the *melee* rotation. While this is much safer, as the *ranged group* will not take any damage from <img class='inline saturation'> [Bloodstone Saturation], it is also less common in kill runs as it does not provide the same role compression as *double sharding*. 
 > <br>
@@ -221,17 +225,7 @@ To simplify *double sharding*, it is best to wait for both [Toxic Geysers] to sp
 
 Once a geyser has been <img class='inline dispel'> [Dispelled], breaking its <img class='inline defiance'> [Defiance Bar] will kill it. Analogously, using <img class='inline dispel'> [Dispel] on a geyser with a broken <img class='inline defiance'> [Defiance Bar] will kill it. Since geysers do not regenerate defiance in Challenge Mode, as soon as one spawns the *ranged group* can start doing some CC damage to it, so that it is more easily broken later on.
 
-#### Example Ranged Shard Rotation
-{: .no_toc}
-
-|**Player**|**Pick Up #**|**First** <img class='inline dispel'> [Dispel]|**Second** <img class='inline dispel'> [Dispel]|
-|Heal 1| - | 1 | 2 |
-|Heal 2| 2 | 3 | 4 |
-|Heal 3| 4 | 5 | 6 |
-|Heal 1| 6 | 7 | 8 |
-|...   |...|...|...|
-
-<img class="center" width="70%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
+When double sharding, it is normal to CC whichever [Toxic Geyser] that you first pick the [Bloodstone Shard] from, and the first geyser in your double drop sequence.
 
 ---
 

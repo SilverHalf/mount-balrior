@@ -25,6 +25,8 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiRGVjaW1hIENNIFN0cmF0ZWd5IiwiZGVzY3JpcHRpb24iOiJE
 </div>
 </details>
 
+This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Ura Fast Guides](./fast-guide.html).
+
 <img class=divider>
 
 ## Composition

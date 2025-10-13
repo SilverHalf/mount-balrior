@@ -8,7 +8,7 @@ has_toc: false
 # Godscream Ura
 {: .center}
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [Legendary Mode](../ura-lcm/overview.html){: .btn .purple}
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [Fast Guide](./fast-guide.html){: .btn } [Legendary Mode](../ura-lcm/overview.html){: .btn .purple}
 {: .center}
 
 <img src="../images/ura.webp" />
