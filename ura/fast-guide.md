@@ -232,23 +232,7 @@ For more information on the mechanics behind the tank's role, check out [prevent
 #### General Information for all Phases
 - Picking up the [Bloodstone Shard] right after using <img class='inline dispel'> [Dispel] (and thus under the effect of <img class='inline saturation'> [Bloodstone Saturation]) will deal massive damage over time. Be aware.
 - Standing in [Toxic Geysers] and [Sulfuric Geysers] for too long will afflict you with <img class='inline sulfuricacid'> [Sulfuric Acid]. This is a dangerous condition that must be cleansed soon or you will gain <img class='inline exposed'> [Exposed].
-
-
-<details>
-<summary>If you're playing with a melee rotation</summary>
-<div markdown='block'>
-- You generally will not be part of the rotation.
-- Be ready to back up mechanics in phase 1 and 2 if required.
-</div>
-</details>
-
-<details>
-<summary>If you're playing without a melee rotation</summary>
-<div markdown='block'>
-- You can freely help out in phase 1 and 2.
-- Call out when you're using the shard for a mechanic.
-</div>
-</details>
+- You should generally not pick up the [Bloodstone Shard]. Only do it as a back up if required.
 
 ---
 
@@ -261,7 +245,6 @@ For more information on the mechanics behind the tank's role, check out [prevent
 - Start in front of the boss. She will always begin with [Bubbles]. If you get a bubble, stack with the other targeted person next to the main group.
 - After every set of [Bubbles] she will use [Propel]. Try to dodge the landing as it deals high damage.
 - Always be in melee range to avoid baiting [Propel].
-- Try not to <img class='inline dispel'> [Dispel] just before 70%, or you may not be able to pick up your shard before the boss casts [Return].
 </div>
 </details>
 
@@ -270,13 +253,12 @@ For more information on the mechanics behind the tank's role, check out [prevent
 <div markdown='block'>
 
 #### 70% - 40%
-- After the transition, if you are holding the [Bloodstone Shard], free everyone with <img class='inline dispel'> [Dispel].
 - You will not have to deal with [Bubbles] in this phase.
-- Whenever Ura uses her [jump attack], she will create a [Titanspawn Geyser]. Move to it, <img class='inline dispel'> [Dispel] if you are holding the shard and kill it as fast as possible.
+- Whenever Ura uses her [jump attack], she will create a [Titanspawn Geyser]. Move to it and kill it as fast as possible.
 - Once a [Titanspawn Geyser] is dead, return to the stack and try to recall/remove any pets or clones so that the [Champion Fumaroller] comes to the stack and is cleaved down.
 - If you are targeted by the [Arena], run out immediately and place it far from the group.
 - If you are targeted by [Sulfuric Geyser], run out immediately and drop it along the edge of the arena. A [marker pack] can show you the safe areas. Prioritize the large area behind <img class='inline xmarker'> and <img class='inline swirl'>.
-- Do not pick up the [Bloodstone Shard] below 50% HP.
+- Do not move away from the boss once it goes below 45% HP.
 <img class="center" src="../images/ura/ura_sulfurics.webp" />
 </div>
 </details>
