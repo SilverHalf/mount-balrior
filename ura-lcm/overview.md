@@ -6,9 +6,9 @@ has_toc: false
 ---
 
 # Legendary Godscream Ura
-{: .center .purple}
+{: .center .uralm}
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .purple} [FAQ](./faq.html){: .btn .purple}
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .uralm} [FAQ](./faq.html){: .btn .uralm}
 {: .center}
 
 <img src="../images/ura.webp" />

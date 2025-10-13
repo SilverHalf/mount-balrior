@@ -5,7 +5,7 @@ nav_order: 1
 parent: Legendary Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Frequently Asked Questions](./faq.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn .uralm} [Frequently Asked Questions](./faq.html){: .btn .uralm}
 
 # Legendary Ura Strategy Guide
 
