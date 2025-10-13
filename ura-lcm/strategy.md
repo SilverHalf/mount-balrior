@@ -10,7 +10,7 @@ parent: Legendary Ura
 # Legendary Ura Strategy Guide
 
 Legendary Ura is an extreme challenge that requires near-perfect execution to be cleared.
-Many concepts generally carry over from the [Normal Challenge Mode Strategy](../ura/strategy.html), so it is highly recommended to be familiar with Challenge Mode and with your chosen class before attempting to progress the Legendary Mode.
+Many concepts generally carry over from the [Challenge Mode Strategy](../ura/strategy.html), so it is highly recommended to be familiar with Challenge Mode and with your chosen class before attempting to progress the Legendary Mode.
 
 ---
 
@@ -28,14 +28,14 @@ Many concepts generally carry over from the [Normal Challenge Mode Strategy](../
 
 There are two primary ways to approach Ura LCM:
 
-- [Standard Strategy](#standard-strategy) - an extension of the normal CM strategy to LCM. Its main differences involve some composition changes, and the introduction of more elaborate ranged rotations to manage the fight's increased cadence.
+- [Standard Strategy](#standard-strategy) - an extension of the CM strategy to LCM. Its main differences involve some composition changes, and the introduction of more elaborate ranged rotations to manage the fight's increased complexity.
 - [Willbender Strategy](#willbender-strategy) - a mostly LCM-only strategy that takes advantage of some mechanical interactions to simplify the fight.
 
 <img class=divider>
 
 ## Standard Strategy
 
-This strategy plays out in a similar manner to normal Ura Challenge mode for the first three phases. Every point in the [Normal Challenge Mode Strategy Guide](../ura/strategy.html) is applicable here.
+This strategy plays out in a similar manner to Ura Challenge mode for the first three phases. Every point in the [Challenge Mode Strategy Guide](../ura/strategy.html) is applicable here.
 
 - For the _ranged group_ the main difference lies in [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers), and everything that goes along with learning and executing a [ranged rotation](#ranged-rotation) properly.
 - For the _melee group_, the differences lie in the fight's overall requirements: with such a tight DPS check, there is little to no room for mistakes.
@@ -143,7 +143,7 @@ The ranged group is usually composed of:
 
 For boonDPS, the most common choice is <img class='inline firebrand'> [Firebrand], as beyond doing excellent damage they can provide abundant condition cleanse, <img class='inline stability'> [Stability] with <img class='inline stand-ground'> [Stand Your Ground!], and projectile reflection with <img class='inline wall-reflect'> [Wall of Reflection] and <img class='inline bulwark'> [Chapter 3: Valiant Bulwark]. Two <img class='inline firebrand'> [Firebrands] can upkeep 100% projectile reflection uptime if one of them is running <img class='inline wall-reflect'> [Wall of Reflection], though this is a little tight so often the healers will help out with either <img class='inline feedback'> [Feedback] on a <img class='inline chrono'> [Chronomancer], <img class='inline smoke-screen'> [Smoke Screen] on the <img class='inline deadeye'> [Deadeye], or <img class='inline cpc'> [Corrosive Poison Cloud] on a <img class='inline scourge'> [Scourge].
 
-Usually running a couple of <img class='inline power'> [Power] damage dealers is extremely beneficial, as [Titanspawn Geysers] have less armor. These two players accompanied by a boonDPS can usually solo it within the 15 second respawn interval. Common choices here are classes with good burst damage and cleave, such as <img class='inline scrapper'> [Scrapper] or <img class='inline vindicator'> [Vindicator].
+Usually running a couple of <img class='inline power'> [Power] damage dealers is extremely beneficial, as [Titanspawn Geysers] have less armor. These two players accompanied by a boonDPS can usually clear the [Titanspawn Geyser] within the 15 second respawn interval for [Champion Fumarollers]. Common choices here are classes with good burst damage and cleave, such as <img class='inline scrapper'> [Scrapper] or <img class='inline vindicator'> [Vindicator].
 
 The tank players usually do not participate in the melee rotation, but all other DPS and boonDPS do.
 
@@ -168,7 +168,7 @@ If anything is outdated, you can find up-to-date builds and PoVS on <img class='
 
 #### Melee Rotation
 
-The melee group consists of five people, which should order themselves into a sequence before the fight starts. Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
+The melee group consists of five people, an order should be established before the fight starts. Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
 
 > A: "B, dropping on Titanspawn"
 
@@ -186,9 +186,9 @@ In general, with five people following the rotation there is enough leeway to sk
 
 #### Ranged Rotation
 
-Ranged players will generally be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. Most groups will ask you to use an [overlay](../ura/strategy.html#marker-packs): callouts are usually done exclusively with geyser numbers.
+Ranged players will generally be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. Most groups will ask you to use an [overlay](../ura/strategy.html#marker-packs): callouts are usually done exclusively with geyser numbers/symbols.
 
-Pain points often occur in the transitions at 70% and 40% of Ura's HP, where the rotation restarts from #8 and #7 respectively. There are several commonly used rotations, that all introduce some optimizations to alleviate these and reduce overall strain on the ranged players. Several of these are displayed below.
+Pain points often occur in the transitions at 70% and 40% of [Ura's] HP, where the rotation restarts from #8 and #7 respectively. There are several commonly used rotations, that all introduce some optimizations to alleviate these and reduce overall strain on the ranged players. Several of these are displayed below.
 
 ---
 
@@ -257,7 +257,7 @@ It is also important to upkeep <img class='inline stability'> [Stability] on the
 
 #### How to meet the DPS check
 
-Legendary Ura has an effective health of 137,161,289 HP and a maximum encounter duration of 11 minutes. This means that effectively, a group will need to average overall 208k total DPS to clear the encounter before enrage.
+[Legendary Ura] has an effective health of 137,161,289 HP and a maximum encounter duration of 11 minutes. This means that effectively, a group will need to average overall 208k total DPS to clear the encounter before enrage.
 
 This number is greatly influenced by <img class='inline risingpressure'> [Rising Pressure]. Correct management of the damage reduction will make or break a pull. Always keep an eye on the number of stacks on the boss: try to CC when she reaches 5 stacks. In earlier phases, when she does not have much <img class='inline titanicresistance'> [Titanic Resistance], it can be hard to reach 5 before breaking: try then to CC at 3 or 4.
 

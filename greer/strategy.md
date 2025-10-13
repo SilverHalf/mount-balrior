@@ -49,7 +49,8 @@ Roughly at the same time the second <img class='inline chrono'> [Chronomancer] n
 Then follows the main component of fighting [Greer]. For the <img class='inline chrono'> [Chronomancers] this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and, more importantly, using <img class='inline precog'> [Well of Precognition] to block [Stomp the Growth]. 
 <br>
 
-> Note: It's important that the squad is stacked so that everyone is within the well's area. If any of the <img class='inline chrono'> [Chronomancers] don't have the well ready, communicate it in voice such that people can use their dodge. It's not as important in the early phases when Greer's [Empowered] stacks are low, but this is crucial later on as the slam attacks can very quickly wipe an unprepared squad.
+{: .note}
+It's important that the squad is stacked so that everyone is within the well's area. If any of the <img class='inline chrono'> [Chronomancers] don't have the well ready, communicate it in voice such that people can use their dodge. It's not as important in the early phases when Greer's [Empowered] stacks are low, but this is crucial later on as the slam attacks can very quickly wipe an unprepared squad.
 
 Once [Greer] hits 80%, he will gain a <img class='inline defiance'> [Defiance Bar]. After breaking it, the squad should be ready to block the additional [Empowering Blasts] that will be launched from the [Elite Empowering Beasts] spawned.
 
@@ -76,7 +77,8 @@ The <img class='inline chrono'> [Chronomancer] on the stack needs to <img class=
 <br>
 Additionally, there will also be [Greens] that need to be played. 
 
-> Note: There is a chance that the player who baits [Gree] gets a [Green] as well, the easiest way to deal with that is to dodge it. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] (Spear 3) into Dodge for a longer evasion period to make this easier.
+{: .note}
+ There is a chance that the player who baits [Gree] gets a [Green] as well, the easiest way to deal with that is to dodge it. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] (Spear 3) into Dodge for a longer evasion period to make this easier.
 
 [Reeg] and [Ereg] will constantly use [Rain of Spores], blasting everyone with projectiles. This can be mitigated by having projectile blocks up, communicate accordingly to always have some ready. Once [Reeg] hits 50%, he will disappear again. Similar to [Greer] when phasing, [Reeg] also does not become invulnerable, which means that applied <img class='inline condition'> [Conditions] will keep ticking and no damage is wasted.
 
@@ -84,11 +86,13 @@ After [Reeg] has disappeared, the focus shifts to [Gree] and [Ereg].
 To bait the [Enfeebling Miasma] from [Ereg] away from the center, position on the far side of [Gree] compared to him.
 As soon as the cone indicators appear, dodge through [Ereg] to the safe side.
 
-> Note: If you are doing the achievement to keep [Ereg] alive, you will only focus [Gree], otherwise you can damage [Gree] until [Ereg] comes into melee range and then switch.
+{: .note}
+If you are doing the achievement to keep [Ereg] alive, you will only focus [Gree], otherwise you can damage [Gree] until [Ereg] comes into melee range and then switch.
 
 [Gree] will constantly use [Sweep the Mold] and [Stomp the Growth]. Provide <img class='inline stability'> [Stability] for the first and <img class='inline precog'> [Well of Precognition] for the second. Furthermore, [Gree] will also use the [Cage of Decay]. 
 
-> Note: the Arrow projectiles from [Cage of Decay] stop at the edge of the arena and don't travel their full distance: meaning when [Gree] is standing close to the edge of the arena, the large boon corrupt AoE can instantly appear under the squad. For this reason it's crucial to immediately go toward the inner side of Gree when you see the arrow indicators.
+{: .note}
+The Arrow projectiles from [Cage of Decay] stop at the edge of the arena and don't travel their full distance: meaning when [Gree] is standing close to the edge of the arena, the large boon corrupt AoE can instantly appear under the squad. For this reason it's crucial to immediately go toward the inner side of Gree when you see the arrow indicators.
 
 <img class=divider>
 
@@ -131,7 +135,8 @@ Upon breaking the bar, [Elite Empowering Beasts] will spawn, and cast [Empowerin
 The second split phase is similar to the first. 
 The squad will go to [Reeg] in the North-West again, and a <img class='inline chrono'> [Chronomancer] has to bait [Gree] to the group.
 
-> Note: If you're keeping [Ereg] alive, simply ignore him, otherwise try to focus him down as soon as he's in melee range. 
+{: .note}
+If you're keeping [Ereg] alive, simply ignore him, otherwise try to focus him down as soon as he's in melee range. 
 
 This time, the phase ends when [Reeg] and [Gree] are fully dead. All things mentioned in the first split phase apply once more.
 
@@ -179,7 +184,8 @@ It is important to remain stacked throughout the entire phase as closely as poss
 
 Players off the stack not benefiting from this support will die very quickly.
 
->Note: Communication of cooldowns for projectile blocks and <img class='inline precog'> [Well of Precognition] is important here. Blocking, sidestepping, and dodging the damage in this section can make or break a run. Stay close together and always use your dodge before you die from the next AoE attack! 
+{: .note}
+Communication of cooldowns for projectile blocks and <img class='inline precog'> [Well of Precognition] is important here. Blocking, sidestepping, and dodging the damage in this section can make or break a run. Stay close together and always use your dodge before you die from the next AoE attack! 
 
 Besides the plethora of AoEs that need to be evaded from all casters alive, special attention has to be given to two attacks: 
 
@@ -208,6 +214,7 @@ Having <img class='inline precog'> [Well of Precognition] up for [Stomp the Grow
 {: .center}
 
 [boon mechanics]: mechanics.html#boons-on-the-titans
+[Green]: mechanics.html#eruption-of-rot
 [Greens]: mechanics.html#eruption-of-rot
 [two-person-green]: mechanics.html#eruption-of-rot
 [two-person-greens]: mechanics.html#eruption-of-rot
