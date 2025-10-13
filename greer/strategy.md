@@ -28,7 +28,20 @@ In the following, we assume a <img class='inline condition'> [Condition] based c
 
 [<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEo8NsMDmG7jJxIxi9661D-DyIY1ol/M6SKkrCQhHDCSoMFeNg4BDUB-e){: .btn } [PoV](https://youtu.be/VBgiTP4SdhI){: .btn }
 
-[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear){: .btn } [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab){: .btn } 
+[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear){: .btn } [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab){: .btn }
+
+All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
+
+<details>
+<summary>Click to view markers</summary>
+<div markdown=block>
+<img class="center" width="60%" src="../images/greer/strategy/greer_markers.webp">
+Paste the following code into Commander Markers to use this marker pack:
+```
+Work In Progress
+```
+</div>
+</details>
 
 <img class=divider>
 

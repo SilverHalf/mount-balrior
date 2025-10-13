@@ -11,6 +11,19 @@ parent: Godspoil Greer
 
 This page contains some simple guides for several roles in the Godspoil Greer encounter. If you want something more in-depth, please read the full [Strategy Guide](./strategy.html).
 
+All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
+
+<details>
+<summary>Click to view markers</summary>
+<div markdown=block>
+<img class="center" width="60%" src="../images/greer/strategy/greer_markers.webp">
+Paste the following code into Commander Markers to use this marker pack:
+```
+Work In Progress
+```
+</div>
+</details>
+
 ---
 
 ## What are you playing?
