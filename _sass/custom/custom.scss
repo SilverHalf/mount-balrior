@@ -204,3 +204,13 @@ input:checked + .zoom {
 em {
 color: #F1D47A;
 }
+
+.youtube-video {
+	aspect-ratio: 16 / 9;
+	width: 80%;
+}
+
+.youtube-video-wide {
+	aspect-ratio: 24 / 9;
+	width: 80%;
+}

@@ -51,29 +51,67 @@ This is a non-exhaustive list of playable builds on the encounter. If anything i
 
 ## First Phase
 
-### 100% - 80%
+#### Overture
 
-The fight starts on the ledge to the right-hand side when moving from the Camp to Greer's arena. Simply jump down into the arena to begin.
+The very first part of this phase is a strict sequence that aims to quickly kill [Reeg] and position the squad towards the center of the arena while dealing with the dangerous high-priority mechanics that Greer always uses at the start of the phase.
 
-[Reeg] will be vulnerable shortly after the start. The supports want to very quickly provide boons. One of the <img class='inline chrono'> [Chronomancers] must then run toward [Greer] to <img class='inline distortion'> [Distort] the [Blobs of Blight] coming from [Greer], and to lure the boss close to [Reeg]. In order to do this properly: you want to stay more than 900 range away from [Greer], otherwise he will start using his melee attacks, delaying his movement. 
+Groups will usually start on the ledge to the right-hand side when entering Greer's arena: simply jump down to begin. [Reeg] will spawn in shortly; stand between him and the wall, and DPS him down.
 
-The squad at [Reeg] will have to solve a pair of [Greens], while bringing him quickly as possible to 75%. Once [Greer] is close enough, you can stand between the two and cleave both.
+<img class=center width='80%' src='../images/greer/strategy/greer_start_1.webp'>
 
-The <img class='inline herald'> [Herald] needs to pay attention at that point and regularly block the [Empowering Blast] coming from the [Gree] and [Ereg] in order to not grant any <img class='inline empowered'> [Empowered] stacks to Greer. Whenever they can't block for any reason, they should call for backup in voice: usually there is at least one <img class='inline scourge'> [Scourge] with <img class='inline cpc'> [Corrosive Poison Cloud] and the two <img class='inline chrono'> [Chronomancers] should run <img class='inline feedback'> [Feedback].
+One of the <img class='inline chrono'> [Chronomancers] will usually deal with the  first set of [Blobs of Blight] coming from [Greer]. This can easily be done with <img class='inline distortion'> [Distortion], or alternatively you can use a combination of dodges and <img class='inline inversion'> [Imaginary Inversion] to evade all three orbs while conserving clones to provide additional boons for your DPS's openers.
 
-The <img class='inline scourge'> [Scourge] should stay on the outside of [Greer] until he uses [Enfeebling Miasma] to bait it away from the center of the arena. Everyone else can move behind the boss. If the [Enfeebling Miasma] is cast early and [Reeg] has not despawned yet, you may need to go back and finish [Reeg].
-<br>
-Roughly at the same time the second <img class='inline chrono'> [Chronomancer] needs to be ready to <img class='inline distortion'> [Distort] the second set of [Blobs of Blight], this time coming from [Ereg] from the North-East of the arena.
+<img class=center width='80%' src='../images/greer/strategy/greer_start_2.webp'>
 
-Then follows the main component of fighting [Greer]. For the <img class='inline chrono'> [Chronomancers] this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and, more importantly, using <img class='inline precog'> [Well of Precognition] to block [Stomp the Growth]. 
-<br>
+In experienced groups, that same <img class='inline chrono'> [Chronomancer] will have the responsibility of blocking the first set of [Empowering Blasts] originating from [Gree] and [Ereg]. This is usually done by casting <img class='inline cs'> [Continuum Split] and <img class='inline feedback'> [Feedback], followed by a second <img class='inline feedback'> [Feedback], so that both orbs are reflected. The orb originating from [Reeg] is usually blocked by a <img class='inline scourge'> [Scourge] with <img class='inline cpc'> [Corrosive Poison Cloud], a <img class='inline feedback'> [Feedback] from the other <img class='inline chrono'> [Chronomancer], or by the dedicated bubble player.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_start_3.webp'>
 
 {: .note}
-It's important that the squad is stacked so that everyone is within the well's area. If any of the <img class='inline chrono'> [Chronomancers] don't have the well ready, communicate it in voice such that people can use their dodge. It's not as important in the early phases when Greer's [Empowered] stacks are low, but this is crucial later on as the slam attacks can very quickly wipe an unprepared squad.
+If neither <img class='inline chrono'> [Chronomancer] is feeling confident with this maneuver, then the bubble (usually a <img class='inline herald'> [Herald]) can follow them while they are deleting the first set of Death Orbs and then block the [Empowering Blasts] themselves. However, this usually severely hurts the squad's overall boon uptime in the opener.
 
-Once [Greer] hits 80%, he will gain a <img class='inline defiance'> [Defiance Bar]. After breaking it, the squad should be ready to block the additional [Empowering Blasts] that will be launched from the [Elite Empowering Beasts] spawned.
+Whoever blocked the [Empowering Blasts] is also responsible for luring the boss close to [Reeg]. In order to do this properly they should stay more than 900 range from [Greer], otherwise he will start using his melee attacks, delaying his movement. Vice versa, if you get to him too late, he will start casting ranged attacks such as [Rain of Spores] and [Greens] before moving.
 
-If damage is on the lower side, you may have one final set of [Blobs of Blight] coming from the North.
+<details>
+<summary><img class='inline chrono'> Chronomancer PoV</summary>
+<iframe class="youtube-video center" width="100%" src="https://www.youtube.com/embed/Y1QIgchi1SU?si=vjBewg-lzPSfN-1b&start=7&end=36&mute=1 " frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+
+<img class=center width='80%' src='../images/greer/strategy/greer_start_4.webp'>
+
+{: .note}
+Quickly stacking Greer next to [Reeg] can massively increase your squad's overall DPS, and positions him in a comfortable position for the rest of the fight. For this reason it's important to bait him properly, but the rest of the squad should also stack on the other side of [Reeg] so that he gets as close as possible.
+
+The squad at [Reeg] will have to solve a pair of [Greens] while bringing the add down to 75%, at which point he despawns. Once [Greer] is close enough, you can stand between the two and cleave both.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_start_5.webp'>
+
+At this point, the <img class='inline herald'> [Herald] needs to pay attention and regularly block the [Empowering Blast] coming from [Gree] and [Ereg] in order to not grant any <img class='inline empowered'> [Empowered] stacks. Whenever they can't block for any reason, they should call for backup in voice, and a <img class='inline scourge'> [Scourge] with <img class='inline cpc'> [Corrosive Poison Cloud] or <img class='inline chrono'> [Chronomancer] with <img class='inline feedback'> [Feedback] will provide the reflect.
+
+Stay on the outside of [Greer] until he uses [Enfeebling Miasma], baiting it towards the wall. Once he casts the skill, dodge through the his hitbox to the safe side. Roughly at the same time, the second <img class='inline chrono'> [Chronomancer] needs to be ready to <img class='inline distortion'> [Distort] the second set of [Blobs of Blight] coming from [Ereg] from the North-East.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_start_6.webp'>
+
+If the [Enfeebling Miasma] is cast early and [Reeg] has not despawned yet, you can stack inside of Greer's hitbox to finish him.
+
+---
+
+#### Main Body
+
+After a well-executed opening sequence, the squad is in the optimal position to progress the rest of the phase: Reeg is dead, [Greens] are solved, [Blobs of Blight] are deleted and [Enfeebling Miasma] is painting the wall. Most of these skills have a long enough cooldown that you won't have to deal with them until the next phase.
+
+Thus follows the main component of fighting [Greer]. For the <img class='inline chrono'> [Chronomancers] this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and, more importantly, using <img class='inline precog'> [Well of Precognition] to block [Stomp the Growth].
+
+{: .note}
+It's important that the squad is stacked so that everyone is within the well's area. If any of the <img class='inline chrono'> [Chronomancers] don't have the well ready, communicate it in voice such that people can use their dodge. It's not as important in the early phases when Greer doesn't have much <img class='inline empowered'> [Empowered], but it becomes crucial later on as the slam attacks can very quickly wipe an unprepared squad.
+
+For the bubble player, they should always be ready to block [Empowering Blasts], calling for backup when they don't have projectile destruction ready.
+
+When Greer uses [Cage of Decay], all players should sidestep the arrows. These pulse <img class='inline knockback'> [Knockback] fast enough that most forms of <img class='inline stability'> [Stability] are ineffective.
+
+Once [Greer] hits 80%, he will gain a <img class='inline defiance'> [Defiance Bar], becoming <img class='inline invuln'> [Invulnerable] until it is broken, which also spawns several [Elite Empowering Beasts]. Players should be ready to handle the additional [Empowering Blasts] these adds generate.
+
+If damage is on the lower side, you may have one final set of [Blobs of Blight] coming from the North before transitioning into the first split phase at 65% HP.
 
 <img class=divider>
 
@@ -85,10 +123,15 @@ Everyone in the squad will go to [Reeg], located in the North-West;
 <br>
 **Except** one <img class='inline chrono'> [Chronomancer], who will go to [Gree] (North-East) to capture his aggro and drag him towards the rest of the group on Reeg. 
 
-> Note: Depending on DPS, the [Blobs of Blight] spawning at the end of the previous phase may also need to be <img class='inline distortion'> [Distorted] by this <img class='inline chrono'> [Chronomancer] on the way to [Gree]. Conversely, with very high DPS they will not appear at all. 
+<img class=center width='70%' src='../images/greer/strategy/greer_split_1.webp'>
+
+{: .note}
+Depending on DPS, the [Blobs of Blight] spawning at the end of the previous phase may need to be <img class='inline distortion'> [Distorted] by this <img class='inline chrono'> [Chronomancer] on the way to [Gree]. Conversely, with very high DPS they will not appear at all. 
 
 To bait [Gree] properly and quickly: keep some distance in order to not trigger Gree's melee attacks, similar to how baiting Greer at the start of the fight.
 [Gree] may use his [Ripples of Rot] attack, which must be avoided at all costs; if it is cast, just run away, regroup and after the attack is over go back to melee range.
+
+<img class=center width='70%' src='../images/greer/strategy/greer_split_2.webp'>
 
 Both [Reeg] and [Ereg] can cast [Blob of Blight] on the squad at this time.
 <br>
@@ -97,18 +140,22 @@ The <img class='inline chrono'> [Chronomancer] on the stack needs to <img class=
 Additionally, there will also be [Greens] that need to be played. 
 
 {: .note}
- There is a chance that the player who baits [Gree] gets a [Green] as well, the easiest way to deal with that is to dodge it. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] (Spear 3) into Dodge for a longer evasion period to make this easier.
+There is a chance that the player who baits [Gree] gets a [Green] as well, the easiest way to deal with that is to dodge it. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] (Spear 3) into Dodge for a longer evasion period to make this easier.
 
 [Reeg] and [Ereg] will constantly use [Rain of Spores], blasting everyone with projectiles. This can be mitigated by having projectile blocks up, communicate accordingly to always have some ready. Once [Reeg] hits 50%, he will disappear again. Similar to [Greer] when phasing, [Reeg] also does not become invulnerable, which means that applied <img class='inline condition'> [Conditions] will keep ticking and no damage is wasted.
 
-After [Reeg] has disappeared, the focus shifts to [Gree] and [Ereg].  
-To bait the [Enfeebling Miasma] from [Ereg] away from the center, position on the far side of [Gree] compared to him.
-As soon as the cone indicators appear, dodge through [Ereg] to the safe side.
+After [Reeg] has disappeared or is close to disappearing (usually around 56% HP), the focus shifts to [Gree] and [Ereg]. Move to Gree and position on the far side of him compared to Ereg. This will bait Ereg to stand on top of Gree, so that you can cleave them together.
+
+<img class=center width='70%' src='../images/greer/strategy/greer_split_3.webp'>
 
 {: .note}
-If you are doing the achievement to keep [Ereg] alive, you will only focus [Gree], otherwise you can damage [Gree] until [Ereg] comes into melee range and then switch.
+If you are doing the achievement to keep [Ereg] alive, you will only focus [Gree], otherwise you can damage [Gree] until [Ereg] comes into melee range and then switch, as usually Ereg will be less healthy at this point.
 
-[Gree] will constantly use [Sweep the Mold] and [Stomp the Growth]. Provide <img class='inline stability'> [Stability] for the first and <img class='inline precog'> [Well of Precognition] for the second. Furthermore, [Gree] will also use the [Cage of Decay]. 
+Soon after getting to Gree, [Ereg] will cast [Enfeebling Miasma]. When the cone indicators appear, dodge through the miniboss to the safe side.
+
+<img class=center width='70%' src='../images/greer/strategy/greer_split_4.webp'>
+
+[Gree] will constantly use [Sweep the Mold] and [Stomp the Growth]. Provide <img class='inline stability'> [Stability] for the first and <img class='inline precog'> [Well of Precognition] for the second. Furthermore, [Gree] will also use the [Cage of Decay]. Try to always move out of the arrows, as <img class='inline stability'> [Stability] is not useful with them.
 
 {: .note}
 The Arrow projectiles from [Cage of Decay] stop at the edge of the arena and don't travel their full distance: meaning when [Gree] is standing close to the edge of the arena, the large boon corrupt AoE can instantly appear under the squad. For this reason it's crucial to immediately go toward the inner side of Gree when you see the arrow indicators.
@@ -119,9 +166,7 @@ The Arrow projectiles from [Cage of Decay] stop at the edge of the arena and don
 
 ### 65% - 35%
 
-Once [Gree] hits 50% hp, the split phase is over. [Greer] will become vulnerable and start attacking again. The first attack will always be [Blob of Blight]. 
-<br>
-When running back to the boss, one <img class='inline chrono'> [Chronomancer] should be ready to <img class='inline distortion'> [Distort] the orbs. Everyone else should run stacked together, behind the <img class='inline chrono'> [Chronomancer].
+Once [Gree] hits 50% hp, the split phase is over. [Ereg] will despawn, all three adds will re-appear in their original positions and [Greer] will become vulnerable and start attacking again. The first attack will always be [Blob of Blight], so when running back to the boss one <img class='inline chrono'> [Chronomancer] should be ready to <img class='inline distortion'> [Distort] them. Everyone else should run stacked together, behind the <img class='inline chrono'> [Chronomancer].
 
 After the [Blobs of Blight] are dealt with, run past [Greer] to [Reeg], who spawns at his original position next to [Greer] again. Damaging [Reeg] to 25% of his health removes him and <img class='inline resolution'> [Resolution] from [Greer]
 <br>
@@ -131,13 +176,13 @@ Very shortly after, there will be a few [Greens] that need to be solved.
 - a single [two-person-green] from [Reeg]
 - two [three-person-greens] from [Greer]
 
-If they are desynchronized you can solve all of them relatively easily. If they happen simultaneously, it's easier to dodge the [two-person-green] and solve both [three-person-greens]. The reason for this is that the [three-person-greens] give <img class='inline empowered'> [Empowered] stacks to the boss when failed, while the [two-person-green] will give them to the *lesser Titan*.
+If they are desynchronized you can solve all of them relatively easily by stacking the two-person green on top of one of the three-person ones. If they happen simultaneously, it's better to dodge the [two-person-green] and solve both [three-person-greens]. The reason for this is that the [three-person-greens] give <img class='inline empowered'> [Empowered] stacks to the boss when failed, while the [two-person-green] will give them to the *lesser Titan*.
 
 It is important to provide <img class='inline stability'> [Stability] while these [Greens] are happening, since [Greer] may also cast [Sweep the Mold] and [Stomp the Growth] while they are being solved. Be careful to not dodge out of [Greens] while avoiding the shockwave.
 
-[Reeg] and [Greer] might also use artillery skills during this time, so have your <img class='inline cpc'> [Corrosive Poison Cloud] and <img class='inline feedback'> [Feedback] ready to use. After [Reeg] has disappeared, the <img class='inline scourge'> [Scourge] should stay on the outside of [Greer] until he uses [Enfeebling Miasma], while everyone else can already go behind him.
+[Reeg] and [Greer] might also use artillery skills during this time, so have your <img class='inline cpc'> [Corrosive Poison Cloud] and <img class='inline feedback'> [Feedback] ready to use. 
 
-The rest of this phase is similar to the first phase. Deal with the mechanics appropriately:
+The rest of this phase is similar to the first phase. Wait for him to cast [Enfeebling Miasma], then dodge through his hitbox to the safe side. Deal with the mechanics appropriately:
 - <img class='inline distortion'> [Distort] the orbs
 - provide <img class='inline stability'> [Stability] for swipes
 - use <img class='inline precog'> [Well of Precognition] for slams
@@ -157,7 +202,7 @@ The squad will go to [Reeg] in the North-West again, and a <img class='inline ch
 {: .note}
 If you're keeping [Ereg] alive, simply ignore him, otherwise try to focus him down as soon as he's in melee range. 
 
-This time, the phase ends when [Reeg] and [Gree] are fully dead. All things mentioned in the first split phase apply once more.
+This time, the phase ends when [Reeg] and [Gree] are fully dead. If [Ereg], the squad should remain on him until he is low, while the tank can go distract Greer. In this case, pay attention to any [Blobs of Blight] incoming from the boss.
 
 <img class=divider>
 
@@ -165,16 +210,12 @@ This time, the phase ends when [Reeg] and [Gree] are fully dead. All things ment
 
 ### 35% - 10%
 
-If you decided to kill [Ereg], the squad should stay on him until he is dead. 
-<br>
-One of the <img class='inline chrono'> [Chronomancers] can run to [Greer] in order to bait him closer and to distort [Blob of Blight], which will always be cast by [Greer] at the start of this phase. 
-<br>
-The [Blob of Blight] timing from [Ereg] depends on squad damage, and might happen either toward the end of the split phase, or sometime soon at the start of this phase.
-
-After [Blob of Blight], [Greer] will use [Eruption of Rot]. This will be a set of 3  [three-person-greens] <font size=2>(often called "Triple Greens")</font>. 
-One of the easiest ways to deal with this version of the mechanic is to stack them; all three players with the mechanic should move out of melee range, off the stack, and dodge towards the boss.
-<br>
-This will prevent any <img class='inline empowered'> [Empowered] on [Greer] and any players <img class='inline invuln'> [Downed] can ressed.
+[Greer] will always open with [Blob of Blight], followed by [Eruption of Rot]. This will be a set of 3  [three-person-greens] <font size=2>(often called "Triple Greens")</font>. 
+The easiest way to deal with this version of the mechanic is to stack them; all three targeted players should move out of melee range, off the stack, and dodge towards the boss. This will prevent any <img class='inline empowered'> [Empowered] on [Greer] and any players that are <img class='inline invuln'> [Downed] can be ressed.
+<details>
+<summary>Example of dodging triple greens</summary>
+<iframe class="youtube-video-wide center" width="100%" src="https://www.youtube.com/embed/-epK7O8qfl4?si=OlA4G6xiHNTBVtrT&mute=1 " frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
 
 Timing wise, [Ereg] might also use his [two-person-greens], which can be solved on the stack. At this point, [Ereg] should be close to dying. With a <img class='inline condition'> [Condition] based composition, you can leave [Ereg] and swap to [Greer] at around 7% of his HP.
 
@@ -280,3 +321,6 @@ Having <img class='inline precog'> [Well of Precognition] up for [Stomp the Grow
 [Downed]: https://wiki.guildwars2.com/wiki/Downed
 [Elite Empowering Beast]: https://wiki.guildwars2.com/wiki/Elite_Empowering_Beast
 [Elite Empowering Beasts]: https://wiki.guildwars2.com/wiki/Elite_Empowering_Beast
+[Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
+[Distortion]: https://wiki.guildwars2.com/wiki/Distortion
+[Knockback]: https://wiki.guildwars2.com/wiki/Knockback
