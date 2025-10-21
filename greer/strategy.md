@@ -8,26 +8,22 @@ parent: Godspoil Greer
 [Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 
 # Greer Recommended Strategy
+{: .no_toc}
+
+<details>
+<summary><b>Table of Contents</b></summary>
+<div markdown=block>
+1. TOC
+{:toc}
+</div>
+</details>
+
 
 Greer is a hectic fight that requires constant attention to mechanics, careful positioning, and on-the-fly decision making and adaptation. For these reasons, it is recommended to play using voice chat.
 
 This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Greer Fast Guides](./fast-guide.html).
 
-Two strategies are commonly played on the encounter: one with a dedicated tank and one without a tank. Here we will focus only on the non-Tank version, because it's the most frequent in pug runs. This strategy, commonly called "cozy strat", typically uses the following composition:
-
-- Two Heal <img class='inline chrono'> [Chronomancers] providing <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis].
-- A *bubble* to provide projectile blocks, usually a <img class='inline herald'> [Herald]  or <img class='inline firebrand'> [Firebrand].
-- A *10% tank*, usually played by a Celestial-hybrid <img class='inline scourge'> [Scourge] or any other sufficiently tanky build .
-- Six damage dealers.
-
-Due to how Greer's [boon mechanics] work, it's typical to use either a full <img class='inline condition'> [Condition], or full <img class='inline power'> [Power] based squad.
-
-- [Gree] provides all other titans with <img class='inline protection'> [Protection], so <img class='inline power'> [Power] compositions can kill him to have optimal damage.
-- [Reeg] provides all other titans with <img class='inline resolution'> [Resolution], so <img class='inline power'> [Condition] compositions can kill him to have optimal damage.
-
-Due to this mechanic, builds that have a more hybrid damage profile (such as <img class='inline virtuoso'> [Condition Virtuoso]) struggle to deal adequate damage on this encounter.
-
-In the following, we assume a <img class='inline condition'> [Condition] based composition. All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
+All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
 
 <details>
 <summary>Click to view markers</summary>
@@ -40,6 +36,33 @@ Work In Progress
 </div>
 </details>
 
+<img class=divider>
+
+## Composition
+
+Two strategies are commonly played on the encounter: one with a dedicated tank and one without a tank. Here we will focus only on the non-Tank version, because it's the most frequent in pug runs. This strategy, commonly called "cozy strat", typically uses the following composition:
+
+- Two Heal <img class='inline chrono'> [Chronomancers] providing <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis].
+- A *bubble* to provide projectile blocks, usually a <img class='inline herald'> [Herald]  or <img class='inline firebrand'> [Firebrand].
+- A *10% tank*, usually played by a Celestial-hybrid <img class='inline scourge'> [Scourge] or any other sufficiently tanky build .
+- Six damage dealers.
+
+---
+
+#### Power vs. Condition
+
+Due to how the [lesser titans] provide boons throughout the encounter, it's typical to use either a full <img class='inline condition'> [Condition], or full <img class='inline power'> [Power] based squad. By default, enemies will be affected by both <img class='inline protection'> [Protection] and <img class='inline resolution'> [Resolution], however:
+
+- <img class='inline power'> [Power] compositions can kill [Gree] to remove <img class='inline protection'> [Protection] from all enemies.
+- <img class='inline condition'> [Condition] compositions can kill [Reeg] to remove <img class='inline resolution'> [Resolution] from all enemies.
+
+The choice of composition brings about a noticeable difference in positioning: each strategy will start the fight next to the lesser titan that corresponds with their antagonistic boon, and will focus them down at the beginning of every burn phase and split phase. For the rest, roles and mechanics function equally for both.
+
+In the following, we assume a <img class='inline condition'> [Condition] based composition.
+
+{: .note}
+Hybrid compositions are universally avoided, as it is infeasible to kill both [Reeg] and [Gree], and one of their damage components will be impacted by the titan they leave alive. Similarly, builds that have a hybrid damage profile (such as <img class='inline virtuoso'> [Condition Virtuoso]) will struggle to provide comparable DPS on this encounter.
+
 ---
 
 #### Builds and PoVs
@@ -51,16 +74,17 @@ This is a non-exhaustive list of playable builds on the encounter. If anything i
 |[<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEo8NsMDmG7jJxIxi9661D-DyIY1ol/M6SKkrCQhHDCSoMFeNg4BDUB-e) | 10% Tank | [PoV](https://youtu.be/VBgiTP4SdhI) | June 2025 |
 |[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear) | Boon & Bubble | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | April 2025 |
 |[<img class='inline firebrand'> Bubblebrand](https://gw2skills.net/editor/?PWxEQLtrMC2DTkpwMxk66/ZB-DSRYjRNGJsyo6UI9KQ3fBpIM7h3S7bWQFA-e) | Heal & Bubble | [PoV (Power)](https://www.youtube.com/watch?v=yNg0_2bXl4U) | September 2025 |
+|[<img class='inline willbender'> Condi Willbender](https://snowcrows.com/builds/raids/guardian/condition-willbender)| DPS | [PoV](https://www.youtube.com/watch?v=p4WIceytxVg) | June 2025 |
 
 <img class=divider>
 
 ## First Phase
 
-#### Beginning of the phase
+#### Beginning of the Phase
 
-The very first part of the encounter aims to quickly kill [Reeg] and position the squad towards the center of the arena while dealing with the dangerous high-priority mechanics that Greer always uses at the start of the phase.
+The very first part of the encounter aims to quickly phase [Reeg] and position the squad towards the center of the arena. This is complicated by the dangerous high-priority mechanics that Greer always uses at the start of the phase: [Greens], [Blobs of Blight], and [Enfeebling Miasma].
 
-Groups will usually start on the ledge to the right-hand side when entering Greer's arena: simply jump down to begin. [Reeg] will spawn in shortly; stand between him and the wall, and DPS him down.
+Groups will usually start on the ledge to the right-hand side when entering Greer's arena: simply jump down to begin. [Reeg] will spawn in shortly; stand between him and the wall and DPS him down.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_1.webp'>
 
@@ -68,7 +92,7 @@ One of the <img class='inline chrono'> [Chronomancers] will usually deal with th
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_2.webp'>
 
-In experienced groups, that same <img class='inline chrono'> [Chronomancer] will have the responsibility of blocking the first set of [Empowering Blasts] originating from [Gree] and [Ereg]. This is usually done by casting <img class='inline cs'> [Continuum Split] and <img class='inline feedback'> [Feedback], followed by a second <img class='inline feedback'> [Feedback], so that both orbs are reflected. The orb originating from [Reeg] is usually blocked by a <img class='inline scourge'> [Scourge] with <img class='inline cpc'> [Corrosive Poison Cloud], a <img class='inline feedback'> [Feedback] from the other <img class='inline chrono'> [Chronomancer], or by the dedicated bubble player.
+In experienced groups, that same <img class='inline chrono'> [Chronomancer] will have the responsibility of blocking the first set of [Empowering Blasts] originating from [Gree] and [Ereg]. This is done by using <img class='inline cs'> [Continuum Split] to double-cast <img class='inline feedback'> [Feedback] so that both directions are covered. The orb originating from [Reeg] is usually blocked by a <img class='inline scourge'> [Scourge] with <img class='inline cpc'> [Corrosive Poison Cloud], a <img class='inline feedback'> [Feedback] from the other <img class='inline chrono'> [Chronomancer], or by the dedicated bubble player.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_3.webp'>
 
@@ -87,7 +111,7 @@ Whoever blocked the [Empowering Blasts] is also responsible for luring the boss 
 {: .note}
 Quickly stacking Greer next to [Reeg] can massively increase your squad's overall DPS, and positions him in a comfortable position for the rest of the fight. For this reason it's important to bait him properly, but the rest of the squad should also stack on the other side of [Reeg] so that he gets as close as possible.
 
-The squad at [Reeg] will have to solve a pair of [Greens] while bringing the add down to 75%, at which point he despawns. Once [Greer] is close enough, you can stand between the two and cleave both.
+Meanwhile, the squad at [Reeg] will have to solve a pair of [Greens] while bringing the add down to 75%, at which point he despawns. Once [Greer] is close enough, you can stand between the two and cleave both.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_5.webp'>
 
@@ -116,7 +140,7 @@ When Greer uses [Cage of Decay], all players should sidestep the arrows. These p
 
 Once [Greer] hits 80%, he will gain a <img class='inline defiance'> [Defiance Bar], becoming <img class='inline invuln'> [Invulnerable] until it is broken, which also spawns several [Elite Empowering Beasts]. Players should be ready to handle the additional [Empowering Blasts] these adds generate.
 
-If damage is on the lower side, you may have one final set of [Blobs of Blight] coming from the North before transitioning into the first split phase at 65% HP.
+This phase continues until 35%, when the first split phase begins. If damage is on the lower side, you may have one final set of [Blobs of Blight] coming from the North before transitioning.
 
 <img class=divider>
 
@@ -133,7 +157,7 @@ Everyone in the squad will go to [Reeg], located in the North-West;
 {: .note}
 Depending on DPS, the [Blobs of Blight] spawning at the end of the previous phase may need to be <img class='inline distortion'> [Distorted] by this <img class='inline chrono'> [Chronomancer] on the way to [Gree]. Conversely, with very high DPS they will not appear at all. 
 
-To bait [Gree] properly and quickly: keep some distance in order to not trigger Gree's melee attacks, similar to how baiting Greer at the start of the fight.
+To bait [Gree] properly and quickly: keep some distance in order to not trigger his melee attacks, similar to baiting Greer at the start of the fight.
 [Gree] may use his [Ripples of Rot] attack, which must be avoided at all costs; if it is cast, just run away, regroup and after the attack is over go back to melee range.
 
 <img class=center width='70%' src='../images/greer/strategy/greer_split_2.webp'>
@@ -142,19 +166,19 @@ Both [Reeg] and [Ereg] can cast [Blob of Blight] on the squad at this time.
 <br>
 The <img class='inline chrono'> [Chronomancer] on the stack needs to <img class='inline distortion'> [Distort] the [Blob of Blight] from [Reeg]. If the [Blobs of Blight] from [Ereg] are delayed, they will need to be dodged **by the entire squad**. If the dodge is failed make sure to immediately walk away; standing under a stationary orb will quickly kill you. 
 <br>
-Additionally, there will also be [Greens] that need to be played. 
+Additionally, there will also be [Greens] that need to be played at the same time. 
 
 {: .note}
-There is a chance that the player who baits [Gree] gets a [Green] as well, the easiest way to deal with that is to dodge it. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] (Spear 3) into Dodge for a longer evasion period to make this easier.
+There is a high chance that the player who's baiting [Gree] gets targeted by a [Green] as well: it is convenient to dodge it as they will be off-stack. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] into Dodge for a longer evasion period to make this easier.
 
-[Reeg] and [Ereg] will constantly use [Rain of Spores], blasting everyone with projectiles. This can be mitigated by having projectile blocks up, communicate accordingly to always have some ready. Once [Reeg] hits 50%, he will disappear again. Similar to [Greer] when phasing, [Reeg] also does not become invulnerable, which means that applied <img class='inline condition'> [Conditions] will keep ticking and no damage is wasted.
+[Reeg] and [Ereg] will constantly use [Rain of Spores], blasting everyone with projectiles. This can be mitigated by having projectile blocks up, communicating accordingly to always have some ready.
 
 After [Reeg] has disappeared or is close to disappearing (usually around 56% HP), the focus shifts to [Gree] and [Ereg]. Move to Gree and position on the far side of him compared to Ereg. This will bait Ereg to stand on top of Gree, so that you can cleave them together.
 
 <img class=center width='70%' src='../images/greer/strategy/greer_split_3.webp'>
 
 {: .note}
-If you are doing the achievement to keep [Ereg] alive, you will only focus [Gree], otherwise you can damage [Gree] until [Ereg] comes into melee range and then switch, as usually Ereg will be less healthy at this point.
+If you are doing the achievement to keep [Ereg] alive, you will only focus [Gree], otherwise you can damage [Gree] until [Ereg] comes into melee range and then switch, as Ereg will be less healthy at this point.
 
 Soon after getting to Gree, [Ereg] will cast [Enfeebling Miasma]. When the cone indicators appear, dodge through the miniboss to the safe side.
 
@@ -169,6 +193,8 @@ The Arrow projectiles from [Cage of Decay] stop at the edge of the arena and don
 
 ## Second Phase
 
+#### Beginning of the Phase
+
 Once [Gree] hits 50% hp, the split phase is over. [Ereg] will despawn, all three adds will re-appear in their original positions and [Greer] will become vulnerable and start attacking again. The first attack will always be [Blob of Blight], so when running back to the boss one <img class='inline chrono'> [Chronomancer] should be ready to <img class='inline distortion'> [Distort] them. Everyone else should run stacked together, behind the <img class='inline chrono'> [Chronomancer].
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p2_1.webp'>
@@ -181,24 +207,28 @@ Very shortly after, there will be a few [Greens] that need to be solved.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p2_2.webp'>
 
-If they are desynchronized you can solve all of them relatively easily by stacking the two-person green on top of one of the three-person ones. If they happen simultaneously, it's better to dodge the [two-person-green] and solve both [three-person-greens]. The reason for this is that the [three-person-greens] give <img class='inline empowered'> [Empowered] stacks to the boss when failed, while the [two-person-green] will give them to the *lesser Titan*.
+If they are desynchronized you can solve all of them relatively easily by stacking the two-person green on top of one of the three-person ones. If they happen simultaneously, it's better to dodge the two-person-green and solve both three-person-greens. The reason for this is that the three-person-greens give <img class='inline empowered'> [Empowered] stacks to the boss when failed, while the two-person-green will give them to the *lesser Titan*.
 
 It is important to provide <img class='inline stability'> [Stability] while these [Greens] are happening, since [Greer] may also cast [Sweep the Mold] and [Stomp the Growth] while they are being solved. Be careful to not dodge out of [Greens] while avoiding the shockwave.
 
-Wait for Greer to cast [Enfeebling Miasma], then dodge through his hitbox to the safe side. 
+Once greens are done and [Reeg] is dead, wait for Greer to cast [Enfeebling Miasma], then dodge through his hitbox to the safe side. 
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p2_3.webp'>
 
-The rest of this phase is similar to the first phase. Deal with the mechanics appropriately:
+---
 
-- <img class='inline distortion'> [Distort] the orbs
-- provide <img class='inline stability'> [Stability] for swipes
-- use <img class='inline precog'> [Well of Precognition] for slams
-- continue blocking [Empowering Blasts], etc.
+#### Main Body
 
-A <img class='inline defiance'> [Defiance Bar] appears again at 50%. 
-<br>
-Upon breaking the bar, [Elite Empowering Beasts] will spawn again, and cast [Empowering Blast] toward [Greer]; make sure to block all of these and communicate if any backup projectile block is needed.
+The rest of this phase is similar to the first phase. Deal with mechanics appropriately:
+
+- <img class='inline distortion'> [Distort] the [Blobs of Blight]
+- Provide <img class='inline stability'> [Stability] for [Sweep the Mold].
+- Use <img class='inline precog'> [Well of Precognition] for [Stomp the Growth].
+- Continue blocking [Empowering Blasts].
+
+A <img class='inline defiance'> [Defiance Bar] appears again at 50%. Upon breaking this bar, [Elite Empowering Beasts] will spawn again, and cast [Empowering Blast] toward [Greer]; make sure to block all of these and communicate if any backup projectile block is needed.
+
+This phase continues until 35%, when the second split phase begins.
 
 <img class=divider>
 
@@ -210,13 +240,13 @@ The squad will go to [Reeg] in the North-West again, and a <img class='inline ch
 {: .note}
 If you're keeping [Ereg] alive, simply ignore him, otherwise try to focus him down as soon as he's in melee range. 
 
-This time, the phase ends when [Reeg] and [Gree] are fully dead. If [Ereg], the squad should remain on him until he is low, while the tank can go distract Greer. In this case, pay attention to any [Blobs of Blight] incoming from the boss.
+This time, the phase ends when [Reeg] and [Gree] are fully dead. If [Ereg] is still healthy, the squad should remain on him until he is low, while the tank can go distract Greer. In this case, pay attention to any [Blobs of Blight] incoming from the boss.
 
 <img class=divider>
 
 ## Third Main Phase
 
-### 35% - 10%
+#### Beginning of the Phase
 
 [Greer] will always open with [Blob of Blight], followed by [Eruption of Rot]. This will be a set of 3  [three-person-greens] <font size=2>(often called "Triple Greens")</font>. 
 The easiest way to deal with this version of the mechanic is to stack them; all three targeted players should move out of melee range, off the stack, and dodge towards the boss. This will prevent any <img class='inline empowered'> [Empowered] on [Greer] and any players that are <img class='inline invuln'> [Downed] can be ressed.
@@ -227,19 +257,23 @@ The easiest way to deal with this version of the mechanic is to stack them; all 
 
 Timing wise, [Ereg] might also use his [two-person-greens], which can be solved on the stack. At this point, [Ereg] should be close to dying. With a <img class='inline condition'> [Condition] based composition, you can leave [Ereg] and swap to [Greer] at around 7% of his HP.
 
-At this point, there will be no more regular [Empowering Blast], because all *lesser Titans* are dead. Since you don't have to cleave [Reeg], you can just walk directly to the boss and start DPSing him.
-
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_1.webp'>
 
-At 20% there will be another <img class='inline defiance'> [Defiance Bar], followed by another set of [Elite Empowering Beasts] will spawn. Be ready to block the [Empowering Blast] orbs from those. Groups will usually take advantage of this breakbar to maneuver in preparation for the protoling phase. Once the bar appears, run through the boss and stand between him and the wall.
+At this point, there will be no more regular [Empowering Blast], because all *lesser Titans* are dead. Since you don't have to cleave [Reeg], you can just walk directly to the boss and start DPSing him.
+
+---
+
+#### Tanking Setup Maneuver
+
+At 20% there will be another <img class='inline defiance'> [Defiance Bar], and another set of [Elite Empowering Beasts] will spawn. Groups will usually take advantage of this breakbar to maneuver in preparation for the protoling phase. Once the bar appears, run through the boss and stand between him and the wall.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_2.webp'>
 
-Once the bar is broken, Greer will turn around towards the wall where the squad is. Wait for his next [Sweep the Mold], [Stomp the Growth], [Cage of Decay] or [Enfeebling Miasma]: these skills all lock Greer in place for their animation allowing the group to move back to the inside while the *tank* keeps Greer's aggro on them by staying in front of him.
+Once the bar is broken, Greer will turn around towards the wall where the squad is. Wait for his next [Sweep the Mold], [Stomp the Growth], [Cage of Decay] or [Enfeebling Miasma]: these skills all lock Greer in place for their animation, allowing the group to move back to the inside while the *tank* stays in place and keeps Greer's aggro on them.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_3.webp'>
 
-Once [Greer] reaches ~11%, can start moving away from [Greer] in preparation for the protoling phase, while the tank continues to keep him facing the wall. Conditions will bring [Greer] to 10% at which point the next phase starts.
+Once [Greer] reaches ~11% HP, the squad (minus the tank) should start moving away in preparation for the protoling phase. Conditions will bring [Greer] to 10% at which point the next phase starts.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_4.webp'>
 
@@ -247,21 +281,31 @@ Once [Greer] reaches ~11%, can start moving away from [Greer] in preparation for
 
 ## Proto-Greerling Phase
 
-Once [Greer] hits 10% he becomes <img class='inline invuln'> [Invulnerable] and three *Champion Proto-Greerlings* <font size=2>(from here on called Protolings)</font> will spawn at random locations in the arena <font size=2>(there are 12 possible spawnpoints -- see image below -- three are chosen at random)</font>. 
+Once [Greer] hits 10% he becomes <img class='inline invuln'> [Invulnerable] and three [Champion Proto-Greerlings] <font size=2>(from here on called Protolings)</font> will spawn at random locations in the arena. All three *Protolings* must be killed before Greer can be damaged again.
 
 <img class="center" width="70%" src="../images/greer/strategy/protolings_spawnpoints.webp" />
+ <font size=2 class=center>There are 12 possible spawnpoints, from which three are chosen at random.</font>
 
-The tank's job is to keep the boss away from the rest of the squad and facing the wall. In order to survive, they should try to evade as many attacks as possible. If they are unlucky and a *Protoling* spawns close and aggros on them, they may need to come back to the squad earlier. In this case, try to bait out [Ripples of Rot]. This skill is very dangerous, but has a long cooldown, so having him cast it at the beginning means that you will not have to deal with it later on.
+---
 
-The squad should kill all three *Protolings* as fast as possible. 
-Move either toward the furthest *Protoling* from [Greer], or towards multiple stacked *Protolings* if there are any. Any ranged damage dealers can try to bait in extra *Protolings* that are far from the squad.
+#### Tanking
+
+The tank's job is to keep the boss away from the rest of the squad and facing the wall. In order to survive, they should try to evade as many attacks as possible. Stand close to Greer and sidestep [Sweep the Mold] and [Cage of Decay]. Save your dodges for [Stomp the Growth], making sure to jump the wave. As you are close to the boss, you will not be targeted by [Blobs of Blight] or [Eruption of Rot], but call out when the mechanics are happening for your squad.
+
+If you are unlucky and a *Protoling* spawns close and aggros on you, you may need to come back to the squad earlier. In this case, try to bait out [Ripples of Rot]. This skill is very dangerous, but has a long cooldown, so having him cast it at the beginning means that you will not have to deal with it later on.
+
+---
+
+#### Killing Protolings
+
+Once the spawn positions are apparent, the squad should move either toward the furthest *Protoling* from [Greer], or towards multiple stacked *Protolings* if there are any. Any ranged damage dealers can try to bait in extra *Protolings* that are far from the squad.
 <br>
-It is important to remain stacked throughout the entire phase as closely as possible. The *Protolings* will constantly spam these attacks:
-- [Scattering Sporeblast] - keep projectile blocks up at all times.
-- [Sweep the Mold] - provide <img class='inline stability'> [Stability] and <img class="inline aegis"> [Aegis] or sidestep them.
+The *Protolings* will constantly spam these attacks:
+- [Scattering Sporeblast] - dealt with by keeping projectile blocks up at all times.
+- [Sweep the Mold] - managed bia <img class='inline stability'> [Stability] and <img class="inline aegis"> [Aegis] or by sidestep the cones.
 - [Stomp the Growth] - dodge through the caster to the safe side. Casts of this will often overlap, dealing a surprising amount of damage.
 
-Players off the stack not benefiting from this support will die very quickly.
+It is important to remain stacked throughout the entire phase as closely as possible to benefit from this defensive support and skills: players off the stack will die very quickly, losing valuable time and risking destabilizing the squad while reviving.
 
 {: .note}
 Communication of cooldowns for projectile blocks and <img class='inline precog'> [Well of Precognition] is important here. Blocking, sidestepping, and dodging the damage in this section can make or break a run. Stay close together and always use your dodge before you die from the next AoE attack! 
@@ -273,15 +317,13 @@ Besides this plethora of AoEs, special attention has to be given to two attacks:
 
 Sometimes it can happen that the last *Protoling* is close to [Greer]. In those cases, focus the *Protoling* while trying to evade all [Greer] attacks.
 
-Once the last protoling is close to dying, switch to [Greer] to pre-stack <img class='inline condition'> [Conditions].
+Once the last *Protoling* is close to dying, switch to [Greer] to pre-stack <img class='inline condition'> [Conditions].
 
 <img class=divider>
 
 ## Final Phase
 
-### 10% - 0%
-
-[Greer] will become vulnerable once the last *Protoling* is dead. After 30 seconds, the *Protolings* will respawn, which is essentially a wipe. 
+[Greer] will become vulnerable once the last *Protoling* is dead. After 30 seconds, the *Protolings* will respawn, which is usually a wipe due to the tight enrage timer. 
 <br>
 Pre-stacking <img class='inline condition'> [Conditions] towards the end of the 10% phase is important, as it effectively removes a large part of the ramp-up time from the squad's damage profile; this is much more important than quickly killing the final *Protoling*. 
 
@@ -295,7 +337,16 @@ Unless the squad has played perfectly there will be <img class='inline empowered
 [Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#greer-recommended-strategy){: .btn .fixed}
 {: .center}
 
-[boon mechanics]: mechanics.html#boons-on-the-titans
+[Greer]: ./overview.html
+[Gree]: ./mechanics.html#lesser-titans
+[Reeg]: ./mechanics.html#lesser-titans
+[Ereg]: ./mechanics.html#lesser-titans
+[Elite Empowering Beast]: ./mechanics.html#elite-empowering-beast
+[Elite Empowering Beasts]: ./mechanics.html#elite-empowering-beast
+[Champion Proto-Greerling]: ./mechanics.html#champion-proto-greerling
+[Champion Proto-Greerlings]: ./mechanics.html#champion-proto-greerling
+
+[lesser titans]: mechanics.html#lesser-titans
 [Green]: mechanics.html#eruption-of-rot
 [Greens]: mechanics.html#eruption-of-rot
 [two-person-green]: mechanics.html#eruption-of-rot
@@ -336,15 +387,9 @@ Unless the squad has played perfectly there will be <img class='inline empowered
 [Condition]: https://wiki.guildwars2.com/wiki/Condition_Damage
 [Conditions]: https://wiki.guildwars2.com/wiki/Condition_Damage
 [Power]: https://wiki.guildwars2.com/wiki/Power
-[Greer]: https://wiki.guildwars2.com/wiki/Greer,_the_Blightbringer
-[Gree]: https://wiki.guildwars2.com/wiki/Gree,_the_Bringer
-[Reeg]: https://wiki.guildwars2.com/wiki/Reeg,_the_Blighter
-[Ereg]: https://wiki.guildwars2.com/wiki/Ereg,_the_Enabler
 [Invulnerable]: https://wiki.guildwars2.com/wiki/Invulnerability
 [Resolution]: https://wiki.guildwars2.com/wiki/Resolution
 [Downed]: https://wiki.guildwars2.com/wiki/Downed
-[Elite Empowering Beast]: https://wiki.guildwars2.com/wiki/Elite_Empowering_Beast
-[Elite Empowering Beasts]: https://wiki.guildwars2.com/wiki/Elite_Empowering_Beast
 [Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
 [Distortion]: https://wiki.guildwars2.com/wiki/Distortion
 [Knockback]: https://wiki.guildwars2.com/wiki/Knockback
