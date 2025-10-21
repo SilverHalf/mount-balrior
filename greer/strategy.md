@@ -74,7 +74,7 @@ Due to how the [lesser titans] provide boons throughout the encounter, it's typi
 - <img class='inline power'> [Power] compositions can kill [Gree] to remove <img class='inline protection'> [Protection] from all enemies.
 - <img class='inline condition'> [Condition] compositions can kill [Reeg] to remove <img class='inline resolution'> [Resolution] from all enemies.
 
-The choice of composition brings about a noticeable difference in positioning: each strategy will start the fight next to the lesser titan that corresponds with their antagonistic boon, and will focus them down at the beginning of every burn phase and split phase. For the rest, roles and mechanics function equally for both.
+The choice of composition brings about a noticeable difference in positioning: each strategy will start the fight next to the lesser titan that corresponds with their antagonistic boon, and will focus them down at the beginning of every burn phase and split phase. Apart from this, roles and mechanics function equally for both.
 
 In the following, we assume a <img class='inline condition'> [Condition] based composition.
 
