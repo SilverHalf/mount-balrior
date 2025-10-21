@@ -10,6 +10,14 @@ parent: Godspoil Greer
 # Greer Mechanical Reference
 {: .no_toc}
 
+<details>
+<summary><b>Table of Contents</b></summary>
+<div markdown=block>
+1. TOC
+{:toc}
+</div>
+</details>
+
 This section contains a detailed reference of the various attacks and mechanics present in the Godspoil Greer encounter. 
 
 The rest of this page is structured into the following sections:
@@ -27,7 +35,6 @@ Greer's basic attack pattern centers around a handful of skills that have indivi
 ---
 
 ### Lesser Titans
-{: .no_toc}
 
 A defining characteristic of this encounter is the presence of the *lesser titans*: [Reeg], [Gree] and [Ereg]. These have a profound impact on the overall structure and strategy of the fight.
 
@@ -70,7 +77,7 @@ These mechanics generally force squads onto either a full <img class='inline pow
 ---
 
 ### Table of Mechanics
-{: .no_toc}
+
 A brief description of the primary mechanics in the fight. Click on a mechanic to view additional information.
 
 | **Attack** | **Common Name** | **Brief Description** |
@@ -182,7 +189,6 @@ Generally, there is a skill priority that titans follow, however, this skill pri
 ---
 
 ### [Blob of Blight]
-{: .no_toc}
 
 Used by [Greer] <font size=2>(cooldown 120s)</font>, [Reeg] <font size=2>(cooldown 75s)</font> and [Ereg] <font size=2>(cooldown 75s)</font>.
 <br>
@@ -195,7 +201,6 @@ Moving orbs can also be despawned by evading through then them, or by moving int
 ---
 
 ### [Cage of Decay]
-{: .no_toc}
 
 Used by [Greer] <font size=2>(cooldown 120s)</font> and [Gree] <font size=2>(cooldown 30s)</font>. 
 <br>
@@ -210,7 +215,6 @@ Since <img class="inline plague-rot"> [Plague Rot] is removed on downing, affect
 
 
 ### [Empowering Blast]
-{: .no_toc}
 
 Used by the three *lesser Titans* and by [Elite Empowering Beasts] <font size=2>(cooldown 10s)</font>. 
 <br>
@@ -219,7 +223,6 @@ The caster shoots out small orbs towards other *lesser Titans* and towards [Gree
 ---
 
 ### [Enfeebling Miasma]
-{: .no_toc}
 
 Used by [Greer] <font size=2>(cooldown 120s)</font>, [Reeg] <font size=2>(cooldown 75s)</font> and [Ereg] <font size=2>(cooldown 75s)</font>. 
 <br>
@@ -231,7 +234,6 @@ The actual area of effect is larger than the indicator. The poisonous gas clouds
 ---
 
 ### [Eruption of Rot]
-{: .no_toc}
 
 Used by [Greer] <font size=2>(cooldown 120s)</font> and all three *lesser Titans* <font size=2>(cooldown 75s)</font>. 
 <br>
@@ -246,7 +248,6 @@ Greens always target the furthest untargeted player from the caster.
 ---
 
 ### [Rain of Spores]
-{: .no_toc}
 
 Used by [Greer] <font size=2>(cooldown 120s)</font>, [Reeg] <font size=2>(cooldown 120s)</font> and [Ereg] <font size=2>(cooldown 120s)</font>. 
 <br>
@@ -257,7 +258,6 @@ Targets the furthest player; consists of a barrage of projectiles, indicated by 
 ---
 
 ### [Ripples of Rot]
-{: .no_toc}
 
 Used by Greer <font size=2>(cooldown 120s)</font> and [Gree] <font size=2>(cooldown 30s)</font>.
 <br>
@@ -274,7 +274,6 @@ Since <img class="inline plague-rot"> [Plague Rot] is removed on downing, affect
 ---
 
 ### [Scattering Sporeblast]
-{: .no_toc}
 
 Used by [Greer] <font size=2>(cooldown 12s)</font>, [Reeg] <font size=2>(cooldown 8s)</font>, [Ereg] <font size=2>(cooldown 8s)</font>, and *Champion Proto-Greerlings*. 
 
@@ -285,7 +284,6 @@ Shoots damaging spores that can be projectile blocked, targeting enemies in fron
 ---
 
 ### [Stomp the Growth]
-{: .no_toc}
 
 A three-part attack-chain used by [Greer], [Gree] and *Champion Proto-Greerlings* regularly. 
 <br>
@@ -300,7 +298,6 @@ This attack becomes especially deadly in the later phases of the fight, when [Gr
 ---
 
 ### [Sweep the Mold]
-{: .no_toc}
 
 This attack is used by [Greer], [Gree] and *Champion Proto-Greerlings* regularly. 
 <br>
@@ -343,7 +340,7 @@ The [Greer] encounter has some additional unique effects, which are listed below
 ---
 
 ### <img class='inline empowered'> Empowered
-{: .no_toc}
+
 An effect that is gained by [Greer] and all three *lesser Titans* when players fail mechanics. Increases outgoing damage by 5% per stack, up to 99 stacks, at which point all attacks become unblockable. Titans can gain <img class='inline empowered'> [Empowered] through the following:
 
 - [Empowering Blast] will grant one stack every time it hits a titan.
@@ -352,8 +349,8 @@ An effect that is gained by [Greer] and all three *lesser Titans* when players f
 ---
 
 ### <img class="inline plague-rot"> Plague Rot
-{: .no_toc}
-An debuff that is applied to players hit by a [Cage of Decay], [Enfeebling Miasma], or [Ripples of Rot]. Affected players are surrounded by a red AoE that regularly corrupts boons and applies <img class="inline poison"> [Poison]. This effect spreads to other players on contact with the AoE, and if uncontrolled, can quickly spread to the entire squad.
+
+A debuff that is applied to players hit by a [Cage of Decay], [Enfeebling Miasma], or [Ripples of Rot]. Affected players are surrounded by a red AoE that regularly corrupts boons and applies <img class="inline poison"> [Poison]. This effect spreads to other players on contact with the AoE, and if uncontrolled, can quickly spread to the entire squad.
 
 The effect is removed if the affected player is <img class='inline invuln'> [Downed], or after a brief time interval.
 
@@ -362,13 +359,13 @@ Reaching 10 stacks of <img class="inline plague-rot"> [Plague Rot] will instantl
 ---
 
 ### <img class="inline target"> Target
-{: .no_toc}
+
 An effect that gets applied from being targeted by [Blob of Blight], which targets the furthest players away from the caster.
 
 ---
 
 ### [Noxious Blight]
-{: .no_toc}
+
 Describes various stationary AoE pools left behind by some abilities that corrupt boons and apply <img class="inline plague-rot"> [Plague Rot] to any player touching them.
 
 <img class=divider>

@@ -102,7 +102,9 @@ Your responsibilities (excluding basic healing and support as required by your r
 <div markdown='block'>
 - As soon as [Gree] is dead, walk back to the boss.
 - You may have to delete a set of [Blighted Orbs] while walking to the boss.
-- Move to [Reeg] and kill him while playing [Greens].
+- Move to [Reeg] and kill him while playing [Greens]. Players targeted by greens should split to the left and right between the boss and the add, as shown in the image.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p2_2.webp'>
 - Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
@@ -121,8 +123,12 @@ Your responsibilities (excluding basic healing and support as required by your r
 <div markdown='block'>
 - You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you. Use <img class='inline feedback'> [Feedback] to aid with rezzing (thanks to <img class='inline medic-feedback'> [Medic's Feedback]).
 - Play the beginning of the phase positioned towards the center of the arena.
-- During CC, your squad should move around Greer towards the outside of the arena.
-- On the first [Swipe], [Slam] or [Breath Attack] after CC, dodge through Greer so that only the *tank* remains in front of him.
+- During CC, your squad should move through Greer towards the outside of the arena.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_2.webp'>
+- On the first [Swipe], [Slam] or [Breath Attack] after CC, dodge through Greer so that only the tank remains in front of him.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_3.webp'>
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -131,7 +137,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 <summary>Protoling Phase</summary>
 <div markdown='block'>
 - Follow your commander to the furthest [Protoling].
-- Shatter any clones so that [Protolings] aggro correctly onto you.
+- Shatter any clones so that Protolings aggro correctly onto you.
 - Try to stay on tag while sidestepping [Swipes] and moving out of [Slams].
 - You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - When the last [Protoling] is close to dying, your commander will have you move back to Greer.
@@ -183,7 +189,9 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <summary>Phase 2</summary>
 <div markdown='block'>
 - As soon as [Gree] is dead, walk back to the boss.
-- Move to [Reeg] and kill him while playing [Greens].
+- Move to [Reeg] and kill him while playing [Greens]. Players targeted by greens should split to the left and right between the boss and the add, as shown in the image.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p2_2.webp'>
 - Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 - Have your bubble ready for the CC phase at 50%.
@@ -204,8 +212,12 @@ Your responsibilities (excluding basic damage and support as required by your ro
 - You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - Play the beginning of the phase positioned towards the center of the arena.
 - Have your bubble ready for the CC phase at 20%.
-- During CC, your squad should move around Greer towards the outside of the arena.
+- During CC, your squad should move through Greer towards the outside of the arena.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_2.webp'>
 - On the first [Swipe], [Slam] or [Breath Attack] after CC, dodge through Greer so that only the tank remains in front of him.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_3.webp'>
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -241,6 +253,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <summary>Phase 1</summary>
 <div markdown='block'>
 - Start on [Reeg] and DPS him while playing [Greens].
+- Block the first [Empowering Orb] from Reeg using <img class='inline cpc'> [Corrosive Poison Cloud].
 - When Greer lumbers over, move between him and Reeg to cleave them together.
 - Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
@@ -261,7 +274,9 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <summary>Phase 2</summary>
 <div markdown='block'>
 - As soon as [Gree] is dead, walk back to the boss.
-- Move to [Reeg] and kill him while playing [Greens].
+- Move to [Reeg] and kill him while playing [Greens]. Players targeted by greens should split to the left and right between the boss and the add, as shown in the image.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p2_2.webp'>
 - Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving him.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
@@ -280,8 +295,12 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <div markdown='block'>
 - You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - Play the beginning of the phase positioned towards the center of the arena.
-- After CC, your squad should move around Greer towards the outside of the arena.
-- On the first [Swipe] or [Breath Attack], the rest of the squad will dodge through Greer so that only you remain in front of him.
+- After CC, your squad should move through Greer towards the outside of the arena.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_2.webp'>
+- On the first [Swipe], [Slam] or [Breath Attack], the rest of the squad will dodge through Greer so that only you remain in front of him.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_3.webp'>
 - Play the rest of the phase tanking Greer towards the outside of the arena while your squad is on the inside.
 </div>
 </details>
@@ -291,6 +310,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <div markdown='block'>
 - Stay with Greer. Ask your squad to aggro and pull away any [Protolings] that come to you.
 - Stand close to Greer and sidestep [Swipes] and [Cage of Decay]. Save your dodges for [Slams], making sure to jump the wave.
+- Use <img class='inline cpc'> [Corrosive Poison Cloud] if you get too many projectiles on yourself.
 - If a Protoling spawns close and aggros on you, you may need to come back to the squad earlier to survive. In this case, try to bait out Greer's [Jump].
 - When the last Protoling is close to dying, your commander will have the squad move back to Greer. Prestack conditions on Greer to improve your ramp-up.
 - If you are healthy and confident, try to continue facing Greer away from the group until he is dead.
@@ -335,7 +355,9 @@ Your responsibilities consist in:
 <details class=faq>
 <summary>Phase 2</summary>
 <div markdown='block'>
-- Move to [Reeg] and kill him while playing [Greens].
+- Move to [Reeg] and kill him while playing [Greens]. Players targeted by greens should split to the left and right between the boss and the add, as shown in the image.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p2_2.webp'>
 - Wait for Greer's [Breath Attack], baiting it outwards. If Reeg is dead, dodge through Greer and position inwards, otherwise continue cleaving Reeg.
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
@@ -354,8 +376,12 @@ Your responsibilities consist in:
 <div markdown='block'>
 - You will have to play triple [Greens]. If you get one of these, stack with your green buddies together off the main group, then try to dodge the greens together as shown [here](https://www.youtube.com/watch?v=-epK7O8qfl4). If you go downstate, wait for your teammates to rez you.
 - Play the beginning of the phase positioned towards the center of the arena.
-- After CC, your squad should move around Greer towards the outside of the arena.
-- On the first [Swipe] or [Breath Attack], dodge through Greer so that only the tank remains in front of him.
+- During CC, your squad should move through Greer towards the outside of the arena.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_2.webp'>
+- On the first [Swipe], [Slam] or [Breath Attack] after CC, dodge through Greer so that only the tank remains in front of him.
+
+<img class=center width='80%' src='../images/greer/strategy/greer_p3_3.webp'>
 - Play the rest of the phase positioned towards the center of the arena.
 </div>
 </details>
@@ -418,3 +444,4 @@ Your responsibilities consist in:
 [Chronomancers]: https://wiki.guildwars2.com/wiki/Chronomancer
 [Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
 [Medic's Feedback]: https://wiki.guildwars2.com/wiki/Medic%27s_Feedback
+[Corrosive Poison Cloud]: https://wiki.guildwars2.com/wiki/Corrosive_Poison_Cloud

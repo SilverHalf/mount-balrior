@@ -36,16 +36,34 @@ Work In Progress
 </div>
 </details>
 
+---
+
+#### General Points
+{: .no_toc}
+- Groups must choose between a full <img class='inline power'> [Power] or full <img class='inline condition'> [Condition] composition.
+- Supports provide <img class='inline aegis'> [Aegis] and <img class='inline stability'> [Stability] for most mechanics.
+- Projectile management is required to avoid granting too much <img class='inline empowered'> [Empowered].
+- Careful positioning is used to stack the boss and various adds in advantageous positions.
+- A tank is used to occupy the boss in the final phases of the fight.
+- [Some parts of the fight](./mechanics.html#proto-greerling-phase) require excellent movement and defensive support to survive. 
+- The last 10% is a tight DPS check.
+
 <img class=divider>
 
 ## Composition
 
-Two strategies are commonly played on the encounter: one with a dedicated tank and one without a tank. Here we will focus only on the non-Tank version, because it's the most frequent in pug runs. This strategy, commonly called "cozy strat", typically uses the following composition:
+Two strategies are commonly played on the encounter: one with a dedicated tank for the entire fight, and one that uses a tank only in the last 10%. Here we will focus only on the non-Tank version, because it's the most frequent in pug runs. This strategy, commonly called "cozy strat", typically uses the following composition:
 
 - Two Heal <img class='inline chrono'> [Chronomancers] providing <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis].
 - A *bubble* to provide projectile blocks, usually a <img class='inline herald'> [Herald]  or <img class='inline firebrand'> [Firebrand].
 - A *10% tank*, usually played by a Celestial-hybrid <img class='inline scourge'> [Scourge] or any other sufficiently tanky build .
 - Six damage dealers.
+
+The focus is on providing enough defensive utility to manage all of Greer's attacks: <img class='inline chrono'> [Chronomancers] are the best choice as they are unmatched in <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis] uptime, while also having excellent boons, CC, healing and access to <img class='inline distortion'> [Distortion] for [Blobs of Blight].
+
+A bubble player is required to manage the copious amount of projectile denial the encounter mandates. This is most often a <img class='inline herald'> [Herald] running <img class='inline ventari'> [Legendary Centaur Stance], with the <img class='inline chrono'> [Chronomancers] providing backups with <img class='inline feedback'> [Feedback].
+
+Finally, <img class='inline scourge'> [Scourge] is commonly chosen as a tank, usually as a celestial boon provider, due to its high survivability and utility with <img class='inline cpc'> [Corrosive Poison Cloud] and <img class='inline undeath'> [Signet of Undeath](https://wiki.guildwars2.com/wiki/Signet_of_Undeath). 
 
 ---
 
@@ -394,5 +412,6 @@ Unless the squad has played perfectly there will be <img class='inline empowered
 [Distortion]: https://wiki.guildwars2.com/wiki/Distortion
 [Knockback]: https://wiki.guildwars2.com/wiki/Knockback
 [Protection]: https://wiki.guildwars2.com/wiki/Protection
+[Legendary Centaur Stance]: https://wiki.guildwars2.com/wiki/Legendary_Centaur_Stance
 
 [Condition Virtuoso]: https://snowcrows.com/builds/raids/mesmer/condition-virtuoso
