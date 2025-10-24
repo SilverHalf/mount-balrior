@@ -17,7 +17,11 @@ color_scheme: balrior
 callouts:
   note:
     title: Note
-    color: gray
+    color: notes
+
+  warning:
+    title: Warning
+    color: warning
 
   legendary:
     title: Legendary Mode
