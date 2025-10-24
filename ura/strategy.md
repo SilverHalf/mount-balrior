@@ -37,9 +37,6 @@ The rest of this page is structured into the following sections:
 
 [Ura] Challenge Mode is generally played with three healers, who must bring high amounts of crowd control to deal with [Toxic Geysers] and <img class='inline titanicresistance'> [Titanic Resistance]. Furthermore, they benefit from high survivability and mobility to facilitate mechanics, and <img class='inline stability'> [Stability] for their subgroups. For these reasons, the most commonly played specialization in this role is <img class='inline chrono'> [Chronomancer], followed by <img class='inline druid'> [Druid], <img class='inline scourge'> [Scourge] <font size=2>(often with a Celestial build)</font>, and <img class='inline specter'> [Specter].
 
-[<img class='inline chrono'> Chronomancer Build](https://gw2skills.net/editor/?PigEQiWmBDhZxuYj4RPp26A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e){: .btn} [<img class='inline scourge'> Scourge Build](https://en.gw2skills.net/editor/?PSAFw8laYZGMJ2DLiNip6V2rH-DSRYjRPV1HSI1ALkWigqLg0TBdvNEkQZP8aQwmFoC-e){: .btn} [<img class='inline druid'> Druid Build](https://gw2skills.net/editor/?POwEYKNssBmC7gxwKxxXSvpVi37B-DSRYjRwHCSUjuLjqrq0TBfvOEkQ5vl23sgKA-e){: .btn}
-{: .center}
-
 BoonDPS can bring additional utility to the fight, such as extra CC and <img class='inline stability'> [Stability], but this is not usually a limiting factor. Damage players can bring both <img class='inline power'> [Power] and <img class='inline condition'> [Condition] builds, though it is beneficial to bring a couple of <img class='inline power'> [Power] builds to handle [Titanspawn Geysers], since they have lower overall <img class='inline toughness'> [Toughness]. 
 <br>
 The fight also benefits builds with high cleave damage for both [Titanspawners] and [Champion Fumarollers], and extra mobility for easily placing [Sulfuric Geysers].
@@ -48,13 +45,24 @@ Usually, one or two of the DPS players will have the additional responsibility o
 <br>
 See [tanking Ura](#tanking-ura) for more information.
 
----
-
-An example of a squad composition could be as follows:
+A sample composition could be as follows:
 
 |       | Heal              | DPS/Hybrid Support | DPS       | DPS       | DPS       |
 | Sub 1 | <img class="inline chrono"> [Chrono] | DPS Support        | <img class='inline power'> [Power] | <img class='inline power'> [Power] | Any DPS  |
 | Sub 2 | <img class="inline chrono"> [Chrono] | Hybrid/Full Heal   | Any DPS   | Any DPS   | Any DPS   |
+
+---
+
+#### Builds and PoVs
+
+This is a non-exhaustive list of playable builds on the encounter. If anything is outdated, you can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
+
+|Build|Role|PoV|Last updated|
+|[<img class='inline chrono'> Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmB7iZxQYj4RPp26A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)| Ranged & Heal | [Single Shard](https://www.youtube.com/watch?v=nYkv1xAUIm4) [Double Shard]() | October 2025 |
+|[<img class='inline druid'> Heal Druid](https://gw2skills.net/editor/?POwEYKNssBmC7gxwKxxXSvpVi37B-DSRYjRwHCSUjuLjqrq0TBfvOEkQ5vl23sgKA-e) | Ranged & Heal| [Single Shard](https://www.youtube.com/watch?v=-lhRcEVLmk0) | April 2025 |
+|[<img class='inline firebrand'> Condi Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBtukGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e) | Melee & Boon| [PoV](https://www.youtube.com/watch?v=FZLDQPUmlOA) | September 2025 |
+|[<img class='inline scrapper'> Power Scrapper](https://gw2skills.net/editor/?PeQAIlJw0YcsNWKO2LvteA-DSRYBRBH2cQnnRtSgKUAy8bRQCjNwrhCnRgKA-e) | Melee & DPS + Titanspawners | [PoV](https://www.youtube.com/watch?v=LCvrQLyt_UE) | July 2025 |
+|[<img class='inline mechanist'> Condi Mechanist](https://snowcrows.com/builds/raids/engineer/condition-mechanist) | Melee & DPS | [PoV](https://www.youtube.com/watch?v=MfRHz9wzbQU)| April 2025 |
 
 ---
 

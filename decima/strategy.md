@@ -40,13 +40,21 @@ One additional player in the ranged group, usually a healer, will cover a specia
 - Controlling which conduits are charged by [Thunder] through proximity.
 - Controlling the position of the [Focused Fluxlance].
 
-The ranged group will spend a decent amount of time out of melee range and hence it is recommended to use appropriate ranged builds. Supports in either subgroup must be capable of providing <img class='inline stability'>[Stability]. They can also bring a portal for their subgroup, although this is not strictly required. Groups will require adequate amounts of crowd control to manage Decima's large <img class='inline defiance'> [Defiance Bar].
+The ranged group will spend a decent amount of time out of melee range and hence it is recommended to use appropriate ranged builds. Supports in either subgroup must be capable of providing <img class='inline stability'>[Stability]. They can also bring a portal for their subgroup, although this is not strictly required. Groups will require adequate amounts of crowd control to manage Decima's large <img class='inline defiance'> [Defiance Bar], and kiters greatly benefit from additional mobility.
 
-Kiters greatly benefit from additional mobility, which combined with the requirements above, typically limits the classes used to:
+#### Builds and PoVs
 
-#### Heal Kiter Builds
-{: .no_toc}
-[<img class='inline chrono'> Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzidxCZj4RPp2aA-DSJYjR1fh0SKUdFkeQp7rhgEK/t0+mFUB-e){: .btn } [<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEw8NsMD2G7hFxGxU9K71D-DSRYjRLV1HSI1ALjqLg0TBdvNEkQZL8aQwmFoC-e){: .btn } [<img class='inline specter'> Specter](https://gw2skills.net/editor/?PazAsqrlhySZWsN2JeqWnxeA-DSRYjhCCGJaJ/eKkWChqLg0TAdvOEkQZD8WafzCqA-e){: .btn }
+This is a non-exhaustive list of playable builds on the encounter. If anything is outdated, you can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
+
+|Build|Role|PoV|Last updated|
+|[<img class='inline chrono'> Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzidxCZj4RPp2aA-DSJYjR1fh0SKUdFkeQp7rhgEK/t0+mFUB-e)| Heal, Kiter | [PoV (Kiter)](https://www.youtube.com/watch?v=Qsf582waMDM) [PoV (Melee)](https://www.youtube.com/watch?v=t0Dj09CKgRM) | September 2025 |
+|[<img class='inline scourge'> Heal Scourge](https://gw2skills.net/editor/?PSwEw8NsMD2G7hFxGxU9K71D-DSRYjRLV1HSI1ALjqLg0TBdvNEkQZL8aQwmFoC-e) | Heal, Kiter | [PoV](https://youtu.be/gZSVTWeXRdk) | April 2025 |
+|[<img class='inline specter'> Heal Specter](https://gw2skills.net/editor/?PazAsqrlhySZWsN2JeqWnxeA-DSRYjhCCGJaJ/eKkWChqLg0TAdvOEkQZD8WafzCqA-e) | Heal, Kiter | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | September 2025 |
+|[<img class='inline tempest'> Heal Tempest](https://gw2skills.net/editor/?PGgAsilRwWYMMPGKe2TptfA-DSJYjRDfZUdCkeBo71BWafzCqA-e) | Heal, Kiter | [PoV](https://youtu.be/IinQ3QXNEvI) | July 2025 |
+|[<img class='inline specter'> Condi Alacrity Specter](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre-scepter)| Ranged BoonDPS | | September 2025 |
+|[<img class='inline herald'>Condi Quickness Herald](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear)| Ranged BoonDPS | [PoV](https://youtu.be/mlZ-_ovKZXc) | May 2025 |
+|[<img class='inline virtuoso'> Condi Virtuoso](https://snowcrows.com/builds/raids/mesmer/condition-virtuoso) | Ranged DPS | | June 2025 |
+|[<img class='inline scourge'> Condi Scourge](https://snowcrows.com/builds/raids/necromancer/condition-scourge)| Ranged DPS |[PoV](https://youtu.be/scilNBfG0_U) | June 2025 |
 
 <img class=divider>
 

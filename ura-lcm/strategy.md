@@ -149,6 +149,8 @@ The tank players usually do not participate in the melee rotation, but all other
 
 #### Builds and PoVs
 
+This is a non-exhaustive list of playable builds on the encounter. If anything is outdated, you can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
+
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)|Healer & Toxics||August 2025|
 |<img class='inline deadeye'> [CC Deadeye](https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e)|CC Bot & Toxics|[PoV](https://youtu.be/hxm8MSuFuyo), [Golem](https://youtu.be/vH_CbAcGEjo), [Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M)|September 2025|
@@ -161,8 +163,6 @@ The tank players usually do not participate in the melee rotation, but all other
 |<img class='inline daredevil'> [Condi Daredevil](https://gw2skills.net/editor/?PagAgilRwOYfMKWJO2W1NNA-DSJYmRD/ZUgCoDJgC/VEgA1AvmZ8gBA-e)|DPS|[PoV](https://www.youtube.com/watch?v=YQ4ZJvkXoEA)|September 2025|
 |<img class='inline vindicator'> [Power Vindicator](https://gw2skills.net/editor/?PmyAExzlxQmMP6k1RpMOClRSqMCqkJ7lasC-DSRYBRN33cQgHSmSggFCVoCk5dijEG7h3i+LYQFA-e)|DPS & Titanspawners|[PoV](https://youtu.be/sgiPQ1FeqLI)|September 2025|
 |<img class='inline scrapper'> [Power Scrapper](https://gw2skills.net/editor/?PeQAIlJw0YcsNWKO2LvteA-DSRYBRBH2cQnnRtSgKUAy8bRQCjNwrhCnRgKA-e)|DPS & Titanspawners |[PoV](https://www.youtube.com/watch?v=d82vtsmHL38)|September 2025|
-
-If anything is outdated, you can find up-to-date builds and PoVS on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 
 ---
 
@@ -411,10 +411,8 @@ All DPS should bring <img class='inline stand-ground'> [Stand Your Ground!] and 
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://en.gw2skills.net/editor/?PigEQiWmBzidxQYj4RPp2+A-DSRYjR1DJ4CplUIoIo6CQ3XDBI09wbp9NLoC-e)|Healer & Toxics|[PoV](https://www.youtube.com/watch?v=LM7uye3SYWI)|September 2025|
 |<img class='inline specter'> [Celestial Specter](https://en.gw2skills.net/editor/?PawEQbNqMUGLLltxOxx26O2D-DyIY1om/QaRB0lMIShgCfPEkAYP8Wo/SDqA-e)|Toxics|[PoV](https://www.youtube.com/watch?v=5LZMDgfcpg0)|September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/PT)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYfB1bG9cCFSbhQuJQHVgD/KCSQsHeNg4sCUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=rPfD2MvHZ2c)|September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/ST)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYfB1bG9cCFSbhQuJQHVgD/KCSQsHeNg4sCUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=gi8RSToi7hg)|September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/PT, Toughness)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/ST, Toughness)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
+|<img class='inline willbender'> [DPS Willbender (PP/PT)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
+|<img class='inline willbender'> [DPS Willbender (PP/ST)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
 
 If anything is outdated, you can find up-to-date builds and PoVS on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 

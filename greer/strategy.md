@@ -22,15 +22,7 @@ Two strategies are commonly played on the encounter: one with a dedicated tank a
 
 Due to how Greer's [boon mechanics] work, it's typical to use either a full <img class='inline condition'> [Condition], or full <img class='inline power'> [Power] based squad. 
 
-In the following, we assume a <img class='inline condition'> [Condition] based composition.
-
-[<img class='inline chrono'> Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzi1wAZj4RPp2aA-DSJYjR1fh0SKUdFkeQp7rhgEK/t0+mFUB-e){: .btn } [PoV](https://www.youtube.com/watch?v=bBk0LWdAsIs){: .btn }
-
-[<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEo8NsMDmG7jJxIxi9661D-DyIY1ol/M6SKkrCQhHDCSoMFeNg4BDUB-e){: .btn } [PoV](https://youtu.be/VBgiTP4SdhI){: .btn }
-
-[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear){: .btn } [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab){: .btn }
-
-All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
+In the following, we assume a <img class='inline condition'> [Condition] based composition. All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
 
 <details>
 <summary>Click to view markers</summary>
@@ -42,6 +34,18 @@ Work In Progress
 ```
 </div>
 </details>
+
+---
+
+#### Builds and PoVs
+
+This is a non-exhaustive list of playable builds on the encounter. If anything is outdated, you can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
+
+|Build|Role|PoV|Last updated|
+|[<img class='inline chrono'> Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzi1wAZj4RPp2aA-DSJYjR1fh0SKUdFkeQp7rhgEK/t0+mFUB-e)| Heal & Mechanics | [PoV](https://youtu.be/Y1QIgchi1SU) | September 2025 |
+|[<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEo8NsMDmG7jJxIxi9661D-DyIY1ol/M6SKkrCQhHDCSoMFeNg4BDUB-e) | 10% Tank | [PoV](https://youtu.be/VBgiTP4SdhI) | June 2025 |
+|[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear) | Boon & Bubble | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | April 2025 |
+|[<img class='inline firebrand'> Bubblebrand](https://gw2skills.net/editor/?PWxEQLtrMC2DTkpwMxk66/ZB-DSRYjRNGJsyo6UI9KQ3fBpIM7h3S7bWQFA-e) | Heal & Bubble | [PoV (Power)](https://www.youtube.com/watch?v=yNg0_2bXl4U) | September 2025 |
 
 <img class=divider>
 
