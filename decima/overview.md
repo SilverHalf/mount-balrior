@@ -11,7 +11,7 @@ has_toc: false
 [Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [Fast Guide](./fast-guide.html){: .btn }
 {: .center}
 
-<img src="../images/decima.webp" />
+<img class=bordered src="../images/decima.webp" />
 
 | **Health** | 97,020,176 |
 | **Armor** |  2597 (standard) |

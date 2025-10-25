@@ -11,7 +11,7 @@ has_toc: false
 [Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn } [Fast Guide](./fast-guide.html){: .btn } [Legendary Mode](../ura-lcm/overview.html){: .btn .purple}
 {: .center}
 
-<img src="../images/ura.webp" />
+<img class=bordered src="../images/ura.webp" />
 
 | **Health** | 79,749,072 *|
 | **Armor** |  2597 (standard) |

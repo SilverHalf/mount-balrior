@@ -20,6 +20,12 @@ $gold: #e0be00;
     color: white;
 }
 
+.bordered {
+    border: 3px outset;
+    border-radius: 15px;
+    border-color: $link-color;
+}
+
 .index-button {
     display: flex;
     border: 3px outset;

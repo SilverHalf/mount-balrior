@@ -11,7 +11,7 @@ has_toc: false
 [Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }[Fast Guide](./fast-guide.html){: .btn }
 {: .center}
 
-<img src="../images/greer.webp" />
+<img class=bordered src="../images/greer.webp" />
 
 | **Health** |  47,188,800  |
 | **Armor** |  2597 (standard) |
