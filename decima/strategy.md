@@ -8,6 +8,17 @@ parent: Godsquall Decima
 [Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Mechanical Reference](./mechanics.html){: .btn }
 
 # Decima Recommended Strategy
+{: .no_toc}
+
+<details>
+<summary><b>Table of Contents</b></summary>
+<div markdown=block>
+1. TOC
+{:toc}
+
+---
+</div>
+</details>
 
 This strategy is a written version of this [PoV](https://www.youtube.com/watch?v=Qsf582waMDM), and is designed for achievement runs, minimizing overlap and difficulty of mechanics, while also requiring the least possible movement.
 
@@ -25,22 +36,62 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiRGVjaW1hIENNIFN0cmF0ZWd5IiwiZGVzY3JpcHRpb24iOiJE
 </div>
 </details>
 
-This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Ura Fast Guides](./fast-guide.html).
+This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Decima Fast Guides](./fast-guide.html).
+
+---
+
+#### Main Points
+{: .no_toc}
+- The squad divides into a _ranged group_ and a _melee group_.
+- The _ranged group_ stays far from the boss to bait [Fluxlances].
+- The _melee group_ stays close to the boss to bait [Thunder] and collect [Greens].
+- One player covers a special role, the _kiter_, and controls spawn positions for several important mechanics.
+- The position of the two different groups and the kiter are carefully controlled to minimize overlap between mechanics.
+
+<img class=divider>
+
+## General Information
+
+### Melee and Ranged Group
+
+Many of Decima's mechanics are incompatible with each other, meaning that players that participate in one of them are impeded from helping out with others. More specifically:
+- Players who are baiting [Fluxlances] cannot also bait [Thunder] reliably at the same time. Furthermore, when hit by Fluxlances they will be affected by <img class='inline galvanic-sensitivity'> [Galvanic Sensitivity], and thus cannot collect [Greens].
+- Players who are baiting [Thunder] cannot also bait [Fluxlances] reliably at the same time. Furthermore, by staying within [Thrumming Presence] they will be affected by <img class='inline harmonic-sensitivity'> [Harmonic Sensitivity], making them vulnerable to [Fluxlances].
+
+The natural conclusion to this issue is separating the squad into a ranged and a melee subgroup.
+- The *ranged group* is responsible for baiting [Fluxlances] by being the furthest players from the boss, and pointing them away from [Conduits].
+- The *melee group* is responsible for baiting [Thunder] by being the closest players to the boss, and collecting [Greens].
+
+In this way we eliminate harmful overlaps between responsibilities and reduce the overall mechanical stress on each player.
+
+---
+
+### Kiting
+
+Many of Decima's mechanics focus around the furthest player from the boss.
+- [Harmonious Thunder] charges [Conduits] closest to this player.
+- The [Red Fluxlance] will target this player.
+- The [Focused Fluxlance] will target the conduit furthest from this player.
+
+We can take advantage of this by assigning this role to a specific player, called the _kiter_. Kiters often have to move off-stack to do these mechanics: this means lower DPS uptime and higher survivability requirements than regular DPS players. For this reason, kiters are often the healers for the ranged subgroup, though this is not set in stone.
+
+The kiter therefore condenses several responsibilities:
+- Healing and boons for the ranged subgroup.
+- Positioning during [Chorus of Thunder] to control which conduits are charged.
+- Aggressively baiting out the [Red Fluxlance], and then surviving when it goes off.
+- Ensuring that the [Focused Fluxlance] spawns in an advantageous position.
 
 <img class=divider>
 
 ## Composition
 
-The squad is separated into one ranged and one melee subgroup; each consisting of 5 players.
-- The *ranged group* is responsible for baiting [Fluxlances] by being the furthest players from the boss.
-- The *melee group* is responsible for baiting [Thunder] by being the closest players to the boss, and collecting [Greens].
+Support players should be providing good defensive boon coverage and healing. Decima has many strong bursts of damage incoming from various mechanics ([Fluxlances], [Seismic Crash], [Flux Nova]), so drops in <img class='inline protection'> [Protection] and insufficient healing can quickly lead to players downing.
 
-One additional player in the ranged group, usually a healer, will cover a special role known as the *kiter*. The kiter's responsibilities are:
-- Baiting out the [Red Fluxlance] by being the furthest player from the boss.
-- Controlling which conduits are charged by [Thunder] through proximity.
-- Controlling the position of the [Focused Fluxlance].
+<img class='inline stability'> [Stability] is required at regular intervals, portals are very useful to simplify the split phases (especially for the melee group) and good burst CC is necessary to break Decima's massive <img class='inline defiance'> [Defiance Bar]. Due to these requirements, <img class='inline chrono'> [Chronomancer] is by far the most played healer on this encounter, though not the only viable one. Kiters will also greatly benefit from mobility and boon radius, as their subgroup will often have to spread out to do mechanics.
 
-The ranged group will spend a decent amount of time out of melee range and hence it is recommended to use appropriate ranged builds. Supports in either subgroup must be capable of providing <img class='inline stability'>[Stability]. They can also bring a portal for their subgroup, although this is not strictly required. Groups will require adequate amounts of crowd control to manage Decima's large <img class='inline defiance'> [Defiance Bar], and kiters greatly benefit from additional mobility.
+While there are less strict requirements on the boonDPS and DPS than on the healers, the _ranged group_ will spend a decent amount of time out of melee range and thus it is recommended to use appropriate ranged builds. DPS in general should also try to bring sufficient amounts of CC, and boonDPS should bring backup <img class='inline stability'> [Stability] if possible.
+
+---
 
 #### Builds and PoVs
 
@@ -115,11 +166,12 @@ Depending on the group's DPS, you may already phase now into the first split pha
 Phasing after the second collection usually indicates a serious DPS issue: this needs to be resolved or the group will struggle greatly with the damage check in the final phase.
 
 {: .note}
-The kiter's positioning in this phase is meant to spread out the charged [Conduits] between the inner rings of the formation. In this way there will be less [Greens] in the next phase.
+>The kiter's positioning in this phase is meant to spread out the charged [Conduits] between the inner rings of the formation. In this way there will be less [Greens] in the next phase. When played correctly, only one of the outer conduits should be charged. In the image below for example, the <font color=red>red</font> conduits will have been charged during the first set of arrows, the <font color=orange>orange</font> during the second, and the <font color=yellow>yellow</font> during the third.
+> <img class=center width='60%' src="../images/decima/strategy/quick-guides/p1-charges.webp">
 
 ---
 
-## First Split Phase
+### First Split Phase
 
 The ranged and melee group will split to their respective closest [Transcendent Boulder], which is usually close to the <img class='inline circle'> marker for the ranged group and to the <img class='inline arrow'>  marker for the melee group. 
 <br>
@@ -189,12 +241,15 @@ Decima will then restart her attack pattern. The ranged group should position th
 
 ### Second Split Phase
 
-Similar to before the two groups go to their closest [Transcendent Boulder], while the healers prepare their portals. Usually, the melee group should go towards the <img class='inline heart'> marker and the ranged group towards the <img class='inline arrow'> marker. The split phase plays similar to before, only it is much more important to not break the add's <img class='inline defiance'> [Defiance Bar], so as to avoid [Sparkwave](mechanics.html#sparkwave), which will usually wipe the group.
+Similar to before the two groups go to their closest [Transcendent Boulder], while the healers prepare their portals. Usually, the melee group should go towards the <img class='inline heart'> marker and the ranged group towards the <img class='inline arrow'> marker. The split phase plays similar to before, only it is much more important to not break the add's <img class='inline defiance'> [Defiance Bar], so as to avoid [Sparkwave], which will usually wipe the group.
 
 <label class="arena-container">
     <input type="checkbox">
     <img class="decima-arena-image center"  src="../images/decima/strategy/phases/s2-1.webp">
 </label>
+
+{: .warning}
+Do not CC the [Transcendent Boulder]! A huge number of wipes happen in this phase due to early CC leading to [Sparkwave] casts. If you do CC early, the healer in your cage should try to be the furthest from the add, and bait the attack away from the other subgroup's cage. Everyone else should move opposite to them, so that they are not hit.
 
 As before, the ranged group positions themselves outward to bait [Fluxlances] and melee group inward to bait [Thunders]. The ranged group needs to pay attention again to not hit any conduits with [Fluxlances] and the melee group needs to time their dodge again. As soon as both adds are dead and the two mechanics are done, use portals once more to quickly get back to Decima.
 
@@ -280,6 +335,9 @@ The final 10% is a burst phase, so you want to immediately deal as much damage a
 
 At the start of the phase, Decima will become invulnerable and jump into the center of the arena, resetting all conduits. The jump is a knockback, so have <img class='inline stability'> [Stability] up. At the same time Decima will cast any remaining [Thunders], be ready to dodge. Depending on DPS, it can happen that two subsequent [Thunder] casts happen, be prepared to dodge twice subsequently.
 
+{: .note}
+This combination of [Seismic Crash] and [Thunder] is extremely lethal: players should always attempt to dodge both components (called "double dodging").
+
 <label class="arena-container">
     <input type="checkbox">
     <img class="decima-arena-image center"  src="../images/decima/strategy/phases/p4-2.webp">
@@ -323,6 +381,13 @@ If 10 [Greens] move into Decima's hitbox, Decima will become invulnerable and yo
 [Transcendent Boulder]: mechanics.html#trascendent-boulders
 [Converging Fluxlances]: mechanics.html#converging-fluxlances
 [80% - 70%]: strategy.html#80---70
+[Galvanic Sensitivity]: mechanics.html#-galvanic-sensitivity
+[Harmonic Sensitivity]: mechanics.html#-harmonic-sensitivity
+[Flux Nova]: mechanics.html#flux-nova
+[Thrumming Presence]: mechanics.html#thrumming-presence
+[Harmonious Thunder]: mechanics.html#harmonious-thunder
+[Chorus of Thunder]: mechanics.html#chorus-of-thunder
+[Sparkwave]: mechanics.html#sparkwave
 
 [Stability]: https://wiki.guildwars2.com/wiki/Stability
 [Defiance Bar]: https://wiki.guildwars2.com/wiki/Defiance_bar

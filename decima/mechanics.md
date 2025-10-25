@@ -10,6 +10,16 @@ parent: Godsquall Decima
 # Decima Mechanical Reference
 {: .no_toc}
 
+<details>
+<summary><b>Table of Contents</b></summary>
+<div markdown=block>
+1. TOC
+{:toc}
+
+---
+</div>
+</details>
+
 This section contains a detailed reference of the various attacks and mechanics present in the encounter. 
 
 The rest of this page is structured into the following sections:
@@ -65,8 +75,8 @@ Misplaying mechanics usually results in the boss acquiring <img class="inline ch
 
 ---
 
-### Table of Mechanics
-{: .no_toc}
+#### Table of Mechanics
+
 A brief description of the primary mechanics in the fight. Click on a mechanic to view additional information.
 
 |**Attack**|**Common Name**|**Brief Description**|
@@ -80,8 +90,10 @@ A brief description of the primary mechanics in the fight. Click on a mechanic t
 |[Earthrend]| - | Knock-in ring AoE on the outside of the arena. |
 |[Flux Nova]| Nova, CC | Large channeled attack that unlocks a <img class="inline defiance"> [Defiance Bar]. |
 
+---
+
 #### Interaction Graph
-{: .no_toc}
+
 Decima can be a difficult boss to understand fully, as each of her unique mechanics has its own particular interactions with the rest of the encounter. For convenience's sake, below you will find a simplified graph with the most important interactions.
 ```mermaid
 flowchart TD
@@ -326,6 +338,7 @@ Conduit movements in this phase are shown in the following short video, where ea
 </video>
 
 #### 50% - 40% and Transition
+{: .no_toc}
 This phase is essentially identical to the [80% -70% Phase](#80---70), with one major difference: once their <img class="inline defiance"> [Defiance Bar] is broken, [Transcendent Boulders] will start periodically casting [Sparkwave](#sparkwave). This is an extremely dangerous skill, both it and the [Charged Ground] it generates must be avoided or managed with extreme care.
 
 Once Decima reaches 40% of her health and both [Transcendent Boulders] are dead, she will perform the same sequence she used at [70%](#70-transition) to transition into the third phase.
@@ -405,6 +418,8 @@ Every time Decima casts [Seismic Reposition] in this phase, she will relocate to
   <source src="../videos/decima_conduits_3.mp4" type="video/mp4">
 </video>
 
+---
+
 ### Final Phase
 On reaching 10% health, Decima will become <img class="inline invuln"> [Invulnerable], then [Seismic Reposition] to the center of the arena. She will simultaneously cast [Discordant Thunder] targeting all ten players, then cast [Harmonious Thunder]. Shortly after jumping, all [Conduits] will lose their charge.
 
@@ -437,7 +452,7 @@ This section contains a full, in-depth explanation of all mechanics in the encou
 ---
 
 ### Thrumming Presence
-{: .no_toc}
+
 A 750-radius area-of-effect centered around Decima, outlined with a faint red circle. Constantly inflicts a small amount of damage to all players inside the area and applies <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity].
 
 <img class="center" width="80%" src="../images/decima/mechanics/thrumming.webp" />
@@ -447,7 +462,7 @@ Decima gains her Thrumming Presence at the beginning of the encounter only losin
 ---
 
 ### Fluxlances
-{: .no_toc}
+
 Also known as *"Arrows"* due to their indicator; Laser attacks originating from the boss. Once their indicator appears, after a brief delay, fluxlances will fire, applying an effect in a line according to their type. Fluxlances have infinite range, but can be blocked by [Conduits]. Any conduit hit by a lance will increase its charge level, but will prevent the lance from extending beyond the conduit itself. Fluxlances cannot be <img class="inline aegis"> [Blocked] or <img class="inline evade"> [Evaded], and ignore <img class="inline invuln"> [Invulnerability].
 
 #### Standard Fluxlance
@@ -476,7 +491,6 @@ Targets the five furthest players with fluxlances. After a brief delay, all lanc
 
 #### Converging Fluxlances
 {: .no_toc}
-
 {: .note}
 This skill does not have an official name, so this name is given for convenience.
 
@@ -490,7 +504,7 @@ Therefore, while five fluxlances are summoned in total similarly to previous att
 ---
 
 ### Chorus of Thunder
-{: .no_toc}
+
 This attack has two components:
 
 #### Harmonious Thunder
@@ -510,7 +524,7 @@ Chorus of Thunder is used regularly by Decima as part of her attack loop.
 ---
 
 ### Conduits
-{: .no_toc}
+
 Conduits, or pylons, are structures that are manipulated by Decima and play a critical part in the encounter as a whole. Eighteen of them are summoned at the beginning of the fight and they persist throughout all phases. Conduits are arrayed in shifting patterns around Decima, which vary based on the phase and the state of Decima's attack loop.
 
 <img src="../images/decima/mechanics/conduits.webp">
@@ -528,7 +542,7 @@ A charged conduit explodes, dealing damage based on its charge level in a large 
 Lasers periodically link all conduits together in a pattern. Whenever any player passes through them, they are affected by *Reverberating Impact*, which deals moderate damage and pushes the player out of the laser, preventing them from crossing it. This is also applied for movement skills such as dashes, but excludes player teleportation such as blinks or portals. It is not affected by <img class="inline stability"> [Stability]. Players that are knocked into a fence by Decima's attacks are ejected at high speeds, possibly into other fences.
 
 #### Dancing Sparks
-{: .no_toc}
+
 Also known as *greens*. Small AoEs that spawn from charged [Conduits] and start moving towards Decima. If they are allowed to reach the boss, they are consumed and grant her a stack of <img class="inline charge"> [Charge].
 
 Sparks deal damage to all players standing in their area, which is greatly increased towards players affected by <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity]. When enough players stand inside a spark, it will stop moving towards Decima and start draining health, disappearing once fully drained. The number of players required to achieve this effect is displayed above each spark, and is equal to the charge level of its originating conduit.
@@ -538,7 +552,7 @@ All charged conduits spawn sparks simultaneously as part of Decima's attack loop
 ---
 
 ### Foreshock & Mainshock
-{: .no_toc}
+
 <img class="center" width="100%" src="../images/decima/mechanics/mainshock.webp" />
 
 #### Foreshock
@@ -554,7 +568,7 @@ Foreshock and Mainshock are used regularly by Decima as part of her attack loop,
 ---
 
 ### Seismic Crash
-{: .no_toc}
+
 Decima leaps up, then crashes down in a circular AoE centered on herself. This AoE has two components:
 - An inner circle, with the same dimensions as Decima's hitbox, that <img class="inline defeat"> [Defeats] all players inside of it. This effect cannot be <img class="inline evade"> [Evaded] or <img class="inline aegis"> [Blocked], and is not affected by <img class="inline invuln"> [Invulnerability].
 - A larger circle centered on the hitbox deals damage (decreasing the further the player) and inflicts <img class="inline knockback"> [Knockback], launching players away from the boss. This part can be mitigated using all standard methods.
@@ -566,7 +580,7 @@ Decima casts this skill regularly as part of her attack loop. Furthermore, she a
 ---
 
 ### Earthrend
-{: .no_toc}
+
 Decima leaps up, then crashes down, generating AoE attacks in two components:
 - An inner circle, corresponding with Decima's hitbox, that <img class="inline defeat"> [Defeats] all players inside of it. This effect cannot be <img class="inline evade"> [Evaded] or <img class="inline aegis"> [Blocked], and is not affected by <img class="inline invuln"> [Invulnerability].
 - A wide ring on the outside of the arena deals damage and inflicts <img class="inline knockback"> [Knockback], launching players towards the boss. This part can be mitigated using all standard methods.
@@ -576,7 +590,7 @@ While similar to [Seismic Crash], this skill is much less threatening since it u
 ---
 
 ### Flux Nova
-{: .no_toc}
+
 A massive arena-wide attack. This attack has two versions: a first one is used as part of the phase transitions at 70% and 40% of Decima's health total, while the second one is used whenever she reaches 10 stacks of <img class="inline charge"> [Charge], or when the enrage timer runs out.
 
 #### Transition Nova
@@ -592,7 +606,7 @@ If Decima gains 10 stacks of <img class="inline charge"> [Charge] or the *enrage
 ---
 
 ### Transcendent Boulders
-{: .no_toc}
+
 Dangerous minions that spawn during the split phases at 70% and 50% of Decima's HP, and at the beginning of the third phase.
 
 | **Health** | 1,533,636 	 |
@@ -630,19 +644,19 @@ Decima's encounter has a multitude of unique effects, which are listed below for
 ---
 
 ### <img class="inline galvanic-sensitivity"> Galvanic Sensitivity
-{: .no_toc}
+
 An effect that is applied to players hit by a [Standard Fluxlance], lasting for 30 seconds. Greatly increases damage taken from [Dancing Sparks]. <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity], is incompatible with <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity], which it overwrites.
 
 ---
 
 ### <img class="inline harmonic-sensitivity"> Harmonic Sensitivity
-{: .no_toc}
+
 An effect that is applied to players standing inside Decima's <img class="inline thrumming"> [Thrumming Presence], lasting for 30 seconds. Greatly increases damage taken by [Fluxlances]. <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity] is incompatible with <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity], and cannot be applied to players affected by <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity].
 
 ---
 
 ### <img class="inline charge"> Charge
-{: .no_toc}
+
 A stacking effect that is gained by Decima every time she consumes [Dancing Sparks]. Increases all outgoing damage from all of Decima's attacks. If Decima gains 10 stacks of <img class="inline charge"> [Charge], she becomes <img class="inline enrage"> [Unstoppable](https://wiki.guildwars2.com/wiki/Unstoppable_(Decima)) and gains <img class="inline nova-shield"> [Nova Shield], after which she then casts a maximum power [Flux Nova], <img class="inline defeat"> [Defeating] all players.
 
 Decima loses all stacks of <img class="inline charge"> [Charge] when she performs her [Flux Nova].
@@ -650,31 +664,31 @@ Decima loses all stacks of <img class="inline charge"> [Charge] when she perform
 ---
 
 ### <img class="inline harmony"> Peal of Harmony
-{: .no_toc}
+
 A stacking effect that determines the number of [Conduits] that Decima targets during her [Chorus of Thunder]. Decima starts the fight with 5 stacks of <img class="inline harmony"> [Peal of Harmony], and gains a stack every 5% of her HP.
 
 ---
 
 ### <img class="inline discord"> Peal of Discord
-{: .no_toc}
+
 A stacking effect that determines the number of players that Decima targets during her [Chorus of Thunder]. Decima gains 5 stacks of <img class="inline discord"> [Peal of Discord] every 10% of her HP.
 
 ---
 
 ### <img class="inline nova-shield"> Nova Shield
-{: .no_toc}
+
 Makes Decima immune to health damage. Decima gains this effect on reaching 70% or 40% health, when she gains 10 stacks of <img class="inline charge"> [Charge], or when the enrage timer runs out. She loses it after casting [Flux Nova]
 
 ---
 
 ### <img class="inline fractured"> Fractured Armor
-{: .no_toc}
+
 An effect that is gained by Decima whenever her defiance bar is broken. Makes Decima susceptible to the backlash from her next [Flux Nova],  which <img class='inline stun'> [Stuns] her for 10 seconds and applies <img class="inline exposed"> [Exposed] for the same duration. 
 
 ---
 
 ### <img class="inline linked"> Linked
-{: .no_toc}
+
 This effect has two versions: one that is applied to Decima at the beginning of the 80% and 50% split phases, and one that is applied to [Transcendent Boulders].
 
 #### Decima
