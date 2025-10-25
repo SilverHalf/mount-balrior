@@ -74,7 +74,7 @@ Due to how the [lesser titans] provide boons throughout the encounter, it's typi
 - <img class='inline power'> [Power] compositions can kill [Gree] to remove <img class='inline protection'> [Protection] from all enemies.
 - <img class='inline condition'> [Condition] compositions can kill [Reeg] to remove <img class='inline resolution'> [Resolution] from all enemies.
 
-The choice of composition brings about a noticeable difference in positioning: each strategy will start the fight next to the lesser titan that corresponds with their antagonistic boon, and will focus them down at the beginning of every burn phase and split phase. Apart from this, roles and mechanics function equally for both.
+The choice of composition brings about a noticeable difference in positioning: each strategy will start the fight next to the lesser titan that grants their antagonistic boon, and will focus them down at the beginning of every burn phase and split phase. Apart from this, roles and mechanics function equally for both.
 
 In the following, we assume a <img class='inline condition'> [Condition] based composition.
 
@@ -129,7 +129,7 @@ Whoever blocked the [Empowering Blasts] is also responsible for luring the boss 
 {: .note}
 Quickly stacking Greer next to [Reeg] can massively increase your squad's overall DPS, and positions him in a comfortable position for the rest of the fight. For this reason it's important to bait him properly, but the rest of the squad should also stack on the other side of [Reeg] so that he gets as close as possible.
 
-Meanwhile, the squad at [Reeg] will have to solve a pair of [Greens] while bringing the add down to 75%, at which point he despawns. Once [Greer] is close enough, you can stand between the two and cleave both.
+Meanwhile, the squad at [Reeg] will have to solve a pair of <img class='inline three-person'> [Greens] while bringing the add down to 75%, at which point he despawns. Once [Greer] is close enough, you can stand between the two and cleave both.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_5.webp'>
 
@@ -145,7 +145,7 @@ If the [Enfeebling Miasma] is cast early and [Reeg] has not despawned yet, you c
 
 #### Main Body
 
-After the opening sequence, Reeg should be dead, [Greens] solved, [Blobs of Blight] deleted and [Enfeebling Miasma] painting the wall. Most of these skills have a long enough cooldown that you won't have to deal with them until the next phase.
+After the opening sequence, Reeg should be dead, <img class='inline three-person'> [Greens] solved, [Blobs of Blight] deleted and [Enfeebling Miasma] painting the wall. Most of these skills have a long enough cooldown that you won't have to deal with them until the next phase.
 
 Thus follows the main component of fighting [Greer]. For the <img class='inline chrono'> [Chronomancers] this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and, more importantly, using <img class='inline precog'> [Well of Precognition] to block [Stomp the Growth].
 
@@ -184,7 +184,7 @@ Both [Reeg] and [Ereg] can cast [Blob of Blight] on the squad at this time.
 <br>
 The <img class='inline chrono'> [Chronomancers] on the stack needs to <img class='inline distortion'> [Distort] the [Blob of Blight] from [Reeg]. If the [Blobs of Blight] from [Ereg] are delayed, they may need to be dodged **by the entire squad**. If the dodge is failed make sure to immediately walk away; standing under a stationary orb will quickly kill you. 
 <br>
-Additionally, there will also be [Greens] that need to be played at the same time. 
+Additionally, there will also be <img class='inline two-person'> [Greens] that need to be played at the same time. 
 
 {: .note}
 There is a high chance that the player who's baiting [Gree] gets targeted by a [Green] as well: it is convenient to dodge it as they will be off-stack. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] into Dodge for a longer evasion period to make this easier.
@@ -220,8 +220,8 @@ Once [Gree] hits 50% hp, the split phase is over. [Ereg] will despawn, all three
 Then follows a sequence that is similar to what happened at the beginning of the encounter. Run past [Greer] to [Reeg], who spawns at his original position next to [Greer] again.
 
 Very shortly after, there will be a few [Greens] that need to be solved. 
-- a single [two-person-green] from [Reeg]
-- two [three-person-greens] from [Greer]
+- a single <img class='inline two-person'> [two-person-green] from [Reeg]
+- two <img class='inline three-person'> [three-person-greens] from [Greer]
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p2_2.webp'>
 
@@ -266,14 +266,14 @@ This time, the phase ends when [Reeg] and [Gree] are fully dead. If [Ereg] is st
 
 #### Beginning of the Phase
 
-[Greer] will always open with [Blob of Blight], followed by [Eruption of Rot]. This will be a set of 3  [three-person-greens] <font size=2>(often called "Triple Greens")</font>. 
+[Greer] will always open with [Blob of Blight], followed by [Eruption of Rot]. This will be a set of 3  <img class='inline three-person'> [three-person-greens] <font size=2>(often called "Triple Greens")</font>. 
 The easiest way to deal with this version of the mechanic is to stack them; all three targeted players should move out of melee range, off the stack, and dodge towards the boss. This will prevent any <img class='inline empowered'> [Empowered] on [Greer] and any players that are <img class='inline invuln'> [Downed] can be ressed.
 <details>
 <summary>Example of dodging triple greens</summary>
 <iframe class="youtube-video-wide center" src="https://www.youtube.com/embed/-epK7O8qfl4?si=OlA4G6xiHNTBVtrT&mute=1 " frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
-Timing wise, [Ereg] might also use his [two-person-greens], which can be solved on the stack. At this point, [Ereg] should be close to dying. With a <img class='inline condition'> [Condition] based composition, you can leave [Ereg] and swap to [Greer] at around 7% of his HP.
+Timing wise, [Ereg] might also use his <img class='inline two-person'> [two-person-green], which can be solved on the stack. At this point, [Ereg] should be close to dying. With a <img class='inline condition'> [Condition] based composition, you can leave [Ereg] and swap to [Greer] at around 7% of his HP.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_1.webp'>
 
@@ -331,7 +331,7 @@ Communication of cooldowns for projectile blocks and <img class='inline precog'>
 Besides this plethora of AoEs, special attention has to be given to two attacks: 
 
 1. [Greer] (and [Ereg] if he is alive) will cast [Blob of Blight] at some point during the 10% phase, so one of the <img class='inline chrono'> [Chronomancers] needs to be ready to <img class='inline distortion'> [Distort] when this happens. 
-2. "Triple [Greens]" will also happen at some point toward the end of the 10% phase; Play these similarly to the ones before, by stacking together, moving to a spot free from AoEs and slightly away from the boss, and finally dodging toward the boss.
+2. Triple <img class='inline three-person'> [Greens] will also happen at some point toward the end of the 10% phase; Play these similarly to the ones before, by stacking together, moving to a spot free from AoEs and slightly away from the boss, and finally dodging toward the boss.
 
 Sometimes it can happen that the last *Protoling* is close to [Greer]. In those cases, focus the *Protoling* while trying to evade all [Greer] attacks.
 
