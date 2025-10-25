@@ -89,7 +89,8 @@ Your responsibilities (excluding basic healing and support as required by your r
 <details class=faq>
 <summary>First Split Phase</summary>
 <div markdown='block'>
-- Either you or your fellow <img class='inline chrono'> [Chronomancer] must aggro [Gree] on <img class='inline heart'> and pull it towards the group on <img class='inline circle'>.
+- Often you or your fellow <img class='inline chrono'> [Chronomancer] must aggro [Gree] on <img class='inline heart'> and pull it towards the group on <img class='inline circle'>.
+- If you are not aggroing Gree, cross the arena to [Reeg] on <img class='inline circle'> and start damaging him.
 - If you get a [Green] while off-stack, try to dodge it or call for a buddy to help you out.
 - Once [Reeg] is gone or close to 50%, move to [Gree]. Stack on the outside of Gree so that [Ereg] walks to you.
 - Cleave the two adds together. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
@@ -263,7 +264,8 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <details class=faq>
 <summary>First Split Phase</summary>
 <div markdown='block'>
-- Cross the arena to [Reeg] on <img class='inline circle'> and start damaging him.
+- If your <img class='inline chrono'> [Chronomancers] are not doing it, it's your responsibility to aggro [Gree] on <img class='inline heart'> and pull it towards the group on <img class='inline circle'>.
+- If you are not aggroing Gree, cross the arena to [Reeg] on <img class='inline circle'> and start damaging him.
 - Once Reeg disappears or is close to 50%, move to [Gree]. Stack on the outside of Gree so that [Ereg] walks to you.
 - Cleave the two adds together. When Ereg uses its [Breath Attack], dodge through it and continue cleaving.
 <img class=center src='../images/greer/strategy/greer_split.webp'>

@@ -166,14 +166,14 @@ This phase continues until 35%, when the first split phase begins. If damage is 
 
 At 65%, the boss will become untargetable and the first split phase begins. <img class='inline condition'> [Conditions] will keep ticking on [Greer], so no damage will be wasted.
 
-Everyone in the squad will go to [Reeg], located in the North-West; 
+Everyone in the squad will go to [Reeg], located on <img class='inline circle'>; 
 <br>
-**Except** one <img class='inline chrono'> [Chronomancer], who will go to [Gree] (North-East) to capture his aggro and drag him towards the rest of the group on Reeg. 
+**Except** for one player, who will go to [Gree] on <img class='inline heart'> to capture his aggro and drag him towards the rest of the group on Reeg. This is often a <img class='inline chrono'> [Chronomancer] or the *10% tank*.
 
 <img class=center width='70%' src='../images/greer/strategy/greer_split_1.webp'>
 
 {: .note}
-Depending on DPS, the [Blobs of Blight] spawning at the end of the previous phase may need to be <img class='inline distortion'> [Distorted] by this <img class='inline chrono'> [Chronomancer] on the way to [Gree]. Conversely, with very high DPS they will not appear at all. 
+Depending on the situation and your DPS, [Ereg] may cast [Blobs of Blight] at the end of the previous phase. If this happens, it may be convenient to send a <img class='inline chrono'> [Chronomancer] to <img class='inline heart'>, and let them <img class='inline distortion'> [Distort] the orbs (see [here](https://www.youtube.com/watch?v=dx2zLoPADFk&start=105s&end=120s)). Otherwise, Ereg will use this skill at the beginning of the split phase, in which case it's better to keep both <img class='inline chrono'> [Chronomancers] on stack (see [here](https://www.youtube.com/watch?v=Y1QIgchi1SU&start=107s&end=135s)). 
 
 To bait [Gree] properly and quickly: keep some distance in order to not trigger his melee attacks, similar to baiting Greer at the start of the fight.
 [Gree] may use his [Ripples of Rot] attack, which must be avoided at all costs; if it is cast, just run away, regroup and after the attack is over go back to melee range.
@@ -182,7 +182,7 @@ To bait [Gree] properly and quickly: keep some distance in order to not trigger 
 
 Both [Reeg] and [Ereg] can cast [Blob of Blight] on the squad at this time.
 <br>
-The <img class='inline chrono'> [Chronomancer] on the stack needs to <img class='inline distortion'> [Distort] the [Blob of Blight] from [Reeg]. If the [Blobs of Blight] from [Ereg] are delayed, they will need to be dodged **by the entire squad**. If the dodge is failed make sure to immediately walk away; standing under a stationary orb will quickly kill you. 
+The <img class='inline chrono'> [Chronomancers] on the stack needs to <img class='inline distortion'> [Distort] the [Blob of Blight] from [Reeg]. If the [Blobs of Blight] from [Ereg] are delayed, they may need to be dodged **by the entire squad**. If the dodge is failed make sure to immediately walk away; standing under a stationary orb will quickly kill you. 
 <br>
 Additionally, there will also be [Greens] that need to be played at the same time. 
 
@@ -253,7 +253,7 @@ This phase continues until 35%, when the second split phase begins.
 ## Second Split Phase
 
 The second split phase is similar to the first. 
-The squad will go to [Reeg] in the North-West again, and a <img class='inline chrono'> [Chronomancer] has to bait [Gree] to the group.
+The squad will go to [Reeg] again, while one player has to bait [Gree] to the group.
 
 {: .note}
 If you're keeping [Ereg] alive, simply ignore him, otherwise try to focus him down as soon as he's in melee range. 
