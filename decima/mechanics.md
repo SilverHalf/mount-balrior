@@ -20,7 +20,7 @@ parent: Godsquall Decima
 </div>
 </details>
 
-This section contains a detailed reference of the various attacks and mechanics present in the encounter. 
+This page contains a detailed reference of the various attacks and mechanics present in the encounter. 
 
 The rest of this page is structured into the following sections:
 1. [**Overview**](#overview) - basic description of the fight and its main points.
@@ -542,7 +542,7 @@ A charged conduit explodes, dealing damage based on its charge level in a large 
 Lasers periodically link all conduits together in a pattern. Whenever any player passes through them, they are affected by *Reverberating Impact*, which deals moderate damage and pushes the player out of the laser, preventing them from crossing it. This is also applied for movement skills such as dashes, but excludes player teleportation such as blinks or portals. It is not affected by <img class="inline stability"> [Stability]. Players that are knocked into a fence by Decima's attacks are ejected at high speeds, possibly into other fences.
 
 #### Dancing Sparks
-
+{: .no_toc}
 Also known as *greens*. Small AoEs that spawn from charged [Conduits] and start moving towards Decima. If they are allowed to reach the boss, they are consumed and grant her a stack of <img class="inline charge"> [Charge].
 
 Sparks deal damage to all players standing in their area, which is greatly increased towards players affected by <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity]. When enough players stand inside a spark, it will stop moving towards Decima and start draining health, disappearing once fully drained. The number of players required to achieve this effect is displayed above each spark, and is equal to the charge level of its originating conduit.
@@ -575,7 +575,7 @@ Decima leaps up, then crashes down in a circular AoE centered on herself. This A
 
 Seismic Crash is a critical ability, not due to its instant kill potential, but mainly because the <img class="inline knockback"> [Knockback] is especially dangerous when combined with [Chorus of Thunder], [Fluxlances] and [Fulgent Fences].
 
-Decima casts this skill regularly as part of her attack loop. Furthermore, she also casts this skill as part of her <b>Seismic Reposition</b>, which is essentially identical but also has a movement component.
+Decima casts this skill regularly as part of her attack loop. Furthermore, she also casts this skill as part of her *Seismic Reposition*, which is essentially identical but also has a movement component.
 
 ---
 
@@ -640,12 +640,13 @@ A circular damaging AoE that increases its damage over time, and applies <img cl
 <img class=divider>
 
 ## List of Effects
-Decima's encounter has a multitude of unique effects, which are listed below for reference purposes. 
+Decima's encounter has a multitude of unique effects, which are listed below for reference purposes.
+
 ---
 
 ### <img class="inline galvanic-sensitivity"> Galvanic Sensitivity
 
-An effect that is applied to players hit by a [Standard Fluxlance], lasting for 30 seconds. Greatly increases damage taken from [Dancing Sparks]. <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity], is incompatible with <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity], which it overwrites.
+An effect that is applied to players hit by a [Standard Fluxlance], lasting for 30 seconds. Greatly increases damage taken from [Dancing Sparks]. <img class="inline galvanic-sensitivity"> [Galvanic Sensitivity] is incompatible with <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity], which it overwrites.
 
 ---
 
@@ -657,7 +658,7 @@ An effect that is applied to players standing inside Decima's <img class="inline
 
 ### <img class="inline charge"> Charge
 
-A stacking effect that is gained by Decima every time she consumes [Dancing Sparks]. Increases all outgoing damage from all of Decima's attacks. If Decima gains 10 stacks of <img class="inline charge"> [Charge], she becomes <img class="inline enrage"> [Unstoppable](https://wiki.guildwars2.com/wiki/Unstoppable_(Decima)) and gains <img class="inline nova-shield"> [Nova Shield], after which she then casts a maximum power [Flux Nova], <img class="inline defeat"> [Defeating] all players.
+A stacking effect that is gained by Decima every time she consumes [Dancing Sparks]. Increases all outgoing damage from all of Decima's attacks. If Decima gains 10 stacks of <img class="inline charge"> [Charge], she becomes <img class="inline enrage"> [Unstoppable](https://wiki.guildwars2.com/wiki/Unstoppable_(Decima)) and gains <img class="inline nova-shield"> [Nova Shield], after which she then casts a maximum power [Flux Nova], defeating all players.
 
 Decima loses all stacks of <img class="inline charge"> [Charge] when she performs her [Flux Nova].
 
@@ -665,13 +666,13 @@ Decima loses all stacks of <img class="inline charge"> [Charge] when she perform
 
 ### <img class="inline harmony"> Peal of Harmony
 
-A stacking effect that determines the number of [Conduits] that Decima targets during her [Chorus of Thunder]. Decima starts the fight with 5 stacks of <img class="inline harmony"> [Peal of Harmony], and gains a stack every 5% of her HP.
+A stacking effect that determines the number of [Conduits] that Decima targets with [Harmonious Thunder] during [Chorus of Thunder]. Decima starts the fight with 5 stacks of <img class="inline harmony"> [Peal of Harmony] and gains a stack every 5% of her HP.
 
 ---
 
 ### <img class="inline discord"> Peal of Discord
 
-A stacking effect that determines the number of players that Decima targets during her [Chorus of Thunder]. Decima gains 5 stacks of <img class="inline discord"> [Peal of Discord] every 10% of her HP.
+A stacking effect that determines the number of players that Decima targets with [Discordant Thunder] during [Chorus of Thunder]. Decima gains 5 stacks of <img class="inline discord"> [Peal of Discord] every 10% of her HP.
 
 ---
 
@@ -693,7 +694,7 @@ This effect has two versions: one that is applied to Decima at the beginning of 
 
 #### Decima
 {: .no_toc}
-Decima links herself to a [Transcendent Boulder], becoming <img class="inline invuln"> [Invulnerable] for as long as the boulder remains alive. Since there are always two boulders, Decima will gain two of this effect.
+Decima links herself to a [Transcendent Boulder], and and becomes <img class='inline invuln'> [Invulnerable] upon reaching a certain maximum HP threshold as long as the boulder is alive. This threshold is 70% during the [first split phase](#80---70), and 40% during the [second](#50---40-and-transition). Since there are always two boulders, Decima will gain two of this effect.
 
 #### Boulders
 {: .no_toc}

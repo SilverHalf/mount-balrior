@@ -49,6 +49,7 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiRGVjaW1hIENNIFN0cmF0ZWd5IiwiZGVzY3JpcHRpb24iOiJE
 <img class=divider>
 
 # Melee Boon/DPS Guide
+[<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
 
 Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Being close to the boss so that you are targeted by [Spreads].
@@ -56,8 +57,8 @@ Your responsibilities (excluding basic damage and support as required by your ro
 
 #### General Information for all Phases
 - Never linger inside the boss' hitbox: [Seismic Crash] or [Earthrend] will kill you.
-- Never move out of melee range from the boss. If you are  hit by an [Arrow] you cannot collect [Greens].
-- When you get [Spreads], dodge them <b>inwards</b> at the last second. You can stack spreads with other players, and dodge all of them at once.
+- Never move out of melee range from the boss. If you are  hit by an [Arrow] you cannot collect [Greens]. You should always stand on the edge of the boss' hitbox.
+- When you get [Spreads], dodge them <b>inwards</b> or sideways at the last second. You can stack spreads with other players, and dodge all of them at once.
 - When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox.
 
 ---
@@ -133,7 +134,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <div markdown='block'>
 
 #### 10% - 0%
-- Make sure to dodge the spreads at the beginning.
+- Make sure to double dodge the knockback and spreads during the transition.
 - Deal big damage.
 - Dodge [Spreads] forward and try to intercept [Greens] as they come in.
 
@@ -143,6 +144,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <img class=divider>
 
 # Melee Healer Guide
+[<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
 
 Your responsibilities (excluding basic healing and support as required by your role) consist in:
 1. Being close to the boss so that you are targeted by [Spreads].
@@ -152,8 +154,8 @@ Your responsibilities (excluding basic healing and support as required by your r
 
 #### General Information for all Phases
 - Never linger inside the boss' hitbox: [Seismic Crash] or [Earthrend] will kill you.
-- Never move out of melee range from the boss. If you are  hit by an [Arrow] you cannot collect [Greens].
-- When you get [Spreads], dodge them <b>inwards</b> at the last second. You can stack spreads with other players, and dodge all of them at once.
+- Never move out of melee range from the boss. If you are  hit by an [Arrow] you cannot collect [Greens]. You should always stand on the edge of the boss' hitbox.
+- When you get [Spreads], dodge them <b>inwards</b> or sideways at the last second. You can stack spreads with other players, and dodge all of them at once.
 - When you see [Greens], intercept them by standing on them. Make sure you do not move from the boss to do this: only intercept them when they are in melee range, while remaining on the edge of the boss's hitbox.
 - After the first and every other set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for [Seismic Crash].
 
@@ -171,7 +173,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 - Once Decima becomes <img class='inline invuln'> [Invulnerable], move to her new position and prepare your portal inside the cage, to the right of the boss.
 - Use your mobility skills to get to your subgroup's [add], taking care not to CC it.
 - Make sure you are standing on the inside of the add, towards Decima, to bait [Spreads]. When you get your spread, dodge it outwards, towards the add.
-- Once the add is dead, open your portal back to the boss.
+- Once the add is dead, provide <img class='inline stability'> [Stability], then open your portal back to the boss.
 
 #### 80% - 70%
 - Play this phase the same as 100%-80% in your new position.
@@ -198,7 +200,8 @@ Your responsibilities (excluding basic healing and support as required by your r
 - Once Decima becomes <img class='inline invuln'> [Invulnerable], walk towards her new position and prepare your portal inside the cage, to the right of the boss.
 - Use your mobility skills to get to your subgroup's [add].
 - ***DO NOT CC THE ADD***.
-- Once the add is dead, open your portal back to the boss.
+- If the add gets CC'd, stand furthest from it inside the cage to bait out [Fulminate]. Make sure to point it away from the other subgroup.
+- Once the add is dead, provide <img class='inline stability'> [Stability], then open your portal back to the boss.
 
 #### 50% - 40%
 - Played identically to 80% - 70%
@@ -232,7 +235,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 
 #### 10% - 0%
 - Provide <img class='inline stability'> [Stability] for the jump at the beginning.
-- Make sure to dodge the spreads at the beginning.
+- Make sure to double dodge the knockback and spreads during the transition.
 - Dodge [Spreads] forward and try to intercept [Greens] as they come in.
 
 </div>
@@ -241,6 +244,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 <img class=divider>
 
 # Ranged Boon/DPS Guide
+[<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
 
 Your responsibilities (excluding basic damage and support as required by your role) consist in:
 1. Being far from the boss so that you are targeted by [Arrows].
@@ -324,7 +328,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <div markdown='block'>
 
 #### 10% - 0%
-- Make sure to dodge the spreads at the beginning.
+- Make sure to double dodge the knockback and spreads during the transition.
 - Deal big damage.
 - Make sure to bait the [Arrows] at the beginning of the phase.
 - Dodge [Spreads] forward as you get them.
@@ -335,6 +339,7 @@ Your responsibilities (excluding basic damage and support as required by your ro
 <img class=divider>
 
 # Kiter Guide
+[<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
 
 As the kiter, you control the flow and direction of the encounter.
 Your responsibilities (excluding basic healing and support as required by your role) consist in:
@@ -351,7 +356,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 - When you get an [Arrow], spread out so you are not overlapping or pointing it at a [Conduit]. Being hit by multiple [Arrows] in succession will give you <img class='inline exposed'> [Exposed].
 - After every odd set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for [Seismic Crash].
 - Make sure you are always the furthest person from the boss for every even set of arrows, in order to bait the [Red Arrow].
-- When you get the [Red Arrow], use a mobility skill to move behind a [Conduit] and block the arrow.
+- When you get the [Red Arrow], use a mobility skill to move behind a [Conduit] and block the arrow. Once you are behind the conduit, do not move until the arrow fires.
 - Don't stand in [Greens] unless you're actively outhealing the damage.
 
 ---
@@ -376,7 +381,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 - Once Decima becomes <img class='inline invuln'> [Invulnerable], move to her new position and prepare your portal outside the cage to the left of the boss.
 - Use your mobility skills to get to the [add], taking care not to CC it.
 - Make sure you are the furthest person from the boss. If you get a [Red Arrow], hide behind a conduit.
-- Once the add is dead, open your portal back to the boss.
+- Once the add is dead, provide <img class='inline stability'> [Stability], then open your portal back to the boss.
 
 #### 80% - 70%
 - Play this phase the same as 100%-80% in your new position.
@@ -403,7 +408,8 @@ Your responsibilities (excluding basic healing and support as required by your r
 - Once Decima becomes <img class='inline invuln'> [Invulnerable], move to her new position and prepare your portal outside the cage to the left of the boss.
 - Use your mobility skills to get to the [add], ***DO NOT CC THE ADD***.
 - Make sure you are the furthest person from the boss. If you get a [Red Arrow], hide behind a conduit.
-- Once the add is dead, open your portal back to the boss.
+- If the add gets CC'd, stand furthest from it inside the cage to bait out [Fulminate]. Make sure to point it away from the other subgroup.
+- Once the add is dead, provide <img class='inline stability'> [Stability], then open your portal back to the boss.
 
 #### 50% - 40%
 - Played identically to 80% - 70%.
@@ -423,9 +429,10 @@ Your responsibilities (excluding basic healing and support as required by your r
 
 #### 40% - 10%
 - Follow the boss whenever it jumps. Provide <img class='inline stability'> [Stability] for each jump.
-- Stack between the two cages to bait the [Arrows]. Be on the opposite side from the melee group to spawn the [Green Arrow] on top of them.
-- For the second and every other set of arrows following, be the furthest player from the boss in order to bait the [Red Arrow].
+- Stack between the two cages to bait the [Arrows]. Be close to the cage on the opposite side from the melee group to bait the [Green Arrow] on top of them.
+- For the second  set of arrows following, be the furthest player from the boss in order to bait the [Red Arrow].
 - When you get the [Red Arrow], move into the position shown by the image in order to survive and not charge any conduits.
+- Green and red arrow baits alternate for the rest of the phase.
 
 <img class="decima-arena-image center" width='70%' src="../images/decima/strategy/quick-guides/p3-red-arrow.webp">
 
@@ -437,7 +444,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 <div markdown='block'>
 
 #### 10% - 0%
-- Make sure to dodge the spreads at the beginning.
+- Make sure to double dodge the knockback and spreads during the transition.
 - Make sure to bait the [Red Arrow] at the beginning of the phase.
 - Dodge [Spreads] forward as you get them.
 - Try to intercept [Greens].

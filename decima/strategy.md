@@ -20,7 +20,7 @@ parent: Godsquall Decima
 </div>
 </details>
 
-This strategy is a written version of this [PoV](https://www.youtube.com/watch?v=Qsf582waMDM), and is designed for achievement runs, minimizing overlap and difficulty of mechanics, while also requiring the least possible movement.
+This strategy is a written version of this [PoV](https://www.youtube.com/watch?v=Qsf582waMDM), and is designed for achievement runs, minimizing movement and difficulty while satisfying all mechanics in a deterministic manner.
 
 All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
 
@@ -52,34 +52,38 @@ This is an in-depth guide: if you are looking for something fast to read and les
 
 ## General Information
 
+Decima's encounter is inherently deterministic, giving the squad a large amount of control through careful positioning.
+
+---
+
 ### Melee and Ranged Group
 
-Many of Decima's mechanics are incompatible with each other, meaning that players that participate in one of them are impeded from helping out with others. More specifically:
-- Players who are baiting [Fluxlances] cannot also bait [Thunder] reliably at the same time. Furthermore, when hit by Fluxlances they will be affected by <img class='inline galvanic-sensitivity'> [Galvanic Sensitivity], and thus cannot collect [Greens].
-- Players who are baiting [Thunder] cannot also bait [Fluxlances] reliably at the same time. Furthermore, by staying within [Thrumming Presence] they will be affected by <img class='inline harmonic-sensitivity'> [Harmonic Sensitivity], making them vulnerable to [Fluxlances].
+Many of the more dangerous mechanics in the encounter choose their targets based on proximity to the boss. Noticeably, [Fluxlances] always target the furthest players, while [Thunders] target the closest, making management of these two mechanics mutually exclusive. Furthermore, the effects applied by some mechanics impede players from participating in others:
+
+- Players hit by [Fluxlances] will be affected by <img class='inline galvanic-sensitivity'> [Galvanic Sensitivity], and thus cannot collect [Greens].
+- Players staying within [Thrumming Presence] will be affected by <img class='inline harmonic-sensitivity'> [Harmonic Sensitivity], making them more vulnerable to [Fluxlances].
 
 The natural conclusion to this issue is separating the squad into a ranged and a melee subgroup.
 - The *ranged group* is responsible for baiting [Fluxlances] by being the furthest players from the boss, and pointing them away from [Conduits].
 - The *melee group* is responsible for baiting [Thunder] by being the closest players to the boss, and collecting [Greens].
 
-In this way we eliminate harmful overlaps between responsibilities and reduce the overall mechanical stress on each player.
+In this way, most strategies eliminate harmful overlaps and reduce the overall stress on each player while retaining deterministic control of all mechanics.
 
 ---
 
 ### Kiting
 
-Many of Decima's mechanics focus around the furthest player from the boss.
-- [Harmonious Thunder] charges [Conduits] closest to this player.
-- The [Red Fluxlance] will target this player.
-- The [Focused Fluxlance] will target the conduit furthest from this player.
+Several of Decima's mechanics focus around the furthest player from the boss.
+- [Harmonious Thunder] charges [Conduits] closest to them.
+- The [Red Fluxlance] will target them.
+- The [Focused Fluxlance] will target the conduit furthest from them.
 
-We can take advantage of this by assigning this role to a specific player, called the _kiter_. Kiters often have to move off-stack to do these mechanics: this means lower DPS uptime and higher survivability requirements than regular DPS players. For this reason, kiters are often the healers for the ranged subgroup, though this is not set in stone.
+We can take advantage of this by having a specific role, called the _kiter_, position accordingly, thus exercising a great amount of control over the flow of the encounter.
+- By positioning during [Chorus of Thunder], they can choose which [Conduits] are charged.
+- While satisfying the previous point, they will also bait out the [Red Fluxlance] and can be prepared to survive.
+- While satisfying the first point, they can also ensure that the [Focused Fluxlance] spawns in an advantageous position.
 
-The kiter therefore condenses several responsibilities:
-- Healing and boons for the ranged subgroup.
-- Positioning during [Chorus of Thunder] to control which conduits are charged.
-- Aggressively baiting out the [Red Fluxlance], and then surviving when it goes off.
-- Ensuring that the [Focused Fluxlance] spawns in an advantageous position.
+Kiters often have to move off-stack to do mechanics: this makes for lower DPS uptime and higher survivability requirements. For this reason, kiters are often the healers for the ranged subgroup, though this is not set in stone.
 
 <img class=divider>
 
@@ -89,7 +93,7 @@ Support players should be providing good defensive boon coverage and healing. De
 
 <img class='inline stability'> [Stability] is required at regular intervals, portals are very useful to simplify the split phases (especially for the melee group) and good burst CC is necessary to break Decima's massive <img class='inline defiance'> [Defiance Bar]. Due to these requirements, <img class='inline chrono'> [Chronomancer] is by far the most played healer on this encounter, though not the only viable one. Kiters will also greatly benefit from mobility and boon radius, as their subgroup will often have to spread out to do mechanics.
 
-While there are less strict requirements on the boonDPS and DPS than on the healers, the _ranged group_ will spend a decent amount of time out of melee range and thus it is recommended to use appropriate ranged builds. DPS in general should also try to bring sufficient amounts of CC, and boonDPS should bring backup <img class='inline stability'> [Stability] if possible.
+While there are less strict requirements on the boonDPS and DPS than on the healers, the _ranged group_ will spend a decent amount of time out of melee range and thus it is recommended to use appropriate builds. DPS in general should also try to bring sufficient amounts of CC, and boonDPS should bring backup <img class='inline stability'> [Stability] if possible.
 
 ---
 
@@ -98,14 +102,16 @@ While there are less strict requirements on the boonDPS and DPS than on the heal
 This is a non-exhaustive list of playable builds on the encounter. If anything is outdated, you can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 
 |Build|Role|PoV|Last updated|
+|---|---|---|---|
 |[<img class='inline chrono'> Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzidxCZj4RPp2aA-DSJYjR1fh0SKUdFkeQp7rhgEK/t0+mFUB-e)| Heal, Kiter | [PoV (Kiter)](https://www.youtube.com/watch?v=Qsf582waMDM) [PoV (Melee)](https://www.youtube.com/watch?v=t0Dj09CKgRM) | September 2025 |
-|[<img class='inline scourge'> Heal Scourge](https://gw2skills.net/editor/?PSwEw8NsMD2G7hFxGxU9K71D-DSRYjRLV1HSI1ALjqLg0TBdvNEkQZL8aQwmFoC-e) | Heal, Kiter | [PoV](https://youtu.be/gZSVTWeXRdk) | April 2025 |
-|[<img class='inline specter'> Heal Specter](https://gw2skills.net/editor/?PazAsqrlhySZWsN2JeqWnxeA-DSRYjhCCGJaJ/eKkWChqLg0TAdvOEkQZD8WafzCqA-e) | Heal, Kiter | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | September 2025 |
-|[<img class='inline tempest'> Heal Tempest](https://gw2skills.net/editor/?PGgAsilRwWYMMPGKe2TptfA-DSJYjRDfZUdCkeBo71BWafzCqA-e) | Heal, Kiter | [PoV](https://youtu.be/IinQ3QXNEvI) | July 2025 |
+|[<img class='inline scourge'> Heal Scourge](https://gw2skills.net/editor/?PSwEw8NsMD2G7hFxGxU9K71D-DSRYjRLV1HSI1ALjqLg0TBdvNEkQZL8aQwmFoC-e) | Heal, Kiter | [PoV (Kiter)](https://youtu.be/gZSVTWeXRdk) | April 2025 |
+|[<img class='inline specter'> Heal Specter](https://gw2skills.net/editor/?PazAsqrlhySZWsN2JeqWnxeA-DSRYjhCCGJaJ/eKkWChqLg0TAdvOEkQZD8WafzCqA-e) | Heal, Kiter | [PoV (Kiter)](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | September 2025 |
+|[<img class='inline tempest'> Heal Tempest](https://gw2skills.net/editor/?PGgAsilRwWYMMPGKe2TptfA-DSJYjRDfZUdCkeBo71BWafzCqA-e) | Heal, Kiter | [PoV (Kiter)](https://youtu.be/IinQ3QXNEvI) | July 2025 |
 |[<img class='inline specter'> Condi Alacrity Specter](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre-scepter)| Ranged BoonDPS | | September 2025 |
-|[<img class='inline herald'>Condi Quickness Herald](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear)| Ranged BoonDPS | [PoV](https://youtu.be/mlZ-_ovKZXc) | May 2025 |
+|[<img class='inline herald'> Condi Quickness Herald](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear)| Ranged BoonDPS | [PoV](https://youtu.be/mlZ-_ovKZXc) | May 2025 |
 |[<img class='inline virtuoso'> Condi Virtuoso](https://snowcrows.com/builds/raids/mesmer/condition-virtuoso) | Ranged DPS | | June 2025 |
 |[<img class='inline scourge'> Condi Scourge](https://snowcrows.com/builds/raids/necromancer/condition-scourge)| Ranged DPS |[PoV](https://youtu.be/scilNBfG0_U) | June 2025 |
+|[<img class='inline mechanist'> Condi Mechanist](https://snowcrows.com/builds/raids/engineer/condition-mechanist)| Melee DPS | [PoV](https://www.youtube.com/watch?v=xjwP5zCHzUM) | August 2025 |
 
 <img class=divider>
 

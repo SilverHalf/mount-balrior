@@ -19,13 +19,13 @@ has_toc: false
 | **Defiance** | 7500 |
 | **Enrage Timer** | 10 minutes - kills all players on running out. |
 
-Decima, the Stormsinger is one of the first two bosses in the Mount Balrior raid. Defeating her, along with her fellow titan, [Greer](../greer/overview.html), is necessary in order to challenge the final boss of the instance, [Ura](../ura/overview.html).
+Decima, the Stormsinger, is one of the first two bosses in the Mount Balrior raid. Defeating her, along with her fellow titan [Greer](../greer/overview.html), is necessary in order to challenge the final boss of the instance, [Ura](../ura/overview.html).
 
-Most of Decima's mechanics and attacks choose their target based on the players' proximity to the boss. This means that organized groups can distribute mechanics in a predictable way through careful positioning. This, combined with how the boss periodically resets its buffs, means that the encounter is overall more forgiving compared to the other bosses in the wing.
+Most of Decima's mechanics and attacks choose their target based on the players' proximity to the boss. This means that organized groups can distribute mechanics in a predictable way through careful positioning. This, combined with how the boss periodically resets its buffs, makes the encounter overall more forgiving compared to the other bosses in the wing.
 
-This does not mean however that it is easy: groups heading into Decima's arena will require good healing and <img class="inline protection"> [Protection](https://wiki.guildwars2.com/wiki/Protection) uptime, <img class="inline stability"> [Stability](https://wiki.guildwars2.com/Stability), and precise control of their <img class="inline defiance"> [Defiance](https://wiki.guildwars2.com/wiki/Defiance_bar) damage.
+However, this does not mean that it is easy: groups heading into Decima's arena will require good healing and <img class="inline protection"> [Protection](https://wiki.guildwars2.com/wiki/Protection) uptime, <img class="inline stability"> [Stability](https://wiki.guildwars2.com/Stability), and precise control of their <img class="inline defiance"> [Defiance](https://wiki.guildwars2.com/wiki/Defiance_bar) damage.
 
-The fight also becomes much easier with higher damage, as the group will be have to play less mechanics. Especially with the final phase being a difficult damage check.
+The fight also becomes much easier with higher damage, as the group will be have to play less mechanics, and the final phase is a difficult DPS check.
 
 <img class=divider>
 
