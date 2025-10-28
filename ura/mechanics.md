@@ -201,7 +201,7 @@ Every time this occurs, the shard will pulse with a red AoE indicator; this is n
 {: .note}
 > Certain bundles will be stowed upon picking up a Bloodstone Shard, <img class='inline elementalist'> Elementalist pistol projectiles counting towards <img class='inline grandfinale'>[Grand Finale] will be removed; 
 > <br>
-> More importantly shards **cannot** be picked up while tranformed!
+> More importantly shards **cannot** be picked up while transformed!
 > <details>
 > <summary> Click for a list of transformations affected</summary>
 > 

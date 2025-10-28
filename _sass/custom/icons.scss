@@ -581,6 +581,18 @@
 	text-align: center;
 }
 
+.pro {
+	width: 1em !important;
+    height: 1em;
+	content: url('../../images/green_check.svg');
+}
+
+.con {
+	width: 1em !important;
+    height: 1em;
+	content: url('../../images/red_cross.svg');
+}
+
 .midnight {
 	content: url('https://wiki.guildwars2.com/images/thumb/6/67/Relic_of_the_Midnight_King.png/60px-Relic_of_the_Midnight_King.png');
 }
