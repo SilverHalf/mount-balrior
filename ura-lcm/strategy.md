@@ -25,23 +25,31 @@ Many concepts generally carry over from the [Challenge Mode Strategy](../ura/str
 
 ---
 
-#### General Points
+#### Main Points
 {: .no_toc}
-- Two very different strategies are popular: Spawner and Willbender.
+- Two very different strategies are popular: [Spawner](#spawner-strategy) and [Willbender](#willbender-strategy).
 - The fight is an extremely tight DPS check, requiring every player to pull their weight.
-- An inordinate amount of CC is required throughout the fight, requiring special builds and consideration.
-- Usually groups will have a melee rotation to leave nothing to chance.
+- An inordinate amount of CC is required throughout the fight.
 - The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight. There are several ways of doing this depending on strategy and composition.
 - [Tanking Ura](../ura/mechanics.html#tanking-ura), facing her in the right direction and timing CC correctly is essential to avoid her casting [Propel] and upkeep high DPS uptime.
-- The final phase spawns multiple [Legendary Ventshots]. These are extremely dangerous, and must be dealt with.
+- The final phase spawns multiple [Legendary Ventshots] that introduce extreme damage and CC pressure.
 
 <img class=divider>
 
-## Strategy Overview
+## Overview
 
-Ura's overall mechanics and flow remain similar from CM to LM. There are two primary ways to approach Ura LCM, outlined below. The choice of which strategy to play depends on your squad's overall experience, preferences and region. 
+Ura's overall mechanics and flow remain similar from CM to LCM. There are two primary ways to approach the encounter, outlined below. The choice of which strategy to play depends on your squad's overall experience, preferences and region. 
 
 <div class="index-container">
+<div class="strategy bordered" markdown=block>
+#### [Spawner](#spawner-strategy)
+{: .no_toc .center}
+An extension of the CM strategy to LCM with some composition changes. Popular on the NA server.
+
+<img class=pro> Build and class diversity similar to CM.<br>
+<img class=con> More difficult execution.<br>
+<img class=con> [More difficult DPS check](https://docs.google.com/spreadsheets/d/1PgCP4ilNxd5QcbvztkzXe7WB2LtZ2A-qpIPy_2y7Ssw/edit?usp=sharing). 
+</div>
 <div class="strategy bordered" markdown=block>
 #### [Willbender](#willbender-strategy)
 {: .no_toc .center}
@@ -51,15 +59,6 @@ A mostly LCM-only strategy that takes advantage of some mechanical interactions 
 <img class=pro> [Easier DPS check](https://docs.google.com/spreadsheets/d/1PgCP4ilNxd5QcbvztkzXe7WB2LtZ2A-qpIPy_2y7Ssw/edit?usp=sharing).<br>
 <img class=con> Strict composition with little to no variation.<br>
 <img class=con> Depends on <img class='inline willbender'> [Willbender] for DPS.
-</div>
-<div class="strategy bordered" markdown=block>
-#### [Spawner](#spawner-strategy)
-{: .no_toc .center}
-An extension of the CM strategy to LCM with some composition changes. Popular on the NA server.
-
-<img class=pro> Build and class diversity similar to CM.<br>
-<img class=con> More difficult execution.<br>
-<img class=con> [More difficult DPS check](https://docs.google.com/spreadsheets/d/1PgCP4ilNxd5QcbvztkzXe7WB2LtZ2A-qpIPy_2y7Ssw/edit?usp=sharing). 
 </div>
 </div>
 
@@ -117,21 +116,21 @@ Spawner strategy compositions can be relatively flexible, depending on the extra
             <td class='phase1'>1</td>
             <td><a href="#builds-and-povs"><img class='inline firebrand'> Quick Firebrand</a></td>
             <td>Melee</td>
-            <td>E</td>
+            <td>A</td>
             <td></td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
             <td>DPS</td>
-            <td>Ranged</td>
+            <td>Melee</td>
+            <td>B</td>
             <td></td>
-            <td>4</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
             <td>DPS</td>
-            <td>Tank</td>
-            <td></td>
+            <td>Melee</td>
+            <td>C</td>
             <td></td>
         </tr>
         <tr>
@@ -145,28 +144,28 @@ Spawner strategy compositions can be relatively flexible, depending on the extra
             <td class='phase2'>2</td>
             <td>BoonDPS</td>
             <td>Melee</td>
-            <td>A</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>DPS</td>
-            <td>Melee</td>
-            <td>B</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>DPS</td>
-            <td>Melee</td>
-            <td>C</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>DPS</td>
-            <td>Melee</td>
             <td>D</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Melee</td>
+            <td>E</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Ranged</td>
+            <td></td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>DPS</td>
+            <td>Tank</td>
+            <td></td>
             <td></td>
         </tr>
     </tbody>

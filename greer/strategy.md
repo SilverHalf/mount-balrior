@@ -38,14 +38,13 @@ Work In Progress
 
 ---
 
-#### General Points
+#### Main Points
 {: .no_toc}
 - Groups must choose between a full <img class='inline power'> [Power] or full <img class='inline condition'> [Condition] composition.
 - Supports provide <img class='inline aegis'> [Aegis] and <img class='inline stability'> [Stability] for most mechanics.
 - Projectile management is required to avoid granting too much <img class='inline empowered'> [Empowered].
 - Careful positioning is used to stack the boss and various adds in advantageous positions.
 - A tank is used to occupy the boss in the final phases of the fight.
-- [Some parts of the fight](./mechanics.html#proto-greerling-phase) require excellent movement and defensive support to survive. 
 - The last 10% is a tight DPS check.
 
 <img class=divider>
