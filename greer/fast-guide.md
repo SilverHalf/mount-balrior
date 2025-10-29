@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fast Guides
+title: Greer Fast Guides
 nav_order: 3
 parent: Godspoil Greer
 ---

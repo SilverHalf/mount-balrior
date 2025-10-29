@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fast Guides
+title: Decima Fast Guides
 nav_order: 3
 parent: Godsquall Decima
 ---

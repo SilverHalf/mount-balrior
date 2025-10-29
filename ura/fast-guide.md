@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fast Guides
+title: Ura Fast Guides
 nav_order: 3
 parent: Godscream Ura
 ---

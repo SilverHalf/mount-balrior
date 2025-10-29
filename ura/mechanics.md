@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mechanics
+title: Ura Mechanics
 nav_order: 1
 parent: Godscream Ura
 ---

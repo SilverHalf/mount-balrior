@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ
+title: LCM FAQ
 nav_order: 2
 parent: Legendary Ura
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Strategy
+title: Decima Strategy
 nav_order: 2
 parent: Godsquall Decima
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Strategy
+title: Greer Strategy
 nav_order: 2
 parent: Godspoil Greer
 ---

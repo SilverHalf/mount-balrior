@@ -210,8 +210,16 @@ input:checked + .zoom {
     margin-left: 15px;
 }
 
+.purple:hover {
+    color: $legpurple !important;
+}
+
 .uralm {
     color: $legpurple;
+}
+
+.uralm:hover {
+    color: $legpurple !important;
 }
 
 em {

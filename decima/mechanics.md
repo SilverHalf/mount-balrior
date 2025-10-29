@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mechanics
+title: Decima Mechanics
 nav_order: 1
 parent: Godsquall Decima
 ---
