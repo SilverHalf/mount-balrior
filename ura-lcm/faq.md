@@ -1,11 +1,11 @@
 ---
 layout: page
-title: FAQ
+title: LCM FAQ
 nav_order: 2
 parent: Legendary Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Strategy Guide](./strategy.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn .uralm } [Strategy Guide](./strategy.html){: .btn .uralm}
 
 # Legendary Ura - FAQ
 
@@ -464,7 +464,7 @@ A flexible support that provides a bit of extra damage and utility, depending on
 
 ---
 
-####  Condition Quickness Firebrand
+#### <img class='inline firebrand'> Condition Quickness Firebrand
 
 A high damage boonDPS with exceptional utility.
 
@@ -580,32 +580,10 @@ Other support builds can technically be run if there is no need for specific ski
 </details>
 
 <details class=faq>
-<summary>5.8 - How much damage should I be dealing?</summary>
+<summary>5.8 - How much damage should my squad be dealing?</summary>
 <div markdown='block'>
 
-By averaging out a sample of kill logs, we can find the average DPS numbers for squads that have cleared LCM. While this is just an average, and it is definitely possible to clear with less DPS, higher damage will result in an overall easier fight for everyone, as the group will have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
-
-#### [Standard Strategy](./strategy.html#standard-strategy)
-
-Logs taken from June to September 2025.
-
-|Role|Phase 1|Phase 2|Phase 3|Phase 4|
-|:--|:--|:--|:--|:--|
-|DPS|37.5k|32k|29.5k|28k|
-|BoonDPS|29k|23.5k|22k|21k|
-|Squad|260k|215k|198k|194K|
-
-{: .note}
-Individual damage should be higher for tank players, and can be lower for those assigned to mechanics, such as [Titanspawn Geysers] or ranged backup.
-
-#### [Willbender Strategy](./strategy.html#wilbender-strategy)
-Currently low sample size due to the strategy being relatively new.
-
-|Role|Phase 1|Phase 2|Phase 3|Phase 4|
-|:--|:--|:--|:--|:--|
-|<img class='inline willbender'> DPS|32k|34.5k|33.5.5k|26.5k|
-|<img class='inline specter'> BoonDPS|14k|11.5k|9k|9k|
-|Squad|224k|235k|221k|180k|
+[This page](https://docs.google.com/spreadsheets/d/e/2PACX-1vQRWHzmW9qli-mQ_MBS_uq65Bd64jy-djaDM7-Lt5sAcTqeuaOER3an1XNsS054DZeKg06ehE_Cf4_g/pubhtml) shows average and approximate DPS required by squads to clear LCM.
 
 </div>
 </details>

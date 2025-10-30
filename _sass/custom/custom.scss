@@ -1,6 +1,7 @@
 @import 'icons.scss';
 @import 'table.scss';
 
+$legpurple: rgb(170, 153, 255);
 $gold: #e0be00;
 
 .inline { 
@@ -17,6 +18,19 @@ $gold: #e0be00;
 
 .white {
     color: white;
+}
+
+.bordered {
+    border: 3px outset;
+    border-radius: 15px;
+    border-color: $link-color;
+}
+
+.strategy {
+    width:50%;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .index-button {
@@ -108,6 +122,10 @@ $gold: #e0be00;
     z-index: 99;
 }
 
+div.highlighter-rouge code {
+    text-wrap: wrap;
+}
+
 .wrap {
     white-space: initial;
 }
@@ -188,6 +206,37 @@ input:checked + .zoom {
 }
 
 .purple {
-    background-color: rgb(92, 41, 154);
-    color: white;
+    color: $legpurple;
+    margin-left: 15px;
+}
+
+.purple:hover {
+    color: $legpurple !important;
+}
+
+.uralm {
+    color: $legpurple;
+}
+
+.uralm:hover {
+    color: $legpurple !important;
+}
+
+em {
+color: #F1D47A;
+}
+
+.youtube-video {
+	aspect-ratio: 16 / 9;
+	width: 80%;
+}
+
+.youtube-video-wide {
+	aspect-ratio: 24 / 9;
+	width: 100%;
+}
+
+.extra-margin {
+    margin-top: 30px;
+    margin-bottom: 15px;
 }

@@ -5,46 +5,93 @@ nav_order: 1
 parent: Legendary Ura
 ---
 
-[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn } [Frequently Asked Questions](./faq.html){: .btn }
+[Return to Home](../index.html){: .btn } [Return to Overview](./overview.html){: .btn .uralm} [Frequently Asked Questions](./faq.html){: .btn .uralm}
 
 # Legendary Ura Strategy Guide
+{: .no_toc}
 
-Legendary Ura is an extreme challenge that requires near-perfect execution to be cleared.
-Many concepts generally carry over from the [Normal Challenge Mode Strategy](../ura/strategy.html), so it is highly recommended to be familiar with Challenge Mode and with your chosen class before attempting to progress the Legendary Mode.
+<details>
+<summary><b>Table of Contents</b></summary>
+<div markdown=block>
+1. TOC
+{:toc}
+
+---
+</div>
+</details>
+
+Legendary Godscream Ura is an extreme challenge that requires near-perfect execution to be cleared.
+Many concepts generally carry over from the [Challenge Mode Strategy](../ura/strategy.html), so it is highly recommended to be familiar with Challenge Mode and with your chosen class before attempting to progress the Legendary Mode.
 
 ---
 
-#### General Points
+#### Main Points
+{: .no_toc}
+- Two very different strategies are popular: [Spawner](#spawner-strategy) and [Willbender](#willbender-strategy).
 - The fight is an extremely tight DPS check, requiring every player to pull their weight.
-- An inordinate amount of CC is required throughout the fight, requiring special builds and consideration.
-- Usually groups will have a melee rotation to leave nothing to chance.
+- An inordinate amount of CC is required throughout the fight.
 - The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight. There are several ways of doing this depending on strategy and composition.
 - [Tanking Ura](../ura/mechanics.html#tanking-ura), facing her in the right direction and timing CC correctly is essential to avoid her casting [Propel] and upkeep high DPS uptime.
-- The final phase spawns multiple [Legendary Ventshots]. These are extremely dangerous, and must be dealt with.
-
----
-
-#### Main Variations
-
-There are two primary ways to approach Ura LCM:
-
-- [Standard Strategy](#standard-strategy) - an extension of the normal CM strategy to LCM. Its main differences involve some composition changes, and the introduction of more elaborate ranged rotations to manage the fight's increased cadence.
-- [Willbender Strategy](#willbender-strategy) - a mostly LCM-only strategy that takes advantage of some mechanical interactions to simplify the fight.
+- The final phase spawns multiple [Legendary Ventshots] that introduce extreme damage and CC pressure.
 
 <img class=divider>
 
-## Standard Strategy
+## Overview
 
-This strategy plays out in a similar manner to normal Ura Challenge mode for the first three phases. Every point in the [Normal Challenge Mode Strategy Guide](../ura/strategy.html) is applicable here.
+Ura's overall mechanics and flow remain similar from CM to LCM. There are two primary ways to approach the encounter, outlined below. The choice of which strategy to play depends on your squad's overall experience, preferences and region. 
 
-- For the _ranged group_ the main difference lies in [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers), and everything that goes along with learning and executing a [ranged rotation](#ranged-rotation) properly.
-- For the _melee group_, the differences lie in the fight's overall requirements: with such a tight DPS check, there is little to no room for mistakes.
-- The _tank_ will have a fundamental role, as beyond [preventing propel](../ura/strategy.html#preventing-propel), they must often call CC for the rest of the group. Proper CC timings to minimize the uptime of <img class='inline risingpressure'> [Rising Pressure] can improve overall DPS by 5-10%, which is often the difference between killing or wiping to enrage.
+<div class="index-container">
+<div class="strategy bordered" markdown=block>
+#### [Spawner](#spawner-strategy)
+{: .no_toc .center}
+An extension of the CM strategy to LCM with some small composition changes.
+
+<img class=warn> Almost exclusive to the NA region. <br>
+<img class=pro> Build and class diversity similar to CM.<br>
+<img class=con> More difficult execution*.<br>
+<img class=con> [More difficult DPS check](https://docs.google.com/spreadsheets/d/1PgCP4ilNxd5QcbvztkzXe7WB2LtZ2A-qpIPy_2y7Ssw/edit?usp=sharing). 
+</div>
+<div class="strategy bordered" markdown=block>
+#### [Willbender](#willbender-strategy)
+{: .no_toc .center}
+A mostly LCM-only strategy that ignores some mechanics to simplify the fight.
+
+<img class=warn> Almost exclusive to the EU region. <br>
+<img class=pro> Easier execution*.<br>
+<img class=pro> [Easier DPS check](https://docs.google.com/spreadsheets/d/1PgCP4ilNxd5QcbvztkzXe7WB2LtZ2A-qpIPy_2y7Ssw/edit?usp=sharing).<br>
+<img class=con> Strict composition with little to no variation.<br>
+<img class=con> Depends on <img class='inline willbender'> [Willbender] for DPS.
+</div>
+</div>
 
 ---
 
-#### Composition
+\* Compared to Spawner strat, Willbender can be more dangerous for the ranged group, but significantly simplifies melee group mechanics.
 
+<img class=divider>
+
+## Spawner Strategy
+
+This strategy plays out in a similar manner to Ura Challenge mode for the first three phases. Every point in the [Challenge Mode Strategy Guide](../ura/strategy.html) is applicable here.
+
+- For the _ranged group_ the main difference lies in [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers), and everything that goes along with learning and executing a [ranged rotation](#ranged-rotation) properly.
+- For the _melee group_, the differences lie in the fight's overall requirements: with such a tight DPS check, there is little to no room for mistakes.
+- The _tank_ will have a fundamental role, as beyond [preventing propel](../ura/strategy.html#preventing-propel), they must often call CC for the rest of the group. Proper CC timings to minimize the uptime of <img class='inline risingpressure'> [Rising Pressure] can improve overall DPS by up to 5-10%, which is often the difference between killing or wiping to enrage.
+- The final phase, from 30% post-heal to kill, has extreme CC and damage pressure. The usual approach is to upkeep permanent <img class='inline stability'> [Stability] and projectile reflection for the entirety of the phase's duration.
+
+---
+
+### Composition
+
+The division between a _ranged group_ and a _melee group_ remains central in LCM. The ranged group is usually composed of:
+- A heal <img class='inline chrono'> [Chronomancer] bringing extra CC.
+- A hybrid celestial healer, usually a <img class='inline scourge'> [Scourge].
+- A specialized <img class='inline deadeye'> [Deadeye] built to cover the encounter's excessive CC requirements.
+- One DPS, usually a <img class='inline mechanist'> [Mechanist] running <img class='inline shift'> [Shift Signet].
+
+The melee group contains everyone else, except for one DPS that covers the role of *tank*. 
+
+Spawner strategy compositions can be relatively flexible, depending on the extra utility brought by the boonDPS and DPS. An example could be as follows:
 <div>
 <table class="fl-table padded">
     <thead>
@@ -59,49 +106,49 @@ This strategy plays out in a similar manner to normal Ura Challenge mode for the
     <tbody>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e"><img class='inline deadeye'> CC Deadeye</a></td>
+            <td><a href="#builds-and-povs"><img class='inline deadeye'> CC Deadeye</a></td>
             <td>CC + Ranged</td>
-            <td></td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e"><img class='inline chrono'> Heal Chronomancer</a></td>
-            <td>Ranged</td>
             <td></td>
             <td>2</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
-            <td>Melee + Titanspawner</td>
-            <td>A</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
-            <td>Melee + Titanspawner</td>
-            <td>B</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase1'>1</td>
-            <td><a href="https://wiki.guildwars2.com/wiki/Power"><img class='inline power'> Power</a> DPS</td>
-            <td>Melee + Titanspawner</td>
-            <td>C</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class='phase2'>2</td>
-            <td>Full/Hybrid Heal</td>
+            <td><a href="#builds-and-povs"><img class='inline scourge'> Celestial Scourge</a></td>
             <td>Ranged</td>
             <td></td>
             <td>3</td>
         </tr>
         <tr>
+            <td class='phase1'>1</td>
+            <td><a href="#builds-and-povs"><img class='inline firebrand'> Quick Firebrand</a></td>
+            <td>Melee</td>
+            <td>A</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td>DPS</td>
+            <td>Melee</td>
+            <td>B</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class='phase1'>1</td>
+            <td>DPS</td>
+            <td>Melee</td>
+            <td>C</td>
+            <td></td>
+        </tr>
+        <tr>
             <td class='phase2'>2</td>
-            <td><a href="https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBttkGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e"><img class='inline firebrand'> Quick Firebrand</a></td>
+            <td><a href="#builds-and-povs"><img class='inline chrono'> Heal Chronomancer</a></td>
+            <td>Ranged</td>
+            <td></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td class='phase2'>2</td>
+            <td>BoonDPS</td>
             <td>Melee</td>
             <td>D</td>
             <td></td>
@@ -116,9 +163,9 @@ This strategy plays out in a similar manner to normal Ura Challenge mode for the
         <tr>
             <td class='phase2'>2</td>
             <td>DPS</td>
-            <td>Tank</td>
+            <td>Ranged</td>
             <td></td>
-            <td>Backup</td>
+            <td>4</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
@@ -131,23 +178,17 @@ This strategy plays out in a similar manner to normal Ura Challenge mode for the
 </table>
 </div>
 
-Standard LCM compositions keep the division between a _ranged group_ and a _melee group_ introduced in CM.
-
-The ranged group is usually composed of:
-- A heal <img class='inline chrono'> [Chronomancer] bringing extra CC.
-- Either a second full healer (usually another <img class='inline chrono'> [Chronomancer]) or a hybrid celestial heal <img class='inline scourge'> [Scourge].
-- A specialized <img class='inline deadeye'> [Deadeye] build that can upkeep constant CC.
-- Occasionally, a DPS <img class='inline mechanist'> [Mechanist] running <img class='inline shift'> [Shift Signet].
-
-<img class='inline deadeye'> [Deadeye] is almost ubiquitous due to its unique ability to constantly dish out massive CC, by spamming <img class='inline distracting-throw'> [Distracting Throw] and resetting their initiative with <img class='inline m7'> [Maleficent Seven](https://wiki.guildwars2.com/wiki/Maleficent_Seven). <img class='inline chrono'> [Chronomancer] is similarly almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility.
+<img class='inline deadeye'> [Deadeye] is almost ubiquitous due to its unique ability to constantly dish out CC by spamming <img class='inline distracting-throw'> [Distracting Throw] and resetting their initiative with <img class='inline m7'> [Maleficent Seven](https://wiki.guildwars2.com/wiki/Maleficent_Seven). <img class='inline chrono'> [Chronomancer] is similarly almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. <img class='inline scourge'> [Scourge] is usually played with a celestial build, since it brings additional damage without sacrificing much in the way of healing and utility, and is sometimes replaced by another celestial healer such as <img class='inline specter'> [Specter].
 
 For boonDPS, the most common choice is <img class='inline firebrand'> [Firebrand], as beyond doing excellent damage they can provide abundant condition cleanse, <img class='inline stability'> [Stability] with <img class='inline stand-ground'> [Stand Your Ground!], and projectile reflection with <img class='inline wall-reflect'> [Wall of Reflection] and <img class='inline bulwark'> [Chapter 3: Valiant Bulwark]. Two <img class='inline firebrand'> [Firebrands] can upkeep 100% projectile reflection uptime if one of them is running <img class='inline wall-reflect'> [Wall of Reflection], though this is a little tight so often the healers will help out with either <img class='inline feedback'> [Feedback] on a <img class='inline chrono'> [Chronomancer], <img class='inline smoke-screen'> [Smoke Screen] on the <img class='inline deadeye'> [Deadeye], or <img class='inline cpc'> [Corrosive Poison Cloud] on a <img class='inline scourge'> [Scourge].
 
-Usually running a couple of <img class='inline power'> [Power] damage dealers is extremely beneficial, as [Titanspawn Geysers] have less armor. These two players accompanied by a boonDPS can usually solo it within the 15 second respawn interval. Common choices here are classes with good burst damage and cleave, such as <img class='inline scrapper'> [Scrapper] or <img class='inline vindicator'> [Vindicator].
+The tank players usually do not participate in the melee rotation, but all other DPS and boonDPS do. While not strictly necessary, running one or more <img class='inline power'> [Power] damage dealers can be beneficial, as [Titanspawn Geysers] have less armor.
 
-The tank players usually do not participate in the melee rotation, but all other DPS and boonDPS do.
+---
 
 #### Builds and PoVs
+
+This is a non-exhaustive list of playable builds on the encounter. If anything is outdated, you can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzCrhNiH9karD-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)|Healer & Toxics||August 2025|
@@ -162,87 +203,101 @@ The tank players usually do not participate in the melee rotation, but all other
 |<img class='inline vindicator'> [Power Vindicator](https://gw2skills.net/editor/?PmyAExzlxQmMP6k1RpMOClRSqMCqkJ7lasC-DSRYBRN33cQgHSmSggFCVoCk5dijEG7h3i+LYQFA-e)|DPS & Titanspawners|[PoV](https://youtu.be/sgiPQ1FeqLI)|September 2025|
 |<img class='inline scrapper'> [Power Scrapper](https://gw2skills.net/editor/?PeQAIlJw0YcsNWKO2LvteA-DSRYBRBH2cQnnRtSgKUAy8bRQCjNwrhCnRgKA-e)|DPS & Titanspawners |[PoV](https://www.youtube.com/watch?v=d82vtsmHL38)|September 2025|
 
-If anything is outdated, you can find up-to-date builds and PoVS on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
+---
+
+#### Extra Build Information
+
+Here you will find additional tips on how to tweak certain common builds to your squad's requirements.
+
+<details class='faq'>
+<summary><img class='inline chrono'> Heal Chronomancer</summary>
+<div markdown=block>
+By default takes <img class='inline precog'> [Well of Precognition] but if you are paired with a Quick <img class='inline firebrand'> [Firebrand] who is comfortable with providing <img class='inline stability'> [Stability], then you could also drop the well, replacing it with:
+- <img class='inline blink'> [Blink] for early prog, to cover up mistakes and manage mechanics. It is also useful to bait Ura into casting [Propel] in a specific direction.
+- <img class='inline feedback'> [Feedback] allows you to backup projectile blocks in p4, and if taken along with the <img class='inline medic-feedback'> [Medic Feedback] trait also gives you extra ress ability.
+- An additional CC skill (such as <img class='inline technobabble'> [Technobabble], <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility]) can be useful to quickly solo CC [Toxic Geysers] from range (otherwise you can solo CC with <img class='inline moa'> [Signet of Humility] and <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity]; or with <img class='inline moa'> [Signet of Humility] and <img class='inline sharpshooter'> [Phantasmal Sharpshooter] , but the latter requires very good timing). This can be useful when the <img class='inline deadeye'> [Deadeye] is inexperienced, and when they cannot otherwise CC.
+</div>
+</details>
+
+<details class='faq'>
+<summary><img class='inline scourge'> Celestial Hybrid Scourge</summary>
+<div markdown=block>
+You can tweak your build based on how aggressive you want to be.
+
+- **Offensive**: runs the <img class='inline curses'> [Curses] and <img class='inline reaping'> [Soul Reaping] traitlines for some additional damage. Has a lower cooldown on <img class='inline cpc'> [Corrosive Poison Cloud], which means that they can cover reflect with only a single <img class='inline firebrand'> [Firebrand]. Also runs sword offhand for extra movement. The downsides are less healing and no <img class='inline stability'> [Stability], so the <img class='inline firebrand'> [Firebrand] in the same subgroup should bring extra.
+- **Defensive**: runs <img class='inline blood-magic'> [Blood Magic] instead of <img class='inline curses'> [Curses] for more healing, <img class='inline stability'> [Stability] and boons. The downside is less damage and a longer cooldown on <img class='inline cpc'> [Corrosive Poison Cloud], which means you need to account for either a more difficult projectile block rotation that involves additional people, or (better) you need at least two <img class='inline firebrand'> [Firebrands] with the <img class='inline scourge'> [Scourge] just backing up.
+- **Middle ground**: play the offensive build with <img class='inline anguish'> [Trail of Anguish] instead of <img class='inline blood-power'> [Blood is Power], so you have a <img class='inline stability'> [Stability] skill available.
+</div>
+</details>
+
+<details class='faq'>
+<summary><img class='inline deadeye'> CC Deadeye</summary>
+<div markdown=block>
+For the most part there is only one specific build, but some small variations are possible. Depending if you are [tunneling](strategy.html#tunneling) or not, you can play with/without weapon swap.
+
+If you are learning to play this build, check out Chupathingy's excellent <img class='inline deadeye'> [CC Deadeye Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M) for more information.
+
+{: .note}
+If you need to provide <img class='inline might'> [Might] and <img class='inline fury'> [Fury], you should take <img class='inline midnight'> [Relic of the Midnight King]. Otherwise, take <img class='inline speed'> [Relic of Speed] for permanent <img class='inline superspeed'> [Superspeed].
+</div>
+</details>
+
+<details class='faq'>
+<summary><img class='inline firebrand'> Condition Quickness Firebrand</summary>
+<div markdown=block>
+There are a few variations in your loadout depending on your squad's needs:
+
+- <img class='inline wall-reflect'> [Wall of Reflection] is needed once per squad. This player should call the projectile block rotation, which is <img class='inline wall-reflect'> [Wall of Reflection] -> <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] -> fill – where the fill is either <img class='inline cpc'> [Corrosive Poison Cloud], or another <img class='inline firebrand'> [Firebrand]'s <img class='inline bulwark'> [Chapter 3: Valiant Bulwark]. Loses ~3.7k DPS from the bench.
+- Running <img class='inline liberation'> [Mantra of Liberation] and <img class='inline purging'> [Purging Flames] (recommended) gains additional cleanses and <img class='inline stability'> [Stability]  with a group <img class='inline stunbreak'> [Stunbreak] on the elite, losing ~2.7k DPS from the bench and the <img class='inline superspeed'> [Superspeed] from <img class='inline feel-my-wrath'> [Feel My Wrath!].
+- Running <img class='inline feel-my-wrath'> [Feel My Wrath!] and <img class='inline stand-ground'> [Stand Your Ground!] has the advantage of still providing <img class='inline superspeed'> [Superspeed] to quickly run to the [Titanspawn Geysers]. Use <img class='inline stand-ground'> [Stand Your Ground!] for the Titanspawn and <img class='inline epilogue'> [Epilogue: Unbroken Lines] for [Steam Prison]. This loses ~3.7k DPS from the bench.
+- Running <img class='inline liberation'> [Mantra of Liberation] and <img class='inline stand-ground'> [Stand Your Ground!] trades even more DPS (~6.3k) for more <img class='inline stability'> [Stability], which can be done if people in your sub get knocked around a lot, such as when running an offensive <img class='inline scourge'> [Scourge].
+
+<div style="color: grey">Numbers from Iskarel and SC.</div>
+</div>
+</details>
 
 ---
 
-#### Melee Rotation
+### Rotations
 
-The melee group consists of five people, which should order themselves into a sequence before the fight starts. Following the rotation as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. For example:
-
-> A: "B, dropping on Titanspawn"
-
-The rotation cannot always be perfectly smooth due to overlapping mechanics. If a player cannot pick up because they are elsewhere, they should call out the next person. For example:
-
-> A: "B, dropping on Titanspawn"
-
-> B: "I'm doing sulfuric, C pickup"
-
-A situation that often arises is when a player was not freed from [Pressure Blast] by <img class='inline dispel'> [Dispel] (for example they got clipped accidentally by a bubble). In this case the player who used the shard can quickly pick it up and use it again, or if the following player in the rotation picked up, they should immediately use and call out the next player.
+The melee group consists of five people, and the melee rotation works in pretty much the same way as in CM. Following it as closely as possible is the key to smooth reproducible runs and progression. _Always_ call out the next person in the rotation and mention where you are dropping your shard. It is possible also to run without a fixed melee rotation if all players are participating without any issues.
 
 In general, with five people following the rotation there is enough leeway to skip one player. Issues arise when players make multiple mistakes in succession, in which case it may be necessary to have a tank temporarily pick up a shard.
 
----
+Ranged players will be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. Using an [overlay](../ura/strategy.html#marker-packs) is basically mandatory, since callouts are usually done exclusively with geyser numbers or symbols.
 
-#### Ranged Rotation
-
-Ranged players will generally be [double sharding](../ura/strategy.html/#double-sharding-toxic-geysers) for the entirety of the fight. Most groups will ask you to use an [overlay](../ura/strategy.html#marker-packs): callouts are usually done exclusively with geyser numbers.
-
-Pain points often occur in the transitions at 70% and 40% of Ura's HP, where the rotation restarts from #8 and #7 respectively. There are several commonly used rotations, that all introduce some optimizations to alleviate these and reduce overall strain on the ranged players. Several of these are displayed below.
-
----
-
-<img class='inline sheets'> [Heal-Only Rotation by Minas](https://docs.google.com/spreadsheets/d/18a4OXN5U8gqNg8eI7LLdyj6YZwHlVMm8bcH1rhdfXps)
+<img class='inline sheets'> [NA Pug Rotation by Narra](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRRf8AogRxhW1trZYtEtOPlQzA5WaZjZD64s90_IuGrxyWGjgwLCo3yBQRCAytN8VGu6gALfMAw9V8/pubhtml?gid=591640946&single=true)
 {: .btn}
 
-This rotation has only the healers and the <img class='inline deadeye'> [CC Deadeye] doing ranged shards. The advantage of this is that overall there will always be more damage players on the boss, leading to higher damage uptime.
+This rotation includes a DPS player alongside the healers as a fourth member. This is usually a <img class='inline mechanist'> [Mechanist] with <img class='inline shift'> [Shift Signet], or another specialization with similar mobility and damage. This gives the ranged group overall more leeway in exchange for a slight loss in DPS for the ranged damage player.
 
-This rotation also optimizes the order in which the geysers are <img class='inline dispel'> [Dispelled] to make double dropping a bit easier, and has other small optimizations to reduce strain on the healers.
-
-The disadvantage of this rotation is that it requires overall higher DPS to be executed cleanly. This makes it common in experienced groups, but less accessible for progression purposes.
-
----
-
-<img class='inline sheets'> [EU Pug Rotation by Luna](https://docs.google.com/spreadsheets/d/1IGCWOLWRkC8AlaJvVupbUTj5jzGbdBhzeBF7cd9MFV0)
+<img class='inline sheets'> [EU Pug Rotation by Luna](https://docs.google.com/spreadsheets/d/e/2PACX-1vQttaDhjhxuvL_VH61ieYoJSYwn2odinF7puAqlxfgMd397TE4ifA3-htNj8iXWBRF15qFkR9vDSxA9/pubhtml?gid=1491958775&single=true)
 {: .btn}
 
-This is an adaptation of the [Healer Only](#healer-only-rotation) rotation that changes the order slightly and introduces a DPS player to aid with the 40% transition. For this reason, this strategy is slightly more forgiving overall while still offering optimized damage.
+This rotation optimizes the order in which the geysers are <img class='inline dispel'> [Dispelled] to make double dropping a bit easier. It also has other small tweaks to reduce strain on the healers, including the introduction of a DPS aiding the 40% transition, but less regularly compared to the NA rotation. This results in slightly higher DPS in exchange for slightly more stress on the ranged group.
 
 ---
 
-<img class='inline sheets'> [NA Pug Rotation by Narra](https://docs.google.com/spreadsheets/d/1slMSuj0KzgsFcr7aw0GdmeLDfnRK7tOdepiWoKbMSR4)
-{: .btn}
+### Managing the Final Phase
+In the final phase, you will have immense incoming pressure from [Legendary Ventshots] on the field. This requires special attention to be survived. 
 
-This strategy includes a DPS player alongside the healers as part of the rotation. This is usually a <img class='inline mechanist'> [Mechanist] with <img class='inline shift'> [Shift Signet], or another specialization with similar mobility and damage.
 
-The advantage of this rotation is that there is overall more leeway since there is one more person helping out. The disadvantage is slightly less outgoing damage overall since this DPS player will have to cover some mechanics, and less role compression, making LFG slightly more difficult.
-
----
-
-#### Pain Points
-In progression, most groups will struggle around the 70% and 40% transitions, and in the final phase.
-
-- **70% transition:** here is where the first [Titanspawn Geyser] arrives. Ranged rotations also restart from #8, which takes some getting used to. This is also the first place to check your DPS: If #13 spawns, you do not have enough to kill within the enrage timer.
-- **40% transition:**  [Toxic Geyser] #7 will spawn instantly, which requires extra management by the ranged group. Ura casts [Pressure Blast], which can overlap uncomfortably with any [Titanspawn Geysers] from the previous or following phase. Furthermore, since the transition interrupts Ura's current attack, she may use [Propel], which is often difficult to recover from, making for an overall hectic transition.
-- **Final Phase:** the clock is ticking down, and you will have to manage immense incoming pressure from [Legendary Ventshots].
-
----
-
-#### Preparing for the final phase
-In the final phase, you want to minimize the number of [Legendary Ventshots] on the field at any time. Given that the total number of [Legendary Ventshots], [Champion Fumarollers] and [Titanspawn Geysers] in phase 4 cannot exceed six, it's often common to stop killing [Titanspawn Geysers] _before_ transitioning, so that they can fill up this cap. In general:
+#### Preparation
+{: .no_toc}
+Given that the total number of [Legendary Ventshots], [Champion Fumarollers] and [Titanspawn Geysers] in phase 4 cannot exceed six, it's often common to stop killing [Titanspawn Geysers] _before_ transitioning, so that they can fill up this cap. In general:
 
 - If you are running a "safer" composition with two full healers, such as two heal <img class='inline chrono'> [Chronomancers], you can stop killing Titanspawners as soon as 15% HP in the main phase. Be warned though: this will spawn more [Champion Fumarollers], which in turn requires extra healing and <img class='inline stability'> [Stability].
-- If you are running a more aggressive composition, typically with a single heal <img class='inline chrono'> [Chronomancer] and a hybrid <img class='inline scourge'> [Scourge], then it is more difficult to manage multiple Fumarollers on stack. For this reason, it is best to stop killing Titanspawners only on entering the final phase (optionally killing the first if it spawns in an extremely convenient position).
+- If you are running a more standard composition, typically with a single heal <img class='inline chrono'> [Chronomancer] and a hybrid <img class='inline scourge'> [Scourge], then it is more difficult to manage multiple Fumarollers on stack. For this reason, it is best to stop killing Titanspawners only on entering the final phase (optionally killing the first if it spawns in an extremely convenient position).
 
----
+#### Survival
+{: .no_toc}
+You will want to be [facing Ura](../ura/strategy.html#tanking-ura) towards the North-West, in order to position the squad at the shortest possible difference from the safe drop zone for [Sulfuric Geysers], behind #9 and #12.
 
-#### Surviving the final phase
-You will want to be [facing Ura](../ura/strategy.html#tanking-ura) towards the North-West, in order to position the squad at the shortest possible difference from the safe drop zone for [Sulfuric Geysers], behind #9.
+You will need to upkeep permanent projectile reflection to safeguard the group from the [Legendary Ventshots]' ranged attacks. A <img class='inline firebrand'> [Firebrand] will be running <img class='inline wall-reflect'> [Wall of Reflection], and should be calling out the skill rotation. This generally repeats:
+1. The <img class='inline firebrand'> [Firebrand] casting <img class='inline wall-reflect'> [Wall of Reflection].
+2. The <img class='inline firebrand'> [Firebrand] casting <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] when 10-11s are remaining on their cooldown for <img class='inline wall-reflect'> [Wall of Reflection].
+3. A filler skill provided by another player, usually either a second <img class='inline firebrand'> [Firebrand]'s' <img class='inline bulwark'> [Chapter 3: Valiant Bulwark], a <img class='inline feedback'> [Feedback] or a <img class='inline cpc'> [Corrosive Poison Cloud]. When this ends, <img class='inline wall-reflect'> [Wall of Reflection] should be ready again.
 
-You will need to upkeep permanent projectile reflection to safeguard the group from the [Legendary Ventshots]' ranged attacks. One of the <img class='inline firebrand'> [Firebrands] will be running <img class='inline wall-reflect'> [Wall of Reflection], and should be calling out the skill rotation. This generally repeats:
-1. The first <img class='inline firebrand'> [Firebrand] casting <img class='inline wall-reflect'> [Wall of Reflection].
-2. The first <img class='inline firebrand'> [Firebrand] casting <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] when 10-11s are remaining on their cooldown for <img class='inline wall-reflect'> [Wall of Reflection].
-3. A filler skill provided by another player, usually either a second <img class='inline firebrand'> [Firebrand]'s' <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] or a <img class='inline scourge'> [Scourge]'s <img class='inline cpc'> [Corrosive Poison Cloud]. When this ends, <img class='inline wall-reflect'> [Wall of Reflection] should be ready again.
 
 Try to count down the time remaining on your reflect, and call for backup if your skills are not available. Remember that:
 - <img class='inline wall-reflect'> [Wall of Reflection] lasts for 10 seconds (with <img class='inline master-consecrations'> [Master of Consecrations]).
@@ -255,28 +310,17 @@ It is also important to upkeep <img class='inline stability'> [Stability] on the
 
 ---
 
-#### How to meet the DPS check
+### Meeting the DPS check
 
 Legendary Ura has an effective health of 137,161,289 HP and a maximum encounter duration of 11 minutes. This means that effectively, a group will need to average overall 208k total DPS to clear the encounter before enrage.
 
 This number is greatly influenced by <img class='inline risingpressure'> [Rising Pressure]. Correct management of the damage reduction will make or break a pull. Always keep an eye on the number of stacks on the boss: try to CC when she reaches 5 stacks. In earlier phases, when she does not have much <img class='inline titanicresistance'> [Titanic Resistance], it can be hard to reach 5 before breaking: try then to CC at 3 or 4.
 
-Always try to CC as soon as she gains a stack of <img class='inline risingpressure'> [Rising Pressure]. This can increase your DPS by 3-4% easily, which is equivalent to 20-25 seconds on the enrage timer.
+Always try to CC right after she gains a stack of <img class='inline risingpressure'> [Rising Pressure]. This can increase your DPS by 3-4% easily, which is equivalent to 20-25 seconds on the enrage timer.
 
 Players should have an up-to-date build (check the [builds section](#builds-and-povs) above and [Snowcrows](https://snowcrows.com/)), and should be competent with their class and rotation, practicing it if necessary on the [DPS golem](https://snowcrows.com/guides/arcdps/special-forces-area). Players should aim to do as much damage as possible while not failing mechanics.
 
-By averaging out a sample of kill logs in a time period (June to September 2025), we can find the average DPS numbers for squads that cleared.
-
-|Role|Phase 1|Phase 2|Phase 3|Phase 4|
-|:--|:--|:--|:--|:--|
-|DPS|37.5k|32k|29.5k|28k|
-|BoonDPS|29k|23.5k|22k|21k|
-|Squad|260k|215k|198k|194K|
-
-{: .note}
-Individual damage should be higher for tank players, and can be lower for those assigned to mechanics, such as [Titanspawn Geysers] or ranged backup.
-
-While this is just an average, and it is definitely possible to clear with less DPS than this, higher damage will result in an overall easier fight for everyone, as the group will overall have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
+To have an indicative understanding of how much DPS is necessary to clear the encounter, check the spreadsheet [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQRWHzmW9qli-mQ_MBS_uq65Bd64jy-djaDM7-Lt5sAcTqeuaOER3an1XNsS054DZeKg06ehE_Cf4_g/pubhtml).
 
 <img class=divider>
 
@@ -290,7 +334,7 @@ Developed by Asterius (see his original spreadsheet <img class='inline sheets'> 
 ---
 
 #### Why not kill Titanspawners?
-
+{: .no_toc}
 The primary reason is to take advantage of the cap on [Legendary Ventshots] in phase 4. [Legendary Ventshots] can only spawn if there are less than 6 entities alive, including [Champion Fumarollers] and [Titanspawn Geysers]. By not killing any Titanspawners, the aim is to have as many entities as possible when going into the final phase. This, combined with a couple of [Champion Fumarollers] surviving from the previous phase, will prevent Ventshots from spawning at the start of phase 4.
 
 Once all [Champion Fumarollers] are dead, depending on where the Titanspawners generated, you can still have up to 1-2 [Legendary Ventshots], but since these are few and spawn late into phase 4, you don't need permanent projectile block. This makes the final phase much easier compared to the standard strategy, as a major difficulty factor is removed.
@@ -300,7 +344,7 @@ Furthermore, this has the added advantage of always keeping the melee group in a
 ---
 
 #### Why Willbenders?
-
+{: .no_toc}
 With many [Titanspawn Geysers] surviving throughout the fight, you will also get many [Champion Fumarollers] (up to 10 Titanspawners & Fumarollers combined). <img class='inline willbender'> [Willbender] shines in these circumstances, as beyond already being a strong build with high damage, mobility and cleanse, it also:
 
 - Gains excellent access to <img class='inline stability'> [Stability] by running <img class='inline stand-ground'> [Stand Your Ground!] for a minimal DPS loss.
@@ -310,7 +354,9 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
 
 ---
 
-#### Composition
+### Composition
+
+This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] is almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
 
 <table class="fl-table padded">
     <thead>
@@ -326,7 +372,7 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
         <tr>
             <td class='phase1'>1</td>
             <td><a href="#willbender-strategy-builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
-            <td>CC + Ranged</td>
+            <td>Ranged</td>
             <td></td>
             <td>1</td>
         </tr>
@@ -368,7 +414,7 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
         <tr>
             <td class='phase2'>2</td>
             <td><a href="#willbender-strategy-builds-and-povs"><img class='inline chrono'> Heal Chronomancer</a></td>
-            <td>Melee</td>
+            <td>Ranged</td>
             <td></td>
             <td>4</td>
         </tr>
@@ -396,8 +442,6 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
     </tbody>
 </table>
 
-This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] is almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vulnerability'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns'> [Relic of Thorns]).
-
 All four supports are part of the ranged group. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
 
 DPS players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. <img class='inline chrono'> [Chronomancers] should ensure they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics. Generally a [tank](../ura/strategy.html#tanking-ura) is not strictly necessary as the entire group will stay within line-of-sight at all times.
@@ -411,18 +455,16 @@ All DPS should bring <img class='inline stand-ground'> [Stand Your Ground!] and 
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://en.gw2skills.net/editor/?PigEQiWmBzidxQYj4RPp2+A-DSRYjR1DJ4CplUIoIo6CQ3XDBI09wbp9NLoC-e)|Healer & Toxics|[PoV](https://www.youtube.com/watch?v=LM7uye3SYWI)|September 2025|
 |<img class='inline specter'> [Celestial Specter](https://en.gw2skills.net/editor/?PawEQbNqMUGLLltxOxx26O2D-DyIY1om/QaRB0lMIShgCfPEkAYP8Wo/SDqA-e)|Toxics|[PoV](https://www.youtube.com/watch?v=5LZMDgfcpg0)|September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/PT)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYfB1bG9cCFSbhQuJQHVgD/KCSQsHeNg4sCUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=rPfD2MvHZ2c)|September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/ST)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYfB1bG9cCFSbhQuJQHVgD/KCSQsHeNg4sCUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=gi8RSToi7hg)|September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/PT, Toughness)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
-|<img class='inline willbender'> [DPS Willbender (PP/ST, Toughness)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
+|<img class='inline willbender'> [DPS Willbender (PP/PT)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=VOuZDJKsRJg)|September 2025|
+|<img class='inline willbender'> [DPS Willbender (PP/ST)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
 
 If anything is outdated, you can find up-to-date builds and PoVS on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 
 ---
 
-#### Bloodstone Shard Rotations
+### Rotations
 
-For the _melee rotation_, since the strategy ignores [Titanspawn Geysers], the only thing the melee group needs to <img class='inline dispel'> [Dispel] is [Pressure Blast]. For this reason, there are generally only 4 people assigned to the melee rotation, which otherwise works as normal.
+For the _melee rotation_, since the strategy ignores [Titanspawn Geysers], the only thing the melee group needs to <img class='inline dispel'> [Dispel] is [Pressure Blast]. For this reason, there are generally only 4 people assigned to the melee rotation, which otherwise works as normal. Groups can choose to forgo a rotation if they are confident.
 
 For the _ranged rotation_ the strategy uses a 4-man rotation involving all the support players double-dropping.
 
@@ -432,32 +474,18 @@ Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], respon
 - The geyser they pick up the [Bloodstone Shard] from.
 - The first geyser they <img class='inline dispel'> [Dispel] when double dropping.
 
-<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative to do so. There is generally enough time between the two geysers to have it regenerate.
+<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative to do so. There is generally enough time between the two geysers for it to regenerate, but player who find themselves constantly short can run two spears and take advantage of <img class='inline quickpockets'> [Quick Pockets].
 
-<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series:
-1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
-2. <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
+<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series. Geysers can be CC's using a combination of <img class='inline moa'> [Signet of Humility] followed by an additional CC skill, which is usually <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility], <img class='inline technobabble'> [Technobabble] or <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity].
 
-If players cannot CC, they should call for backups. Since there is one more person in the rotation compared to a normal standard strategy, there is some flexibility.
+1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] + CC skill.
+2. <img class='inline moa'> [Signet of Humility] + CC skill.
 
-#### How to meet the DPS check
-
-Everything already said for the [standard strategy](#how-to-meet-the-dps-check) is still valid.
-
-Willbender compositions will generally have a different damage profile, with less DPS overall in phase 1 and 4, but more in phase 2 and 3. By averaging out a sample of kill logs in a time period (June to September 2025, currently small sample size due to the strategy being relatively recent), we can find the average DPS numbers for squads that cleared.
-
-|Role|Phase 1|Phase 2|Phase 3|Phase 4|
-|:--|:--|:--|:--|:--|
-|<img class='inline willbender'> DPS|32k|34.5k|33.5.5k|26.5k|
-|<img class='inline specter'> BoonDPS|14k|11.5k|9k|9k|
-|Squad|224k|235k|221k|180k|
-
-While this is just an average, and it is definitely possible to clear with less DPS than this, higher DPS will result in an overall easier fight for everyone, as the group will overall have to play less mechanics and there is more leeway for mistakes. Players should generally try to aim for or surpass these numbers.
-
+If players cannot CC, they should call for backups. Since all four ranged players are double dropping, there is more flexibility overall compared to a standard strategy.
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#recommended-legendary-ura-strategy){: .btn .fixed}
+[Return to Home](../index.html){: .btn } [Return to Overview](overview.html){: .btn } [Return to Top](#legendary-ura-strategy-guide){: .btn .fixed}
 {: .center}
 
 [Bloodstone Shard]: ../ura/mechanics.html#bloodstone-shards
@@ -496,6 +524,7 @@ While this is just an average, and it is definitely possible to clear with less 
 [Mechanist]: https://wiki.guildwars2.com/wiki/Mechanist
 [Willbender]: #willbender-strategy-builds-and-povs
 [Willbenders]: #willbender-strategy-builds-and-povs
+[Specter]: #willbender-strategy-builds-and-povs
 [Specters]: #willbender-strategy-builds-and-povs
 
 [Power]: https://wiki.guildwars2.com/wiki/Power
@@ -533,5 +562,40 @@ While this is just an average, and it is definitely possible to clear with less 
 [Signet of Domination]: https://wiki.guildwars2.com/wiki/Signet_of_Domination
 [Well of Senility]: https://wiki.guildwars2.com/wiki/Well_of_Senility
 [Signet of Humility]: https://wiki.guildwars2.com/wiki/Signet_of_Humility
+[Phantasmal Sharpshooter]: https://wiki.guildwars2.com/wiki/Phantasmal_Sharpshooter
+[Mental Collapse]: https://wiki.guildwars2.com/wiki/Mental_Collapse
+[Clarity]: https://wiki.guildwars2.com/wiki/Clarity
+[Corrosive Poison Cloud]: https://wiki.guildwars2.com/wiki/Corrosive_poison_cloud
+[Stand Your Ground!]: https://wiki.guildwars2.com/wiki/%22Stand_Your_Ground!%22
+[Trail of Anguish]: https://wiki.guildwars2.com/wiki/Trail_of_Anguish
+[Blood is Power]: https://wiki.guildwars2.com/wiki/Blood_is_power
+[Curses]: https://wiki.guildwars2.com/wiki/Curses
+[Soul Reaping]: https://wiki.guildwars2.com/wiki/Soul_Reaping
+[Blood Magic]: https://wiki.guildwars2.com/wiki/Blood_Magic
+[Wall of Reflection]: https://wiki.guildwars2.com/wiki/Wall_of_Reflection
+[Chapter 3: Valiant Bulwark]: https://wiki.guildwars2.com/wiki/Chapter_3:_Valiant_Bulwark
+[Mantra of Liberation]: https://wiki.guildwars2.com/wiki/Mantra_of_Liberation
+[Purging Flames]: https://wiki.guildwars2.com/wiki/Purging_Flames
+[Stunbreak]: https://wiki.guildwars2.com/wiki/Stun_break
+[Feel My Wrath!]: https://wiki.guildwars2.com/wiki/%22Feel_My_Wrath!%22
+[Epilogue: Unbroken Lines]: https://wiki.guildwars2.com/wiki/Epilogue:_Unbroken_Lines
+[Chapter 3: Heated Rebuke]: https://wiki.guildwars2.com/wiki/Chapter_3:_Heated_Rebuke
+[Virtues]: https://wiki.guildwars2.com/wiki/Virtues
+[Absolute Resolve]: https://wiki.guildwars2.com/wiki/Absolute_Resolve
+[Healing Turret]: https://wiki.guildwars2.com/wiki/Healing_Turret
+[Lightning Flash]: https://wiki.guildwars2.com/wiki/Lightning_Flash
+[Glyph of Lesser Elementals]: https://wiki.guildwars2.com/wiki/Glyph_of_Lesser_Elementals
+[Mass Momentum]: https://wiki.guildwars2.com/wiki/Mass_Momentum
+[Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
+[Summon Flesh Golem]: https://wiki.guildwars2.com/wiki/Summon_Flesh_Golem
+[Charge]: https://wiki.guildwars2.com/wiki/Charge_(necromancer_skill)
+[Jurisdiction]: https://wiki.guildwars2.com/wiki/Jurisdiction
+[Mantra of Concentration]: https://wiki.guildwars2.com/wiki/Mantra_of_Concentration
+[Distracting Throw]: https://wiki.guildwars2.com/wiki/Distracting_Throw
+[Might]: https://wiki.guildwars2.com/wiki/Might
+[Fury]: https://wiki.guildwars2.com/wiki/Fury
+[Relic of the Midnight King]: https://wiki.guildwars2.com/wiki/Relic_of_the_Midnight_King
+[Relic of Speed]: https://wiki.guildwars2.com/wiki/Relic_of_Speed
+[Quick Pockets]: https://wiki.guildwars2.com/wiki/Quick_Pockets
 
 [CC Deadeye]: https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e

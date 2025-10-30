@@ -6,12 +6,12 @@ has_toc: false
 ---
 
 # Legendary Godscream Ura
-{: .center .purple}
+{: .center .uralm}
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .purple} [FAQ](./faq.html){: .btn .purple}
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .uralm} [FAQ](./faq.html){: .btn .uralm}
 {: .center}
 
-<img src="../images/ura.webp" />
+<img class=bordered src="../images/ura.webp" />
 
 | **Health** | 105,508,684 *|
 | **Armor** |  2597 (standard) |
@@ -19,14 +19,14 @@ has_toc: false
 | **Defiance** | 3000 ** |
 | **Enrage Timer** | 10 minutes - kills all players on running out. |
 
-Legendary Ura is an extreme challenge aimed at the highest tier of players. Beating her encounter requires perfect knowledge of the fight and of your class, and smooth execution of your chosen strategy.
+Legendary Ura is an extreme challenge aimed at the highest tier of players. Beating her requires perfect knowledge of the fight and of your class, good decision making and smooth execution.
 
-Activating Legendary Mode makes the following changes to the fight:
-- Ura's maximum health increases by 30%.
+Activating Legendary Mode makes the following changes to the encounter:
+- Ura's maximum health increases by 30%, from 79,749,072 to 105,508,684.
 - Entities in the fight gain <img class='inline risingpressure'> [Rising Pressure](../ura/mechanics.html#-rising-pressure) every 8 seconds instead of every 12.
-- All [Toxic Geysers]' <img class='inline defiance'> [Defiance Bar] has 1000 HP instead of 800 HP.
+- All [Toxic Geysers]' <img class='inline defiance'> [Defiance Bars] have 1000 HP instead of 800 HP.
 - [Toxic Geysers] will spawn every 12 seconds for the entirety of the fight.
-- Both Ura and [Toxic Geysers]' <img class='inline defiance'> [Defiance Bar] will regenerate 150 HP every second.
+- Both Ura and [Toxic Geysers]' <img class='inline defiance'> [Defiance Bars] will regenerate 150 HP every second.
 - At the beginning of the final phase, Ura will heal by 30% of her maximum HP instead of 15%.
 - Starting from the final phase, [Titanspawn Geysers] will begin spawning [Legendary Ventshots] exclusively.
 
@@ -42,7 +42,7 @@ Squads attempting Ura will generally run an optimized composition, where every p
 
 <img class=divider>
 
-[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .purple} [FAQ](./faq.html){: .btn .purple}
+[Return to Home](../index.html){: .btn } [Strategy Guide](./strategy.html){: .btn .uralm} [FAQ](./faq.html){: .btn .uralm}
 {: .center}
 
 [Toxic Geysers]: ../ura/mechanics.html#toxic-geysers
@@ -50,4 +50,4 @@ Squads attempting Ura will generally run an optimized composition, where every p
 [Legendary Ventshots]: ../ura/mechanics.html#legendary-ventshot
 [Titanic Resistance]: ../ura/mechanics.html#-titanic-resistance
 
-[Defiance Bar]: https://wiki.guildwars2.com/wiki/Defiance_bar
+[Defiance Bars]: https://wiki.guildwars2.com/wiki/Defiance_bar

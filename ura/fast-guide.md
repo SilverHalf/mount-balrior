@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fast Guides
+title: Ura Fast Guides
 nav_order: 3
 parent: Godscream Ura
 ---
@@ -44,6 +44,8 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJr
 <img class=divider>
 
 # Ranged Group Guide
+[<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
+
 Your responsibilities (excluding basic damage, healing or support as required by your role) consist in:
 1. Picking up the ranged [Bloodstone Shard] whenever it's your turn.
 2. Using <img class='inline dispel'> [Dispel] on [Toxic Geysers] to remove <img class='inline hardened'> [Hardened Shell].
@@ -59,6 +61,7 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 - Check who is before you and after you in the ranged rotation, asking your commander if necessary.
 - Set a [personal target](https://wiki.guildwars2.com/wiki/Call_Target) on the person before you and be aware of where they go so you can pick up the [Bloodstone Shard] after they use it.
 - Whenever you <img class='inline dispel'> [Dispel], call out the person after you in the rotation and tell them where to pick up the shard.
+- Make sure you are always on the group to provide healing and boons whenever you are not doing mechanics.
 
 ---
 
@@ -85,7 +88,7 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
     <input type="checkbox">
     <img class="zoom center" src="../images/ura/strategy/ura_double_shard_p1.webp" />
 </label>
-- Be on stack whenever you are not CCing a geyser or using your [Bloodstone Shard]. Try to provide <img class='inline stability'> [Stability] for the [cone attack].
+- CC geysers using <img class='inline moa'> [Signet of Humility](https://wiki.guildwars2.com/wiki/Signet_of_Humility) and any other CC skill. If you are double dropping, use <img class='inline cs'> [Continuum Split](https://wiki.guildwars2.com/wiki/Continuum_Split) during the cast of the signet to have it also for your second geyser.
 - Try not to <img class='inline dispel'> [Dispel] just before 70%, or you may not be able to pick up your shard before the boss casts [Return].
 </div>
 </details>
@@ -97,11 +100,12 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 > From this phase onwards it is not necessary to double drop, as the spawn rate of [Toxic Geysers] is halved.
 
 #### 70% - 40%
-- The ranged rotation restarts from [Toxic Geyser] #8. The timer will not reset however.
+- The ranged rotation restarts from [Toxic Geyser] #8. The timer will not reset however. Toxics from the previous phase will persist into this one.
 - Be on stack whenever you are not CCing a geyser or using your [Bloodstone Shard]. Try to provide <img class='inline stability'> [Stability] for the [jump attack].
 - Follow your group to [Titanspawn Geysers]. Try to provide <img class='inline stability'> [Stability] for the [Champion Fumaroller]'s attacks.
 - Once a [Titanspawn Geyser] is dead, return to the stack and try to recall/remove any pets or clones so that the [Champion Fumaroller] comes to the stack and is cleaved down.
 - If you are targeted by the [Arena], run out immediately and place it far from the group.
+- Provide <img class='inline stability'> [Stability] to players caught inside arenas.
 - If you are targeted by [Sulfuric Geyser], run out immediately and drop it along the edge of the arena. A [marker pack] can show you the safe areas. Prioritize the large area behind <img class='inline xmarker'> and <img class='inline swirl'>.
 <img class="center" src="../images/ura/ura_sulfurics.webp" />
 </div>
@@ -135,6 +139,8 @@ It is highly recommended (almost mandatory!) to have a [marker pack] that shows 
 <img class=divider>
 
 # Melee Group Guide
+[<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
+
 Your responsibilities (excluding basic damage or support as required by your role) consist in:
 1. Picking up the melee [Bloodstone Shard] whenever possible.
 2. Using <img class='inline dispel'> [Dispel] to free people from [Bubbles].
@@ -218,6 +224,8 @@ Your responsibilities (excluding basic damage or support as required by your rol
 <img class=divider>
 
 # Tank Guide
+[<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
+
 Your responsibilities (excluding basic damage or support as required by your role) consist in:
 1. Picking up the melee [Bloodstone Shard] whenever possible in phase 1-2.
 2. Using <img class='inline dispel'> [Dispel] to free people from [Bubbles] in phase 1-2.
@@ -225,6 +233,7 @@ Your responsibilities (excluding basic damage or support as required by your rol
 4. Killing [Titanspawn Geysers] in phase 1-2.
 5. From phase 3 onwards, standing in front of the boss at all times to prevent her from casting [Propel].
 6. From phase 3 onwards, calling out when to break Ura's <img class='inline defiance'> [Defiance Bar] to prevent her from casting [Propel].
+7. Calling out CC timings.
 
 {: .note}
 For more information on the mechanics behind the tank's role, check out [preventing Propel](./strategy.html#preventing-propel).
@@ -232,23 +241,8 @@ For more information on the mechanics behind the tank's role, check out [prevent
 #### General Information for all Phases
 - Picking up the [Bloodstone Shard] right after using <img class='inline dispel'> [Dispel] (and thus under the effect of <img class='inline saturation'> [Bloodstone Saturation]) will deal massive damage over time. Be aware.
 - Standing in [Toxic Geysers] and [Sulfuric Geysers] for too long will afflict you with <img class='inline sulfuricacid'> [Sulfuric Acid]. This is a dangerous condition that must be cleansed soon or you will gain <img class='inline exposed'> [Exposed].
-
-
-<details>
-<summary>If you're playing with a melee rotation</summary>
-<div markdown='block'>
-- You generally will not be part of the rotation.
-- Be ready to back up mechanics in phase 1 and 2 if required.
-</div>
-</details>
-
-<details>
-<summary>If you're playing without a melee rotation</summary>
-<div markdown='block'>
-- You can freely help out in phase 1 and 2.
-- Call out when you're using the shard for a mechanic.
-</div>
-</details>
+- You should generally not pick up the [Bloodstone Shard]. Only do it as a back up if required.
+- Ura should be CC's whenever she reaches five stacks of <img class='inline risingpressure'> [Rising Pressure]. Keep an eye on the buff and call out when you are approaching the moment to CC.
 
 ---
 
@@ -261,7 +255,6 @@ For more information on the mechanics behind the tank's role, check out [prevent
 - Start in front of the boss. She will always begin with [Bubbles]. If you get a bubble, stack with the other targeted person next to the main group.
 - After every set of [Bubbles] she will use [Propel]. Try to dodge the landing as it deals high damage.
 - Always be in melee range to avoid baiting [Propel].
-- Try not to <img class='inline dispel'> [Dispel] just before 70%, or you may not be able to pick up your shard before the boss casts [Return].
 </div>
 </details>
 
@@ -270,13 +263,12 @@ For more information on the mechanics behind the tank's role, check out [prevent
 <div markdown='block'>
 
 #### 70% - 40%
-- After the transition, if you are holding the [Bloodstone Shard], free everyone with <img class='inline dispel'> [Dispel].
 - You will not have to deal with [Bubbles] in this phase.
-- Whenever Ura uses her [jump attack], she will create a [Titanspawn Geyser]. Move to it, <img class='inline dispel'> [Dispel] if you are holding the shard and kill it as fast as possible.
+- Whenever Ura uses her [jump attack], she will create a [Titanspawn Geyser]. Move to it and kill it as fast as possible.
 - Once a [Titanspawn Geyser] is dead, return to the stack and try to recall/remove any pets or clones so that the [Champion Fumaroller] comes to the stack and is cleaved down.
 - If you are targeted by the [Arena], run out immediately and place it far from the group.
 - If you are targeted by [Sulfuric Geyser], run out immediately and drop it along the edge of the arena. A [marker pack] can show you the safe areas. Prioritize the large area behind <img class='inline xmarker'> and <img class='inline swirl'>.
-- Do not pick up the [Bloodstone Shard] below 50% HP.
+- Do not move away from the boss once it goes below 45% HP.
 <img class="center" src="../images/ura/ura_sulfurics.webp" />
 </div>
 </details>
@@ -290,7 +282,7 @@ For more information on the mechanics behind the tank's role, check out [prevent
 - Starting from this phase, you will be tanking the boss. You must be within a 140°, 400 range cone in front of her at all times.
 - Do not move to [Titanspawn Geysers].
 - If you are targeted by a mechanic that requires you to move, such as [Bubbles], [Arena] or [Sulfuric Geysers], prioritize your mechanic and call for a backup tank.
-- Keep an eye on <img class='inline risingpressure'> [Rising Pressure]. When you reach 5 stacks, call out for CC in the next appropriate moment. These can be found here: [when to CC Ura](./strategy.html#when-to-cc-ura).
+- Ura should be CC'd only at appropriate moments, which can be found here: [when to CC Ura](./strategy.html#when-to-cc-ura). If in doubt, only CC when she is using her [Jump](./mechanics.html#titanspawn-geysers).
 - Try to rotate the boss towards <img class='inline xmarker'> and <img class='inline swirl'>.
 </div>
 </details>

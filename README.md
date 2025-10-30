@@ -18,21 +18,12 @@ The built site is stored in the directory `_site`.
 
 ## Contributing
 
-Contributions are very welcome, as the project is in its starting phases.
+Whether it's a typo, a mis-spelled word, an awkward sentence, a factual mistake, or perhaps you simply just [disagree](https://xkcd.com/386/) with something on the guide, please open an [issue](https://github.com/SilverHalf/mount-balrior/issues)! Your corrections will help make this project more useful to everyone.
 
-If you are interested in adding information to the guide or fixing current information, please contact me here or on Discord (silverhalf).
+Contributions are very welcome. If you are interested in adding information to the guide or fixing current information, please contact me here or on Discord (silverhalf).
 
-What needs to be done:
-- [x] Decima Overview
-- [x] Decima Mechanical Reference
-- [x] Decima Strategy
-- [x] Greer Overview
-- [x] Greer Mechanical Reference
-- [x] Greer Strategy
-- [x] Ura Overview
-- [x] Ura Mechanical Reference
-- [ ] Ura Strategy (cleanup)
-- [ ] Ura LCM Strategy
+What could be done in the future:
+- Animations or clips of all attacks for all bosses.
 
 ## Licensing and Attribution
 

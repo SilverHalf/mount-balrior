@@ -106,6 +106,10 @@
 	content: url('https://wiki.guildwars2.com/images/1/19/Stealth.png');
 }
 
+.toughness {
+	content: url('https://wiki.guildwars2.com/images/1/12/Toughness.png')
+}
+
 // Skills
 
 .evade{
@@ -276,6 +280,10 @@
 	content: url('https://wiki.guildwars2.com/images/d/d1/Shift_Signet.png');
 }
 
+.undeath {
+	content: url('https://wiki.guildwars2.com/images/thumb/9/9c/Signet_of_Undeath.png/72px-Signet_of_Undeath.png');
+}
+
 .master-consecrations {
 	content: url('https://wiki.guildwars2.com/images/thumb/b/b4/Master_of_Consecrations.png/38px-Master_of_Consecrations.png');
 }
@@ -302,6 +310,14 @@
 
 .m7 {
 	content: url('https://wiki.guildwars2.com/images/thumb/9/94/Maleficent_Seven.png/60px-Maleficent_Seven.png');
+}
+
+.grandfinale {
+	content: url('https://wiki.guildwars2.com/images/thumb/8/88/Grand_Finale.png/54px-Grand_Finale.png');
+}
+
+.ventari {
+	content: url('https://wiki.guildwars2.com/images/thumb/8/8a/Legendary_Centaur_Stance.png/72px-Legendary_Centaur_Stance.png');
 }
 
 .leap {
@@ -363,6 +379,14 @@
 
 .target {
 	content: url('https://wiki.guildwars2.com/images/thumb/0/09/Target.png/20px-Target.png');
+}
+
+.two-person {
+	content: url('../../images/greer/mechanics/2-green.png');
+}
+
+.three-person {
+	content: url('../../images/greer/mechanics/3-green.png');
 }
 
 // Ura Mechanics
@@ -449,6 +473,64 @@
 	content: url(https://wiki.guildwars2.com/images/c/c3/Weaver_icon_small.png);
 }
 
+.elementalist {
+	content: url(https://wiki.guildwars2.com/images/4/4e/Elementalist_icon_small.png);
+}
+
+.virtuoso {
+	content: url(https://wiki.guildwars2.com/images/7/77/Virtuoso_icon_small.png);
+}
+
+.tempest {
+	content: url(https://wiki.guildwars2.com/images/5/58/Tempest_icon_small.png);
+}
+
+// Transforms
+
+.celestialavatar {
+	content: url(https://wiki.guildwars2.com/images/thumb/5/59/Celestial_Avatar.png/54px-Celestial_Avatar.png);
+}
+
+.deathshroud {
+	content: url(https://wiki.guildwars2.com/images/thumb/f/f5/Death_Shroud.png/54px-Death_Shroud.png);
+}
+
+.reapersshroud {
+	content: url(https://wiki.guildwars2.com/images/thumb/1/11/Reaper%27s_Shroud.png/54px-Reaper%27s_Shroud.png);
+}
+
+.harbingershroud {
+	content: url(https://wiki.guildwars2.com/images/thumb/a/ab/Harbinger_Shroud.png/54px-Harbinger_Shroud.png);
+}
+
+.lichform {
+	content: url(https://wiki.guildwars2.com/images/thumb/a/ab/Lich_Form.png/54px-Lich_Form.png);
+}
+
+.elixirs {
+	content: url(https://wiki.guildwars2.com/images/thumb/d/d8/Elixir_S.png/54px-Elixir_S.png);
+}
+
+.photonforge {
+	content: url(https://wiki.guildwars2.com/images/thumb/d/dd/Engage_Photon_Forge.png/54px-Engage_Photon_Forge.png);
+}
+
+.shadowshroud {
+	content: url(https://wiki.guildwars2.com/images/thumb/f/f3/Enter_Shadow_Shroud.png/54px-Enter_Shadow_Shroud.png);
+}
+
+.tornado {
+	content: url(https://wiki.guildwars2.com/images/thumb/4/40/Tornado.png/54px-Tornado.png);
+}
+
+.mistform {
+	content: url(https://wiki.guildwars2.com/images/thumb/1/1b/Mist_Form.png/54px-Mist_Form.png);
+}
+
+.quickpockets {
+	content: url(https://wiki.guildwars2.com/images/thumb/3/36/Quick_Pockets.png/60px-Quick_Pockets.png);
+}
+
 // Markers
 
 .arrow {
@@ -503,6 +585,24 @@
 	text-align: center;
 }
 
+.pro {
+	width: 1em !important;
+    height: 1em;
+	content: url('../../images/green_check.svg');
+}
+
+.con {
+	width: 1em !important;
+    height: 1em;
+	content: url('../../images/red_cross.svg');
+}
+
+.warn {
+	width: 1em !important;
+    height: 1em;
+	content: url('../../images/yellow_warning.svg');
+}
+
 .midnight {
 	content: url('https://wiki.guildwars2.com/images/thumb/6/67/Relic_of_the_Midnight_King.png/60px-Relic_of_the_Midnight_King.png');
 }
@@ -510,8 +610,13 @@
 .speed {
 	content: url('https://wiki.guildwars2.com/images/thumb/6/68/Relic_of_Speed.png/60px-Relic_of_Speed.png');
 }
+
 .thorns-relic {
 	content: url('https://wiki.guildwars2.com/images/thumb/8/8a/Relic_of_Thorns.png/60px-Relic_of_Thorns.png');
+}
+
+.achievement {
+	content: url('https://wiki.guildwars2.com/images/1/10/Achievement_effect.png');
 }
 
 .vl-icon {
@@ -528,4 +633,9 @@
 
 .docs {
 	content: url(https://upload.wikimedia.org/wikipedia/commons/0/01/Google_Docs_logo_%282014-2020%29.svg);
+}
+
+.build {
+	content: url(../../images/wrench-icon.png);
+	margin-right: 3px;
 }
