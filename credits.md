@@ -29,5 +29,8 @@ nav_order: 2
 - **@Asterius** - Willbender strategy for Ura LCM, starting point for Ura diagrams.
 - **@Adinga**, **@Noro**, **@Spencer** - Titanspawn limit interactions and research.
 - **@Tsaerid** - research on Decima sub 10%.
+- **@xBourne** - Greer marker pack.
+
+A huge thank you also to all people who gave me feedback on VL!
 
 <img class= divider>

@@ -244,14 +244,18 @@ Toxic Geysers spawn every 12 seconds in all phases.
 
 <img class="center" width="70%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
 
-Toxic Geysers spawn with a 580 radius AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. This AoE also increases in radius every second by 10 units. Breaking the geyser's <img class='inline defiance'> [Defiance Bar] disables its AoE field until the bar regenerates (~14 seconds) and resets its radius.
+Toxic Geysers spawn with a 580 radius AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. This AoE also increases in radius every second by 10 units. Breaking the geyser's <img class='inline defiance'> [Defiance Bar] disables its AoE field until the bar regenerates after 14 seconds. Upon regenerating, the field reappears with its original radius.
 
 As long as [Ura] is in contact with the original radius, she will periodically gain <img class='inline protection'> [Protection], <img class='inline resolution'> [Resolution] and 25 <img class='inline might'> [Might].
 
 {: .note}
 The enlarged area of Toxic Geysers will not grant Ura boons; only the original spawn radius can.
 
-Toxic Geysers spawn with <img class='inline hardened'> [Hardened Shell], requiring <img class="inline dispel"> [Dispel] to make them vulnerable. A geyser that is vulnerable and has had either its defiance or health depleted will be destroyed.
+Toxic Geysers spawn with <img class='inline hardened'> [Hardened Shell], requiring <img class="inline dispel"> [Dispel] to make them vulnerable. A geyser that is vulnerable and has had either its defiance or health depleted will be destroyed, more specifically:
+- Removing <img class='inline hardened'> [Hardened Shell] from a geyser with a broken <img class='inline defiance'> [Defiance Bar] will kill it.
+- Breaking the <img class='inline defiance'> [Defiance Bar] of a geyser that has had its <img class='inline hardened'> [Hardened Shell] removed will kill it.
+
+Completing the fight without any geysers reaching a total radius of 880 units (corresponding to 30 seconds of uninterrupted growth) will net the group the <img class='inline achievement'> [No Geysers, No Problem](https://wiki.guildwars2.com/wiki/Mount_Balrior_(achievements)#achievement8581) achievement.
 
 Because Toxic Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective against them.
 
