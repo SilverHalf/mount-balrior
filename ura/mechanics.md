@@ -335,6 +335,9 @@ Ventshots are capped to an entity limit of 6, which includes [Titanspawn Geysers
 
 An AoE aura that is always active inside the boss's hitbox. Deals damage and applies <img class="inline burning"> [Burning].
 
+{: .note}
+This attack enables effective use of <img class='inline thorns-relic'> [Relic of Thorns](https://wiki.guildwars2.com/wiki/Relic_of_Thorns) on the encounter.
+
 ---
 
 ### Acid Spray

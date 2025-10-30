@@ -459,6 +459,9 @@ A 750-radius area-of-effect centered around Decima, outlined with a faint red ci
 
 Decima gains her Thrumming Presence at the beginning of the encounter only losing it: while casting [Seismic Reposition], when she has <img class="inline nova-shield"> [Nova Shield], while <img class="inline stun"> [Stunned], and when she is under 10% health.
 
+{: .note}
+This attack enables effective use of <img class='inline thorns-relic'> [Relic of Thorns](https://wiki.guildwars2.com/wiki/Relic_of_Thorns) on the encounter.
+
 ---
 
 ### Fluxlances

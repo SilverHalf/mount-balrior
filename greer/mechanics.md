@@ -312,6 +312,9 @@ It consists of two subsequent 60° cones that <img class="inline knockback"> [Kn
 
 Passively, Greer and all three [lesser titans] deal damage and inflict <img class='inline poison'> [Poison] to all players inside their hitbox.
 
+{: .note}
+This attack enables effective use of <img class='inline thorns-relic'> [Relic of Thorns](https://wiki.guildwars2.com/wiki/Relic_of_Thorns) on the encounter.
+
 ---
 
 ### Elite Empowering Beast
