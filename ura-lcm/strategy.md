@@ -44,23 +44,29 @@ Ura's overall mechanics and flow remain similar from CM to LCM. There are two pr
 <div class="strategy bordered" markdown=block>
 #### [Spawner](#spawner-strategy)
 {: .no_toc .center}
-An extension of the CM strategy to LCM with some composition changes. Popular on the NA server.
+An extension of the CM strategy to LCM with some small composition changes.
 
+<img class=warn> Almost exclusive to the NA region. <br>
 <img class=pro> Build and class diversity similar to CM.<br>
-<img class=con> More difficult execution.<br>
+<img class=con> More difficult execution*.<br>
 <img class=con> [More difficult DPS check](https://docs.google.com/spreadsheets/d/1PgCP4ilNxd5QcbvztkzXe7WB2LtZ2A-qpIPy_2y7Ssw/edit?usp=sharing). 
 </div>
 <div class="strategy bordered" markdown=block>
 #### [Willbender](#willbender-strategy)
 {: .no_toc .center}
-A mostly LCM-only strategy that takes advantage of some mechanical interactions to simplify the fight. Popular on the EU server.
+A mostly LCM-only strategy that ignores some mechanics to simplify the fight.
 
-<img class=pro> Easier execution.<br>
+<img class=warn> Almost exclusive to the EU region. <br>
+<img class=pro> Easier execution*.<br>
 <img class=pro> [Easier DPS check](https://docs.google.com/spreadsheets/d/1PgCP4ilNxd5QcbvztkzXe7WB2LtZ2A-qpIPy_2y7Ssw/edit?usp=sharing).<br>
 <img class=con> Strict composition with little to no variation.<br>
 <img class=con> Depends on <img class='inline willbender'> [Willbender] for DPS.
 </div>
 </div>
+
+---
+
+\* Compared to Spawner strat, Willbender can be more dangerous for the ranged group, but significantly simplifies melee group mechanics.
 
 <img class=divider>
 
@@ -77,10 +83,10 @@ This strategy plays out in a similar manner to Ura Challenge mode for the first 
 
 ### Composition
 
-The composition remains based on the division between a _ranged group_ and a _melee group_ introduced in CM. The ranged group is usually composed of:
+The division between a _ranged group_ and a _melee group_ remains central in LCM. The ranged group is usually composed of:
 - A heal <img class='inline chrono'> [Chronomancer] bringing extra CC.
 - A hybrid celestial healer, usually a <img class='inline scourge'> [Scourge].
-- A specialized <img class='inline deadeye'> [Deadeye] build that can satisfy the encounter's excessive CC requirements.
+- A specialized <img class='inline deadeye'> [Deadeye] built to cover the encounter's excessive CC requirements.
 - One DPS, usually a <img class='inline mechanist'> [Mechanist] running <img class='inline shift'> [Shift Signet].
 
 The melee group contains everyone else, except for one DPS that covers the role of *tank*. 
@@ -172,7 +178,7 @@ Spawner strategy compositions can be relatively flexible, depending on the extra
 </table>
 </div>
 
-<img class='inline deadeye'> [Deadeye] is almost ubiquitous due to its unique ability to constantly dish out massive CC by spamming <img class='inline distracting-throw'> [Distracting Throw] and resetting their initiative with <img class='inline m7'> [Maleficent Seven](https://wiki.guildwars2.com/wiki/Maleficent_Seven). <img class='inline chrono'> [Chronomancer] is similarly almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. <img class='inline scourge'> [Scourge] is usually played with a celestial build, since it brings additional damage without sacrificing much in the way of healing and utility, and is sometimes replaced by another celestial healer such as <img class='inline specter'> [Specter].
+<img class='inline deadeye'> [Deadeye] is almost ubiquitous due to its unique ability to constantly dish out CC by spamming <img class='inline distracting-throw'> [Distracting Throw] and resetting their initiative with <img class='inline m7'> [Maleficent Seven](https://wiki.guildwars2.com/wiki/Maleficent_Seven). <img class='inline chrono'> [Chronomancer] is similarly almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. <img class='inline scourge'> [Scourge] is usually played with a celestial build, since it brings additional damage without sacrificing much in the way of healing and utility, and is sometimes replaced by another celestial healer such as <img class='inline specter'> [Specter].
 
 For boonDPS, the most common choice is <img class='inline firebrand'> [Firebrand], as beyond doing excellent damage they can provide abundant condition cleanse, <img class='inline stability'> [Stability] with <img class='inline stand-ground'> [Stand Your Ground!], and projectile reflection with <img class='inline wall-reflect'> [Wall of Reflection] and <img class='inline bulwark'> [Chapter 3: Valiant Bulwark]. Two <img class='inline firebrand'> [Firebrands] can upkeep 100% projectile reflection uptime if one of them is running <img class='inline wall-reflect'> [Wall of Reflection], though this is a little tight so often the healers will help out with either <img class='inline feedback'> [Feedback] on a <img class='inline chrono'> [Chronomancer], <img class='inline smoke-screen'> [Smoke Screen] on the <img class='inline deadeye'> [Deadeye], or <img class='inline cpc'> [Corrosive Poison Cloud] on a <img class='inline scourge'> [Scourge].
 
@@ -268,7 +274,7 @@ This rotation includes a DPS player alongside the healers as a fourth member. Th
 <img class='inline sheets'> [EU Pug Rotation by Luna](https://docs.google.com/spreadsheets/d/e/2PACX-1vQttaDhjhxuvL_VH61ieYoJSYwn2odinF7puAqlxfgMd397TE4ifA3-htNj8iXWBRF15qFkR9vDSxA9/pubhtml?gid=1491958775&single=true)
 {: .btn}
 
-This rotation optimizes the order in which the geysers are <img class='inline dispel'> [Dispelled] to make double dropping a bit easier. It also has other small tweaks to reduce strain on the healers, including the introduction of a DPS aiding the 40% transition. This results in slightly higher DPS in exchange for slightly more stress on the ranged group.
+This rotation optimizes the order in which the geysers are <img class='inline dispel'> [Dispelled] to make double dropping a bit easier. It also has other small tweaks to reduce strain on the healers, including the introduction of a DPS aiding the 40% transition, but less regularly compared to the NA rotation. This results in slightly higher DPS in exchange for slightly more stress on the ranged group.
 
 ---
 
@@ -281,18 +287,17 @@ In the final phase, you will have immense incoming pressure from [Legendary Vent
 Given that the total number of [Legendary Ventshots], [Champion Fumarollers] and [Titanspawn Geysers] in phase 4 cannot exceed six, it's often common to stop killing [Titanspawn Geysers] _before_ transitioning, so that they can fill up this cap. In general:
 
 - If you are running a "safer" composition with two full healers, such as two heal <img class='inline chrono'> [Chronomancers], you can stop killing Titanspawners as soon as 15% HP in the main phase. Be warned though: this will spawn more [Champion Fumarollers], which in turn requires extra healing and <img class='inline stability'> [Stability].
-- If you are running a more aggressive composition, typically with a single heal <img class='inline chrono'> [Chronomancer] and a hybrid <img class='inline scourge'> [Scourge], then it is more difficult to manage multiple Fumarollers on stack. For this reason, it is best to stop killing Titanspawners only on entering the final phase (optionally killing the first if it spawns in an extremely convenient position).
+- If you are running a more standard composition, typically with a single heal <img class='inline chrono'> [Chronomancer] and a hybrid <img class='inline scourge'> [Scourge], then it is more difficult to manage multiple Fumarollers on stack. For this reason, it is best to stop killing Titanspawners only on entering the final phase (optionally killing the first if it spawns in an extremely convenient position).
 
 #### Survival
 {: .no_toc}
-You will want to be [facing Ura](../ura/strategy.html#tanking-ura) towards the North-West, in order to position the squad at the shortest possible difference from the safe drop zone for [Sulfuric Geysers], behind #9.
+You will want to be [facing Ura](../ura/strategy.html#tanking-ura) towards the North-West, in order to position the squad at the shortest possible difference from the safe drop zone for [Sulfuric Geysers], behind #9 and #12.
 
-You will need to upkeep permanent projectile reflection to safeguard the group from the [Legendary Ventshots]' ranged attacks. One of the <img class='inline firebrand'> [Firebrands] will be running <img class='inline wall-reflect'> [Wall of Reflection], and should be calling out the skill rotation. This generally repeats:
-1. The first <img class='inline firebrand'> [Firebrand] casting <img class='inline wall-reflect'> [Wall of Reflection].
-2. The first <img class='inline firebrand'> [Firebrand] casting <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] when 10-11s are remaining on their cooldown for <img class='inline wall-reflect'> [Wall of Reflection].
-3. A filler skill provided by another player, usually either a second <img class='inline firebrand'> [Firebrand]'s' <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] or a <img class='inline scourge'> [Scourge]'s <img class='inline cpc'> [Corrosive Poison Cloud]. When this ends, <img class='inline wall-reflect'> [Wall of Reflection] should be ready again.
+You will need to upkeep permanent projectile reflection to safeguard the group from the [Legendary Ventshots]' ranged attacks. A <img class='inline firebrand'> [Firebrand] will be running <img class='inline wall-reflect'> [Wall of Reflection], and should be calling out the skill rotation. This generally repeats:
+1. The <img class='inline firebrand'> [Firebrand] casting <img class='inline wall-reflect'> [Wall of Reflection].
+2. The <img class='inline firebrand'> [Firebrand] casting <img class='inline bulwark'> [Chapter 3: Valiant Bulwark] when 10-11s are remaining on their cooldown for <img class='inline wall-reflect'> [Wall of Reflection].
+3. A filler skill provided by another player, usually either a second <img class='inline firebrand'> [Firebrand]'s' <img class='inline bulwark'> [Chapter 3: Valiant Bulwark], a <img class='inline feedback'> [Feedback] or a <img class='inline cpc'> [Corrosive Poison Cloud]. When this ends, <img class='inline wall-reflect'> [Wall of Reflection] should be ready again.
 
-If you are running only a single <img class='inline firebrand'> [Firebrand], replace the second step with a <img class='inline feedback'> [Feedback].
 
 Try to count down the time remaining on your reflect, and call for backup if your skills are not available. Remember that:
 - <img class='inline wall-reflect'> [Wall of Reflection] lasts for 10 seconds (with <img class='inline master-consecrations'> [Master of Consecrations]).
@@ -311,7 +316,7 @@ Legendary Ura has an effective health of 137,161,289 HP and a maximum encounter 
 
 This number is greatly influenced by <img class='inline risingpressure'> [Rising Pressure]. Correct management of the damage reduction will make or break a pull. Always keep an eye on the number of stacks on the boss: try to CC when she reaches 5 stacks. In earlier phases, when she does not have much <img class='inline titanicresistance'> [Titanic Resistance], it can be hard to reach 5 before breaking: try then to CC at 3 or 4.
 
-Always try to CC as soon as she gains a stack of <img class='inline risingpressure'> [Rising Pressure]. This can increase your DPS by 3-4% easily, which is equivalent to 20-25 seconds on the enrage timer.
+Always try to CC right after she gains a stack of <img class='inline risingpressure'> [Rising Pressure]. This can increase your DPS by 3-4% easily, which is equivalent to 20-25 seconds on the enrage timer.
 
 Players should have an up-to-date build (check the [builds section](#builds-and-povs) above and [Snowcrows](https://snowcrows.com/)), and should be competent with their class and rotation, practicing it if necessary on the [DPS golem](https://snowcrows.com/guides/arcdps/special-forces-area). Players should aim to do as much damage as possible while not failing mechanics.
 
@@ -459,7 +464,7 @@ If anything is outdated, you can find up-to-date builds and PoVS on <img class='
 
 ### Rotations
 
-For the _melee rotation_, since the strategy ignores [Titanspawn Geysers], the only thing the melee group needs to <img class='inline dispel'> [Dispel] is [Pressure Blast]. For this reason, there are generally only 4 people assigned to the melee rotation, which otherwise works as normal.
+For the _melee rotation_, since the strategy ignores [Titanspawn Geysers], the only thing the melee group needs to <img class='inline dispel'> [Dispel] is [Pressure Blast]. For this reason, there are generally only 4 people assigned to the melee rotation, which otherwise works as normal. Groups can choose to forgo a rotation if they are confident.
 
 For the _ranged rotation_ the strategy uses a 4-man rotation involving all the support players double-dropping.
 
@@ -469,11 +474,12 @@ Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], respon
 - The geyser they pick up the [Bloodstone Shard] from.
 - The first geyser they <img class='inline dispel'> [Dispel] when double dropping.
 
-<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative to do so. There is generally enough time between the two geysers to have it regenerate.
+<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative to do so. There is generally enough time between the two geysers for it to regenerate, but player who find themselves constantly short can run two spears and take advantage of <img class='inline quickpockets'> [Quick Pockets].
 
-<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series:
-1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
-2. <img class='inline moa'> [Signet of Humility] & <img class='inline domination'> [Signet of Domination]/<img class='inline senility'> [Well of Senility]/<img class='inline technobabble'> [Technobabble].
+<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series. Geysers can be CC's using a combination of <img class='inline moa'> [Signet of Humility] followed by an additional CC skill, which is usually <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility], <img class='inline technobabble'> [Technobabble] or <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity].
+
+1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] + CC skill.
+2. <img class='inline moa'> [Signet of Humility] + CC skill.
 
 If players cannot CC, they should call for backups. Since all four ranged players are double dropping, there is more flexibility overall compared to a standard strategy.
 
@@ -590,5 +596,6 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Fury]: https://wiki.guildwars2.com/wiki/Fury
 [Relic of the Midnight King]: https://wiki.guildwars2.com/wiki/Relic_of_the_Midnight_King
 [Relic of Speed]: https://wiki.guildwars2.com/wiki/Relic_of_Speed
+[Quick Pockets]: https://wiki.guildwars2.com/wiki/Quick_Pockets
 
 [CC Deadeye]: https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e

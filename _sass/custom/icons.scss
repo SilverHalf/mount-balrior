@@ -527,6 +527,10 @@
 	content: url(https://wiki.guildwars2.com/images/thumb/1/1b/Mist_Form.png/54px-Mist_Form.png);
 }
 
+.quickpockets {
+	content: url(https://wiki.guildwars2.com/images/thumb/3/36/Quick_Pockets.png/60px-Quick_Pockets.png);
+}
+
 // Markers
 
 .arrow {
@@ -591,6 +595,12 @@
 	width: 1em !important;
     height: 1em;
 	content: url('../../images/red_cross.svg');
+}
+
+.warn {
+	width: 1em !important;
+    height: 1em;
+	content: url('../../images/yellow_warning.svg');
 }
 
 .midnight {
