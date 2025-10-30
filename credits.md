@@ -15,18 +15,19 @@ nav_order: 2
 - <img class='inline sheets'> [Ura LCM 3-Heal Rotation (Deprecated)](https://docs.google.com/spreadsheets/d/18a4OXN5U8gqNg8eI7LLdyj6YZwHlVMm8bcH1rhdfXps) by Minas
 - <img class='inline slides'> [Ura LCM Deadeye Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M) by Chupathingy
 
-<img class= divider>
+---
 
 # Credits
 
-- [The Official Guild Wars 2 Wiki](https://wiki.guildwars2.com/wiki/Main_Page) - information on the encounters, and all icons for skills, buffs and debuffs.
+- [The Official Guild Wars 2 Wiki](https://wiki.guildwars2.com/wiki/Main_Page) - information on the encounters and all icons.
 - [Elite Insights](https://github.com/baaron4/GW2-Elite-Insights-Parser) - images of the encounter arenas, drawn by **@Linus**.
-- **@Tsaerid** - research on Decima sub 10%.
 - **@Minas** - research and write-up on Greer and Ura mechanics, write-up on Decima, Greer and Ura and LCM strategies.
+- **@Bear** - proofreading and colour work.
 - **@Areki** - research for Ura's skill priority.
-- **@Mike** - devised the PUG Decima strategy.
+- **@Mike** - PUG Decima strategy.
 - **@Chupathingy** - Original CC Deadeye strategy for Ura LCM.
 - **@Asterius** - Willbender strategy for Ura LCM, starting point for Ura diagrams.
 - **@Adinga**, **@Noro**, **@Spencer** - Titanspawn limit interactions and research.
+- **@Tsaerid** - research on Decima sub 10%.
 
 <img class= divider>
