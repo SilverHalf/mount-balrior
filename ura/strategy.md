@@ -132,8 +132,9 @@ A sample composition could be as follows:
 This is a non-exhaustive list of playable builds on the encounter. If anything is outdated, you can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 
 |Build|Role|PoV|Last updated|
-|[<img class='inline chrono'> Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmB7iZxQYj4RPp26A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)| Ranged & Heal | [Single Shard](https://www.youtube.com/watch?v=nYkv1xAUIm4) | October 2025 |
-|[<img class='inline druid'> Heal Druid](https://gw2skills.net/editor/?POwEYKNssBmC7gxwKxxXSvpVi37B-DSRYjRwHCSUjuLjqrq0TBfvOEkQ5vl23sgKA-e) | Ranged & Heal| [Single Shard](https://www.youtube.com/watch?v=-lhRcEVLmk0) | April 2025 |
+|[<img class='inline chrono'> Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmB7iZxQYj4RPp26A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)| Ranged & Heal | [Single Drop](https://www.youtube.com/watch?v=nYkv1xAUIm4), [Double Drop](https://www.youtube.com/watch?v=I1kynl_bHQg) | November 2025 |
+|[<img class='inline druid'> Heal Druid](https://gw2skills.net/editor/?POwEYKNssBmC7gxwKxxXSvpVi37B-DSRYjRwHCSUjuLjqrq0TBfvOEkQ5vl23sgKA-e) | Ranged & Heal| [Single Drop](https://www.youtube.com/watch?v=-lhRcEVLmk0) | April 2025 |
+|[<img class='inline specter'> Heal Specter](https://gw2skills.net/editor/?PajAsqlhy2YrsU2JeqWnxeA-DSRYjhCCGJaI/eKjWSg0LAdvOEkQZD8WafzCqA-e) | Ranged & Heal| [Double Drop](https://www.youtube.com/watch?v=QgewNDf7_Nk) | November 2025 |
 |[<img class='inline firebrand'> Condi Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBtukGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e) | Melee & Boon| [PoV](https://www.youtube.com/watch?v=FZLDQPUmlOA) | September 2025 |
 |[<img class='inline scrapper'> Power Scrapper](https://gw2skills.net/editor/?PeQAIlJw0YcsNWKO2LvteA-DSRYBRBH2cQnnRtSgKUAy8bRQCjNwrhCnRgKA-e) | Melee & DPS + Titanspawners | [PoV](https://www.youtube.com/watch?v=LCvrQLyt_UE) | July 2025 |
 |[<img class='inline mechanist'> Condi Mechanist](https://snowcrows.com/builds/raids/engineer/condition-mechanist) | Melee & DPS | [PoV](https://www.youtube.com/watch?v=MfRHz9wzbQU)| April 2025 |
