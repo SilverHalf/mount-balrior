@@ -70,8 +70,8 @@ Finally, <img class='inline scourge'> [Scourge] is commonly chosen as a tank, us
 
 Due to how the [lesser titans] provide boons throughout the encounter, it's typical to use either a full <img class='inline condition'> [Condition], or full <img class='inline power'> [Power] based squad. By default, enemies will be affected by both <img class='inline protection'> [Protection] and <img class='inline resolution'> [Resolution], however:
 
-- <img class='inline power'> [Power] compositions can kill [Gree] to remove <img class='inline protection'> [Protection] from all enemies.
-- <img class='inline condition'> [Condition] compositions can kill [Reeg] to remove <img class='inline resolution'> [Resolution] from all enemies.
+- <img class='inline power'> [Power] compositions can kill [Gree] first to remove <img class='inline protection'> [Protection] from all enemies.
+- <img class='inline condition'> [Condition] compositions can kill [Reeg] first to remove <img class='inline resolution'> [Resolution] from all enemies.
 
 The choice of composition brings about a noticeable difference in positioning: each strategy will start the fight next to the lesser titan that grants their antagonistic boon, and will focus them down at the beginning of every burn phase and split phase. Apart from this, roles and mechanics function equally for both.
 
@@ -157,7 +157,7 @@ When Greer uses [Cage of Decay], all players should sidestep the arrows. These p
 
 Once [Greer] hits 80%, he will gain a <img class='inline defiance'> [Defiance Bar], becoming <img class='inline invuln'> [Invulnerable] until it is broken, which also spawns several [Elite Empowering Beasts]. Players should be ready to handle the additional [Empowering Blasts] these adds generate.
 
-This phase continues until 35%, when the first split phase begins. If damage is on the lower side, you may have one final set of [Blobs of Blight] coming from the North before transitioning.
+This phase continues until 65%, when the first split phase begins. If damage is on the lower side, you may have one final set of [Blobs of Blight] coming from the North before transitioning.
 
 <img class=divider>
 
