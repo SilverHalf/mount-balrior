@@ -121,11 +121,11 @@ In order to prevent getting exposed, you need to cleanse <img class='inline sulf
 <summary>1.6 - Where do I drop Sulfurics?</summary>
 <div markdown='block'>
 
-Looking at the image below, good places are the purple areas, so basically outside of the part of the area that is covered with [Toxic Geysers] and additionally specifically not behind 1 and 2 (except for the ranged group if they are close there). The reason for this is that the purple areas below area reachable from the boss, but behind 1 and 2 is not reachable.
+Good places are the green areas highlighted by the image below, which correspond with the part of the area where [Toxic Geysers] do not spawn. Additionally, avoid attempting to place geysers behind 1 and 2, as this area is difficult to reach from the boss in time, unless you are in the ranged group and doing either of those geyers.
 
 <img class='center' src='../images/ura/ura_sulfurics.webp' width='70%'>
 
-Additionally, within those areas, it’s better to drop Sulfurics between Geysers where NO double drops are happening. Example: #13 and #14 are always double dropped, so ideally don’t go between them, but #12 and #14, or #10 and #13 are not, so it’s better to drop between those. The absolute best area to drop them is behind #9, which, as can be seen from the image, is the shortest path from Ura.
+Within these regions, it’s better to drop Sulfurics between Geysers where NO double drops are happening. Example: #13 and #14 are always double dropped, so ideally don’t go between them, but #12 and #14, or #10 and #13 are not, so it’s better to drop between those. The absolute best area to drop them is behind #9, which, as can be seen from the image, is the shortest path from Ura.
 
 </div>
 </details>
