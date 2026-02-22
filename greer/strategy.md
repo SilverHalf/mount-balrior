@@ -53,16 +53,16 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiR3JlZXIgQ00geGIiLCJkZXNjcmlwdGlvbiI6ImRlc2NyaXB0
 
 Two strategies are commonly played on the encounter: one with a dedicated tank for the entire fight, and one that uses a tank only in the last 10%. Here we will focus only on the non-Tank version, because it's the most frequent in pug runs. This strategy, commonly called "cozy strat", typically uses the following composition:
 
-- Two Heal <img class='inline chrono'> [Chronomancers] providing <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis].
+- Two healers, usually <img class='inline chrono'> [Chronomancers] or <img class='inline troubadour'> [Troubadours], provide important defensive utility.
 - A *bubble* to provide projectile blocks, usually a <img class='inline herald'> [Herald]  or <img class='inline firebrand'> [Firebrand].
-- A *10% tank*, usually played by a Celestial-hybrid <img class='inline scourge'> [Scourge] or any other sufficiently tanky build .
+- A *10% tank*, usually played by a Celestial-hybrid <img class='inline scourge'> [Scourge], <img class='inline specter'> [Specter] or any other sufficiently tanky build.
 - Six damage dealers.
 
-The focus is on providing enough defensive utility to manage all of Greer's attacks: <img class='inline chrono'> [Chronomancers] are the best choice as they are unmatched in <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis] uptime, while also having excellent boons, CC, healing and access to <img class='inline distortion'> [Distortion] for [Blobs of Blight].
+Healers should focus on providing enough defensive utility to manage all of Greer's attacks: <img class='inline stability'> [Stability] and <img class='inline aegis'> [Aegis] uptime is fundamental, while boons, CC, healing and access to <img class='inline invuln'> [Invulnerability](https://wiki.guildwars2.com/wiki/Invulnerability) for [Blobs of Blight] are extremely useful. <img class='inline chrono'> [Chronomancer] is the classic pick here due to <img class='inline precog'> [Well of Precognition] being a natural counter to [Stomp the Growth], but <img class='inline troubadour'> [Troubadour] provides similar utility with better healing, and can bring <img class='inline august-queen'> [Tale of the August Queen] to simplify certain mechanics.
 
-A bubble player is required to manage the copious amount of projectile denial the encounter mandates. This is most often a <img class='inline herald'> [Herald] running <img class='inline ventari'> [Legendary Centaur Stance], with the <img class='inline chrono'> [Chronomancers] providing backups with <img class='inline feedback'> [Feedback].
+A bubble player is required to manage the copious amount of projectile denial the encounter mandates. This is easiest done by a <img class='inline herald'> [Herald] running <img class='inline ventari'> [Legendary Centaur Stance], with the <img class='inline chrono'> [Chronomancers] providing backups with <img class='inline feedback'> [Feedback], but <img class='inline firebrand'> [Firebrand] is an alternative pick with higher overall damage and difficulty.
 
-Finally, <img class='inline scourge'> [Scourge] is commonly chosen as a tank, usually as a celestial boon provider, due to its high survivability and utility with <img class='inline cpc'> [Corrosive Poison Cloud] and <img class='inline undeath'> [Signet of Undeath](https://wiki.guildwars2.com/wiki/Signet_of_Undeath). 
+Finally, <img class='inline scourge'> [Scourge] is commonly chosen as a tank, usually as a celestial boon provider, due to its high survivability and utility with <img class='inline cpc'> [Corrosive Poison Cloud] and <img class='inline undeath'> [Signet of Undeath](https://wiki.guildwars2.com/wiki/Signet_of_Undeath). Alternatively, <img class='inline specter'> [Specter] has higher damage and can carry CC for the squad using spear's <img class='inline distracting-throw'> [Distracting Throw], at the cost of revive power.
 
 ---
 
@@ -75,7 +75,7 @@ Due to how the [lesser titans] provide boons throughout the encounter, it's typi
 
 The choice of composition brings about a noticeable difference in positioning: each strategy will start the fight next to the lesser titan that grants their antagonistic boon, and will focus them down at the beginning of every burn phase and split phase. Apart from this, roles and mechanics function equally for both.
 
-In the following, we assume a <img class='inline condition'> [Condition] based composition.
+In the following, we assume a <img class='inline condition'> [Condition] based composition. Power compositions can mirror the same strategy with different starting positions and prioritization during split phases.
 
 {: .note}
 Hybrid compositions are universally avoided, as it is infeasible to kill both [Reeg] and [Gree], and one of their damage components will be impacted by the titan they leave alive. Similarly, builds that have a hybrid damage profile (such as <img class='inline virtuoso'> [Condition Virtuoso]) will struggle to provide comparable DPS on this encounter.
@@ -88,9 +88,11 @@ This is a non-exhaustive list of playable builds on the encounter. If anything i
 
 |Build|Role|PoV|Last updated|
 |[<img class='inline chrono'> Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzi1wAZj4RPp2aA-DSJYjR1fh0SKUdFkeQp7rhgEK/t0+mFUB-e)| Heal & Mechanics | [PoV](https://youtu.be/Y1QIgchi1SU) | September 2025 |
-|[<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEo8NsMDmG7jJxIxi9661D-DyIY1ol/M6SKkrCQhHDCSoMFeNg4BDUB-e) | 10% Tank | [PoV](https://youtu.be/VBgiTP4SdhI) | June 2025 |
-|[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear) | Boon & Bubble | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | April 2025 |
-|[<img class='inline firebrand'> Bubblebrand](https://gw2skills.net/editor/?PWxEQLtrMC2DTkpwMxk66/ZB-DSRYjRNGJsyo6UI9KQ3fBpIM7h3S7bWQFA-e) | Heal & Bubble | [PoV (Power)](https://www.youtube.com/watch?v=yNg0_2bXl4U) | September 2025 |
+|[<img class='inline troubadour'> Troubadour](https://gw2skills.net/editor/?PigEQiWmBziBzAZ04RPpO1B-DSRYjR1DJ4CplUo6KI9gS3XDBJU+bp9NLoC-e)| Heal & Mechanics | [PoV](https://www.youtube.com/watch?v=HD70poveJTk) | February 2026 |
+|[<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEo8NsMDmG7jJxIxi9661D-DyIY1ol/M6SKkrCQhHDCSoMFeNg4BDUB-e) | Celestial BoonDPS, Tank | [PoV](https://youtu.be/VBgiTP4SdhI) | June 2025 |
+|[<img class='inline specter'> Specter](https://gw2skills.net/editor/?PawEsEFtMU2BjlByOxx26OWD-DSRYmhJHd4TpAhQLiguUARKBU4rhgEE7hXjMuBAVA-e) | BoonDPS, Tank | | February 2026 |
+|[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear) | BoonDPS, Bubble | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | April 2025 |
+|[<img class='inline firebrand'> Firebrand](https://gw2skills.net/editor/?PWwAo6/lRweYQMFGJW0WZPTA-DSJYyR7/ZkgUoDFgY/VEkgY7/a2xDGoC-e) | BoonDPS, Bubble | [PoV](https://www.youtube.com/watch?v=-CnzpVqASaM&feature=youtu.be) | September 2025 |
 |[<img class='inline willbender'> Condi Willbender](https://snowcrows.com/builds/raids/guardian/condition-willbender)| DPS | [PoV](https://www.youtube.com/watch?v=p4WIceytxVg) | June 2025 |
 
 <img class=divider>
@@ -105,18 +107,18 @@ Groups will usually start on the ledge to the right-hand side when entering Gree
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_1.webp'>
 
-One of the <img class='inline chrono'> [Chronomancers] will usually deal with the  first set of [Blobs of Blight] coming from [Greer]. This can easily be done with <img class='inline distortion'> [Distortion], or alternatively you can use a combination of dodges and <img class='inline inversion'> [Imaginary Inversion] to evade all three orbs while conserving clones to provide additional boons for your DPS's openers.
+A healer will usually deal with the  first set of [Blobs of Blight] coming from [Greer]. This can easily be done with <img class='inline distortion'> [Distortion], or alternatively you can use a combination of dodges and <img class='inline inversion'> [Imaginary Inversion] to evade all three orbs while conserving clones to provide additional boons for your DPS's openers.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_2.webp'>
 
-In experienced groups, that same <img class='inline chrono'> [Chronomancer] will have the responsibility of blocking the first set of [Empowering Blasts] originating from [Gree] and [Ereg]. This is done by using <img class='inline cs'> [Continuum Split] to double-cast <img class='inline feedback'> [Feedback] so that both directions are covered. The orb originating from [Reeg] is usually blocked by a <img class='inline scourge'> [Scourge] with <img class='inline cpc'> [Corrosive Poison Cloud], a <img class='inline feedback'> [Feedback] from the other <img class='inline chrono'> [Chronomancer], or by the dedicated bubble player.
+In experienced groups, this is usually done by a <img class='inline chrono'> [Chronomancer] that will have the additional responsibility of blocking the first set of [Empowering Blasts] originating from [Gree] and [Ereg]. This is done by using <img class='inline cs'> [Continuum Split] to double-cast <img class='inline feedback'> [Feedback] so that both directions are covered. The orb originating from [Reeg] is usually blocked by the bubble player or another player with projectile disruption skills.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_3.webp'>
 
 {: .note}
-If neither <img class='inline chrono'> [Chronomancer] is feeling confident with this maneuver, then the bubble (usually a <img class='inline herald'> [Herald]) can follow them while they are deleting the first set of Death Orbs and then block the [Empowering Blasts] themselves. However, this usually severely hurts the squad's overall boon uptime in the opener.
+If neither healer is feeling confident with this maneuver, then the bubble player can follow them while they are deleting the first set of Death Orbs and then block the [Empowering Blasts] themselves. However, this usually severely hurts the squad's overall boon uptime in the opener, as they will be lacking <img class='inline quickness'> [Quickness].
 
-Whoever blocked the [Empowering Blasts] is also responsible for luring the boss close to [Reeg]. In order to do this properly they should stay more than 900 range from [Greer], otherwise he will start using his melee attacks, delaying his movement. Vice versa, if you get to him too late, he will start casting ranged attacks such as [Rain of Spores] and [Greens] before moving.
+Whoever blocked the [Empowering Blasts] is also responsible for luring the boss close to [Reeg]. In order to do this properly they should stay more than 900 range from [Greer], otherwise he will start using his melee attacks, delaying his movement. Vice versa, if you get to him too late, he will start casting ranged attacks such as [Rain of Spores] and [Greens] before moving. The key to a successful bait is to start moving early and get back to the group as fast as possible.
 
 <details>
 <summary><img class='inline chrono'> Chronomancer PoV</summary>
@@ -132,9 +134,9 @@ Meanwhile, the squad at [Reeg] will have to solve a pair of <img class='inline t
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_5.webp'>
 
-At this point, the <img class='inline herald'> [Herald] needs to pay attention and regularly block the [Empowering Blast] coming from [Gree] and [Ereg] in order to not grant any <img class='inline empowered'> [Empowered] stacks. Whenever they can't block for any reason, they should call for backup in voice, and a <img class='inline scourge'> [Scourge] with <img class='inline cpc'> [Corrosive Poison Cloud] or <img class='inline chrono'> [Chronomancer] with <img class='inline feedback'> [Feedback] will provide the reflect.
+At this point, the bubble player needs to pay attention and regularly block the [Empowering Blast] coming from [Gree] and [Ereg] in order to not grant any <img class='inline empowered'> [Empowered] stacks. Whenever they can't block for any reason, they should call for backup in voice, and other players will backup projectile disruption, usually with <img class='inline cpc'> [Corrosive Poison Cloud] or <img class='inline feedback'> [Feedback].
 
-Stay on the outside of [Greer] until he uses [Enfeebling Miasma], baiting it towards the wall. Once he casts this skill, dodge through his hitbox to the safe side. Roughly at the same time, the second <img class='inline chrono'> [Chronomancer] needs to be ready to <img class='inline distortion'> [Distort] the second set of [Blobs of Blight] coming from [Ereg] from the North-East.
+Stay on the outside of [Greer] until he uses [Enfeebling Miasma], baiting it towards the wall. Once he casts this skill, dodge through his hitbox to the safe side. Roughly at the same time, the second healer needs to be ready to <img class='inline distortion'> [Distort] the second set of [Blobs of Blight] coming from [Ereg] from the North-East.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_start_6.webp'>
 
@@ -146,10 +148,10 @@ If the [Enfeebling Miasma] is cast early and [Reeg] has not despawned yet, you c
 
 After the opening sequence, Reeg should be dead, <img class='inline three-person'> [Greens] solved, [Blobs of Blight] deleted and [Enfeebling Miasma] painting the wall. Most of these skills have a long enough cooldown that you won't have to deal with them until the next phase.
 
-Thus follows the main component of fighting [Greer]. For the <img class='inline chrono'> [Chronomancers] this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and, more importantly, using <img class='inline precog'> [Well of Precognition] to block [Stomp the Growth].
+Thus follows the main component of fighting [Greer]. For the healers this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and, more importantly, using <img class='inline aegis'> [Aegis] to block [Stomp the Growth].
 
 {: .note}
-It's important that the squad is stacked so that everyone is within the well's area. If any of the <img class='inline chrono'> [Chronomancers] don't have the well ready, communicate it in voice such that people can use their dodge. It's not as important in the early phases when Greer doesn't have much <img class='inline empowered'> [Empowered], but it becomes crucial later on as the slam attacks can very quickly wipe an unprepared squad.
+It's important that the squad is stacked tightly so that everyone has access to these boons (especially for <img class='inline precog'> [Well of Precognition]). If any of the healers don't have defensive utility ready, communicate it in voice so that people can use their dodge. It's not as important in the early phases when Greer doesn't have much <img class='inline empowered'> [Empowered], but it becomes crucial later on as the slam attacks can very quickly wipe an unprepared squad.
 
 For the bubble player, they should always be ready to block [Empowering Blasts], calling for backup when they don't have projectile destruction ready.
 
@@ -165,14 +167,12 @@ This phase continues until 65%, when the first split phase begins. If damage is 
 
 At 65%, the boss will become untargetable and the first split phase begins. <img class='inline condition'> [Conditions] will keep ticking on [Greer], so no damage will be wasted.
 
-Everyone in the squad will go to [Reeg], located on <img class='inline circle'>; 
-<br>
-**Except** for one player, who will go to [Gree] on <img class='inline heart'> to capture his aggro and drag him towards the rest of the group on Reeg. This is often a <img class='inline chrono'> [Chronomancer] or the *10% tank*.
+Everyone in the squad will go to [Reeg], located on <img class='inline circle'>, **Except** for one player, who will go to [Gree] on <img class='inline heart'> to capture his aggro and drag him towards the rest of the group on Reeg. This is often a healer or the *10% tank*.
 
 <img class=center width='70%' src='../images/greer/strategy/greer_split_1.webp'>
 
 {: .note}
-Depending on the situation and your DPS, [Ereg] may cast [Blobs of Blight] at the end of the previous phase. If this happens, it may be convenient to send a <img class='inline chrono'> [Chronomancer] to <img class='inline heart'>, and let them <img class='inline distortion'> [Distort] the orbs (see [here](https://www.youtube.com/watch?v=dx2zLoPADFk&start=105s&end=120s)). Otherwise, Ereg will use this skill at the beginning of the split phase, in which case it's better to keep both <img class='inline chrono'> [Chronomancers] on stack (see [here](https://www.youtube.com/watch?v=Y1QIgchi1SU&start=107s&end=135s)). 
+Depending on the situation and your DPS, [Ereg] may cast [Blobs of Blight] at the end of the previous phase. If this happens, it may be convenient to send a healer to <img class='inline heart'>, and let them <img class='inline distortion'> [Distort] the orbs (see [here](https://www.youtube.com/watch?v=dx2zLoPADFk&start=105s&end=120s)). Otherwise, Ereg will use this skill at the beginning of the split phase, in which case it's better to keep both healers on stack (see [here](https://www.youtube.com/watch?v=Y1QIgchi1SU&start=107s&end=135s)). 
 
 To bait [Gree] properly and quickly: keep some distance in order to not trigger his melee attacks, similar to baiting Greer at the start of the fight.
 [Gree] may use his [Ripples of Rot] attack, which must be avoided at all costs; if it is cast, just run away, regroup and after the attack is over go back to melee range.
@@ -181,12 +181,12 @@ To bait [Gree] properly and quickly: keep some distance in order to not trigger 
 
 Both [Reeg] and [Ereg] can cast [Blob of Blight] on the squad at this time.
 <br>
-The <img class='inline chrono'> [Chronomancers] on the stack needs to <img class='inline distortion'> [Distort] the [Blob of Blight] from [Reeg]. If the [Blobs of Blight] from [Ereg] are delayed, they may need to be dodged **by the entire squad**. If the dodge is failed make sure to immediately walk away; standing under a stationary orb will quickly kill you. 
+The healer on the stack needs to <img class='inline distortion'> [Distort] the [Blob of Blight] from [Reeg]. If the [Blobs of Blight] from [Ereg] are delayed, they may need to be dodged **by the entire squad**. If the dodge is failed make sure to immediately walk away; standing under a stationary orb will quickly kill you. 
 <br>
 Additionally, there will also be <img class='inline two-person'> [Greens] that need to be played at the same time. 
 
 {: .note}
-There is a high chance that the player who's baiting [Gree] gets targeted by a [Green] as well: it is convenient to dodge it as they will be off-stack. <img class='inline chrono'> [Chronomancers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] into Dodge for a longer evasion period to make this easier.
+There is a high chance that the player who's baiting [Gree] gets targeted by a [Green] as well: it is convenient to dodge it as they will be off-stack. Heal <img class='inline mesmer'> [Mesmers] running spear can use use <img class='inline inversion'> [Imaginary Inversion] into Dodge for a longer evasion period to make this easier.
 
 [Reeg] and [Ereg] will constantly use [Rain of Spores], blasting everyone with projectiles. This can be mitigated by having projectile blocks up, communicating accordingly to always have some ready.
 
@@ -212,7 +212,7 @@ The Arrow projectiles from [Cage of Decay] stop at the edge of the arena and don
 
 #### Beginning of the Phase
 
-Once [Gree] hits 50% hp, the split phase is over. [Ereg] will despawn, all three adds will re-appear in their original positions and [Greer] will become vulnerable and start attacking again. The first attack will always be [Blob of Blight], so when running back to the boss one <img class='inline chrono'> [Chronomancer] should be ready to <img class='inline distortion'> [Distort] them. Everyone else should run stacked together, behind the <img class='inline chrono'> [Chronomancer].
+Once [Gree] hits 50% hp, the split phase is over. [Ereg] will despawn, all three adds will re-appear in their original positions and [Greer] will become vulnerable and start attacking again. The first attack will always be [Blob of Blight], so when running back to the boss one healer should be ready to <img class='inline distortion'> [Distort] them. Everyone else should run stacked together behind them.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p2_1.webp'>
 
@@ -240,7 +240,7 @@ The rest of this phase is similar to the first phase. Deal with mechanics approp
 
 - <img class='inline distortion'> [Distort] the [Blobs of Blight]
 - Provide <img class='inline stability'> [Stability] for [Sweep the Mold].
-- Use <img class='inline precog'> [Well of Precognition] for [Stomp the Growth].
+- Provide <img class='inline aegis'> [Aegis] for [Stomp the Growth].
 - Continue blocking [Empowering Blasts].
 
 A <img class='inline defiance'> [Defiance Bar] appears again at 50%. Upon breaking this bar, [Elite Empowering Beasts] will spawn again, and cast [Empowering Blast] toward [Greer]; make sure to block all of these and communicate if any backup projectile block is needed.
@@ -272,6 +272,8 @@ The easiest way to deal with this version of the mechanic is to stack them; all 
 <iframe class="youtube-video-wide center" src="https://www.youtube.com/embed/-epK7O8qfl4?si=OlA4G6xiHNTBVtrT&mute=1 " frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
+Alternatively, if you are running a <img class='inline troubadour'> [Troubadour], their subgroup can bait the greens by being the furthest players from Greer, and then negate them completely using <img class='inline august-queen'> [Tale of the August Queen].
+
 Timing wise, [Ereg] might also use his <img class='inline two-person'> [two-person-green], which can be solved on the stack. At this point, [Ereg] should be close to dying. With a <img class='inline condition'> [Condition] based composition, you can leave [Ereg] and swap to [Greer] at around 7% of his HP.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_1.webp'>
@@ -286,7 +288,7 @@ At 20% there will be another <img class='inline defiance'> [Defiance Bar], and a
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_2.webp'>
 
-Once the bar is broken, Greer will turn around towards the wall where the squad is. Wait for his next [Sweep the Mold], [Stomp the Growth], [Cage of Decay] or [Enfeebling Miasma]: these skills all lock Greer in place for their animation, allowing the group to move back to the inside while the *tank* stays in place and keeps Greer's aggro on them.
+Once the bar is broken, Greer will turn around towards the wall where the squad is. Wait for his next [Sweep the Mold], [Stomp the Growth] or [Enfeebling Miasma]: these skills all lock Greer in place for their animation, allowing the group to move back to the inside while the *tank* stays in place and keeps Greer's aggro on them.
 
 <img class=center width='80%' src='../images/greer/strategy/greer_p3_3.webp'>
 
@@ -307,7 +309,7 @@ Once [Greer] hits 10% he becomes <img class='inline invuln'> [Invulnerable] and 
 
 #### Tanking
 
-The tank's job is to keep the boss away from the rest of the squad and facing the wall. In order to survive, they should try to evade as many attacks as possible. Stand close to Greer and sidestep [Sweep the Mold] and [Cage of Decay]. Save your dodges for [Stomp the Growth], making sure to jump the wave. As you are close to the boss, you will not be targeted by [Blobs of Blight] or [Eruption of Rot], but call out when the mechanics are happening for your squad.
+The tank's job is to keep the boss away from the rest of the squad and facing the wall. In order to survive, they should try to evade as many attacks as possible. Stand close to Greer and sidestep [Sweep the Mold] and [Cage of Decay]. Save your dodges and blocks for [Stomp the Growth], making sure to jump (or dodge) the wave. As you are close to the boss, you will not be targeted by [Blobs of Blight] or [Eruption of Rot], but call out when the mechanics are happening for your squad. Make sure to block projectiles from [Scattering Sporeblast] and [Rain of Spores], as these can easily down you.
 
 If you are unlucky and a *Protoling* spawns close and aggros on you, you may need to come back to the squad earlier. In this case, try to bait out [Ripples of Rot]. This skill is very dangerous, but has a long cooldown, so having him cast it at the beginning means that you will not have to deal with it later on.
 
@@ -329,8 +331,8 @@ Communication of cooldowns for projectile blocks and <img class='inline precog'>
 
 Besides this plethora of AoEs, special attention has to be given to two attacks: 
 
-1. [Greer] (and [Ereg] if he is alive) will cast [Blob of Blight] at some point during the 10% phase, so one of the <img class='inline chrono'> [Chronomancers] needs to be ready to <img class='inline distortion'> [Distort] when this happens. 
-2. Triple <img class='inline three-person'> [Greens] will also happen at some point toward the end of the 10% phase; Play these similarly to the ones before, by stacking together, moving to a spot free from AoEs and slightly away from the boss, and finally dodging toward the boss.
+1. [Greer] (and [Ereg] if he is alive) will cast [Blob of Blight] at some point during the 10% phase, so one of the healers needs to be ready to <img class='inline distortion'> [Distort] when this happens. 
+2. Triple <img class='inline three-person'> [Greens] will also happen at some point toward the end of the 10% phase; Play these similarly to the ones before, by either stacking together, moving to a spot free from AoEs and slightly away from the boss, and finally dodging toward the boss, or negating them through baiting followed by <img class='inline august-queen'> [Tale of the August Queen].
 
 Sometimes it can happen that the last *Protoling* is close to [Greer]. In those cases, focus the *Protoling* while trying to evade all [Greer] attacks.
 
@@ -345,9 +347,9 @@ Once the last *Protoling* is close to dying, switch to [Greer] to pre-stack <img
 Pre-stacking <img class='inline condition'> [Conditions] towards the end of the 10% phase is important, as it effectively removes a large part of the ramp-up time from the squad's damage profile; this is much more important than quickly killing the final *Protoling*. 
 
 [Greer] will continue to use his mechanics during this phase. 
-Unless the squad has played perfectly there will be <img class='inline empowered'> [Empowered] on [Greer]. The extra damage he gains is extremely dangerous, as such, it is best to avoid as much damage as possible:
+Unless the squad has played perfectly there will be many stacks of <img class='inline empowered'> [Empowered] on [Greer]. The extra damage he gains is extremely dangerous, as such, it is best to avoid as much damage as possible:
 - Sidestep [Sweep the Mold] whenever possible.
-- Always provide <img class='inline precog'> [Well of Precognition] for [Stomp the Growth]; if it's not available call it out, and the entire squad should dodge the slams and jump the shockwave.
+- Always provide <img class='inline aegis'> [Aegis] for [Stomp the Growth]; if it's not available call it out, and the entire squad should dodge the slams and jump the shockwave.
 
 <img class=divider>
 
@@ -388,8 +390,11 @@ Unless the squad has played perfectly there will be <img class='inline empowered
 [Firebrand]: #builds-and-povs
 [Chronomancer]: #builds-and-povs
 [Chronomancers]: #builds-and-povs
+[Troubadour]: #builds-and-povs
+[Troubadours]: #builds-and-povs
 [Herald]: #builds-and-povs
 [Scourge]: #builds-and-povs
+[Specter]: #builds-and-povs
 
 [Aegis]: https://wiki.guildwars2.com/wiki/Aegis
 [Well of Precognition]: https://wiki.guildwars2.com/wiki/Well_of_Precognition
@@ -412,5 +417,8 @@ Unless the squad has played perfectly there will be <img class='inline empowered
 [Knockback]: https://wiki.guildwars2.com/wiki/Knockback
 [Protection]: https://wiki.guildwars2.com/wiki/Protection
 [Legendary Centaur Stance]: https://wiki.guildwars2.com/wiki/Legendary_Centaur_Stance
+[Tale of the August Queen]: https://wiki.guildwars2.com/wiki/Tale_of_the_August_Queen
+[Distracting Throw]: https://wiki.guildwars2.com/wiki/Distracting_Throw
+[Mesmers]: https://wiki.guildwars2.com/wiki/Mesmer
 
 [Condition Virtuoso]: https://snowcrows.com/builds/raids/mesmer/condition-virtuoso
