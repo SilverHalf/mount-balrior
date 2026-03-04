@@ -30,11 +30,11 @@ This is an in-depth guide: if you are looking for something fast to read and les
 
 #### Main Points
 {: .no_toc}
-- The squad divides into a _ranged group_ and a _melee group_. Each of these groups rotates a single  to take care of different mechanics.
-- The arena will progressively fill with enemy structures that must be removed.
+- The squad divides into a _ranged group_ and a _melee group_. Each of these groups rotates a single [Bloodstone Shard] to manage different mechanics.
+- The arena will progressively fill with enemy structures that must be cleared.
 - Ura's defiance must be regularly broken to reset <img class='inline risingpressure'> [Rising Pressure].
-- [Ura] is tanked from the third phase onwards to prevent her from casting [Propel].
-- The boss <img class='inline defiance'> [Defiance Bar] must only be broken at specific intervals from the third phase onwards, to prevent her from casting [Propel].
+- [Ura] is tanked from the third phase onwards to control her position.
+- The boss's <img class='inline defiance'> [Defiance Bar] must be broken only at specific intervals from the third phase onwards.
 
 <img class=divider>
 
@@ -42,7 +42,7 @@ This is an in-depth guide: if you are looking for something fast to read and les
 
 ### Bloodstone Juggling and Groups
 
-One of the defining characteristics of the encounter is [Bloodstone Shards] and their associated mechanics. Shards must be used at regular intervals to manage [Pressure Blast], [Toxic Geysers] and [Titanspawn Geysers], which otherwise have little counterplay. However, players who use a shard cannot pick one up for 45 seconds: this means that in order to cover all mechanics, it is necessary to rotate the shards throughout the entire squad. Getting the hang of this "juggling" and performing it smoothly is the key to clearing the encounter, and is also the main reason why voice communications are so highly recommended.
+One of the defining characteristics of the encounter is [Bloodstone Shards] and their associated mechanics. Shards must be used at regular intervals to manage [Pressure Blast], [Toxic Geysers] and [Titanspawn Geysers], which otherwise have little to no counterplay. However, players who use a shard cannot pick one up for 45 seconds due to [Bloodstone Saturation]: thus in order to cover all mechanics, it is necessary to rotate the shards throughout the entire squad. Getting the hang of this "juggling" and performing it smoothly is the key to clearing the encounter, and is also the main reason why voice communications are so highly recommended.
 
 To smooth out this process, most strategies divide the squad into two groups:
 - A _ranged group_ containing the three healers shares one shard <font size=2>(<em>ranged shard</em>)</font>, using it to <img class='inline dispel'> [Dispel] all [Toxic Geysers] throughout the fight.
@@ -109,13 +109,13 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJr
 
 ## Composition
 
-Godscream Ura is generally played with three healers, who must bring high amounts of crowd control to deal with [Toxic Geysers] and <img class='inline titanicresistance'> [Titanic Resistance]. Furthermore, they benefit from high survivability and mobility to facilitate mechanics, and should provide <img class='inline stability'> [Stability] for their subgroups. For these reasons, the most commonly played specialization in this role is <img class='inline chrono'> [Chronomancer], followed by <img class='inline druid'> [Druid], <img class='inline scourge'> [Scourge] <font size=2>(often with a Celestial build)</font>, and <img class='inline specter'> [Specter].
+Godscream Ura is generally played with three healers, who must bring high amounts of crowd control to deal with [Toxic Geysers] and <img class='inline titanicresistance'> [Titanic Resistance]. Furthermore, they benefit from high survivability and mobility to facilitate mechanics, and should provide <img class='inline stability'> [Stability] for their subgroups. For these reasons, the most commonly played specialization in this role is <img class='inline chrono'> [Chronomancer], followed by <img class='inline troubadour'> [Troubadour], <img class='inline specter'> [Specter] and <img class='inline scourge'> [Scourge] <font size=2>(often with a Celestial build)</font>.
 
 BoonDPS can bring additional utility to the fight, such as extra CC and <img class='inline stability'> [Stability], but this is not usually a limiting factor. Damage players can bring both <img class='inline power'> [Power] and <img class='inline condition'> [Condition] builds, though it is beneficial to bring a couple of <img class='inline power'> [Power] builds to handle [Titanspawn Geysers], since they have lower overall <img class='inline toughness'> [Toughness]. 
 <br>
 The fight also benefits builds with high cleave damage for both [Titanspawners] and [Champion Fumarollers], and extra mobility for easily placing [Sulfuric Geysers].
 
-Usually, one or two of the DPS players will have the additional responsibility of being a *tank* through the third and fourth phase of the fight. These should play a high damage build, since they will not participate in some mechanics and thus will have the greatest damage uptime on the boss. 
+Usually, one of the DPS players will have the additional responsibility of being a *tank* through the third and fourth phase of the fight. They should play a high damage build, since they will not participate in some mechanics and thus will have the greatest damage uptime on the boss. 
 <br>
 See [tanking Ura](#tanking-ura) for more information.
 
@@ -134,7 +134,8 @@ This is a non-exhaustive list of playable builds on the encounter. If anything i
 |Build|Role|PoV|Last updated|
 |[<img class='inline chrono'> Heal Chronomancer](https://gw2skills.net/editor/?PigEQiWmB7iZxQYj4RPp26A-DSRYjR1VPSIFlRLpQ6VluvGCSo83S7bWQFA-e)| Ranged & Heal | [Single Drop](https://www.youtube.com/watch?v=nYkv1xAUIm4), [Double Drop](https://www.youtube.com/watch?v=I1kynl_bHQg) | November 2025 |
 |[<img class='inline druid'> Heal Druid](https://gw2skills.net/editor/?POwEYKNssBmC7gxwKxxXSvpVi37B-DSRYjRwHCSUjuLjqrq0TBfvOEkQ5vl23sgKA-e) | Ranged & Heal| [Single Drop](https://www.youtube.com/watch?v=-lhRcEVLmk0) | April 2025 |
-|[<img class='inline specter'> Heal Specter](https://gw2skills.net/editor/?PajAsqlhy2YrsU2JeqWnxeA-DSRYjhCCGJaI/eKjWSg0LAdvOEkQZD8WafzCqA-e) | Ranged & Heal| [Double Drop](https://www.youtube.com/watch?v=QgewNDf7_Nk) | November 2025 |
+|[<img class='inline specter'> Heal Specter](https://gw2skills.net/editor/?PajAsqlhy2YrsU2JeqWnxeA-DSRYjhCCGJaI/eKjWSg0LAdvOEkQZD8WafzCqA-e) | Ranged & Heal | [Double Drop](https://www.youtube.com/watch?v=QgewNDf7_Nk) | November 2025 |
+|[<img class='inline troubadour'> Heal Troubadour](https://gw2skills.net/editor/?PigEQiWmBziJzQYj4RPpO1B-DSRYjR1DJ4CplUo6KI9gS3XDBJU+bp9NLoC-e)| Ranged & Heal |  | March 2026 |
 |[<img class='inline firebrand'> Condi Quick Firebrand](https://gw2skills.net/editor/?PWyAo+rlRExe6ZQBtukGZkW0WbPTA-DSJYyRL/hkjkKBFQHCBF+r4IBxW41AiPNQFA-e) | Melee & Boon| [PoV](https://www.youtube.com/watch?v=FZLDQPUmlOA) | September 2025 |
 |[<img class='inline scrapper'> Power Scrapper](https://gw2skills.net/editor/?PeQAIlJw0YcsNWKO2LvteA-DSRYBRBH2cQnnRtSgKUAy8bRQCjNwrhCnRgKA-e) | Melee & DPS + Titanspawners | [PoV](https://www.youtube.com/watch?v=LCvrQLyt_UE) | July 2025 |
 |[<img class='inline mechanist'> Condi Mechanist](https://snowcrows.com/builds/raids/engineer/condition-mechanist) | Melee & DPS | [PoV](https://www.youtube.com/watch?v=MfRHz9wzbQU)| April 2025 |
@@ -164,9 +165,16 @@ If there is a rotation, players should call out the next person after using thei
 
 #### Baiting [Propel]
 
-Throughout this phase, [Ura] will usually use [Propel] after every [Pressure Blast] <font size=2>(this can change)</font>. Players in the *ranged group* should be aware of this and try to bait the jump away from geysers into potentially advantageous positions. An example movement pattern is shown in the image below:
+Throughout this phase, [Ura] will usually use [Propel] after every [Pressure Blast] <font size=2>(this can change)</font>. Players in the *ranged group* should be aware of this and try to bait the jump away from geysers into potentially advantageous positions. The standard movement pattern is shown in the image below:
 
 <img class="center" width="70%" src="../images/ura/ura_propel_p1.webp" />
+
+This corresponds roughly with the following timings:
+1. Initial jump towards *#4*: bait it by standing slightly to the right of *#8* after the first [Bubbles].
+2. Jump towards *#2*, should happen when the same geyser is being CCd. Otherwise, whoever <img class='inline dispel'> [Dispelled] the geyser baits the jump.
+3. Jump back from *#2*, which should naturally place the boss between 4 and 5.
+4. Jump towards *#6* should happen when the same geyser is being CCd. Otherwise, whoever <img class='inline dispel'> [Dispelled] the geyser baits the jump.
+5. Jump back should be baited towards *#3*, otherwise you risk the boss landing on top of *#7* or *#8*, which can delay your phasing and possibly lead to issues.
 
 ---
 
@@ -253,7 +261,7 @@ Players will gain <img class='inline superspeed'> [Superspeed] whenever they are
 {: .note}
 If you have movement skills, always use them to get away from the boss and don't save them to get back quickly; getting further away and placing the geysers in safe spots is more important.
 
-<img class='inline chrono'> [Chronomancers] should try to provide returning players with a <img class='inline rifle-portal'> [Dimensional Aperture] <font size=2>(Rifle 5)</font> to quickly bring them back to the stack.
+<img class='inline chrono'> [Chronomancer] and <img class='inline troubadour'> [Troubadour] players running rifle should try to provide returning players with a <img class='inline rifle-portal'> [Dimensional Aperture] <font size=2>(Rifle 5)</font> to quickly bring them back to the stack.
 
 ---
 
@@ -261,10 +269,10 @@ If you have movement skills, always use them to get away from the boss and don't
 
 [Steam Prison] should be placed far enough from the boss so that players can navigate around her without danger of going inside the arena.
 
-{: .note}
-Pay attention to not overlap it with any other mechanics, such as [Toxic Geysers].
+{: .warning}
+Pay attention to not overlap the arena with any other structures, such as [Toxic Geysers]! This becomes extremely importand in  <a class=uralm href='../ura-lcm/overview.html'>Legendary Mode</a>, as the arena will reflect CC skills such as <img class='inline distracting-throw'> [Distracting Throw].
 
-For the most part, players can turn 180° degrees and run away from the boss immediately. Before the arena becomes active, the position of it is already fixed. You can use this brief period to use a movement skill or <img class='inline superspeed'> [Superspeed] in order to get out of its area before becoming trapped. This removes the need for <img class='inline stability'> [Stability], but requires precise timing. Try to practice this, as being stuck inside the arena in phase 3 and onwards can quickly become fatal.
+For the most part, players can turn 180° degrees and run away from the boss immediately. A few seconds before the arena becomes active, its position becomes fixed. Within this brief period you can use a movement skill or <img class='inline superspeed'> [Superspeed] to get out of its area before becoming trapped. This removes the need for <img class='inline stability'> [Stability], but requires precise timing. Try to practice this, as being stuck inside the arena in phase 3 and onwards can quickly become fatal.
 
 ---
 
@@ -323,14 +331,17 @@ To avoid these two situations, the appropriate countermeasures are: [tanking Ura
 
 #### Tanking Ura
 
-A *"tank"* is necessary to always provide a target for [Ura]'s high priority skills so that she does not skip them to cast [Propel]. The designated *tank* should stand, in front of the boss, within a 400 range, in a 140° cone. A *backup tank* should also be designated, in case the *tank* has a mechanic there is always someone capturing [Ura]'s aggro.
+A *"tank"* is necessary to always provide a target for [Ura]'s high priority skills so that she does not skip them to cast [Propel]. The designated *tank* should stand at all times in front of the boss, within a 400 range, in a 140° cone.
 
 <img class='center' src='../images/ura/ura-cone.webp' width='70%'>
 
-Whenever [Ura] chooses a random target for [Steam Prison] and [Sulfuric Geyser], she will rotate to track this target: the *tank* should always be ready to reposition accordingly. This can also be used to face the boss in certain directions. For example, facing her North-West places the stack the shortest possible distance from safe [Sulfuric Geyser] drop zones.
+The tank should not move from this position except if they are targeted by mechanics such as [Sulfuric Geysers], [Steam Prison], and [Bubbles]. In this case, they should call for a backup, which is usually provided by a member of the *ranged group*. They should always prioritize these mechanics over tanking.
 
 {: .note}
-The tank should always prioritize any mechanics they are randomly selected for, such as [Pressure Blast], [Steam Prison] and [Sulfuric Geyser]. In these situations, they should call for a backup.
+In any situation where the tank is targeted by [Bubbles] and the other targeted player is not on the boss (such as if they are dealing with a [Titanspawner]), the tank should always move to the other player and call for a backup.
+
+Whenever [Ura] chooses a random target for [Steam Prison] and [Sulfuric Geyser], she will rotate to track this target: the *tank* should always be ready to reposition accordingly. This can also be used to face the boss in certain directions. For example, facing her North-West places the stack the shortest possible distance from safe [Sulfuric Geyser] drop zones.
+
 
 ---
 
@@ -444,12 +455,14 @@ The [Toxic Geyser] pattern simply continues from the previous phase without inte
 [Return]: mechanics.html#return
 
 [Ura]: https://wiki.guildwars2.com/wiki/Ura
-[Chrono]: https://wiki.guildwars2.com/wiki/Chronomancer
-[Chronomancer]: https://wiki.guildwars2.com/wiki/Chronomancer
-[Chronomancers]: https://wiki.guildwars2.com/wiki/Chronomancer
-[Druid]: https://wiki.guildwars2.com/wiki/Druid
-[Specter]: https://wiki.guildwars2.com/wiki/Specter
-[Scourge]: https://wiki.guildwars2.com/wiki/Scourge
+[Chrono]: #builds-and-povs
+[Chronomancer]: #builds-and-povs
+[Chronomancers]: #builds-and-povs
+[Druid]: #builds-and-povs
+[Specter]: #builds-and-povs
+[Scourge]: #builds-and-povs
+[Troubadour]: #builds-and-povs
+
 [Power]: https://wiki.guildwars2.com/wiki/Power
 [Condition]: https://wiki.guildwars2.com/wiki/Condition_damage
 [Conditions]: https://wiki.guildwars2.com/wiki/Condition_damage
@@ -457,6 +470,7 @@ The [Toxic Geyser] pattern simply continues from the previous phase without inte
 [Aegis]: https://wiki.guildwars2.com/wiki/Aegis
 [Stability]: https://wiki.guildwars2.com/wiki/Stability
 [Dimensional Aperture]: https://wiki.guildwars2.com/wiki/Dimensional_Aperture
+[Distracting Throw]: https://wiki.guildwars2.com/wiki/Distracting_Throw
 [Superspeed]: https://wiki.guildwars2.com/wiki/Superspeed
 [Invulnerable]: https://wiki.guildwars2.com/wiki/Invulnerability
 [Knockback]: https://wiki.guildwars2.com/wiki/Knockback
