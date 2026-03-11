@@ -215,7 +215,7 @@ Here you will find additional tips on how to tweak certain common builds to your
 By default takes <img class='inline precog'> [Well of Precognition] but if you are paired with a Quick <img class='inline firebrand'> [Firebrand] who is comfortable with providing <img class='inline stability'> [Stability], then you could also drop the well, replacing it with:
 - <img class='inline blink'> [Blink] for early prog, to cover up mistakes and manage mechanics. It is also useful to bait Ura into casting [Propel] in a specific direction.
 - <img class='inline feedback'> [Feedback] allows you to backup projectile blocks in p4, and if taken along with the <img class='inline medic-feedback'> [Medic Feedback] trait also gives you extra ress ability.
-- An additional CC skill (such as <img class='inline technobabble'> [Technobabble], <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility]) can be useful to quickly solo CC [Toxic Geysers] from range (otherwise you can solo CC with <img class='inline moa'> [Signet of Humility] and <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity]; or with <img class='inline moa'> [Signet of Humility] and <img class='inline sharpshooter'> [Phantasmal Sharpshooter] , but the latter requires very good timing). This can be useful when the <img class='inline deadeye'> [Deadeye] is inexperienced, and when they cannot otherwise CC.
+- An additional CC skill (such as <img class='inline domination'> [Signet of Domination] or <img class='inline senility'> [Well of Senility]) can be useful to quickly solo CC [Toxic Geysers] from range (otherwise you can solo CC with <img class='inline moa'> [Signet of Humility] and <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity]; or with <img class='inline moa'> [Signet of Humility] and <img class='inline sharpshooter'> [Phantasmal Sharpshooter] , but the latter requires very good timing). This can be useful when the <img class='inline deadeye'> [Deadeye] is inexperienced, and when they cannot otherwise CC.
 </div>
 </details>
 
@@ -356,7 +356,7 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
 
 ### Composition
 
-This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] is almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
+This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] or <img class='inline troubadour'> [Troubadour] are almost always present due to their incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
 
 <table class="fl-table padded">
     <thead>
@@ -444,9 +444,9 @@ This composition is much more rigid compared to the [standard strategy](#standar
 
 All four supports are part of the ranged group. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
 
-DPS players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. <img class='inline chrono'> [Chronomancers] should ensure they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics. Generally a [tank](../ura/strategy.html#tanking-ura) is not strictly necessary as the entire group will stay within line-of-sight at all times.
+<img class='inline willbender'> [Willbender] players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. They should all bring <img class='inline stand-ground'> [Stand Your Ground!] and use it off-cooldown. Healers must ensure that they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics. Generally a [tank](../ura/strategy.html#tanking-ura) is not strictly necessary as the entire group will stay within line-of-sight at all times.
 
-All DPS should bring <img class='inline stand-ground'> [Stand Your Ground!] and use it off-cooldown.
+Up to one DPS per subgroup can bring a different build that is not <img class='inline willbender'> [Willbender]; any more and <img class='inline stability'> [Stability] uptime will start to become an issue. These players will often bring whatever flavour of greedy DPS has the highest benchmark at the time.
 
 ---
 
@@ -454,6 +454,7 @@ All DPS should bring <img class='inline stand-ground'> [Stand Your Ground!] and 
 
 |Build|Role|PoV|Last updated|
 |<img class='inline chrono'> [Heal Chronomancer](https://en.gw2skills.net/editor/?PigEQiWmBzidxQYj4RPp2+A-DSRYjR1DJ4CplUIoIo6CQ3XDBI09wbp9NLoC-e)|Healer & Toxics|[PoV](https://www.youtube.com/watch?v=LM7uye3SYWI)|September 2025|
+|<img class='inline troubadour'> [Heal Troubadour](https://gw2skills.net/editor/?PigEQiWmBziJzuYj4RPpO1B-DSRYjR1DJ4CplUo6KI9gS3XDBJU+bp9NLoC-e)|Healer & Toxics|[PoV](hhttps://www.youtube.com/watch?v=U-_TFEcLBb4)|January 2026|
 |<img class='inline specter'> [Celestial Specter](https://en.gw2skills.net/editor/?PawEQbNqMUGLLltxOxx26O2D-DyIY1om/QaRB0lMIShgCfPEkAYP8Wo/SDqA-e)|Toxics|[PoV](https://www.youtube.com/watch?v=5LZMDgfcpg0)|September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/PT)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=VOuZDJKsRJg)|September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/ST)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
@@ -476,7 +477,7 @@ Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], respon
 
 <img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative to do so. There is generally enough time between the two geysers for it to regenerate, but player who find themselves constantly short can run two spears and take advantage of <img class='inline quickpockets'> [Quick Pockets].
 
-<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series. Geysers can be CC's using a combination of <img class='inline moa'> [Signet of Humility] followed by an additional CC skill, which is usually <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility], <img class='inline technobabble'> [Technobabble] or <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity].
+<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series. Geysers can be CC's using a combination of <img class='inline moa'> [Signet of Humility] followed by an additional CC skill, which is usually <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility] or <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity].
 
 1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] + CC skill.
 2. <img class='inline moa'> [Signet of Humility] + CC skill.
@@ -526,6 +527,7 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Willbenders]: #willbender-strategy-builds-and-povs
 [Specter]: #willbender-strategy-builds-and-povs
 [Specters]: #willbender-strategy-builds-and-povs
+[Troubadour]: #willbender-strategy-builds-and-povs
 
 [Power]: https://wiki.guildwars2.com/wiki/Power
 [Condition]: https://wiki.guildwars2.com/wiki/Condition_damage
@@ -558,7 +560,6 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Shadowstep]: https://wiki.guildwars2.com/wiki/Shadowstep
 [Distracting Throw]: https://wiki.guildwars2.com/wiki/Distracting_Throw
 [Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
-[Technobabble]: https://wiki.guildwars2.com/wiki/Technobabble
 [Signet of Domination]: https://wiki.guildwars2.com/wiki/Signet_of_Domination
 [Well of Senility]: https://wiki.guildwars2.com/wiki/Well_of_Senility
 [Signet of Humility]: https://wiki.guildwars2.com/wiki/Signet_of_Humility
