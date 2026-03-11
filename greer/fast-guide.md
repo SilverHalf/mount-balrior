@@ -61,8 +61,9 @@ Your responsibilities (excluding basic healing and support as required by your r
 
 #### General Information for all Phases
 - Save your <img class='inline stab-mantra'> [Mantra of Concentration] for the [Swipes]. You can often block both swipes with a single cast if well timed. Call out if you don't have it for mechanics.
-- Save your <img class='inline precog'> [Well of Precognition] for the [Slams]. This becomes increasingly important as the fight progresses. Call out if you don't have it for a slam.
+- Save your <img class='inline singularity'> [Singularity Shot] for the [Slams].
 - Save your <img class='inline distortion'> [Distortion] for [Blighted Orbs]. Sort out with your fellow <img class='inline chrono'> [Chronomancer] who does the first set of orbs and who the second, and call out whenever you are deleting.
+- <img class='inline precog'> [Well of Precognition] has a long cooldown, so save it for when you need emergency <img class='inline stability'> [Stability], or the boss is performing [Slams] with many stacks of <img class='inline empowered'> [Empowered].
 - When your bubble player calls for backup (usually by saying "Bubble Down"), you should pick a side of the boss (usually by calling "Double"/"Single") and use your <img class='inline feedback'> [Feedback] to block [Empowering Orbs] from your direction when you see them.
 - If possible, save your <img class='inline cs'> [Continuum Split] for the CC phases.
 - Make sure you are dodging or jumping the shockwave component of Greer's [Slams].
@@ -447,3 +448,4 @@ Your responsibilities consist in:
 [Continuum Split]: https://wiki.guildwars2.com/wiki/Continuum_Split
 [Medic's Feedback]: https://wiki.guildwars2.com/wiki/Medic%27s_Feedback
 [Corrosive Poison Cloud]: https://wiki.guildwars2.com/wiki/Corrosive_Poison_Cloud
+[Singularity Shot]: https://wiki.guildwars2.com/wiki/Singularity_Shot

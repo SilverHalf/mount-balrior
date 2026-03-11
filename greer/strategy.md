@@ -148,10 +148,10 @@ If the [Enfeebling Miasma] is cast early and [Reeg] has not despawned yet, you c
 
 After the opening sequence, Reeg should be dead, <img class='inline three-person'> [Greens] solved, [Blobs of Blight] deleted and [Enfeebling Miasma] painting the wall. Most of these skills have a long enough cooldown that you won't have to deal with them until the next phase.
 
-Thus follows the main component of fighting [Greer]. For the healers this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and, more importantly, using <img class='inline aegis'> [Aegis] to block [Stomp the Growth].
+Thus follows the main component of fighting [Greer]. For the healers this revolves around providing <img class='inline stability'> [Stability] for the [Sweep the Mold] <font size=2>(or sidestepping if none is available)</font> and using <img class='inline singularity'> [Singularity Shot] to provide barrier for [Stomp the Growth]. Since <img class='inline precog'> [Well of Precognition] has a long cooldown, so save it for when you need emergency <img class='inline stability'> [Stability], or the boss has many stacks of <img class='inline empowered'> [Empowered].
 
 {: .note}
-It's important that the squad is stacked tightly so that everyone has access to these boons (especially for <img class='inline precog'> [Well of Precognition]). If any of the healers don't have defensive utility ready, communicate it in voice so that people can use their dodge. It's not as important in the early phases when Greer doesn't have much <img class='inline empowered'> [Empowered], but it becomes crucial later on as the slam attacks can very quickly wipe an unprepared squad.
+It's important that the squad is stacked tightly so that everyone has access to these boons (especially for <img class='inline precog'> [Well of Precognition]). If any of the healers don't have defensive utility ready, communicate it in voice so that people can use their dodge. It's not as important in the early phases when Greer doesn't deal much damage, but it becomes crucial later on as <img class='inline empowered'> [Empowered] slam attacks can very quickly wipe an unprepared squad.
 
 For the bubble player, they should always be ready to block [Empowering Blasts], calling for backup when they don't have projectile destruction ready.
 
@@ -240,7 +240,7 @@ The rest of this phase is similar to the first phase. Deal with mechanics approp
 
 - <img class='inline distortion'> [Distort] the [Blobs of Blight]
 - Provide <img class='inline stability'> [Stability] for [Sweep the Mold].
-- Provide <img class='inline aegis'> [Aegis] for [Stomp the Growth].
+- Provide <img class='inline aegis'> [Aegis] or barrier for [Stomp the Growth].
 - Continue blocking [Empowering Blasts].
 
 A <img class='inline defiance'> [Defiance Bar] appears again at 50%. Upon breaking this bar, [Elite Empowering Beasts] will spawn again, and cast [Empowering Blast] toward [Greer]; make sure to block all of these and communicate if any backup projectile block is needed.
@@ -272,7 +272,7 @@ The easiest way to deal with this version of the mechanic is to stack them; all 
 <iframe class="youtube-video-wide center" src="https://www.youtube.com/embed/-epK7O8qfl4?si=OlA4G6xiHNTBVtrT&mute=1 " frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 
-Alternatively, if you are running a <img class='inline troubadour'> [Troubadour], their subgroup can bait the greens by being the furthest players from Greer, and then negate them completely using <img class='inline august-queen'> [Tale of the August Queen].
+Alternatively, if you are running a <img class='inline troubadour'> [Troubadour], they can completely negate this mechanic using <img class='inline august-queen'> [Tale of the August Queen]: the targeted players should stack on top of the <img class='inline troubadour'> [Troubadour] far from the main group, and can ignore the greens using the <img class='inline distortion'> [Distortion] this elite skill provides.
 
 Timing wise, [Ereg] might also use his <img class='inline two-person'> [two-person-green], which can be solved on the stack. At this point, [Ereg] should be close to dying. With a <img class='inline condition'> [Condition] based composition, you can leave [Ereg] and swap to [Greer] at around 7% of his HP.
 
@@ -309,9 +309,13 @@ Once [Greer] hits 10% he becomes <img class='inline invuln'> [Invulnerable] and 
 
 #### Tanking
 
-The tank's job is to keep the boss away from the rest of the squad and facing the wall. In order to survive, they should try to evade as many attacks as possible. Stand close to Greer and sidestep [Sweep the Mold] and [Cage of Decay]. Save your dodges and blocks for [Stomp the Growth], making sure to jump (or dodge) the wave. As you are close to the boss, you will not be targeted by [Blobs of Blight] or [Eruption of Rot], but call out when the mechanics are happening for your squad. Make sure to block projectiles from [Scattering Sporeblast] and [Rain of Spores], as these can easily down you.
+The tank's job is to keep the boss away from the rest of the squad and facing the wall. In order to survive, they should try to evade as many attacks as possible:
+- Stand close to Greer and sidestep [Sweep the Mold] and [Cage of Decay].
+- Save your dodges and blocks for [Stomp the Growth], making sure to jump (or dodge) the wave.
+- As you are close to the boss, you will not be targeted by [Blobs of Blight] or [Eruption of Rot]. Call out when the mechanics are happening for your squad.
+- Make sure to block projectiles from [Scattering Sporeblast] and [Rain of Spores], as these can easily down you.
 
-If you are unlucky and a *Protoling* spawns close and aggros on you, you may need to come back to the squad earlier. In this case, try to bait out [Ripples of Rot]. This skill is very dangerous, but has a long cooldown, so having him cast it at the beginning means that you will not have to deal with it later on.
+If you are unlucky and a *Protoling* spawns close and aggros on you, you may need to come back to the squad earlier. In this case, try to bait out [Ripples of Rot]. This skill is very dangerous, but has a long cooldown, so having Greer cast it early means that you will not have to deal with it later on.
 
 ---
 
@@ -322,7 +326,7 @@ Once the spawn positions are apparent, the squad should move either toward the f
 The *Protolings* will constantly spam these attacks:
 - [Scattering Sporeblast] - dealt with by keeping projectile blocks up at all times.
 - [Sweep the Mold] - managed bia <img class='inline stability'> [Stability] and <img class="inline aegis"> [Aegis] or by sidestep the cones.
-- [Stomp the Growth] - dodge through the caster to the safe side. Casts of this will often overlap, dealing a surprising amount of damage.
+- [Stomp the Growth] - dodge through the caster to the safe side. Casts of this will often overlap, dealing a surprising amount of damage. In emergency situations, this can be mitigated using <img class='inline precog'> [Well of Precognition].
 
 It is important to remain stacked throughout the entire phase as closely as possible to benefit from this defensive support and skills: players off the stack will die very quickly, losing valuable time and risking destabilizing the squad while reviving.
 
@@ -395,6 +399,7 @@ Unless the squad has played perfectly there will be many stacks of <img class='i
 [Herald]: #builds-and-povs
 [Scourge]: #builds-and-povs
 [Specter]: #builds-and-povs
+[Condition Virtuoso]: https://snowcrows.com/builds/raids/mesmer/condition-virtuoso
 
 [Aegis]: https://wiki.guildwars2.com/wiki/Aegis
 [Well of Precognition]: https://wiki.guildwars2.com/wiki/Well_of_Precognition
@@ -420,5 +425,4 @@ Unless the squad has played perfectly there will be many stacks of <img class='i
 [Tale of the August Queen]: https://wiki.guildwars2.com/wiki/Tale_of_the_August_Queen
 [Distracting Throw]: https://wiki.guildwars2.com/wiki/Distracting_Throw
 [Mesmers]: https://wiki.guildwars2.com/wiki/Mesmer
-
-[Condition Virtuoso]: https://snowcrows.com/builds/raids/mesmer/condition-virtuoso
+[Singularity Shot]: https://wiki.guildwars2.com/wiki/Singularity_Shot
