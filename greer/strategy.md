@@ -90,7 +90,7 @@ This is a non-exhaustive list of playable builds on the encounter. If anything i
 |[<img class='inline chrono'> Chronomancer](https://gw2skills.net/editor/?PigEQiWmBzi1wAZj4RPp2aA-DSJYjR1fh0SKUdFkeQp7rhgEK/t0+mFUB-e)| Heal & Mechanics | [PoV](https://youtu.be/Y1QIgchi1SU) | September 2025 |
 |[<img class='inline troubadour'> Troubadour](https://gw2skills.net/editor/?PigEQiWmBziBzAZ04RPpO1B-DSRYjR1DJ4CplUo6KI9gS3XDBJU+bp9NLoC-e)| Heal & Mechanics | [PoV](https://www.youtube.com/watch?v=HD70poveJTk) | February 2026 |
 |[<img class='inline scourge'> Scourge](https://gw2skills.net/editor/?PSwEo8NsMDmG7jJxIxi9661D-DyIY1ol/M6SKkrCQhHDCSoMFeNg4BDUB-e) | Celestial BoonDPS, Tank | [PoV](https://youtu.be/VBgiTP4SdhI) | June 2025 |
-|[<img class='inline specter'> Specter](https://gw2skills.net/editor/?PawEsEFtMU2BjlByOxx26OWD-DSRYmhJHd4TpAhQLiguUARKBU4rhgEE7hXjMuBAVA-e) | BoonDPS, Tank | | February 2026 |
+|[<img class='inline specter'> Specter](https://gw2skills.net/editor/?PawEsEFtMU2BjlByOxx26OWD-DSRYmhJHd4TpAhQLiguUARKBU4xggEE7hXjMuBAVA-e) | BoonDPS, Tank | | February 2026 |
 |[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear) | BoonDPS, Bubble | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | April 2025 |
 |[<img class='inline firebrand'> Firebrand](https://gw2skills.net/editor/?PWwAo6/lRweYQMFGJW0WZPTA-DSJYyR7/ZkgUoDFgY/VEkgY7/a2xDGoC-e) | BoonDPS, Bubble | [PoV](https://www.youtube.com/watch?v=-CnzpVqASaM&feature=youtu.be) | September 2025 |
 |[<img class='inline willbender'> Condi Willbender](https://snowcrows.com/builds/raids/guardian/condition-willbender)| DPS | [PoV](https://www.youtube.com/watch?v=p4WIceytxVg) | June 2025 |
