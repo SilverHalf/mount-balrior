@@ -356,7 +356,7 @@ At the same time though, you want to kill [Champion Fumarollers] as fast as poss
 
 ### Composition
 
-This composition is much more rigid compared to the [standard strategy](#standard-strategy). <img class='inline chrono'> [Chronomancer] or <img class='inline troubadour'> [Troubadour] are almost always present due to their incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
+This composition is much more rigid compared to the [standard strategy](#standard-strategy).  <img class='inline troubadour'> [Troubadour] is almost always present due to its incredible boon access, <img class='inline stability'> [Stability] uptime, CC output, healing and general utility. Similarly, celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] (which would otherwise be lacking) and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
 
 <table class="fl-table padded">
     <thead>
@@ -378,7 +378,7 @@ This composition is much more rigid compared to the [standard strategy](#standar
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline chrono'> Heal Chronomancer</a></td>
+            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
             <td>Ranged</td>
             <td></td>
             <td>2</td>
@@ -413,7 +413,7 @@ This composition is much more rigid compared to the [standard strategy](#standar
         </tr>
         <tr>
             <td class='phase2'>2</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline chrono'> Heal Chronomancer</a></td>
+            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
             <td>Ranged</td>
             <td></td>
             <td>4</td>
@@ -453,13 +453,44 @@ Up to one DPS per subgroup can bring a different build that is not <img class='i
 #### Builds and PoVs
 
 |Build|Role|PoV|Last updated|
-|<img class='inline chrono'> [Heal Chronomancer](https://en.gw2skills.net/editor/?PigEQiWmBzidxQYj4RPp2+A-DSRYjR1DJ4CplUIoIo6CQ3XDBI09wbp9NLoC-e)|Healer & Toxics|[PoV](https://www.youtube.com/watch?v=LM7uye3SYWI)|September 2025|
-|<img class='inline troubadour'> [Heal Troubadour](https://gw2skills.net/editor/?PigEQiWmBziJzuYj4RPpO1B-DSRYjR1DJ4CplUo6KI9gS3XDBJU+bp9NLoC-e)|Healer & Toxics|[PoV](hhttps://www.youtube.com/watch?v=U-_TFEcLBb4)|January 2026|
-|<img class='inline specter'> [Celestial Specter](https://en.gw2skills.net/editor/?PawEQbNqMUGLLltxOxx26O2D-DyIY1om/QaRB0lMIShgCfPEkAYP8Wo/SDqA-e)|Toxics|[PoV](https://www.youtube.com/watch?v=5LZMDgfcpg0)|September 2025|
+|<img class='inline troubadour'> [Heal Troubadour](https://gw2skills.net/editor/?PigEQiW2LzidxkZj4RPlOVB-DSZYjRwKTN0GkoiIzsQaJESvqKJBc8ERQCl/WafzCqA-e) (<img class='inline call-response'> [Call and Response])|Healer & Toxics|[PoV](https://youtu.be/U-_TFEcLBb4)|April 2026|
+|<img class='inline troubadour'> [Heal Troubadour](https://gw2skills.net/editor/?PihEQiWmB7iJzsYj4RPpOzB-DSZYjBlpGaDSUdkZWGtkCpXBOeiIIBwe4t0+mFUB-e) (<img class='inline altered-chord'> [Altered Chord])|Healer & Toxics||April 2026|
+|<img class='inline chrono'> [Heal Chronomancer](https://en.gw2skills.net/editor/?PigEQiWmBzidxQYj4RPp2+A-DSRYjR1DJ4CplUIoIo6CQ3XDBI09wbp9NLoC-e) (not recommended, Troubadour is better) |Healer & Toxics|[PoV](https://www.youtube.com/watch?v=LM7uye3SYWI)|September 2025|
+|<img class='inline specter'> [Celestial Specter](https://gw2skills.net/editor/?PagEQjWGKjlly2Yn4Yb9H9B-DyIY1oivQapCiMBqMEc89QQCg9wbh+vKoC-e)|Toxics|[PoV](https://youtu.be/rUM8EZMYLrU)|April 2026|
 |<img class='inline willbender'> [DPS Willbender (PP/PT)](https://gw2skills.net/editor/?PWABoqp/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS |[PoV](https://www.youtube.com/watch?v=VOuZDJKsRJg)|September 2025|
 |<img class='inline willbender'> [DPS Willbender (PP/ST)](https://gw2skills.net/editor/?PWABoqt/lVw6YqMMWLW0WXxSA-DSRYcB1TG9cCFSlhQuJQHVgD/KCSQsHeNg4TDUB-e)| DPS ||September 2025|
 
 If anything is outdated, you can find up-to-date builds and PoVS on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
+
+#### Extra Build Information
+
+<details class='faq'>
+<summary><img class='inline troubadour'> Heal Troubadour</summary>
+<div markdown=block>
+<img class='inline altered-chord'> [Altered Chord] is the better grandmaster trait overall, but requires more precise CC gameplay than when running <img class='inline call-response'> [Call and Response]. It also lets you run <img class='inline' src='https://wiki.guildwars2.com/images/thumb/d/dd/Mayhem.png/38px-Mayhem.png'> [Mayhem](https://wiki.guildwars2.com/wiki/Mayhem) for more <img class=inline src='https://wiki.guildwars2.com/images/thumb/d/dc/Flustering_Flute.png/50px-Flustering_Flute.png'> [Flustering Flute](https://wiki.guildwars2.com/wiki/Flustering_Flute) casts and more <img class='inline protection'> [Protection], thus freeing up your heal skill, letting you run <img class='inline heal-mantra'> [Mantra of Recovery](https://wiki.guildwars2.com/wiki/Mantra_of_Recovery) for more condition cleanse.
+
+When running <img class='inline call-response'> [Call and Response], you can CC toxics by doing the combination:
+1. <img class='inline scarlet-tale'> [Tale of the Tortured Mastermind].
+2. <img class='inline sharpshooter'> [Phantasmal Sharpshooter] or <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity].
+3. <img class='inline moa'> [Signet of Humility] or <img class='inline deafening-drum'> [Deafening Drum] with three notes to trigger <img class='inline call-response'> [Call and Response].
+
+When running <img class='inline altered-chord'> [Altered Chord], you can either:
+- Use <img class='inline deafening-drum'> [Deafening Drum] in medium range to trigger the 2-second <img class='inline daze'> [Daze], and wait for 1-2 autos before casting it for the optimal timing (overlapping with the final pulse of <img class='inline scarlet-tale'> [Tale of the Tortured Mastermind]).
+- Use <img class=inline src='https://wiki.guildwars2.com/images/thumb/d/dc/Flustering_Flute.png/50px-Flustering_Flute.png'> [Flustering Flute](https://wiki.guildwars2.com/wiki/Flustering_Flute) before <img class='inline deafening-drum'> [Deafening Drum] (at the cost of <img class='inline protection'> [Protection] uptime).
+- Use an additional weapon skill after the normal sequence.
+</div>
+</details>
+
+<details class='faq'>
+<summary><img class='inline specter'> Celestial Specter</summary>
+<div markdown=block>
+CC with <img class='inline distracting-throw'> [Distracting Throw], making sure to have enough initiative to do so. There is generally enough time between the two geysers for it to regenerate, but player who find themselves constantly short can run two spears and take advantage of <img class='inline quickpockets'> [Quick Pockets].
+
+Crowd control from <img class='inline distracting-throw'> [Distracting Throw] requires that the target be movement-impaired. This can be done by casting <img class='inline siphon'> [Siphon](https://wiki.guildwars2.com/wiki/Siphon) or <img class='inline gloom-well'> [Well of Gloom](https://wiki.guildwars2.com/wiki/Well_of_Gloom) on the target.
+
+You can also take <img class='inline silence-well'> [Well of Silence](https://wiki.guildwars2.com/wiki/Well_of_Silence) instead of <img class='inline bounty-well'> [Well of Bounty](https://wiki.guildwars2.com/wiki/Well_of_Bounty) for more CC and cleanse. This also lets you use <img class=inline src='https://wiki.guildwars2.com/images/thumb/3/35/Superior_Rune_of_the_Trapper.png/60px-Superior_Rune_of_the_Trapper.png'> [Rune of the Trapper](https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Trapper) instead of <img class=inline src='https://wiki.guildwars2.com/images/thumb/2/24/Superior_Rune_of_the_Mesmer.png/60px-Superior_Rune_of_the_Mesmer.png'> [Rune of the Mesmer](https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Mesmer) while keeping enough CC to comfortably do mechanics.
+</div>
+</details>
 
 ---
 
@@ -474,13 +505,6 @@ For the _ranged rotation_ the strategy uses a 4-man rotation involving all the s
 Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], responsibility for CCing [Toxic Geysers] is spread out between all of the ranged group members. Every one of these supports will CC two geysers every rotation:
 - The geyser they pick up the [Bloodstone Shard] from.
 - The first geyser they <img class='inline dispel'> [Dispel] when double dropping.
-
-<img class='inline specter'> [Specters] can CC with <img class='inline distracting-throw'> [Distracting Throw], and should make sure to have enough initiative to do so. There is generally enough time between the two geysers for it to regenerate, but player who find themselves constantly short can run two spears and take advantage of <img class='inline quickpockets'> [Quick Pockets].
-
-<img class='inline chrono'> [Chronomancers] will need to save their <img class='inline cs'> [Continuum Split] to ensure that they can get both geysers in series. Geysers can be CC's using a combination of <img class='inline moa'> [Signet of Humility] followed by an additional CC skill, which is usually <img class='inline domination'> [Signet of Domination], <img class='inline senility'> [Well of Senility] or <img class='inline collapse'> [Mental Collapse] with <img class='inline clarity'> [Clarity].
-
-1. <img class='inline cs'> [Continuum Split], then <img class='inline moa'> [Signet of Humility] + CC skill.
-2. <img class='inline moa'> [Signet of Humility] + CC skill.
 
 If players cannot CC, they should call for backups. Since all four ranged players are double dropping, there is more flexibility overall compared to a standard strategy.
 
@@ -598,5 +622,11 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Relic of the Midnight King]: https://wiki.guildwars2.com/wiki/Relic_of_the_Midnight_King
 [Relic of Speed]: https://wiki.guildwars2.com/wiki/Relic_of_Speed
 [Quick Pockets]: https://wiki.guildwars2.com/wiki/Quick_Pockets
+[Altered Chord]: wiki.guildwars2.com/wiki/Altered_Chord
+[Call and Response]: https://wiki.guildwars2.com/wiki/Call_and_Response
+[Protection]: https://wiki.guildwars2.com/wiki/Protection
+[Tale of the Tortured Mastermind]: https://wiki.guildwars2.com/wiki/Tale_of_the_Tortured_Mastermind
+[Deafening Drum]: https://wiki.guildwars2.com/wiki/Deafening_Drum
+[Daze]: https://wiki.guildwars2.com/wiki/Daze
 
 [CC Deadeye]: https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e
