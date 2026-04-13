@@ -442,7 +442,7 @@ This composition is much more rigid compared to the [standard strategy](#standar
     </tbody>
 </table>
 
-All four supports are part of the ranged group. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline chrono'> [Chronomancers] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
+All four supports are part of the ranged group. The abundance of [Champion Fumarollers] makes it harder for them to move around and do mechanics, so the <img class='inline troubadour'> [Troubadours] will usually run <img class='inline blink'> [Blink], and the <img class='inline specter'> [Specters] <img class='inline shadowstep'> [Shadowstep].
 
 <img class='inline willbender'> [Willbender] players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k damage loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. They should all bring <img class='inline stand-ground'> [Stand Your Ground!] and use it off-cooldown. Healers must ensure that they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics. Generally a [tank](../ura/strategy.html#tanking-ura) is not strictly necessary as the entire group will stay within line-of-sight at all times.
 
@@ -502,7 +502,7 @@ For the _ranged rotation_ the strategy uses a 4-man rotation involving all the s
 
 [<img class='inline sheets'> 4-man Rotation for Willbender Strat by Asterius](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA/edit?gid=969431177#gid=969431177){: .btn}
 
-Since there is not a dedicated CC <img class='inline deadeye'> [Deadeye], responsibility for CCing [Toxic Geysers] is spread out between all of the ranged group members. Every one of these supports will CC two geysers every rotation:
+Responsibility for CCing [Toxic Geysers] is spread out between all of the ranged group members. Each support will CC two geysers every rotation:
 - The geyser they pick up the [Bloodstone Shard] from.
 - The first geyser they <img class='inline dispel'> [Dispel] when double dropping.
 
@@ -552,6 +552,7 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Specter]: #willbender-strategy-builds-and-povs
 [Specters]: #willbender-strategy-builds-and-povs
 [Troubadour]: #willbender-strategy-builds-and-povs
+[Troubadours]: #willbender-strategy-builds-and-povs
 
 [Power]: https://wiki.guildwars2.com/wiki/Power
 [Condition]: https://wiki.guildwars2.com/wiki/Condition_damage
