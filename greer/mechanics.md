@@ -51,9 +51,9 @@ A defining characteristic of this encounter is the presence of the *lesser titan
 </div>
 
 | **Enemy** | **Health** | **Hitbox** | **Boon Granted** |
-| Reeg, the Blighter | 23,594,400 | 600 | <img class='inline resolution'> [Resolution] |
-| Gree, the Bringer | 23,594,400 | 600 | <img class='inline protection'> [Protection] |
-| Ereg, the Enabler | 23,594,400 | 600 | <img class='inline might'> [Might] x 25|
+| Reeg, the Blighter | 21 million | 600 | <img class='inline resolution'> [Resolution] |
+| Gree, the Bringer | 21 million | 600 | <img class='inline protection'> [Protection] |
+| Ereg, the Enabler | 21 million | 600 | <img class='inline might'> [Might] x 25|
 
 During [burn phases](#burn-phases), lesser titans are locked into specific positions, and cannot move, limiting the skills they can use. During [split phases](#split-phases), they move to new positions and are then free to ambulate and use all their skills as their AI dictates. Each one has access to a subset of Greer's skills, as shown [here](mechanics.html#list-of-mechanics).
 
@@ -320,7 +320,7 @@ This attack enables effective use of <img class='inline thorns-relic'> [Relic of
 ### Elite Empowering Beast
 
 |**Health**|**Hitbox**|**Defiance**|
-| 236,003 | 240 | 500 |
+| 210 k | 240 | 500 |
 
 These adds are spawned in shortly after Greer's <img class='inline defiance'> [Defiance Bar] is broken.
 - Two will be spawned at 80% HP
@@ -334,7 +334,7 @@ They themselves are not especially dangerous, as they deal little damage and can
 ### Champion Proto-Greerling
 
 |**Health**|**Hitbox**|
-| 5,112,120 | 600 |
+| 4.6 million | 600 |
 
 Also called *Protolings*, these are dangerous adds that spawn when Greer reaches 10% health, at the beginning of the [Protoling phase](#proto-greerling-phase). As long as one is alive, Greer is <img class='inline invuln'> [Invulnerable]. After the last one dies, Greer will wait 30 seconds before re-summoning them.
 

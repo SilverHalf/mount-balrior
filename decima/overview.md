@@ -13,7 +13,7 @@ has_toc: false
 
 <img class=bordered src="../images/decima.webp" />
 
-| **Health** | 97,020,176 |
+| **Health** | 87.3 million |
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 750 |
 | **Defiance** | 7500 |

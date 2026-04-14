@@ -305,8 +305,8 @@ Titanspawn Geysers spawn with <img class='inline hardened'> [Hardened Shell], re
 Because Titanspawn Geysers are constructs, they have lower armor and thus <img class='inline power'> [Power] damage is more effective on them.
 
 | **Enemy**                 | **Health**   | **Hitbox** | **Defiance Bar** |
-| [Champion Fumaroller]     | 1,789,242    | 300        | 1000             |
-| [Legendary Ventshot] <font size=2>(LM)</font> | 23,594,400   | 300        | 2000             |
+| [Champion Fumaroller]     | 1.6 million    | 300        | 1000             |
+| [Legendary Ventshot] <font size=2>(LM)</font> | 21 million   | 300        | 2000             |
 
 ---
 

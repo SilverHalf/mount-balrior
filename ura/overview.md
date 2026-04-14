@@ -13,7 +13,7 @@ has_toc: false
 
 <img class=bordered src="../images/ura.webp" />
 
-| **Health** | 79,749,072 *|
+| **Health** | 71.8 million *|
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 1000 |
 | **Defiance** | 3000 ** |
@@ -29,7 +29,7 @@ Ura is the only raid boss in the Mount Balrior instance to have a [Legendary Mod
 
 ---
 
-\* Due to Ura regenerating at 1% health, her effective total health is 91,711,432.
+\* Due to Ura regenerating at 1% health, her effective total health is 82.6 million.
 
 ** While Ura's defiance technically does not change throughout the encounter, its effective value can become much greater due to <img class="inline titanicresistance"> [Titanic Resistance](mechanics.html#-titanic-resistance).
 
