@@ -13,11 +13,11 @@ has_toc: false
 
 <img class=bordered src="../images/greer.webp" />
 
-| **Health** |  47,188,800  |
+| **Health** |  42.4 million  |
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 800 |
 | **Defiance** | 6000 |
-| **Enrage Timer** | 10 minutes - kills all players on running out. |
+| **Enrage Timer** | None. |
 
 Greer, the Blightbringer, is one of the first two bosses in the Mount Balrior raid. Defeating him, along with his fellow titan [Decima](../decima/overview.html), is necessary in order to challenge the final boss of the instance, [Ura](../ura/overview.html).
 
