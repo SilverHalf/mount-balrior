@@ -13,7 +13,7 @@ has_toc: false
 
 <img class=bordered src="../images/ura.webp" />
 
-| **Health** | 95 million *|
+| **Health** | 94'962'736 *|
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 1000 |
 | **Defiance** | 3000 ** |
@@ -22,7 +22,7 @@ has_toc: false
 Legendary Ura is an extreme challenge aimed at the highest tier of players. Beating her requires perfect knowledge of the fight and of your class, good decision making and smooth execution.
 
 Activating Legendary Mode makes the following changes to the encounter:
-- Ura's maximum health increases by 30%, from 71.8 million to 95 million HP.
+- Ura's maximum health increases by 30%.
 - Entities in the fight gain <img class='inline risingpressure'> [Rising Pressure](../ura/mechanics.html#-rising-pressure) every 8 seconds instead of every 12.
 - All [Toxic Geysers]' <img class='inline defiance'> [Defiance Bars] have 1000 HP instead of 800 HP.
 - [Toxic Geysers] will spawn every 12 seconds for the entirety of the fight.
@@ -36,7 +36,7 @@ Squads attempting Ura will generally run an optimized composition, where every p
 
 ---
 
-\* Due to Ura regenerating at 1% health, her effective total health is 123.5 million HP.
+\* Due to Ura regenerating at 1% health, her effective total health is 123'451'556.
 
 ** While Ura's defiance technically does not change throughout the encounter, its effective value can become much greater due to <img class="inline titanicresistance"> [Titanic Resistance].
 

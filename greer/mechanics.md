@@ -51,9 +51,9 @@ A defining characteristic of this encounter is the presence of the *lesser titan
 </div>
 
 | **Enemy** | **Health** | **Hitbox** | **Boon Granted** |
-| Reeg, the Blighter | 21 million | 600 | <img class='inline resolution'> [Resolution] |
-| Gree, the Bringer | 21 million | 600 | <img class='inline protection'> [Protection] |
-| Ereg, the Enabler | 21 million | 600 | <img class='inline might'> [Might] x 25|
+| Reeg, the Blighter | 21'234'960 | 600 | <img class='inline resolution'> [Resolution] |
+| Gree, the Bringer | 21'234'960 | 600 | <img class='inline protection'> [Protection] |
+| Ereg, the Enabler | 21'234'960 | 600 | <img class='inline might'> [Might] x 25|
 
 During [burn phases](#burn-phases), lesser titans are locked into specific positions, and cannot move, limiting the skills they can use. During [split phases](#split-phases), they move to new positions and are then free to ambulate and use all their skills as their AI dictates. Each one has access to a subset of Greer's skills, as shown [here](mechanics.html#list-of-mechanics).
 
@@ -101,7 +101,7 @@ A brief description of the primary mechanics in the fight. Click on a mechanic t
 There are essentially 3 different types of phases:
 - Burn phases, in which [Greer] and *the lesser Titans* are vulnerable.
 - Split phases, in which [Greer] is <img class='inline invuln'> [Invulnerable] and the *lesser Titans* are vulnerable (at new, separate locations) 
-- The 10% phase, in which [Greer] is <img class='inline invuln'> [Invulnerable], but 3 Champion Proto-Greerlings are active <font size=2>(and Ereg, if kept alive)</font>.
+- The 10% phase, in which [Greer] is <img class='inline invuln'> [Invulnerable], but 3 [Champion Proto-Greerlings] are active <font size=2>(and Ereg, if kept alive)</font>.
 
 The fight overall consists of:
 1. A first burn phase from 100% to 65% health.
@@ -334,7 +334,7 @@ They themselves are not especially dangerous, as they deal little damage and can
 ### Champion Proto-Greerling
 
 |**Health**|**Hitbox**|
-| 4.6 million | 600 |
+| 4'620'570 | 600 |
 
 Also called *Protolings*, these are dangerous adds that spawn when Greer reaches 10% health, at the beginning of the [Protoling phase](#proto-greerling-phase). As long as one is alive, Greer is <img class='inline invuln'> [Invulnerable]. After the last one dies, Greer will wait 30 seconds before re-summoning them.
 

@@ -13,7 +13,7 @@ has_toc: false
 
 <img class=bordered src="../images/greer.webp" />
 
-| **Health** |  42.4 million  |
+| **Health** |  42'469'920  |
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 800 |
 | **Defiance** | 6000 |
