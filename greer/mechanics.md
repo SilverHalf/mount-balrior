@@ -240,7 +240,7 @@ The poisonous gas clouds are pools of [Noxious Blight], which corrupt boons and 
 
 Used by [Greer] <font size=2>(cooldown 120s)</font> and all three *lesser Titans* <font size=2>(cooldown 75s)</font>. 
 <br>
-Targets the furthest untargeted player from the caster with a green AoE, requiring a certain amount of players inside: <img class='inline three-person'> three if the caster is Greer, <img class='inline two-person'> two if the caster is a lesser Titan. Failing to solve any Green summons a [Noxious Blight] pool under the targeted player that knocks up, corrupts boons, and inflicts <img class="inline plague-rot"> [Plague Rot].
+Targets the furthest untargeted player from the caster with a green AoE, requiring a certain amount of players inside: <img class='inline three-person'> three if the caster is Greer, <img class='inline two-person'> two if the caster is a lesser Titan. Failing to solve any Green summons a [Noxious Blight] pool under the targeted player that knocks up, corrupts boons, inflicts <img class="inline plague-rot"> [Plague Rot], and converts conditions on Greer into <img class='inline resolution'> [Resolution].
 
 Failing a Green furthermore gives two stacks of <img class="inline empowered"> [Empowered] to the caster: for this reason it's always important to have the minimum number of players for each Green.
 
