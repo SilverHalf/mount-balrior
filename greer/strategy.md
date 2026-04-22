@@ -346,7 +346,7 @@ Once the last *Protoling* is close to dying, switch to [Greer] to pre-stack <img
 
 ## Final Phase
 
-[Greer] will become vulnerable once the last *Protoling* is dead. After 30 seconds, the *Protolings* will respawn, which is usually a wipe due to the tight enrage timer. 
+[Greer] will become vulnerable once the last *Protoling* is dead. After 30 seconds, the *Protolings* will respawn, so groups will generally want to kill before. 
 <br>
 Pre-stacking <img class='inline condition'> [Conditions] towards the end of the 10% phase is important, as it effectively removes a large part of the ramp-up time from the squad's damage profile; this is much more important than quickly killing the final *Protoling*. 
 

@@ -163,7 +163,7 @@ The *Protolings* will continuously perform the basic attack chains: [Sweep the M
 
 ### Sub 10% Phase
 
-Once the last [Champion Proto-Greerling] has been defeated, [Greer] becomes vulnerable for 30 seconds. After this time passes, he will re-spawn all Protolings and become <img class='inline invuln'> [Invulnerable] once more until they are dead. This usually leads to a wipe due to the tight enrage timer.
+Once the last [Champion Proto-Greerling] has been defeated, [Greer] becomes vulnerable for 30 seconds. After this time passes, he will re-spawn all Protolings and become <img class='inline invuln'> [Invulnerable] once more until they are dead.
 
 While this phase is functionally identical to a main phase, the time limit means that it must be approached in a fundamentally different manner. You only have to deal with attacks from [Greer] <font size=2>(and Ereg if he's alive)</font>; because [Greer] often has a lot of <img class="inline empowered"> [Empowered] stacks at this point, every attack is deadly, **especially** [Stomp the Growth].
 
