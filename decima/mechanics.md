@@ -612,7 +612,7 @@ If Decima gains 10 stacks of <img class="inline charge"> [Charge] or the *enrage
 
 Dangerous minions that spawn during the split phases at 70% and 50% of Decima's HP, and at the beginning of the third phase.
 
-| **Health** | 1,533,636 	 |
+| **Health** | 1,373,882 	 |
 | **Armor** |  2597 (standard) |
 | **Hitbox** | 380 |
 | **Defiance** | 1000 |

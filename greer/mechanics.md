@@ -51,9 +51,9 @@ A defining characteristic of this encounter is the presence of the *lesser titan
 </div>
 
 | **Enemy** | **Health** | **Hitbox** | **Boon Granted** |
-| Reeg, the Blighter | 21 million | 600 | <img class='inline resolution'> [Resolution] |
-| Gree, the Bringer | 21 million | 600 | <img class='inline protection'> [Protection] |
-| Ereg, the Enabler | 21 million | 600 | <img class='inline might'> [Might] x 25|
+| Reeg, the Blighter | 21'234'960 | 600 | <img class='inline resolution'> [Resolution] |
+| Gree, the Bringer | 21'234'960 | 600 | <img class='inline protection'> [Protection] |
+| Ereg, the Enabler | 21'234'960 | 600 | <img class='inline might'> [Might] x 25|
 
 During [burn phases](#burn-phases), lesser titans are locked into specific positions, and cannot move, limiting the skills they can use. During [split phases](#split-phases), they move to new positions and are then free to ambulate and use all their skills as their AI dictates. Each one has access to a subset of Greer's skills, as shown [here](mechanics.html#list-of-mechanics).
 
@@ -101,7 +101,7 @@ A brief description of the primary mechanics in the fight. Click on a mechanic t
 There are essentially 3 different types of phases:
 - Burn phases, in which [Greer] and *the lesser Titans* are vulnerable.
 - Split phases, in which [Greer] is <img class='inline invuln'> [Invulnerable] and the *lesser Titans* are vulnerable (at new, separate locations) 
-- The 10% phase, in which [Greer] is <img class='inline invuln'> [Invulnerable], but 3 Champion Proto-Greerlings are active <font size=2>(and Ereg, if kept alive)</font>.
+- The 10% phase, in which [Greer] is <img class='inline invuln'> [Invulnerable], but 3 [Champion Proto-Greerlings] are active <font size=2>(and Ereg, if kept alive)</font>.
 
 The fight overall consists of:
 1. A first burn phase from 100% to 65% health.
@@ -163,7 +163,7 @@ The *Protolings* will continuously perform the basic attack chains: [Sweep the M
 
 ### Sub 10% Phase
 
-Once the last [Champion Proto-Greerling] has been defeated, [Greer] becomes vulnerable for 30 seconds. After this time passes, he will re-spawn all Protolings and become <img class='inline invuln'> [Invulnerable] once more until they are dead. This usually leads to a wipe due to the tight enrage timer.
+Once the last [Champion Proto-Greerling] has been defeated, [Greer] becomes vulnerable for 30 seconds. After this time passes, he will re-spawn all Protolings and become <img class='inline invuln'> [Invulnerable] once more until they are dead.
 
 While this phase is functionally identical to a main phase, the time limit means that it must be approached in a fundamentally different manner. You only have to deal with attacks from [Greer] <font size=2>(and Ereg if he's alive)</font>; because [Greer] often has a lot of <img class="inline empowered"> [Empowered] stacks at this point, every attack is deadly, **especially** [Stomp the Growth].
 
@@ -240,7 +240,7 @@ The poisonous gas clouds are pools of [Noxious Blight], which corrupt boons and 
 
 Used by [Greer] <font size=2>(cooldown 120s)</font> and all three *lesser Titans* <font size=2>(cooldown 75s)</font>. 
 <br>
-Targets the furthest untargeted player from the caster with a green AoE, requiring a certain amount of players inside: <img class='inline three-person'> three if the caster is Greer, <img class='inline two-person'> two if the caster is a lesser Titan. Failing to solve any Green summons a [Noxious Blight] pool under the targeted player that knocks up, corrupts boons, and inflicts <img class="inline plague-rot"> [Plague Rot].
+Targets the furthest untargeted player from the caster with a green AoE, requiring a certain amount of players inside: <img class='inline three-person'> three if the caster is Greer, <img class='inline two-person'> two if the caster is a lesser Titan. Failing to solve any Green summons a [Noxious Blight] pool under the targeted player that knocks up, corrupts boons, inflicts <img class="inline plague-rot"> [Plague Rot], and converts conditions on Greer into <img class='inline resolution'> [Resolution].
 
 Failing a Green furthermore gives two stacks of <img class="inline empowered"> [Empowered] to the caster: for this reason it's always important to have the minimum number of players for each Green.
 
@@ -334,7 +334,7 @@ They themselves are not especially dangerous, as they deal little damage and can
 ### Champion Proto-Greerling
 
 |**Health**|**Hitbox**|
-| 4.6 million | 600 |
+| 4'620'570 | 600 |
 
 Also called *Protolings*, these are dangerous adds that spawn when Greer reaches 10% health, at the beginning of the [Protoling phase](#proto-greerling-phase). As long as one is alive, Greer is <img class='inline invuln'> [Invulnerable]. After the last one dies, Greer will wait 30 seconds before re-summoning them.
 
