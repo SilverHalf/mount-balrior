@@ -94,6 +94,7 @@ This is a non-exhaustive list of playable builds on the encounter. If anything i
 |[<img class='inline herald'> Herald (Use Ventari instead of Mallyx)](https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear) | BoonDPS, Bubble | [PoV](https://www.youtube.com/watch?v=RYRrvI0VWiA&ab) | April 2025 |
 |[<img class='inline firebrand'> Firebrand](https://gw2skills.net/editor/?PWwAo6/lRweYQMFGJW0WZPTA-DSJYyR7/ZkgUoDFgY/VEkgY7/a2xDGoC-e) | BoonDPS, Bubble | [PoV](https://www.youtube.com/watch?v=-CnzpVqASaM&feature=youtu.be) | September 2025 |
 |[<img class='inline willbender'> Condi Willbender](https://snowcrows.com/builds/raids/guardian/condition-willbender)| DPS | [PoV](https://www.youtube.com/watch?v=p4WIceytxVg) | June 2025 |
+|[<img class='inline willbender'> Condi Willbender](https://snowcrows.com/builds/raids/guardian/condition-willbender)| DPS, Tank | [PoV](https://www.youtube.com/watch?v=MYvhncPFsc8) | April 2026 |
 
 <img class=divider>
 
