@@ -386,7 +386,7 @@ Unless the squad has played perfectly there will be many stacks of <img class='i
 [Empowered]: mechanics.html#empowered
 [Enfeebling Miasma]: mechanics.html#enfeebling-miasma
 [Stomp the Growth]: mechanics.html#stomp-the-growth
-[Rain of Spores]: mechancis.html#rain-of-spores
+[Rain of Spores]: mechanics.html#rain-of-spores
 [Eruptions of Rot]: mechanics.html#eruption-of-rot
 [Ripples of Rot]: mechanics.html#ripples-of-rot
 [Scattering Sporeblast]: mechanics.html#scattering-sporeblast
