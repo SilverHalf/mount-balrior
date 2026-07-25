@@ -229,7 +229,7 @@ Using <img class="inline dispel"> [Dispel] drops the shard where the player is s
 Geysers are enemy structures that are spawned by [Ura] periodically throughout the encounter. They give the boss some sort of advantage while progressively debilitating the squad, and thus must be dealt with rapidly and efficiently.
 
 | **Type**                  | **Health**   | **Hitbox** | **Defiance Bar** |
-| [Toxic Geyser]            | 448,200      | 416        | 800 <font size=2>(1000 in LM)</font> |
+| [Toxic Geyser]            | 448,200      | 416        | 1000 |
 | [Sulfuric Geyser]         | Untargetable | 440 - 580  | -                |
 | [Titanspawn Geyser]       | 448,200      | 210 - 416  | 2000             |
 
@@ -454,10 +454,10 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 
 ### <img class="inline risingpressure"> Rising Pressure
 
-[Ura], [Champion Fumarollers] and [Legendary Ventshots] gain one stack of <img class="inline risingpressure"> [Rising Pressure] every 12 seconds. This effect increases damage dealt and reduces incoming damage by 5% per stack <font size=2>(additively)</font>. Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
+[Ura], [Champion Fumarollers] and [Legendary Ventshots] gain one stack of <img class="inline risingpressure"> [Rising Pressure] every 10 seconds. This effect increases damage dealt and reduces incoming damage by 5% per stack <font size=2>(additively)</font>. Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
 
 {: .legendary}
-All entities gain <img class="inline risingpressure"> [Rising Pressure] every 8 seconds instead of every 12.
+All entities gain <img class="inline risingpressure"> [Rising Pressure] every 8 seconds instead of every 10.
 
 ---
 
