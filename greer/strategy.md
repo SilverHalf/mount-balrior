@@ -176,7 +176,9 @@ Everyone in the squad will go to [Reeg], located on <img class='inline circle'>,
 Depending on the situation and your DPS, [Ereg] may cast [Blobs of Blight] at the end of the previous phase. If this happens, it may be convenient to send a healer to <img class='inline heart'>, and let them <img class='inline distortion'> [Distort] the orbs (see [here](https://www.youtube.com/watch?v=dx2zLoPADFk&start=105s&end=120s)). Otherwise, Ereg will use this skill at the beginning of the split phase, in which case it's better to keep both healers on stack (see [here](https://www.youtube.com/watch?v=Y1QIgchi1SU&start=107s&end=135s)). 
 
 To bait [Gree] properly and quickly: keep some distance in order to not trigger his melee attacks, similar to baiting Greer at the start of the fight.
-[Gree] may use his [Ripples of Rot] attack, which must be avoided at all costs; if it is cast, just run away, regroup and after the attack is over go back to melee range.
+
+{: .warning}
+Do not stray too far from [Gree] when baiting, as this can trigger his [Ripples of Rot]. If he casts this skill, just run away, regroup and go back to melee range once the attack is over.
 
 <img class=center width='70%' src='../images/greer/strategy/greer_split_2.webp'>
 
@@ -192,6 +194,9 @@ There is a high chance that the player who's baiting [Gree] gets targeted by a [
 [Reeg] and [Ereg] will constantly use [Rain of Spores], blasting everyone with projectiles. This can be mitigated by having projectile blocks up, communicating accordingly to always have some ready.
 
 After [Reeg] has disappeared or is close to disappearing (usually around 56% HP), the focus shifts to [Gree] and [Ereg]. Move to Gree and position on the far side of him compared to Ereg. This will bait Ereg to stand on top of Gree, so that you can cleave them together.
+
+{: .warning}
+All minor titans can target pets and similar allied entities: make sure you control the position of any minions, keeping them as close as possible to the main group to ensure a clean stack. Try not to use any minions that cannot be controlled accurately, such as <img class='inline golem'> [Summon Flesh Golem](https://wiki.guildwars2.com/wiki/Summon_Flesh_Golem).
 
 <img class=center width='70%' src='../images/greer/strategy/greer_split_3.webp'>
 
