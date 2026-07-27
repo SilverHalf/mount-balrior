@@ -29,7 +29,7 @@ Many concepts generally carry over from the [Challenge Mode Strategy](../ura/str
 {: .no_toc}
 - Most LCM strategies ignore [Titanspawn Geysers], drastically simplifying melee group mechanics.
 - Two compositions are popular: [Solo CC] and [4-man].
-- The fight is an extremely tight DPS check, requiring every player to pull their weight.
+- The fight is a tight DPS check, requiring every player to pull their weight.
 - An inordinate amount of CC is required throughout the fight to manage [Rising Pressure] and [Toxic Geysers].
 - The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight.
 - [Tanking Ura](../ura/mechanics.html#tanking-ura), facing her in the right direction and timing CC correctly is essential to avoid her casting [Propel] and upkeep high DPS uptime.
@@ -47,9 +47,9 @@ Ura's overall mechanics and flow remain similar from CM to LCM. It is played pre
 
 #### Why not kill Titanspawners?
 
-The primary reason is to take advantage of the cap on [Legendary Ventshots]. These are extremely dangerous enemies that start spawning from [Titanspawn Geysers] instead of [Champion Fumarollers] in the final phase. However, they can only spawn if there are less than 6 entities alive, including both [Champion Fumarollers] and [Titanspawn Geysers].
+The primary reason is to take advantage of the cap on [Legendary Ventshots]. These are extremely dangerous enemies that start spawning from [Titanspawn Geysers] in the final phase, replacing the usual [Champion Fumarollers]. However, they can only spawn if there are less than 6 entities alive, including both [Champion Fumarollers] and [Titanspawn Geysers].
 
-The aim is to have as many entities as possible when going into the final phase. By not killing any Titanspawners, you can have up to five of them up simultaneously, which when combined with the [Champion Fumarollers] surviving from the previous phase, will prevent any Ventshots from spawning at the start of the phase.
+The aim of this strategy is therefore to have as many entities alive as possible when going into the final phase. By not killing any Titanspawners, you can have up to five of them simultaneously, which combined with the [Champion Fumarollers] surviving from the previous phase will prevent any Ventshots from spawning.
 
 Towards the end of the fight, once all [Champion Fumarollers] are dead, you can still have one or two Ventshots spawning, but since these are few and appear late into the phase, they can simply be ignored with healing and <img class='inline stability'> [Stability]. This is much easier compared to the alternative, where you have to upkeep permanent projectile block throughout the phase.
 
@@ -78,7 +78,7 @@ Legendary Ura is played primarily with two different composition types, differin
 - [Solo CC] compress most of the encounter's CC requirements onto one specialized build.
 - [4-man] spreads out CC between the four supports.
 
-The composition choice will greatly impact the strategy for the ranged group.
+The composition choice will greatly impact the strategy for the ranged group, but the melee group plays identically with both.
 
 ---
 
@@ -86,7 +86,7 @@ The composition choice will greatly impact the strategy for the ranged group.
 
 These compositions use a single specialized role to CC all of the [Toxic Geysers] over the course of the fight. This frees up the rest of the squad to run anything in theory, as long as the basic requirements of healing, <img class='inline stability'> [Stability] and cleanse are met.
 
-The most common solo-CC class is <img class='inline deadeye'> [Deadeye], due to its extreme mobility with <img class='inline shadowstep'> [Shadowstep] and <img class='inline deadeye-mark'> [Deadeye's Mark](https://wiki.guildwars2.com/wiki/Deadeye%27s_Mark), and its ability to constantly inflict <img class='inline daze'> [Daze] with <img class='inline distracting-throw'> [Distracting Throw] and regenerate initiative with <img class='inline m7'> [Maleficent Seven](https://wiki.guildwars2.com/wiki/Maleficent_Seven), <img class='inline' src='https://wiki.guildwars2.com/images/thumb/8/80/Malicious_Ashen_Assault.png/50px-Malicious_Ashen_Assault.png'> [Malicious Ashen Assault](https://wiki.guildwars2.com/wiki/Malicious_Ashen_Assault)  and <img class='inline' src='https://wiki.guildwars2.com/images/thumb/4/4d/Mercy.png/50px-Mercy.png'> [Mercy](https://wiki.guildwars2.com/wiki/Mercy). Other viable classes include <img class='inline' src='https://wiki.guildwars2.com/images/d/d1/Antiquary_icon_small.png'> [Antiquary](https://wiki.guildwars2.com/wiki/Antiquary), <img class='inline specter'> [Specter] and <img class='inline bladesworn'> [Bladesworn](https://wiki.guildwars2.com/wiki/Bladesworn): the only strict requirement is being able to burst out over 1000 CC every 12 seconds.
+The most common solo-CC class is <img class='inline deadeye'> [Deadeye], due to its extreme mobility with <img class='inline shadowstep'> [Shadowstep] and <img class='inline deadeye-mark'> [Deadeye's Mark](https://wiki.guildwars2.com/wiki/Deadeye%27s_Mark), and its ability to constantly inflict <img class='inline daze'> [Daze] with <img class='inline distracting-throw'> [Distracting Throw] and regenerate initiative with <img class='inline m7'> [Maleficent Seven](https://wiki.guildwars2.com/wiki/Maleficent_Seven), <img class='inline' src='https://wiki.guildwars2.com/images/thumb/8/80/Malicious_Ashen_Assault.png/50px-Malicious_Ashen_Assault.png'> [Malicious Ashen Assault](https://wiki.guildwars2.com/wiki/Malicious_Ashen_Assault)  and <img class='inline' src='https://wiki.guildwars2.com/images/thumb/4/4d/Mercy.png/50px-Mercy.png'> [Mercy](https://wiki.guildwars2.com/wiki/Mercy). Other viable classes include <img class='inline' src='https://wiki.guildwars2.com/images/d/d1/Antiquary_icon_small.png'> [Antiquary](https://wiki.guildwars2.com/wiki/Antiquary), <img class='inline specter'> [Specter] (either celestial or heal) and <img class='inline bladesworn'> [Bladesworn](https://wiki.guildwars2.com/wiki/Bladesworn): the only strict requirement is being able to burst out over 1000 CC every 12 seconds.
 
 For defensive supports, <img class='inline troubadour'> [Troubadour] is the most common pick due to its great healing, <img class='inline stability'> [Stability] access and CC. Similarly for BoonDPS, <img class='inline evoker'> [Evoker](https://wiki.guildwars2.com/wiki/Evoker) (specifically played with the Toad familiar) is a common pick due to its great damage and <img class='inline stability'> [Stability] access.
 
@@ -140,7 +140,7 @@ Try to run DPS that can provide good amounts of <img class='inline stability'> [
             <td class='phase1'>1</td>
             <td>DPS</td>
             <td>Melee</td>
-            <td>C</td>
+            <td></td>
             <td></td>
         </tr>
         <tr>
@@ -154,14 +154,14 @@ Try to run DPS that can provide good amounts of <img class='inline stability'> [
             <td class='phase2'>2</td>
             <td><a href="#builds-and-povs"><img class='inline evoker'></a>Toad Evoker</td>
             <td>Melee</td>
-            <td>D</td>
+            <td>C</td>
             <td></td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
             <td>DPS</td>
             <td>Melee</td>
-            <td>E</td>
+            <td>D</td>
             <td></td>
         </tr>
         <tr>
@@ -186,12 +186,12 @@ Try to run DPS that can provide good amounts of <img class='inline stability'> [
 
 ### 4-man Compositions
 
-These compositions tend to spread out CC requirements between all four support players, who together form the ranged group. This forces a stricter composition, as each support needs to be able to CC [Toxic Geysers], leading to the ubiquitous roster of heal <img class='inline troubadour'> [Troubadours] and celestial <img class='inline specter'> [Specters].
+These compositions tend to spread out CC requirements between all four support players, who together form the ranged group. This forces a stricter composition, as each support needs to be able to CC [Toxic Geysers], leading to the ubiquitous roster of heal <img class='inline troubadour'> [Troubadours] and celestial <img class='inline specter'> [Specters]:
 
-<img class='inline troubadour'> [Troubadour] provides incredible boon access, <img class='inline stability'> [Stability] uptime, CC, healing and general utility. 
+- <img class='inline troubadour'> [Troubadour] provides incredible boon access, <img class='inline stability'> [Stability] uptime, CC, healing and general utility.
+- Celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
 
-Celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]). They have two main loadouts, with one taking <img class='inline silence-well'> [Well of Silence](https://wiki.guildwars2.com/wiki/Well_of_Silence) and <img class=inline src='https://wiki.guildwars2.com/images/thumb/3/35/Superior_Rune_of_the_Trapper.png/60px-Superior_Rune_of_the_Trapper.png'> [Rune of the Trapper](https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Trapper) for more damage, and the other running <img class='inline bounty-well'> [Well of Bounty](https://wiki.guildwars2.com/wiki/Well_of_Bounty) and <img class=inline src='https://wiki.guildwars2.com/images/thumb/2/24/Superior_Rune_of_the_Mesmer.png/60px-Superior_Rune_of_the_Mesmer.png'> [Rune of the Mesmer](https://wiki.guildwars2.com/wiki/Superior_Rune_of_the_Mesmer) for more group support.
-
+It's very rare to run supports aside from the ones listed above.
 
 Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and its increased damage when cleaving thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. <img class='inline willbender'> [Willbender] players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k DPS loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. Healers must ensure that they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics.
 
@@ -213,28 +213,28 @@ Up to one DPS per subgroup can bring a different build that is not <img class='i
     <tbody>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
+            <td><a href="#builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
             <td>Ranged</td>
             <td></td>
             <td>1</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
+            <td><a href="#builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
             <td>Ranged</td>
             <td></td>
             <td>2</td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
+            <td><a href="#builds-and-povs"><img class='inline willbender'> DPS</a></td>
             <td>Melee</td>
             <td>A</td>
             <td></td>
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
+            <td><a href="#builds-and-povs"><img class='inline willbender'> DPS</a></td>
             <td>Melee</td>
             <td>B</td>
             <td></td>
@@ -248,28 +248,28 @@ Up to one DPS per subgroup can bring a different build that is not <img class='i
         </tr>
         <tr>
             <td class='phase2'>2</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
+            <td><a href="#builds-and-povs"><img class='inline specter'> Cele Specter</a></td>
             <td>Ranged</td>
             <td></td>
             <td>3</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
+            <td><a href="#builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
             <td>Ranged</td>
             <td></td>
             <td>4</td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
+            <td><a href="builds-and-povs"><img class='inline willbender'> DPS</a></td>
             <td>Melee</td>
             <td>C</td>
             <td></td>
         </tr>
         <tr>
             <td class='phase2'>2</td>
-            <td><a href="#willbender-strategy-builds-and-povs"><img class='inline willbender'> DPS</a></td>
+            <td><a href="builds-and-povs"><img class='inline willbender'> DPS</a></td>
             <td>Melee</td>
             <td>D</td>
             <td></td>
@@ -283,6 +283,10 @@ Up to one DPS per subgroup can bring a different build that is not <img class='i
         </tr>
     </tbody>
 </table>
+
+#### Alternative 4-man
+
+An alternative composition "inverts" the support roles, running two heal <img class='inline specter'> [Specters] and two celestial <img class='inline troubadour'> [Troubadours]. The idea behind this is that the <img class='inline specter'> [Specters] can take care of most of the CC, enabling the <img class='inline troubadour'> [Troubadours] to remain on stack. The <img class='inline troubadour'> [Troubadour] in turn brings similar DPS as <img class='inline specter'> [Specter] with much better healing and group support, including great <img class='inline stability'> [Stability]. This then enables groups to run only one <img class='inline willbender'> [Willbender] per subgroup, making the composition much more flexible.
 
 ---
 
@@ -315,9 +319,30 @@ For more information on <img class='inline willbender'> [Willbender] gameplay in
 
 ## Strategy
 
+The fight plays out in a similar manner as the [regular Challenge Mode](../ura/strategy.html): the first phase is played identically, and differences start appearing in the second phase, when [Titanspawn Geysers] start spawning.
+
+### Titanspawn Phases
+
+In the second and third phase, the group will be stacking on the northern side of Ura, in front of geysers *#9* and *#12*. If any players are running <img class='inline thorns-relic'> [Relic of Thorns], stay inside Ura's hitbox to trigger the relic with Ura's [Scalding Aura](../ura/mechanics.html#scalding-aura).
+
+The only reason for DPS players to leave the stack from now on is to satisfy essential mechanics:
+- [Bubbles](../ura/mechanics.html#pressure-blast) are usually always played to the *left* or *immediately behind* the group.
+- [Sulfuric Geysers] can be placed in the safe zone *behind* the group.
+- [Steam Prison](../ura/mechanics.html#steam-prison) should be placed to the *right* of the group. Commanders may mark a location that does not interfere with the ranged players, usually between geysers *#11* and *#14*.
+
+<img class="center" width="70%" src="../images/ura/strategy/lcm_stack_positions.webp"/>
+
+In the final phase, groups will often rotate to stack to the south-west of the boss, roughly corresponding to *#11*. This is because the usual safe area behind *#9* and *#12* is often filled with geysers at this point, making it actively dangerous for the DPS players. Rotating enables players to drop behind *#13* and *#14* which should be relatively empty.
+
+During the last three phases of the fight, no [Titanspawn Geysers] will be killed. This will result in a constant stream of [Champion Fumarollers] spawning. If your toughness is set up right, these should consistently charge into the main stack and then getting cleaved down on top of the boss. Ideally you want to kill them as they come: an excessive amount can quickly overwhelm the group with CC.
+
+Players should try to avoid taking excessive damage, often coming from [Breaking Ground](../ura/mechanics.html#champion-fumaroller) (snowflake), and should be constantly providing <img class='inline stability'> [Stability] off-cooldown.
+
+---
+
 ### Shard Rotations
 
-For the _melee rotation_, since the strategy ignores [Titanspawn Geysers], the only thing the melee group needs to <img class='inline dispel'> [Dispel] is [Pressure Blast]. For this reason, there are generally only 4 to 5 people assigned to the melee rotation, which otherwise works as normal. Groups can choose to forgo a rotation if they are confident.
+The only thing the melee group needs to <img class='inline dispel'> [Dispel] is [Pressure Blast]. This means that less people need to be involved in the rotation, which usually consists of only four players. Groups can choose to forgo a rotation if they are confident.
 
 The _ranged rotation_ depends on the composition used:
 
@@ -325,17 +350,27 @@ The _ranged rotation_ depends on the composition used:
 
 #### Solo CC
 
+The strategy uses a 3 + 1 rotation involving both healers, the solo CC player, and a ranged DPS to simplify transitions and reduce overall pressure.
+
+[<img class='inline sheets'> 3.5-man Rotation for Solo-CC Strat by Elise](https://docs.google.com/spreadsheets/d/1Ktp0BY9JaYToIiVv3RluenDjy8uVAylq8nqHLEvje0o){: .btn}
+
+Responsibility for CCing [Toxic Geysers] lies fully on the solo CC. Some classes, most notably <img class='inline thief'> [Thief] specializations, will not be able to CC *#11* due to Ura's hitbox blocking <img class='inline distracting-throw'> [Distracting Throw]. This geyser will have to be CC'd by the rest of the group.
+
+For more information on how to play the solo CC role, and on solo CC <img class='inline deadeye'> [Deadeye] in particular, check out Chupathingy's [CC Deadeye Guide](https://docs.google.com/presentation/d/19xXTt8iPkvoDVG_I_TEQOd_Xyw4R6ZdB90SOWWzzh4M).
+
 ---
 
 #### 4-man
 
 The strategy uses a 4-man rotation involving all the support players double-dropping.
 
-[<img class='inline sheets'> 4-man Rotation for Willbender Strat by Asterius](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA/edit?gid=969431177#gid=969431177){: .btn}
+[<img class='inline sheets'> 4-man Rotation for Willbender Strat by Asterius](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA){: .btn}
 
 Responsibility for CCing [Toxic Geysers] is spread out between all of the ranged group members. Each support will CC two geysers every rotation:
 - The geyser they pick up the [Bloodstone Shard] from.
 - The first geyser they <img class='inline dispel'> [Dispel] when double dropping.
+
+By alternating <img class='inline troubadour'> [Troubadours] and <img class='inline specter'> [Specters] in the rotation, the rotation ensures that there is always at least one healer on the main stack.
 
 <img class='inline troubadour'> [Troubadours] running <img class='inline call-response'> [Call and Response] can CC toxics by doing the combination:
 1. <img class='inline scarlet-tale'> [Tale of the Tortured Mastermind].
@@ -382,22 +417,16 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Solo CC]: #solo-cc-compositions
 [4-man]: #4-man-compositions
 
-[Chrono]: https://wiki.guildwars2.com/wiki/Chronomancer
-[Chronomancer]: https://wiki.guildwars2.com/wiki/Chronomancer
-[Chronomancers]: https://wiki.guildwars2.com/wiki/Chronomancer
-[Deadeye]: https://wiki.guildwars2.com/wiki/Deadeye
-[Firebrand]: https://wiki.guildwars2.com/wiki/Firebrand
-[Firebrands]: https://wiki.guildwars2.com/wiki/Firebrand
-[Scourge]: https://wiki.guildwars2.com/wiki/Scourge
-[Scrapper]: https://wiki.guildwars2.com/wiki/Scrapper
-[Vindicator]: https://wiki.guildwars2.com/wiki/Vindicator
+[Deadeye]: #builds-and-povs
+[Scourge]: #builds-and-povs
 [Mechanist]: https://wiki.guildwars2.com/wiki/Mechanist
-[Willbender]: #willbender-strategy-builds-and-povs
-[Willbenders]: #willbender-strategy-builds-and-povs
-[Specter]: #willbender-strategy-builds-and-povs
-[Specters]: #willbender-strategy-builds-and-povs
-[Troubadour]: #willbender-strategy-builds-and-povs
-[Troubadours]: #willbender-strategy-builds-and-povs
+[Willbender]: #builds-and-povs
+[Willbenders]: #builds-and-povs
+[Specter]: #builds-and-povs
+[Specters]: #builds-and-povs
+[Troubadour]: #builds-and-povs
+[Troubadours]: #builds-and-povs
+[Thief]: #builds-and-povs
 
 [Power]: https://wiki.guildwars2.com/wiki/Power
 [Condition]: https://wiki.guildwars2.com/wiki/Condition_damage
@@ -474,5 +503,3 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Tale of the Tortured Mastermind]: https://wiki.guildwars2.com/wiki/Tale_of_the_Tortured_Mastermind
 [Deafening Drum]: https://wiki.guildwars2.com/wiki/Deafening_Drum
 [Daze]: https://wiki.guildwars2.com/wiki/Daze
-
-[CC Deadeye]: https://gw2skills.net/editor/?PagEQjWWADkJx2Ym4xad92A-DyIY1oivMapCCLFc82gK0HUB-e
