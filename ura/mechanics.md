@@ -189,8 +189,10 @@ Bloodstone Shards are red crystalline items that appear on the floor of Ura's ar
 
 Two "shards" spawn near the center of the arena; picking up both starts the encounter.
 
-![Bloodstone Shard](https://wiki.guildwars2.com/images/thumb/0/0f/Bloodstone_Shard_%28Mount_Balrior%29.jpg/360px-Bloodstone_Shard_%28Mount_Balrior%29.jpg)
-{: .center}
+<figure>
+<img class='center bordered' width="50%" src="https://wiki.guildwars2.com/images/thumb/0/0f/Bloodstone_Shard_%28Mount_Balrior%29.jpg/360px-Bloodstone_Shard_%28Mount_Balrior%29.jpg">
+<figcaption class='center'>A Bloodstone Shard lying on the floor of the arena.</figcaption>
+</figure>
 
 #### Bloodstone Radiation
 
@@ -229,7 +231,7 @@ Using <img class="inline dispel"> [Dispel] drops the shard where the player is s
 Geysers are enemy structures that are spawned by [Ura] periodically throughout the encounter. They give the boss some sort of advantage while progressively debilitating the squad, and thus must be dealt with rapidly and efficiently.
 
 | **Type**                  | **Health**   | **Hitbox** | **Defiance Bar** |
-| [Toxic Geyser]            | 448,200      | 416        | 800 <font size=2>(1000 in LM)</font> |
+| [Toxic Geyser]            | 448,200      | 416        | 1000 |
 | [Sulfuric Geyser]         | Untargetable | 440 - 580  | -                |
 | [Titanspawn Geyser]       | 448,200      | 210 - 416  | 2000             |
 
@@ -424,7 +426,7 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 <summary>Click to expand table</summary>
 <div markdown=block>
 
-| Stacks | CC Multiplier |  Effective regen (LM) [1/s] | Effective CC bar |
+| Stacks | CC Multiplier |  Effective Regeneration (LM) [HP/s] | Effective CC bar |
 | 0  | 1    | 150  | 3000  |
 | 1  | 0,95 | 158  | 3158  |
 | 2  | 0,9  | 167  | 3333  |
@@ -454,10 +456,10 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 
 ### <img class="inline risingpressure"> Rising Pressure
 
-[Ura], [Champion Fumarollers] and [Legendary Ventshots] gain one stack of <img class="inline risingpressure"> [Rising Pressure] every 12 seconds. This effect increases damage dealt and reduces incoming damage by 5% per stack <font size=2>(additively)</font>. Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
+[Ura], [Champion Fumarollers] and [Legendary Ventshots] gain one stack of <img class="inline risingpressure"> [Rising Pressure] every 10 seconds. This effect increases damage dealt and reduces incoming damage by 5% per stack <font size=2>(additively)</font>. Breaking the enemy's <img class="inline defiance"> [Defiance Bar] removes all [Rising Pressure] stacks and grants a stack of <img class='inline titanicresistance'> [Titanic Resistance].
 
 {: .legendary}
-All entities gain <img class="inline risingpressure"> [Rising Pressure] every 8 seconds instead of every 12.
+All entities gain <img class="inline risingpressure"> [Rising Pressure] every 8 seconds instead of every 10.
 
 ---
 

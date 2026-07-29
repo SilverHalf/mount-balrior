@@ -24,6 +24,9 @@ This strategy for <u>Challenge Mode</u> focuses on smoothing out communications 
 
 This is best achieved through a proper division of roles, where different parts of the squad circulate different *shards* to take care of specific threats, while also trying to provide good damage, boon uptime, and defensive utility.
 
+This strategy is often called "spawner" strat because it focuses on killing [Titanspawn Geysers] up until the final phase. Strategies that do not kill Titanspawners, originally developed for <a class=uralm href='../ura-lcm/overview.html'>Legendary Mode</a>, are sometimes used in Challenge Mode as well, but require a stricter composition to pull off.
+
+{: .note}
 This is an in-depth guide: if you are looking for something fast to read and less comprehensive, check out the [Ura Fast Guides](./fast-guide.html).
 
 ---
@@ -31,10 +34,10 @@ This is an in-depth guide: if you are looking for something fast to read and les
 #### Main Points
 {: .no_toc}
 - The squad divides into a _ranged group_ and a _melee group_. Each of these groups rotates a single [Bloodstone Shard] to manage different mechanics.
-- The arena will progressively fill with enemy structures that must be cleared.
+- The arena will progressively fill with enemy structures that must be cleared through either damage or crowd control.
 - Ura's defiance must be regularly broken to reset <img class='inline risingpressure'> [Rising Pressure].
-- [Ura] is tanked from the third phase onwards to control her position.
-- The boss's <img class='inline defiance'> [Defiance Bar] must be broken only at specific intervals from the third phase onwards.
+- Ura is tanked from the third phase onwards.
+- Ura's <img class='inline defiance'> [Defiance Bar] must be broken only at specific intervals from the third phase onwards.
 
 <img class=divider>
 
@@ -42,11 +45,11 @@ This is an in-depth guide: if you are looking for something fast to read and les
 
 ### Bloodstone Juggling and Groups
 
-One of the defining characteristics of the encounter is [Bloodstone Shards] and their associated mechanics. Shards must be used at regular intervals to manage [Pressure Blast], [Toxic Geysers] and [Titanspawn Geysers], which otherwise have little to no counterplay. However, players who use a shard cannot pick one up for 45 seconds due to [Bloodstone Saturation]: thus in order to cover all mechanics, it is necessary to rotate the shards throughout the entire squad. Getting the hang of this "juggling" and performing it smoothly is the key to clearing the encounter, and is also the main reason why voice communications are so highly recommended.
+One of the defining characteristics of the encounter is [Bloodstone Shards] and their associated mechanics. Shards must be used at regular intervals to manage [Pressure Blast], [Toxic Geysers] and [Titanspawn Geysers], which otherwise have little to no counterplay. However, players who use a shard cannot pick up a new one for 45 seconds due to [Bloodstone Saturation]: thus in order to cover all mechanics, it is necessary to rotate the shards throughout the entire squad. Getting the hang of this "juggling" and performing it smoothly is the key to clearing the encounter, and is also the main reason why voice communications are so highly recommended.
 
 To smooth out this process, most strategies divide the squad into two groups:
-- A _ranged group_ containing the three healers shares one shard <font size=2>(<em>ranged shard</em>)</font>, using it to <img class='inline dispel'> [Dispel] all [Toxic Geysers] throughout the fight.
-- A _melee group_ containing everyone else minus the *tank*, shares the other shard <font size=2>(<em>melee shard</em>)</font>, using it to <img class='inline dispel'> [Dispel] the [Pressure Blast] (aka Friends, Bubbles) and [Titanspawn Geysers].
+- A _ranged group_ containing all three healers shares one shard <font size=2>(<em>ranged shard</em>)</font>, using it to <img class='inline dispel'> [Dispel] all [Toxic Geysers] throughout the fight.
+- A _melee group_ containing everyone else minus the *tank* shares the other shard <font size=2>(<em>melee shard</em>)</font>, using it to <img class='inline dispel'> [Dispel] the [Pressure Blast] (aka Friends, Bubbles) and [Titanspawn Geysers].
 
 Before the fight starts, it is common practice to set up the order in which players will use the shard, often called the *"rotation"*. In this way, whenever a player is about to use a *shard*, they can call out the next person in the rotation and the location where it will be dropped, so that they can be prepared to pick it up. 
 
@@ -81,11 +84,16 @@ Usually the *tank* is responsible for calling out CC. In phases 1 and 2, Ura sho
 ### Marker Packs
 {: .no_toc}
 
-Especially for the *ranged group*, it is extremely beneficial to install [HasKha's Markers](https://github.com/HasKha/gw2-markers) for [Blish HUD](https://blishhud.com/)'s [Pathing Module](https://blishhud.com/modules/?module=bh.community.pathing). This pack will show an overlay for geysers, allowing players to use numbered [Toxic Geyser] spawn positions as shown [here](/mechanics.html#toxic-geysers) for callouts. The pack can be installed directly from the Pathing Module's marker repository.
+Marker packs are overlays that highlight in-game positions in real time. For Ura CM, this mainly means the spawn locations for [Toxic Geysers] and safe [Sulfuric Geyser] drop areas, which is extremely useful, especially for the ranged group. Toxic Geyser callouts are almost universally done using a marker pack, and most commanders will ask newer ranged players to use a pack in order to speed up progression.
 
-The marked pack also shows safe [Sulfuric Geyser] drop areas, making it useful for all players in general.
+<figure>
+<img class='center bordered' width="90%" src="../images/ura/strategy/marker_view.webp">
+<figcaption class='center'>How Haskha's Markers looks in Ura's arena.</figcaption>
+</figure>
 
-Alternatively, groups can use *in-game markers*. This is a less desirable option compared to the overlay, since there are 14 spawn locations and only 8 different markers available. The following marker pack (requires [Blish HUD](https://blishhud.com/)'s [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module to be placed) makes the certain optimizations to manage this issue:
+The most commonly used marker pack for Ura is [HasKha's Markers](https://github.com/HasKha/gw2-markers), which can be viewed either with the [Pathing Module](https://blishhud.com/modules/?module=bh.community.pathing) for [Blish HUD](https://blishhud.com/) (Windows only) or with [TaimiHUD](https://taimihud.com/) for [Nexus](https://raidcore.gg/gw2/nexus) (cross-platform).
+
+Alternatively, groups can use *in-game markers*. This is a less desirable option compared to the overlay, since there are 14 spawn locations and only 8 different markers available. The following marker pack (requires [Blish HUD](https://blishhud.com/)'s [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module to be placed) makes certain optimizations to manage this issue:
 
 - Markers on [Toxic Geysers] number 5, 8, 9, and 12.
 - Markers between [Toxic Geysers] that are usually double dropped: 1 & 2, 3 & 4, 13 & 14.
@@ -109,7 +117,7 @@ eyJlbmFibGVkIjp0cnVlLCJuYW1lIjoiVXJhIENNL0xNIiwiZGVzY3JpcHRpb24iOiJUaGVzZSBtYXJr
 
 ## Composition
 
-Godscream Ura is generally played with three healers, who must bring high amounts of crowd control to deal with [Toxic Geysers] and <img class='inline titanicresistance'> [Titanic Resistance]. Furthermore, they benefit from high survivability and mobility to facilitate mechanics, and should provide <img class='inline stability'> [Stability] for their subgroups. For these reasons, the most commonly played specialization in this role is <img class='inline chrono'> [Chronomancer], followed by <img class='inline troubadour'> [Troubadour], <img class='inline specter'> [Specter] and <img class='inline scourge'> [Scourge] <font size=2>(often with a Celestial build)</font>.
+Godscream Ura is generally played with three healers, who must bring high amounts of crowd control to deal with [Toxic Geysers] and <img class='inline titanicresistance'> [Titanic Resistance]. Furthermore, they benefit from high survivability and mobility to facilitate mechanics, and should provide <img class='inline stability'> [Stability] for their subgroups. For these reasons, the most commonly played specialization in this role is <img class='inline troubadour'> [Troubadour], followed by <img class='inline chrono'> [Chronomancer], <img class='inline specter'> [Specter] and <img class='inline scourge'> [Scourge] <font size=2>(often with a Celestial build)</font>.
 
 BoonDPS can bring additional utility to the fight, such as extra CC and <img class='inline stability'> [Stability], but this is not usually a limiting factor. Damage players can bring both <img class='inline power'> [Power] and <img class='inline condition'> [Condition] builds, though it is beneficial to bring a couple of <img class='inline power'> [Power] builds to handle [Titanspawn Geysers], since they have lower overall <img class='inline toughness'> [Toughness]. 
 <br>
@@ -122,8 +130,8 @@ See [tanking Ura](#tanking-ura) for more information.
 A sample composition could be as follows:
 
 |       | Heal              | DPS/Hybrid Support | DPS       | DPS       | DPS       |
-| Sub 1 | <img class="inline chrono"> [Chrono] | DPS Support        | <img class='inline power'> [Power] | <img class='inline power'> [Power] | Any DPS  |
-| Sub 2 | <img class="inline chrono"> [Chrono] | Hybrid/Full Heal   | Any DPS   | Any DPS   | Any DPS   |
+| Sub 1 | <img class='inline troubadour'> [Troubadour] | DPS Support        | Any DPS | Any DPS | Any DPS |
+| Sub 2 | <img class='inline troubadour'> [Troubadour] | Hybrid/Full Heal   | Any DPS | Any DPS | Any DPS |
 
 ---
 
@@ -270,7 +278,7 @@ If you have movement skills, always use them to get away from the boss and don't
 [Steam Prison] should be placed far enough from the boss so that players can navigate around her without danger of going inside the arena.
 
 {: .warning}
-Pay attention to not overlap the arena with any other structures, such as [Toxic Geysers]! This becomes extremely importand in  <a class=uralm href='../ura-lcm/overview.html'>Legendary Mode</a>, as the arena will reflect CC skills such as <img class='inline distracting-throw'> [Distracting Throw].
+Pay attention to not overlap the arena with any other structures, such as [Toxic Geysers]! This becomes extremely important in  <a class=uralm href='../ura-lcm/overview.html'>Legendary Mode</a>, as the arena will reflect CC skills such as <img class='inline distracting-throw'> [Distracting Throw].
 
 For the most part, players can turn 180° degrees and run away from the boss immediately. A few seconds before the arena becomes active, its position becomes fixed. Within this brief period you can use a movement skill or <img class='inline superspeed'> [Superspeed] to get out of its area before becoming trapped. This removes the need for <img class='inline stability'> [Stability], but requires precise timing. Try to practice this, as being stuck inside the arena in phase 3 and onwards can quickly become fatal.
 
@@ -333,7 +341,7 @@ To avoid these two situations, the appropriate countermeasures are: [tanking Ura
 
 A *"tank"* is necessary to always provide a target for [Ura]'s high priority skills so that she does not skip them to cast [Propel]. The designated *tank* should stand at all times in front of the boss, within a 400 range, in a 140° cone.
 
-<img class='center' src='../images/ura/ura-cone.webp' width='70%'>
+<img class='center bordered' src='../images/ura/ura-cone.webp' width='70%'>
 
 The tank should not move from this position except if they are targeted by mechanics such as [Sulfuric Geysers], [Steam Prison], and [Bubbles]. In this case, they should call for a backup, which is usually provided by a member of the *ranged group*. They should always prioritize these mechanics over tanking.
 

@@ -24,15 +24,12 @@ Legendary Ura is an extreme challenge aimed at the highest tier of players. Beat
 Activating Legendary Mode makes the following changes to the encounter:
 - Ura's maximum health increases by 30%.
 - Entities in the fight gain <img class='inline risingpressure'> [Rising Pressure](../ura/mechanics.html#-rising-pressure) every 8 seconds instead of every 12.
-- All [Toxic Geysers]' <img class='inline defiance'> [Defiance Bars] have 1000 HP instead of 800 HP.
 - [Toxic Geysers] will spawn every 12 seconds for the entirety of the fight.
 - Both Ura and [Toxic Geysers]' <img class='inline defiance'> [Defiance Bars] will regenerate 150 HP every second.
 - At the beginning of the final phase, Ura will heal by 30% of her maximum HP instead of 15%.
 - Starting from the final phase, [Titanspawn Geysers] will begin spawning [Legendary Ventshots] exclusively.
 
 Legendary Mode is mechanically similar to Challenge Mode, requiring good healing and condition cleanse, very good <img class="inline stability"> [Stability](https://wiki.guildwars2.com/wiki/Stability) uptime (especially through the final phase), and a greater amount of crowd control than any other encounter in the game.
-
-Squads attempting Ura will generally run an optimized composition, where every player will have their role in managing one or more of the boss's mechanics.
 
 ---
 

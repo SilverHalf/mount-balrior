@@ -357,7 +357,7 @@ Your responsibilities (excluding basic healing and support as required by your r
 - After every odd set of [Arrows], you will have to provide <img class='inline stability'> [Stability] for [Seismic Crash].
 - Make sure you are always the furthest person from the boss for every even set of arrows, in order to bait the [Red Arrow].
 - When you get the [Red Arrow], use a mobility skill to move behind a [Conduit] and block the arrow. Once you are behind the conduit, do not move until the arrow fires.
-- Don't stand in [Greens] unless you're actively outhealing the damage.
+- Don't stand in [Greens] unless you're actively out-healing the damage.
 
 ---
 
