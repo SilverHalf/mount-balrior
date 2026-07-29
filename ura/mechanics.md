@@ -426,7 +426,7 @@ This mechanic essentially limits the number of times the breakbar can be broken 
 <summary>Click to expand table</summary>
 <div markdown=block>
 
-| Stacks | CC Multiplier |  Effective regen (LM) [1/s] | Effective CC bar |
+| Stacks | CC Multiplier |  Effective Regeneration (LM) [HP/s] | Effective CC bar |
 | 0  | 1    | 150  | 3000  |
 | 1  | 0,95 | 158  | 3158  |
 | 2  | 0,9  | 167  | 3333  |

@@ -346,7 +346,7 @@ Once Decima reaches 40% of her health and both [Transcendent Boulders] are dead,
 ---
 
 ### Third Phase
-This phase consists of one large burn from 40% to 10% of Decima's HP. It differs significatively from the previous phases, as Decima will often make use of her [Seismic Reposition] to move around the arena. This also introduces two new attacks: [Focused Fluxlance] and [Converging Fluxlances].
+This phase consists of one large burn from 40% to 10% of Decima's HP. It differs significantly from the previous phases, as Decima will often make use of her [Seismic Reposition] to move around the arena. This also introduces two new attacks: [Focused Fluxlance] and [Converging Fluxlances].
 
 At the beginning of the phase, Decima will summon two [Transcendent Boulders]. These are untargetable and cannot be interacted with. They do not <img class="inline linked"> [Link] with the boss, and do not cast any skills except for participating in [Converging Fluxlances]. Decima will then [Seismic Reposition] and begin the following attack loop:
 

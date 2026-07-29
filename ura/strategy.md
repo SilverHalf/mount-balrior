@@ -278,7 +278,7 @@ If you have movement skills, always use them to get away from the boss and don't
 [Steam Prison] should be placed far enough from the boss so that players can navigate around her without danger of going inside the arena.
 
 {: .warning}
-Pay attention to not overlap the arena with any other structures, such as [Toxic Geysers]! This becomes extremely importand in  <a class=uralm href='../ura-lcm/overview.html'>Legendary Mode</a>, as the arena will reflect CC skills such as <img class='inline distracting-throw'> [Distracting Throw].
+Pay attention to not overlap the arena with any other structures, such as [Toxic Geysers]! This becomes extremely important in  <a class=uralm href='../ura-lcm/overview.html'>Legendary Mode</a>, as the arena will reflect CC skills such as <img class='inline distracting-throw'> [Distracting Throw].
 
 For the most part, players can turn 180° degrees and run away from the boss immediately. A few seconds before the arena becomes active, its position becomes fixed. Within this brief period you can use a movement skill or <img class='inline superspeed'> [Superspeed] to get out of its area before becoming trapped. This removes the need for <img class='inline stability'> [Stability], but requires precise timing. Try to practice this, as being stuck inside the arena in phase 3 and onwards can quickly become fatal.
 

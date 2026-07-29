@@ -121,7 +121,7 @@ This is a non-exhaustive list of playable builds on the encounter. If anything i
 
 The fight begins by making use of Mount abilities to quickly enter the arena and reach Decima, usually either <img class='inline' src='https://wiki.guildwars2.com/images/thumb/8/85/Roll_Out.png/72px-Roll_Out.png'> [Roll Out](https://wiki.guildwars2.com/wiki/Roll_Out) or <img class='inline' src='https://wiki.guildwars2.com/images/thumb/0/09/Leap_%28Raptor%29.png/72px-Leap_%28Raptor%29.png'> [Leap](https://wiki.guildwars2.com/wiki/Leap_(Raptor)).
 
-Decima starts with the attack pattern shown [here](mechanics.html#100---80). The [Foreshock & Mainshock] abilities are simply outhealed. 
+Decima starts with the attack pattern shown [here](mechanics.html#100---80). The [Foreshock & Mainshock] abilities are simply out-healed. 
 <br>
 Once you see the start of the **Mainshock** <font size=2>("pizza" attack)</font> cast, the ranged group needs to step away from the boss to bait [Fluxlances] close to the <img class='inline circle'> marker.
 

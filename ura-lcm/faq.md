@@ -121,7 +121,7 @@ In order to prevent getting exposed, you need to cleanse <img class='inline sulf
 <summary>1.6 - Where do I drop Sulfurics?</summary>
 <div markdown='block'>
 
-Good places are the green areas highlighted by the image below, which correspond with the part of the arena where [Toxic Geysers] do not spawn. Additionally, avoid attempting to place geysers behind *#1* and *#2*, as this area is difficult to reach from the boss in time, unless you are in the ranged group and doing either of those geyers.
+Good places are the green areas highlighted by the image below, which correspond with the part of the arena where [Toxic Geysers] do not spawn. Additionally, avoid attempting to place geysers behind *#1* and *#2*, as this area is difficult to reach from the boss in time, unless you are in the ranged group and doing either of those geysers.
 
 <img class='center' src='../images/ura/ura_sulfurics.webp' width='70%'>
 
@@ -165,7 +165,7 @@ The white indicator on the floor is misleading in these situations, because it o
 
 #### I have bubble at the same time as the Titanspawner!
 
-If you are killint spawners, the [Bloodstone Shard] MUST go to the [Titanspawner]. This means that the bubbles must also go there. General rule of thumb is to always do bubbles next to the spawner when both are up.
+If you are killing spawners, the [Bloodstone Shard] MUST go to the [Titanspawner]. This means that the bubbles must also go there. General rule of thumb is to always do bubbles next to the spawner when both are up.
 
 #### I have bubble at the same time as the Titanspawner and the second bubble is tank!
 
