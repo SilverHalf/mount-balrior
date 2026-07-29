@@ -28,10 +28,10 @@ Many concepts generally carry over from the [Challenge Mode Strategy](../ura/str
 #### Main Points
 {: .no_toc}
 - Most LCM strategies ignore [Titanspawn Geysers], drastically simplifying melee group mechanics.
-- Two compositions are popular: [Solo CC] and [4-man].
 - The fight is a tight DPS check, requiring every player to pull their weight.
+- Two compositions are popular: [Solo CC] and [4-man].
 - An inordinate amount of CC is required throughout the fight to manage [Rising Pressure] and [Toxic Geysers].
-- The ranged group will have to [double drop](../ura/strategy.html/#double-sharding-toxic-geysers) for the entire fight.
+- The ranged group will have to [double drop] for the entire fight.
 - [Tanking Ura](../ura/mechanics.html#tanking-ura), facing her in the right direction and timing CC correctly is essential to avoid her casting [Propel] and upkeep high DPS uptime.
 - The final phase spawns multiple [Legendary Ventshots] that introduce extreme damage and CC pressure.
 
@@ -51,7 +51,7 @@ The primary reason is to take advantage of the cap on [Legendary Ventshots]. The
 
 The aim of this strategy is therefore to have as many entities alive as possible when going into the final phase. By not killing any Titanspawners, you can have up to five of them simultaneously, which combined with the [Champion Fumarollers] surviving from the previous phase will prevent any Ventshots from spawning.
 
-Towards the end of the fight, once all [Champion Fumarollers] are dead, you can still have one or two Ventshots spawning, but since these are few and appear late into the phase, they can simply be ignored with healing and <img class='inline stability'> [Stability]. This is much easier compared to the alternative, where you have to upkeep permanent projectile block throughout the phase.
+Towards the end of the fight, once all [Champion Fumarollers] are dead, you can still have one or two Ventshots spawn in, but since these are few and appear late into the phase, they can simply be ignored with enough healing and <img class='inline stability'> [Stability]. This is much easier compared to the alternative, where you have to upkeep permanent projectile block throughout the phase.
 
 This strategy has the added advantage of always keeping the melee group in a single stack. Management of the [Bloodstone Shard] is simplified due to not having to <img class='inline dispel'> [Dispel] Titanspawners, the group has higher DPS uptime on the boss and more DPS overall, and it is easier to provide support. Furthermore, a [tank](../ura/strategy.html#tanking-ura) is not strictly necessary as the entire group will stay within line-of-sight at all times.
 
@@ -61,9 +61,9 @@ The disadvantage of this strategy is the presence of multiple [Champion Fumaroll
 
 #### Meeting the DPS check
 
-Legendary Ura has an effective health of 123'451'556 HP and a maximum encounter duration of 11 minutes. This means that effectively, a group will need to average overall 187k average DPS to clear the encounter before enrage.
+Legendary Ura has an effective health of 123'451'556 HP and a maximum encounter duration of 11 minutes. This means that effectively, a group will need to average 187k DPS to clear the encounter before enrage.
 
-This number is greatly influenced by <img class='inline risingpressure'> [Rising Pressure]. Correct management of the damage reduction applied by this status will make or break a pull. Always keep an eye on the number of stacks on the boss: try to CC whenever she reaches 5 stacks. Ideally try to do so immediately after she gains a stack: this alone can increase your DPS by 3-4% easily, which is equivalent to 20-25 seconds on the enrage timer.
+This number is greatly influenced by <img class='inline risingpressure'> [Rising Pressure]. Correct management of the damage reduction applied by this status will make or break a pull. Always keep an eye on the number of stacks on the boss: CC whenever she reaches 5 stacks. Ideally try to do so immediately after she gains a stack: this alone can increase your DPS by 3-4% easily, which is equivalent to 20-25 seconds on the enrage timer.
 
 Players should have an up-to-date build (check the [builds section](#builds-and-povs) above and [Snowcrows](https://snowcrows.com/)), and should be competent with their class and rotation, practicing it if necessary on the [DPS golem](https://snowcrows.com/guides/arcdps/special-forces-area). Players should aim to do as much damage as possible while not failing mechanics.
 
@@ -74,11 +74,11 @@ To have an indicative understanding of how much DPS is necessary to clear the en
 
 ## Composition
 
-Legendary Ura is played primarily with two different composition types, differing based on how they manage CC:
-- [Solo CC] compress most of the encounter's CC requirements onto one specialized build.
-- [4-man] spreads out CC between the four supports.
+Legendary Ura is played primarily with two different composition types, differing based on how they manage crowd control:
+- [Solo CC] compositions compress most of the encounter's CC requirements onto one specialized build.
+- [4-man] compositions have all four supports provide CC.
 
-The composition choice will greatly impact the strategy for the ranged group, but the melee group plays identically with both.
+Composition choice greatly impacts the strategy for the ranged group. Solo CC compositions put less strain on the healers as they have fewer mechanics to deal with, but pressure is increased for the CC player, who has to keep up with the encounter's pace on his own. 4-man compositions spread out this responsibility, forcing the healers and boonDPS to take on additional mechanics. In exchange, they don't require a specialized role and often have a more flexible rotation due to all four ranged players [double-dropping].
 
 ---
 
@@ -90,9 +90,11 @@ The most common solo-CC class is <img class='inline deadeye'> [Deadeye], due to 
 
 For defensive supports, <img class='inline troubadour'> [Troubadour] is the most common pick due to its great healing, <img class='inline stability'> [Stability] access and CC. Similarly for BoonDPS, <img class='inline evoker'> [Evoker](https://wiki.guildwars2.com/wiki/Evoker) (specifically played with the Toad familiar) is a common pick due to its great damage and <img class='inline stability'> [Stability] access.
 
-Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and its increased damage when cleaving thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. Additionally:
+Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and increased damage when cleaving when cleaving multiple targets thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. Additionally:
 - One DPS will have to participate in the ranged rotation and therefore benefits from additional mobility: this is often played by a <img class='inline mechanist'> [Mechanist] or <img class='inline scourge'> [Scourge].
-- One or more DPS will play a high-toughness build, aiming to be highest in the group. This will make [Champion Fumarollers] target them and get cleaved down on top of the boss. 
+- One or more DPS will play a high-toughness build, aiming to be highest in the group. This will make [Champion Fumarollers] target them and get cleaved down on top of the boss.
+
+Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwars2.com/wiki/Trailblazer): this loses about 6% DPS compared to [Viper's](https://wiki.guildwars2.com/wiki/Viper) on the golem, but enables aggressive gameplay that makes up for it in the real fight.
 
 #### Example Composition
 {: .no_toc}
@@ -186,16 +188,17 @@ Try to run DPS that can provide good amounts of <img class='inline stability'> [
 
 ### 4-man Compositions
 
-These compositions tend to spread out CC requirements between all four support players, who together form the ranged group. This forces a stricter composition, as each support needs to be able to CC [Toxic Geysers], leading to the ubiquitous roster of heal <img class='inline troubadour'> [Troubadours] and celestial <img class='inline specter'> [Specters]:
+These compositions tend to spread out CC requirements between all four support players, who together form the ranged group. This increases overall ranged flexibility at the cost of class diversity, as each support needs to be able to [double drop] and  CC [Toxic Geysers]. For this reason, the ubiquitous roster for these compositions consists of heal <img class='inline troubadour'> [Troubadours] and celestial <img class='inline specter'> [Specters].
 
 - <img class='inline troubadour'> [Troubadour] provides incredible boon access, <img class='inline stability'> [Stability] uptime, CC, healing and general utility.
 - Celestial <img class='inline specter'> [Specters] provide decent <img class='inline stability'> [Stability] and boons, excellent CC and mobility, and can also upkeep <img class='inline vuln'> [Vulnerability] and <img class='inline poison'> [Poison] (required for <img class='inline thorns-relic'> [Relic of Thorns]).
 
 It's very rare to run supports aside from the ones listed above.
 
-Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and its increased damage when cleaving thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. <img class='inline willbender'> [Willbender] players should run a mix of Trailblazer and Dire for additional survivability. This brings around 2.5k DPS loss in a golem situation, which can be made up with through the more aggressive gameplay this gear enables. Healers must ensure that they have less toughness than the DPS so that they are not targeted by [Champion Fumarollers] while doing mechanics.
+Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and increased damage when cleaving multiple targets thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. Groups will usually run at least two per subgroup: any less and <img class='inline stability'> [Stability] uptime may start to become an issue. The remaining players will often bring whatever flavour of greedy DPS has the highest benchmark at the time.
 
-Up to one DPS per subgroup can bring a different build that is not <img class='inline willbender'> [Willbender]; any more and <img class='inline stability'> [Stability] uptime may start to become an issue. These players will often bring whatever flavour of greedy DPS has the highest benchmark at the time.
+
+Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwars2.com/wiki/Trailblazer): this loses about 6% DPS compared to [Viper's](https://wiki.guildwars2.com/wiki/Viper) on the golem, but enables aggressive gameplay that makes up for it in the real fight. Supports should run less toughness than the DPS to ensure they are not targeted by [Champion Fumarollers].
 
 #### Example Composition
 {: .no_toc}
@@ -294,7 +297,7 @@ An alternative composition "inverts" the support roles, running two heal <img cl
 
 This is a small selection of builds and PoVs and is not regularly updated. You can find up-to-date information on <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge).
 
-#### Solo CC
+#### Solo CC Builds
 {: .no_toc}
 
 |Build|Role|PoV|Last updated|
@@ -303,7 +306,7 @@ This is a small selection of builds and PoVs and is not regularly updated. You c
 | <img class='inline troubadour'> [Heal Troubadour](https://gw2skills.net/editor/?PihEQiW2L7iNzsYj4RPlO1B-DSZYjRFoGGSwlRLJQ6FgvvGCSAsBwS7bWQFA-e) | Ranged, Heal | [PoV](https://www.youtube.com/watch?v=j9cDoQ8IcZY) | July 2026 |
 | <img class='inline evoker'> [Toad Evoker](https://gw2skills.net/editor/?PGgEoEWWAjmdx0Y14o8YNVVKHAA-DSRYkRDWOszoDFQISAF+rIIhwG41ogPNQFA-e) | Melee, BoonDPS | [PoV](https://youtu.be/OuoCipdW4GQ) | July 2026 |
 
-#### 4-man
+#### 4-man Builds
 {: .no_toc}
 
 |Build|Role|PoV|Last updated|
@@ -350,9 +353,9 @@ The _ranged rotation_ depends on the composition used:
 
 #### Solo CC
 
-The strategy uses a 3 + 1 rotation involving both healers, the solo CC player, and a ranged DPS to simplify transitions and reduce overall pressure.
+The strategy uses a 3 + 1 rotation involving the healers and the solo CC, plus a ranged DPS to simplify transitions and reduce overall pressure.
 
-[<img class='inline sheets'> 3.5-man Rotation for Solo-CC Strat by Elise](https://docs.google.com/spreadsheets/d/1Ktp0BY9JaYToIiVv3RluenDjy8uVAylq8nqHLEvje0o){: .btn}
+[<img class='inline sheets'> 3 + 1 Rotation for Solo-CC Strat by Elise](https://docs.google.com/spreadsheets/d/1Ktp0BY9JaYToIiVv3RluenDjy8uVAylq8nqHLEvje0o){: .btn}
 
 Responsibility for CCing [Toxic Geysers] lies fully on the solo CC. Some classes, most notably <img class='inline thief'> [Thief] specializations, will not be able to CC *#11* due to Ura's hitbox blocking <img class='inline distracting-throw'> [Distracting Throw]. This geyser will have to be CC'd by the rest of the group.
 
@@ -416,6 +419,8 @@ If players cannot CC, they should call for backups. Since all four ranged player
 [Return]: ../ura/mechanics.html#return
 [Solo CC]: #solo-cc-compositions
 [4-man]: #4-man-compositions
+[double drop]: ../ura/strategy.html#double-sharding-toxic-geysers
+[double-dropping]: ../ura/strategy.html#double-sharding-toxic-geysers
 
 [Deadeye]: #builds-and-povs
 [Scourge]: #builds-and-povs
