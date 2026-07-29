@@ -90,11 +90,11 @@ The most common solo-CC class is <img class='inline deadeye'> [Deadeye], due to 
 
 For defensive supports, <img class='inline troubadour'> [Troubadour] is the most common pick due to its great healing, <img class='inline stability'> [Stability] access and CC. Similarly for BoonDPS, <img class='inline evoker'> [Evoker](https://wiki.guildwars2.com/wiki/Evoker) (specifically played with the Toad familiar) is a common pick due to its great damage and <img class='inline stability'> [Stability] access.
 
-Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and increased damage when cleaving when cleaving multiple targets thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. Additionally:
+Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and increased damage when cleaving multiple targets thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. Additionally:
 - One DPS will have to participate in the ranged rotation and therefore benefits from additional mobility: this is often played by a <img class='inline mechanist'> [Mechanist] or <img class='inline scourge'> [Scourge].
-- One or more DPS will play a high-toughness build, aiming to be highest in the group. This will make [Champion Fumarollers] target them and get cleaved down on top of the boss.
+- One or more DPS will play a toughness build, aiming to be highest in the group. This will make [Champion Fumarollers] target them and get cleaved down on top of the boss.
 
-Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwars2.com/wiki/Trailblazer): this loses about 6% DPS compared to [Viper's](https://wiki.guildwars2.com/wiki/Viper) on the golem, but enables aggressive gameplay that makes up for it in the real fight.
+Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwars2.com/wiki/Trailblazer): this loses about 6% DPS compared to [Viper's](https://wiki.guildwars2.com/wiki/Viper) on the golem, but enables aggressive gameplay that makes up for it in the real fight while being much safer.
 
 #### Example Composition
 {: .no_toc}
@@ -195,10 +195,10 @@ These compositions tend to spread out CC requirements between all four support p
 
 It's very rare to run supports aside from the ones listed above.
 
-Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and increased damage when cleaving multiple targets thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. Groups will usually run at least two per subgroup: any less and <img class='inline stability'> [Stability] uptime may start to become an issue. The remaining players will often bring whatever flavour of greedy DPS has the highest benchmark at the time.
+Try to run DPS that can provide good amounts of <img class='inline stability'> [Stability]. <img class='inline willbender'> [Willbender] with <img class='inline stand-ground'> [Stand Your Ground!] is a common pick due to its high mobility, abundant cleanse, and increased damage when cleaving multiple targets thanks to <img class='inline perm-wrath'> [Permeating Wrath] and <img class='inline restore-virtues'> [Restorative Virtues]. Groups will usually run at least two per subgroup: any less and <img class='inline stability'> [Stability] uptime may be an issue. The remaining players will often bring whatever flavour of greedy DPS has the highest benchmark.
 
 
-Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwars2.com/wiki/Trailblazer): this loses about 6% DPS compared to [Viper's](https://wiki.guildwars2.com/wiki/Viper) on the golem, but enables aggressive gameplay that makes up for it in the real fight. Supports should run less toughness than the DPS to ensure they are not targeted by [Champion Fumarollers].
+Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwars2.com/wiki/Trailblazer): this loses about 6% DPS compared to [Viper's](https://wiki.guildwars2.com/wiki/Viper) on the golem, but enables aggressive gameplay that makes up for it in the real fight while being much safer. Supports should run less toughness than the DPS to ensure they are not targeted by [Champion Fumarollers].
 
 #### Example Composition
 {: .no_toc}
@@ -289,7 +289,7 @@ Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwar
 
 #### Alternative 4-man
 
-An alternative composition "inverts" the support roles, running two heal <img class='inline specter'> [Specters] and two celestial <img class='inline troubadour'> [Troubadours]. The idea behind this is that the <img class='inline specter'> [Specters] can take care of most of the CC, enabling the <img class='inline troubadour'> [Troubadours] to remain on stack. The <img class='inline troubadour'> [Troubadour] in turn brings similar DPS as <img class='inline specter'> [Specter] with much better healing and group support, including great <img class='inline stability'> [Stability]. This then enables groups to run only one <img class='inline willbender'> [Willbender] per subgroup, making the composition much more flexible.
+An alternative composition "inverts" the support roles, running two heal <img class='inline specter'> [Specters] and two celestial <img class='inline troubadour'> [Troubadours]. The idea behind this is that the <img class='inline specter'> [Specters] can take care of most of the CC, enabling the <img class='inline troubadour'> [Troubadours] to remain on stack. The <img class='inline troubadour'> [Troubadours] in turn brings similar DPS as <img class='inline specter'> [Specter] with much better healing and group support, including great <img class='inline stability'> [Stability] uptime. This then enables groups to run only one <img class='inline willbender'> [Willbender] per subgroup, making the composition much more flexible.
 
 ---
 
@@ -337,7 +337,7 @@ The only reason for DPS players to leave the stack from now on is to satisfy ess
 
 In the final phase, groups will often rotate to stack to the south-west of the boss, roughly corresponding to *#11*. This is because the usual safe area behind *#9* and *#12* is often filled with geysers at this point, making it actively dangerous for the DPS players. Rotating enables players to drop behind *#13* and *#14* which should be relatively empty.
 
-During the last three phases of the fight, no [Titanspawn Geysers] will be killed. This will result in a constant stream of [Champion Fumarollers] spawning. If your toughness is set up right, these should consistently charge into the main stack and then getting cleaved down on top of the boss. Ideally you want to kill them as they come: an excessive amount can quickly overwhelm the group with CC.
+During the last three phases of the fight, no [Titanspawn Geysers] will be killed. This will result in a constant stream of [Champion Fumarollers] spawning. If your toughness is set up right, these should consistently charge into the main stack and get cleaved down on top of the boss. Ideally you want to kill them as they come: an excessive amount can quickly overwhelm the group with CC.
 
 Players should try to avoid taking excessive damage, often coming from [Breaking Ground](../ura/mechanics.html#champion-fumaroller) (snowflake), and should be constantly providing <img class='inline stability'> [Stability] off-cooldown.
 
