@@ -63,15 +63,15 @@ The best CC timings are:
 
 [Steam Prison] - After her hands are down. Roughly 3 seconds time window after hands are down.
 
-<img class='center' src='../images/ura/ura-cc-donutmove.gif' width='70%'>
+<img class='center bordered' src='../images/ura/ura-cc-donutmove.gif' width='70%'>
 
 [Create Titanspawn Geyser] - after she is in the air. Roughly 4-5 seconds time window after she is in the air.
 
-<img class='center' src='../images/ura/ura-cc-jumpslam.gif' width='70%'>
+<img class='center bordered' src='../images/ura/ura-cc-jumpslam.gif' width='70%'>
 
 [Sulfuric Geyser] - Once the indicators start, which is roughly when she has stretched her arm out front fully. About 2-3 seconds of a window.
 
-<img class='center' src='../images/ura/ura-cc-sulfanim.gif' width='70%'>
+<img class='center bordered' src='../images/ura/ura-cc-sulfanim.gif' width='70%'>
 
 <div style="color: grey">Gifs by Elise</div>
 
@@ -88,7 +88,7 @@ The tank can be any DPS, or any player in general. There is no real “tanking m
 
 The line of sight from Ura is roughly a 140° cone: see the shaded area below. The cone is decently wide and the tank just needs to stay within that cone. See [tanking Ura](../ura/strategy.html#tanking-ura) for more information.
 
-<img class='center' src='../images/ura/ura-cone.webp' width='70%'>
+<img class='center bordered' src='../images/ura/ura-cone.webp' width='70%'>
 
 </div>
 </details>
@@ -447,6 +447,8 @@ Condition cleanse, <img class='inline stability'> [Stability] and movement skill
 **Arena:** Donut/Cage/Prison refers to Ura’s [Steam Prison] attack that shows up as a donut-shaped orange indicator around a player.
 
 **Bubbles:** aka “Friends”, refers to Ura’s [Pressure Blast] attack that applies 2 small circle indicators to random players which will trap those players and anyone else caught in the explosion radius in floating bubbles.
+
+**CC:** Crowd Control. Any effect that impacts a character's ability to act. Check the [wiki page](https://wiki.guildwars2.com/wiki/Control_effect) for more information.
 
 **Titanspawner:** Refers to the [Titanspawn Geyser] that appears when Ura casts [Create Titanspawn Geyser].
 

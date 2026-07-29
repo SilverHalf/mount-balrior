@@ -189,8 +189,10 @@ Bloodstone Shards are red crystalline items that appear on the floor of Ura's ar
 
 Two "shards" spawn near the center of the arena; picking up both starts the encounter.
 
-![Bloodstone Shard](https://wiki.guildwars2.com/images/thumb/0/0f/Bloodstone_Shard_%28Mount_Balrior%29.jpg/360px-Bloodstone_Shard_%28Mount_Balrior%29.jpg)
-{: .center}
+<figure>
+<img class='center bordered' width="50%" src="https://wiki.guildwars2.com/images/thumb/0/0f/Bloodstone_Shard_%28Mount_Balrior%29.jpg/360px-Bloodstone_Shard_%28Mount_Balrior%29.jpg">
+<figcaption class='center'>A Bloodstone Shard lying on the floor of the arena.</figcaption>
+</figure>
 
 #### Bloodstone Radiation
 
