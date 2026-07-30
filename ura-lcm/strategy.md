@@ -119,7 +119,7 @@ Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwar
         </tr>
         <tr>
             <td class='phase1'>1</td>
-            <td><a href="#builds-and-povs"><img class='inline troubadour'>Heal Troubadour</a></td>
+            <td><a href="#builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
             <td>Ranged</td>
             <td></td>
             <td>3</td>
@@ -147,7 +147,7 @@ Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwar
         </tr>
         <tr>
             <td class='phase2'>2</td>
-            <td><a href="#builds-and-povs"><img class='inline chrono'> Heal Troubadour</a></td>
+            <td><a href="#builds-and-povs"><img class='inline troubadour'> Heal Troubadour</a></td>
             <td>Ranged</td>
             <td></td>
             <td>1</td>
@@ -289,7 +289,7 @@ Builds that can afford to do so should run [Trailblazer's](https://wiki.guildwar
 
 #### Alternative 4-man
 
-An alternative composition "inverts" the support roles, running two heal <img class='inline specter'> [Specters] and two celestial <img class='inline troubadour'> [Troubadours]. The idea behind this is that the <img class='inline specter'> [Specters] can take care of most of the CC, enabling the <img class='inline troubadour'> [Troubadours] to remain on stack. The <img class='inline troubadour'> [Troubadours] in turn brings similar DPS as <img class='inline specter'> [Specter] with much better healing and group support, including great <img class='inline stability'> [Stability] uptime. This then enables groups to run only one <img class='inline willbender'> [Willbender] per subgroup, making the composition much more flexible.
+An alternative composition "inverts" the support roles, running two heal <img class='inline specter'> [Specters] and two celestial <img class='inline troubadour'> [Troubadours]. The idea behind this is that the <img class='inline specter'> [Specters] can take care of most of the CC, enabling the <img class='inline troubadour'> [Troubadours] to remain on stack. The <img class='inline troubadour'> [Troubadours] in turn bring DPS comparable to <img class='inline specter'> [Specter], but with much better healing and group support, including high <img class='inline stability'> [Stability] uptime. This then enables groups to run only one <img class='inline willbender'> [Willbender] per subgroup, making the composition much more flexible.
 
 ---
 
@@ -322,22 +322,22 @@ For more information on <img class='inline willbender'> [Willbender] gameplay in
 
 ## Strategy
 
-The fight plays out in a similar manner as the [regular Challenge Mode](../ura/strategy.html): the first phase is played identically, and differences start appearing in the second phase, when [Titanspawn Geysers] start spawning.
+The overall strategy is similar to one used for the [regular Challenge Mode](../ura/strategy.html). The first phase is identical, only lasting longer due to Ura's increased HP, but differences start appearing in the second phase, when [Titanspawn Geysers] start spawning.
 
 ### Titanspawn Phases
 
-In the second and third phase, the group will be stacking on the northern side of Ura, in front of geysers *#9* and *#12*. If any players are running <img class='inline thorns-relic'> [Relic of Thorns], stay inside Ura's hitbox to trigger the relic with Ura's [Scalding Aura](../ura/mechanics.html#scalding-aura).
+In the second and third phase, the group will be stacking on the northern side of Ura, in front of geysers *#9* and *#12*. Stay inside her hitbox to trigger <img class='inline thorns-relic'> [Relic of Thorns] with [Scalding Aura](../ura/mechanics.html#scalding-aura).
 
 The only reason for DPS players to leave the stack from now on is to satisfy essential mechanics:
 - [Bubbles](../ura/mechanics.html#pressure-blast) are usually always played to the *left* or *immediately behind* the group.
 - [Sulfuric Geysers] can be placed in the safe zone *behind* the group.
-- [Steam Prison](../ura/mechanics.html#steam-prison) should be placed to the *right* of the group. Commanders may mark a location that does not interfere with the ranged players, usually between geysers *#11* and *#14*.
+- [Steam Prison](../ura/mechanics.html#steam-prison) should be placed to the *right* of the group. Commanders may mark a location that does not interfere with the ranged players, usually between geysers *#11*, *12* and *#14*.
 
 <img class="center" width="70%" src="../images/ura/strategy/lcm_stack_positions.webp"/>
 
-In the final phase, groups will often rotate to stack to the south-west of the boss, roughly corresponding to *#11*. This is because the usual safe area behind *#9* and *#12* is often filled with geysers at this point, making it actively dangerous for the DPS players. Rotating enables players to drop behind *#13* and *#14* which should be relatively empty.
+In the final phase, groups will often rotate to the south-west of the boss, roughly corresponding to *#11*. This is because the usual safe area behind *#9* and *#12* is often filled with geysers at this point, making it actively dangerous for the DPS players to place sulfurics there. Rotating enables players to drop behind *#13* and *#14* which should be relatively empty.
 
-During the last three phases of the fight, no [Titanspawn Geysers] will be killed. This will result in a constant stream of [Champion Fumarollers] spawning. If your toughness is set up right, these should consistently charge into the main stack and get cleaved down on top of the boss. Ideally you want to kill them as they come: an excessive amount can quickly overwhelm the group with CC.
+During the last three phases of the fight, no [Titanspawn Geysers] will be killed. This will result in a constant stream of [Champion Fumarollers] spawning. If your toughness is set up right, these should consistently charge into the main stack and get cleaved down on top of the boss. Ideally you want to kill them as they come: an excessive amount can quickly overwhelm the group.
 
 Players should try to avoid taking excessive damage, often coming from [Breaking Ground](../ura/mechanics.html#champion-fumaroller) (snowflake), and should be constantly providing <img class='inline stability'> [Stability] off-cooldown.
 
