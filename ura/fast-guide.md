@@ -227,19 +227,14 @@ Your responsibilities (excluding basic damage or support as required by your rol
 [<img class='inline build'> Builds and PoVs](./strategy.html#builds-and-povs){: .btn}
 
 Your responsibilities (excluding basic damage or support as required by your role) consist in:
-1. Picking up the melee [Bloodstone Shard] whenever possible in phase 1-2.
-2. Using <img class='inline dispel'> [Dispel] to free people from [Bubbles] in phase 1-2.
-3. Using <img class='inline dispel'> [Dispel] on [Titanspawn Geysers] to remove <img class='inline hardened'> [Hardened Shell] in phase 1-2.
-4. Killing [Titanspawn Geysers] in phase 1-2.
-5. From phase 3 onwards, standing in front of the boss at all times to prevent her from casting [Propel].
-6. From phase 3 onwards, calling out when to break Ura's <img class='inline defiance'> [Defiance Bar] to prevent her from casting [Propel].
-7. Calling out CC timings.
+1. Killing [Titanspawn Geysers] in phase 1-2.
+2. From phase 3 onwards, standing in front of the boss at all times to prevent her from casting [Propel].
+3. From phase 3 onwards, calling out when to break Ura's <img class='inline defiance'> [Defiance Bar] to prevent her from casting [Propel].
 
 {: .note}
 For more information on the mechanics behind the tank's role, check out [preventing Propel](./strategy.html#preventing-propel).
 
 #### General Information for all Phases
-- Picking up the [Bloodstone Shard] right after using <img class='inline dispel'> [Dispel] (and thus under the effect of <img class='inline saturation'> [Bloodstone Saturation]) will deal massive damage over time. Be aware.
 - Standing in [Toxic Geysers] and [Sulfuric Geysers] for too long will afflict you with <img class='inline sulfuricacid'> [Sulfuric Acid]. This is a dangerous condition that must be cleansed soon or you will gain <img class='inline exposed'> [Exposed].
 - You should generally not pick up the [Bloodstone Shard]. Only do it as a back up if required.
 - Ura should be CC's whenever she reaches five stacks of <img class='inline risingpressure'> [Rising Pressure]. Keep an eye on the buff and call out when you are approaching the moment to CC.
@@ -278,12 +273,13 @@ For more information on the mechanics behind the tank's role, check out [prevent
 <div markdown='block'>
 
 #### 40% - 1%
-- Ura will start using [Bubbles] again. She will cast it immediately upon reaching 40% HP.
 - Starting from this phase, you will be tanking the boss. You must be within a 140°, 400 range cone in front of her at all times.
+- Ura will start using [Bubbles] again. She will cast it immediately upon reaching 40% HP.
 - Do not move to [Titanspawn Geysers].
 - If you are targeted by a mechanic that requires you to move, such as [Bubbles], [Arena] or [Sulfuric Geysers], prioritize your mechanic and call for a backup tank.
 - Ura should be CC'd only at appropriate moments, which can be found here: [when to CC Ura](./strategy.html#when-to-cc-ura). If in doubt, only CC when she is using her [Jump](./mechanics.html#titanspawn-geysers).
 - Try to rotate the boss towards <img class='inline xmarker'> and <img class='inline swirl'>.
+- Whenever Ura casts [Steam Prison] or [Sulfuric Geyser], she will rotate to track her target. Be ready to move in front of her again.
 </div>
 </details>
 
