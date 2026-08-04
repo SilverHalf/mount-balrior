@@ -343,12 +343,14 @@ A *"tank"* is necessary to always provide a target for [Ura]'s high priority ski
 
 <img class='center bordered' src='../images/ura/ura-cone.webp' width='70%'>
 
-The tank should not move from this position except if they are targeted by mechanics such as [Sulfuric Geysers], [Steam Prison], and [Bubbles]. In this case, they should call for a backup, which is usually provided by a member of the *ranged group*. They should always prioritize these mechanics over tanking.
+The tank should always stay in front of Ura. The only exception is to perform randomly assigned mechanics such as [Sulfuric Geysers], [Steam Prison], and [Bubbles]. In this case, they should call for a backup, which is usually provided by a member of the *ranged group*. They should always prioritize these mechanics over tanking.
 
 {: .note}
-In any situation where the tank is targeted by [Bubbles] and the other targeted player is not on the boss (such as if they are dealing with a [Titanspawner]), the tank should always move to the other player and call for a backup.
+In any situation where the tank is targeted by [Bubbles] and the other targeted player is not on the boss (such as if they are dealing with a [Titanspawner]), the tank should always move to the other player.
 
-Whenever [Ura] chooses a random target for [Steam Prison] and [Sulfuric Geyser], she will rotate to track this target: the *tank* should always be ready to reposition accordingly. This can also be used to face the boss in certain directions. For example, facing her North-West places the stack the shortest possible distance from safe [Sulfuric Geyser] drop zones.
+Ideally the tank should always try to face the boss towards the North or North-West: this places the stack the shortest possible distance from safe [Sulfuric Geyser] drop zones.
+
+Whenever [Ura] casts [Steam Prison] or [Sulfuric Geyser], she will rotate to track her target. This can result in her quickly spinning around and facing an entirely new direction. The tank should always be ready to reposition accordingly: once they are back in front of Ura, they can try to slowly re-orient her towards her original direction if necessary. The rest of the group should remain in their previous position.
 
 
 ---
