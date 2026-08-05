@@ -231,7 +231,7 @@ Using <img class="inline dispel"> [Dispel] drops the shard where the player is s
 Geysers are enemy structures that are spawned by [Ura] periodically throughout the encounter. They give the boss some sort of advantage while progressively debilitating the squad, and thus must be dealt with rapidly and efficiently.
 
 | **Type**                  | **Health**   | **Hitbox** | **Defiance Bar** |
-| [Toxic Geyser]            | 448,200      | 416        | 1000 |
+| [Toxic Geyser]            | 448,200      | 416        | 1000             |
 | [Sulfuric Geyser]         | Untargetable | 440 - 580  | -                |
 | [Titanspawn Geyser]       | 448,200      | 210 - 416  | 2000             |
 
@@ -246,7 +246,7 @@ Toxic Geysers spawn every 12 seconds in all phases.
 
 <img class="center" width="70%" src="../images/ura/ura_toxic_geyser_spawns.webp" />
 
-Toxic Geysers spawn with a 580 radius AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] when over 10 <img class="inline poison"> [Poison] stacks. This AoE also increases in radius every second by 10 units. Breaking the geyser's <img class='inline defiance'> [Defiance Bar] disables its AoE field until the bar regenerates after 14 seconds. Upon regenerating, the field reappears with its original radius.
+Toxic Geysers spawn with a 580 radius AoE around them that applies 5 <img class="inline poison"> [Poison] every second, additionally inflicting <img class="inline sulfuricacid"> [Sulfuric Acid] if a player stands in them for more than 5 seconds continuously. This AoE also increases in radius every second by 10 units. Breaking the geyser's <img class='inline defiance'> [Defiance Bar] disables its AoE field until the bar regenerates after 14 seconds. Upon regenerating, the field reappears with its original radius.
 
 As long as [Ura] is in contact with the original radius, she will periodically gain <img class='inline protection'> [Protection], <img class='inline resolution'> [Resolution] and 25 <img class='inline might'> [Might].
 
