@@ -20,7 +20,7 @@ parent: Godsquall Decima
 </div>
 </details>
 
-This strategy, also known as the "Turnaround" strategy, is the most common way of playing Decima CM.  and is designed for achievement runs, minimizing movement and difficulty while satisfying all mechanics in a deterministic manner.
+This strategy, also known as the "Turnaround" strategy, is the most common way of playing Decima CM. It was originally designed for achievement runs, minimizing movement and difficulty while satisfying all mechanics in a deterministic manner.
 
 All markers referenced in this guide can be set up with the [Commander Markers](https://blishhud.com/modules/?module=Manlaan.CommanderMarkers) module for [Blish HUD](https://blishhud.com), using the marker pack provided below.
 
