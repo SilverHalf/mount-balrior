@@ -24,7 +24,7 @@ nav_order: 2
 - **@Minas** - research and write-up on Greer and Ura mechanics, write-up on Decima, Greer and Ura and LCM strategies.
 - **@Bear** - proofreading and colour work.
 - **@Areki** - research for Ura's skill priority.
-- **@Mike** - PUG Decima strategy.
+- **@Mike** - Developed the Decima strategy. His original PoV can be found [here](https://www.youtube.com/watch?v=Qsf582waMDM).
 - **@Chupathingy** - Original CC Deadeye strategy for Ura LCM.
 - **@Asterius** - Willbender strategy for Ura LCM, starting point for Ura diagrams.
 - **@Adinga**, **@Noro**, **@Spencer** - Titanspawn limit interactions and research.
