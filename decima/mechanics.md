@@ -240,7 +240,7 @@ As soon as Decima reaches 80% of her HP, she will finish whatever animation she 
 2. All [Conduits] rearrange into a new pattern, made of three hexagonal formations (see the video below). Meanwhile, Decima uses [Seismic Reposition] to move inside of one of these hexagons.
 3. [Fulgent Fences] reactivate, sealing off the formation, and a [Transcendent Boulder] spawns inside each of the two remaining unoccupied hexagons.
 
-<video class="center" width="50%" controls muted>
+<video class="center bordered" width="60%" controls muted>
   <source src="../videos/decima_conduits_1.mp4" type="video/mp4">
 </video>
 
@@ -333,7 +333,7 @@ This loop is, in essence, identical to its behaviour in the previous phase, but 
 
 Conduit movements in this phase are shown in the following short video, where each corner of the colored shapes is a conduit.
 
-<video class="center" width="50%" controls muted>
+<video class="center bordered" width="60%" controls muted>
   <source src="../videos/decima_conduits_2.mp4" type="video/mp4">
 </video>
 
@@ -414,7 +414,7 @@ flowchart LR
 
 Every time Decima casts [Seismic Reposition] in this phase, she will relocate to a random position located on a circle 1500 units from the center of the arena. Furthermore, all her conduits will move to this new position, reconfiguring as shown in the following clip:
 
-<video class="center" width="50%" controls muted>
+<video class="center bordered" width="60%" controls muted>
   <source src="../videos/decima_conduits_3.mp4" type="video/mp4">
 </video>
 
@@ -455,7 +455,7 @@ This section contains a full, in-depth explanation of all mechanics in the encou
 
 A 750-radius area-of-effect centered around Decima, outlined with a faint red circle. Constantly inflicts a small amount of damage to all players inside the area and applies <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity].
 
-<img class="center" width="80%" src="../images/decima/mechanics/thrumming.webp" />
+<img class="center bordered" width="80%" src="../images/decima/mechanics/thrumming.webp" />
 
 Decima gains her Thrumming Presence at the beginning of the encounter only losing it: while casting [Seismic Reposition], when she has <img class="inline nova-shield"> [Nova Shield], while <img class="inline stun"> [Stunned], and when she is under 10% health.
 
@@ -480,7 +480,7 @@ Also known as *Red Arrow*. Always targets the furthest player, and <img class="i
 {: .no_toc}
 Also known as *Green Arrow*. Targets the furthest conduit from the furthest player from the boss (i.e. opposite side of the boss from *Red Arrow*). Requires five people to be inside the arrow's line of fire to block the attack and prevent it from charging the conduit. Deals heavy damage, reduced based on the number of people in the arrow, and unaffected by <img class="inline harmonic-sensitivity"> [Harmonic Sensitivity]. Focused Fluxlances are summoned as part of Decima's attack rotation from 40% to 10% HP.
 
-<img class="center" width="80%" src="../images/decima/mechanics/fluxlances.webp" />
+<img class="center bordered" width="80%" src="../images/decima/mechanics/fluxlances.webp" />
 
 Standard or red fluxlances are summoned whenever Decima casts one of the following skills as part of her attack loop:
 
@@ -530,7 +530,7 @@ Chorus of Thunder is used regularly by Decima as part of her attack loop.
 
 Conduits, or pylons, are structures that are manipulated by Decima and play a critical part in the encounter as a whole. Eighteen of them are summoned at the beginning of the fight and they persist throughout all phases. Conduits are arrayed in shifting patterns around Decima, which vary based on the phase and the state of Decima's attack loop.
 
-<img src="../images/decima/mechanics/conduits.webp">
+<img class='bordered' src="../images/decima/mechanics/conduits.webp">
 
 #### Conduit Charge
 {: .no_toc}
@@ -556,7 +556,7 @@ All charged conduits spawn sparks simultaneously as part of Decima's attack loop
 
 ### Foreshock & Mainshock
 
-<img class="center" width="100%" src="../images/decima/mechanics/mainshock.webp" />
+<img class="center bordered" width="100%" src="../images/decima/mechanics/mainshock.webp" />
 
 #### Foreshock
 {: .no_toc}
