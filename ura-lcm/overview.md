@@ -23,7 +23,7 @@ Legendary Ura is an extreme challenge aimed at the highest tier of players. Beat
 
 Activating Legendary Mode makes the following changes to the encounter:
 - Ura's maximum health increases by 30%.
-- Entities in the fight gain <img class='inline risingpressure'> [Rising Pressure](../ura/mechanics.html#-rising-pressure) every 8 seconds instead of every 12.
+- Entities in the fight gain <img class='inline risingpressure'> [Rising Pressure](../ura/mechanics.html#-rising-pressure) every 8 seconds instead of every 10.
 - [Toxic Geysers] will spawn every 12 seconds for the entirety of the fight.
 - Both Ura and [Toxic Geysers]' <img class='inline defiance'> [Defiance Bars] will regenerate 150 HP every second.
 - At the beginning of the final phase, Ura will heal by 30% of her maximum HP instead of 15%.

@@ -7,6 +7,7 @@ nav_order: 2
 # Resources
 
 - <img class='inline vl-icon'> [Void Lounge](https://discord.com/invite/voidlounge) - a public server with regular progression and kill runs for W8 CMs and LCM, among other things. Highly recommended to any player who enjoys endgame instanced content.
+- <img class='inline leykeep-icon'> [Ley Keep](https://leykeep.com/) has many specialized builds and guides for wing 8 CMs and other difficult content.
 - [SnowCrows](https://snowcrows.com/) is the go-to for endgame builds.
 - <img class='inline slides'> [Greer CM Positioning Guide](https://docs.google.com/presentation/d/1D6z-HaP31z3JXf5MlZx9fHdThkTmSBwXEZOVENxH8Xg/edit?usp=sharing) by Elise
 - <img class='inline sheets'> [Ura LCM Willbender Strategy](https://docs.google.com/spreadsheets/d/1gOhbFgtSnaW_8T1m12PgZe8lG7VH-P3IckXoPUPqNdA) by Asterius
